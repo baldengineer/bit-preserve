@@ -1,0 +1,151 @@
+EESchema Schematic File Version 4
+LIBS:IIgs Schematic-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 5 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IIgs-Schematic-rescue:IWM-Apple_IIgs_Symbols U?
+U 1 1 5BF1F4FE
+P 3500 2650
+F 0 "U?" H 3500 3978 50  0000 C CNN
+F 1 "IWM" H 3500 3887 50  0000 C CNN
+F 2 "" H 3250 3400 50  0001 C CNN
+F 3 "" H 3250 3400 50  0001 C CNN
+	1    3500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x21 J?
+U 1 1 5BF1F65F
+P 7750 2550
+F 0 "J?" H 7830 2592 50  0000 L CNN
+F 1 "Conn_01x21" H 7830 2501 50  0000 L CNN
+F 2 "" H 7750 2550 50  0001 C CNN
+F 3 "~" H 7750 2550 50  0001 C CNN
+	1    7750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:8530L-Apple_IIgs_Symbols U?
+U 1 1 5BF1F7F0
+P 6500 5750
+F 0 "U?" H 6550 7428 50  0000 C CNN
+F 1 "8530L" H 6550 7337 50  0000 C CNN
+F 2 "" H 6250 7050 50  0001 C CNN
+F 3 "" H 6250 7050 50  0001 C CNN
+	1    6500 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:26LS30-Apple_IIgs_Symbols U?
+U 1 1 5BF1F8B4
+P 9800 4100
+F 0 "U?" H 9825 4965 50  0000 C CNN
+F 1 "26LS30" H 9825 4874 50  0000 C CNN
+F 2 "" H 9650 4900 50  0001 C CNN
+F 3 "" H 9650 4900 50  0001 C CNN
+	1    9800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:AM26LS32-Apple_IIgs_Symbols U?
+U 1 1 5BF1F959
+P 9750 1650
+F 0 "U?" H 9750 2728 50  0000 C CNN
+F 1 "AM26LS32" H 9750 2637 50  0000 C CNN
+F 2 "" H 9600 2350 50  0001 C CNN
+F 3 "" H 9600 2350 50  0001 C CNN
+	1    9750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:26LS30-Apple_IIgs_Symbols U?
+U 1 1 5BF1FAF9
+P 9900 8700
+F 0 "U?" H 9925 9565 50  0000 C CNN
+F 1 "26LS30" H 9925 9474 50  0000 C CNN
+F 2 "" H 9750 9500 50  0001 C CNN
+F 3 "" H 9750 9500 50  0001 C CNN
+	1    9900 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:AM26LS32-Apple_IIgs_Symbols U?
+U 1 1 5BF1FB00
+P 9850 6250
+F 0 "U?" H 9850 7328 50  0000 C CNN
+F 1 "AM26LS32" H 9850 7237 50  0000 C CNN
+F 2 "" H 9700 6950 50  0001 C CNN
+F 3 "" H 9700 6950 50  0001 C CNN
+	1    9850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x11 J?
+U 1 1 5BF1FC44
+P 12950 3100
+F 0 "J?" H 13030 3142 50  0000 L CNN
+F 1 "Conn_01x11" H 13030 3051 50  0000 L CNN
+F 2 "" H 12950 3100 50  0001 C CNN
+F 3 "~" H 12950 3100 50  0001 C CNN
+	1    12950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x11 J?
+U 1 1 5BF1FC77
+P 12850 6600
+F 0 "J?" H 12930 6642 50  0000 L CNN
+F 1 "Conn_01x11" H 12930 6551 50  0000 L CNN
+F 2 "" H 12850 6600 50  0001 C CNN
+F 3 "~" H 12850 6600 50  0001 C CNN
+	1    12850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS74 U?
+U 1 1 5BF1FDD0
+P 11750 5350
+F 0 "U?" H 11750 5828 50  0000 C CNN
+F 1 "74LS74" H 11750 5737 50  0000 C CNN
+F 2 "" H 11750 5350 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 11750 5350 50  0001 C CNN
+	1    11750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS251 U?
+U 1 1 5BF1FF82
+P 3750 7500
+F 0 "U?" H 3750 8578 50  0000 C CNN
+F 1 "74LS251" H 3750 8487 50  0000 C CNN
+F 2 "" H 3750 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS251" H 3750 7500 50  0001 C CNN
+	1    3750 7500
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 6300 0    50   ~ 0
+redo this one?
+$Comp
+L IIgs-Schematic-rescue:NE558-Apple_IIgs_Symbols U?
+U 1 1 5BF200A0
+P 5100 8600
+F 0 "U?" H 5100 9215 50  0000 C CNN
+F 1 "NE558" H 5100 9124 50  0000 C CNN
+F 2 "" H 5200 9150 50  0001 C CNN
+F 3 "" H 5200 9150 50  0001 C CNN
+	1    5100 8600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

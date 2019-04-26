@@ -1,0 +1,105 @@
+EESchema Schematic File Version 4
+LIBS:IIgs Schematic-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IIgs-Schematic-rescue:Apple_MEGA_II-Apple_IIgs_Symbols U?
+U 1 1 5BF1D29A
+P 8600 4750
+F 0 "U?" H 8600 7578 50  0000 C CNN
+F 1 "Apple_MEGA_II" H 8600 7487 50  0000 C CNN
+F 2 "" H 8150 7150 50  0001 C CNN
+F 3 "" H 8150 7150 50  0001 C CNN
+	1    8600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:HCT245-Apple_IIgs_Symbols U?
+U 1 1 5BF1D32C
+P 6200 2900
+F 0 "U?" H 6173 3665 50  0000 C CNN
+F 1 "HCT245" H 6173 3574 50  0000 C CNN
+F 2 "" H 6000 3550 50  0001 C CNN
+F 3 "" H 6000 3550 50  0001 C CNN
+	1    6200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:HCT245-Apple_IIgs_Symbols U?
+U 1 1 5BF1D35C
+P 6250 4450
+F 0 "U?" H 6223 5215 50  0000 C CNN
+F 1 "HCT245" H 6223 5124 50  0000 C CNN
+F 2 "" H 6050 5100 50  0001 C CNN
+F 3 "" H 6050 5100 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:HCT245-Apple_IIgs_Symbols U?
+U 1 1 5BF1D3AB
+P 6250 7700
+F 0 "U?" H 6223 8465 50  0000 C CNN
+F 1 "HCT245" H 6223 8374 50  0000 C CNN
+F 2 "" H 6050 8350 50  0001 C CNN
+F 3 "" H 6050 8350 50  0001 C CNN
+	1    6250 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+U 1 1 5BF1D4F4
+P 12600 2750
+F 0 "U?" H 12600 3565 50  0000 C CNN
+F 1 "DRAM64KX4" H 12600 3474 50  0000 C CNN
+F 2 "" H 12400 3400 50  0001 C CNN
+F 3 "" H 12400 3400 50  0001 C CNN
+	1    12600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+U 1 1 5BF1D521
+P 12600 4600
+F 0 "U?" H 12600 5415 50  0000 C CNN
+F 1 "DRAM64KX4" H 12600 5324 50  0000 C CNN
+F 2 "" H 12400 5250 50  0001 C CNN
+F 3 "" H 12400 5250 50  0001 C CNN
+	1    12600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+U 1 1 5BF1D544
+P 12600 6300
+F 0 "U?" H 12600 7115 50  0000 C CNN
+F 1 "DRAM64KX4" H 12600 7024 50  0000 C CNN
+F 2 "" H 12400 6950 50  0001 C CNN
+F 3 "" H 12400 6950 50  0001 C CNN
+	1    12600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+U 1 1 5BF1D564
+P 12600 8050
+F 0 "U?" H 12600 8865 50  0000 C CNN
+F 1 "DRAM64KX4" H 12600 8774 50  0000 C CNN
+F 2 "" H 12400 8700 50  0001 C CNN
+F 3 "" H 12400 8700 50  0001 C CNN
+	1    12600 8050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
