@@ -18,23 +18,22 @@ I am working on a longer description. For now, check out my slides from KiCon 20
 * Amiga
 * Amstrad
 * Apple
-** Apple I
-** Apple II
-** Apple II+
-** Apple IIe
-** Apple IIc
-** Apple III
+	* Apple II
+	* Apple II+
+	* Apple IIe
+	* Apple IIc
+	* Apple III
 * Commodore
-** PET
-** VIC 20
-** C64
-** C64C
-** C128
+	* PET
+	* VIC 20
+	* C64
+	* C64C
+	* C128
 * Sinclair
-** ZX 80
-** ZX 81
-** Spectrum ZX
+	* ZX 80
+	* ZX 81
+* Spectrum ZX
 * Tandy / Radio Shack
-** TRS-80 Model I
-** TRS-80 Model II
-** TRS-80 Model III
+	* TRS-80 Model I
+	* TRS-80 Model II
+	* TRS-80 Model III
