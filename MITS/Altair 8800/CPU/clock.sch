@@ -1,5 +1,9 @@
 EESchema Schematic File Version 4
+<<<<<<< HEAD
 LIBS:cpu-cache
+=======
+LIBS:altair8800cpu-cache
+>>>>>>> Adds MITS Altair 8800 CPU schematic.
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
