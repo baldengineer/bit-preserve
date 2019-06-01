@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8080
+D 8-bit N-channel Microprocessor
+K cpu, microprocessor
+F https://archive.org/download/8080Datasheet/8080%20Datasheet.pdf
+$ENDCMP
+#
+$CMP 8212
+D 8-Bit Input/Output Port
+K IO Port
+F https://ia801501.us.archive.org/33/items/NationalSemiconductorDP8212Datasheet/National%20Semiconductor%20DP8212%20Datasheet.PDF
+$ENDCMP
+#
+$CMP 8T97
+D High speed hex 3-state buffer
+K buffer tristate
+F https://archive.org/download/8T9598Datasheet/8T95-98%20datasheet.pdf
+$ENDCMP
+#
+$CMP S100_CARD_EDGE
+D Card edge connector for S100 bus, functional blocks
+K S100
+$ENDCMP
+#
+#End Doc Library
