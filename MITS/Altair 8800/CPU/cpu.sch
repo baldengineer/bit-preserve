@@ -2559,7 +2559,6 @@ Text Notes 19825 15900 0    50   ~ 0
 2019 JUN 1
 Text Notes 22275 15900 0    50   ~ 0
 A
-<<<<<<< HEAD
 $Comp
 L altair8800:8080 IC_A1
 U 1 1 63B2F6B4
@@ -2630,8 +2629,6 @@ Entry Wire Line
 	12900 4750 12800 4850
 Entry Wire Line
 	12900 4850 12800 4950
-=======
->>>>>>> Adds MITS Altair 8800 CPU schematic.
 Wire Wire Line
 	3025 7000 7100 7000
 Wire Bus Line
@@ -2666,20 +2663,6 @@ Wire Bus Line
 	12425 2450 12425 4050
 Wire Bus Line
 	19150 2450 19150 4050
-<<<<<<< HEAD
 Text Notes 13675 4575 0    70   ~ 0
 TO DISPLAY/\nCONTROL BOARD
-=======
-$Comp
-L altair8800:8080 IC_A1
-U 1 1 63B2F6B4
-P 11025 4050
-F 0 "IC_A1" H 10400 5925 50  0000 C CNN
-F 1 "8080" H 11625 5925 50  0000 C CNN
-F 2 "" H 11025 4650 50  0001 C CNN
-F 3 "https://archive.org/download/8080Datasheet/8080%20Datasheet.pdf" H 11025 4650 50  0001 C CNN
-	1    11025 4050
-	1    0    0    -1  
-$EndComp
->>>>>>> Adds MITS Altair 8800 CPU schematic.
 $EndSCHEMATC

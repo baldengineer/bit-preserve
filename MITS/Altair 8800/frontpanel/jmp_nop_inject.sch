@@ -1,0 +1,386 @@
+EESchema Schematic File Version 4
+LIBS:frontpanel-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS05 IC_A?
+U 3 1 5D736D54
+P 5400 1825
+AR Path="/5D5AFB46/5D736D54" Ref="IC_A?"  Part="4" 
+AR Path="/5D72BBAD/5D736D54" Ref="IC_C1"  Part="3" 
+F 0 "IC_C1" H 5525 1950 50  0000 C CNN
+F 1 "7405" H 5525 1675 50  0000 C CNN
+F 2 "" H 5400 1825 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 1825 50  0001 C CNN
+	3    5400 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_A?
+U 2 1 5D736D5C
+P 4825 2175
+AR Path="/5D5AFB46/5D736D5C" Ref="IC_A?"  Part="5" 
+AR Path="/5D72BBAD/5D736D5C" Ref="IC_D1"  Part="2" 
+F 0 "IC_D1" H 4950 2300 50  0000 C CNN
+F 1 "7405" H 4950 2025 50  0000 C CNN
+F 2 "" H 4825 2175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 2175 50  0001 C CNN
+	2    4825 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_A?
+U 1 1 5D736D62
+P 5400 2525
+AR Path="/5D5AFB46/5D736D62" Ref="IC_A?"  Part="6" 
+AR Path="/5D72BBAD/5D736D62" Ref="IC_D1"  Part="1" 
+F 0 "IC_D1" H 5525 2650 50  0000 C CNN
+F 1 "7405" H 5525 2375 50  0000 C CNN
+F 2 "" H 5400 2525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 2525 50  0001 C CNN
+	1    5400 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_A?
+U 3 1 5D736D6A
+P 4825 2875
+AR Path="/5D5AFB46/5D736D6A" Ref="IC_A?"  Part="1" 
+AR Path="/5D72BBAD/5D736D6A" Ref="IC_D1"  Part="3" 
+F 0 "IC_D1" H 4950 3000 50  0000 C CNN
+F 1 "7405" H 4950 2725 50  0000 C CNN
+F 2 "" H 4825 2875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 2875 50  0001 C CNN
+	3    4825 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_A?
+U 4 1 5D736D70
+P 5400 3225
+AR Path="/5D5AFB46/5D736D70" Ref="IC_A?"  Part="2" 
+AR Path="/5D72BBAD/5D736D70" Ref="IC_D1"  Part="4" 
+F 0 "IC_D1" H 5525 3350 50  0000 C CNN
+F 1 "7405" H 5525 3075 50  0000 C CNN
+F 2 "" H 5400 3225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 3225 50  0001 C CNN
+	4    5400 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_A?
+U 5 1 5D736D78
+P 4825 3575
+AR Path="/5D5AFB46/5D736D78" Ref="IC_A?"  Part="3" 
+AR Path="/5D72BBAD/5D736D78" Ref="IC_D1"  Part="5" 
+F 0 "IC_D1" H 4950 3700 50  0000 C CNN
+F 1 "7405" H 4950 3425 50  0000 C CNN
+F 2 "" H 4825 3575 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 3575 50  0001 C CNN
+	5    4825 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_B?
+U 6 1 5D736D7E
+P 5400 3925
+AR Path="/5D5AFB46/5D736D7E" Ref="IC_B?"  Part="4" 
+AR Path="/5D72BBAD/5D736D7E" Ref="IC_D1"  Part="6" 
+F 0 "IC_D1" H 5525 4050 50  0000 C CNN
+F 1 "7405" H 5525 3775 50  0000 C CNN
+F 2 "" H 5400 3925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 3925 50  0001 C CNN
+	6    5400 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_B?
+U 6 1 5D736D86
+P 4825 4275
+AR Path="/5D5AFB46/5D736D86" Ref="IC_B?"  Part="5" 
+AR Path="/5D72BBAD/5D736D86" Ref="IC_E1"  Part="6" 
+F 0 "IC_E1" H 4950 4400 50  0000 C CNN
+F 1 "7405" H 4950 4125 50  0000 C CNN
+F 2 "" H 4825 4275 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 4275 50  0001 C CNN
+	6    4825 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_B?
+U 1 1 5D736D8C
+P 5400 4625
+AR Path="/5D5AFB46/5D736D8C" Ref="IC_B?"  Part="6" 
+AR Path="/5D72BBAD/5D736D8C" Ref="IC_E1"  Part="1" 
+F 0 "IC_E1" H 5525 4750 50  0000 C CNN
+F 1 "7405" H 5525 4475 50  0000 C CNN
+F 2 "" H 5400 4625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 4625 50  0001 C CNN
+	1    5400 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_B?
+U 4 1 5D736D94
+P 4825 4975
+AR Path="/5D5AFB46/5D736D94" Ref="IC_B?"  Part="1" 
+AR Path="/5D72BBAD/5D736D94" Ref="IC_E1"  Part="4" 
+F 0 "IC_E1" H 4950 5100 50  0000 C CNN
+F 1 "7405" H 4950 4825 50  0000 C CNN
+F 2 "" H 4825 4975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 4975 50  0001 C CNN
+	4    4825 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 IC_B?
+U 5 1 5D736D9A
+P 5400 5325
+AR Path="/5D5AFB46/5D736D9A" Ref="IC_B?"  Part="2" 
+AR Path="/5D72BBAD/5D736D9A" Ref="IC_E1"  Part="5" 
+F 0 "IC_E1" H 5525 5450 50  0000 C CNN
+F 1 "7405" H 5525 5175 50  0000 C CNN
+F 2 "" H 5400 5325 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 5400 5325 50  0001 C CNN
+	5    5400 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1825 4000 1825
+Wire Wire Line
+	4000 1825 4000 2000
+Wire Wire Line
+	4000 4275 4525 4275
+Wire Wire Line
+	5100 3925 4000 3925
+Connection ~ 4000 3925
+Wire Wire Line
+	4000 3925 4000 4100
+Wire Wire Line
+	4000 3575 4525 3575
+Wire Wire Line
+	5100 3225 4000 3225
+Connection ~ 4000 3225
+Wire Wire Line
+	4000 3225 4000 3575
+Connection ~ 4000 3575
+Wire Wire Line
+	4000 3575 4000 3925
+Wire Wire Line
+	4000 2875 4525 2875
+Wire Wire Line
+	5100 2525 4000 2525
+Wire Wire Line
+	4000 2175 4525 2175
+Connection ~ 4000 2175
+Wire Wire Line
+	4000 2175 4000 2525
+Wire Wire Line
+	5100 4625 4000 4625
+Wire Wire Line
+	4000 4625 4000 4975
+Wire Wire Line
+	5100 5325 4000 5325
+Wire Wire Line
+	4000 4975 4525 4975
+Connection ~ 4000 4975
+Wire Wire Line
+	4000 4975 4000 5325
+$Comp
+L 74xx:74LS05 IC_C?
+U 2 1 5D7381E9
+P 4825 1475
+AR Path="/5D5AFB46/5D7381E9" Ref="IC_C?"  Part="5" 
+AR Path="/5D72BBAD/5D7381E9" Ref="IC_C1"  Part="2" 
+F 0 "IC_C1" H 4950 1600 50  0000 C CNN
+F 1 "7405" H 4950 1325 50  0000 C CNN
+F 2 "" H 4825 1475 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 4825 1475 50  0001 C CNN
+	2    4825 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4275 4000 4625
+Connection ~ 4000 4275
+Connection ~ 4000 4625
+Wire Wire Line
+	4000 2875 4000 3225
+Wire Wire Line
+	4525 1475 4000 1475
+Wire Wire Line
+	4000 1475 4000 1825
+Connection ~ 4000 1825
+Text HLabel 7625 2875 2    50   Output ~ 0
+D0
+Text HLabel 7625 2975 2    50   Output ~ 0
+D1
+Text HLabel 7625 3075 2    50   Output ~ 0
+D2
+Text HLabel 7625 3175 2    50   Output ~ 0
+D3
+Text HLabel 7625 3275 2    50   Output ~ 0
+D4
+Text HLabel 7625 3375 2    50   Output ~ 0
+D5
+Text HLabel 7625 3475 2    50   Output ~ 0
+D6
+Text HLabel 7625 3575 2    50   Output ~ 0
+D7
+Wire Wire Line
+	6050 2975 7625 2975
+Wire Wire Line
+	6150 3075 7625 3075
+Wire Wire Line
+	6250 3175 7625 3175
+Wire Wire Line
+	6350 3275 7625 3275
+Wire Wire Line
+	6450 3375 7625 3375
+Wire Wire Line
+	6550 3475 7625 3475
+Wire Wire Line
+	6650 3575 7625 3575
+Wire Wire Line
+	5125 2875 7625 2875
+Wire Wire Line
+	6050 2975 6050 3225
+Wire Wire Line
+	5700 3225 6050 3225
+Wire Wire Line
+	5125 3575 6150 3575
+Wire Wire Line
+	6150 3075 6150 3575
+Wire Wire Line
+	5700 3925 6250 3925
+Wire Wire Line
+	6250 3175 6250 3925
+Wire Wire Line
+	5125 4275 6350 4275
+Wire Wire Line
+	6350 3275 6350 4275
+Wire Wire Line
+	5700 4625 6450 4625
+Wire Wire Line
+	6450 3375 6450 4625
+Wire Wire Line
+	5125 4975 6550 4975
+Wire Wire Line
+	6550 3475 6550 4975
+Wire Wire Line
+	5700 5325 6650 5325
+Wire Wire Line
+	6650 3575 6650 5325
+Wire Wire Line
+	6150 1475 6150 3075
+Wire Wire Line
+	5125 1475 6150 1475
+Connection ~ 6150 3075
+Wire Wire Line
+	6250 1825 6250 3175
+Wire Wire Line
+	5700 1825 6250 1825
+Connection ~ 6250 3175
+Wire Wire Line
+	6350 2175 6350 3275
+Wire Wire Line
+	5125 2175 6350 2175
+Connection ~ 6350 3275
+Wire Wire Line
+	6450 2525 6450 3375
+Wire Wire Line
+	5700 2525 6450 2525
+Connection ~ 6450 3375
+Wire Wire Line
+	4000 2000 3725 2000
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 4000 2175
+Wire Wire Line
+	4000 4100 3725 4100
+Connection ~ 4000 4100
+Wire Wire Line
+	4000 4100 4000 4275
+$Comp
+L 74xx:74LS04 IC_W1
+U 6 1 5D75EBB8
+P 3425 4100
+F 0 "IC_W1" H 3425 4417 50  0000 C CNN
+F 1 "7404" H 3425 4326 50  0000 C CNN
+F 2 "" H 3425 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3425 4100 50  0001 C CNN
+	6    3425 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 IC_W1
+U 5 1 5D75FAFE
+P 3425 2000
+F 0 "IC_W1" H 3425 2317 50  0000 C CNN
+F 1 "7404" H 3425 2226 50  0000 C CNN
+F 2 "" H 3425 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3425 2000 50  0001 C CNN
+	5    3425 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 IC_U1
+U 1 1 5D762600
+P 2625 4100
+F 0 "IC_U1" H 2625 3783 50  0000 C CNN
+F 1 "7400" H 2625 3874 50  0000 C CNN
+F 2 "" H 2625 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2625 4100 50  0001 C CNN
+	1    2625 4100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2925 4100 3125 4100
+Wire Wire Line
+	2325 4200 1275 4200
+Text HLabel 1275 4200 0    50   Input ~ 0
+EXM_NXT
+$Comp
+L 74xx:74LS10 IC_T1
+U 2 1 5D768521
+P 2600 2000
+F 0 "IC_T1" H 2600 2325 50  0000 C CNN
+F 1 "74L10" H 2600 2234 50  0000 C CNN
+F 2 "" H 2600 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 2600 2000 50  0001 C CNN
+	2    2600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2000 3125 2000
+Wire Wire Line
+	2325 4000 2125 4000
+Wire Wire Line
+	2125 4000 2125 2000
+Wire Wire Line
+	2125 2000 2300 2000
+Wire Wire Line
+	2125 4000 1275 4000
+Connection ~ 2125 4000
+Text HLabel 1275 4000 0    50   Input ~ 0
+PDBIN
+Wire Wire Line
+	2300 2100 1275 2100
+Wire Wire Line
+	2300 1900 1275 1900
+Text HLabel 1275 2100 0    50   Input ~ 0
+EXM0
+Text HLabel 1275 1900 0    50   Input ~ 0
+~EXM1
+$EndSCHEMATC

@@ -1,0 +1,715 @@
+EESchema Schematic File Version 4
+LIBS:frontpanel-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5CF5900E
+P 4125 1075
+AR Path="/5CF316A5/5CF5900E" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF5900E" Ref="R62"  Part="1" 
+F 0 "R62" V 4025 1075 50  0000 C CNN
+F 1 "330R" V 4125 1075 50  0000 C CNN
+F 2 "" V 4055 1075 50  0001 C CNN
+F 3 "~" H 4125 1075 50  0001 C CNN
+	1    4125 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF59014
+P 4125 1475
+AR Path="/5CF316A5/5CF59014" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF59014" Ref="R44"  Part="1" 
+F 0 "R44" V 4025 1475 50  0000 C CNN
+F 1 "330R" V 4125 1475 50  0000 C CNN
+F 2 "" V 4055 1475 50  0001 C CNN
+F 3 "~" H 4125 1475 50  0001 C CNN
+	1    4125 1475
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF5901A
+P 4125 1875
+AR Path="/5CF316A5/5CF5901A" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF5901A" Ref="R45"  Part="1" 
+F 0 "R45" V 4025 1875 50  0000 C CNN
+F 1 "330R" V 4125 1875 50  0000 C CNN
+F 2 "" V 4055 1875 50  0001 C CNN
+F 3 "~" H 4125 1875 50  0001 C CNN
+	1    4125 1875
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF59020
+P 4125 2275
+AR Path="/5CF316A5/5CF59020" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF59020" Ref="R60"  Part="1" 
+F 0 "R60" V 4025 2275 50  0000 C CNN
+F 1 "330R" V 4125 2275 50  0000 C CNN
+F 2 "" V 4055 2275 50  0001 C CNN
+F 3 "~" H 4125 2275 50  0001 C CNN
+	1    4125 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF59026
+P 4125 3100
+AR Path="/5CF316A5/5CF59026" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF59026" Ref="R47"  Part="1" 
+F 0 "R47" V 4025 3100 50  0000 C CNN
+F 1 "330R" V 4125 3100 50  0000 C CNN
+F 2 "" V 4055 3100 50  0001 C CNN
+F 3 "~" H 4125 3100 50  0001 C CNN
+	1    4125 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF5902C
+P 4125 3500
+AR Path="/5CF316A5/5CF5902C" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF5902C" Ref="R48"  Part="1" 
+F 0 "R48" V 4025 3500 50  0000 C CNN
+F 1 "330R" V 4125 3500 50  0000 C CNN
+F 2 "" V 4055 3500 50  0001 C CNN
+F 3 "~" H 4125 3500 50  0001 C CNN
+	1    4125 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF59032
+P 4125 3900
+AR Path="/5CF316A5/5CF59032" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF59032" Ref="R49"  Part="1" 
+F 0 "R49" V 4025 3900 50  0000 C CNN
+F 1 "330R" V 4125 3900 50  0000 C CNN
+F 2 "" V 4055 3900 50  0001 C CNN
+F 3 "~" H 4125 3900 50  0001 C CNN
+	1    4125 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF59038
+P 4125 2700
+AR Path="/5CF316A5/5CF59038" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF59038" Ref="R46"  Part="1" 
+F 0 "R46" V 4025 2700 50  0000 C CNN
+F 1 "330R" V 4125 2700 50  0000 C CNN
+F 2 "" V 4055 2700 50  0001 C CNN
+F 3 "~" H 4125 2700 50  0001 C CNN
+	1    4125 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF59046
+P 4875 1075
+AR Path="/5CF316A5/5CF59046" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF59046" Ref="D36"  Part="1" 
+F 0 "D36" H 4868 820 50  0000 C CNN
+F 1 "RL-12" H 4868 911 50  0000 C CNN
+F 2 "" H 4875 1075 50  0001 C CNN
+F 3 "~" H 4875 1075 50  0001 C CNN
+	1    4875 1075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF5904C
+P 4875 1475
+AR Path="/5CF316A5/5CF5904C" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF5904C" Ref="D35"  Part="1" 
+F 0 "D35" H 4868 1220 50  0000 C CNN
+F 1 "RL-12" H 4868 1311 50  0000 C CNN
+F 2 "" H 4875 1475 50  0001 C CNN
+F 3 "~" H 4875 1475 50  0001 C CNN
+	1    4875 1475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF59052
+P 4875 1875
+AR Path="/5CF316A5/5CF59052" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF59052" Ref="D34"  Part="1" 
+F 0 "D34" H 4868 1620 50  0000 C CNN
+F 1 "RL-12" H 4868 1711 50  0000 C CNN
+F 2 "" H 4875 1875 50  0001 C CNN
+F 3 "~" H 4875 1875 50  0001 C CNN
+	1    4875 1875
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF59058
+P 4875 2275
+AR Path="/5CF316A5/5CF59058" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF59058" Ref="D33"  Part="1" 
+F 0 "D33" H 4868 2020 50  0000 C CNN
+F 1 "RL-12" H 4868 2111 50  0000 C CNN
+F 2 "" H 4875 2275 50  0001 C CNN
+F 3 "~" H 4875 2275 50  0001 C CNN
+	1    4875 2275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF5905E
+P 4875 2700
+AR Path="/5CF316A5/5CF5905E" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF5905E" Ref="D32"  Part="1" 
+F 0 "D32" H 4868 2445 50  0000 C CNN
+F 1 "RL-12" H 4868 2536 50  0000 C CNN
+F 2 "" H 4875 2700 50  0001 C CNN
+F 3 "~" H 4875 2700 50  0001 C CNN
+	1    4875 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF59064
+P 4875 3100
+AR Path="/5CF316A5/5CF59064" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF59064" Ref="D31"  Part="1" 
+F 0 "D31" H 4868 2845 50  0000 C CNN
+F 1 "RL-12" H 4868 2936 50  0000 C CNN
+F 2 "" H 4875 3100 50  0001 C CNN
+F 3 "~" H 4875 3100 50  0001 C CNN
+	1    4875 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF5906A
+P 4875 3500
+AR Path="/5CF316A5/5CF5906A" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF5906A" Ref="D30"  Part="1" 
+F 0 "D30" H 4868 3245 50  0000 C CNN
+F 1 "RL-12" H 4868 3336 50  0000 C CNN
+F 2 "" H 4875 3500 50  0001 C CNN
+F 3 "~" H 4875 3500 50  0001 C CNN
+	1    4875 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF59070
+P 4875 3900
+AR Path="/5CF316A5/5CF59070" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF59070" Ref="D29"  Part="1" 
+F 0 "D29" H 4868 3645 50  0000 C CNN
+F 1 "RL-12" H 4868 3736 50  0000 C CNN
+F 2 "" H 4875 3900 50  0001 C CNN
+F 3 "~" H 4875 3900 50  0001 C CNN
+	1    4875 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4275 1075 4725 1075
+Wire Wire Line
+	4275 1475 4725 1475
+Wire Wire Line
+	4275 1875 4725 1875
+Wire Wire Line
+	4275 2275 4725 2275
+Wire Wire Line
+	4275 2700 4725 2700
+Wire Wire Line
+	4275 3100 4725 3100
+Wire Wire Line
+	4275 3500 4725 3500
+Wire Wire Line
+	4275 3900 4725 3900
+Wire Wire Line
+	5425 1075 5025 1075
+Text Notes 5100 1050 0    50   ~ 0
+A0
+Wire Wire Line
+	5425 1075 5425 1475
+Wire Wire Line
+	5425 1475 5025 1475
+Text Notes 5100 1450 0    50   ~ 0
+A1
+Connection ~ 5425 1475
+Wire Wire Line
+	5425 1475 5425 1875
+Wire Wire Line
+	5425 1875 5025 1875
+Text Notes 5100 1850 0    50   ~ 0
+A2
+Wire Wire Line
+	5425 2275 5025 2275
+Text Notes 5100 2250 0    50   ~ 0
+A3
+Connection ~ 5425 1875
+Wire Wire Line
+	5425 1875 5425 2275
+Connection ~ 5425 2275
+Wire Wire Line
+	5425 2275 5425 2700
+Wire Wire Line
+	5425 2700 5025 2700
+Text Notes 5100 2675 0    50   ~ 0
+A4
+Wire Wire Line
+	5425 3100 5025 3100
+Text Notes 5100 3075 0    50   ~ 0
+A5
+Wire Wire Line
+	5425 3500 5025 3500
+Text Notes 5100 3475 0    50   ~ 0
+A6
+Wire Wire Line
+	5425 3900 5025 3900
+Text Notes 5100 3875 0    50   ~ 0
+A7
+Connection ~ 5425 2700
+Wire Wire Line
+	5425 2700 5425 3100
+Connection ~ 5425 3100
+Wire Wire Line
+	5425 3100 5425 3500
+Connection ~ 5425 3500
+Wire Wire Line
+	5425 3500 5425 3900
+$Comp
+L Device:R R?
+U 1 1 5CF66CDE
+P 4125 4325
+AR Path="/5CF316A5/5CF66CDE" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66CDE" Ref="R50"  Part="1" 
+F 0 "R50" V 4025 4325 50  0000 C CNN
+F 1 "330R" V 4125 4325 50  0000 C CNN
+F 2 "" V 4055 4325 50  0001 C CNN
+F 3 "~" H 4125 4325 50  0001 C CNN
+	1    4125 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66CE8
+P 4125 4725
+AR Path="/5CF316A5/5CF66CE8" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66CE8" Ref="R51"  Part="1" 
+F 0 "R51" V 4025 4725 50  0000 C CNN
+F 1 "330R" V 4125 4725 50  0000 C CNN
+F 2 "" V 4055 4725 50  0001 C CNN
+F 3 "~" H 4125 4725 50  0001 C CNN
+	1    4125 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66CF2
+P 4125 5125
+AR Path="/5CF316A5/5CF66CF2" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66CF2" Ref="R52"  Part="1" 
+F 0 "R52" V 4025 5125 50  0000 C CNN
+F 1 "330R" V 4125 5125 50  0000 C CNN
+F 2 "" V 4055 5125 50  0001 C CNN
+F 3 "~" H 4125 5125 50  0001 C CNN
+	1    4125 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66CFC
+P 4125 5525
+AR Path="/5CF316A5/5CF66CFC" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66CFC" Ref="R53"  Part="1" 
+F 0 "R53" V 4025 5525 50  0000 C CNN
+F 1 "330R" V 4125 5525 50  0000 C CNN
+F 2 "" V 4055 5525 50  0001 C CNN
+F 3 "~" H 4125 5525 50  0001 C CNN
+	1    4125 5525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66D06
+P 4125 6350
+AR Path="/5CF316A5/5CF66D06" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66D06" Ref="R55"  Part="1" 
+F 0 "R55" V 4025 6350 50  0000 C CNN
+F 1 "330R" V 4125 6350 50  0000 C CNN
+F 2 "" V 4055 6350 50  0001 C CNN
+F 3 "~" H 4125 6350 50  0001 C CNN
+	1    4125 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66D10
+P 4125 6750
+AR Path="/5CF316A5/5CF66D10" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66D10" Ref="R56"  Part="1" 
+F 0 "R56" V 4025 6750 50  0000 C CNN
+F 1 "330R" V 4125 6750 50  0000 C CNN
+F 2 "" V 4055 6750 50  0001 C CNN
+F 3 "~" H 4125 6750 50  0001 C CNN
+	1    4125 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66D1A
+P 4125 7150
+AR Path="/5CF316A5/5CF66D1A" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66D1A" Ref="R57"  Part="1" 
+F 0 "R57" V 4025 7150 50  0000 C CNN
+F 1 "330R" V 4125 7150 50  0000 C CNN
+F 2 "" V 4055 7150 50  0001 C CNN
+F 3 "~" H 4125 7150 50  0001 C CNN
+	1    4125 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF66D24
+P 4125 5950
+AR Path="/5CF316A5/5CF66D24" Ref="R?"  Part="1" 
+AR Path="/5CF316E3/5CF66D24" Ref="R54"  Part="1" 
+F 0 "R54" V 4025 5950 50  0000 C CNN
+F 1 "330R" V 4125 5950 50  0000 C CNN
+F 2 "" V 4055 5950 50  0001 C CNN
+F 3 "~" H 4125 5950 50  0001 C CNN
+	1    4125 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D32
+P 4875 4325
+AR Path="/5CF316A5/5CF66D32" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D32" Ref="D28"  Part="1" 
+F 0 "D28" H 4868 4070 50  0000 C CNN
+F 1 "RL-12" H 4868 4161 50  0000 C CNN
+F 2 "" H 4875 4325 50  0001 C CNN
+F 3 "~" H 4875 4325 50  0001 C CNN
+	1    4875 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D3C
+P 4875 4725
+AR Path="/5CF316A5/5CF66D3C" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D3C" Ref="D27"  Part="1" 
+F 0 "D27" H 4868 4470 50  0000 C CNN
+F 1 "RL-12" H 4868 4561 50  0000 C CNN
+F 2 "" H 4875 4725 50  0001 C CNN
+F 3 "~" H 4875 4725 50  0001 C CNN
+	1    4875 4725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D46
+P 4875 5125
+AR Path="/5CF316A5/5CF66D46" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D46" Ref="D26"  Part="1" 
+F 0 "D26" H 4868 4870 50  0000 C CNN
+F 1 "RL-12" H 4868 4961 50  0000 C CNN
+F 2 "" H 4875 5125 50  0001 C CNN
+F 3 "~" H 4875 5125 50  0001 C CNN
+	1    4875 5125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D50
+P 4875 5525
+AR Path="/5CF316A5/5CF66D50" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D50" Ref="D25"  Part="1" 
+F 0 "D25" H 4868 5270 50  0000 C CNN
+F 1 "RL-12" H 4868 5361 50  0000 C CNN
+F 2 "" H 4875 5525 50  0001 C CNN
+F 3 "~" H 4875 5525 50  0001 C CNN
+	1    4875 5525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D5A
+P 4875 5950
+AR Path="/5CF316A5/5CF66D5A" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D5A" Ref="D24"  Part="1" 
+F 0 "D24" H 4868 5695 50  0000 C CNN
+F 1 "RL-12" H 4868 5786 50  0000 C CNN
+F 2 "" H 4875 5950 50  0001 C CNN
+F 3 "~" H 4875 5950 50  0001 C CNN
+	1    4875 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D64
+P 4875 6350
+AR Path="/5CF316A5/5CF66D64" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D64" Ref="D23"  Part="1" 
+F 0 "D23" H 4868 6095 50  0000 C CNN
+F 1 "RL-12" H 4868 6186 50  0000 C CNN
+F 2 "" H 4875 6350 50  0001 C CNN
+F 3 "~" H 4875 6350 50  0001 C CNN
+	1    4875 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D6E
+P 4875 6750
+AR Path="/5CF316A5/5CF66D6E" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D6E" Ref="D22"  Part="1" 
+F 0 "D22" H 4868 6495 50  0000 C CNN
+F 1 "RL-12" H 4868 6586 50  0000 C CNN
+F 2 "" H 4875 6750 50  0001 C CNN
+F 3 "~" H 4875 6750 50  0001 C CNN
+	1    4875 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CF66D78
+P 4875 7150
+AR Path="/5CF316A5/5CF66D78" Ref="D?"  Part="1" 
+AR Path="/5CF316E3/5CF66D78" Ref="D21"  Part="1" 
+F 0 "D21" H 4868 6895 50  0000 C CNN
+F 1 "RL-12" H 4868 6986 50  0000 C CNN
+F 2 "" H 4875 7150 50  0001 C CNN
+F 3 "~" H 4875 7150 50  0001 C CNN
+	1    4875 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4275 4325 4725 4325
+Wire Wire Line
+	4275 4725 4725 4725
+Wire Wire Line
+	4275 5125 4725 5125
+Wire Wire Line
+	4275 5525 4725 5525
+Wire Wire Line
+	4275 5950 4725 5950
+Wire Wire Line
+	4275 6350 4725 6350
+Wire Wire Line
+	4275 6750 4725 6750
+Wire Wire Line
+	4275 7150 4725 7150
+Wire Wire Line
+	5425 4325 5025 4325
+Text Notes 5100 4300 0    50   ~ 0
+A8
+Wire Wire Line
+	3425 4325 3975 4325
+Wire Wire Line
+	5425 4325 5425 4725
+Wire Wire Line
+	5425 4725 5025 4725
+Text Notes 5100 4700 0    50   ~ 0
+A9
+Connection ~ 5425 4725
+Wire Wire Line
+	5425 4725 5425 5125
+Wire Wire Line
+	5425 5125 5025 5125
+Text Notes 5100 5100 0    50   ~ 0
+A10
+Wire Wire Line
+	5425 5525 5025 5525
+Text Notes 5100 5500 0    50   ~ 0
+A11
+Connection ~ 5425 5125
+Wire Wire Line
+	5425 5125 5425 5525
+Connection ~ 5425 5525
+Wire Wire Line
+	5425 5525 5425 5950
+Wire Wire Line
+	5425 5950 5025 5950
+Text Notes 5100 5925 0    50   ~ 0
+A12
+Wire Wire Line
+	5425 6350 5025 6350
+Text Notes 5100 6325 0    50   ~ 0
+A13
+Wire Wire Line
+	5425 6750 5025 6750
+Text Notes 5100 6725 0    50   ~ 0
+A14
+Wire Wire Line
+	5425 7150 5025 7150
+Text Notes 5100 7125 0    50   ~ 0
+A15
+Connection ~ 5425 5950
+Wire Wire Line
+	5425 5950 5425 6350
+Connection ~ 5425 6350
+Wire Wire Line
+	5425 6350 5425 6750
+Connection ~ 5425 6750
+Wire Wire Line
+	5425 6750 5425 7150
+Wire Wire Line
+	5425 3900 5425 4325
+Connection ~ 5425 3900
+Connection ~ 5425 4325
+Wire Wire Line
+	3425 4250 3425 4325
+Wire Wire Line
+	3425 4150 3425 3900
+Wire Wire Line
+	3425 3900 3975 3900
+Wire Wire Line
+	3350 3500 3975 3500
+Wire Wire Line
+	3275 3100 3975 3100
+Wire Wire Line
+	3200 2700 3975 2700
+Wire Wire Line
+	3125 2275 3975 2275
+Wire Wire Line
+	3050 1875 3975 1875
+Wire Wire Line
+	2975 1475 3975 1475
+Wire Wire Line
+	2975 3550 2975 1475
+Wire Wire Line
+	2500 3550 2975 3550
+Wire Wire Line
+	3050 3650 3050 1875
+Wire Wire Line
+	2500 3650 3050 3650
+Wire Wire Line
+	3125 3750 3125 2275
+Wire Wire Line
+	2500 3750 3125 3750
+Wire Wire Line
+	3200 3850 3200 2700
+Wire Wire Line
+	2500 3850 3200 3850
+Wire Wire Line
+	3275 3950 3275 3100
+Wire Wire Line
+	2500 3950 3275 3950
+Wire Wire Line
+	3350 4050 3350 3500
+Wire Wire Line
+	2500 4050 3350 4050
+Wire Wire Line
+	2500 4150 3425 4150
+Wire Wire Line
+	2500 4250 3425 4250
+Text HLabel 2500 4950 0    50   Input ~ 0
+A15
+Text HLabel 2500 4850 0    50   Input ~ 0
+A14
+Text HLabel 2500 4750 0    50   Input ~ 0
+A13
+Text HLabel 2500 4650 0    50   Input ~ 0
+A12
+Text HLabel 2500 4550 0    50   Input ~ 0
+A11
+Text HLabel 2500 4450 0    50   Input ~ 0
+A10
+Text HLabel 2500 4350 0    50   Input ~ 0
+A9
+Text HLabel 2500 4250 0    50   Input ~ 0
+A8
+Text HLabel 2500 4150 0    50   Input ~ 0
+A7
+Text HLabel 2500 4050 0    50   Input ~ 0
+A6
+Text HLabel 2500 3950 0    50   Input ~ 0
+A5
+Text HLabel 2500 3850 0    50   Input ~ 0
+A4
+Text HLabel 2500 3750 0    50   Input ~ 0
+A3
+Text HLabel 2500 3650 0    50   Input ~ 0
+A2
+Text HLabel 2500 3550 0    50   Input ~ 0
+A1
+Text HLabel 2500 3450 0    50   Input ~ 0
+A0
+Wire Wire Line
+	2500 3450 2900 3450
+Wire Wire Line
+	2900 3450 2900 1075
+Wire Wire Line
+	2900 1075 3975 1075
+Wire Wire Line
+	2500 4350 3350 4350
+Wire Wire Line
+	3350 4350 3350 4725
+Wire Wire Line
+	3350 4725 3975 4725
+Wire Wire Line
+	2500 4450 3275 4450
+Wire Wire Line
+	3275 4450 3275 5125
+Wire Wire Line
+	3275 5125 3975 5125
+Wire Wire Line
+	2500 4550 3200 4550
+Wire Wire Line
+	3200 4550 3200 5525
+Wire Wire Line
+	3200 5525 3975 5525
+Wire Wire Line
+	2500 4650 3125 4650
+Wire Wire Line
+	3125 4650 3125 5950
+Wire Wire Line
+	3125 5950 3975 5950
+Wire Wire Line
+	2500 4750 3050 4750
+Wire Wire Line
+	3050 4750 3050 6350
+Wire Wire Line
+	3050 6350 3975 6350
+Wire Wire Line
+	2500 4850 2975 4850
+Wire Wire Line
+	2975 4850 2975 6750
+Wire Wire Line
+	2975 6750 3975 6750
+Wire Wire Line
+	2500 4950 2900 4950
+Wire Wire Line
+	2900 4950 2900 7150
+Wire Wire Line
+	2900 7150 3975 7150
+Wire Wire Line
+	5425 7150 5425 7300
+Connection ~ 5425 7150
+$Comp
+L power:GNDREF #PWR0109
+U 1 1 5CFB1646
+P 5425 7300
+F 0 "#PWR0109" H 5425 7050 50  0001 C CNN
+F 1 "GNDREF" H 5430 7127 50  0001 C CNN
+F 2 "" H 5425 7300 50  0001 C CNN
+F 3 "" H 5425 7300 50  0001 C CNN
+	1    5425 7300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
