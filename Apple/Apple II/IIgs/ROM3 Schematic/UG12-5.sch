@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:M50741-Apple_IIgs_Symbols UG12
+L IIgs-Schematic:M50741 UG12
 U 1 1 5BF205D4
 P 5400 3300
 F 0 "UG12" H 5550 4750 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 4950 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Game-IO-Apple_IIgs_Symbols J21
+L IIgs-Schematic:Game-IO J21
 U 1 1 5BF2066B
 P 1650 6800
 F 0 "J21" H 1650 7250 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 1650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:KEYGLU-Apple_IIgs_Symbols U?
+L IIgs-Schematic:KEYGLU U?
 U 1 1 5BF20720
 P 9550 2250
 F 0 "U?" H 9550 3615 50  0000 C CNN
@@ -236,7 +236,7 @@ Wire Wire Line
 Text Label 6750 2850 2    50   ~ 0
 CP-CNTL
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
+L freetronics_schematic:M02 JP?
 U 1 1 5CB3AF62
 P 7600 3850
 F 0 "JP?" H 7578 3790 50  0000 L CNN
@@ -631,7 +631,7 @@ Wire Wire Line
 Text Label 6300 6950 0    50   ~ 0
 ADB
 $Comp
-L Apple_IIgs_Symbols:L-Pack L2
+L IIgs-Schematic:L-Pack L2
 U 1 1 5CBA10D5
 P 4300 6700
 F 0 "L2" H 4300 6950 50  0000 C CNN
@@ -677,7 +677,7 @@ L2-8
 Wire Wire Line
 	4450 3750 4750 3750
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic J18
+L freetronics_schematic:M07 J18
 U 1 1 5CBC3DCE
 P 3250 6450
 F 0 "J18" H 3150 6550 50  0000 C CNN

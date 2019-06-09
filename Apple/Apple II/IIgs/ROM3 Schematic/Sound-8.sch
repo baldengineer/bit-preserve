@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:DOC5503-Apple_IIgs_Symbols U?
+L IIgs-Schematic:DOC5503 U?
 U 1 1 5BF220C8
 P 6050 6000
 F 0 "U?" H 6050 7628 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 6400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+L IIgs-Schematic:DRAM64KX4 U?
 U 1 1 5BF2217B
 P 6200 1400
 F 0 "U?" H 6200 2215 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 6000 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:DRAM64KX4-Apple_IIgs_Symbols U?
+L IIgs-Schematic:DRAM64KX4 U?
 U 1 1 5BF221BC
 P 6200 3200
 F 0 "U?" H 6200 4015 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 6000 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic JP?
+L freetronics_schematic:M07 JP?
 U 1 1 5BF2229C
 P 7900 5600
 F 0 "JP?" H 7878 5328 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 7900 5600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:SOUNDGLU-Apple_IIgs_Symbols U?
+L IIgs-Schematic:SOUNDGLU U?
 U 1 1 5BF223AF
 P 3250 4300
 F 0 "U?" H 3250 6228 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 2800 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
+L freetronics_schematic:M02 JP?
 U 1 1 5BF22441
 P 11700 6950
 F 0 "JP?" H 11678 6928 50  0000 L CNN

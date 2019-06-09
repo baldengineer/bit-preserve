@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:CYA-Apple_IIgs_Symbols UF?
+L IIgs-Schematic:CYA UF?
 U 1 1 5BF1CFE4
 P 5450 3400
 AR Path="/5BF1CFE4" Ref="UF?"  Part="1" 
@@ -28,7 +28,7 @@ F 3 "" H 5000 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:65SC816-Apple_IIgs_Symbols U?
+L IIgs-Schematic:65SC816 U?
 U 1 1 5BF1CFEB
 P 2050 3150
 AR Path="/5BF1CFEB" Ref="U?"  Part="1" 
@@ -41,16 +41,16 @@ F 3 "" H 1650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:IIgs_Memory_Connector-Apple_IIgs_Symbols J?
+L IIgs-Schematic:IIgs_Memory_Connector J?
 U 1 1 5BF1CFF2
-P 9450 2900
+P 9150 2200
 AR Path="/5BF1CFF2" Ref="J?"  Part="1" 
 AR Path="/5BF1CF7D/5BF1CFF2" Ref="J20"  Part="1" 
-F 0 "J20" H 9800 2965 50  0000 C CNN
-F 1 "IIgs_Memory_Connector" H 9800 2874 50  0000 C CNN
-F 2 "" H 9450 2900 50  0001 C CNN
-F 3 "" H 9450 2900 50  0001 C CNN
-	1    9450 2900
+F 0 "J20" H 9500 2265 50  0000 C CNN
+F 1 "IIgs_Memory_Connector" H 9500 2174 50  0000 C CNN
+F 2 "" H 9150 2200 50  0001 C CNN
+F 3 "" H 9150 2200 50  0001 C CNN
+	1    9150 2200
 	1    0    0    -1  
 $EndComp
 Text Label 1300 2100 0    50   ~ 0
@@ -246,7 +246,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2800 1300 2800
 $Comp
-L IIgs-Schematic-rescue:R-device R195
+L Device:R R195
 U 1 1 5C24A80E
 P 3150 3550
 F 0 "R195" V 2943 3550 50  0000 C CNN
@@ -282,7 +282,7 @@ NMI.L
 Text GLabel 2850 4250 2    50   Input ~ 0
 RDY.H
 $Comp
-L IIgs-Schematic-rescue:R-device R133
+L Device:R R133
 U 1 1 5C24ED1D
 P 3250 3950
 F 0 "R133" V 3043 3950 50  0000 C CNN
@@ -317,10 +317,10 @@ Text Label 2900 3650 2    50   ~ 0
 RW
 Text Label 4450 4450 0    50   ~ 0
 RW
-Text Label 8900 5700 0    50   ~ 0
+Text Label 8600 5000 0    50   ~ 0
 PH2D.H
 Wire Wire Line
-	8900 5700 9250 5700
+	8600 5000 8950 5000
 Wire Wire Line
 	2600 4100 2850 4100
 Wire Wire Line
