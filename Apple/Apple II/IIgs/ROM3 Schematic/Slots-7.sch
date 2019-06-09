@@ -2162,7 +2162,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 8950 2250 8950
 $Comp
-L Device:R R113
+L Device:R_Small R113
 U 1 1 5E438F86
 P 4150 2350
 F 0 "R113" V 3943 2350 50  0000 C CNN
@@ -2173,7 +2173,7 @@ F 3 "~" H 4150 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R112
+L Device:R_Small R112
 U 1 1 5E43903C
 P 4150 2700
 F 0 "R112" V 3943 2700 50  0000 C CNN
@@ -2185,18 +2185,10 @@ F 3 "~" H 4150 2700 50  0001 C CNN
 $EndComp
 Text Label 4650 2350 2    50   ~ 0
 RDY.H
-Wire Wire Line
-	4300 2350 4650 2350
-Wire Wire Line
-	4300 2700 4650 2700
 Text Label 4650 2700 2    50   ~ 0
 NMI.L
 Wire Wire Line
-	4000 2700 3850 2700
-Wire Wire Line
 	3850 2700 3850 2350
-Wire Wire Line
-	3850 2350 4000 2350
 $Comp
 L power:+5V #PWR?
 U 1 1 5E69E2C7
@@ -2257,7 +2249,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2450 2200 2450
 $Comp
-L Device:R R197
+L Device:R_Small R197
 U 1 1 5E979E74
 P 2450 2450
 F 0 "R197" V 2243 2450 50  0000 C CNN
@@ -2267,11 +2259,21 @@ F 3 "~" H 2450 2450 50  0001 C CNN
 	1    2450 2450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2300 2450 2200 2450
 Connection ~ 2200 2450
 Text Label 2950 2450 2    50   ~ 0
 M2BADD
 Wire Wire Line
-	2600 2450 2950 2450
+	4250 2350 4650 2350
+Wire Wire Line
+	4250 2700 4650 2700
+Wire Wire Line
+	3850 2350 4050 2350
+Wire Wire Line
+	3850 2700 4050 2700
+Wire Wire Line
+	2200 2450 2350 2450
+Wire Wire Line
+	2550 2450 2950 2450
+Text Notes 750  1950 0    50   ~ 0
+Verify if this is the XOR from the CYA Page
 $EndSCHEMATC

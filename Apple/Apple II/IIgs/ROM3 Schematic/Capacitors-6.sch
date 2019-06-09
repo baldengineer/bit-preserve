@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 5BF20EE8
 P 2850 1500
 F 0 "C?" H 2965 1546 50  0000 L CNN
