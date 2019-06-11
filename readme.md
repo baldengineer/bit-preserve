@@ -7,7 +7,9 @@ Right now this repo is just a demo. Most of the directories are empty. There are
 tl;dr, Pick a system, find a schematic, and start drawing. The project has picked KiCad as the primary schematic capture tool. If there are variants of the schematic, give them their own directory. 
 
 # More information
-I am working on a longer description. For now, check out my slides from KiCon 2019. https://baldengineer.com/kicon2019
+I am working on a longer description. For now, check out my slides from KiCon 2019. https://baldengineer.com/kicon2019.
+
+You can also watch the entire talk on the Contextual Electronics channel: https://www.youtube.com/watch?v=fBaU4JZOVzk
 
 # Rules
 * Do not upload PDFs or images of schematics. It's okay to link back to a site hosting them (I guess). The only files to be hosted here are KiCad (aka editable) files.

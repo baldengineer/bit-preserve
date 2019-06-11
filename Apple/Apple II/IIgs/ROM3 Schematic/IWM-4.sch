@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:IWM-Apple_IIgs_Symbols U?
+L IIgs-Schematic:IWM U?
 U 1 1 5BF1F4FE
 P 3500 2650
 F 0 "U?" H 3500 3978 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "~" H 7750 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:8530L-Apple_IIgs_Symbols U?
+L IIgs-Schematic:8530L U?
 U 1 1 5BF1F7F0
 P 6500 5750
 F 0 "U?" H 6550 7428 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 6250 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:26LS30-Apple_IIgs_Symbols U?
+L IIgs-Schematic:26LS30 U?
 U 1 1 5BF1F8B4
 P 9800 4100
 F 0 "U?" H 9825 4965 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 9650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:AM26LS32-Apple_IIgs_Symbols U?
+L IIgs-Schematic:AM26LS32 U?
 U 1 1 5BF1F959
 P 9750 1650
 F 0 "U?" H 9750 2728 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 9600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:26LS30-Apple_IIgs_Symbols U?
+L IIgs-Schematic:26LS30 U?
 U 1 1 5BF1FAF9
 P 9900 8700
 F 0 "U?" H 9925 9565 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 9750 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:AM26LS32-Apple_IIgs_Symbols U?
+L IIgs-Schematic:AM26LS32 U?
 U 1 1 5BF1FB00
 P 9850 6250
 F 0 "U?" H 9850 7328 50  0000 C CNN
@@ -138,7 +138,7 @@ $EndComp
 Text Notes 3500 6300 0    50   ~ 0
 redo this one?
 $Comp
-L IIgs-Schematic-rescue:NE558-Apple_IIgs_Symbols U?
+L IIgs-Schematic:NE558 U?
 U 1 1 5BF200A0
 P 5100 8600
 F 0 "U?" H 5100 9215 50  0000 C CNN

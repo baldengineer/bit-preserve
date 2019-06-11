@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,14 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:VGC-Apple_IIgs_Symbols U?
+L IIgs-Schematic:VGC U?
 U 1 1 5BF1D843
-P 13350 9600
-F 0 "U?" H 13400 12628 50  0000 C CNN
-F 1 "VGC" H 13400 12537 50  0000 C CNN
-F 2 "" H 13100 12250 50  0001 C CNN
-F 3 "" H 13100 12250 50  0001 C CNN
-	1    13350 9600
+P 3950 3850
+F 0 "U?" H 4000 6878 50  0000 C CNN
+F 1 "VGC" H 4000 6787 50  0000 C CNN
+F 2 "" H 3700 6500 50  0001 C CNN
+F 3 "" H 3700 6500 50  0001 C CNN
+	1    3950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -37,29 +37,29 @@ F 3 "~" H 2000 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	15150 7050 15250 7050
+	5750 1300 5850 1300
 Wire Notes Line
-	15250 7050 15250 7400
+	5850 1300 5850 1650
 Wire Notes Line
-	15150 7050 15150 7400
+	5750 1300 5750 1650
 Wire Notes Line
-	15150 7400 15250 7400
+	5750 1650 5850 1650
 Wire Notes Line
-	15150 7450 15250 7450
+	5750 1700 5850 1700
 Wire Notes Line
-	15250 7450 15250 7800
+	5850 1700 5850 2050
 Wire Notes Line
-	15150 7450 15150 7800
+	5750 1700 5750 2050
 Wire Notes Line
-	15150 7800 15250 7800
+	5750 2050 5850 2050
 Wire Notes Line
-	15150 7850 15250 7850
+	5750 2100 5850 2100
 Wire Notes Line
-	15250 7850 15250 8200
+	5850 2100 5850 2450
 Wire Notes Line
-	15150 7850 15150 8200
+	5750 2100 5750 2450
 Wire Notes Line
-	15150 8200 15250 8200
+	5750 2450 5850 2450
 Wire Notes Line
 	6650 1450 6950 1450
 Wire Notes Line
@@ -69,7 +69,7 @@ Wire Notes Line
 Wire Notes Line
 	6650 1900 6650 1450
 $Comp
-L IIgs-Schematic-rescue:MC1377-Apple_IIgs_Symbols U?
+L IIgs-Schematic:MC1377 U?
 U 1 1 5BF1DCA3
 P 7450 5000
 F 0 "U?" H 8041 4971 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 7100 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M17-freetronics_schematic U?
+L freetronics_schematic:M17 U?
 U 1 1 5BF1DD73
 P 9050 1250
 F 0 "U?" H 9017 2189 70  0000 R CNN
@@ -101,21 +101,21 @@ Wire Notes Line
 Text Notes 9750 5450 0    50   ~ 0
 RCA…
 Wire Notes Line
-	14850 11650 15200 11650
+	5450 5900 5800 5900
 Wire Notes Line
-	15200 11650 15200 12750
+	5800 5900 5800 7000
 Wire Notes Line
 	6250 7200 5900 7200
 Wire Notes Line
-	14850 12750 14850 11650
-Text Notes 14850 11550 0    50   ~ 0
+	5450 7000 5450 5900
+Text Notes 5450 5800 0    50   ~ 0
 Serclock
 Wire Wire Line
-	14050 7100 14450 7100
+	4650 1350 5050 1350
 Wire Wire Line
-	14050 7200 14450 7200
+	4650 1450 5050 1450
 Wire Wire Line
-	14050 7300 14450 7300
-Text Label 14450 7100 2    50   ~ 0
+	4650 1550 5050 1550
+Text Label 5050 1350 2    50   ~ 0
 VID0
 $EndSCHEMATC

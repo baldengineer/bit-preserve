@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:M50741-Apple_IIgs_Symbols UG12
+L IIgs-Schematic:M50741 UG12
 U 1 1 5BF205D4
 P 5400 3300
 F 0 "UG12" H 5550 4750 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 4950 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Game-IO-Apple_IIgs_Symbols J21
+L IIgs-Schematic:Game-IO J21
 U 1 1 5BF2066B
 P 1650 6800
 F 0 "J21" H 1650 7250 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 1650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:KEYGLU-Apple_IIgs_Symbols U?
+L IIgs-Schematic:KEYGLU U?
 U 1 1 5BF20720
 P 9550 2250
 F 0 "U?" H 9550 3615 50  0000 C CNN
@@ -236,7 +236,7 @@ Wire Wire Line
 Text Label 6750 2850 2    50   ~ 0
 CP-CNTL
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
+L freetronics_schematic:M02 JP?
 U 1 1 5CB3AF62
 P 7600 3850
 F 0 "JP?" H 7578 3790 50  0000 L CNN
@@ -266,7 +266,7 @@ F 3 "" H 7250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R217
+L Device:R_Small R217
 U 1 1 5CB3CD82
 P 7250 4150
 F 0 "R217" H 7320 4196 50  0000 L CNN
@@ -276,8 +276,6 @@ F 3 "~" H 7250 4150 50  0001 C CNN
 	1    7250 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 4000 7250 3950
 Connection ~ 7250 3950
 Wire Wire Line
 	7250 3950 7300 3950
@@ -292,8 +290,6 @@ F 3 "" H 7250 4350 50  0001 C CNN
 	1    7250 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 4300 7250 4350
 Wire Wire Line
 	6050 2950 6150 2950
 Wire Wire Line
@@ -328,7 +324,7 @@ Wire Wire Line
 Text Label 6750 3250 2    50   ~ 0
 UI14-34
 $Comp
-L Device:R R151
+L Device:R_Small R151
 U 1 1 5CB46277
 P 6950 2900
 F 0 "R151" H 7020 2946 50  0000 L CNN
@@ -339,7 +335,7 @@ F 3 "~" H 6950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R RR152
+L Device:R_Small RR152
 U 1 1 5CB462A9
 P 7250 2900
 F 0 "RR152" H 7320 2946 50  0000 L CNN
@@ -367,8 +363,6 @@ Wire Wire Line
 	6950 3050 7100 3050
 Wire Wire Line
 	6050 2750 6950 2750
-Wire Wire Line
-	7250 2650 7250 2750
 Wire Wire Line
 	6050 2650 7250 2650
 $Comp
@@ -422,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4450 4700 4500
 $Comp
-L Device:D CR2
+L Device:D_Small CR2
 U 1 1 5CB64BD4
 P 3750 4050
 F 0 "CR2" H 3750 4150 50  0000 C CNN
@@ -433,7 +427,7 @@ F 3 "~" H 3750 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C39
+L Device:C_Small C39
 U 1 1 5CB66D38
 P 4050 4650
 F 0 "C39" H 4165 4696 50  0000 L CNN
@@ -444,7 +438,7 @@ F 3 "~" H 4050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R105
+L Device:R_Small R105
 U 1 1 5CB66DF1
 P 3750 4400
 F 0 "R105" V 3650 4400 50  0000 C CNN
@@ -455,11 +449,7 @@ F 3 "~" H 3750 4400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3600 4400 3550 4400
-Wire Wire Line
 	3550 4400 3550 4050
-Wire Wire Line
-	3550 4050 3600 4050
 $Comp
 L power:+5V #PWR?
 U 1 1 5CB690E1
@@ -485,10 +475,6 @@ F 3 "~" H 4400 4400 50  0001 C CNN
 	1    4200 4400
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3900 4400 4050 4400
-Wire Wire Line
-	4050 4500 4050 4400
 Connection ~ 4050 4400
 Wire Wire Line
 	4050 4400 4200 4400
@@ -504,18 +490,14 @@ F 3 "" H 4050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 4800 4050 4850
-Wire Wire Line
 	4050 4400 4050 4050
-Wire Wire Line
-	3900 4050 4050 4050
 Connection ~ 4050 4050
 Wire Wire Line
 	4050 4050 4750 4050
 Text Label 4100 4050 0    50   ~ 0
 R105-2
 $Comp
-L Device:R R150
+L Device:R_Small R150
 U 1 1 5CB75940
 P 6600 7100
 F 0 "R150" H 6450 7050 50  0000 C CNN
@@ -536,8 +518,6 @@ F 3 "" H 6600 7300 50  0001 C CNN
 	1    6600 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 7250 6600 7300
 $Comp
 L Connector:TestPoint TP78
 U 1 1 5CB780E4
@@ -561,7 +541,7 @@ F 3 "~" H 5950 7000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R108
+L Device:R_Small R108
 U 1 1 5CB78247
 P 6000 6950
 F 0 "R108" V 5900 6950 50  0000 C CNN
@@ -572,14 +552,10 @@ F 3 "~" H 6000 6950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6150 6950 6250 6950
-Wire Wire Line
 	6250 6950 6600 6950
 Connection ~ 6250 6950
 Wire Wire Line
 	6250 7000 6250 6950
-Wire Wire Line
-	5850 6950 5750 6950
 Wire Wire Line
 	5750 6950 5750 7000
 $Comp
@@ -602,10 +578,8 @@ Wire Wire Line
 	5350 7150 5350 7200
 Wire Wire Line
 	5350 7200 4900 7200
-Wire Wire Line
-	4900 7200 4900 6500
 $Comp
-L Device:R R107
+L Device:R_Small R107
 U 1 1 5CB8E5F9
 P 4900 6350
 F 0 "R107" H 4750 6300 50  0000 C CNN
@@ -626,12 +600,10 @@ F 3 "" H 4650 6150 50  0001 C CNN
 	1    4650 6150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4900 6150 4900 6200
 Text Label 6300 6950 0    50   ~ 0
 ADB
 $Comp
-L Apple_IIgs_Symbols:L-Pack L2
+L IIgs-Schematic:L-Pack L2
 U 1 1 5CBA10D5
 P 4300 6700
 F 0 "L2" H 4300 6950 50  0000 C CNN
@@ -677,7 +649,7 @@ L2-8
 Wire Wire Line
 	4450 3750 4750 3750
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic J18
+L freetronics_schematic:M07 J18
 U 1 1 5CBC3DCE
 P 3250 6450
 F 0 "J18" H 3150 6550 50  0000 C CNN
@@ -723,7 +695,7 @@ L2-2
 Text Label 3550 6450 0    50   ~ 0
 L2-1
 $Comp
-L Device:C .01u
+L Device:C_Small .01u
 U 1 1 5CBEA3AC
 P 3950 7150
 F 0 ".01u" H 4100 7100 50  0000 L CNN
@@ -739,8 +711,6 @@ Wire Wire Line
 	3550 6650 3950 6650
 Wire Wire Line
 	3550 6750 4100 6750
-Wire Wire Line
-	3950 7000 3950 6650
 Connection ~ 3950 6650
 Wire Wire Line
 	3950 6650 4100 6650
@@ -755,8 +725,6 @@ F 3 "" H 3950 7300 50  0001 C CNN
 	1    3950 7350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 7300 3950 7350
 Wire Wire Line
 	9750 4550 9800 4550
 Wire Wire Line
@@ -1233,7 +1201,7 @@ Wire Wire Line
 Wire Wire Line
 	850  6650 1350 6650
 $Comp
-L Device:R R117
+L Device:R_Small R117
 U 1 1 5D009004
 P 950 6900
 F 0 "R117" V 850 6900 50  0000 C CNN
@@ -1244,13 +1212,9 @@ F 3 "~" H 950 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 6900 1150 6900
-Wire Wire Line
 	1150 6900 1150 6850
 Wire Wire Line
 	1150 6850 1350 6850
-Wire Wire Line
-	800  6900 750  6900
 $Comp
 L power:+5V #PWR?
 U 1 1 5D02D882
@@ -1299,4 +1263,48 @@ F 3 "" H 1300 7250 50  0001 C CNN
 	1    1300 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 4400 3650 4400
+Wire Wire Line
+	3850 4400 4050 4400
+Wire Wire Line
+	4050 4400 4050 4550
+Wire Wire Line
+	4050 4750 4050 4850
+Wire Wire Line
+	3850 4050 4050 4050
+Wire Wire Line
+	3550 4050 3650 4050
+Wire Wire Line
+	6950 2750 6950 2800
+Wire Wire Line
+	7250 2650 7250 2800
+Wire Wire Line
+	7250 3000 7250 3050
+Wire Wire Line
+	6950 3000 6950 3050
+Wire Wire Line
+	7250 3950 7250 4050
+Wire Wire Line
+	7250 4250 7250 4350
+Wire Wire Line
+	4900 6150 4900 6250
+Wire Wire Line
+	4900 6450 4900 7200
+Wire Wire Line
+	3950 6650 3950 7050
+Wire Wire Line
+	3950 7250 3950 7350
+Wire Wire Line
+	5750 6950 5900 6950
+Wire Wire Line
+	6100 6950 6250 6950
+Wire Wire Line
+	6600 6950 6600 7000
+Wire Wire Line
+	6600 7200 6600 7300
+Wire Wire Line
+	750  6900 850  6900
+Wire Wire Line
+	1050 6900 1150 6900
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J1
+L IIgs-Schematic:Apple_II_Slot J1
 U 1 1 5BF21608
 P 6200 4300
 F 0 "J1" H 6225 5675 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5850 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J2
+L IIgs-Schematic:Apple_II_Slot J2
 U 1 1 5BF21629
 P 8900 4300
 F 0 "J2" H 8925 5675 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 8550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J3
+L IIgs-Schematic:Apple_II_Slot J3
 U 1 1 5BF21642
 P 11600 4300
 F 0 "J3" H 11625 5675 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 11250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J4
+L IIgs-Schematic:Apple_II_Slot J4
 U 1 1 5BF2165E
 P 14300 4300
 F 0 "J4" H 14325 5675 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 13950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J5
+L IIgs-Schematic:Apple_II_Slot J5
 U 1 1 5BF2167B
 P 6200 7550
 F 0 "J5" H 6225 8925 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 5850 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J6
+L IIgs-Schematic:Apple_II_Slot J6
 U 1 1 5BF2169A
 P 8900 7550
 F 0 "J6" H 8925 8925 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 8550 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Apple_II_Slot-Apple_IIgs_Symbols J7
+L IIgs-Schematic:Apple_II_Slot J7
 U 1 1 5BF216B7
 P 11600 7550
 F 0 "J7" H 11625 8925 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 11250 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:Slotmaker-Apple_IIgs_Symbols UC10
+L IIgs-Schematic:Slotmaker UC10
 U 1 1 5BF217D2
 P 2600 4900
 F 0 "UC10" H 2650 6915 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 3050 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HCT245-Apple_IIgs_Symbols UD5
+L IIgs-Schematic:HCT245 UD5
 U 1 1 5BF2195F
 P 2650 8500
 F 0 "UD5" H 2623 9265 50  0000 C CNN
@@ -2162,7 +2162,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 8950 2250 8950
 $Comp
-L Device:R R113
+L Device:R_Small R113
 U 1 1 5E438F86
 P 4150 2350
 F 0 "R113" V 3943 2350 50  0000 C CNN
@@ -2173,7 +2173,7 @@ F 3 "~" H 4150 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R112
+L Device:R_Small R112
 U 1 1 5E43903C
 P 4150 2700
 F 0 "R112" V 3943 2700 50  0000 C CNN
@@ -2185,18 +2185,10 @@ F 3 "~" H 4150 2700 50  0001 C CNN
 $EndComp
 Text Label 4650 2350 2    50   ~ 0
 RDY.H
-Wire Wire Line
-	4300 2350 4650 2350
-Wire Wire Line
-	4300 2700 4650 2700
 Text Label 4650 2700 2    50   ~ 0
 NMI.L
 Wire Wire Line
-	4000 2700 3850 2700
-Wire Wire Line
 	3850 2700 3850 2350
-Wire Wire Line
-	3850 2350 4000 2350
 $Comp
 L power:+5V #PWR?
 U 1 1 5E69E2C7
@@ -2257,7 +2249,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2450 2200 2450
 $Comp
-L Device:R R197
+L Device:R_Small R197
 U 1 1 5E979E74
 P 2450 2450
 F 0 "R197" V 2243 2450 50  0000 C CNN
@@ -2267,11 +2259,21 @@ F 3 "~" H 2450 2450 50  0001 C CNN
 	1    2450 2450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2300 2450 2200 2450
 Connection ~ 2200 2450
 Text Label 2950 2450 2    50   ~ 0
 M2BADD
 Wire Wire Line
-	2600 2450 2950 2450
+	4250 2350 4650 2350
+Wire Wire Line
+	4250 2700 4650 2700
+Wire Wire Line
+	3850 2350 4050 2350
+Wire Wire Line
+	3850 2700 4050 2700
+Wire Wire Line
+	2200 2450 2350 2450
+Wire Wire Line
+	2550 2450 2950 2450
+Text Notes 750  1950 0    50   ~ 0
+Verify if this is the XOR from the CYA Page
 $EndSCHEMATC

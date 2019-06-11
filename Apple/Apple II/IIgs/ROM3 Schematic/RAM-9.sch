@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22D2A
 P 3450 2200
 F 0 "U?" H 3550 3150 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 3200 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22D4E
 P 5650 2200
 F 0 "U?" H 5800 3150 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 5400 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22D61
 P 7800 2200
 F 0 "U?" H 7900 3150 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 7550 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22D78
 P 9900 2200
 F 0 "U?" H 10000 3150 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 9650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22D8D
 P 9950 5500
 F 0 "U?" H 10050 6450 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 9700 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22DAC
 P 7950 5500
 F 0 "U?" H 8050 6450 50  0000 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 7700 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22DCC
 P 5700 5500
 F 0 "U?" H 5800 6450 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 5450 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:HMS511000-Apple_IIgs_Symbols U?
+L IIgs-Schematic:HMS511000 U?
 U 1 1 5BF22DF0
 P 3500 5450
 F 0 "U?" H 3600 6400 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 3250 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:IIgs-ROM-Apple_IIgs_Symbols U?
+L IIgs-Schematic:IIgs-ROM U?
 U 1 1 5BF22ECB
 P 3500 8900
 F 0 "U?" H 3600 10000 50  0000 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 3250 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:IIgs-ROM-Apple_IIgs_Symbols U?
+L IIgs-Schematic:IIgs-ROM U?
 U 1 1 5BF22EF8
 P 6550 8900
 F 0 "U?" H 6650 9950 50  0000 C CNN
