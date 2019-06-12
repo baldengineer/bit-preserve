@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+LIBS:frontpanel-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS04 IC_Z1
+U 4 1 5D4B5E08
+P 3175 3675
+F 0 "IC_Z1" H 3175 3992 50  0000 C CNN
+F 1 "7404" H 3175 3901 50  0000 C CNN
+F 2 "" H 3175 3675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3175 3675 50  0001 C CNN
+	4    3175 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 3675 2400 3675
+Text HLabel 2400 3675 0    50   Input ~ 0
+PSYNC
+$Comp
+L 74xx:74LS04 IC_Z1
+U 1 1 5D4B6678
+P 4000 2675
+F 0 "IC_Z1" H 4000 2992 50  0000 C CNN
+F 1 "7404" H 4000 2901 50  0000 C CNN
+F 2 "" H 4000 2675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 2675 50  0001 C CNN
+	1    4000 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 IC_Z1
+U 2 1 5D4B7718
+P 4000 3175
+F 0 "IC_Z1" H 4000 3492 50  0000 C CNN
+F 1 "7404" H 4000 3401 50  0000 C CNN
+F 2 "" H 4000 3175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 3175 50  0001 C CNN
+	2    4000 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 IC_Z1
+U 3 1 5D4B7DD7
+P 4000 3675
+F 0 "IC_Z1" H 4000 3992 50  0000 C CNN
+F 1 "7404" H 4000 3901 50  0000 C CNN
+F 2 "" H 4000 3675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 3675 50  0001 C CNN
+	3    4000 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 IC_Z1
+U 5 1 5D4B7DE1
+P 4000 4175
+F 0 "IC_Z1" H 4000 4492 50  0000 C CNN
+F 1 "7404" H 4000 4401 50  0000 C CNN
+F 2 "" H 4000 4175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 4175 50  0001 C CNN
+	5    4000 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 IC_Z1
+U 6 1 5D4B9301
+P 4000 4675
+F 0 "IC_Z1" H 4000 4992 50  0000 C CNN
+F 1 "7404" H 4000 4901 50  0000 C CNN
+F 2 "" H 4000 4675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 4675 50  0001 C CNN
+	6    4000 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3675 3575 3675
+Wire Wire Line
+	3700 4675 3575 4675
+Wire Wire Line
+	3575 4675 3575 4175
+Wire Wire Line
+	3575 2675 3700 2675
+Wire Wire Line
+	3700 3175 3575 3175
+Connection ~ 3575 3175
+Wire Wire Line
+	3575 3175 3575 2675
+Wire Wire Line
+	3700 4175 3575 4175
+Connection ~ 3575 4175
+Wire Wire Line
+	3575 4175 3575 3675
+Connection ~ 3575 3675
+Wire Wire Line
+	3575 3675 3700 3675
+Wire Wire Line
+	3575 3675 3575 3175
+Wire Wire Line
+	4300 2675 4425 2675
+Wire Wire Line
+	4425 2675 4425 3175
+Wire Wire Line
+	4425 4675 4300 4675
+Wire Wire Line
+	4300 4175 4425 4175
+Connection ~ 4425 4175
+Wire Wire Line
+	4425 4175 4425 4675
+Wire Wire Line
+	4300 3675 4425 3675
+Connection ~ 4425 3675
+Wire Wire Line
+	4425 3675 4425 4175
+Wire Wire Line
+	4300 3175 4425 3175
+Connection ~ 4425 3175
+Wire Wire Line
+	4425 3175 4425 3675
+Wire Wire Line
+	4425 3675 5075 3675
+Text HLabel 5075 3675 2    50   Output ~ 0
+PSYNC_AMP
+$EndSCHEMATC

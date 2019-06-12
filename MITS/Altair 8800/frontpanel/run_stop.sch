@@ -1,0 +1,244 @@
+EESchema Schematic File Version 4
+LIBS:frontpanel-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS04 IC_W?
+U 6 1 5D0341E8
+P 4800 3800
+AR Path="/5D02F036/5D0341E8" Ref="IC_W?"  Part="1" 
+AR Path="/5D0327F2/5D0341E8" Ref="IC_V1"  Part="6" 
+F 0 "IC_V1" H 4900 3950 50  0000 C CNN
+F 1 "74L04" H 4850 3650 50  0000 C CNN
+F 2 "" H 4800 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4800 3800 50  0001 C CNN
+	6    4800 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3650 4500 3800
+$Comp
+L Device:R R1
+U 1 1 5D034A3E
+P 4025 2875
+F 0 "R1" V 3925 2875 50  0000 C CNN
+F 1 "1k" V 4025 2875 50  0000 C CNN
+F 2 "" V 3955 2875 50  0001 C CNN
+F 3 "~" H 4025 2875 50  0001 C CNN
+	1    4025 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D03524F
+P 4225 2875
+F 0 "R2" V 4125 2875 50  0000 C CNN
+F 1 "1k" V 4225 2875 50  0000 C CNN
+F 2 "" V 4155 2875 50  0001 C CNN
+F 3 "~" H 4225 2875 50  0001 C CNN
+	1    4225 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4025 3025 4025 3450
+Connection ~ 4025 3450
+Wire Wire Line
+	4025 3450 4500 3450
+Wire Wire Line
+	4225 3025 4225 3650
+Connection ~ 4225 3650
+Wire Wire Line
+	4225 3650 4500 3650
+Wire Wire Line
+	4025 2725 4025 2675
+Wire Wire Line
+	4025 2675 4225 2675
+Wire Wire Line
+	4225 2675 4225 2725
+Wire Wire Line
+	4025 2675 4025 2625
+Connection ~ 4025 2675
+$Comp
+L power:+5V #PWR0112
+U 1 1 5D035DB1
+P 4025 2625
+F 0 "#PWR0112" H 4025 2475 50  0001 C CNN
+F 1 "+5V" H 4040 2798 50  0000 C CNN
+F 2 "" H 4025 2625 50  0001 C CNN
+F 3 "" H 4025 2625 50  0001 C CNN
+	1    4025 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 IC_S1
+U 3 1 5D0363DB
+P 5800 3900
+F 0 "IC_S1" H 5800 4225 50  0000 C CNN
+F 1 "74L10" H 5800 4134 50  0000 C CNN
+F 2 "" H 5800 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 5800 3900 50  0001 C CNN
+	3    5800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3800 5500 3800
+Wire Wire Line
+	5500 4000 5400 4000
+Wire Wire Line
+	5400 4000 5400 4250
+Wire Wire Line
+	5400 4250 2375 4250
+Text HLabel 2375 4250 0    50   Input ~ 0
+DO5
+Wire Wire Line
+	5500 3900 5300 3900
+Wire Wire Line
+	5300 3900 5300 4150
+Wire Wire Line
+	5300 4150 2375 4150
+Text HLabel 2375 4150 0    50   Input ~ 0
+PSYNC
+$Comp
+L 74xx:74LS00 IC_H1
+U 4 1 5D03815E
+P 7000 3800
+F 0 "IC_H1" H 7000 3483 50  0000 C CNN
+F 1 "7400" H 7000 3574 50  0000 C CNN
+F 2 "" H 7000 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7000 3800 50  0001 C CNN
+	4    7000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 IC_H1
+U 3 1 5D03968F
+P 7000 3175
+F 0 "IC_H1" H 7000 3500 50  0000 C CNN
+F 1 "7400" H 7000 3400 50  0000 C CNN
+F 2 "" H 7000 3175 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7000 3175 50  0001 C CNN
+	3    7000 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3700 6700 3600
+Wire Wire Line
+	7300 3175 7300 3375
+Wire Wire Line
+	7300 3800 7300 3600
+Wire Wire Line
+	6700 3275 6700 3375
+Wire Wire Line
+	6700 3375 7300 3600
+Wire Wire Line
+	7300 3375 6700 3600
+Connection ~ 7300 3800
+Connection ~ 7300 3175
+Text Notes 6575 3050 0    50   ~ 0
+~R
+Text Notes 6575 4025 0    50   ~ 0
+~S
+Text Notes 7350 3900 0    50   ~ 0
+Q
+Text Notes 7350 3150 0    50   ~ 0
+~Q
+Wire Notes Line
+	6550 4225 7450 4225
+Wire Notes Line
+	7450 4225 7450 2750
+Wire Notes Line
+	7450 2750 6550 2750
+Wire Notes Line
+	6550 2750 6550 4225
+Text Notes 6775 4350 0    50   ~ 0
+RUN/STOP FF
+Wire Wire Line
+	6100 3900 6700 3900
+Wire Wire Line
+	4500 3075 4500 3450
+Wire Wire Line
+	4500 3075 6700 3075
+Wire Wire Line
+	7300 3175 7900 3175
+Wire Wire Line
+	7300 3800 9575 3800
+Text HLabel 9575 3800 2    50   Output ~ 0
+~RUN
+Text HLabel 9575 3175 2    50   Output ~ 0
+RUN
+$Comp
+L Device:R R20
+U 1 1 5D4C6FB5
+P 8675 2750
+AR Path="/5D0327F2/5D4C6FB5" Ref="R20"  Part="1" 
+AR Path="/5D057731/5D4C6FB5" Ref="R?"  Part="1" 
+F 0 "R20" V 8575 2750 50  0000 C CNN
+F 1 "270k" V 8675 2750 50  0000 C CNN
+F 2 "" V 8605 2750 50  0001 C CNN
+F 3 "~" H 8675 2750 50  0001 C CNN
+	1    8675 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D4C6FBB
+P 8675 2500
+AR Path="/5D057731/5D4C6FBB" Ref="C?"  Part="1" 
+AR Path="/5D0327F2/5D4C6FBB" Ref="C11"  Part="1" 
+F 0 "C11" V 8423 2500 50  0000 C CNN
+F 1 "100n" V 8514 2500 50  0000 C CNN
+F 2 "" H 8713 2350 50  0001 C CNN
+F 3 "~" H 8675 2500 50  0001 C CNN
+	1    8675 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8825 2500 8875 2500
+Wire Wire Line
+	8875 2500 8875 2625
+Wire Wire Line
+	8875 2750 8825 2750
+Wire Wire Line
+	8525 2500 8450 2500
+Wire Wire Line
+	8450 2500 8450 2625
+Wire Wire Line
+	8450 2750 8525 2750
+Connection ~ 8450 2625
+Wire Wire Line
+	8450 2625 8450 2750
+Connection ~ 8875 2625
+Wire Wire Line
+	8875 2625 8875 2750
+Wire Wire Line
+	7900 2625 7900 3175
+Wire Wire Line
+	7900 2625 8450 2625
+Connection ~ 7900 3175
+Wire Wire Line
+	7900 3175 9575 3175
+Wire Wire Line
+	8875 2625 9575 2625
+Text HLabel 9575 2625 2    50   Output ~ 0
+RUN_PULSE
+Wire Wire Line
+	2375 3650 4225 3650
+Wire Wire Line
+	2375 3450 4025 3450
+Text HLabel 2375 3450 0    50   Input ~ 0
+RUN_SW
+Text HLabel 2375 3650 0    50   Input ~ 0
+STOP_SW
+$EndSCHEMATC
