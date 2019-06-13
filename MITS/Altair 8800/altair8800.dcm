@@ -18,6 +18,16 @@ K buffer tristate
 F https://archive.org/download/8T9598Datasheet/8T95-98%20datasheet.pdf
 $ENDCMP
 #
+$CMP D_DIAG
+D Diode (at 45 degrees)
+K diode
+$ENDCMP
+#
+$CMP P-6138
+D Transformer, one primary, two secondaries (one center tapped)
+K transformer
+$ENDCMP
+#
 $CMP S100_CARD_EDGE
 D Card edge connector for S100 bus, functional blocks
 K S100
