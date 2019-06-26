@@ -6,6 +6,12 @@ K cpu, microprocessor
 F https://archive.org/download/8080Datasheet/8080%20Datasheet.pdf
 $ENDCMP
 #
+$CMP 8101
+D 1024-bit (256x4) static MOS RAM with separate I/O
+K memory
+F https://archive.org/details/bitsavers_inteldataBtalog_46775480/page/n443
+$ENDCMP
+#
 $CMP 8212
 D 8-Bit Input/Output Port
 K IO Port
