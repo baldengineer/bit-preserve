@@ -5,5 +5,11 @@ No Systems Exist Here Yet :(
 * PET
 * VIC 20
 * C64
+  * Schematic 326106 (PCB 326298-01)
+  * Schematic 251022 (PCB KU-14194HB)
+  * Schematic 251138 (PCB 250407-04)
+  * Schematic 251469 (PCB 250425-01, 240441-01)
 * C64C
+  * Schematic 252278 (PCB 250466)
+  * Schematic 252312 (PCB 250469)
 * C128
