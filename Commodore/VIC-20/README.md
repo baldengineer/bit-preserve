@@ -5,5 +5,3 @@ The schematic for the Commodore VIC-20 (251027-01 Rev D) was taken from the sche
 
 I have also created KiCad footprints and symbols for the custom components.
 
-# KiCad thumbnail of schematic
-![](Commodore/VIC-20/images/commodore-vic20-thumb.png)
