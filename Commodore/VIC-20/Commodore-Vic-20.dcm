@@ -1,0 +1,104 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2114
+D Static RAM 1k x 4
+K 1k x 4 RAM
+F https://www.princeton.edu/~mae412/HANDOUTS/Datasheets/2114.pdf
+$ENDCMP
+#
+$CMP 2116
+D Static RAM 2k x 8
+K 2k x 8 SRAM
+F https://www.intel-vintage.info/intelmemory.htm
+$ENDCMP
+#
+$CMP 2332
+D Static read only memory 4096x8
+K 4k x 8 ROM
+F http://archive.6502.org/datasheets/mos_2332_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 2364
+D Static read only memory 8182x8
+K 8k x 8 ROM
+F http://archive.6502.org/datasheets/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 4066
+D CMOS Quad Bilateral Switch
+K CMOS Quad Bilateral Switch
+F http://www.ti.com/lit/ds/symlink/cd4066b.pdf
+$ENDCMP
+#
+$CMP 6502
+D NMOS Microprocessor, 65Kb memory, DIP-40
+K NMOS Microprocessor
+F http://archive.6502.org/datasheets/mos_6500_mpu_nov_1985.pdf
+$ENDCMP
+#
+$CMP 6522
+D MOS Versatile Interface Adapter
+K Commodore VIA
+F http://archive.6502.org/datasheets/mos_6522_preliminary_nov_1977.pdf
+$ENDCMP
+#
+$CMP 6560
+D Commodore Video Interface Chip
+K Commodore VIC
+F http://archive.6502.org/datasheets/mos_6560_6561_vic.pdf
+$ENDCMP
+#
+$CMP 74HC245
+D Octal BUS Transceivers, 3-State outputs
+K HCMOS BUS 3State
+F http://www.ti.com/lit/gpn/sn74HC245
+$ENDCMP
+#
+$CMP 74LS245
+D Octal BUS Transceivers, 3-State outputs
+K TTL BUS 3State
+F http://www.ti.com/lit/gpn/sn74LS245
+$ENDCMP
+#
+$CMP CONN_44_EDGE
+D Commodore 44 pin edge
+K 44 pin edge
+$ENDCMP
+#
+$CMP CONN_7_POWER
+D Commodore 7 pin power connector
+K 7 pin power connector
+$ENDCMP
+#
+$CMP CONN_Cassette
+D Commodore Cassette Connector
+K cassette connector
+$ENDCMP
+#
+$CMP CONN_Expansion_Port
+D 44 pin expansion port
+K expansion port
+$ENDCMP
+#
+$CMP CONN_Keyboard
+D Commodore Keyboard Connector
+K keyboard connector
+$ENDCMP
+#
+$CMP CONN_Serial
+D Commodore Serial Connector
+K seriall connector
+$ENDCMP
+#
+$CMP CONN_User_Port
+D 24 pin user port
+K user port
+$ENDCMP
+#
+$CMP M58725
+D Static RAM 2k x 8
+K 2k x 8 SRAM
+F https://www.intel-vintage.info/intelmemory.htm
+$ENDCMP
+#
+#End Doc Library
