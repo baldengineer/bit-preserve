@@ -1,9 +1,9 @@
 # Commodore
-No Systems Exist Here Yet :(
+* VIC-20 251027
+* Plus4 314001-04 (PCB 310162 Rev D)
 
 # Wishlist
 * PET
-* VIC 20
 * C64
   * Schematic 326106 (PCB 326298-01)
   * Schematic 251022 (PCB KU-14194HB)
