@@ -9,3 +9,9 @@ The PCB (Rev 310162 Rev D) layout (components only) has also been completed and 
 
 I have also created KiCad footprints and symbols for the custom components.
 
+
+# Kicad Schematic thumb
+![](https://github.com/baldengineer/bit-preserve/blob/master/Commodore/Plus4/images/commodore-plus4-schematic-thumb.png)
+
+# 3D PCB Layout
+![](https://github.com/baldengineer/bit-preserve/blob/master/Commodore/Plus4/images/commodore-plus4-3d.png)
