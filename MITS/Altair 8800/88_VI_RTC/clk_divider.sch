@@ -1,0 +1,271 @@
+EESchema Schematic File Version 4
+LIBS:88_VI_RTC-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L altair8800:9310 IC_W1
+U 1 1 5D1DA423
+P 4250 3650
+F 0 "IC_W1" H 4400 4300 50  0000 C CNN
+F 1 "9310" H 4450 4200 50  0000 C CNN
+F 2 "" H 4450 4250 50  0001 C CNN
+F 3 "https://archive.org/details/bitsavers_motoroladaTTLIntegratedCircuitsDataBook_38442857/page/n465" H 4450 4250 50  0001 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D1DA429
+P 4250 3050
+AR Path="/5D18119F/5D1DA429" Ref="#PWR?"  Part="1" 
+AR Path="/5D18119F/5D1D7F69/5D1DA429" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4250 2900 50  0001 C CNN
+F 1 "+5V" H 4265 3223 50  0000 C CNN
+F 2 "" H 4250 3050 50  0001 C CNN
+F 3 "" H 4250 3050 50  0001 C CNN
+	1    4250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0114
+U 1 1 5D1DA42F
+P 4250 4350
+F 0 "#PWR0114" H 4250 4100 50  0001 C CNN
+F 1 "GNDREF" H 4255 4177 50  0001 C CNN
+F 2 "" H 4250 4350 50  0001 C CNN
+F 3 "" H 4250 4350 50  0001 C CNN
+	1    4250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L altair8800:9310 IC_U1
+U 1 1 5D1DA435
+P 5700 3650
+F 0 "IC_U1" H 5850 4300 50  0000 C CNN
+F 1 "9310" H 5900 4200 50  0000 C CNN
+F 2 "" H 5900 4250 50  0001 C CNN
+F 3 "https://archive.org/details/bitsavers_motoroladaTTLIntegratedCircuitsDataBook_38442857/page/n465" H 5900 4250 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 5D1DA43B
+P 5700 3050
+F 0 "#PWR0115" H 5700 2900 50  0001 C CNN
+F 1 "+5V" H 5715 3223 50  0000 C CNN
+F 2 "" H 5700 3050 50  0001 C CNN
+F 3 "" H 5700 3050 50  0001 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0116
+U 1 1 5D1DA441
+P 5700 4350
+F 0 "#PWR0116" H 5700 4100 50  0001 C CNN
+F 1 "GNDREF" H 5705 4177 50  0001 C CNN
+F 2 "" H 5700 4350 50  0001 C CNN
+F 3 "" H 5700 4350 50  0001 C CNN
+	1    5700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L altair8800:9310 IC_S1
+U 1 1 5D1DA447
+P 7150 3650
+F 0 "IC_S1" H 7300 4300 50  0000 C CNN
+F 1 "9310" H 7350 4200 50  0000 C CNN
+F 2 "" H 7350 4250 50  0001 C CNN
+F 3 "https://archive.org/details/bitsavers_motoroladaTTLIntegratedCircuitsDataBook_38442857/page/n465" H 7350 4250 50  0001 C CNN
+	1    7150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 5D1DA44D
+P 7150 3050
+F 0 "#PWR0117" H 7150 2900 50  0001 C CNN
+F 1 "+5V" H 7165 3223 50  0000 C CNN
+F 2 "" H 7150 3050 50  0001 C CNN
+F 3 "" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0118
+U 1 1 5D1DA453
+P 7150 4350
+F 0 "#PWR0118" H 7150 4100 50  0001 C CNN
+F 1 "GNDREF" H 7155 4177 50  0001 C CNN
+F 2 "" H 7150 4350 50  0001 C CNN
+F 3 "" H 7150 4350 50  0001 C CNN
+	1    7150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3750 4900 3750
+Wire Wire Line
+	4900 3750 4900 3950
+Wire Wire Line
+	4900 3950 5300 3950
+Wire Wire Line
+	6100 3750 6350 3750
+Wire Wire Line
+	6350 3750 6350 3950
+Wire Wire Line
+	6350 3950 6750 3950
+Wire Wire Line
+	7550 3750 9050 3750
+Text HLabel 9050 3750 2    50   Output ~ 0
+D
+Wire Wire Line
+	6350 3950 6350 4700
+Wire Wire Line
+	6350 4700 9050 4700
+Connection ~ 6350 3950
+Text HLabel 9050 4700 2    50   Output ~ 0
+C
+Wire Wire Line
+	4900 3950 4900 4800
+Wire Wire Line
+	4900 4800 9050 4800
+Connection ~ 4900 3950
+Text HLabel 9050 4800 2    50   Output ~ 0
+B
+Wire Wire Line
+	3850 3950 2450 3950
+Text HLabel 2450 3950 0    50   Input ~ 0
+S
+Wire Wire Line
+	3850 4150 3450 4150
+Wire Wire Line
+	3450 4150 3450 4050
+Wire Wire Line
+	3850 4050 3450 4050
+Connection ~ 3450 4050
+Wire Wire Line
+	3450 4050 3450 3750
+Wire Wire Line
+	3850 3750 3450 3750
+Connection ~ 3450 3750
+Wire Wire Line
+	3450 3750 3450 2650
+Wire Wire Line
+	5300 3750 5000 3750
+Wire Wire Line
+	5000 3750 5000 2650
+Wire Wire Line
+	5300 4050 5000 4050
+Wire Wire Line
+	5000 4050 5000 3750
+Connection ~ 5000 3750
+Wire Wire Line
+	5300 4150 5000 4150
+Wire Wire Line
+	5000 4150 5000 4050
+Connection ~ 5000 4050
+Wire Wire Line
+	6750 3750 6450 3750
+Wire Wire Line
+	6450 3750 6450 2650
+Wire Wire Line
+	6750 4050 6450 4050
+Wire Wire Line
+	6450 4050 6450 3750
+Connection ~ 6450 3750
+Wire Wire Line
+	6750 4150 6450 4150
+Wire Wire Line
+	6450 4150 6450 4050
+Connection ~ 6450 4050
+Wire Wire Line
+	3450 2650 5000 2650
+Connection ~ 5000 2650
+Wire Wire Line
+	5000 2650 6450 2650
+$Comp
+L Device:R R19
+U 1 1 5D1DDE3E
+P 5000 2400
+F 0 "R19" V 5100 2350 50  0000 L CNN
+F 1 "1k" V 5000 2350 50  0000 L CNN
+F 2 "" V 4930 2400 50  0001 C CNN
+F 3 "~" H 5000 2400 50  0001 C CNN
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D1DE0F5
+P 5000 2250
+AR Path="/5D18119F/5D1DE0F5" Ref="#PWR?"  Part="1" 
+AR Path="/5D18119F/5D1D7F69/5D1DE0F5" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 5000 2100 50  0001 C CNN
+F 1 "+5V" H 5015 2423 50  0000 C CNN
+F 2 "" H 5000 2250 50  0001 C CNN
+F 3 "" H 5000 2250 50  0001 C CNN
+	1    5000 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2550 5000 2650
+Wire Wire Line
+	3850 3850 3650 3850
+Wire Wire Line
+	3650 3850 3650 4550
+Wire Wire Line
+	3650 4550 2450 4550
+Text HLabel 2450 4550 0    50   Input ~ 0
+~RST
+Wire Wire Line
+	3650 4550 5200 4550
+Wire Wire Line
+	5200 4550 5200 3850
+Wire Wire Line
+	5200 3850 5300 3850
+Connection ~ 3650 4550
+Wire Wire Line
+	5200 4550 6650 4550
+Wire Wire Line
+	6650 4550 6650 3850
+Wire Wire Line
+	6650 3850 6750 3850
+Connection ~ 5200 4550
+NoConn ~ 3850 3250
+NoConn ~ 3850 3350
+NoConn ~ 3850 3450
+NoConn ~ 3850 3550
+NoConn ~ 4650 3250
+NoConn ~ 4650 3350
+NoConn ~ 4650 3450
+NoConn ~ 4650 3550
+NoConn ~ 5300 3250
+NoConn ~ 5300 3350
+NoConn ~ 5300 3450
+NoConn ~ 5300 3550
+NoConn ~ 6100 3250
+NoConn ~ 6100 3350
+NoConn ~ 6100 3450
+NoConn ~ 6100 3550
+NoConn ~ 6750 3250
+NoConn ~ 6750 3350
+NoConn ~ 6750 3450
+NoConn ~ 6750 3550
+NoConn ~ 7550 3250
+NoConn ~ 7550 3350
+NoConn ~ 7550 3450
+NoConn ~ 7550 3550
+$EndSCHEMATC
