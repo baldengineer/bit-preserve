@@ -1,0 +1,88 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 23128
+D 23128 Static read only memory, 16k x 8, 28 pin
+K 23128 ROM
+F https://pdf-datasheet-datasheet.netdna-ssl.com/pdf-down/2/3/1/23128-Commodore.pdf
+$ENDCMP
+#
+$CMP 24PinEdge
+D Connector Europe 64 contacts ranges A,B
+K connector DIN
+F  ~
+$ENDCMP
+#
+$CMP 251641
+D Commodore 251641-02 PLA
+K 251641 7700-010 PLA
+$ENDCMP
+#
+$CMP 4164
+D 4164 NMOS 64K Dynamic Ram, DIP-16
+K 4164 RAM
+F http://www.farnell.com/datasheets/1905614.pdf
+$ENDCMP
+#
+$CMP 50PinEdge
+D Connector Europe 64 contacts ranges A,B
+K connector DIN
+F  ~
+$ENDCMP
+#
+$CMP 6529
+D 6529 NMOS Single Port Interface (SPI), 8-pin I/O, DIP-20
+K 6502 6529 SPI I/O
+F http://www.6502.org/documents/datasheets/mos/mos_6529_spi.pdf
+$ENDCMP
+#
+$CMP 6551
+D 6551 NMOS Asynchronous Communication Interface Adapter (ACIA), Serial UART, DIP-28
+K 6551 ACIA UART
+F http://www.6502.org/documents/datasheets/mos/mos_6551_acia.pdf
+$ENDCMP
+#
+$CMP 8360
+D Commodore 8360 Text Editing Device (TED)
+K Commodore 8360 TED
+F https://plus4world.powweb.com/hardware/MOS_73608360
+$ENDCMP
+#
+$CMP 8501
+D 8501 8-bit HMOS Microprocessor, 64K, 7-bit I/O Port, DIP-40
+K 8501 CPU uP
+F https://ist.uwaterloo.ca/~schepers/MJK/7501.html
+$ENDCMP
+#
+$CMP 9VAC1
+D Power flag, 9V AC
+K power-flag
+$ENDCMP
+#
+$CMP 9VAC2
+D Power flag, 9V AC
+K power-flag
+$ENDCMP
+#
+$CMP EMI_Filter
+D EMI T-filter (CLC)
+K EMI T-filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Jumper_NC_Dual
+D Dual jumper, normally closed
+K jumper bridge link NC
+F ~
+$ENDCMP
+#
+$CMP L_Coupled_Small
+D 4 resistor network, star topology, bussed resistors, small US symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP RFMODULATOR
+D RF Modulator
+$ENDCMP
+#
+#End Doc Library
