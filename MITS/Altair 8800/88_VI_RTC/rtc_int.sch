@@ -1,0 +1,140 @@
+EESchema Schematic File Version 4
+LIBS:88_VI_RTC-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS73 IC_F?
+U 2 1 5D8419AE
+P 6000 3400
+AR Path="/5D22C00E/5D8419AE" Ref="IC_F?"  Part="2" 
+AR Path="/5D83F185/5D8419AE" Ref="IC_F1"  Part="2" 
+F 0 "IC_F1" H 6000 3767 50  0000 C CNN
+F 1 "74LS73" H 6000 3676 50  0000 C CNN
+F 2 "" H 6000 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS73" H 6000 3400 50  0001 C CNN
+	2    6000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3950 6000 3700
+Wire Wire Line
+	5700 3500 5550 3500
+Wire Wire Line
+	5550 3500 5550 3650
+$Comp
+L power:GNDREF #PWR0132
+U 1 1 5D8419B7
+P 5550 3650
+F 0 "#PWR0132" H 5550 3400 50  0001 C CNN
+F 1 "GNDREF" H 5555 3477 50  0001 C CNN
+F 2 "" H 5550 3650 50  0001 C CNN
+F 3 "" H 5550 3650 50  0001 C CNN
+	1    5550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3300 5550 3300
+Wire Wire Line
+	5700 3400 5350 3400
+$Comp
+L 74xx:74LS03 IC_G?
+U 3 1 5D8419BF
+P 5000 3400
+AR Path="/5D22C00E/5D8419BF" Ref="IC_G?"  Part="3" 
+AR Path="/5D83F185/5D8419BF" Ref="IC_G1"  Part="3" 
+F 0 "IC_G1" H 5000 3083 50  0000 C CNN
+F 1 "7403" H 5000 3174 50  0000 C CNN
+F 2 "" H 5000 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS03" H 5000 3400 50  0001 C CNN
+	3    5000 3400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5350 3400 5350 3050
+Connection ~ 5350 3400
+Wire Wire Line
+	5350 3400 5300 3400
+$Comp
+L Device:R R?
+U 1 1 5D8419C8
+P 5350 2900
+AR Path="/5D22C00E/5D8419C8" Ref="R?"  Part="1" 
+AR Path="/5D83F185/5D8419C8" Ref="R13"  Part="1" 
+F 0 "R13" V 5450 2850 50  0000 L CNN
+F 1 "1k" V 5350 2850 50  0000 L CNN
+F 2 "" V 5280 2900 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 5D8419CE
+P 5350 2750
+F 0 "#PWR0133" H 5350 2600 50  0001 C CNN
+F 1 "+5V" H 5365 2923 50  0000 C CNN
+F 2 "" H 5350 2750 50  0001 C CNN
+F 3 "" H 5350 2750 50  0001 C CNN
+	1    5350 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6300 3500
+$Comp
+L 74xx:74LS03 IC_G?
+U 1 1 5D8419D5
+P 6850 3300
+AR Path="/5D22C00E/5D8419D5" Ref="IC_G?"  Part="1" 
+AR Path="/5D83F185/5D8419D5" Ref="IC_G1"  Part="1" 
+F 0 "IC_G1" H 6850 3625 50  0000 C CNN
+F 1 "7403" H 6850 3534 50  0000 C CNN
+F 2 "" H 6850 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS03" H 6850 3300 50  0001 C CNN
+	1    6850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3300 6450 3300
+Wire Wire Line
+	6450 3300 6450 3200
+Wire Wire Line
+	6450 3200 6550 3200
+Wire Wire Line
+	6450 3300 6450 3400
+Wire Wire Line
+	6450 3400 6550 3400
+Connection ~ 6450 3300
+Wire Wire Line
+	7150 3300 8750 3300
+Text HLabel 8750 3300 2    50   Output ~ 0
+RI
+Text HLabel 3500 3300 0    50   Input ~ 0
+RTC
+Wire Wire Line
+	3500 3300 4700 3300
+Wire Wire Line
+	3500 3500 4700 3500
+Text HLabel 3500 3500 0    50   Input ~ 0
+RTC_EN
+Wire Wire Line
+	6000 3950 3500 3950
+Text HLabel 3500 3950 0    50   Input ~ 0
+~RST_RTC_INT
+Wire Wire Line
+	5550 3300 5550 2250
+Wire Wire Line
+	5550 2250 3500 2250
+Text HLabel 3500 2250 0    50   Input ~ 0
++V
+$EndSCHEMATC
