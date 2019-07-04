@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6502
+D 8-bit microprocessor
+K CPU
+F https://ia601508.us.archive.org/12/items/mos_6500_mpu_preliminary_may_1976/mos_6500_mpu_preliminary_may_1976.pdf
+$ENDCMP
+#
+$CMP 6502A
+D 8-bit microprocessor
+K CPU
+F https://ia601508.us.archive.org/12/items/mos_6500_mpu_preliminary_may_1976/mos_6500_mpu_preliminary_may_1976.pdf
+$ENDCMP
+#
+$CMP 6502B
+D 8-bit microprocessor
+K CPU
+F https://ia601508.us.archive.org/12/items/mos_6500_mpu_preliminary_may_1976/mos_6500_mpu_preliminary_may_1976.pdf
+$ENDCMP
+#
+$CMP 6502C
+D 8-bit microprocessor
+K CPU
+F https://ia601508.us.archive.org/12/items/mos_6500_mpu_preliminary_may_1976/mos_6500_mpu_preliminary_may_1976.pdf
+$ENDCMP
+#
+#End Doc Library

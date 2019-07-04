@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6520
+D Peripheral Interface Adapter
+K PIA
+F https://archive.org/details/rockwell_r6520_pia
+$ENDCMP
+#
+#End Doc Library

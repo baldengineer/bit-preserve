@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ANTIC_C012296
+D Alphanumeric Television Interface Controller, NTSC, for Atari 400, 800, 1200XL
+K CPU
+F https://en.wikipedia.org/wiki/ANTIC
+$ENDCMP
+#
+$CMP ANTIC_C014887
+D Alphanumeric Television Interface Controller, PAL/SECAM, for Atari 400 and 800
+K CPU
+F https://en.wikipedia.org/wiki/ANTIC
+$ENDCMP
+#
+$CMP ANTIC_C021697
+D Alphanumeric Television Interface Controller, NTSC, for Atari 600XL, 800XL, and XE
+K CPU
+F https://en.wikipedia.org/wiki/ANTIC
+$ENDCMP
+#
+$CMP ANTIC_C021698
+D Alphanumeric Television Interface Controller, PAL/SECAM, for Atari XL and XE
+K CPU
+F https://en.wikipedia.org/wiki/ANTIC
+$ENDCMP
+#
+$CMP GTIA_C014805
+D Graphic Television Interface Adapter, NTSC
+K Interface
+F https://en.wikipedia.org/wiki/CTIA_and_GTIA
+$ENDCMP
+#
+$CMP GTIA_C014889
+D Graphic Television Interface Adapter, PAL
+K Interface
+F https://en.wikipedia.org/wiki/CTIA_and_GTIA
+$ENDCMP
+#
+$CMP GTIA_C020120
+D Graphic Television Interface Adapter, SECAM
+K Interface
+F https://en.wikipedia.org/wiki/CTIA_and_GTIA
+$ENDCMP
+#
+#End Doc Library

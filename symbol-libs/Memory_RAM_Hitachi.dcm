@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HM4865
+D 64kx1 DRAM with hidden refresh
+K RAM
+F https://archive.org/details/bitsavers_hitachidatiICMemoriesDataBook_26648894/page/n265
+$ENDCMP
+#
+$CMP HM4865AP-12
+D 64kx1 DRAM with hidden refresh
+K RAM
+F https://archive.org/details/bitsavers_hitachidatiICMemoriesDataBook_26648894/page/n265
+$ENDCMP
+#
+$CMP HM4865AP-15
+D 64kx1 DRAM with hidden refresh
+K RAM
+F https://archive.org/details/bitsavers_hitachidatiICMemoriesDataBook_26648894/page/n265
+$ENDCMP
+#
+$CMP HM4865AP-20
+D 64kx1 DRAM with hidden refresh
+K RAM
+F https://archive.org/details/bitsavers_hitachidatiICMemoriesDataBook_26648894/page/n265
+$ENDCMP
+#
+#End Doc Library
