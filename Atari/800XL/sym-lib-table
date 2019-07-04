@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name CPU_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../symbol-libs/CPU_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name Video_Atari)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Video_Atari.lib")(options "")(descr ""))
+  (lib (name Audio_Atari)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Audio_Atari.lib")(options "")(descr ""))
+  (lib (name power_more)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/power_more.lib")(options "")(descr ""))
+  (lib (name Memory_Controller_Atari)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Memory_Controller_Atari.lib")(options "")(descr ""))
+  (lib (name Timer_PCA)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Timer_PCA.lib")(options "")(descr ""))
+  (lib (name Interface_Expansion_MOSTechnology)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Interface_Expansion_MOSTechnology.lib")(options "")(descr ""))
+  (lib (name Memory_RAM_Hitachi)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Memory_RAM_Hitachi.lib")(options "")(descr ""))
+  (lib (name RF_Module_Atari)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/RF_Module_Atari.lib")(options "")(descr ""))
+)

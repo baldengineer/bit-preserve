@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UM1652
+D RF modulator for Atari, NTSC
+K modulator, NTSC, Atari
+$ENDCMP
+#
+#End Doc Library

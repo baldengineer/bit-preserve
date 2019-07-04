@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BASIC_C060203
+D Atari BASIC ROM
+K ROM, Atari
+$ENDCMP
+#
+#End Doc Library
