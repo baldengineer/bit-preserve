@@ -1,0 +1,503 @@
+EESchema Schematic File Version 4
+LIBS:800XL-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EPROM:27128 U5
+U 1 1 5D2023B0
+P 5950 3150
+AR Path="/5D2020BA/5D2023B0" Ref="U5"  Part="1" 
+AR Path="/5E351416/5D2023B0" Ref="U?"  Part="1" 
+AR Path="/5E3516D9/5D2023B0" Ref="U?"  Part="1" 
+F 0 "U5" H 6100 4300 50  0000 C CNN
+F 1 "27128" H 6150 4200 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 5950 3150 50  0001 C CNN
+F 3 "http://eeshop.unl.edu/pdf/27128.pdf" H 5950 3150 50  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2050 5950 1900
+Wire Wire Line
+	5950 1900 5850 1900
+Connection ~ 5950 1900
+Wire Wire Line
+	5950 1900 5950 1800
+$Comp
+L Device:C C?
+U 1 1 5D207B87
+P 5700 1900
+AR Path="/5D970687/5D207B87" Ref="C?"  Part="1" 
+AR Path="/5DC52AD7/5D207B87" Ref="C?"  Part="1" 
+AR Path="/5D2020BA/5D207B87" Ref="C28"  Part="1" 
+AR Path="/5E351416/5D207B87" Ref="C?"  Part="1" 
+AR Path="/5E3516D9/5D207B87" Ref="C?"  Part="1" 
+F 0 "C28" V 5448 1900 50  0000 C CNN
+F 1 "100n" V 5539 1900 50  0000 C CNN
+F 2 "" H 5738 1750 50  0001 C CNN
+F 3 "~" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 1900 5500 1900
+Wire Wire Line
+	5500 1900 5500 1950
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5D207B8F
+P 5500 1950
+AR Path="/5D970687/5D207B8F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC52AD7/5D207B8F" Ref="#PWR?"  Part="1" 
+AR Path="/5D2020BA/5D207B8F" Ref="#PWR0244"  Part="1" 
+AR Path="/5E351416/5D207B8F" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D207B8F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0244" H 5500 1700 50  0001 C CNN
+F 1 "GNDREF" H 5505 1777 50  0001 C CNN
+F 2 "" H 5500 1950 50  0001 C CNN
+F 3 "" H 5500 1950 50  0001 C CNN
+	1    5500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0245
+U 1 1 5D207CD1
+P 5950 1800
+AR Path="/5D2020BA/5D207CD1" Ref="#PWR0245"  Part="1" 
+AR Path="/5E351416/5D207CD1" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D207CD1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0245" H 5950 1650 50  0001 C CNN
+F 1 "+5VA" H 5965 1973 50  0000 C CNN
+F 2 "" H 5950 1800 50  0001 C CNN
+F 3 "" H 5950 1800 50  0001 C CNN
+	1    5950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3950 5400 3950
+Wire Wire Line
+	5400 3950 5400 4050
+Wire Wire Line
+	5400 4050 5550 4050
+Wire Wire Line
+	5400 4050 3200 4050
+Connection ~ 5400 4050
+Text HLabel 3200 4050 0    50   Input ~ 0
+~OS_CS
+Wire Wire Line
+	5550 3850 5400 3850
+$Comp
+L power:+5VA #PWR0246
+U 1 1 5D20852E
+P 5250 3850
+AR Path="/5D2020BA/5D20852E" Ref="#PWR0246"  Part="1" 
+AR Path="/5E351416/5D20852E" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D20852E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0246" H 5250 3700 50  0001 C CNN
+F 1 "+5VA" H 5265 4023 50  0000 C CNN
+F 2 "" H 5250 3850 50  0001 C CNN
+F 3 "" H 5250 3850 50  0001 C CNN
+	1    5250 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3750 5400 3750
+Wire Wire Line
+	5400 3750 5400 3850
+Connection ~ 5400 3850
+Wire Wire Line
+	5400 3850 5250 3850
+Wire Wire Line
+	5550 2250 5200 2250
+Wire Wire Line
+	5550 2350 5200 2350
+Wire Wire Line
+	5550 2450 5200 2450
+Wire Wire Line
+	5550 2550 5200 2550
+Wire Wire Line
+	5550 2650 5200 2650
+Wire Wire Line
+	5550 2750 5200 2750
+Wire Wire Line
+	5550 2850 5200 2850
+Wire Wire Line
+	5550 2950 5200 2950
+Wire Wire Line
+	5550 3050 5200 3050
+Wire Wire Line
+	5550 3150 5200 3150
+Wire Wire Line
+	5550 3250 5200 3250
+Wire Wire Line
+	5550 3350 5200 3350
+Wire Wire Line
+	5550 3450 5200 3450
+Wire Wire Line
+	5550 3550 5200 3550
+Text Label 5300 2250 0    50   ~ 0
+A0
+Text Label 5300 2350 0    50   ~ 0
+A1
+Text Label 5300 2450 0    50   ~ 0
+A2
+Text Label 5300 2550 0    50   ~ 0
+A3
+Text Label 5300 2650 0    50   ~ 0
+A4
+Text Label 5300 2750 0    50   ~ 0
+A5
+Text Label 5300 2850 0    50   ~ 0
+A6
+Text Label 5300 2950 0    50   ~ 0
+A7
+Text Label 5300 3050 0    50   ~ 0
+A8
+Text Label 5300 3150 0    50   ~ 0
+A9
+Text Label 5300 3250 0    50   ~ 0
+A10
+Text Label 5300 3350 0    50   ~ 0
+A11
+Text Label 5300 3450 0    50   ~ 0
+A12
+Text Label 5300 3550 0    50   ~ 0
+A13
+Entry Wire Line
+	5100 2150 5200 2250
+Entry Wire Line
+	5100 2250 5200 2350
+Entry Wire Line
+	5100 2350 5200 2450
+Entry Wire Line
+	5100 2450 5200 2550
+Entry Wire Line
+	5100 2550 5200 2650
+Entry Wire Line
+	5100 2650 5200 2750
+Entry Wire Line
+	5100 2750 5200 2850
+Entry Wire Line
+	5100 2850 5200 2950
+Entry Wire Line
+	5100 2950 5200 3050
+Entry Wire Line
+	5100 3050 5200 3150
+Entry Wire Line
+	5100 3150 5200 3250
+Entry Wire Line
+	5100 3250 5200 3350
+Entry Wire Line
+	5100 3350 5200 3450
+Entry Wire Line
+	5100 3450 5200 3550
+Wire Wire Line
+	6350 2250 6700 2250
+Wire Wire Line
+	6350 2350 6700 2350
+Wire Wire Line
+	6350 2450 6700 2450
+Wire Wire Line
+	6350 2550 6700 2550
+Wire Wire Line
+	6350 2650 6700 2650
+Wire Wire Line
+	6350 2750 6700 2750
+Wire Wire Line
+	6350 2850 6700 2850
+Wire Wire Line
+	6350 2950 6700 2950
+Text Label 6500 2250 0    50   ~ 0
+D0
+Text Label 6500 2350 0    50   ~ 0
+D1
+Text Label 6500 2450 0    50   ~ 0
+D2
+Text Label 6500 2550 0    50   ~ 0
+D3
+Text Label 6500 2650 0    50   ~ 0
+D4
+Text Label 6500 2750 0    50   ~ 0
+D5
+Text Label 6500 2850 0    50   ~ 0
+D6
+Text Label 6500 2950 0    50   ~ 0
+D7
+Entry Wire Line
+	6800 2150 6700 2250
+Entry Wire Line
+	6800 2250 6700 2350
+Entry Wire Line
+	6800 2350 6700 2450
+Entry Wire Line
+	6800 2450 6700 2550
+Entry Wire Line
+	6800 2550 6700 2650
+Entry Wire Line
+	6800 2650 6700 2750
+Entry Wire Line
+	6800 2750 6700 2850
+Entry Wire Line
+	6800 2850 6700 2950
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5D20AFFC
+P 5950 4250
+AR Path="/5D970687/5D20AFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5DC52AD7/5D20AFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5D2020BA/5D20AFFC" Ref="#PWR0247"  Part="1" 
+AR Path="/5E351416/5D20AFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D20AFFC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0247" H 5950 4000 50  0001 C CNN
+F 1 "GNDREF" H 5955 4077 50  0001 C CNN
+F 2 "" H 5950 4250 50  0001 C CNN
+F 3 "" H 5950 4250 50  0001 C CNN
+	1    5950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_ROM_Atari:BASIC_C060203 U4
+U 1 1 5D20F136
+P 5950 5800
+AR Path="/5D2020BA/5D20F136" Ref="U4"  Part="1" 
+AR Path="/5E351416/5D20F136" Ref="U?"  Part="1" 
+AR Path="/5E3516D9/5D20F136" Ref="U?"  Part="1" 
+F 0 "U4" H 6100 6750 50  0000 C CNN
+F 1 "BASIC_C060203" H 6300 6650 50  0000 C CNN
+F 2 "" H 7250 7500 50  0001 C CNN
+F 3 "" H 7250 7500 50  0001 C CNN
+	1    5950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5100 6700 5100
+Wire Wire Line
+	6300 5200 6700 5200
+Wire Wire Line
+	6300 5300 6700 5300
+Wire Wire Line
+	6300 5400 6700 5400
+Wire Wire Line
+	6300 5500 6700 5500
+Wire Wire Line
+	6300 5600 6700 5600
+Wire Wire Line
+	6300 5700 6700 5700
+Wire Wire Line
+	6300 5800 6700 5800
+Text Label 6450 5100 0    50   ~ 0
+D0
+Text Label 6450 5200 0    50   ~ 0
+D1
+Text Label 6450 5300 0    50   ~ 0
+D2
+Text Label 6450 5400 0    50   ~ 0
+D3
+Text Label 6450 5500 0    50   ~ 0
+D4
+Text Label 6450 5600 0    50   ~ 0
+D5
+Text Label 6450 5700 0    50   ~ 0
+D6
+Text Label 6450 5800 0    50   ~ 0
+D7
+Entry Wire Line
+	6800 5000 6700 5100
+Entry Wire Line
+	6800 5100 6700 5200
+Entry Wire Line
+	6800 5200 6700 5300
+Entry Wire Line
+	6800 5300 6700 5400
+Entry Wire Line
+	6800 5400 6700 5500
+Entry Wire Line
+	6800 5500 6700 5600
+Entry Wire Line
+	6800 5600 6700 5700
+Entry Wire Line
+	6800 5700 6700 5800
+Wire Wire Line
+	5600 5100 5200 5100
+Wire Wire Line
+	5600 5200 5200 5200
+Wire Wire Line
+	5600 5300 5200 5300
+Wire Wire Line
+	5600 5400 5200 5400
+Wire Wire Line
+	5600 5500 5200 5500
+Wire Wire Line
+	5600 5600 5200 5600
+Wire Wire Line
+	5600 5700 5200 5700
+Wire Wire Line
+	5600 5800 5200 5800
+Wire Wire Line
+	5600 5900 5200 5900
+Wire Wire Line
+	5600 6000 5200 6000
+Wire Wire Line
+	5600 6100 5200 6100
+Wire Wire Line
+	5600 6200 5200 6200
+Wire Wire Line
+	5600 6300 5200 6300
+Text Label 5350 5100 0    50   ~ 0
+A0
+Text Label 5350 5200 0    50   ~ 0
+A1
+Text Label 5350 5300 0    50   ~ 0
+A2
+Text Label 5350 5400 0    50   ~ 0
+A3
+Text Label 5350 5500 0    50   ~ 0
+A4
+Text Label 5350 5600 0    50   ~ 0
+A5
+Text Label 5350 5700 0    50   ~ 0
+A6
+Text Label 5350 5800 0    50   ~ 0
+A7
+Text Label 5350 5900 0    50   ~ 0
+A8
+Text Label 5350 6000 0    50   ~ 0
+A9
+Text Label 5350 6100 0    50   ~ 0
+A10
+Text Label 5350 6200 0    50   ~ 0
+A11
+Text Label 5350 6300 0    50   ~ 0
+A12
+Entry Wire Line
+	5100 5000 5200 5100
+Entry Wire Line
+	5100 5100 5200 5200
+Entry Wire Line
+	5100 5200 5200 5300
+Entry Wire Line
+	5100 5300 5200 5400
+Entry Wire Line
+	5100 5400 5200 5500
+Entry Wire Line
+	5100 5500 5200 5600
+Entry Wire Line
+	5100 5600 5200 5700
+Entry Wire Line
+	5100 5700 5200 5800
+Entry Wire Line
+	5100 5800 5200 5900
+Entry Wire Line
+	5100 5900 5200 6000
+Entry Wire Line
+	5100 6000 5200 6100
+Entry Wire Line
+	5100 6100 5200 6200
+Entry Wire Line
+	5100 6200 5200 6300
+Wire Wire Line
+	5600 6500 3200 6500
+Text HLabel 3200 6500 0    50   Input ~ 0
+~BASIC_CS
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5D21723A
+P 5950 6700
+AR Path="/5D970687/5D21723A" Ref="#PWR?"  Part="1" 
+AR Path="/5DC52AD7/5D21723A" Ref="#PWR?"  Part="1" 
+AR Path="/5D2020BA/5D21723A" Ref="#PWR0248"  Part="1" 
+AR Path="/5E351416/5D21723A" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D21723A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0248" H 5950 6450 50  0001 C CNN
+F 1 "GNDREF" H 5955 6527 50  0001 C CNN
+F 2 "" H 5950 6700 50  0001 C CNN
+F 3 "" H 5950 6700 50  0001 C CNN
+	1    5950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4900 5950 4750
+Wire Wire Line
+	5950 4750 5850 4750
+Connection ~ 5950 4750
+Wire Wire Line
+	5950 4750 5950 4650
+$Comp
+L Device:C C?
+U 1 1 5D217813
+P 5700 4750
+AR Path="/5D970687/5D217813" Ref="C?"  Part="1" 
+AR Path="/5DC52AD7/5D217813" Ref="C?"  Part="1" 
+AR Path="/5D2020BA/5D217813" Ref="C27"  Part="1" 
+AR Path="/5E351416/5D217813" Ref="C?"  Part="1" 
+AR Path="/5E3516D9/5D217813" Ref="C?"  Part="1" 
+F 0 "C27" V 5448 4750 50  0000 C CNN
+F 1 "100n" V 5539 4750 50  0000 C CNN
+F 2 "" H 5738 4600 50  0001 C CNN
+F 3 "~" H 5700 4750 50  0001 C CNN
+	1    5700 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4750 5500 4750
+Wire Wire Line
+	5500 4750 5500 4800
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5D21781F
+P 5500 4800
+AR Path="/5D970687/5D21781F" Ref="#PWR?"  Part="1" 
+AR Path="/5DC52AD7/5D21781F" Ref="#PWR?"  Part="1" 
+AR Path="/5D2020BA/5D21781F" Ref="#PWR0249"  Part="1" 
+AR Path="/5E351416/5D21781F" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D21781F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0249" H 5500 4550 50  0001 C CNN
+F 1 "GNDREF" H 5505 4627 50  0001 C CNN
+F 2 "" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR0250
+U 1 1 5D217829
+P 5950 4650
+AR Path="/5D2020BA/5D217829" Ref="#PWR0250"  Part="1" 
+AR Path="/5E351416/5D217829" Ref="#PWR?"  Part="1" 
+AR Path="/5E3516D9/5D217829" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0250" H 5950 4500 50  0001 C CNN
+F 1 "+5VA" H 5965 4823 50  0000 C CNN
+F 2 "" H 5950 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	6700 1300 6800 1400
+Wire Bus Line
+	6700 1300 3200 1300
+Text HLabel 3200 1300 0    50   Output ~ 0
+D[0..7]
+Entry Bus Bus
+	5000 1600 5100 1700
+Wire Bus Line
+	5000 1600 3200 1600
+Text HLabel 3200 1600 0    50   Input ~ 0
+A[0..13]
+Wire Bus Line
+	6800 1400 6800 5700
+Wire Bus Line
+	5100 1700 5100 6200
+$EndSCHEMATC

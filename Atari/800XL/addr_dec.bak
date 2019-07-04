@@ -1,0 +1,416 @@
+EESchema Schematic File Version 4
+LIBS:800XL-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_Controller_Atari:MMU_C061618 U3
+U 1 1 5D970951
+P 4800 2700
+F 0 "U3" H 4950 3450 50  0000 C CNN
+F 1 "MMU_C061618" H 5150 3350 50  0000 C CNN
+F 2 "" H 3950 2350 50  0001 C CNN
+F 3 "https://www.atarimax.com/jindroush.atari.org/achmmu.html" H 3950 2350 50  0001 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2000 4800 1850
+Wire Wire Line
+	4800 1850 4700 1850
+Connection ~ 4800 1850
+Wire Wire Line
+	4800 1850 4800 1750
+$Comp
+L Device:C C26
+U 1 1 5D9712FE
+P 4550 1850
+F 0 "C26" V 4298 1850 50  0000 C CNN
+F 1 "100n" V 4389 1850 50  0000 C CNN
+F 2 "" H 4588 1700 50  0001 C CNN
+F 3 "~" H 4550 1850 50  0001 C CNN
+	1    4550 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1850 4350 1850
+Wire Wire Line
+	4350 1850 4350 1900
+$Comp
+L power:GNDREF #PWR0151
+U 1 1 5D97180B
+P 4350 1900
+F 0 "#PWR0151" H 4350 1650 50  0001 C CNN
+F 1 "GNDREF" H 4355 1727 50  0001 C CNN
+F 2 "" H 4350 1900 50  0001 C CNN
+F 3 "" H 4350 1900 50  0001 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_more:+5VB #PWR0152
+U 1 1 5D971A4E
+P 4800 1750
+F 0 "#PWR0152" H 4800 1600 50  0001 C CNN
+F 1 "+5VB" H 4815 1923 50  0000 C CNN
+F 2 "" H 4800 1750 50  0001 C CNN
+F 3 "" H 4800 1750 50  0001 C CNN
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2200 3850 2200
+Wire Wire Line
+	4400 2300 3850 2300
+Wire Wire Line
+	4400 2400 3850 2400
+Wire Wire Line
+	4400 2500 3850 2500
+Wire Wire Line
+	4400 2600 3850 2600
+Text Label 3950 2200 0    50   ~ 0
+A11
+Text Label 3950 2300 0    50   ~ 0
+A12
+Text Label 3950 2400 0    50   ~ 0
+A13
+Text Label 3950 2500 0    50   ~ 0
+A14
+Text Label 3950 2600 0    50   ~ 0
+A15
+Entry Wire Line
+	3750 2300 3850 2400
+Entry Wire Line
+	3750 2200 3850 2300
+Entry Wire Line
+	3750 2100 3850 2200
+Entry Wire Line
+	3750 2500 3850 2600
+Entry Wire Line
+	3750 2400 3850 2500
+Text HLabel 2650 2250 0    50   Input ~ 0
+A[0..15]
+$Comp
+L power:GNDREF #PWR0153
+U 1 1 5D975ED7
+P 4800 3600
+F 0 "#PWR0153" H 4800 3350 50  0001 C CNN
+F 1 "GNDREF" H 4805 3427 50  0001 C CNN
+F 2 "" H 4800 3600 50  0001 C CNN
+F 3 "" H 4800 3600 50  0001 C CNN
+	1    4800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2800 2650 2800
+Text HLabel 2650 2800 0    50   Input ~ 0
+~MAP
+Wire Wire Line
+	4400 2900 3200 2900
+Text HLabel 2650 2900 0    50   Input ~ 0
+RD4
+Wire Wire Line
+	4400 3000 3000 3000
+Text HLabel 2650 3000 0    50   Input ~ 0
+RD5
+Wire Wire Line
+	4400 3100 2650 3100
+Text HLabel 2650 3100 0    50   Input ~ 0
+REN
+Wire Wire Line
+	4400 3300 2650 3300
+Text HLabel 2650 3300 0    50   Input ~ 0
+~REF
+$Comp
+L Device:R R15
+U 1 1 5D977EEC
+P 2850 1900
+F 0 "R15" V 2750 1900 50  0000 C CNN
+F 1 "3K" V 2850 1900 50  0000 C CNN
+F 2 "" V 2780 1900 50  0001 C CNN
+F 3 "~" H 2850 1900 50  0001 C CNN
+	1    2850 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 1750 2850 1700
+$Comp
+L power:+5VA #PWR0154
+U 1 1 5D978B4E
+P 2850 1700
+F 0 "#PWR0154" H 2850 1550 50  0001 C CNN
+F 1 "+5VA" H 2865 1873 50  0000 C CNN
+F 2 "" H 2850 1700 50  0001 C CNN
+F 3 "" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+Text HLabel 8100 2600 2    50   Output ~ 0
+~CI
+Text HLabel 2650 3200 0    50   Input ~ 0
+~MPD
+$Comp
+L 74xx:74LS138 U2
+U 1 1 5DABD0E8
+P 6150 4950
+F 0 "U2" H 6250 5500 50  0000 C CNN
+F 1 "74LS138" H 6350 5400 50  0000 C CNN
+F 2 "" H 6150 4950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 6150 4950 50  0001 C CNN
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4350 6150 4200
+Wire Wire Line
+	6150 4200 6050 4200
+Connection ~ 6150 4200
+Wire Wire Line
+	6150 4200 6150 4100
+$Comp
+L Device:C C25
+U 1 1 5DABF3CC
+P 5900 4200
+F 0 "C25" V 5648 4200 50  0000 C CNN
+F 1 "100n" V 5739 4200 50  0000 C CNN
+F 2 "" H 5938 4050 50  0001 C CNN
+F 3 "~" H 5900 4200 50  0001 C CNN
+	1    5900 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 4200 5700 4200
+Wire Wire Line
+	5700 4200 5700 4250
+$Comp
+L power:GNDREF #PWR0155
+U 1 1 5DABF3D8
+P 5700 4250
+F 0 "#PWR0155" H 5700 4000 50  0001 C CNN
+F 1 "GNDREF" H 5705 4077 50  0001 C CNN
+F 2 "" H 5700 4250 50  0001 C CNN
+F 3 "" H 5700 4250 50  0001 C CNN
+	1    5700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power_more:+5VB #PWR0156
+U 1 1 5DABF3E2
+P 6150 4100
+F 0 "#PWR0156" H 6150 3950 50  0001 C CNN
+F 1 "+5VB" H 6165 4273 50  0000 C CNN
+F 2 "" H 6150 4100 50  0001 C CNN
+F 3 "" H 6150 4100 50  0001 C CNN
+	1    6150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5150 5450 5150
+Wire Wire Line
+	5450 5150 5450 4300
+$Comp
+L Device:R R12
+U 1 1 5DAC8C0A
+P 5450 4150
+F 0 "R12" V 5350 4150 50  0000 C CNN
+F 1 "3K" V 5450 4150 50  0000 C CNN
+F 2 "" V 5380 4150 50  0001 C CNN
+F 3 "~" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4000 5450 3950
+$Comp
+L power:+5VA #PWR0157
+U 1 1 5DACD4B8
+P 5450 3950
+F 0 "#PWR0157" H 5450 3800 50  0001 C CNN
+F 1 "+5VA" H 5465 4123 50  0000 C CNN
+F 2 "" H 5450 3950 50  0001 C CNN
+F 3 "" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4650 5000 4650
+Wire Wire Line
+	5650 4750 5000 4750
+Wire Wire Line
+	5650 4850 5000 4850
+Text Label 5050 4650 0    50   ~ 0
+A8
+Text Label 5050 4750 0    50   ~ 0
+A9
+Text Label 5050 4850 0    50   ~ 0
+A10
+Entry Wire Line
+	4900 4550 5000 4650
+Entry Wire Line
+	4900 4650 5000 4750
+Entry Wire Line
+	4900 4750 5000 4850
+Wire Wire Line
+	5650 5250 5450 5250
+Wire Wire Line
+	5450 5250 5450 5450
+$Comp
+L power:GNDREF #PWR0158
+U 1 1 5DAF7995
+P 5450 5450
+F 0 "#PWR0158" H 5450 5200 50  0001 C CNN
+F 1 "GNDREF" H 5455 5277 50  0001 C CNN
+F 2 "" H 5450 5450 50  0001 C CNN
+F 3 "" H 5450 5450 50  0001 C CNN
+	1    5450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0159
+U 1 1 5DAF8316
+P 6150 5650
+F 0 "#PWR0159" H 6150 5400 50  0001 C CNN
+F 1 "GNDREF" H 6155 5477 50  0001 C CNN
+F 2 "" H 6150 5650 50  0001 C CNN
+F 3 "" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5350 5300 5350
+Wire Wire Line
+	5300 5350 5300 2700
+Wire Wire Line
+	5300 2700 5150 2700
+NoConn ~ 6650 5350
+NoConn ~ 6650 5250
+NoConn ~ 6650 5050
+NoConn ~ 6650 4750
+Text HLabel 7950 5150 2    50   Output ~ 0
+~CCTL
+Text HLabel 7950 4950 2    50   Output ~ 0
+~PIA_CS
+Text HLabel 7950 4850 2    50   Output ~ 0
+~POKEY_CS
+Text HLabel 7950 4650 2    50   Output ~ 0
+~GTIA_CS
+Wire Wire Line
+	6650 5150 7950 5150
+Wire Wire Line
+	6650 4850 7950 4850
+Wire Wire Line
+	6650 4650 7950 4650
+Wire Wire Line
+	6650 4950 7950 4950
+Wire Wire Line
+	5150 2600 8100 2600
+Wire Wire Line
+	5150 2500 8100 2500
+Text HLabel 8100 2500 2    50   Output ~ 0
+~OS_CS
+Wire Wire Line
+	5150 2400 8100 2400
+Text HLabel 8100 2400 2    50   Output ~ 0
+~BASIC_CS
+Wire Wire Line
+	5150 2300 8100 2300
+Text HLabel 8100 2300 2    50   Output ~ 0
+~LCART_CS
+Wire Wire Line
+	5150 2200 8100 2200
+Text HLabel 8100 2200 2    50   Output ~ 0
+~RCART_CS
+Wire Wire Line
+	2650 3200 2850 3200
+Wire Wire Line
+	2850 2050 2850 3200
+Connection ~ 2850 3200
+Wire Wire Line
+	2850 3200 4400 3200
+Text Notes 5800 3400 0    50   ~ 0
+S4: ~REF~ & RD4 &  addresses $8000-$9FFF /* right cart select */\nS5: ~REF~ & RD5 & addresses $A000-$BFFF /* left cart select */\nIO: ~REF~ & addresses $D000-$D7FF\nBASIC: ~REF~ & BE & addresses $A000-$BFFF\nOS: ~REF~ & REN  & (addresses $C000-$CFFF, $E000-$FFFF \n                       | ~MPD~ & addresses $D800-$DFFF\n                       | MAP & addresses $5000-$5800)\nCI: REF | S4 | S5 | BASIC | OS | IO /* RAM CAS inhibit */
+Wire Wire Line
+	4400 3400 2650 3400
+Text HLabel 2650 3400 0    50   Input ~ 0
+~BE
+Wire Wire Line
+	3000 3000 3000 3550
+Connection ~ 3000 3000
+Wire Wire Line
+	3000 3000 2650 3000
+$Comp
+L Device:R R13
+U 1 1 5D4C8447
+P 3000 3700
+F 0 "R13" V 2900 3700 50  0000 C CNN
+F 1 "1K" V 3000 3700 50  0000 C CNN
+F 2 "" V 2930 3700 50  0001 C CNN
+F 3 "~" H 3000 3700 50  0001 C CNN
+	1    3000 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR0160
+U 1 1 5D4C8B34
+P 3000 3850
+F 0 "#PWR0160" H 3000 3600 50  0001 C CNN
+F 1 "GNDREF" H 3005 3677 50  0001 C CNN
+F 2 "" H 3000 3850 50  0001 C CNN
+F 3 "" H 3000 3850 50  0001 C CNN
+	1    3000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2900 3200 3550
+Connection ~ 3200 2900
+Wire Wire Line
+	3200 2900 2650 2900
+$Comp
+L Device:R R14
+U 1 1 5D4C9D20
+P 3200 3700
+F 0 "R14" V 3100 3700 50  0000 C CNN
+F 1 "1K" V 3200 3700 50  0000 C CNN
+F 2 "" V 3130 3700 50  0001 C CNN
+F 3 "~" H 3200 3700 50  0001 C CNN
+	1    3200 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR0161
+U 1 1 5D4C9D2A
+P 3200 3850
+F 0 "#PWR0161" H 3200 3600 50  0001 C CNN
+F 1 "GNDREF" H 3205 3677 50  0001 C CNN
+F 2 "" H 3200 3850 50  0001 C CNN
+F 3 "" H 3200 3850 50  0001 C CNN
+	1    3200 3850
+	1    0    0    -1  
+$EndComp
+Text Label 3100 2250 0    50   ~ 0
+A[0..15]
+Text Label 3750 3900 1    50   ~ 0
+A[0..15]
+Wire Bus Line
+	2650 2250 3750 2250
+Connection ~ 3750 2250
+Wire Bus Line
+	3750 4200 4900 4200
+Wire Bus Line
+	3750 2100 3750 2250
+Wire Bus Line
+	4900 4200 4900 4750
+Wire Bus Line
+	3750 2250 3750 4200
+$EndSCHEMATC

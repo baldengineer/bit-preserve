@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EP8212
+D TTL-compatible 4-tap delay line: 25, 190, 260, 315, 440ns
+K Delay line
+$ENDCMP
+#
+#End Doc Library
