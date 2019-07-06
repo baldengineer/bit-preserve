@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6507
+D NMOS microprocessor, 8kB memory, DIP-28
+K NMOS Microprocessor
+F http://archive.6502.org/datasheets/mos_6500_mpu_nov_1985.pdf
+$ENDCMP
+#
+$CMP 6532
+D Rockwell RIOT - RAM, IO, Interval Timer, DIP-40
+K Rockwell RIOT
+F http://retro.hansotten.nl//uploads/6502/6532riot.pdf
+$ENDCMP
+#
+$CMP RF_MOD
+D Atari RF Modulator
+$ENDCMP
+#
+$CMP TIA
+D Atari  Television Interface Adaptor
+K Atari TIA
+F https://www.atarihq.com/danb/tia.shtml
+$ENDCMP
+#
+$CMP VMOD
+D Power symbol creates a global label with name "VMOD"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
