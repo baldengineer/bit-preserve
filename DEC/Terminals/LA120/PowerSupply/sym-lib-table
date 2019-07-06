@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Regulator_Linear_more)(type Legacy)(uri "F:/KiCad Projects/bit-preserve/symbol-libs/Regulator_Linear_more.lib")(options "")(descr ""))
+)

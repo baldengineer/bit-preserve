@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM109
+D 5V Regulator
+K regulator
+F https://archive.org/details/NationalSemiconductorVoltageRegulatorHandbook1980/page/n103
+$ENDCMP
+#
+$CMP LM209
+D 5V Regulator
+K regulator
+F https://archive.org/details/NationalSemiconductorVoltageRegulatorHandbook1980/page/n103
+$ENDCMP
+#
+$CMP LM309
+D 5V Regulator
+K regulator
+F https://archive.org/details/NationalSemiconductorVoltageRegulatorHandbook1980/page/n103
+$ENDCMP
+#
+#End Doc Library
