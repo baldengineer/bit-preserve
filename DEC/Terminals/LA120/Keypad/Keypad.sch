@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x16 J1
-U 1 1 5D1FAE3B
-P 1050 3750
-F 0 "J1" H 1050 4550 50  0000 C CNN
-F 1 "Conn_01x16" V 1150 3750 50  0000 C CNN
-F 2 "" H 1050 3750 50  0001 C CNN
-F 3 "~" H 1050 3750 50  0001 C CNN
-	1    1050 3750
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW1
 U 1 1 5D1FB7F9
 P 6250 7100
@@ -234,48 +223,12 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS156" H 4250 2650 50  0001 C CNN
 	1    4250 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 3150 1650 3150
-Wire Wire Line
-	1250 3950 1650 3950
-Wire Wire Line
-	1250 4150 1650 4150
-Wire Wire Line
-	1250 4350 1650 4350
-Wire Wire Line
-	1250 4450 1650 4450
-Text Label 1350 3050 0    50   ~ 0
-LOGIC_GND
-Text Label 1350 3150 0    50   ~ 0
-KD7_L
-Text Label 1350 3750 0    50   ~ 0
-+5V
-Text Label 1350 4550 0    50   ~ 0
-+5V
-Text Label 1350 3850 0    50   ~ 0
-LOGIC_GND
-Text Label 1350 4050 0    50   ~ 0
-KA3_L
-Text Label 1350 4250 0    50   ~ 0
-KA4_L
-Text Label 1350 4450 0    50   ~ 0
-KWR_L
-Text Label 1350 3650 0    50   ~ 0
+Text Label 2900 3650 0    50   ~ 0
 KA2_L
-Text Label 1350 3450 0    50   ~ 0
+Text Label 2900 3450 0    50   ~ 0
 KA1_L
-Text Label 1350 3250 0    50   ~ 0
+Text Label 2900 3250 0    50   ~ 0
 KA0_L
-Text Label 1350 4350 0    50   ~ 0
-KD4_L
-Text Label 1350 4150 0    50   ~ 0
-KD3_L
-Text Label 1350 3950 0    50   ~ 0
-KD2_L
-Text Label 1350 3550 0    50   ~ 0
-KD1_L
-Text Label 1350 3350 0    50   ~ 0
-KD0_L
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D215111
@@ -327,14 +280,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 2850 3750 2850
 Wire Wire Line
-	3550 2850 2150 2850
-Wire Wire Line
-	2150 2850 2150 4050
-Wire Wire Line
-	1250 4050 2150 4050
+	3550 2850 3350 2850
 Connection ~ 3550 2850
-Text Label 2900 2850 0    50   ~ 0
-KA3_L
 Wire Wire Line
 	3750 2950 3500 2950
 Wire Wire Line
@@ -348,8 +295,6 @@ Wire Wire Line
 	3500 4300 3500 5000
 Wire Wire Line
 	3500 5000 3750 5000
-Wire Wire Line
-	3500 2950 3500 3650
 Connection ~ 3500 4300
 Wire Wire Line
 	3750 4400 3550 4400
@@ -357,13 +302,7 @@ Wire Wire Line
 	3550 4400 3550 4900
 Wire Wire Line
 	3550 4900 3750 4900
-Wire Wire Line
-	3550 4400 2150 4400
-Wire Wire Line
-	1250 4250 2150 4250
 Connection ~ 3550 4400
-Text Label 2900 4400 0    50   ~ 0
-KA4_L
 $Comp
 L Device:C C2
 U 1 1 5D21A931
@@ -442,79 +381,35 @@ F 3 "" H 3800 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4250 2150 4400
-Wire Wire Line
 	3750 2550 3450 2550
-Wire Wire Line
-	3450 2550 3450 3250
 Wire Wire Line
 	3450 4600 3750 4600
 Wire Wire Line
 	3750 4700 3400 4700
 Wire Wire Line
-	3400 4700 3400 3450
-Wire Wire Line
 	3400 2650 3750 2650
-Wire Wire Line
-	1250 3250 3450 3250
-Connection ~ 3450 3250
-Wire Wire Line
-	3450 3250 3450 4600
-Wire Wire Line
-	1250 3450 3400 3450
-Connection ~ 3400 3450
-Wire Wire Line
-	3400 3450 3400 2650
-Connection ~ 3500 3650
-Wire Wire Line
-	3500 3650 3500 4300
-Wire Wire Line
-	1250 3650 3500 3650
-Wire Wire Line
-	2000 3850 2000 4850
-Wire Wire Line
-	1250 3850 2000 3850
-Wire Wire Line
-	2000 3050 2000 3850
-Wire Wire Line
-	1250 3050 2000 3050
-Connection ~ 2000 3850
 $Comp
 L power:GNDREF #PWR0107
 U 1 1 5D22E3D0
-P 2000 4900
-F 0 "#PWR0107" H 2000 4650 50  0001 C CNN
-F 1 "GNDREF" H 2005 4727 50  0001 C CNN
-F 2 "" H 2000 4900 50  0001 C CNN
-F 3 "" H 2000 4900 50  0001 C CNN
-	1    2000 4900
+P 3000 4900
+F 0 "#PWR0107" H 3000 4650 50  0001 C CNN
+F 1 "GNDREF" H 3005 4727 50  0001 C CNN
+F 2 "" H 3000 4900 50  0001 C CNN
+F 3 "" H 3000 4900 50  0001 C CNN
+	1    3000 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 3750 1950 2850
-Wire Wire Line
-	1250 3750 1950 3750
 $Comp
 L power:+5V #PWR0108
 U 1 1 5D22FB53
-P 1950 2850
-F 0 "#PWR0108" H 1950 2700 50  0001 C CNN
-F 1 "+5V" H 1965 3023 50  0000 C CNN
-F 2 "" H 1950 2850 50  0001 C CNN
-F 3 "" H 1950 2850 50  0001 C CNN
-	1    1950 2850
+P 3000 4000
+F 0 "#PWR0108" H 3000 3850 50  0001 C CNN
+F 1 "+5V" H 3015 4173 50  0000 C CNN
+F 2 "" H 3000 4000 50  0001 C CNN
+F 3 "" H 3000 4000 50  0001 C CNN
+	1    3000 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 4550 1950 3750
-Wire Wire Line
-	1250 4550 1950 4550
-Connection ~ 1950 3750
-NoConn ~ 1650 3150
-NoConn ~ 1650 4150
-NoConn ~ 1650 3950
-NoConn ~ 1650 4350
-NoConn ~ 1650 4450
 Wire Wire Line
 	6450 7100 6450 7300
 Wire Wire Line
@@ -594,14 +489,10 @@ Wire Wire Line
 Wire Wire Line
 	6450 7300 2450 7300
 Wire Wire Line
-	2450 7300 2450 3350
-Wire Wire Line
-	1250 3350 2450 3350
+	2450 7300 2450 5250
 Connection ~ 6450 7300
-Text Label 5650 7300 0    50   ~ 0
+Text Label 2550 7300 0    50   ~ 0
 KD0_L
-Wire Wire Line
-	2400 3550 2400 7700
 Wire Wire Line
 	2400 7700 12550 7700
 Wire Wire Line
@@ -609,15 +500,13 @@ Wire Wire Line
 Wire Wire Line
 	12550 6600 12500 6600
 Wire Wire Line
-	1250 3550 2400 3550
-Wire Wire Line
 	12550 7700 14750 7700
 Wire Wire Line
 	14750 7700 14750 6600
 Wire Wire Line
 	14750 6600 14700 6600
 Connection ~ 12550 7700
-Text Label 5650 7700 0    50   ~ 0
+Text Label 2550 7700 0    50   ~ 0
 KD1_L
 Wire Wire Line
 	14300 7100 14300 6600
@@ -728,35 +617,27 @@ ROW_D
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D294754
-P 1800 4900
-F 0 "#FLG0101" H 1800 4975 50  0001 C CNN
-F 1 "PWR_FLAG" H 1800 5073 50  0000 C CNN
-F 2 "" H 1800 4900 50  0001 C CNN
-F 3 "~" H 1800 4900 50  0001 C CNN
-	1    1800 4900
+P 2800 4900
+F 0 "#FLG0101" H 2800 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 5073 50  0000 C CNN
+F 2 "" H 2800 4900 50  0001 C CNN
+F 3 "~" H 2800 4900 50  0001 C CNN
+	1    2800 4900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1800 4900 1800 4850
-Wire Wire Line
-	1800 4850 2000 4850
-Connection ~ 2000 4850
-Wire Wire Line
-	2000 4850 2000 4900
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5D299778
-P 1650 2850
-F 0 "#FLG0102" H 1650 2925 50  0001 C CNN
-F 1 "PWR_FLAG" H 1650 3023 50  0000 C CNN
-F 2 "" H 1650 2850 50  0001 C CNN
-F 3 "~" H 1650 2850 50  0001 C CNN
-	1    1650 2850
+P 2700 4000
+F 0 "#FLG0102" H 2700 4075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2700 4173 50  0000 C CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "~" H 2700 4000 50  0001 C CNN
+	1    2700 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 2850 1950 2850
-Connection ~ 1950 2850
+	2700 4000 3000 4000
 Text Notes 11900 10250 0    70   ~ 0
 SCHEMATIC REFORMATTED FROM "LA120 FIELD MAINTENANCE PRINT SET",\nDIGITAL EQUIPMENT CORPORATION, SEP 1978.
 Text Notes 12250 10950 0    70   ~ 0
@@ -765,4 +646,147 @@ Text Notes 13000 11050 0    50   ~ 0
 5 JUL 2019
 Text Notes 15450 11050 0    50   ~ 0
 A
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J1
+U 1 1 5D2612E0
+P 2200 4400
+F 0 "J1" H 2250 4917 50  0000 C CNN
+F 1 "TO KEYBOARD" H 2250 4826 50  0000 C CNN
+F 2 "" H 2200 4400 50  0001 C CNN
+F 3 "~" H 2200 4400 50  0001 C CNN
+	1    2200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4100 1500 4100
+Text Label 1550 4100 0    50   ~ 0
+LOGIC_GND
+NoConn ~ 2000 4200
+Text Label 1550 4800 0    50   ~ 0
++5V
+Wire Wire Line
+	2000 4800 1500 4800
+Text Label 1550 4300 0    50   ~ 0
+KA0_L
+Text Label 1550 4400 0    50   ~ 0
+KD0_L
+Text Label 1550 4500 0    50   ~ 0
+KA1_L
+Text Label 1550 4600 0    50   ~ 0
+KD1_L
+Text Label 1550 4700 0    50   ~ 0
+KA2_L
+Wire Wire Line
+	2500 4800 2800 4800
+Text Label 2550 4800 0    50   ~ 0
+LOGIC_GND
+Text Label 2550 4600 0    50   ~ 0
+KA3_L
+Text Label 2550 4400 0    50   ~ 0
+KA4_L
+Text Label 2550 4100 0    50   ~ 0
++5V
+NoConn ~ 2500 4200
+NoConn ~ 2500 4300
+NoConn ~ 2500 4500
+NoConn ~ 2500 4700
+Wire Wire Line
+	3500 3650 3500 4300
+Wire Wire Line
+	3500 2950 3500 3650
+Connection ~ 3500 3650
+Wire Wire Line
+	3400 3450 3400 2650
+Wire Wire Line
+	3400 4700 3400 3450
+Connection ~ 3400 3450
+Wire Wire Line
+	3450 3250 3450 4600
+Wire Wire Line
+	3450 2550 3450 3250
+Connection ~ 3450 3250
+Wire Wire Line
+	3000 4800 3000 4900
+Wire Wire Line
+	2800 4800 2800 4900
+Connection ~ 2800 4800
+Wire Wire Line
+	2800 4800 3000 4800
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5D2F3923
+P 1500 4100
+F 0 "#PWR?" H 1500 3850 50  0001 C CNN
+F 1 "GNDREF" H 1505 3927 50  0001 C CNN
+F 2 "" H 1500 4100 50  0001 C CNN
+F 3 "" H 1500 4100 50  0001 C CNN
+	1    1500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4100 3000 4000
+Wire Wire Line
+	2500 4100 3000 4100
+Connection ~ 3000 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5D304DAF
+P 1800 5050
+F 0 "#PWR?" H 1800 4900 50  0001 C CNN
+F 1 "+5V" H 1815 5223 50  0000 C CNN
+F 2 "" H 1800 5050 50  0001 C CNN
+F 3 "" H 1800 5050 50  0001 C CNN
+	1    1800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4800 1500 5050
+Wire Wire Line
+	1500 5050 1800 5050
+Wire Wire Line
+	2500 4400 3550 4400
+Wire Wire Line
+	3350 4600 3350 2850
+Wire Wire Line
+	2500 4600 3350 4600
+Wire Wire Line
+	1400 4700 1400 3650
+Wire Wire Line
+	1400 4700 2000 4700
+Wire Wire Line
+	1400 3650 3500 3650
+Wire Wire Line
+	1350 4500 1350 3600
+Wire Wire Line
+	1350 3600 2800 3600
+Wire Wire Line
+	2800 3600 2800 3450
+Wire Wire Line
+	1350 4500 2000 4500
+Wire Wire Line
+	2800 3450 3400 3450
+Wire Wire Line
+	1300 4300 1300 3550
+Wire Wire Line
+	1300 3550 2750 3550
+Wire Wire Line
+	2750 3550 2750 3250
+Wire Wire Line
+	1300 4300 2000 4300
+Wire Wire Line
+	2750 3250 3450 3250
+Wire Wire Line
+	1300 4600 1300 5200
+Wire Wire Line
+	1300 5200 2400 5200
+Wire Wire Line
+	1300 4600 2000 4600
+Wire Wire Line
+	2400 5200 2400 7700
+Wire Wire Line
+	1250 4400 1250 5250
+Wire Wire Line
+	1250 5250 2450 5250
+Wire Wire Line
+	1250 4400 2000 4400
 $EndSCHEMATC
