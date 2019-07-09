@@ -6,4 +6,16 @@ K PIA
 F https://archive.org/details/rockwell_r6520_pia
 $ENDCMP
 #
+$CMP 6526
+D MOS Technology Complex Interface Adapter (CIA)
+K cia,complex interface adapter,peripheral interface device
+F https://archive.org/download/mos_6526_cia_recreated/mos_6526_cia_recreated.pdf
+$ENDCMP
+#
+$CMP 8520
+D MOS Technology Complex Interface Adapter (CIA)
+K cia,complex interface adapter,peripheral interface device
+F https://archive.org/download/mos_6526_cia_recreated/mos_6526_cia_recreated.pdf
+$ENDCMP
+#
 #End Doc Library
