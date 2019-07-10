@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMS4164
+D 65536-Bit Dynamic Random-Access Memory (DRAM)
+K DRAM,RAM
+F https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf
+$ENDCMP
+#
+$CMP TMS4164-12
+D 65536-Bit Dynamic Random-Access Memory (DRAM) 120ns
+K DRAM,RAM
+F https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf
+$ENDCMP
+#
+$CMP TMS4164-15
+D 65536-Bit Dynamic Random-Access Memory (DRAM) 150ns
+K DRAM,RAM
+F https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf
+$ENDCMP
+#
+$CMP TMS4164-20
+D 65536-Bit Dynamic Random-Access Memory (DRAM) 200ns
+K DRAM,RAM
+F https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf
+$ENDCMP
+#
+#End Doc Library
