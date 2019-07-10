@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Audio_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Audio_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name CPU_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/CPU_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name Interface_Expansion_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Interface_Expansion_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name Memory_Controller_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Memory_Controller_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name Memory_RAM_Texas)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Memory_RAM_Texas.lib)(options "")(descr ""))
+  (lib (name Video_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Video_MOSTechnology.lib)(options "")(descr ""))
+)
