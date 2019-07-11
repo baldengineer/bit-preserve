@@ -18,16 +18,4 @@ K FPLA,PLA,906114-01,memory controller
 F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
 $ENDCMP
 #
-$CMP PLA_82S100
-D Signetics Field Programmable Logic Array (FPLA) in application as memory controller in the Commodore 64
-K FPLA,PLA,906114-01,memory controller
-F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
-$ENDCMP
-#
-$CMP PLA_93459
-D Fairchild Field Programmable Logic Array (FPLA) in application as memory controller in the Commodore 64
-K FPLA,PLA,906114-01,memory controller
-F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
-$ENDCMP
-#
 #End Doc Library
