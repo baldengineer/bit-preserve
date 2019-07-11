@@ -79,8 +79,8 @@ L 74xx_more:74LS257 U?
 U 1 1 5D2D1174
 P 1500 2000
 AR Path="/5D2D1174" Ref="U?"  Part="1" 
-AR Path="/5D28EBAC/5D2D1174" Ref="U?"  Part="1" 
-F 0 "U?" H 1250 2850 50  0000 C CNN
+AR Path="/5D28EBAC/5D2D1174" Ref="U13"  Part="1" 
+F 0 "U13" H 1250 2850 50  0000 C CNN
 F 1 "74LS257" H 1700 2850 50  0000 C CNN
 F 2 "" H 1500 2000 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 1500 2000 50  0001 C CNN
@@ -92,8 +92,8 @@ L 74xx_more:74LS257 U?
 U 1 1 5D2D117A
 P 1500 4550
 AR Path="/5D2D117A" Ref="U?"  Part="1" 
-AR Path="/5D28EBAC/5D2D117A" Ref="U?"  Part="1" 
-F 0 "U?" H 1250 5400 50  0000 C CNN
+AR Path="/5D28EBAC/5D2D117A" Ref="U25"  Part="1" 
+F 0 "U25" H 1250 5400 50  0000 C CNN
 F 1 "74LS257" H 1700 5400 50  0000 C CNN
 F 2 "" H 1500 4550 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 1500 4550 50  0001 C CNN
@@ -1353,7 +1353,7 @@ Wire Bus Line
 	8300 800  9200 800 
 Text HLabel 10850 3500 2    50   Input ~ 0
 D[0..7]
-Text HLabel 600  850  1    50   Input ~ 0
+Text HLabel 600  850  1    50   Output ~ 0
 ~AEC
 Text HLabel 700  850  1    50   Input ~ 0
 ~CAS
@@ -1507,7 +1507,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2500 4000 2500
 Wire Wire Line
-	3200 2400 3050 2400
+	3200 2400 3000 2400
 Wire Wire Line
 	3100 2500 3100 3600
 Wire Wire Line
@@ -1562,7 +1562,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 2300 3900 2300
 Wire Wire Line
-	3200 2300 3000 2300
+	3200 2300 2900 2300
 Connection ~ 9300 3800
 Wire Wire Line
 	9300 2300 9300 3800
@@ -1587,9 +1587,9 @@ Wire Wire Line
 	3900 3800 4800 3800
 Connection ~ 3900 3800
 Wire Wire Line
-	3000 3800 3900 3800
+	2900 3800 3900 3800
 Wire Wire Line
-	3000 2300 3000 3800
+	2900 2300 2900 3800
 Wire Wire Line
 	3900 2300 3900 3800
 Wire Wire Line
@@ -1603,10 +1603,10 @@ Wire Wire Line
 Wire Wire Line
 	8400 2300 8400 3800
 Wire Wire Line
-	3050 2400 3050 3700
+	3000 2400 3000 3700
 Connection ~ 3950 3700
 Wire Wire Line
-	3050 3700 3950 3700
+	3000 3700 3950 3700
 Wire Wire Line
 	3950 2400 3950 3700
 Connection ~ 4850 3700
