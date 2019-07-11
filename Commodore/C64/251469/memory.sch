@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Commodore 64 - Memory section (schematic #251469)"
+Date "2019-07-12"
+Rev "0.1"
+Comp "Commodore Business Machines, Inc."
+Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 $Comp
 L 74xx_more:74LS257 U?
@@ -20,8 +20,8 @@ U 1 1 5D4EB805
 P 1700 2100
 AR Path="/5D4EB805" Ref="U?"  Part="1" 
 AR Path="/5D28EBAC/5D4EB805" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EB805" Ref="U?"  Part="1" 
-F 0 "U?" H 1450 2950 50  0000 C CNN
+AR Path="/5D4AE438/5D4EB805" Ref="U13"  Part="1" 
+F 0 "U13" H 1450 2950 50  0000 C CNN
 F 1 "74LS257" H 1900 2950 50  0000 C CNN
 F 2 "" H 1700 2100 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 1700 2100 50  0001 C CNN
@@ -34,8 +34,8 @@ U 1 1 5D4EB80B
 P 1700 4650
 AR Path="/5D4EB80B" Ref="U?"  Part="1" 
 AR Path="/5D28EBAC/5D4EB80B" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EB80B" Ref="U?"  Part="1" 
-F 0 "U?" H 1450 5500 50  0000 C CNN
+AR Path="/5D4AE438/5D4EB80B" Ref="U25"  Part="1" 
+F 0 "U25" H 1450 5500 50  0000 C CNN
 F 1 "74LS257" H 1900 5500 50  0000 C CNN
 F 2 "" H 1700 4650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 1700 4650 50  0001 C CNN
@@ -542,8 +542,8 @@ L Memory_Controller_MOSTechnology:906114-01 U?
 U 1 1 5D4EBB61
 P 4650 6300
 AR Path="/5D28EBAC/5D4EBB61" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBB61" Ref="U?"  Part="1" 
-F 0 "U?" H 4650 7781 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB61" Ref="U17"  Part="1" 
+F 0 "U17" H 4650 7781 50  0000 C CNN
 F 1 "906114-01" H 4650 7690 50  0000 C CNN
 F 2 "" H 2750 5200 50  0001 C CNN
 F 3 "https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf" H 2750 5200 50  0001 C CNN
@@ -555,8 +555,8 @@ L 74xx:74LS08 U?
 U 1 1 5D4EBB67
 P 2650 6100
 AR Path="/5D28EBAC/5D4EBB67" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBB67" Ref="U?"  Part="1" 
-F 0 "U?" H 2650 6425 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB67" Ref="U27"  Part="1" 
+F 0 "U27" H 2650 6425 50  0000 C CNN
 F 1 "74LS08" H 2650 6334 50  0000 C CNN
 F 2 "" H 2650 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2650 6100 50  0001 C CNN
@@ -568,8 +568,8 @@ L 74xx:74LS08 U?
 U 4 1 5D4EBB6D
 P 3200 6550
 AR Path="/5D28EBAC/5D4EBB6D" Ref="U?"  Part="4" 
-AR Path="/5D4AE438/5D4EBB6D" Ref="U?"  Part="4" 
-F 0 "U?" H 3200 6875 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB6D" Ref="U27"  Part="4" 
+F 0 "U27" H 3200 6875 50  0000 C CNN
 F 1 "74LS08" H 3200 6784 50  0000 C CNN
 F 2 "" H 3200 6550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3200 6550 50  0001 C CNN
@@ -581,8 +581,8 @@ L 74xx:74LS139 U?
 U 1 1 5D4EBB73
 P 6300 6250
 AR Path="/5D28EBAC/5D4EBB73" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBB73" Ref="U?"  Part="1" 
-F 0 "U?" H 6300 6617 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB73" Ref="U15"  Part="1" 
+F 0 "U15" H 6300 6617 50  0000 C CNN
 F 1 "74LS139" H 6300 6526 50  0000 C CNN
 F 2 "" H 6300 6250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 6300 6250 50  0001 C CNN
@@ -594,8 +594,8 @@ L 74xx:74LS139 U?
 U 2 1 5D4EBB79
 P 6350 7000
 AR Path="/5D28EBAC/5D4EBB79" Ref="U?"  Part="2" 
-AR Path="/5D4AE438/5D4EBB79" Ref="U?"  Part="2" 
-F 0 "U?" H 6350 7367 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB79" Ref="U15"  Part="2" 
+F 0 "U15" H 6350 7367 50  0000 C CNN
 F 1 "74LS139" H 6350 7276 50  0000 C CNN
 F 2 "" H 6350 7000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 6350 7000 50  0001 C CNN
@@ -607,8 +607,8 @@ L 74xx:74LS08 U?
 U 2 1 5D4EBB7F
 P 6000 5000
 AR Path="/5D28EBAC/5D4EBB7F" Ref="U?"  Part="2" 
-AR Path="/5D4AE438/5D4EBB7F" Ref="U?"  Part="2" 
-F 0 "U?" H 6000 5325 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBB7F" Ref="U27"  Part="2" 
+F 0 "U27" H 6000 5325 50  0000 C CNN
 F 1 "74LS08" H 6000 5234 50  0000 C CNN
 F 2 "" H 6000 5000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 6000 5000 50  0001 C CNN
@@ -618,40 +618,40 @@ $EndComp
 $Comp
 L 4xxx:4066 U?
 U 1 1 5D4EBB8B
-P 8800 4650
+P 8350 4750
 AR Path="/5D28EBAC/5D4EBB8B" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBB8B" Ref="U?"  Part="1" 
-F 0 "U?" H 8800 4477 50  0000 C CNN
-F 1 "4066" H 8800 4386 50  0000 C CNN
-F 2 "" H 8800 4650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8800 4650 50  0001 C CNN
-	1    8800 4650
+AR Path="/5D4AE438/5D4EBB8B" Ref="U16"  Part="1" 
+F 0 "U16" H 8350 4577 50  0000 C CNN
+F 1 "4066" H 8350 4486 50  0000 C CNN
+F 2 "" H 8350 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8350 4750 50  0001 C CNN
+	1    8350 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U?
 U 3 1 5D4EBB97
-P 8800 5350
+P 8400 5600
 AR Path="/5D28EBAC/5D4EBB97" Ref="U?"  Part="3" 
-AR Path="/5D4AE438/5D4EBB97" Ref="U?"  Part="3" 
-F 0 "U?" H 8800 5177 50  0000 C CNN
-F 1 "4066" H 8800 5086 50  0000 C CNN
-F 2 "" H 8800 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8800 5350 50  0001 C CNN
-	3    8800 5350
+AR Path="/5D4AE438/5D4EBB97" Ref="U16"  Part="3" 
+F 0 "U16" H 8400 5427 50  0000 C CNN
+F 1 "4066" H 8400 5336 50  0000 C CNN
+F 2 "" H 8400 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 8400 5600 50  0001 C CNN
+	3    8400 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U?
 U 4 1 5D4EBB9D
-P 9600 5400
+P 9500 5600
 AR Path="/5D28EBAC/5D4EBB9D" Ref="U?"  Part="4" 
-AR Path="/5D4AE438/5D4EBB9D" Ref="U?"  Part="4" 
-F 0 "U?" H 9600 5227 50  0000 C CNN
-F 1 "4066" H 9600 5136 50  0000 C CNN
-F 2 "" H 9600 5400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 9600 5400 50  0001 C CNN
-	4    9600 5400
+AR Path="/5D4AE438/5D4EBB9D" Ref="U16"  Part="4" 
+F 0 "U16" H 9500 5427 50  0000 C CNN
+F 1 "4066" H 9500 5336 50  0000 C CNN
+F 2 "" H 9500 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 9500 5600 50  0001 C CNN
+	4    9500 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -659,8 +659,8 @@ L 74xx:74LS258 U?
 U 1 1 5D4EBBA3
 P 10600 5550
 AR Path="/5D28EBAC/5D4EBBA3" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBBA3" Ref="U?"  Part="1" 
-F 0 "U?" H 10600 6631 50  0000 C CNN
+AR Path="/5D4AE438/5D4EBBA3" Ref="U14"  Part="1" 
+F 0 "U14" H 10600 6631 50  0000 C CNN
 F 1 "74LS258" H 10600 6540 50  0000 C CNN
 F 2 "" H 10600 5550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 10600 5550 50  0001 C CNN
@@ -769,4 +769,26 @@ Wire Bus Line
 	2750 1000 2750 4750
 Wire Bus Line
 	1000 950  1000 4850
+$Comp
+L 4xxx:4066 U16
+U 2 1 5DA11A08
+P 9250 4650
+F 0 "U16" H 9250 4477 50  0000 C CNN
+F 1 "4066" H 9250 4386 50  0000 C CNN
+F 2 "" H 9250 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 9250 4650 50  0001 C CNN
+	2    9250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS373 U26
+U 1 1 5DA13362
+P 9100 3150
+F 0 "U26" H 9100 4131 50  0000 C CNN
+F 1 "74LS373" H 9100 4040 50  0000 C CNN
+F 2 "" H 9100 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 9100 3150 50  0001 C CNN
+	1    9100 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
