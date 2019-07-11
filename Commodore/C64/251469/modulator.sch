@@ -12,7 +12,7 @@ Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) p. 31 [PN-314001-03]"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 Text HLabel 1200 850  0    50   Input ~ 0
 CHROMA_IN
