@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 7406
+D Hex Inverter Buffer/Drivers with Open Collector outputs
+K TTL not inv OpenCol
+F https://www.ti.com/lit/ds/symlink/sn7406.pdf
+$ENDCMP
+#
 $CMP 74LS257
 D Quad 2 to 1 Multiplexer [fixed]
 K TTL MUX MUX2
