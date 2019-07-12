@@ -12,4 +12,40 @@ K 2364,rom
 F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
 $ENDCMP
 #
+$CMP 901225-01
+D MOS Technology 4096x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 CHARSET
+K 2332,rom,c64
+F https://archive.org/download/mos_2332_rom_feb_1980/mos_2332_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 901226-01
+D MOS Technology 8192x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 BASIC
+K 2364,rom,c64
+F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 901227-03
+D MOS Technology 8192x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 KERNAL
+K 2364,rom,c64
+F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP CBM_C64_Basic_2364
+D MOS Technology 8192x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 BASIC
+K 2364,rom,c64
+F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP CBM_C64_Charset_2332
+D MOS Technology 4096x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 CHARSET
+K 2332,rom,c64
+F https://archive.org/download/mos_2332_rom_feb_1980/mos_2332_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP CBM_C64_Kernal_2364
+D MOS Technology 8192x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 KERNAL
+K 2364,rom,c64
+F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
 #End Doc Library
