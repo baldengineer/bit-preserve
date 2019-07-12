@@ -890,6 +890,22 @@ U 5D29B6C1
 F0 "ROM Section" 50
 F1 "ROM.sch" 50
 $EndSheet
+Wire Wire Line
+	4150 4900 4150 4950
+$Comp
+L power:GND #PWR?
+U 1 1 5D29B64F
+P 4150 4950
+AR Path="/5D29B64F" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D29B64F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D29B64F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4150 4700 50  0001 C CNN
+F 1 "GND" H 4155 4777 50  0001 C CNN
+F 2 "" H 4150 4950 50  0001 C CNN
+F 3 "" H 4150 4950 50  0001 C CNN
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	2850 1000 2850 4850
 Wire Bus Line
