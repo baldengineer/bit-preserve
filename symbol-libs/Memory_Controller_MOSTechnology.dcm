@@ -8,13 +8,37 @@ $ENDCMP
 #
 $CMP 906114-01
 D Programmable Logic Array (PLA) memory controller for the Commodore 64
-K PLA,82S100,93459,7700,8700,8700R2,memory controller
+K PLA,memory controller,C64
 F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
 $ENDCMP
 #
 $CMP 93459
 D Compatible Fairchild Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application
 K FPLA,PLA,906114-01,memory controller
+F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
+$ENDCMP
+#
+$CMP CBM_C64_PLA_7700
+D MOS Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application (PLA)
+K 906114-01,PLA,memory controller,C64
+F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
+$ENDCMP
+#
+$CMP CBM_C64_PLA_82S100
+D Signetics Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application (PLA)
+K 906114-01,PLA,memory controller,C64
+F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
+$ENDCMP
+#
+$CMP CBM_C64_PLA_8700
+D MOS Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application (PLA)
+K 906114-01,PLA,memory controller,C64
+F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
+$ENDCMP
+#
+$CMP CBM_C64_PLA_93459
+D Fairchild Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application (PLA)
+K 906114-01,PLA,memory controller,C64
 F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
 $ENDCMP
 #
