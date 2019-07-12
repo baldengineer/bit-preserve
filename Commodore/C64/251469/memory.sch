@@ -906,12 +906,12 @@ F 3 "" H 4150 4950 50  0001 C CNN
 	1    4150 4950
 	1    0    0    -1  
 $EndComp
+Text Notes 4700 4750 2    50   ~ 0
+PLA
 Wire Bus Line
 	2850 1000 2850 4850
 Wire Bus Line
 	2550 1000 2550 5450
 Wire Bus Line
 	1000 950  1000 4850
-Text Notes 4700 4750 2    50   ~ 0
-PLA
 $EndSCHEMATC
