@@ -232,6 +232,7 @@ P 2200 3450
 AR Path="/5D29E90A" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D29E90A" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D29E90A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D29B6C1/5D29E90A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2200 3200 50  0001 C CNN
 F 1 "GND" H 2205 3277 50  0001 C CNN
 F 2 "" H 2200 3450 50  0001 C CNN
@@ -248,6 +249,7 @@ P 3550 3450
 AR Path="/5D29ECAD" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D29ECAD" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D29ECAD" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D29B6C1/5D29ECAD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3550 3200 50  0001 C CNN
 F 1 "GND" H 3555 3277 50  0001 C CNN
 F 2 "" H 3550 3450 50  0001 C CNN
@@ -264,6 +266,7 @@ P 4900 3450
 AR Path="/5D29F21A" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D29F21A" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D29F21A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D29B6C1/5D29F21A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4900 3200 50  0001 C CNN
 F 1 "GND" H 4905 3277 50  0001 C CNN
 F 2 "" H 4900 3450 50  0001 C CNN
@@ -271,4 +274,14 @@ F 3 "" H 4900 3450 50  0001 C CNN
 	1    4900 3450
 	1    0    0    -1  
 $EndComp
+Text HLabel 650  1450 1    50   Input ~ 0
+~BASIC
+Text HLabel 750  1450 1    50   Input ~ 0
+~KERNAL
+Text HLabel 850  1450 1    50   Input ~ 0
+~CHARROM
+Text HLabel 950  1450 1    50   Input ~ 0
+A[0..15]
+Text HLabel 1050 1450 1    50   Output ~ 0
+D[0..7]
 $EndSCHEMATC

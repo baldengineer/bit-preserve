@@ -912,4 +912,6 @@ Wire Bus Line
 	2550 1000 2550 5450
 Wire Bus Line
 	1000 950  1000 4850
+Text Notes 4700 4750 2    50   ~ 0
+PLA
 $EndSCHEMATC
