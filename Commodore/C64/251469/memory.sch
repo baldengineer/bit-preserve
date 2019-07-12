@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title "Commodore 64 - Memory section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -884,6 +884,12 @@ F 3 "" H 4150 2000 50  0001 C CNN
 	1    4150 2000
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4550 950  800  650 
+U 5D29B6C1
+F0 "ROM Section" 50
+F1 "ROM.sch" 50
+$EndSheet
 Wire Bus Line
 	2850 1000 2850 4850
 Wire Bus Line

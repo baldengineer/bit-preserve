@@ -1,20 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 82S100
-D Compatible Signetics Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application
-K FPLA,PLA,906114-01,memory controller
-F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
-$ENDCMP
-#
 $CMP 906114-01
 D Programmable Logic Array (PLA) memory controller for the Commodore 64
 K PLA,memory controller,C64
-F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
-$ENDCMP
-#
-$CMP 93459
-D Compatible Fairchild Field Programmable Logic Array (FPLA) fused in Commodore 64 memory controller application
-K FPLA,PLA,906114-01,memory controller
 F https://archive.org/download/82s100/signetics_82S100_fpla_apr75.pdf
 $ENDCMP
 #
