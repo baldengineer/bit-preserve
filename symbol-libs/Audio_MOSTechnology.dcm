@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6581
+D Sound Interface Device (SID)
+K sid,sound interface device,sound chip,sound generator
+F https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581_sid_preliminary_october_1982.pdf
+$ENDCMP
+#
+$CMP 8580
+D Sound Interface Device (SID)
+K sid,sound interface device,sound chip,sound generator
+F https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581_sid_preliminary_october_1982.pdf
+$ENDCMP
+#
+#End Doc Library
