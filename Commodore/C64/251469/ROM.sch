@@ -274,9 +274,9 @@ F 3 "" H 4850 3050 50  0001 C CNN
 	1    4850 3050
 	1    0    0    -1  
 $EndComp
-Text HLabel 2700 3350 3    50   Input ~ 0
+Text HLabel 900  3450 0    50   Input ~ 0
 ~KERNAL
-Text HLabel 4200 3350 3    50   Input ~ 0
+Text HLabel 900  3550 0    50   Input ~ 0
 ~CHARROM
 Text HLabel 900  3250 0    50   Input ~ 0
 A[0..15]
@@ -445,7 +445,7 @@ Wire Bus Line
 	5550 650  4000 650 
 Wire Bus Line
 	4000 650  2450 650 
-Text HLabel 1200 3350 3    50   Input ~ 0
+Text HLabel 900  3350 0    50   Input ~ 0
 ~BASIC
 Wire Wire Line
 	2850 1400 2650 1400
@@ -557,10 +557,6 @@ Wire Wire Line
 	1300 2800 1200 2800
 Wire Wire Line
 	1200 2800 1200 3350
-Wire Wire Line
-	4200 3350 4200 2700
-Wire Wire Line
-	2700 3350 2700 2800
 Wire Wire Line
 	2700 2800 2850 2800
 Text Label 1100 1400 0    50   ~ 0
@@ -701,6 +697,16 @@ Wire Wire Line
 Wire Wire Line
 	1100 2600 1300 2600
 Connection ~ 1000 3250
+Wire Wire Line
+	1200 3350 900  3350
+Wire Wire Line
+	900  3450 2700 3450
+Wire Wire Line
+	2700 2800 2700 3450
+Wire Wire Line
+	900  3550 4200 3550
+Wire Wire Line
+	4200 2700 4200 3550
 Wire Bus Line
 	2450 650  2450 2000
 Wire Bus Line
