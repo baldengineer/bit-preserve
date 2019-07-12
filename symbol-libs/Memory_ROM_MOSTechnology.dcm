@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2332
+D MOS Technology 4096x8 Static Read Only Memory (ROM)
+K 2332,rom
+F https://archive.org/download/mos_2332_rom_feb_1980/mos_2332_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 2364
+D MOS Technology 8192x8 Static Read Only Memory (ROM)
+K 2364,rom
+F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+#End Doc Library
