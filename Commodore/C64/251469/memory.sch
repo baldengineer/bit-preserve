@@ -924,38 +924,23 @@ Wire Wire Line
 Wire Wire Line
 	1700 3550 1700 4700
 Wire Wire Line
-	4800 6700 5100 6700
+	4800 6700 5150 6700
 Wire Wire Line
-	4800 6400 5100 6400
+	4800 6400 5150 6400
 Wire Wire Line
-	4800 6100 5100 6100
+	4800 6100 5150 6100
 Wire Wire Line
-	4800 5800 5100 5800
+	4800 5800 5150 5800
 Wire Wire Line
-	4800 4200 5100 4200
+	4800 4200 5150 4200
 Wire Wire Line
-	4800 3900 5100 3900
+	4800 3900 5150 3900
 Wire Wire Line
-	4800 3600 5100 3600
+	4800 3600 5150 3600
 Wire Wire Line
-	4800 3300 5100 3300
+	4800 3300 5150 3300
 Wire Wire Line
 	6350 600  6350 1400
-Wire Wire Line
-	5400 3300 5400 3100
-$Comp
-L 74xx:74LS139 U?
-U 2 1 5D4EBB79
-P 5900 2900
-AR Path="/5D28EBAC/5D4EBB79" Ref="U?"  Part="2" 
-AR Path="/5D4AE438/5D4EBB79" Ref="U15"  Part="2" 
-F 0 "U15" H 5600 3150 50  0000 L CNN
-F 1 "74LS139" H 6200 3150 50  0000 R CNN
-F 2 "" H 5900 2900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 5900 2900 50  0001 C CNN
-	2    5900 2900
-	1    0    0    -1  
-$EndComp
 Text HLabel 7200 2800 2    50   Output ~ 0
 ~CIA1
 Text HLabel 7200 2900 2    50   Output ~ 0
@@ -964,26 +949,10 @@ Text HLabel 7200 3000 2    50   Output ~ 0
 IO1
 Text HLabel 7200 3100 2    50   Output ~ 0
 IO2
-Wire Wire Line
-	6400 2900 7200 2900
-Wire Wire Line
-	6400 3000 7200 3000
-Wire Wire Line
-	6400 3100 7200 3100
-Wire Wire Line
-	6400 2800 7200 2800
-Text Label 5250 2900 0    50   ~ 0
-A8
-Text Label 5250 2800 0    50   ~ 0
-A9
 Text Notes 7500 3150 0    50   ~ 0
 DF00-DFFF: DISK
 Text Notes 7500 3050 0    50   ~ 0
 DE00-DEFF: Z80 ON
-Wire Wire Line
-	5400 2900 5200 2900
-Wire Wire Line
-	5400 2800 5200 2800
 Wire Wire Line
 	6250 1500 6250 1450
 Wire Wire Line
@@ -1043,35 +1012,33 @@ $EndComp
 Wire Wire Line
 	3400 1850 5950 1850
 Entry Wire Line
-	5200 5700 5100 5800
+	5250 5700 5150 5800
 Entry Wire Line
-	5200 6000 5100 6100
+	5250 6000 5150 6100
 Wire Bus Line
-	6600 1100 5200 1100
-Text Label 5200 1100 3    50   ~ 0
+	6600 1100 5250 1100
+Text Label 5250 1100 3    50   ~ 0
 MA[0..7]
 Entry Wire Line
-	5200 4100 5100 4200
+	5250 4100 5150 4200
 Entry Wire Line
-	5200 3800 5100 3900
+	5250 3800 5150 3900
 Entry Wire Line
-	5200 3200 5100 3300
+	5250 3200 5150 3300
 Entry Wire Line
-	5200 6300 5100 6400
+	5250 6300 5150 6400
 Entry Wire Line
-	5200 6600 5100 6700
-Text Label 4950 5800 0    50   ~ 0
+	5250 6600 5150 6700
+Text Label 5000 5800 0    50   ~ 0
 MA3
-Text Label 4950 6400 0    50   ~ 0
+Text Label 5000 6400 0    50   ~ 0
 MA1
-Text Label 4950 6100 0    50   ~ 0
+Text Label 5000 6100 0    50   ~ 0
 MA2
-Text Label 4950 6700 0    50   ~ 0
+Text Label 5000 6700 0    50   ~ 0
 MA0
 Wire Wire Line
 	3500 7650 6150 7650
-Wire Wire Line
-	3400 2450 5400 2450
 Text HLabel 6150 7650 2    50   Output ~ 0
 ROML
 Wire Wire Line
@@ -1084,8 +1051,6 @@ Entry Wire Line
 	5200 2800 5100 2700
 Entry Wire Line
 	5200 2900 5100 2800
-Wire Wire Line
-	5200 2250 5400 2250
 $Sheet
 S 6600 1050 800  550 
 U 5DA00A7E
@@ -1103,61 +1068,96 @@ Wire Bus Line
 	7400 1100 7500 1100
 Text Notes 7200 2500 0    50   ~ 0
 ~CIAS
-Text Label 5250 2250 0    50   ~ 0
-A10
-Text Label 5250 2150 0    50   ~ 0
-A11
-$Comp
-L 74xx:74LS139 U?
-U 1 1 5D4EBB73
-P 5900 2250
-AR Path="/5D28EBAC/5D4EBB73" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D4EBB73" Ref="U15"  Part="1" 
-F 0 "U15" H 5600 2500 50  0000 L CNN
-F 1 "74LS139" H 6200 2500 50  0000 R CNN
-F 2 "" H 5900 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 5900 2250 50  0001 C CNN
-	1    5900 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6400 2150 7200 2150
 Text HLabel 7200 2150 2    50   Output ~ 0
 ~VIC
-Wire Wire Line
-	6400 2350 7200 2350
-Wire Wire Line
-	6400 2250 7200 2250
 Text HLabel 7200 2350 2    50   Output ~ 0
 ~COLOR
 Text HLabel 7200 2250 2    50   Output ~ 0
 ~SID
-Text Label 4950 4200 0    50   ~ 0
+Text Label 5000 4200 0    50   ~ 0
 MA4
-Text Label 4950 3900 0    50   ~ 0
+Text Label 5000 3900 0    50   ~ 0
 MA7
-Text Label 4950 3300 0    50   ~ 0
+Text Label 5000 3300 0    50   ~ 0
 MA6
 Text Notes 6450 7650 0    50   ~ 0
 8000-9FFF
-Text Label 4950 3600 0    50   ~ 0
+Text Label 5000 3600 0    50   ~ 0
 MA5
 Entry Wire Line
-	5200 3500 5100 3600
+	5250 3500 5150 3600
 Wire Wire Line
-	6450 2450 6400 2450
+	5450 3300 5450 3100
+$Comp
+L 74xx:74LS139 U?
+U 2 1 5D4EBB79
+P 5950 2900
+AR Path="/5D28EBAC/5D4EBB79" Ref="U?"  Part="2" 
+AR Path="/5D4AE438/5D4EBB79" Ref="U15"  Part="2" 
+F 0 "U15" H 5650 3150 50  0000 L CNN
+F 1 "74LS139" H 6250 3150 50  0000 R CNN
+F 2 "" H 5950 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 5950 2900 50  0001 C CNN
+	2    5950 2900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5400 3300 6450 3300
+	6450 2900 7200 2900
 Wire Wire Line
-	6450 3300 6450 2450
+	6450 3000 7200 3000
 Wire Wire Line
-	5200 2150 5400 2150
+	6450 3100 7200 3100
+Wire Wire Line
+	6450 2800 7200 2800
+Text Label 5300 2900 0    50   ~ 0
+A8
+Text Label 5300 2800 0    50   ~ 0
+A9
+Wire Wire Line
+	5450 2900 5200 2900
+Wire Wire Line
+	5450 2800 5200 2800
+Wire Wire Line
+	3400 2450 5450 2450
+Text Label 5300 2250 0    50   ~ 0
+A10
+Text Label 5300 2150 0    50   ~ 0
+A11
+$Comp
+L 74xx:74LS139 U?
+U 1 1 5D4EBB73
+P 5950 2250
+AR Path="/5D28EBAC/5D4EBB73" Ref="U?"  Part="1" 
+AR Path="/5D4AE438/5D4EBB73" Ref="U15"  Part="1" 
+F 0 "U15" H 5650 2500 50  0000 L CNN
+F 1 "74LS139" H 6250 2500 50  0000 R CNN
+F 2 "" H 5950 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 5950 2250 50  0001 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2150 7200 2150
+Wire Wire Line
+	6450 2350 7200 2350
+Wire Wire Line
+	6450 2250 7200 2250
+Wire Wire Line
+	6500 2450 6450 2450
+Wire Wire Line
+	5450 3300 6500 3300
+Wire Wire Line
+	6500 3300 6500 2450
+Wire Wire Line
+	5200 2150 5450 2150
+Wire Wire Line
+	5200 2250 5450 2250
 Wire Bus Line
 	5100 900  5100 2800
 Wire Bus Line
 	1700 900  1700 3250
 Wire Bus Line
-	5200 1100 5200 6600
+	5250 1100 5250 6600
 Wire Bus Line
 	3700 1100 3700 6700
 $EndSCHEMATC
