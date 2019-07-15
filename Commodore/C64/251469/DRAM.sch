@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title "Commodore 64 - DRAM Section (schematic #251469)"
 Date "2019-07-11"
 Rev "0.1"
@@ -1394,6 +1394,22 @@ F 3 "" H 1000 750 50  0001 C CNN
 	1    1000 750 
 	0    -1   -1   0   
 $EndComp
+Text Notes 3100 2100 1    50   ~ 0
+RAM
+Text Notes 4000 2100 1    50   ~ 0
+RAM
+Text Notes 4900 2100 1    50   ~ 0
+RAM
+Text Notes 5800 2100 1    50   ~ 0
+RAM
+Text Notes 6700 2100 1    50   ~ 0
+RAM
+Text Notes 7600 2100 1    50   ~ 0
+RAM
+Text Notes 8500 2100 1    50   ~ 0
+RAM
+Text Notes 9400 2100 1    50   ~ 0
+RAM
 Wire Bus Line
 	1400 1100 1400 3250
 Wire Bus Line

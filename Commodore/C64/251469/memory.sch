@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "Commodore 64 - Memory section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -1155,9 +1155,9 @@ Wire Wire Line
 Wire Bus Line
 	5100 900  5100 2800
 Wire Bus Line
-	1700 900  1700 3250
-Wire Bus Line
 	5250 1100 5250 6600
 Wire Bus Line
 	3700 1100 3700 6700
+Wire Bus Line
+	1700 900  1700 3250
 $EndSCHEMATC

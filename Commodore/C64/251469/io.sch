@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title "Commodore 64 - I/O section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -36,4 +36,8 @@ F 3 "https://archive.org/download/mos_6526_cia_recreated/mos_6526_cia_recreated.
 	1    5100 3250
 	1    0    0    -1  
 $EndComp
+Text Notes 3200 3550 1    50   ~ 0
+CIA\n[DC00-DCFF]
+Text Notes 5100 3550 1    50   ~ 0
+CIA\n[DD00-DDFF]
 $EndSCHEMATC

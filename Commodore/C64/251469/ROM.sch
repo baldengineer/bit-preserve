@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title "Commodore 64 - ROM Section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -50,11 +50,11 @@ F 3 "https://archive.org/download/mos_2332_rom_feb_1980/mos_2332_rom_feb_1980.pd
 	1    0    0    -1  
 $EndComp
 Text Notes 1800 2300 1    50   ~ 0
-BASIC ROM\n(A000-BFFF)
+BASIC ROM\n[A000-BFFF]
 Text Notes 3350 2300 1    50   ~ 0
-KERNAL ROM\n(E000-FFFF)
+KERNAL ROM\n[E000-FFFF]
 Text Notes 4900 2300 1    50   ~ 0
-CHARACTER ROM\n(D000-DFFF)
+CHARACTER ROM\n[D000-DFFF]
 Connection ~ 1750 1000
 Wire Wire Line
 	1750 1200 1750 1000
