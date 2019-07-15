@@ -30,4 +30,6 @@ Text HLabel 1950 1050 0    50   Output ~ 0
 RF_OUT
 Text Notes 500  600  0    50   ~ 0
 TODO
+Text Notes 850  1550 0    250  ~ 0
+TODO
 $EndSCHEMATC
