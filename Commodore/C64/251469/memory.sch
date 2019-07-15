@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title "Commodore 64 - Memory section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -987,7 +987,7 @@ P 6100 1450
 AR Path="/5D28EBAC/5D7C4A1F" Ref="R?"  Part="1" 
 AR Path="/5D4AE438/5D7C4A1F" Ref="R?"  Part="1" 
 F 0 "R?" V 6200 1450 50  0000 C CNN
-F 1 "82Ω" V 6100 1450 50  0000 C CNN
+F 1 "82R" V 6100 1450 50  0000 C CNN
 F 2 "" V 6030 1450 50  0001 C CNN
 F 3 "~" H 6100 1450 50  0001 C CNN
 	1    6100 1450
