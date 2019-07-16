@@ -7,4 +7,5 @@
   (lib (name Video_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Video_MOSTechnology.lib)(options "")(descr ""))
   (lib (name 74xx_more)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/74xx_more.lib)(options "")(descr ""))
   (lib (name Memory_ROM_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Memory_ROM_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name power_more)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/power_more.lib)(options "")(descr ""))
 )
