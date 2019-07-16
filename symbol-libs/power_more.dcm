@@ -15,6 +15,21 @@ D Power symbol creates a global label with name "+5VC"
 K power-flag
 $ENDCMP
 #
+$CMP 9VAC
+D Power symbol creates a global label with name "9VAC" (9V AC supply)
+K power-flag
+$ENDCMP
+#
+$CMP 9VAC1
+D Power symbol creates a global label with name "9VAC1" (phase 1 of 9V AC supply)
+K power-flag
+$ENDCMP
+#
+$CMP 9VAC2
+D Power symbol creates a global label with name "9VAC2" (phase 2 of 9V AC supply)
+K power-flag
+$ENDCMP
+#
 $CMP CAN+5V
 D Power symbol creates a global label with name "CAN+5V"
 K power-flag
