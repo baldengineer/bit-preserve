@@ -51,7 +51,7 @@ F0 "I/O Section" 50
 F1 "io.sch" 50
 $EndSheet
 $Sheet
-S 600  700  1150 750 
+S 600  700  800  150 
 U 5D94F152
 F0 "Power section" 50
 F1 "power.sch" 50
@@ -406,12 +406,12 @@ Connection ~ 7250 1100
 Wire Wire Line
 	7250 1100 7250 950 
 $Sheet
-S 600  1700 800  300 
+S 600  1100 800  300 
 U 5D9CCECB
 F0 "Reset section" 50
 F1 "reset.sch" 50
-F2 "~INTRST" O R 1400 1800 50 
-F3 "~EXTRST" O R 1400 1900 50 
+F2 "~INTRST" O R 1400 1200 50 
+F3 "~EXTRST" O R 1400 1300 50 
 $EndSheet
 $Comp
 L power_more:CAN+5V #PWR?

@@ -105,17 +105,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -2400 4650 50  0001 C CNN
 	2    -2400 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS373 U26
-U 1 1 5DA13362
-P -2550 2500
-F 0 "U26" H -2550 3481 50  0000 C CNN
-F 1 "74LS373" H -2550 3390 50  0000 C CNN
-F 2 "" H -2550 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H -2550 2500 50  0001 C CNN
-	1    -2550 2500
-	1    0    0    -1  
-$EndComp
 Text HLabel 850  900  0    50   Input ~ 0
 A[0..15]
 Text HLabel -350 4100 0    50   Output ~ 0
@@ -314,72 +303,6 @@ Wire Bus Line
 	5000 800  5000 1100
 Wire Bus Line
 	5000 1100 4900 1100
-$Comp
-L 74xx:74LS139 U15
-U 3 1 5D535855
-P -950 2850
-F 0 "U15" H -1250 3200 50  0000 L CNN
-F 1 "74LS139" H -900 3200 50  0000 L CNN
-F 2 "" H -950 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS139" H -950 2850 50  0001 C CNN
-	3    -950 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-950 2150 -950 2050
-Wire Wire Line
-	-650 2150 -650 2200
-Wire Wire Line
-	-700 2150 -650 2150
-Wire Wire Line
-	-950 2150 -900 2150
-$Comp
-L power:GND #PWR?
-U 1 1 5D538E9F
-P -650 2200
-AR Path="/5D538E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D538E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D538E9F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -650 1950 50  0001 C CNN
-F 1 "GND" H -645 2027 50  0001 C CNN
-F 2 "" H -650 2200 50  0001 C CNN
-F 3 "" H -650 2200 50  0001 C CNN
-	1    -650 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5D538EA9
-P -800 2150
-AR Path="/5D538EA9" Ref="C?"  Part="1" 
-AR Path="/5D28EBAC/5D538EA9" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D538EA9" Ref="C31"  Part="1" 
-F 0 "C31" V -900 2100 50  0000 L CNN
-F 1 "? μF" V -700 2050 50  0000 L CNN
-F 2 "" H -800 2150 50  0001 C CNN
-F 3 "~" H -800 2150 50  0001 C CNN
-	1    -800 2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-950 2350 -950 2150
-Connection ~ -950 2150
-$Comp
-L power:GND #PWR?
-U 1 1 5D544AFD
-P -950 3400
-AR Path="/5D544AFD" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D544AFD" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D544AFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -950 3150 50  0001 C CNN
-F 1 "GND" H -945 3227 50  0001 C CNN
-F 2 "" H -950 3400 50  0001 C CNN
-F 3 "" H -950 3400 50  0001 C CNN
-	1    -950 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-950 3400 -950 3350
 Text Notes 6450 7750 0    50   ~ 0
 A000-BFFF OR E000-FFFF
 Entry Bus Bus
@@ -560,72 +483,6 @@ Wire Wire Line
 	1600 4500 3600 4500
 Connection ~ 3600 4500
 Connection ~ 3700 1100
-$Comp
-L 74xx_more:7406 U8
-U 7 1 5DCD1603
-P -1750 3950
-F 0 "U8" H -1850 4300 50  0000 R CNN
-F 1 "7406" H -1550 4300 50  0000 R CNN
-F 2 "" H -1750 3950 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H -1750 3950 50  0001 C CNN
-	7    -1750 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DCD5027
-P -1750 4500
-AR Path="/5DCD5027" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5DCD5027" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5DCD5027" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -1750 4250 50  0001 C CNN
-F 1 "GND" H -1745 4327 50  0001 C CNN
-F 2 "" H -1750 4500 50  0001 C CNN
-F 3 "" H -1750 4500 50  0001 C CNN
-	1    -1750 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1750 4500 -1750 4450
-Wire Wire Line
-	-1750 3250 -1750 3150
-Wire Wire Line
-	-1450 3250 -1450 3300
-Wire Wire Line
-	-1500 3250 -1450 3250
-Wire Wire Line
-	-1750 3250 -1700 3250
-$Comp
-L power:GND #PWR?
-U 1 1 5DCE32E6
-P -1450 3300
-AR Path="/5DCE32E6" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5DCE32E6" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5DCE32E6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H -1450 3050 50  0001 C CNN
-F 1 "GND" H -1445 3127 50  0001 C CNN
-F 2 "" H -1450 3300 50  0001 C CNN
-F 3 "" H -1450 3300 50  0001 C CNN
-	1    -1450 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5DCE32EC
-P -1600 3250
-AR Path="/5DCE32EC" Ref="C?"  Part="1" 
-AR Path="/5D28EBAC/5DCE32EC" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5DCE32EC" Ref="C?"  Part="1" 
-F 0 "C?" V -1700 3200 50  0000 L CNN
-F 1 "? μF" V -1500 3150 50  0000 L CNN
-F 2 "" H -1600 3250 50  0001 C CNN
-F 3 "~" H -1600 3250 50  0001 C CNN
-	1    -1600 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-1750 3450 -1750 3250
-Connection ~ -1750 3250
 $Comp
 L 74xx_more:7406 U8
 U 2 1 5DCED233
@@ -1152,6 +1009,17 @@ Wire Wire Line
 	5200 2150 5450 2150
 Wire Wire Line
 	5200 2250 5450 2250
+$Comp
+L 74xx:74LS373 U26
+U 1 1 5DA13362
+P -2550 2500
+F 0 "U26" H -2550 3481 50  0000 C CNN
+F 1 "74LS373" H -2550 3390 50  0000 C CNN
+F 2 "" H -2550 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H -2550 2500 50  0001 C CNN
+	1    -2550 2500
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	5100 900  5100 2800
 Wire Bus Line
