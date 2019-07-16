@@ -15,20 +15,20 @@ Comment3 ""
 Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 $Sheet
-S 600  3950 1150 500 
+S 700  5300 1150 500 
 U 5D262D6A
 F0 "RF Modulator" 50
 F1 "modulator.sch" 50
-F2 "CHROMA_IN" I L 600 4150 50 
-F3 "LUMA_IN" I L 600 4050 50 
-F4 "AUDIO_IN" I L 600 4250 50 
-F5 "LUMA_OUT" O R 1750 4050 50 
-F6 "CHROMA_OUT" O R 1750 4150 50 
-F7 "COMP_OUT" O R 1750 4250 50 
-F8 "RF_OUT" O R 1750 4350 50 
+F2 "CHROMA_IN" I L 700 5500 50 
+F3 "LUMA_IN" I L 700 5400 50 
+F4 "AUDIO_IN" I L 700 5600 50 
+F5 "LUMA_OUT" O R 1850 5400 50 
+F6 "CHROMA_OUT" O R 1850 5500 50 
+F7 "COMP_OUT" O R 1850 5600 50 
+F8 "RF_OUT" O R 1850 5700 50 
 $EndSheet
 $Sheet
-S 600  1700 1600 1100
+S 700  3050 1600 1100
 U 5D4AE438
 F0 "Memory section" 50
 F1 "memory.sch" 50
@@ -45,7 +45,7 @@ F 3 "https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf" H 3700 3150 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 600  3050 1000 650 
+S 700  4400 1000 650 
 U 5D943305
 F0 "I/O Section" 50
 F1 "io.sch" 50
@@ -420,9 +420,11 @@ Connection ~ 7250 1100
 Wire Wire Line
 	7250 1100 7250 950 
 $Sheet
-S 650  4800 850  550 
+S 600  1700 800  300 
 U 5D9CCECB
 F0 "Reset section" 50
 F1 "reset.sch" 50
+F2 "~INTRST" O R 1400 1800 50 
+F3 "~EXTRST" O R 1400 1900 50 
 $EndSheet
 $EndSCHEMATC
