@@ -15,4 +15,14 @@ D Power symbol creates a global label with name "+5VC"
 K power-flag
 $ENDCMP
 #
+$CMP CAN+5V
+D Power symbol creates a global label with name "CAN+5V"
+K power-flag
+$ENDCMP
+#
+$CMP UNREG+9V
+D Power symbol creates a global label with name "UNREG+9V"
+K power-flag
+$ENDCMP
+#
 #End Doc Library
