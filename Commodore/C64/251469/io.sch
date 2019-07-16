@@ -113,7 +113,7 @@ AR Path="/5D28EBAC/5D9BB0D7" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D9BB0D7" Ref="C?"  Part="1" 
 AR Path="/5D943305/5D9BB0D7" Ref="C2"  Part="1" 
 F 0 "C2" V 3250 1000 50  0000 L CNN
-F 1 "? μF" V 3450 950 50  0000 L CNN
+F 1 ".1 μF" V 3450 900 50  0000 L CNN
 F 2 "" H 3350 1050 50  0001 C CNN
 F 3 "~" H 3350 1050 50  0001 C CNN
 	1    3350 1050
@@ -169,7 +169,7 @@ AR Path="/5D28EBAC/5D9BC587" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D9BC587" Ref="C?"  Part="1" 
 AR Path="/5D943305/5D9BC587" Ref="C3"  Part="1" 
 F 0 "C3" V 5150 1000 50  0000 L CNN
-F 1 "? μF" V 5350 950 50  0000 L CNN
+F 1 ".1 μF" V 5350 900 50  0000 L CNN
 F 2 "" H 5250 1050 50  0001 C CNN
 F 3 "~" H 5250 1050 50  0001 C CNN
 	1    5250 1050
@@ -178,4 +178,17 @@ $EndComp
 Wire Wire Line
 	5100 1250 5100 1050
 Connection ~ 5100 1050
+NoConn ~ 3600 3750
+Text HLabel 1000 1400 0    50   BiDi ~ 0
+D[0..7]
+Text HLabel 1000 1700 0    50   Input ~ 0
+COL[0..7]
+Text HLabel 1000 1800 0    50   Input ~ 0
+ROW[0..7]
+Text HLabel 1000 2000 0    50   Input ~ 0
+~CIA1
+Text HLabel 1000 2100 0    50   Input ~ 0
+~CIA2
+Text HLabel 1000 1500 0    50   Input ~ 0
+R~W
 $EndSCHEMATC
