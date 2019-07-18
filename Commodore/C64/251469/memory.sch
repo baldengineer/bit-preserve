@@ -305,8 +305,6 @@ Wire Bus Line
 	5000 1100 4900 1100
 Text Notes 6450 7750 0    50   ~ 0
 A000-BFFF OR E000-FFFF
-Entry Bus Bus
-	1700 3250 1800 3350
 $Comp
 L power:+5V #PWR?
 U 1 1 5D4EBB32
