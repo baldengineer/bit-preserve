@@ -191,4 +191,148 @@ Text HLabel 1000 2100 0    50   Input ~ 0
 ~CIA2
 Text HLabel 1000 1500 0    50   Input ~ 0
 R~W
+Entry Wire Line
+	3800 1950 3900 1850
+Wire Wire Line
+	3600 1950 3800 1950
+Text Label 3700 1950 0    50   ~ 0
+D0
+Entry Wire Line
+	3800 2050 3900 1950
+Wire Wire Line
+	3600 2050 3800 2050
+Text Label 3700 2050 0    50   ~ 0
+D1
+Entry Wire Line
+	3800 2150 3900 2050
+Wire Wire Line
+	3600 2150 3800 2150
+Text Label 3700 2150 0    50   ~ 0
+D2
+Entry Wire Line
+	3800 2250 3900 2150
+Wire Wire Line
+	3600 2250 3800 2250
+Text Label 3700 2250 0    50   ~ 0
+D3
+Entry Wire Line
+	3800 2350 3900 2250
+Wire Wire Line
+	3600 2350 3800 2350
+Text Label 3700 2350 0    50   ~ 0
+D4
+Entry Wire Line
+	3800 2450 3900 2350
+Wire Wire Line
+	3600 2450 3800 2450
+Text Label 3700 2450 0    50   ~ 0
+D5
+Entry Wire Line
+	3800 2550 3900 2450
+Wire Wire Line
+	3600 2550 3800 2550
+Text Label 3700 2550 0    50   ~ 0
+D6
+Entry Wire Line
+	3800 2650 3900 2550
+Wire Wire Line
+	3600 2650 3800 2650
+Text Label 3700 2650 0    50   ~ 0
+D7
+Entry Wire Line
+	5700 1950 5800 1850
+Wire Wire Line
+	5500 1950 5700 1950
+Text Label 5600 1950 0    50   ~ 0
+D0
+Entry Wire Line
+	5700 2050 5800 1950
+Wire Wire Line
+	5500 2050 5700 2050
+Text Label 5600 2050 0    50   ~ 0
+D1
+Entry Wire Line
+	5700 2150 5800 2050
+Wire Wire Line
+	5500 2150 5700 2150
+Text Label 5600 2150 0    50   ~ 0
+D2
+Entry Wire Line
+	5700 2250 5800 2150
+Wire Wire Line
+	5500 2250 5700 2250
+Text Label 5600 2250 0    50   ~ 0
+D3
+Entry Wire Line
+	5700 2350 5800 2250
+Wire Wire Line
+	5500 2350 5700 2350
+Text Label 5600 2350 0    50   ~ 0
+D4
+Entry Wire Line
+	5700 2450 5800 2350
+Wire Wire Line
+	5500 2450 5700 2450
+Text Label 5600 2450 0    50   ~ 0
+D5
+Entry Wire Line
+	5700 2550 5800 2450
+Wire Wire Line
+	5500 2550 5700 2550
+Text Label 5600 2550 0    50   ~ 0
+D6
+Entry Wire Line
+	5700 2650 5800 2550
+Wire Wire Line
+	5500 2650 5700 2650
+Text Label 5600 2650 0    50   ~ 0
+D7
+Wire Wire Line
+	4700 1950 4500 1950
+Text Label 4500 1950 0    50   ~ 0
+A0
+Wire Wire Line
+	4700 2050 4500 2050
+Text Label 4500 2050 0    50   ~ 0
+A1
+Wire Wire Line
+	4700 2150 4500 2150
+Text Label 4500 2150 0    50   ~ 0
+A2
+Wire Wire Line
+	4700 2250 4500 2250
+Text Label 4500 2250 0    50   ~ 0
+A3
+Wire Wire Line
+	2800 1950 2600 1950
+Text Label 2600 1950 0    50   ~ 0
+A0
+Wire Wire Line
+	2800 2050 2600 2050
+Text Label 2600 2050 0    50   ~ 0
+A1
+Wire Wire Line
+	2800 2150 2600 2150
+Text Label 2600 2150 0    50   ~ 0
+A2
+Wire Wire Line
+	2800 2250 2600 2250
+Text Label 2600 2250 0    50   ~ 0
+A3
+Entry Wire Line
+	2500 1850 2600 1950
+Entry Wire Line
+	2500 1950 2600 2050
+Entry Wire Line
+	2500 2050 2600 2150
+Entry Wire Line
+	2500 2150 2600 2250
+Entry Wire Line
+	4400 1850 4500 1950
+Entry Wire Line
+	4400 1950 4500 2050
+Entry Wire Line
+	4400 2050 4500 2150
+Entry Wire Line
+	4400 2150 4500 2250
 $EndSCHEMATC
