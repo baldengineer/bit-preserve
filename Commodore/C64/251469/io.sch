@@ -540,78 +540,67 @@ COL[0..7]
 Text Label 3550 6500 2    50   ~ 0
 ROW[0..7]
 Wire Wire Line
-	750  7700 1050 7700
+	900  7700 1200 7700
 Wire Wire Line
-	750  7600 1050 7600
+	900  7600 1200 7600
 Wire Wire Line
-	750  7500 1050 7500
+	900  7500 1200 7500
 Wire Wire Line
-	750  7400 1050 7400
+	900  7400 1200 7400
 Wire Wire Line
-	750  7300 1050 7300
+	900  7300 1200 7300
 Wire Wire Line
-	750  7200 1050 7200
+	900  7200 1200 7200
 Wire Wire Line
-	750  7100 1050 7100
+	900  7100 1200 7100
 Wire Wire Line
-	750  7000 1050 7000
-Text Label 750  6600 0    50   ~ 0
+	900  7000 1200 7000
+Text Label 900  6600 0    50   ~ 0
 ROW7
-Text Label 750  6300 0    50   ~ 0
+Text Label 900  6300 0    50   ~ 0
 ROW6
-Text Label 750  6400 0    50   ~ 0
+Text Label 900  6400 0    50   ~ 0
 ROW5
-Text Label 750  6500 0    50   ~ 0
+Text Label 900  6500 0    50   ~ 0
 ROW4
-Text Label 750  6200 0    50   ~ 0
+Text Label 900  6200 0    50   ~ 0
 ROW3
-Text Label 750  6700 0    50   ~ 0
+Text Label 900  6700 0    50   ~ 0
 ROW2
-Text Label 750  6800 0    50   ~ 0
+Text Label 900  6800 0    50   ~ 0
 ROW1
-Text Label 750  6900 0    50   ~ 0
+Text Label 900  6900 0    50   ~ 0
 ROW0
-Text Label 850  7700 0    50   ~ 0
+Text Label 1000 7700 0    50   ~ 0
 COL7
-Text Label 850  7100 0    50   ~ 0
+Text Label 1000 7100 0    50   ~ 0
 COL6
-Text Label 850  7200 0    50   ~ 0
+Text Label 1000 7200 0    50   ~ 0
 COL5
-Text Label 850  7300 0    50   ~ 0
+Text Label 1000 7300 0    50   ~ 0
 COL4
-Text Label 850  7400 0    50   ~ 0
+Text Label 1000 7400 0    50   ~ 0
 COL3
-Text Label 850  7500 0    50   ~ 0
+Text Label 1000 7500 0    50   ~ 0
 COL2
-Text Label 850  7600 0    50   ~ 0
+Text Label 1000 7600 0    50   ~ 0
 COL1
-Text Label 850  7000 0    50   ~ 0
+Text Label 1000 7000 0    50   ~ 0
 COL0
 Wire Wire Line
-	750  6600 950  6600
+	900  6600 1100 6600
 Wire Wire Line
-	750  6400 950  6400
+	900  6400 1100 6400
 Wire Wire Line
-	750  6300 950  6300
+	900  6300 1100 6300
 Wire Wire Line
-	750  6200 950  6200
+	900  6200 1100 6200
 Wire Wire Line
-	750  6900 950  6900
+	900  6900 1100 6900
 Wire Wire Line
-	750  6800 950  6800
+	900  6800 1100 6800
 Wire Wire Line
-	750  6700 950  6700
-$Comp
-L Connector:Conn_01x20_Male CN1
-U 1 1 5D43490D
-P 550 6700
-F 0 "CN1" H 600 7850 50  0000 C CNN
-F 1 "Keyboard" H 700 7750 50  0000 C CNN
-F 2 "" H 550 6700 50  0001 C CNN
-F 3 "~" H 550 6700 50  0001 C CNN
-	1    550  6700
-	1    0    0    -1  
-$EndComp
+	900  6700 1100 6700
 Text Label 3350 3550 0    50   ~ 0
 COL0
 Text Label 3350 3650 0    50   ~ 0
@@ -729,42 +718,42 @@ Wire Wire Line
 Wire Wire Line
 	3200 4250 3550 4250
 Entry Wire Line
-	1050 7000 1150 6900
+	1200 7000 1300 6900
 Entry Wire Line
-	1050 7600 1150 7500
+	1200 7600 1300 7500
 Entry Wire Line
-	1050 7500 1150 7400
+	1200 7500 1300 7400
 Entry Wire Line
-	1050 7400 1150 7300
+	1200 7400 1300 7300
 Entry Wire Line
-	1050 7300 1150 7200
+	1200 7300 1300 7200
 Entry Wire Line
-	1050 7200 1150 7100
+	1200 7200 1300 7100
 Entry Wire Line
-	1050 7100 1150 7000
+	1200 7100 1300 7000
 Entry Wire Line
-	1050 7700 1150 7600
+	1200 7700 1300 7600
 Entry Wire Line
-	950  6700 1050 6600
+	1100 6700 1200 6600
 Entry Wire Line
-	950  6800 1050 6700
+	1100 6800 1200 6700
 Entry Wire Line
-	950  6900 1050 6800
+	1100 6900 1200 6800
 Entry Wire Line
-	1050 6300 950  6200
+	1200 6300 1100 6200
 Entry Wire Line
-	1050 6400 950  6300
+	1200 6400 1100 6300
 Entry Wire Line
-	1050 6500 950  6400
+	1200 6500 1100 6400
 Entry Wire Line
-	950  6600 1050 6500
+	1100 6600 1200 6500
 Wire Bus Line
-	3550 6500 1050 6500
-Connection ~ 1050 6500
+	3550 6500 1200 6500
+Connection ~ 1200 6500
 Wire Wire Line
-	750  6500 1050 6500
+	900  6500 1200 6500
 Wire Bus Line
-	1150 6600 3650 6600
+	1300 6600 3650 6600
 Text HLabel -900 4150 0    50   Output ~ 0
 ~IRQ
 Text HLabel -900 4250 0    50   Output ~ 0
@@ -887,24 +876,6 @@ F 3 "~" H -2250 4500 50  0001 C CNN
 	1    -2250 4500
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1050 6300 1050 6500
-Wire Bus Line
-	1050 6500 1050 6800
-Wire Bus Line
-	4000 1400 4000 2850
-Wire Bus Line
-	2100 1400 2100 2850
-Wire Bus Line
-	1150 6600 1150 7600
-Wire Bus Line
-	3650 3650 3650 6600
-Wire Bus Line
-	3550 4650 3550 6500
-Wire Bus Line
-	5400 1300 5400 3250
-Wire Bus Line
-	3500 1300 3500 3250
 Text Notes 4400 6750 1    50   ~ 0
 50/60 Hz (line freq.)
 Text Notes 2050 5450 0    50   ~ 0
@@ -943,4 +914,91 @@ Text Notes 3250 2150 0    50   ~ 0
 USERPORT\nSP1
 Text Notes 3250 2350 0    50   ~ 0
 USERPORT\nCNT1
+$Comp
+L Connector_Generic:Conn_01x20 CN1
+U 1 1 5D72513D
+P 700 6700
+F 0 "CN1" H 700 7700 50  0000 C CNN
+F 1 "Keyboard" V 800 6700 50  0000 C CNN
+F 2 "" H 700 6700 50  0001 C CNN
+F 3 "~" H 700 6700 50  0001 C CNN
+	1    700  6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Male CN8
+U 1 1 5D74C9E4
+P 750 3500
+F 0 "CN8" H 668 2808 50  0000 C CNN
+F 1 "Control Port 2" H 668 2899 50  0000 C CNN
+F 2 "" H 750 3500 50  0001 C CNN
+F 3 " ~" H 750 3500 50  0001 C CNN
+	1    750  3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:DB9_Male CN9
+U 1 1 5D7503E1
+P 750 4850
+F 0 "CN9" H 668 4158 50  0000 C CNN
+F 1 "Control Port 1" H 668 4249 50  0000 C CNN
+F 2 "" H 750 4850 50  0001 C CNN
+F 3 " ~" H 750 4850 50  0001 C CNN
+	1    750  4850
+	-1   0    0    1   
+$EndComp
+Text Notes 1100 4750 0    50   ~ 0
++5V
+Text Notes 1100 3400 0    50   ~ 0
++5V
+Text Notes 1100 3600 0    50   ~ 0
+GND
+Text Notes 1100 4950 0    50   ~ 0
+GND
+Text Notes 1100 3800 0    50   ~ 0
+POT BX
+Text Notes 1100 5150 0    50   ~ 0
+POT AX
+Text Notes 1100 3900 0    50   ~ 0
+POT BY
+Text Notes 1100 5250 0    50   ~ 0
+POT AY
+Wire Bus Line
+	1200 6300 1200 6500
+Wire Bus Line
+	1200 6500 1200 6800
+Wire Bus Line
+	4000 1400 4000 2850
+Wire Bus Line
+	2100 1400 2100 2850
+Wire Bus Line
+	1300 6600 1300 7600
+Wire Bus Line
+	3650 3650 3650 6600
+Wire Bus Line
+	3550 4650 3550 6500
+Wire Bus Line
+	5400 1300 5400 3250
+Wire Bus Line
+	3500 1300 3500 3250
+Text Notes 1100 3100 0    50   ~ 0
+JOY B0
+Text Notes 1100 3300 0    50   ~ 0
+JOY B1
+Text Notes 1100 3500 0    50   ~ 0
+JOY B2
+Text Notes 1100 3700 0    50   ~ 0
+JOY B3
+Text Notes 1100 4450 0    50   ~ 0
+JOY A0
+Text Notes 1100 4650 0    50   ~ 0
+JOY A1
+Text Notes 1100 4850 0    50   ~ 0
+JOY A2
+Text Notes 1100 5050 0    50   ~ 0
+JOY A3
+Text Notes 1100 3200 0    50   ~ 0
+BTN B
+Text Notes 1100 4550 0    50   ~ 0
+BTN A
 $EndSCHEMATC
