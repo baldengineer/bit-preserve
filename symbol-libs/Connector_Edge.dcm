@@ -1,7 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_02x12_Edge
+D 24-pin Edge connector, double row, 02x12, top/bottom pin numbering scheme (row 1: numbers, row2: letters)
+K connector edge
+F ~
+$ENDCMP
+#
 $CMP Conn_02x22_Edge
-D Edge connector, double row, 02x22, top/bottom pin numbering scheme (row 1: numbers, row2: letters)
+D 44-pin Edge connector, double row, 02x22, top/bottom pin numbering scheme (row 1: numbers, row2: letters)
 K connector edge
 F ~
 $ENDCMP
