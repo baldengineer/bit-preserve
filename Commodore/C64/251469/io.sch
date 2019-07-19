@@ -1053,4 +1053,15 @@ Wire Bus Line
 	5400 1300 5400 3250
 Wire Bus Line
 	3500 1300 3500 3250
+$Comp
+L Connector_Edge:Conn_02x22_Edge J?
+U 1 1 5D329C30
+P 7750 4600
+F 0 "J?" H 7800 5817 50  0000 C CNN
+F 1 "Conn_02x22_Edge" H 7800 5726 50  0000 C CNN
+F 2 "" H 7750 4600 50  0001 C CNN
+F 3 "~" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
