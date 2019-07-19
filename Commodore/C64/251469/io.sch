@@ -947,22 +947,94 @@ F 3 " ~" H 750 4850 50  0001 C CNN
 	1    750  4850
 	-1   0    0    1   
 $EndComp
-Text Notes 1100 4750 0    50   ~ 0
-+5V
 Text Notes 1100 3400 0    50   ~ 0
 +5V
 Text Notes 1100 3600 0    50   ~ 0
 GND
-Text Notes 1100 4950 0    50   ~ 0
-GND
 Text Notes 1100 3800 0    50   ~ 0
 POT BX
-Text Notes 1100 5150 0    50   ~ 0
-POT AX
 Text Notes 1100 3900 0    50   ~ 0
 POT BY
+Text Notes 1100 3100 0    50   ~ 0
+JOY B0
+Text Notes 1100 3300 0    50   ~ 0
+JOY B1
+Text Notes 1100 3500 0    50   ~ 0
+JOY B2
+Text Notes 1100 3700 0    50   ~ 0
+JOY B3
+Text Notes 1100 3200 0    50   ~ 0
+BTN B
+Text Notes 1100 4550 0    50   ~ 0
+BTN A
+Text Notes 1100 5050 0    50   ~ 0
+JOY A3
+Text Notes 1100 4850 0    50   ~ 0
+JOY A2
+Text Notes 1100 4650 0    50   ~ 0
+JOY A1
+Text Notes 1100 4450 0    50   ~ 0
+JOY A0
 Text Notes 1100 5250 0    50   ~ 0
 POT AY
+Text Notes 1100 5150 0    50   ~ 0
+POT AX
+Text Notes 1100 4950 0    50   ~ 0
+GND
+Text Notes 1100 4750 0    50   ~ 0
++5V
+Text Notes 950  6100 0    50   ~ 0
++5V
+Text Notes 950  6000 0    50   ~ 0
+~RESTORE
+Text Notes 950  5900 0    50   ~ 0
+(KEY)
+Text Notes 950  5800 0    50   ~ 0
+GND
+$Comp
+L 4xxx:4066 U28
+U 1 1 5D771F7B
+P -1600 3200
+F 0 "U28" H -1600 3027 50  0000 C CNN
+F 1 "4066" H -1600 2936 50  0000 C CNN
+F 2 "" H -1600 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -1600 3200 50  0001 C CNN
+	1    -1600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U28
+U 2 1 5D772EE9
+P -950 3100
+F 0 "U28" H -950 2927 50  0000 C CNN
+F 1 "4066" H -950 2836 50  0000 C CNN
+F 2 "" H -950 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -950 3100 50  0001 C CNN
+	2    -950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U28
+U 3 1 5D774BE9
+P -1350 3700
+F 0 "U28" H -1350 3527 50  0000 C CNN
+F 1 "4066" H -1350 3436 50  0000 C CNN
+F 2 "" H -1350 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -1350 3700 50  0001 C CNN
+	3    -1350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U28
+U 4 1 5D7763E6
+P -650 3600
+F 0 "U28" H -650 3427 50  0000 C CNN
+F 1 "4066" H -650 3336 50  0000 C CNN
+F 2 "" H -650 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -650 3600 50  0001 C CNN
+	4    -650 3600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1200 6300 1200 6500
 Wire Bus Line
@@ -981,24 +1053,4 @@ Wire Bus Line
 	5400 1300 5400 3250
 Wire Bus Line
 	3500 1300 3500 3250
-Text Notes 1100 3100 0    50   ~ 0
-JOY B0
-Text Notes 1100 3300 0    50   ~ 0
-JOY B1
-Text Notes 1100 3500 0    50   ~ 0
-JOY B2
-Text Notes 1100 3700 0    50   ~ 0
-JOY B3
-Text Notes 1100 4450 0    50   ~ 0
-JOY A0
-Text Notes 1100 4650 0    50   ~ 0
-JOY A1
-Text Notes 1100 4850 0    50   ~ 0
-JOY A2
-Text Notes 1100 5050 0    50   ~ 0
-JOY A3
-Text Notes 1100 3200 0    50   ~ 0
-BTN B
-Text Notes 1100 4550 0    50   ~ 0
-BTN A
 $EndSCHEMATC

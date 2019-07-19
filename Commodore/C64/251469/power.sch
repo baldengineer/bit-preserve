@@ -856,4 +856,98 @@ F 3 "" H 5850 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 2600 5850 2750
+$Comp
+L 4xxx:4066 U?
+U 5 1 5D782F80
+P 6750 3500
+AR Path="/5D943305/5D782F80" Ref="U?"  Part="5" 
+AR Path="/5D94F152/5D782F80" Ref="U28"  Part="5" 
+F 0 "U28" H 6980 3546 50  0000 L CNN
+F 1 "4066" H 6980 3455 50  0000 L CNN
+F 2 "" H 6750 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 6750 3500 50  0001 C CNN
+	5    6750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D788610
+P 6750 4050
+AR Path="/5D788610" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D788610" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D788610" Ref="#PWR?"  Part="1" 
+AR Path="/5D94F152/5D788610" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 3800 50  0001 C CNN
+F 1 "GND" H 6755 3877 50  0001 C CNN
+F 2 "" H 6750 4050 50  0001 C CNN
+F 3 "" H 6750 4050 50  0001 C CNN
+	1    6750 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4050 6750 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5D78B1CC
+P 6750 2950
+AR Path="/5D78B1CC" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D78B1CC" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D78B1CC" Ref="#PWR?"  Part="1" 
+AR Path="/5D94F152/5D78B1CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6750 2800 50  0001 C CNN
+F 1 "+5V" H 6650 3100 50  0000 L CNN
+F 2 "" H 6750 2950 50  0001 C CNN
+F 3 "" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2950 6750 3000
+$Comp
+L 4xxx:4066 U?
+U 5 1 5D7957F7
+P 7500 3500
+AR Path="/5D943305/5D7957F7" Ref="U?"  Part="5" 
+AR Path="/5D94F152/5D7957F7" Ref="U16"  Part="5" 
+F 0 "U16" H 7730 3546 50  0000 L CNN
+F 1 "4066" H 7730 3455 50  0000 L CNN
+F 2 "" H 7500 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 7500 3500 50  0001 C CNN
+	5    7500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7979A0
+P 7500 2950
+AR Path="/5D7979A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D7979A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D7979A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D94F152/5D7979A0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 2800 50  0001 C CNN
+F 1 "+5V" H 7400 3100 50  0000 L CNN
+F 2 "" H 7500 2950 50  0001 C CNN
+F 3 "" H 7500 2950 50  0001 C CNN
+	1    7500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2950 7500 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5D79AEE4
+P 7500 4050
+AR Path="/5D79AEE4" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D79AEE4" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D79AEE4" Ref="#PWR?"  Part="1" 
+AR Path="/5D94F152/5D79AEE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 3800 50  0001 C CNN
+F 1 "GND" H 7505 3877 50  0001 C CNN
+F 2 "" H 7500 4050 50  0001 C CNN
+F 3 "" H 7500 4050 50  0001 C CNN
+	1    7500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4050 7500 4000
 $EndSCHEMATC
