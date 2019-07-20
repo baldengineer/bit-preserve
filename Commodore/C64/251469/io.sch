@@ -1035,17 +1035,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -650 3600 50  0001 C CNN
 	4    -650 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Edge:Conn_02x22_Edge J?
-U 1 1 5D329C30
-P 7750 4600
-F 0 "J?" H 7800 5817 50  0000 C CNN
-F 1 "Conn_02x22_Edge" H 7800 5726 50  0000 C CNN
-F 2 "" H 7750 4600 50  0001 C CNN
-F 3 "~" H 7750 4600 50  0001 C CNN
-	1    7750 4600
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	1200 6300 1200 6500
 Wire Bus Line
@@ -1065,14 +1054,14 @@ Wire Bus Line
 Wire Bus Line
 	3500 1300 3500 3250
 $Comp
-L Connector_Edge:Conn_02x12_Edge J?
-U 1 1 5D32A3E8
-P 8550 3950
-F 0 "J?" H 8600 4667 50  0000 C CNN
-F 1 "Conn_02x12_Edge" H 8600 4576 50  0000 C CNN
-F 2 "" H 8550 3450 50  0001 C CNN
-F 3 "~" H 8550 3450 50  0001 C CNN
-	1    8550 3950
+L Timer:LM556 U?
+U 1 1 5D33D9AB
+P 7750 3700
+F 0 "U?" H 7750 4281 50  0000 C CNN
+F 1 "LM556" H 7750 4190 50  0000 C CNN
+F 2 "" H 7750 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm556.pdf" H 7750 3700 50  0001 C CNN
+	1    7750 3700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
