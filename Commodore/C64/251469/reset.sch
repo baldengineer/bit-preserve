@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title "Commodore 64 - Reset section (schematic #251469)"
 Date "2019-07-16"
 Rev "0.1"
