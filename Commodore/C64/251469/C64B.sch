@@ -17,7 +17,7 @@ $EndDescr
 $Sheet
 S 700  5700 1150 500 
 U 5D262D6A
-F0 "RF Modulator" 50
+F0 "RF Modulator section" 50
 F1 "modulator.sch" 50
 F2 "CHROMA_IN" I L 700 5900 50 
 F3 "LUMA_IN" I L 700 5800 50 

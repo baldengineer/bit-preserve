@@ -220,7 +220,7 @@ CNT2
 Text HLabel 950  1700 0    50   BiDi ~ 0
 SP2
 Text HLabel 950  1800 0    50   Input ~ 0
-PC2
+~PC2
 Text HLabel 3000 1200 2    50   Output ~ 0
 ~FLAG2
 Text HLabel 950  2750 0    50   BiDi ~ 0
