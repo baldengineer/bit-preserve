@@ -15,13 +15,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1000 3300 0    50   Input ~ 0
-KA0_L
+~KA0
 Text HLabel 1000 3400 0    50   Input ~ 0
-KA1_L
+~KA1
 Text HLabel 1000 3500 0    50   Input ~ 0
-KA2_L
+~KA2
 Text HLabel 1000 4150 0    50   Input ~ 0
-KWR_L
+~KWR
 $Comp
 L 74xx:74LS251 E8
 U 1 1 5D6C5B11
@@ -131,7 +131,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2200 6950 2200
 Text HLabel 1000 3600 0    50   Input ~ 0
-KA3_L
+~KA3
 Wire Wire Line
 	1000 3600 1250 3600
 Wire Wire Line
@@ -1044,7 +1044,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS132" H 7250 8650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text HLabel 1000 8200 0    50   Input ~ 0
-KA4_L
+~KA4
 Wire Wire Line
 	1000 4150 2050 4150
 Wire Wire Line

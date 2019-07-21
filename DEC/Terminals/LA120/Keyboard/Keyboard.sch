@@ -98,41 +98,9 @@ Wire Wire Line
 	5500 3350 5750 3350
 Connection ~ 5500 3350
 Wire Wire Line
-	5500 2050 5500 3350
-Connection ~ 5450 3250
-Wire Wire Line
-	5450 1950 5450 3250
-Connection ~ 5400 3150
-Wire Wire Line
-	5400 1850 5400 3150
-Connection ~ 5350 3050
-Wire Wire Line
-	5350 1750 5350 3050
-Connection ~ 5300 2950
-Wire Wire Line
-	5300 1650 5300 2950
-Connection ~ 5250 2850
-Wire Wire Line
-	5250 1550 5250 2850
-Connection ~ 5200 2750
-Wire Wire Line
-	5200 1450 5200 2750
-Wire Wire Line
-	4550 2850 5250 2850
-Wire Wire Line
-	4550 3050 5350 3050
-Wire Wire Line
-	4550 3250 5450 3250
-Wire Wire Line
-	4550 2950 5300 2950
-Wire Wire Line
-	4550 3150 5400 3150
-Wire Wire Line
 	4550 3350 5500 3350
 Wire Wire Line
 	5150 1350 5150 2650
-Wire Wire Line
-	4550 2750 5200 2750
 Wire Wire Line
 	4550 2650 5150 2650
 Wire Wire Line
@@ -156,46 +124,19 @@ Wire Wire Line
 Wire Wire Line
 	3050 2050 3050 3350
 Wire Wire Line
-	3100 3250 4050 3250
-Connection ~ 3100 3250
-Wire Wire Line
 	3100 1950 4050 1950
-Wire Wire Line
-	3100 1950 3100 3250
-Wire Wire Line
-	3150 3150 4050 3150
-Connection ~ 3150 3150
 Wire Wire Line
 	3150 1850 4050 1850
 Wire Wire Line
-	3150 1850 3150 3150
-Wire Wire Line
-	3200 3050 4050 3050
-Connection ~ 3200 3050
-Wire Wire Line
 	3200 1750 4050 1750
-Wire Wire Line
-	3200 1750 3200 3050
-Wire Wire Line
-	3250 2950 4050 2950
 Wire Wire Line
 	3250 1650 4050 1650
 Wire Wire Line
 	3250 1650 3250 2950
 Wire Wire Line
-	3300 2850 4050 2850
-Connection ~ 3300 2850
-Wire Wire Line
 	3300 1550 4050 1550
 Wire Wire Line
-	3300 1550 3300 2850
-Wire Wire Line
-	3350 2750 4050 2750
-Connection ~ 3350 2750
-Wire Wire Line
 	3350 1450 4050 1450
-Wire Wire Line
-	3350 1450 3350 2750
 Wire Wire Line
 	3400 2650 4050 2650
 Connection ~ 3400 2650
@@ -203,30 +144,6 @@ Wire Wire Line
 	3400 1350 4050 1350
 Wire Wire Line
 	3400 1350 3400 2650
-Text Label 4650 2750 0    50   ~ 0
-KWR_L
-Text Label 4650 2850 0    50   ~ 0
-KD4_L
-Text Label 4650 3050 0    50   ~ 0
-KD3_L
-Text Label 4650 3250 0    50   ~ 0
-KD2_L
-Text Label 3550 3150 0    50   ~ 0
-KD1_L
-Text Label 3550 2950 0    50   ~ 0
-KD0_L
-Text Label 3550 2750 0    50   ~ 0
-KD7_L
-Text Label 4650 2950 0    50   ~ 0
-KA4_L
-Text Label 4650 3150 0    50   ~ 0
-KA3_L
-Text Label 3550 3250 0    50   ~ 0
-KA2_L
-Text Label 3550 3050 0    50   ~ 0
-KA1_L
-Text Label 3550 2850 0    50   ~ 0
-KA0_L
 Text Label 4650 2650 0    50   ~ 0
 +5V
 Text Label 3550 3350 0    50   ~ 0
@@ -247,29 +164,29 @@ F 3 "~" H 4250 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4650 1450 0    50   ~ 0
-KWR_L
+~KWR
 Text Label 4650 1550 0    50   ~ 0
-KD4_L
+~KD4
 Text Label 4650 1750 0    50   ~ 0
-KD3_L
+~KD3
 Text Label 4650 1950 0    50   ~ 0
-KD2_L
+~KD2
 Text Label 3550 1850 0    50   ~ 0
-KD1_L
+~KD1
 Text Label 3550 1650 0    50   ~ 0
-KD0_L
+~KD0
 Text Label 3550 1450 0    50   ~ 0
-KD7_L
+~KD7
 Text Label 4650 1650 0    50   ~ 0
-KA4_L
+~KA4
 Text Label 4650 1850 0    50   ~ 0
-KA3_L
+~KA3
 Text Label 3550 1950 0    50   ~ 0
-KA2_L
+~KA2
 Text Label 3550 1750 0    50   ~ 0
-KA1_L
+~KA1
 Text Label 3550 1550 0    50   ~ 0
-KA0_L
+~KA0
 Text Label 4650 1350 0    50   ~ 0
 +5V
 Text Label 3550 2050 0    50   ~ 0
@@ -307,39 +224,21 @@ $EndSheet
 Wire Wire Line
 	3900 4100 3300 4100
 Wire Wire Line
-	3300 4100 3300 2850
-Wire Wire Line
 	3900 4200 3200 4200
-Wire Wire Line
-	3200 4200 3200 3050
 Wire Wire Line
 	3900 4300 3100 4300
 Wire Wire Line
-	3100 4300 3100 3250
-Wire Wire Line
 	3900 4450 3150 4450
-Wire Wire Line
-	3150 4450 3150 3150
 Wire Wire Line
 	4650 4100 5400 4100
 Wire Wire Line
-	5400 4100 5400 3150
-Wire Wire Line
 	4650 4200 5300 4200
 Wire Wire Line
-	5300 4200 5300 2950
-Wire Wire Line
 	4650 4450 5450 4450
-Wire Wire Line
-	5450 4450 5450 3250
-Wire Wire Line
-	5350 4550 5350 3050
 Wire Wire Line
 	4650 4550 5350 4550
 Wire Wire Line
 	4650 4650 5250 4650
-Wire Wire Line
-	5250 4650 5250 2850
 $Sheet
 S 3900 5050 750  800 
 U 5D6C5861
@@ -369,8 +268,6 @@ Connection ~ 3100 4300
 Wire Wire Line
 	3900 5150 3300 5150
 Wire Wire Line
-	3350 2750 3350 4900
-Wire Wire Line
 	3350 4900 5050 4900
 Wire Wire Line
 	5050 5500 4650 5500
@@ -387,8 +284,6 @@ Wire Wire Line
 	5300 5250 4650 5250
 Connection ~ 5300 4200
 Wire Wire Line
-	5200 2750 5200 5350
-Wire Wire Line
 	5200 5350 4650 5350
 Text Notes 7050 6800 0    70   ~ 0
 SCHEMATIC REFORMATTED FROM "LA120 FIELD MAINTENANCE PRINT SET",\nDIGITAL EQUIPMENT CORPORATION, SEP 1978.
@@ -398,4 +293,111 @@ Text Notes 8150 7650 0    50   ~ 0
 5 JUL 2019
 Text Notes 10600 7650 0    50   ~ 0
 A
+Text Notes 6400 1700 0    50   ~ 0
+IN THE ORIGINAL SCHEMATIC, SIGNAL NAMES ARE\nSUFFIXED WITH "L" FOR ACTIVE LOW OR "H" FOR\nACTIVE HIGH. THE "H" SUFFIX HAS BEEN REMOVED,\nAND THE "L" SUFFIX HAS BEEN REPLACED BY\nOVERBARS.
+Wire Wire Line
+	3100 1950 3100 3250
+Wire Wire Line
+	3150 1850 3150 3150
+Wire Wire Line
+	3200 1750 3200 3050
+Wire Wire Line
+	3300 1550 3300 2850
+Wire Wire Line
+	3350 1450 3350 2750
+Wire Wire Line
+	3100 3250 4050 3250
+Wire Wire Line
+	3150 3150 4050 3150
+Wire Wire Line
+	3200 3050 4050 3050
+Wire Wire Line
+	3250 2950 4050 2950
+Wire Wire Line
+	3300 2850 4050 2850
+Wire Wire Line
+	3350 2750 4050 2750
+Text Label 3550 3150 0    50   ~ 0
+~KD1
+Text Label 3550 2950 0    50   ~ 0
+~KD0
+Text Label 3550 2750 0    50   ~ 0
+~KD7
+Text Label 3550 3250 0    50   ~ 0
+~KA2
+Text Label 3550 3050 0    50   ~ 0
+~KA1
+Text Label 3550 2850 0    50   ~ 0
+~KA0
+Connection ~ 3100 3250
+Wire Wire Line
+	3100 3250 3100 4300
+Connection ~ 3150 3150
+Wire Wire Line
+	3150 3150 3150 4450
+Connection ~ 3200 3050
+Wire Wire Line
+	3200 3050 3200 4200
+Connection ~ 3300 2850
+Wire Wire Line
+	3300 2850 3300 4100
+Connection ~ 3350 2750
+Wire Wire Line
+	3350 2750 3350 4900
+Wire Wire Line
+	5200 1450 5200 2750
+Wire Wire Line
+	5500 2050 5500 3350
+Wire Wire Line
+	5450 1950 5450 3250
+Wire Wire Line
+	5400 1850 5400 3150
+Wire Wire Line
+	5350 1750 5350 3050
+Wire Wire Line
+	5300 1650 5300 2950
+Wire Wire Line
+	5250 1550 5250 2850
+Wire Wire Line
+	4550 2750 5200 2750
+Wire Wire Line
+	4550 2850 5250 2850
+Wire Wire Line
+	4550 3050 5350 3050
+Wire Wire Line
+	4550 3250 5450 3250
+Wire Wire Line
+	4550 2950 5300 2950
+Wire Wire Line
+	4550 3150 5400 3150
+Text Label 4650 2750 0    50   ~ 0
+~KWR
+Text Label 4650 2850 0    50   ~ 0
+~KD4
+Text Label 4650 3050 0    50   ~ 0
+~KD3
+Text Label 4650 3250 0    50   ~ 0
+~KD2
+Text Label 4650 2950 0    50   ~ 0
+~KA4
+Text Label 4650 3150 0    50   ~ 0
+~KA3
+Connection ~ 5200 2750
+Wire Wire Line
+	5200 2750 5200 5350
+Connection ~ 5250 2850
+Wire Wire Line
+	5250 2850 5250 4650
+Connection ~ 5300 2950
+Wire Wire Line
+	5300 2950 5300 4200
+Connection ~ 5350 3050
+Wire Wire Line
+	5350 3050 5350 4550
+Connection ~ 5400 3150
+Wire Wire Line
+	5400 3150 5400 4100
+Connection ~ 5450 3250
+Wire Wire Line
+	5450 3250 5450 4450
 $EndSCHEMATC

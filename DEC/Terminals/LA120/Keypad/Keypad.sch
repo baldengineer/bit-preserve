@@ -224,11 +224,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS156" H 4250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2900 3650 0    50   ~ 0
-KA2_L
+~KA2
 Text Label 2900 3450 0    50   ~ 0
-KA1_L
+~KA1
 Text Label 2900 3250 0    50   ~ 0
-KA0_L
+~KA0
 $Comp
 L power:+5V #PWR0101
 U 1 1 5D215111
@@ -492,7 +492,7 @@ Wire Wire Line
 	2450 7300 2450 5250
 Connection ~ 6450 7300
 Text Label 2550 7300 0    50   ~ 0
-KD0_L
+~KD0
 Wire Wire Line
 	2400 7700 12550 7700
 Wire Wire Line
@@ -507,7 +507,7 @@ Wire Wire Line
 	14750 6600 14700 6600
 Connection ~ 12550 7700
 Text Label 2550 7700 0    50   ~ 0
-KD1_L
+~KD1
 Wire Wire Line
 	14300 7100 14300 6600
 Connection ~ 14300 6600
@@ -667,23 +667,23 @@ Text Label 1550 4800 0    50   ~ 0
 Wire Wire Line
 	2000 4800 1500 4800
 Text Label 1550 4300 0    50   ~ 0
-KA0_L
+~KA0
 Text Label 1550 4400 0    50   ~ 0
-KD0_L
+~KD0
 Text Label 1550 4500 0    50   ~ 0
-KA1_L
+~KA1
 Text Label 1550 4600 0    50   ~ 0
-KD1_L
+~KD1
 Text Label 1550 4700 0    50   ~ 0
-KA2_L
+~KA2
 Wire Wire Line
 	2500 4800 2800 4800
 Text Label 2550 4800 0    50   ~ 0
 LOGIC_GND
 Text Label 2550 4600 0    50   ~ 0
-KA3_L
+~KA3
 Text Label 2550 4400 0    50   ~ 0
-KA4_L
+~KA4
 Text Label 2550 4100 0    50   ~ 0
 +5V
 NoConn ~ 2500 4200
@@ -789,4 +789,8 @@ Wire Wire Line
 	1250 5250 2450 5250
 Wire Wire Line
 	1250 4400 2000 4400
+Text Notes 1850 8250 0    50   ~ 0
+IN THE ORIGINAL SCHEMATIC, SIGNAL NAMES ARE\nSUFFIXED WITH "L" FOR ACTIVE LOW OR "H" FOR\nACTIVE HIGH. THE "H" SUFFIX HAS BEEN REMOVED,\nAND THE "L" SUFFIX HAS BEEN REPLACED BY\nOVERBARS.
+Text Notes 6150 8200 0    50   ~ 0
+IN THE ORIGINAL SCHEMATIC, THESE SWITCHES\nHAVE NO DESIGNATORS.
 $EndSCHEMATC

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8228
+D System Controller and Bus Driver for 8080A CPU
+K driver
+F https://archive.org/details/bitsavers_intelMCS80ocomputerSystemsUsersManual197509_43049640/page/n67
+$ENDCMP
+#
+#End Doc Library

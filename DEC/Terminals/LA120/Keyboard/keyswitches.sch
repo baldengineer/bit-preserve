@@ -149,7 +149,7 @@ $EndComp
 Wire Wire Line
 	3100 4450 2950 4450
 Text HLabel 1400 4450 0    50   Input ~ 0
-KA0_L
+~KA0
 Wire Wire Line
 	2950 4450 2950 6450
 Wire Wire Line
@@ -160,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4550 2900 4550
 Text HLabel 1400 4550 0    50   Input ~ 0
-KA1_L
+~KA1
 Wire Wire Line
 	2900 4550 2900 6550
 Wire Wire Line
@@ -196,12 +196,12 @@ Connection ~ 2800 4650
 Wire Wire Line
 	2800 4650 2800 4150
 Text HLabel 1400 4650 0    50   Input ~ 0
-KA2_L
+~KA2
 Wire Wire Line
 	2850 4750 1400 4750
 Connection ~ 2850 4750
 Text HLabel 1400 4750 0    50   Input ~ 0
-KA3_L
+~KA3
 Wire Wire Line
 	2850 6250 2700 6250
 Wire Wire Line
@@ -210,7 +210,7 @@ Wire Wire Line
 	2700 4850 1400 4850
 Connection ~ 2850 6250
 Text HLabel 1400 4850 0    50   Input ~ 0
-KA4_L
+~KA4
 Wire Wire Line
 	4100 6650 4550 6650
 Wire Wire Line
@@ -1498,7 +1498,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 7900 1400 7900
 Text HLabel 1400 7900 0    50   Output ~ 0
-KD1_L
+~KD1
 Wire Wire Line
 	5450 5950 5450 7800
 Wire Wire Line
@@ -1506,7 +1506,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 5950 6200 5950
 Text HLabel 1400 7800 0    50   Output ~ 0
-KD2_L
+~KD2
 Wire Wire Line
 	5400 5300 5400 7700
 Wire Wire Line
@@ -1514,7 +1514,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 5300 6200 5300
 Text HLabel 1400 7700 0    50   Output ~ 0
-KD3_L
+~KD3
 Wire Wire Line
 	5350 4600 5350 7600
 Wire Wire Line
@@ -1522,15 +1522,17 @@ Wire Wire Line
 Wire Wire Line
 	5350 4600 6200 4600
 Text HLabel 1400 7600 0    50   Output ~ 0
-KD4_L
+~KD4
 Wire Wire Line
 	2800 6150 2800 6850
 Wire Wire Line
 	2800 6150 2800 4850
+Connection ~ 2800 6150
+Connection ~ 2800 4850
 Wire Bus Line
 	4650 3500 4650 7050
 Wire Bus Line
 	4650 3500 15350 3500
-Connection ~ 2800 6150
-Connection ~ 2800 4850
+Text Notes 5850 7150 0    50   ~ 0
+IN THE ORIGINAL SCHEMATIC, NONE OF THESE\nSWITCHES HAVE REFERENCE DESIGNATORS.
 $EndSCHEMATC

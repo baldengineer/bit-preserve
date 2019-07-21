@@ -1,0 +1,149 @@
+EESchema Schematic File Version 4
+LIBS:Motherboard-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS04 E14
+U 3 1 5D3BC0EF
+P 3000 3350
+F 0 "E14" H 3000 3667 50  0000 C CNN
+F 1 "74LS04" H 3000 3576 50  0000 C CNN
+F 2 "" H 3000 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 3000 3350 50  0001 C CNN
+	3    3000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS06N E3
+U 4 1 5D3BC696
+P 3700 3350
+F 0 "E3" H 3700 3667 50  0000 C CNN
+F 1 "7406" H 3700 3576 50  0000 C CNN
+F 2 "" H 3700 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS06N" H 3700 3350 50  0001 C CNN
+	4    3700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3350 3400 3350
+$Comp
+L Device:R R14
+U 1 1 5D3BC977
+P 4350 3350
+F 0 "R14" V 4250 3350 50  0000 C CNN
+F 1 "1k" V 4350 3350 50  0000 C CNN
+F 2 "" V 4280 3350 50  0001 C CNN
+F 3 "~" H 4350 3350 50  0001 C CNN
+	1    4350 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3350 4200 3350
+$Comp
+L Device:Q_PNP_EBC Q?
+U 1 1 5D3BDE09
+P 4800 3350
+AR Path="/5D289191/5D3BDE09" Ref="Q?"  Part="1" 
+AR Path="/5D3BBEE7/5D3BDE09" Ref="Q4"  Part="1" 
+AR Path="/5E4BFAE7/5D3BBEE7/5D3BDE09" Ref="Q4"  Part="1" 
+F 0 "Q4" V 5128 3350 50  0000 C CNN
+F 1 "(MPS)A55" V 5037 3350 50  0000 C CNN
+F 2 "" H 5000 3450 50  0001 C CNN
+F 3 "~" H 4800 3350 50  0001 C CNN
+	1    4800 3350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3350 4600 3350
+$Comp
+L Device:R R15
+U 1 1 5D3BDF1E
+P 4900 2900
+F 0 "R15" V 4800 2900 50  0000 C CNN
+F 1 "470R" V 4900 2900 50  0000 C CNN
+F 2 "" V 4830 2900 50  0001 C CNN
+F 3 "~" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3050 4900 3150
+$Comp
+L power:+5V #PWR0270
+U 1 1 5D3BE61D
+P 4900 2750
+F 0 "#PWR0270" H 4900 2600 50  0001 C CNN
+F 1 "+5V" H 4915 2923 50  0000 C CNN
+F 2 "" H 4900 2750 50  0001 C CNN
+F 3 "" H 4900 2750 50  0001 C CNN
+	1    4900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5D3BE73A
+P 5350 3750
+F 0 "R22" V 5250 3750 50  0000 C CNN
+F 1 "10R 1W" V 5450 3750 50  0000 C CNN
+F 2 "" V 5280 3750 50  0001 C CNN
+F 3 "~" H 5350 3750 50  0001 C CNN
+	1    5350 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 3550 4900 3750
+Wire Wire Line
+	4900 3750 5200 3750
+$Comp
+L Device:D D2
+U 1 1 5D3BEF11
+P 5600 4000
+F 0 "D2" V 5554 4079 50  0000 L CNN
+F 1 "D664" V 5645 4079 50  0000 L CNN
+F 2 "" H 5600 4000 50  0001 C CNN
+F 3 "~" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3750 5600 3750
+Wire Wire Line
+	5600 3750 5600 3850
+$Comp
+L power:GNDREF #PWR0271
+U 1 1 5D3BF96F
+P 5600 4150
+F 0 "#PWR0271" H 5600 3900 50  0001 C CNN
+F 1 "GNDREF" H 5605 3977 50  0001 C CNN
+F 2 "" H 5600 4150 50  0001 C CNN
+F 3 "" H 5600 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3750 6150 3750
+Connection ~ 5600 3750
+Wire Wire Line
+	5600 4150 6150 4150
+Connection ~ 5600 4150
+Text HLabel 6150 3750 2    50   UnSpc ~ 0
+SPKR
+Text HLabel 6150 4150 2    50   UnSpc ~ 0
+SPKR_RET
+Wire Wire Line
+	2700 3350 2500 3350
+Text HLabel 2500 3350 0    50   Input ~ 0
+~BELL
+$EndSCHEMATC
