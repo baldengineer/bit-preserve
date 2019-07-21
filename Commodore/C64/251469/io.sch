@@ -4,8 +4,8 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
-Title "Commodore 64 - I/O section (schematic #251469)"
+Sheet 8 11
+Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
 Comp "Commodore Business Machines, Inc."
@@ -473,105 +473,31 @@ Wire Wire Line
 	2700 4050 2950 4050
 Wire Wire Line
 	2700 4150 2950 4150
-Text HLabel 2700 7150 3    50   Output ~ 0
+Text HLabel 2700 7400 3    50   Output ~ 0
 ~IRQ
-Text HLabel 5600 7150 3    50   Output ~ 0
+Text HLabel 5600 7400 3    50   Output ~ 0
 ~NMI
-$Comp
-L Connector:DIN-6 CN4
-U 1 1 5D647908
-P 9500 3950
-F 0 "CN4" H 8600 4350 50  0000 C CNN
-F 1 "Serial Bus" H 8750 4250 50  0000 C CNN
-F 2 "" H 9500 3950 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 9500 3950 50  0001 C CNN
-	1    9500 3950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 3900 10000 3850
-Text HLabel 9650 4300 2    50   Input ~ 0
-~EXTRST
-$Comp
-L power:GND #PWR?
-U 1 1 5D64C58B
-P 10000 3900
-F 0 "#PWR?" H 10000 3650 50  0001 C CNN
-F 1 "GND" H 10005 3727 50  0000 C CNN
-F 2 "" H 10000 3900 50  0001 C CNN
-F 3 "" H 10000 3900 50  0001 C CNN
-	1    10000 3900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9500 4250 9500 4300
-Wire Wire Line
-	9500 4300 9650 4300
-Wire Wire Line
-	9200 4050 7850 4050
-Wire Wire Line
-	9200 3850 7850 3850
-Text Label 9200 4050 2    50   ~ 0
-DATA
-Text Label 9200 3850 2    50   ~ 0
-CLK
-Wire Wire Line
-	9500 3650 7850 3650
-Wire Wire Line
-	9800 3850 10000 3850
-Text Label 9500 3650 2    50   ~ 0
-ATN
-Wire Wire Line
-	9800 4050 9850 4050
-Wire Wire Line
-	9850 4050 9850 3550
-Wire Wire Line
-	9850 3550 7850 3550
-Text Label 9850 3550 2    50   ~ 0
-SRQ
-$Comp
-L Device:D CR100
-U 1 1 5D6E038A
-P -3300 4150
-F 0 "CR100" H -3300 4366 50  0000 C CNN
-F 1 "1N4148" H -3300 4275 50  0000 C CNN
-F 2 "" H -3300 4150 50  0001 C CNN
-F 3 "~" H -3300 4150 50  0001 C CNN
-	1    -3300 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D CR101
 U 1 1 5D6E1332
-P -3300 4500
-F 0 "CR101" H -3300 4716 50  0000 C CNN
-F 1 "1N4148" H -3300 4625 50  0000 C CNN
-F 2 "" H -3300 4500 50  0001 C CNN
-F 3 "~" H -3300 4500 50  0001 C CNN
-	1    -3300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D CR102
-U 1 1 5D6E3186
-P -2750 4150
-F 0 "CR102" H -2750 4366 50  0000 C CNN
-F 1 "1N4148" H -2750 4275 50  0000 C CNN
-F 2 "" H -2750 4150 50  0001 C CNN
-F 3 "~" H -2750 4150 50  0001 C CNN
-	1    -2750 4150
-	1    0    0    -1  
+P 8150 4450
+F 0 "CR101" H 8150 4666 50  0000 C CNN
+F 1 "1N4148" H 8150 4575 50  0000 C CNN
+F 2 "" H 8150 4450 50  0001 C CNN
+F 3 "~" H 8150 4450 50  0001 C CNN
+	1    8150 4450
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D CR103
 U 1 1 5D6E318C
-P -2750 4500
-F 0 "CR103" H -2750 4716 50  0000 C CNN
-F 1 "1N4148" H -2750 4625 50  0000 C CNN
-F 2 "" H -2750 4500 50  0001 C CNN
-F 3 "~" H -2750 4500 50  0001 C CNN
-	1    -2750 4500
-	1    0    0    -1  
+P 7800 4450
+F 0 "CR103" H 7800 4666 50  0000 C CNN
+F 1 "1N4148" H 7800 4575 50  0000 C CNN
+F 2 "" H 7800 4450 50  0001 C CNN
+F 3 "~" H 7800 4450 50  0001 C CNN
+	1    7800 4450
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:D CR104
@@ -596,7 +522,7 @@ F 3 "~" H -2250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1550 5350 0    50   ~ 0
-CASS RD
+CASS RD\nSRQ IN
 Text Notes 5650 3450 0    50   ~ 0
 ~VA14
 Text Notes 5650 3550 0    50   ~ 0
@@ -1011,7 +937,7 @@ ROW[0..7]
 Text Label 3150 4250 1    50   ~ 0
 COL[0..7]
 Wire Wire Line
-	2700 5350 2700 7150
+	2700 5350 2700 7400
 Wire Wire Line
 	5600 5350 5600 6400
 Wire Wire Line
@@ -1020,9 +946,8 @@ Wire Wire Line
 	4500 4250 4500 6400
 Wire Wire Line
 	4500 6400 5600 6400
-Connection ~ 5600 6400
 Wire Wire Line
-	5600 6400 5600 7150
+	5600 6400 5600 7250
 Wire Wire Line
 	6500 5850 6500 6200
 Connection ~ 6500 6200
@@ -1239,14 +1164,10 @@ Connection ~ 7300 3850
 Wire Wire Line
 	7150 3500 7600 3500
 Wire Wire Line
-	7300 3850 7600 3850
-Wire Wire Line
 	7050 4200 7450 4200
 Wire Wire Line
 	7450 3450 7450 4200
 Connection ~ 7450 4200
-Wire Wire Line
-	7450 4200 7600 4200
 Wire Wire Line
 	7150 3150 7150 3100
 Wire Wire Line
@@ -1309,6 +1230,153 @@ Wire Wire Line
 	6200 4600 7450 4600
 Wire Wire Line
 	7450 4600 7450 4200
+Wire Wire Line
+	7600 3500 7600 2700
+Wire Wire Line
+	7450 4200 8150 4200
+Wire Wire Line
+	8150 4200 8150 4300
+Connection ~ 7800 3850
+Wire Wire Line
+	7800 3850 7800 4300
+Wire Wire Line
+	7300 3850 7800 3850
+Connection ~ 8150 4200
+Wire Wire Line
+	7800 3850 7800 3450
+$Comp
+L Device:D CR102
+U 1 1 5D6E3186
+P 7800 3300
+F 0 "CR102" H 7800 3200 50  0000 C CNN
+F 1 "1N4148" H 7800 3425 50  0000 C CNN
+F 2 "" H 7800 3300 50  0001 C CNN
+F 3 "~" H 7800 3300 50  0001 C CNN
+	1    7800 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3150 7800 3100
+Wire Wire Line
+	7850 3100 8150 3100
+Connection ~ 7850 3100
+Wire Wire Line
+	7850 3050 7850 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD390BE
+P 7850 3050
+AR Path="/5DD390BE" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5DD390BE" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5DD390BE" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5DD390BE" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D47A471/5DD390BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7850 2900 50  0001 C CNN
+F 1 "+5V" H 7750 3200 50  0000 L CNN
+F 2 "" H 7850 3050 50  0001 C CNN
+F 3 "" H 7850 3050 50  0001 C CNN
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3100 8150 3150
+Wire Wire Line
+	7800 3100 7850 3100
+Wire Wire Line
+	8150 4200 8150 3450
+$Comp
+L Device:D CR100
+U 1 1 5D6E038A
+P 8150 3300
+F 0 "CR100" H 8150 3200 50  0000 C CNN
+F 1 "1N4148" H 8150 3425 50  0000 C CNN
+F 2 "" H 8150 3300 50  0001 C CNN
+F 3 "~" H 8150 3300 50  0001 C CNN
+	1    8150 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 3850 8550 3850
+Wire Wire Line
+	8150 4200 8550 4200
+Wire Wire Line
+	7600 3500 8550 3500
+Connection ~ 7600 3500
+$Sheet
+S 9300 5050 750  350 
+U 5DDE0343
+F0 "Serial Bus" 50
+F1 "serialbus.sch" 50
+$EndSheet
+$Comp
+L C64B:R_Network07_Split RP3
+U 1 1 5DE0B263
+P 4600 5100
+AR Path="/5D943305/5DE0B263" Ref="RP3"  Part="1" 
+AR Path="/5D943305/5D47A471/5DE0B263" Ref="RP?"  Part="7" 
+F 0 "RP3" V 4700 5000 50  0000 L CNN
+F 1 "3k3" V 4600 5050 25  0000 L CNN
+F 2 "" H 4700 5100 50  0001 C CNN
+F 3 "" H 4700 5100 50  0001 C CNN
+	1    4600 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4600 5350
+Wire Wire Line
+	4600 5350 4600 5300
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE2E5EA
+P 4600 4850
+AR Path="/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D47A471/5DE2E5EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 4700 50  0001 C CNN
+F 1 "+5V" H 4500 5000 50  0000 L CNN
+F 2 "" H 4600 4850 50  0001 C CNN
+F 3 "" H 4600 4850 50  0001 C CNN
+	1    4600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4850 4600 4900
+$Comp
+L C64B:R_Network07_Split RP3
+U 2 1 5DE3ABE8
+P 5800 7250
+AR Path="/5D943305/5DE3ABE8" Ref="RP3"  Part="2" 
+AR Path="/5D943305/5D47A471/5DE3ABE8" Ref="RP?"  Part="7" 
+F 0 "RP3" V 5900 7150 50  0000 L CNN
+F 1 "3k3" V 5800 7200 25  0000 L CNN
+F 2 "" H 5900 7250 50  0001 C CNN
+F 3 "" H 5900 7250 50  0001 C CNN
+	2    5800 7250
+	0    1    1    0   
+$EndComp
+Connection ~ 5600 7250
+Wire Wire Line
+	5600 7250 5600 7400
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE69A12
+P 6000 7200
+AR Path="/5DE69A12" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5DE69A12" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5DE69A12" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5DE69A12" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D47A471/5DE69A12" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6000 7050 50  0001 C CNN
+F 1 "+5V" H 5900 7350 50  0000 L CNN
+F 2 "" H 6000 7200 50  0001 C CNN
+F 3 "" H 6000 7200 50  0001 C CNN
+	1    6000 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 6400
+Wire Wire Line
+	6000 7250 6000 7200
 Wire Bus Line
 	4500 1100 4500 2750
 Wire Bus Line
