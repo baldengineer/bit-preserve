@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title "Commodore 64 - I/O section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -367,83 +367,21 @@ Wire Wire Line
 	4700 2250 4700 750 
 Text HLabel 1600 6300 0    50   Input ~ 0
 ϕ2
-Wire Wire Line
-	900  7600 1200 7600
-Wire Wire Line
-	900  7500 1200 7500
-Wire Wire Line
-	900  7400 1200 7400
-Wire Wire Line
-	900  7300 1200 7300
-Wire Wire Line
-	900  7200 1200 7200
-Wire Wire Line
-	900  7100 1200 7100
-Wire Wire Line
-	900  7000 1200 7000
-Wire Wire Line
-	900  6900 1200 6900
-Text Label 900  6500 0    50   ~ 0
-ROW7
-Text Label 900  6200 0    50   ~ 0
-ROW6
-Text Label 900  6300 0    50   ~ 0
-ROW5
-Text Label 900  6400 0    50   ~ 0
-ROW4
-Text Label 900  6100 0    50   ~ 0
-ROW3
-Text Label 900  6600 0    50   ~ 0
-ROW2
-Text Label 900  6700 0    50   ~ 0
-ROW1
-Text Label 900  6800 0    50   ~ 0
-ROW0
-Text Label 1000 7600 0    50   ~ 0
-COL7
-Text Label 1000 7000 0    50   ~ 0
-COL6
-Text Label 1000 7100 0    50   ~ 0
-COL5
-Text Label 1000 7200 0    50   ~ 0
-COL4
-Text Label 1000 7300 0    50   ~ 0
-COL3
-Text Label 1000 7400 0    50   ~ 0
-COL2
-Text Label 1000 7500 0    50   ~ 0
-COL1
-Text Label 1000 6900 0    50   ~ 0
+Text Label 2750 3450 0    50   ~ 0
 COL0
-Wire Wire Line
-	900  6500 1100 6500
-Wire Wire Line
-	900  6300 1100 6300
-Wire Wire Line
-	900  6200 1100 6200
-Wire Wire Line
-	900  6100 1100 6100
-Wire Wire Line
-	900  6800 1100 6800
-Wire Wire Line
-	900  6700 1100 6700
-Wire Wire Line
-	900  6600 1100 6600
-Text Label 2850 3450 0    50   ~ 0
-COL0
-Text Label 2850 3550 0    50   ~ 0
+Text Label 2750 3550 0    50   ~ 0
 COL1
-Text Label 2850 3650 0    50   ~ 0
+Text Label 2750 3650 0    50   ~ 0
 COL2
-Text Label 2850 3750 0    50   ~ 0
+Text Label 2750 3750 0    50   ~ 0
 COL3
-Text Label 2850 3850 0    50   ~ 0
+Text Label 2750 3850 0    50   ~ 0
 COL4
-Text Label 2850 3950 0    50   ~ 0
+Text Label 2750 3950 0    50   ~ 0
 COL5
-Text Label 2850 4050 0    50   ~ 0
+Text Label 2750 4050 0    50   ~ 0
 COL6
-Text Label 2850 4150 0    50   ~ 0
+Text Label 2750 4150 0    50   ~ 0
 COL7
 Wire Wire Line
 	2700 4450 2950 4450
@@ -488,93 +426,56 @@ Wire Wire Line
 Wire Wire Line
 	4800 5550 4700 5550
 Entry Wire Line
-	2950 5150 3050 5250
+	2950 4450 3050 4350
 Entry Wire Line
-	2950 5050 3050 5150
+	2950 4550 3050 4450
 Entry Wire Line
-	2950 4950 3050 5050
+	2950 4650 3050 4550
 Entry Wire Line
-	2950 4850 3050 4950
+	2950 4750 3050 4650
 Entry Wire Line
-	2950 4750 3050 4850
+	2950 4850 3050 4750
 Entry Wire Line
-	2950 4650 3050 4750
+	2950 4950 3050 4850
 Entry Wire Line
-	2950 4550 3050 4650
+	2950 5050 3050 4950
 Entry Wire Line
-	2950 4450 3050 4550
+	2950 5150 3050 5050
 Entry Wire Line
-	3050 4150 3150 4250
+	2950 4150 3050 4250
 Entry Wire Line
-	3050 4050 3150 4150
+	2950 4050 3050 4150
 Entry Wire Line
-	3050 3950 3150 4050
+	2950 3950 3050 4050
 Entry Wire Line
-	3050 3850 3150 3950
+	2950 3850 3050 3950
 Entry Wire Line
-	3050 3750 3150 3850
+	2950 3750 3050 3850
 Entry Wire Line
-	3050 3650 3150 3750
+	2950 3650 3050 3750
 Entry Wire Line
-	3050 3550 3150 3650
+	2950 3550 3050 3650
 Entry Wire Line
-	3050 3450 3150 3550
+	2950 3450 3050 3550
 Wire Wire Line
-	2700 3450 3050 3450
+	2700 3450 2950 3450
 Wire Wire Line
-	2700 3550 3050 3550
+	2700 3550 2950 3550
 Wire Wire Line
-	2700 3650 3050 3650
+	2700 3650 2950 3650
 Wire Wire Line
-	2700 3750 3050 3750
+	2700 3750 2950 3750
 Wire Wire Line
-	2700 3850 3050 3850
+	2700 3850 2950 3850
 Wire Wire Line
-	2700 3950 3050 3950
+	2700 3950 2950 3950
 Wire Wire Line
-	2700 4050 3050 4050
+	2700 4050 2950 4050
 Wire Wire Line
-	2700 4150 3050 4150
-Entry Wire Line
-	1200 6900 1300 6800
-Entry Wire Line
-	1200 7500 1300 7400
-Entry Wire Line
-	1200 7400 1300 7300
-Entry Wire Line
-	1200 7300 1300 7200
-Entry Wire Line
-	1200 7200 1300 7100
-Entry Wire Line
-	1200 7100 1300 7000
-Entry Wire Line
-	1200 7000 1300 6900
-Entry Wire Line
-	1200 7600 1300 7500
-Entry Wire Line
-	1100 6600 1200 6500
-Entry Wire Line
-	1100 6700 1200 6600
-Entry Wire Line
-	1100 6800 1200 6700
-Entry Wire Line
-	1200 6200 1100 6100
-Entry Wire Line
-	1200 6300 1100 6200
-Entry Wire Line
-	1200 6400 1100 6300
-Entry Wire Line
-	1100 6500 1200 6400
-Wire Bus Line
-	3050 6400 1200 6400
-Connection ~ 1200 6400
-Wire Wire Line
-	900  6400 1200 6400
-Wire Bus Line
-	1300 6500 3150 6500
-Text HLabel -900 4150 0    50   Output ~ 0
+	2700 4150 2950 4150
+Text HLabel 2700 7550 3    50   Output ~ 0
 ~IRQ
-Text HLabel -900 4250 0    50   Output ~ 0
+Text HLabel 5600 7550 3    50   Output ~ 0
 ~NMI
 $Comp
 L Connector:DIN-6 CN4
@@ -696,10 +597,6 @@ F 3 "~" H -2250 4500 50  0001 C CNN
 $EndComp
 Text Notes 1550 5350 0    50   ~ 0
 CASS RD
-Text Notes 2750 5350 0    50   ~ 0
-~IRQ
-Text Notes 5650 5350 0    50   ~ 0
-~NMI
 Text Notes 5650 3450 0    50   ~ 0
 ~VA14
 Text Notes 5650 3550 0    50   ~ 0
@@ -716,17 +613,6 @@ Text Notes 5650 4050 0    50   ~ 0
 CLK
 Text Notes 5650 4150 0    50   ~ 0
 DATA
-$Comp
-L Connector_Generic:Conn_01x20 CN1
-U 1 1 5D72513D
-P 700 6600
-F 0 "CN1" H 700 7600 50  0000 C CNN
-F 1 "Keyboard" V 800 6600 50  0000 C CNN
-F 2 "" H 700 6600 50  0001 C CNN
-F 3 "~" H 700 6600 50  0001 C CNN
-	1    700  6600
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector:DB9_Male CN8
 U 1 1 5D74C9E4
@@ -785,14 +671,6 @@ Text Notes 1100 4850 0    50   ~ 0
 GND
 Text Notes 1100 4650 0    50   ~ 0
 +5V
-Text Notes 950  6000 0    50   ~ 0
-+5V
-Text Notes 950  5900 0    50   ~ 0
-~RESTORE
-Text Notes 950  5800 0    50   ~ 0
-(KEY)
-Text Notes 950  5700 0    50   ~ 0
-GND
 $Comp
 L 4xxx:4066 U28
 U 1 1 5D771F7B
@@ -835,17 +713,6 @@ F 1 "4066" H -650 3336 50  0000 C CNN
 F 2 "" H -650 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H -650 3600 50  0001 C CNN
 	4    -650 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Timer:LM556 U?
-U 1 1 5D33D9AB
-P 9100 1700
-F 0 "U?" H 9100 2281 50  0000 C CNN
-F 1 "LM556" H 9100 2190 50  0000 C CNN
-F 2 "" H 9100 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm556.pdf" H 9100 1700 50  0001 C CNN
-	1    9100 1700
 	1    0    0    -1  
 $EndComp
 Text HLabel 1100 800  0    50   BiDi ~ 0
@@ -921,10 +788,6 @@ Wire Wire Line
 	1600 6300 1800 6300
 Wire Wire Line
 	1800 6300 4700 6300
-Text Label 3150 6500 2    50   ~ 0
-COL[0..7]
-Text Label 3050 6400 2    50   ~ 0
-ROW[0..7]
 Wire Wire Line
 	2700 2150 3250 2150
 Wire Wire Line
@@ -1127,7 +990,7 @@ Wire Wire Line
 	4600 6700 4350 6700
 Wire Bus Line
 	5900 6800 4350 6800
-Text Label 5900 6800 2    50   ~ 0
+Text Label 5900 6800 1    50   ~ 0
 PB[0..7]
 Wire Wire Line
 	3650 800  3650 6700
@@ -1139,26 +1002,6 @@ Wire Wire Line
 	6000 4350 6000 6900
 Wire Wire Line
 	6000 6900 4350 6900
-Wire Bus Line
-	1200 6200 1200 6400
-Wire Bus Line
-	1200 6400 1200 6700
-Wire Bus Line
-	4500 1100 4500 2750
-Wire Bus Line
-	1600 1100 1600 2750
-Wire Bus Line
-	5900 4550 5900 6800
-Wire Bus Line
-	1300 6500 1300 7500
-Wire Bus Line
-	3150 3550 3150 6500
-Wire Bus Line
-	3050 4550 3050 6400
-Wire Bus Line
-	5900 1000 5900 3150
-Wire Bus Line
-	3000 1000 3000 3150
 $Sheet
 S 3700 6600 650  1050
 U 5D47A471
@@ -1175,4 +1018,48 @@ F9 "PB[0..7]" B R 4350 6800 50
 F10 "ATN" B L 3700 7450 50 
 F11 "PA2" B L 3700 7550 50 
 $EndSheet
+$Sheet
+S 3750 4200 700  250 
+U 5D7052DF
+F0 "Keyboard" 50
+F1 "keyboard.sch" 50
+F2 "ROW[0..7]" O L 3750 4350 50 
+F3 "COL[0..7]" O L 3750 4250 50 
+F4 "NMI" O R 4450 4250 50 
+$EndSheet
+Wire Bus Line
+	3050 4350 3750 4350
+Wire Bus Line
+	3050 4250 3750 4250
+Text Label 3150 4350 3    50   ~ 0
+ROW[0..7]
+Text Label 3150 4250 1    50   ~ 0
+COL[0..7]
+Wire Wire Line
+	2700 5350 2700 7550
+Wire Wire Line
+	5600 5350 5600 7000
+Wire Wire Line
+	4450 4250 4500 4250
+Wire Wire Line
+	4500 4250 4500 7000
+Wire Wire Line
+	4500 7000 5600 7000
+Wire Bus Line
+	4500 1100 4500 2750
+Wire Bus Line
+	1600 1100 1600 2750
+Wire Bus Line
+	3050 4350 3050 5050
+Wire Bus Line
+	3050 3550 3050 4250
+Wire Bus Line
+	5900 4550 5900 6800
+Wire Bus Line
+	5900 1000 5900 3150
+Wire Bus Line
+	3000 1000 3000 3150
+Connection ~ 5600 7000
+Wire Wire Line
+	5600 7000 5600 7550
 $EndSCHEMATC

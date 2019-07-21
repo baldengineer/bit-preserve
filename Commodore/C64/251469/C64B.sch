@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Commodore 64 (schematic #251469)"
 Date "2019-07-10"
 Rev "0.1"
@@ -17,7 +17,7 @@ $EndDescr
 $Sheet
 S 700  5700 1150 500 
 U 5D262D6A
-F0 "RF Modulator section" 50
+F0 "RF Modulator" 50
 F1 "modulator.sch" 50
 F2 "CHROMA_IN" I L 700 5900 50 
 F3 "LUMA_IN" I L 700 5800 50 
@@ -28,9 +28,9 @@ F7 "COMP_OUT" O R 1850 6000 50
 F8 "RF_OUT" O R 1850 6100 50 
 $EndSheet
 $Sheet
-S 700  3050 1600 1100
+S 700  3050 1050 650 
 U 5D4AE438
-F0 "Memory section" 50
+F0 "Memory" 50
 F1 "memory.sch" 50
 $EndSheet
 $Comp
@@ -45,25 +45,25 @@ F 3 "https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf" H 3700 3150 50 
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 700  4400 850  900 
+S 700  4400 800  950 
 U 5D943305
-F0 "I/O Section" 50
+F0 "I/O" 50
 F1 "io.sch" 50
-F2 "D[0..7]" B R 1550 4450 50 
+F2 "D[0..7]" B R 1500 4450 50 
 F3 "~CIA1" I L 700 4800 50 
 F4 "~CIA2" I L 700 4900 50 
 F5 "R~W" I L 700 4650 50 
 F6 "A[0..15]" I L 700 4550 50 
 F7 "ϕ2" I L 700 4450 50 
 F8 "~INTRST" I L 700 5150 50 
-F9 "~IRQ" O R 1550 4650 50 
-F10 "~NMI" O R 1550 4750 50 
+F9 "~IRQ" O R 1500 4650 50 
+F10 "~NMI" O R 1500 4750 50 
 F11 "~EXTRST" I L 700 5250 50 
 $EndSheet
 $Sheet
-S 600  700  800  150 
+S 600  700  500  150 
 U 5D94F152
-F0 "Power section" 50
+F0 "Power" 50
 F1 "power.sch" 50
 $EndSheet
 $Comp
@@ -415,12 +415,12 @@ Connection ~ 7250 1100
 Wire Wire Line
 	7250 1100 7250 950 
 $Sheet
-S 600  1100 800  300 
+S 600  1100 550  300 
 U 5D9CCECB
-F0 "Reset section" 50
+F0 "Reset" 50
 F1 "reset.sch" 50
-F2 "~INTRST" O R 1400 1200 50 
-F3 "~EXTRST" O R 1400 1300 50 
+F2 "~INTRST" O R 1150 1200 50 
+F3 "~EXTRST" O R 1150 1300 50 
 $EndSheet
 $Comp
 L power_more:CAN+5V #PWR0150
