@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_Network07_Split
+D 7 resistor network, star topology, bussed resistors, small symbol, split
+K R network star-topology
+$ENDCMP
+#
+#End Doc Library

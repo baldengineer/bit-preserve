@@ -9,4 +9,5 @@
   (lib (name Memory_ROM_MOSTechnology)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Memory_ROM_MOSTechnology.lib)(options "")(descr ""))
   (lib (name power_more)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/power_more.lib)(options "")(descr ""))
   (lib (name Connector_Edge)(type Legacy)(uri ${KIPRJMOD}/../../../symbol-libs/Connector_Edge.lib)(options "")(descr ""))
+  (lib (name C64B)(type Legacy)(uri ${KIPRJMOD}/C64B.lib)(options "")(descr ""))
 )
