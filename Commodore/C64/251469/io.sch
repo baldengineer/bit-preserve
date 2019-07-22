@@ -1157,6 +1157,16 @@ Wire Wire Line
 	7250 3850 7350 3850
 Wire Wire Line
 	7350 3850 7350 3500
+$Sheet
+S 6400 1900 1000 550 
+U 5D641FD1
+F0 "Cassette Interface" 50
+F1 "cassette.sch" 50
+F2 "MOTOR" I L 6400 2000 50 
+F3 "WRITE" O L 6400 2100 50 
+F4 "READ" O L 6400 2200 50 
+F5 "SENSE" O L 6400 2300 50 
+$EndSheet
 Wire Bus Line
 	4500 1100 4500 2750
 Wire Bus Line
@@ -1171,10 +1181,4 @@ Wire Bus Line
 	5900 1000 5900 3150
 Wire Bus Line
 	3000 1000 3000 3150
-$Sheet
-S 8550 2450 1000 550 
-U 5D641FD1
-F0 "Cassette Interface" 50
-F1 "cassette.sch" 50
-$EndSheet
 $EndSCHEMATC
