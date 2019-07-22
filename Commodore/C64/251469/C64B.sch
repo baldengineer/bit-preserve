@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 13
 Title "Commodore 64 (schematic #251469)"
 Date "2019-07-10"
 Rev "0.1"
@@ -435,37 +435,4 @@ F9 "~IRQ" O R 1500 4650 50
 F10 "~NMI" O R 1500 4750 50 
 F11 "~EXTRST" I L 700 5250 50 
 $EndSheet
-$Comp
-L power:+5V #PWR?
-U 1 1 5D5A253C
-P 3700 1750
-AR Path="/5D5A253C" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D5A253C" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D5A253C" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D5A253C" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D47A471/5D5A253C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3700 1600 50  0001 C CNN
-F 1 "+5V" H 3600 1900 50  0000 L CNN
-F 2 "" H 3700 1750 50  0001 C CNN
-F 3 "" H 3700 1750 50  0001 C CNN
-	1    3700 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 1750 3700 1800
-$Comp
-L Resistor_Pack:R_Network07_Split RP?
-U 3 1 5D5A2543
-P 3700 1950
-AR Path="/5D943305/5D5A2543" Ref="RP?"  Part="3" 
-AR Path="/5D5A2543" Ref="RP3"  Part="3" 
-F 0 "RP3" V 3600 1950 50  0000 C CNN
-F 1 "3k3" V 3700 1950 30  0000 C CNN
-F 2 "" H 3700 1950 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3700 1950 50  0001 C CNN
-	3    3700 1950
-	-1   0    0    -1  
-$EndComp
-Text Notes 3850 2150 0    50   ~ 0
-NMI pull-up
 $EndSCHEMATC

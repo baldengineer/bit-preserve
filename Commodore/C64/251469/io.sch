@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 8 13
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -953,7 +953,7 @@ Wire Wire Line
 	8050 4850 8050 4800
 Wire Wire Line
 	8050 4500 9250 4500
-Text HLabel 8300 2350 1    50   Input ~ 0
+Text HLabel 7350 3500 1    50   Input ~ 0
 ~EXTRST
 Wire Wire Line
 	4600 4950 4600 5000
@@ -1151,6 +1151,12 @@ Wire Wire Line
 Connection ~ 7450 4500
 Wire Wire Line
 	7450 4500 7650 4500
+Text Notes 8550 4450 0    50   ~ 0
+TO CASS-RD
+Wire Wire Line
+	7250 3850 7350 3850
+Wire Wire Line
+	7350 3850 7350 3500
 Wire Bus Line
 	4500 1100 4500 2750
 Wire Bus Line
@@ -1165,6 +1171,10 @@ Wire Bus Line
 	5900 1000 5900 3150
 Wire Bus Line
 	3000 1000 3000 3150
-Text Notes 8550 4450 0    50   ~ 0
-TO CASS-RD
+$Sheet
+S 8550 2450 1000 550 
+U 5D641FD1
+F0 "Cassette Interface" 50
+F1 "cassette.sch" 50
+$EndSheet
 $EndSCHEMATC

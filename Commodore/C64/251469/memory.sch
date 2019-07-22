@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 12
+Sheet 3 13
 Title "Commodore 64 - Memory Section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"

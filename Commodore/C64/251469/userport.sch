@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 10 13
 Title "Commodore 64 - User Port (schematic #251469)"
 Date "2019-07-21"
 Rev "0.1"
