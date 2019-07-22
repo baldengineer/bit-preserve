@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
-Text HLabel 600  3500 3    50   Output ~ 0
+Text HLabel 600  3500 3    50   BiDi ~ 0
 ROW[0..7]
-Text HLabel 700  3500 3    50   Output ~ 0
+Text HLabel 700  3500 3    50   BiDi ~ 0
 COL[0..7]
 $Comp
 L Connector_Generic:Conn_01x20 CN?
@@ -156,8 +156,8 @@ AR Path="/5D7468A3" Ref="#PWR?"  Part="1"
 AR Path="/5D28EBAC/5D7468A3" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D7468A3" Ref="#PWR?"  Part="1" 
 AR Path="/5D9CCECB/5D7468A3" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D7052DF/5D7468A3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3400 550 50  0001 C CNN
+AR Path="/5D943305/5D7052DF/5D7468A3" Ref="#PWR0210"  Part="1" 
+F 0 "#PWR0210" H 3400 550 50  0001 C CNN
 F 1 "+5V" H 3300 850 50  0000 L CNN
 F 2 "" H 3400 700 50  0001 C CNN
 F 3 "" H 3400 700 50  0001 C CNN
@@ -169,10 +169,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 1950 3400 2000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0211
 U 1 1 5D74E807
 P 3400 2000
-F 0 "#PWR?" H 3400 1750 50  0001 C CNN
+F 0 "#PWR0211" H 3400 1750 50  0001 C CNN
 F 1 "GND" H 3405 1827 50  0000 C CNN
 F 2 "" H 3400 2000 50  0001 C CNN
 F 3 "" H 3400 2000 50  0001 C CNN
@@ -278,10 +278,10 @@ Wire Wire Line
 Wire Wire Line
 	650  1400 650  1450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0212
 U 1 1 5D77D12B
 P 650 1450
-F 0 "#PWR?" H 650 1200 50  0001 C CNN
+F 0 "#PWR0212" H 650 1200 50  0001 C CNN
 F 1 "GND" H 650 1300 50  0000 C CNN
 F 2 "" H 650 1450 50  0001 C CNN
 F 3 "" H 650 1450 50  0001 C CNN
@@ -291,10 +291,10 @@ $EndComp
 Wire Wire Line
 	800  1700 800  1650
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0213
 U 1 1 5D73CD07
 P 800 1650
-F 0 "#PWR?" H 800 1500 50  0001 C CNN
+F 0 "#PWR0213" H 800 1500 50  0001 C CNN
 F 1 "+5V" H 815 1823 50  0000 C CNN
 F 2 "" H 800 1650 50  0001 C CNN
 F 3 "" H 800 1650 50  0001 C CNN

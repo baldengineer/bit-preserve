@@ -220,34 +220,6 @@ F 3 "" H 900 3100 50  0001 C CNN
 	1    900  3100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5D547663
-P 1100 3150
-AR Path="/5D547663" Ref="R?"  Part="1" 
-AR Path="/5D28EBAC/5D547663" Ref="R?"  Part="1" 
-AR Path="/5D4AE438/5D547663" Ref="R?"  Part="1" 
-F 0 "R?" V 1000 3100 50  0000 C CNN
-F 1 "3k3" V 1100 3150 50  0000 C CNN
-F 2 "" V 1030 3150 50  0001 C CNN
-F 3 "~" H 1100 3150 50  0001 C CNN
-	1    1100 3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5D54227D
-P 1100 3050
-AR Path="/5D54227D" Ref="R?"  Part="1" 
-AR Path="/5D28EBAC/5D54227D" Ref="R?"  Part="1" 
-AR Path="/5D4AE438/5D54227D" Ref="R?"  Part="1" 
-F 0 "R?" V 1200 3000 50  0000 C CNN
-F 1 "3k3" V 1100 3050 50  0000 C CNN
-F 2 "" V 1030 3050 50  0001 C CNN
-F 3 "~" H 1100 3050 50  0001 C CNN
-	1    1100 3050
-	0    -1   -1   0   
-$EndComp
 Entry Wire Line
 	1700 2950 1800 3050
 Wire Wire Line
@@ -616,8 +588,8 @@ U 1 1 5D7F73DE
 P 4400 6500
 AR Path="/5D7F73DE" Ref="U?"  Part="1" 
 AR Path="/5D28EBAC/5D7F73DE" Ref="U?"  Part="1" 
-AR Path="/5D4AE438/5D7F73DE" Ref="U13"  Part="1" 
-F 0 "U13" H 4100 7350 50  0000 L CNN
+AR Path="/5D4AE438/5D7F73DE" Ref="U25"  Part="1" 
+F 0 "U25" H 4100 7350 50  0000 L CNN
 F 1 "74LS257" H 4450 7350 50  0000 L CNN
 F 2 "" H 4400 6500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 4400 6500 50  0001 C CNN
@@ -1017,6 +989,28 @@ F 2 "" H -2550 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H -2550 2500 50  0001 C CNN
 	1    -2550 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP4
+U 8 1 5D6E4E78
+P 1100 3050
+F 0 "RP4" V 1025 2950 50  0000 L CNN
+F 1 "3k3" V 1100 3000 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 1150 2925 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 3050 50  0001 C CNN
+	8    1100 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP4
+U 6 1 5D6DDE08
+P 1100 3150
+F 0 "RP4" V 1175 3050 50  0000 L CNN
+F 1 "3k3" V 1100 3100 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 1150 3025 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1100 3150 50  0001 C CNN
+	6    1100 3150
+	0    -1   1    0   
 $EndComp
 Wire Bus Line
 	5100 900  5100 2800

@@ -14,34 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
-Text HLabel 900  600  0    50   Output ~ 0
-JOY_B0
-Text HLabel 900  700  0    50   Output ~ 0
-JOY_B1
-Text HLabel 900  800  0    50   Output ~ 0
-JOY_B2
-Text HLabel 900  900  0    50   Output ~ 0
-JOY_B3
-Text HLabel 900  1000 0    50   Output ~ 0
-BTN_B
-Text HLabel 900  1100 0    50   UnSpc ~ 0
-POT_BX
-Text HLabel 900  1200 0    50   UnSpc ~ 0
-POT_BY
-Text HLabel 900  1400 0    50   Output ~ 0
-JOY_A0
-Text HLabel 900  1500 0    50   Output ~ 0
-JOY_A1
-Text HLabel 900  1600 0    50   Output ~ 0
-JOY_E2
-Text HLabel 900  1700 0    50   Output ~ 0
-JOY_E3
-Text HLabel 900  1800 0    50   Output ~ 0
-BTN_A
-Text HLabel 900  1900 0    50   UnSpc ~ 0
-POT_AX
-Text HLabel 900  2000 0    50   UnSpc ~ 0
-POT_AY
 $Comp
 L Connector:DB9_Male CN?
 U 1 1 5D655C5E
@@ -104,4 +76,60 @@ Text Notes 2450 2800 0    50   ~ 0
 GND
 Text Notes 2450 2600 0    50   ~ 0
 +5V
+Text HLabel 600  600  3    50   BiDi ~ 0
+ROW[0..7]
+Text HLabel 700  600  3    50   BiDi ~ 0
+COL[0..7]
+$Comp
+L 4xxx:4066 U?
+U 4 1 5D6D248F
+P 5300 1600
+AR Path="/5D943305/5D6D248F" Ref="U?"  Part="4" 
+AR Path="/5D943305/5D63DF34/5D6D248F" Ref="U28"  Part="4" 
+F 0 "U28" H 5300 1427 50  0000 C CNN
+F 1 "4066" H 5300 1336 50  0000 C CNN
+F 2 "" H 5300 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5300 1600 50  0001 C CNN
+	4    5300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U?
+U 3 1 5D6D2495
+P 4600 1700
+AR Path="/5D943305/5D6D2495" Ref="U?"  Part="3" 
+AR Path="/5D943305/5D63DF34/5D6D2495" Ref="U28"  Part="3" 
+F 0 "U28" H 4600 1527 50  0000 C CNN
+F 1 "4066" H 4600 1436 50  0000 C CNN
+F 2 "" H 4600 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4600 1700 50  0001 C CNN
+	3    4600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U?
+U 2 1 5D6D249B
+P 5000 1100
+AR Path="/5D943305/5D6D249B" Ref="U?"  Part="2" 
+AR Path="/5D943305/5D63DF34/5D6D249B" Ref="U28"  Part="2" 
+F 0 "U28" H 5000 927 50  0000 C CNN
+F 1 "4066" H 5000 836 50  0000 C CNN
+F 2 "" H 5000 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5000 1100 50  0001 C CNN
+	2    5000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4066 U?
+U 1 1 5D6D24A1
+P 4350 1200
+AR Path="/5D943305/5D6D24A1" Ref="U?"  Part="1" 
+AR Path="/5D943305/5D63DF34/5D6D24A1" Ref="U28"  Part="1" 
+F 0 "U28" H 4350 1027 50  0000 C CNN
+F 1 "4066" H 4350 936 50  0000 C CNN
+F 2 "" H 4350 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4350 1200 50  0001 C CNN
+	1    4350 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
