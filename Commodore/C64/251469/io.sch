@@ -943,11 +943,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 4250 4500 4250
 Wire Wire Line
-	4500 4250 4500 6500
-Wire Wire Line
 	4500 6500 5600 6500
-Wire Wire Line
-	5600 6500 5600 7350
 Wire Wire Line
 	7100 5850 7100 6200
 Connection ~ 7100 6200
@@ -998,45 +994,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 6750 3500 50  0001 C CNN
 	6    6750 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L C64B:R_Network07_Split RP3
-U 4 1 5D94F7D8
-P 3950 6050
-AR Path="/5D943305/5D94F7D8" Ref="RP3"  Part="4" 
-AR Path="/5D943305/5D47A471/5D94F7D8" Ref="RP?"  Part="4" 
-F 0 "RP3" V 3950 6375 50  0000 L CNN
-F 1 "3k3" V 3950 6000 25  0000 L CNN
-F 2 "" H 4050 6050 50  0001 C CNN
-F 3 "" H 4050 6050 50  0001 C CNN
-	4    3950 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L C64B:R_Network07_Split RP3
-U 5 1 5D94F7DE
-P 3950 5950
-AR Path="/5D943305/5D94F7DE" Ref="RP3"  Part="5" 
-AR Path="/5D943305/5D47A471/5D94F7DE" Ref="RP?"  Part="5" 
-F 0 "RP3" V 3950 6275 50  0000 L CNN
-F 1 "3k3" V 3950 5900 25  0000 L CNN
-F 2 "" H 4050 5950 50  0001 C CNN
-F 3 "" H 4050 5950 50  0001 C CNN
-	5    3950 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L C64B:R_Network07_Split RP3
-U 6 1 5D94F7E4
-P 3950 5850
-AR Path="/5D943305/5D94F7E4" Ref="RP3"  Part="6" 
-AR Path="/5D943305/5D47A471/5D94F7E4" Ref="RP?"  Part="6" 
-F 0 "RP3" V 3950 6175 50  0000 L CNN
-F 1 "3k3" V 3950 5800 25  0000 L CNN
-F 2 "" H 4050 5850 50  0001 C CNN
-F 3 "" H 4050 5850 50  0001 C CNN
-	6    3950 5850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3750 5750 3550 5750
 Wire Wire Line
@@ -1045,19 +1002,6 @@ Wire Wire Line
 	3750 5950 3350 5950
 Wire Wire Line
 	3750 6050 3250 6050
-$Comp
-L C64B:R_Network07_Split RP3
-U 7 1 5D94F7EA
-P 3950 5750
-AR Path="/5D943305/5D94F7EA" Ref="RP3"  Part="7" 
-AR Path="/5D943305/5D47A471/5D94F7EA" Ref="RP?"  Part="7" 
-F 0 "RP3" V 3950 6075 50  0000 L CNN
-F 1 "3k3" V 3950 5700 25  0000 L CNN
-F 2 "" H 4050 5750 50  0001 C CNN
-F 3 "" H 4050 5750 50  0001 C CNN
-	7    3950 5750
-	0    1    1    0   
-$EndComp
 Connection ~ 3250 6050
 Connection ~ 3350 5950
 Connection ~ 3450 5850
@@ -1180,40 +1124,40 @@ Wire Wire Line
 Wire Wire Line
 	7450 3100 7300 3100
 Wire Wire Line
-	4150 5750 4200 5750
+	4050 5750 4100 5750
 Wire Wire Line
-	4200 5750 4200 5850
+	4100 5750 4100 5850
 Wire Wire Line
-	4200 5850 4150 5850
+	4100 5850 4050 5850
 Wire Wire Line
-	4200 5850 4200 5950
+	4100 5850 4100 5950
 Wire Wire Line
-	4200 5950 4150 5950
-Connection ~ 4200 5850
+	4100 5950 4050 5950
+Connection ~ 4100 5850
 Wire Wire Line
-	4200 5950 4200 6050
+	4100 5950 4100 6050
 Wire Wire Line
-	4200 6050 4150 6050
-Connection ~ 4200 5950
+	4100 6050 4050 6050
+Connection ~ 4100 5950
 $Comp
 L power:+5V #PWR?
 U 1 1 5D94F7F0
-P 4200 5650
+P 4100 5650
 AR Path="/5D94F7F0" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D94F7F0" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D94F7F0" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D94F7F0" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D47A471/5D94F7F0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4200 5500 50  0001 C CNN
-F 1 "+5V" H 4100 5800 50  0000 L CNN
-F 2 "" H 4200 5650 50  0001 C CNN
-F 3 "" H 4200 5650 50  0001 C CNN
-	1    4200 5650
+F 0 "#PWR?" H 4100 5500 50  0001 C CNN
+F 1 "+5V" H 4000 5800 50  0000 L CNN
+F 2 "" H 4100 5650 50  0001 C CNN
+F 3 "" H 4100 5650 50  0001 C CNN
+	1    4100 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 5650 4200 5750
-Connection ~ 4200 5750
+	4100 5650 4100 5750
+Connection ~ 4100 5750
 Wire Wire Line
 	5600 4050 6300 4050
 Wire Wire Line
@@ -1307,75 +1251,28 @@ F4 "CLK" B L 9250 3600 50
 F5 "DATA" B L 9250 3700 50 
 F6 "~SRQ" O R 9900 3450 50 
 $EndSheet
-$Comp
-L C64B:R_Network07_Split RP3
-U 1 1 5DE0B263
-P 4600 5100
-AR Path="/5D943305/5DE0B263" Ref="RP3"  Part="1" 
-AR Path="/5D943305/5D47A471/5DE0B263" Ref="RP?"  Part="7" 
-F 0 "RP3" V 4700 5000 50  0000 L CNN
-F 1 "3k3" V 4600 5050 25  0000 L CNN
-F 2 "" H 4700 5100 50  0001 C CNN
-F 3 "" H 4700 5100 50  0001 C CNN
-	1    4600 5100
-	1    0    0    -1  
-$EndComp
 Connection ~ 4600 5350
 Wire Wire Line
 	4600 5350 4600 5300
 $Comp
 L power:+5V #PWR?
-U 1 1 5DE2E5EA
-P 4600 4850
-AR Path="/5DE2E5EA" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5DE2E5EA" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5DE2E5EA" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5DE2E5EA" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D47A471/5DE2E5EA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4600 4700 50  0001 C CNN
-F 1 "+5V" H 4500 5000 50  0000 L CNN
-F 2 "" H 4600 4850 50  0001 C CNN
-F 3 "" H 4600 4850 50  0001 C CNN
-	1    4600 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 4850 4600 4900
-$Comp
-L C64B:R_Network07_Split RP3
-U 2 1 5DE3ABE8
-P 5800 7350
-AR Path="/5D943305/5DE3ABE8" Ref="RP3"  Part="2" 
-AR Path="/5D943305/5D47A471/5DE3ABE8" Ref="RP?"  Part="7" 
-F 0 "RP3" V 5900 7250 50  0000 L CNN
-F 1 "3k3" V 5800 7300 25  0000 L CNN
-F 2 "" H 5900 7350 50  0001 C CNN
-F 3 "" H 5900 7350 50  0001 C CNN
-	2    5800 7350
-	0    1    1    0   
-$EndComp
-Connection ~ 5600 7350
-Wire Wire Line
-	5600 7350 5600 7500
-$Comp
-L power:+5V #PWR?
 U 1 1 5DE69A12
-P 6000 7300
+P 6000 7350
 AR Path="/5DE69A12" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5DE69A12" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5DE69A12" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5DE69A12" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D47A471/5DE69A12" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6000 7150 50  0001 C CNN
-F 1 "+5V" H 5900 7450 50  0000 L CNN
-F 2 "" H 6000 7300 50  0001 C CNN
-F 3 "" H 6000 7300 50  0001 C CNN
-	1    6000 7300
+F 0 "#PWR?" H 6000 7200 50  0001 C CNN
+F 1 "+5V" H 5900 7500 50  0000 L CNN
+F 2 "" H 6000 7350 50  0001 C CNN
+F 3 "" H 6000 7350 50  0001 C CNN
+	1    6000 7350
 	1    0    0    -1  
 $EndComp
 Connection ~ 5600 6500
 Wire Wire Line
-	6000 7350 6000 7300
+	6000 7400 6000 7350
 Wire Wire Line
 	1900 5350 1700 5350
 Wire Wire Line
@@ -1387,36 +1284,23 @@ Wire Wire Line
 Text Notes 7050 5000 0    50   ~ 0
 CASS RD\nSRQ IN
 $Comp
-L C64B:R_Network07_Split RP3
-U 3 1 5DF27A37
-P 1700 5100
-AR Path="/5D943305/5DF27A37" Ref="RP3"  Part="3" 
-AR Path="/5D943305/5D47A471/5DF27A37" Ref="RP?"  Part="7" 
-F 0 "RP3" V 1800 5000 50  0000 L CNN
-F 1 "3k3" V 1700 5050 25  0000 L CNN
-F 2 "" H 1800 5100 50  0001 C CNN
-F 3 "" H 1800 5100 50  0001 C CNN
-	3    1700 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5DF27A3D
-P 1700 4850
+P 1700 4950
 AR Path="/5DF27A3D" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5DF27A3D" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5DF27A3D" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5DF27A3D" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D47A471/5DF27A3D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1700 4700 50  0001 C CNN
-F 1 "+5V" H 1600 5000 50  0000 L CNN
-F 2 "" H 1700 4850 50  0001 C CNN
-F 3 "" H 1700 4850 50  0001 C CNN
-	1    1700 4850
+F 0 "#PWR?" H 1700 4800 50  0001 C CNN
+F 1 "+5V" H 1600 5100 50  0000 L CNN
+F 2 "" H 1700 4950 50  0001 C CNN
+F 3 "" H 1700 4950 50  0001 C CNN
+	1    1700 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 4850 1700 4900
+	1700 4950 1700 5000
 Wire Wire Line
 	1700 5350 1700 5300
 Connection ~ 1700 5350
@@ -1489,6 +1373,112 @@ Wire Wire Line
 	8750 3700 8750 4200
 Wire Wire Line
 	10000 3450 9900 3450
+Wire Wire Line
+	4600 4950 4600 5000
+$Comp
+L power:+5V #PWR?
+U 1 1 5DE2E5EA
+P 4600 4950
+AR Path="/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5DE2E5EA" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D47A471/5DE2E5EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 4800 50  0001 C CNN
+F 1 "+5V" H 4500 5100 50  0000 L CNN
+F 2 "" H 4600 4950 50  0001 C CNN
+F 3 "" H 4600 4950 50  0001 C CNN
+	1    4600 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4250 4500 6500
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 1 1 5D359677
+P 4600 5150
+F 0 "RP3" V 4500 5150 50  0000 C CNN
+F 1 "3k3" V 4600 5150 30  0000 C CNN
+F 2 "" H 4600 5150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4600 5150 50  0001 C CNN
+	1    4600 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 3 1 5D39D797
+P 1700 5150
+F 0 "RP3" V 1600 5150 50  0000 C CNN
+F 1 "3k3" V 1700 5150 30  0000 C CNN
+F 2 "" H 1700 5150 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1700 5150 50  0001 C CNN
+	3    1700 5150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 2 1 5D3C33C5
+P 5800 7400
+F 0 "RP3" V 5700 7400 50  0000 C CNN
+F 1 "3k3" V 5800 7400 30  0000 C CNN
+F 2 "" H 5800 7400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 7400 50  0001 C CNN
+	2    5800 7400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 6500 5600 7400
+Wire Wire Line
+	5650 7400 5600 7400
+Connection ~ 5600 7400
+Wire Wire Line
+	5600 7400 5600 7500
+Wire Wire Line
+	5950 7400 6000 7400
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 7 1 5D3FF4BF
+P 3900 5750
+F 0 "RP3" V 3900 6100 50  0000 C CNN
+F 1 "3k3" V 3900 5750 30  0000 C CNN
+F 2 "" H 3900 5750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 5750 50  0001 C CNN
+	7    3900 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 6 1 5D401D35
+P 3900 5850
+F 0 "RP3" V 3900 6200 50  0000 C CNN
+F 1 "3k3" V 3900 5850 30  0000 C CNN
+F 2 "" H 3900 5850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 5850 50  0001 C CNN
+	6    3900 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 5 1 5D4039CF
+P 3900 5950
+F 0 "RP3" V 3900 6300 50  0000 C CNN
+F 1 "3k3" V 3900 5950 30  0000 C CNN
+F 2 "" H 3900 5950 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 5950 50  0001 C CNN
+	5    3900 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network07_Split RP3
+U 4 1 5D404120
+P 3900 6050
+F 0 "RP3" V 3900 6400 50  0000 C CNN
+F 1 "3k3" V 3900 6050 30  0000 C CNN
+F 2 "" H 3900 6050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 6050 50  0001 C CNN
+	4    3900 6050
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	4500 1100 4500 2750
 Wire Bus Line
