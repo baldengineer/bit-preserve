@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 8 12
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -494,64 +494,6 @@ Text Notes 5650 3550 0    50   ~ 0
 ~VA15
 Text Notes 5650 3650 0    50   ~ 0
 UP-PA2
-$Comp
-L Connector:DB9_Male CN8
-U 1 1 5D74C9E4
-P 750 3400
-F 0 "CN8" H 668 2708 50  0000 C CNN
-F 1 "Control Port 2" H 668 2799 50  0000 C CNN
-F 2 "" H 750 3400 50  0001 C CNN
-F 3 " ~" H 750 3400 50  0001 C CNN
-	1    750  3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:DB9_Male CN9
-U 1 1 5D7503E1
-P 750 4750
-F 0 "CN9" H 668 4058 50  0000 C CNN
-F 1 "Control Port 1" H 668 4149 50  0000 C CNN
-F 2 "" H 750 4750 50  0001 C CNN
-F 3 " ~" H 750 4750 50  0001 C CNN
-	1    750  4750
-	-1   0    0    1   
-$EndComp
-Text Notes 1100 3300 0    50   ~ 0
-+5V
-Text Notes 1100 3500 0    50   ~ 0
-GND
-Text Notes 1100 3700 0    50   ~ 0
-POT BX
-Text Notes 1100 3800 0    50   ~ 0
-POT BY
-Text Notes 1100 3000 0    50   ~ 0
-JOY B0
-Text Notes 1100 3200 0    50   ~ 0
-JOY B1
-Text Notes 1100 3400 0    50   ~ 0
-JOY B2
-Text Notes 1100 3600 0    50   ~ 0
-JOY B3
-Text Notes 1100 3100 0    50   ~ 0
-BTN B
-Text Notes 1100 4450 0    50   ~ 0
-BTN A
-Text Notes 1100 4950 0    50   ~ 0
-JOY A3
-Text Notes 1100 4750 0    50   ~ 0
-JOY A2
-Text Notes 1100 4550 0    50   ~ 0
-JOY A1
-Text Notes 1100 4350 0    50   ~ 0
-JOY A0
-Text Notes 1100 5150 0    50   ~ 0
-POT AY
-Text Notes 1100 5050 0    50   ~ 0
-POT AX
-Text Notes 1100 4850 0    50   ~ 0
-GND
-Text Notes 1100 4650 0    50   ~ 0
-+5V
 $Comp
 L 4xxx:4066 U28
 U 1 1 5D771F7B
@@ -1476,6 +1418,14 @@ F 3 "~" H 8150 4400 50  0001 C CNN
 $EndComp
 Text Label 1700 6150 1    50   ~ 0
 CASS-RD_(SRQ-IN)
+Text Label 9000 6200 0    50   ~ 0
+TOD
+$Sheet
+S 700  3100 900  1300
+U 5D63DF34
+F0 "Control Ports" 50
+F1 "controlports.sch" 50
+$EndSheet
 Wire Bus Line
 	4500 1100 4500 2750
 Wire Bus Line
@@ -1490,6 +1440,4 @@ Wire Bus Line
 	5900 1000 5900 3150
 Wire Bus Line
 	3000 1000 3000 3150
-Text Label 9000 6200 0    50   ~ 0
-TOD
 $EndSCHEMATC
