@@ -529,16 +529,6 @@ Text Notes 5650 3550 0    50   ~ 0
 ~VA15
 Text Notes 5650 3650 0    50   ~ 0
 UP-PA2
-Text Notes 5650 3750 0    50   ~ 0
-ATNOUT
-Text Notes 5650 3850 0    50   ~ 0
-CLKOUT
-Text Notes 5650 3950 0    50   ~ 0
-DATAOUT
-Text Notes 5650 4050 0    50   ~ 0
-CLK
-Text Notes 5650 4150 0    50   ~ 0
-DATA
 $Comp
 L Connector:DB9_Male CN8
 U 1 1 5D74C9E4
@@ -1493,4 +1483,16 @@ Wire Bus Line
 	5900 1000 5900 3150
 Wire Bus Line
 	3000 1000 3000 3150
+Text Label 5600 5350 0    50   ~ 0
+~NMI
+Text Label 5650 3750 0    50   ~ 0
+ATNOUT
+Text Label 5650 3850 0    50   ~ 0
+CLKOUT
+Text Label 5650 3950 0    50   ~ 0
+DATAOUT
+Text Label 5650 4050 0    50   ~ 0
+CLK
+Text Label 5650 4150 0    50   ~ 0
+DATA
 $EndSCHEMATC
