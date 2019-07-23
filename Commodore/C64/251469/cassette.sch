@@ -341,6 +341,7 @@ AR Path="/5D6845FF" Ref="#PWR?"  Part="1"
 AR Path="/5D28EBAC/5D6845FF" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D6845FF" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D6845FF" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D641FD1/5D6845FF" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4350 600 50  0001 C CNN
 F 1 "+5V" H 4250 900 50  0000 L CNN
 F 2 "" H 4350 750 50  0001 C CNN
@@ -354,22 +355,12 @@ Wire Wire Line
 	2650 2300 3850 2300
 Text Label 3850 2300 2    50   ~ 0
 CASS3
-Text HLabel 1450 1150 0    50   Output ~ 0
-WRITE
-Text HLabel 1450 1250 0    50   Output ~ 0
-READ
-Text HLabel 1450 1050 0    50   Output ~ 0
-SENSE
 Entry Wire Line
 	3850 1050 3950 1150
-Wire Wire Line
-	1450 1050 2850 1050
 Text Label 3850 1050 2    50   ~ 0
 CASS6
 Entry Wire Line
 	3850 1250 3950 1350
-Wire Wire Line
-	1450 1250 3550 1250
 Text Label 3850 1250 2    50   ~ 0
 CASS4
 Entry Wire Line
@@ -421,9 +412,19 @@ Wire Wire Line
 	2650 1150 3200 1150
 Connection ~ 3200 1150
 Wire Wire Line
-	2350 1150 1450 1150
-Wire Wire Line
 	3200 1650 3200 1600
+Wire Wire Line
+	2350 1150 1600 1150
+Wire Wire Line
+	1600 1250 3550 1250
+Wire Wire Line
+	1600 1050 2850 1050
+Text HLabel 1600 1050 0    50   Output ~ 0
+SENSE
+Text HLabel 1600 1250 0    50   Output ~ 0
+READ
+Text HLabel 1600 1150 0    50   Output ~ 0
+WRITE
 Wire Bus Line
 	3950 1150 3950 2400
 Wire Bus Line
