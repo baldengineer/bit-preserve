@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R_Network07_Split
+D 7 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Network09_Split
+D 9 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Pack04_SIP_Split
+D 4 resistor network (split), parallel topology, isolated resistors, SIP package, small symbol
+K R network parallel-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+#End Doc Library
