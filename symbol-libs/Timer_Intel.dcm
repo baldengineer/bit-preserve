@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8224
+D Clock Generator and Driver for 8080A CPU
+K Clock
+F https://archive.org/details/bitsavers_intelMCS80ocomputerSystemsUsersManual197509_43049640/page/n61
+$ENDCMP
+#
+#End Doc Library
