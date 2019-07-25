@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 11 13
 Title "Commodore 64 - Memory Section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -859,8 +859,6 @@ Wire Bus Line
 	8000 1100 8000 800 
 Wire Bus Line
 	7900 1100 8000 1100
-Text Notes 7700 2500 0    50   ~ 0
-~CIAS
 Text HLabel 7700 2150 2    50   Output ~ 0
 ~VIC
 Text HLabel 7700 2350 2    50   Output ~ 0
@@ -936,11 +934,11 @@ Wire Wire Line
 Wire Wire Line
 	6950 2250 7700 2250
 Wire Wire Line
-	7000 2450 6950 2450
+	7050 2450 6950 2450
 Wire Wire Line
-	5950 3300 7000 3300
+	5950 3300 7050 3300
 Wire Wire Line
-	7000 3300 7000 2450
+	7050 3300 7050 2450
 Wire Wire Line
 	5700 2150 5950 2150
 Wire Wire Line
@@ -1021,6 +1019,8 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 100 3800 50  0001 C CNN
 	1    100  3800
 	1    0    0    -1  
 $EndComp
+Text Label 7050 2450 2    50   ~ 0
+CIA
 Wire Bus Line
 	5600 900  5600 2800
 Wire Bus Line
