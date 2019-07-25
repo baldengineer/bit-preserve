@@ -755,19 +755,8 @@ Wire Wire Line
 	6600 4350 6600 6900
 Wire Wire Line
 	6600 6900 5000 6900
-$Sheet
-S 4050 4200 800  250 
-U 5D7052DF
-F0 "Keyboard" 50
-F1 "keyboard.sch" 50
-F2 "ROW[0..7]" B L 4050 4350 50 
-F3 "COL[0..7]" B L 4050 4250 50 
-F4 "NMI" O R 4850 4250 50 
-$EndSheet
 Wire Bus Line
-	3050 4350 3850 4350
-Wire Bus Line
-	3050 4250 3950 4250
+	3050 4250 3850 4250
 Text Label 3150 4350 3    50   ~ 0
 ROW[0..7]
 Text Label 3150 4250 1    50   ~ 0
@@ -1043,12 +1032,14 @@ CASS-RD_(SRQ-IN)
 Text Label 7950 6200 0    50   ~ 0
 TOD
 $Sheet
-S 4050 4700 800  250 
+S 4050 3600 800  300 
 U 5D63DF34
 F0 "Control Ports" 50
 F1 "controlports.sch" 50
-F2 "ROW[0..7]" B L 4050 4850 50 
-F3 "COL[0..7]" B L 4050 4750 50 
+F2 "ROW[0..7]" B L 4050 3800 50 
+F3 "COL[0..7]" B L 4050 3700 50 
+F4 "POTX" O R 4850 3700 50 
+F5 "POTY" O R 4850 3800 50 
 $EndSheet
 Wire Wire Line
 	6200 3750 7050 3750
@@ -1089,19 +1080,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 3850 7950 3100
 Wire Bus Line
-	4050 4750 3950 4750
+	3850 3700 3850 4250
 Wire Bus Line
-	3950 4750 3950 4250
-Connection ~ 3950 4250
-Wire Bus Line
-	3950 4250 4050 4250
-Wire Bus Line
-	4050 4850 3850 4850
-Wire Bus Line
-	3850 4850 3850 4350
-Connection ~ 3850 4350
-Wire Bus Line
-	3850 4350 4050 4350
+	3950 3800 3950 4350
 $Sheet
 S 8350 3250 950  250 
 U 5D641FD1
@@ -1205,6 +1186,41 @@ Wire Wire Line
 	8350 3300 8250 3300
 Wire Wire Line
 	8250 3300 8250 3100
+Text Label 9400 4500 1    50   ~ 0
+CASS-RD_(SRQ-IN)
+$Sheet
+S 4050 4150 800  300 
+U 5D7052DF
+F0 "Keyboard" 50
+F1 "keyboard.sch" 50
+F2 "ROW[0..7]" B L 4050 4350 50 
+F3 "COL[0..7]" B L 4050 4250 50 
+F4 "NMI" O R 4850 4250 50 
+$EndSheet
+Connection ~ 3850 4250
+Wire Bus Line
+	3850 4250 4050 4250
+Connection ~ 3950 4350
+Wire Bus Line
+	3950 4350 4050 4350
+Wire Bus Line
+	3050 4350 3950 4350
+Wire Bus Line
+	4050 3700 3850 3700
+Wire Bus Line
+	4050 3800 3950 3800
+Text HLabel 4900 3200 1    50   Output ~ 0
+POTX
+Text HLabel 5000 3200 1    50   Output ~ 0
+POTY
+Wire Wire Line
+	4850 3700 4900 3700
+Wire Wire Line
+	4900 3700 4900 3200
+Wire Wire Line
+	4850 3800 5000 3800
+Wire Wire Line
+	5000 3800 5000 3200
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
@@ -1219,6 +1235,4 @@ Wire Bus Line
 	6500 1000 6500 3150
 Wire Bus Line
 	3000 1000 3000 3150
-Text Label 9400 4500 1    50   ~ 0
-CASS-RD_(SRQ-IN)
 $EndSCHEMATC
