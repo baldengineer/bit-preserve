@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 15
 Title "Commodore 64 (schematic #251469)"
 Date "2019-07-10"
 Rev "0.1"
@@ -1211,4 +1211,26 @@ Wire Bus Line
 	6900 2500 6900 6050
 Wire Bus Line
 	3200 1700 3200 4300
+$Sheet
+S 9750 2200 1200 700 
+U 5D3AF8EC
+F0 "Video" 50
+F1 "video.sch" 50
+$EndSheet
+$Sheet
+S 10200 4100 1000 800 
+U 5D3AFB9B
+F0 "Audio" 50
+F1 "audio.sch" 50
+F2 "~CS" I L 10200 4300 50 
+F3 "R~W" I L 10200 4650 50 
+F4 "D[0..7]" B L 10200 4550 50 
+F5 "POTX" I R 11200 4200 50 
+F6 "POTY" I R 11200 4300 50 
+F7 "ϕ2" I L 10200 4850 50 
+F8 "~RES" I L 10200 4200 50 
+F9 "A[0..15]" I L 10200 4450 50 
+F10 "EXT_IN" I R 11200 4750 50 
+F11 "AUDIO_OUT" O R 11200 4850 50 
+$EndSheet
 $EndSCHEMATC
