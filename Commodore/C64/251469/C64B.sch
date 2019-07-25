@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "Commodore 64 (schematic #251469)"
 Date "2019-07-10"
 Rev "0.1"
@@ -14,19 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
-$Sheet
-S 9950 650  1150 500 
-U 5D262D6A
-F0 "RF Modulator" 50
-F1 "modulator.sch" 50
-F2 "CHROMA_IN" I L 9950 850 50 
-F3 "LUMA_IN" I L 9950 750 50 
-F4 "AUDIO_IN" I L 9950 950 50 
-F5 "LUMA_OUT" O R 11100 750 50 
-F6 "CHROMA_OUT" O R 11100 850 50 
-F7 "COMP_OUT" O R 11100 950 50 
-F8 "RF_OUT" O R 11100 1050 50 
-$EndSheet
 $Comp
 L CPU_MOSTechnology:6510 U7
 U 1 1 5D940F8E
@@ -47,16 +34,14 @@ $EndSheet
 $Comp
 L Audio_MOSTechnology:6581 U18
 U 1 1 5D95C264
-P 8400 3000
-F 0 "U18" H 8000 4250 50  0000 L CNN
-F 1 "6581" H 8800 4250 50  0000 R CNN
-F 2 "" H 7900 2700 50  0001 C CNN
-F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581_sid_preliminary_october_1982.pdf" H 7900 2700 50  0001 C CNN
-	1    8400 3000
+P 13200 1850
+F 0 "U18" H 12800 3100 50  0000 L CNN
+F 1 "6581" H 13600 3100 50  0000 R CNN
+F 2 "" H 12700 1550 50  0001 C CNN
+F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581_sid_preliminary_october_1982.pdf" H 12700 1550 50  0001 C CNN
+	1    13200 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 8600 3700 1    50   ~ 0
-SID\n[D400-D7FF]
 Text Notes 2350 3450 1    50   ~ 0
 MPU
 $Comp
@@ -100,98 +85,6 @@ F 2 "" H 2450 1200 50  0001 C CNN
 F 3 "~" H 2450 1200 50  0001 C CNN
 	1    2450 1200
 	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR0139
-U 1 1 5D9AF17D
-P 8300 1400
-AR Path="/5D9AF17D" Ref="#PWR0139"  Part="1" 
-AR Path="/5D28EBAC/5D9AF17D" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D9AF17D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0139" H 8300 1250 50  0001 C CNN
-F 1 "+5V" H 8300 1550 50  0000 L CNN
-F 2 "" H 8300 1400 50  0001 C CNN
-F 3 "" H 8300 1400 50  0001 C CNN
-	1    8300 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0140
-U 1 1 5D9AF187
-P 8000 1550
-AR Path="/5D9AF187" Ref="#PWR0140"  Part="1" 
-AR Path="/5D28EBAC/5D9AF187" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D9AF187" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0140" H 8000 1300 50  0001 C CNN
-F 1 "GND" H 8005 1377 50  0001 C CNN
-F 2 "" H 8000 1550 50  0001 C CNN
-F 3 "" H 8000 1550 50  0001 C CNN
-	1    8000 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C50
-U 1 1 5D9AF18D
-P 8150 1500
-AR Path="/5D9AF18D" Ref="C50"  Part="1" 
-AR Path="/5D28EBAC/5D9AF18D" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D9AF18D" Ref="C?"  Part="1" 
-F 0 "C50" V 8050 1450 50  0000 L CNN
-F 1 ".1 μF" V 8250 1400 50  0000 L CNN
-F 2 "" H 8150 1500 50  0001 C CNN
-F 3 "~" H 8150 1500 50  0001 C CNN
-	1    8150 1500
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR0141
-U 1 1 5D9B0B4C
-P 8800 1550
-AR Path="/5D9B0B4C" Ref="#PWR0141"  Part="1" 
-AR Path="/5D28EBAC/5D9B0B4C" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D9B0B4C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0141" H 8800 1300 50  0001 C CNN
-F 1 "GND" H 8805 1377 50  0001 C CNN
-F 2 "" H 8800 1550 50  0001 C CNN
-F 3 "" H 8800 1550 50  0001 C CNN
-	1    8800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C51
-U 1 1 5D9B0B52
-P 8650 1500
-AR Path="/5D9B0B52" Ref="C51"  Part="1" 
-AR Path="/5D28EBAC/5D9B0B52" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D9B0B52" Ref="C?"  Part="1" 
-F 0 "C51" V 8550 1450 50  0000 L CNN
-F 1 ".1 μF" V 8750 1350 50  0000 L CNN
-F 2 "" H 8650 1500 50  0001 C CNN
-F 3 "~" H 8650 1500 50  0001 C CNN
-	1    8650 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+12V #PWR0142
-U 1 1 5D9B0E73
-P 8500 1400
-F 0 "#PWR0142" H 8500 1250 50  0001 C CNN
-F 1 "+12V" H 8600 1550 50  0000 C CNN
-F 2 "" H 8500 1400 50  0001 C CNN
-F 3 "" H 8500 1400 50  0001 C CNN
-	1    8500 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0143
-U 1 1 5D9B313B
-P 8400 4350
-F 0 "#PWR0143" H 8400 4100 50  0001 C CNN
-F 1 "GND" H 8405 4177 50  0000 C CNN
-F 2 "" H 8400 4350 50  0001 C CNN
-F 3 "" H 8400 4350 50  0001 C CNN
-	1    8400 4350
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0145
@@ -309,38 +202,6 @@ P4
 Text Label 3000 3800 2    50   ~ 0
 P5
 Entry Wire Line
-	9100 2400 9200 2500
-Entry Wire Line
-	9100 2500 9200 2600
-Entry Wire Line
-	9100 2600 9200 2700
-Entry Wire Line
-	9100 2700 9200 2800
-Entry Wire Line
-	9100 2800 9200 2900
-Entry Wire Line
-	9100 2900 9200 3000
-Entry Wire Line
-	9100 3000 9200 3100
-Entry Wire Line
-	9100 3100 9200 3200
-Text Label 9100 2400 2    50   ~ 0
-D0
-Text Label 9100 2500 2    50   ~ 0
-D1
-Text Label 9100 2600 2    50   ~ 0
-D2
-Text Label 9100 2700 2    50   ~ 0
-D3
-Text Label 9100 2800 2    50   ~ 0
-D4
-Text Label 9100 2900 2    50   ~ 0
-D5
-Text Label 9100 3000 2    50   ~ 0
-D6
-Text Label 9100 3100 2    50   ~ 0
-D7
-Entry Wire Line
 	4650 6850 4750 6750
 Entry Wire Line
 	4650 6950 4750 6850
@@ -397,31 +258,7 @@ Wire Wire Line
 	2300 1400 2300 1200
 Connection ~ 2300 1200
 Wire Wire Line
-	8300 1500 8300 1400
-Wire Wire Line
-	8000 1500 8000 1550
-Wire Wire Line
-	8050 1500 8000 1500
-Wire Wire Line
-	8300 1500 8250 1500
-Wire Wire Line
-	8300 1700 8300 1500
-Connection ~ 8300 1500
-Wire Wire Line
-	8500 1500 8500 1400
-Wire Wire Line
-	8800 1500 8800 1550
-Wire Wire Line
-	8750 1500 8800 1500
-Wire Wire Line
-	8500 1500 8550 1500
-Wire Wire Line
-	8500 1700 8500 1500
-Connection ~ 8500 1500
-Wire Wire Line
 	2300 5450 2300 5400
-Wire Wire Line
-	8400 4350 8400 4300
 Wire Wire Line
 	2700 3100 3100 3100
 Wire Wire Line
@@ -460,22 +297,6 @@ Wire Wire Line
 	2700 4100 2900 4100
 Wire Wire Line
 	2700 4200 2900 4200
-Wire Wire Line
-	8900 2400 9100 2400
-Wire Wire Line
-	8900 2500 9100 2500
-Wire Wire Line
-	8900 2600 9100 2600
-Wire Wire Line
-	8900 2700 9100 2700
-Wire Wire Line
-	8900 2800 9100 2800
-Wire Wire Line
-	8900 2900 9100 2900
-Wire Wire Line
-	8900 3000 9100 3000
-Wire Wire Line
-	8900 3100 9100 3100
 Wire Wire Line
 	1100 1300 1150 1300
 Wire Wire Line
@@ -544,20 +365,20 @@ Wire Wire Line
 Wire Wire Line
 	1250 1200 1250 550 
 Wire Wire Line
-	1250 550  7900 550 
+	1250 550  7500 550 
 Wire Wire Line
-	7900 550  7900 1900
+	7500 550  7500 3450
 Connection ~ 1250 1200
 Wire Wire Line
 	4450 2300 4550 2300
 Wire Wire Line
 	4550 2300 4550 600 
 Wire Wire Line
-	4550 600  7800 600 
+	4550 600  7400 600 
 Wire Wire Line
-	7800 600  7800 2100
+	7400 600  7400 3550
 Wire Wire Line
-	7800 2100 7900 2100
+	7400 3550 7900 3550
 Wire Wire Line
 	4450 2400 4650 2400
 Wire Wire Line
@@ -935,7 +756,7 @@ Entry Wire Line
 	6800 2800 6900 2900
 Connection ~ 6900 6050
 Wire Bus Line
-	6900 6050 9200 6050
+	6900 6050 7750 6050
 Wire Wire Line
 	6600 6150 6600 5200
 Wire Wire Line
@@ -948,63 +769,19 @@ Connection ~ 2750 6250
 Wire Wire Line
 	2750 6250 2750 5200
 Wire Wire Line
-	7900 4100 7850 4100
-Wire Wire Line
-	7850 4100 7850 6250
-Text Label 7300 2400 0    50   ~ 0
-A0
-Text Label 7300 2500 0    50   ~ 0
-A1
-Text Label 7300 2600 0    50   ~ 0
-A2
-Text Label 7300 2700 0    50   ~ 0
-A3
-Text Label 7300 2800 0    50   ~ 0
-A4
-Wire Wire Line
-	7900 2800 7300 2800
-Wire Wire Line
-	7900 2700 7300 2700
-Wire Wire Line
-	7900 2600 7300 2600
-Wire Wire Line
-	7900 2500 7300 2500
-Wire Wire Line
-	7900 2400 7300 2400
-Entry Wire Line
-	7300 2700 7200 2800
-Entry Wire Line
-	7300 2600 7200 2700
-Entry Wire Line
-	7300 2500 7200 2600
-Entry Wire Line
-	7300 2400 7200 2500
-Entry Wire Line
-	7300 2800 7200 2900
-Wire Wire Line
 	4250 7450 5050 7450
 Wire Wire Line
 	5050 7450 5050 6350
-Wire Wire Line
-	5050 6350 7300 6350
-Wire Wire Line
-	7300 6350 7300 4800
-Wire Wire Line
-	7300 3000 7900 3000
-Wire Wire Line
-	7900 3100 7400 3100
-Wire Wire Line
-	7400 6450 5150 6450
 Wire Wire Line
 	5150 6450 5150 7550
 Wire Wire Line
 	5150 7550 4250 7550
 Wire Wire Line
-	7900 2200 7700 2200
+	7900 3650 7300 3650
 Wire Wire Line
-	7700 2200 7700 650 
+	7300 3650 7300 650 
 Wire Wire Line
-	7700 650  5300 650 
+	7300 650  5300 650 
 Wire Wire Line
 	5300 650  5300 2000
 Wire Wire Line
@@ -1015,114 +792,6 @@ Wire Wire Line
 	3300 2000 5300 2000
 Connection ~ 3300 4500
 Connection ~ 5300 2000
-$Comp
-L Device:C_Small C11
-U 1 1 5DA22E15
-P 7750 3600
-F 0 "C11" V 7700 3450 50  0000 C CNN
-F 1 "470 pF" V 7900 3650 50  0000 C CNN
-F 2 "" H 7750 3600 50  0001 C CNN
-F 3 "~" H 7750 3600 50  0001 C CNN
-	1    7750 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C10
-U 1 1 5DA24C82
-P 7750 3300
-F 0 "C10" V 7700 3150 50  0000 C CNN
-F 1 "470 pF" V 7900 3350 50  0000 C CNN
-F 2 "" H 7750 3300 50  0001 C CNN
-F 3 "~" H 7750 3300 50  0001 C CNN
-	1    7750 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7900 3300 7850 3300
-Wire Wire Line
-	7900 3600 7850 3600
-Wire Wire Line
-	7650 3600 7600 3600
-Wire Wire Line
-	7600 3600 7600 3700
-Wire Wire Line
-	7600 3700 7900 3700
-Wire Wire Line
-	7900 3400 7600 3400
-Wire Wire Line
-	7600 3400 7600 3300
-Wire Wire Line
-	7600 3300 7650 3300
-Wire Wire Line
-	7400 3100 7400 5050
-Wire Wire Line
-	7650 4800 7700 4800
-Wire Wire Line
-	7650 5050 7700 5050
-$Comp
-L power:GND #PWR?
-U 1 1 5DA9E69E
-P 7700 4800
-F 0 "#PWR?" H 7700 4550 50  0001 C CNN
-F 1 "GND" H 7700 4650 50  0000 C CNN
-F 2 "" H 7700 4800 50  0001 C CNN
-F 3 "" H 7700 4800 50  0001 C CNN
-	1    7700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DA9EB4A
-P 7700 5050
-F 0 "#PWR?" H 7700 4800 50  0001 C CNN
-F 1 "GND" H 7700 4900 50  0000 C CNN
-F 2 "" H 7700 5050 50  0001 C CNN
-F 3 "" H 7700 5050 50  0001 C CNN
-	1    7700 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4800 7300 4800
-Connection ~ 7300 4800
-Wire Wire Line
-	7300 4800 7300 3000
-Wire Wire Line
-	7400 5050 7450 5050
-Connection ~ 7400 5050
-Wire Wire Line
-	7400 5050 7400 6450
-$Comp
-L Device:C_Small C48
-U 1 1 5DA82E89
-P 7550 4800
-F 0 "C48" V 7550 5200 50  0000 C CNN
-F 1 "1800 pF" V 7625 5300 50  0000 C CNN
-F 2 "" H 7550 4800 50  0001 C CNN
-F 3 "~" H 7550 4800 50  0001 C CNN
-	1    7550 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C93
-U 1 1 5DA8428D
-P 7550 5050
-F 0 "C93" V 7550 5450 50  0000 C CNN
-F 1 "1800 pF" V 7625 5550 50  0000 C CNN
-F 2 "" H 7550 5050 50  0001 C CNN
-F 3 "~" H 7550 5050 50  0001 C CNN
-	1    7550 5050
-	0    1    1    0   
-$EndComp
-Text Notes 6900 1850 0    50   ~ 0
-EXT-IN
-Wire Wire Line
-	7000 3900 7000 1900
-Wire Wire Line
-	7000 3900 7900 3900
-Wire Wire Line
-	8900 3900 9500 3900
-Text Notes 9525 3925 0    50   ~ 0
-AUDIO-OUT
 Text Label 7100 4400 2    50   ~ 0
 A11
 Entry Wire Line
@@ -1191,6 +860,69 @@ Text Label 6700 3800 2    50   ~ 0
 MA5
 Wire Wire Line
 	6550 3800 6700 3800
+$Sheet
+S 9250 2250 1200 700 
+U 5D3AF8EC
+F0 "Video" 50
+F1 "video.sch" 50
+$EndSheet
+Wire Bus Line
+	7900 4050 7750 4050
+Wire Bus Line
+	7750 4050 7750 6050
+Wire Bus Line
+	7200 3950 7900 3950
+Wire Wire Line
+	7900 4300 7850 4300
+Wire Wire Line
+	7850 4300 7850 6250
+Wire Wire Line
+	7950 6350 7950 4550
+Wire Wire Line
+	7950 4550 8950 4550
+Wire Wire Line
+	8950 4550 8950 4300
+Wire Wire Line
+	8950 4300 8850 4300
+Wire Wire Line
+	5050 6350 7950 6350
+Wire Wire Line
+	8050 6450 8050 4650
+Wire Wire Line
+	8050 4650 9050 4650
+Wire Wire Line
+	9050 4650 9050 4200
+Wire Wire Line
+	9050 4200 8850 4200
+Wire Wire Line
+	5150 6450 8050 6450
+$Sheet
+S 7900 3350 950  1050
+U 5D3AFB9B
+F0 "Audio" 50
+F1 "audio.sch" 50
+F2 "~CS" I L 7900 3550 50 
+F3 "R~W" I L 7900 3650 50 
+F4 "D[0..7]" B L 7900 4050 50 
+F5 "POTX" I R 8850 4300 50 
+F6 "POTY" I R 8850 4200 50 
+F7 "ϕ2" I L 7900 4300 50 
+F8 "~RES" I L 7900 3450 50 
+F9 "A[0..15]" I L 7900 3950 50 
+F10 "EXT_IN" I R 8850 3450 50 
+F11 "AUDIO_OUT" O R 8850 3550 50 
+$EndSheet
+Wire Wire Line
+	7500 3450 7900 3450
+$Sheet
+S 550  1650 550  350 
+U 5D62D0FA
+F0 "Clock" 50
+F1 "clock.sch" 50
+F2 "ϕTOD" O R 1100 1950 50 
+F3 "ϕCOLOR" O R 1100 1800 50 
+F4 "ϕDOT" O R 1100 1700 50 
+$EndSheet
 Wire Bus Line
 	3000 4100 3000 4400
 Wire Bus Line
@@ -1202,35 +934,11 @@ Wire Bus Line
 Wire Bus Line
 	3000 4400 3000 6050
 Wire Bus Line
+	7200 3950 7200 5850
+Wire Bus Line
 	6800 3400 6800 5750
-Wire Bus Line
-	7200 2500 7200 5850
-Wire Bus Line
-	9200 2500 9200 6050
 Wire Bus Line
 	6900 2500 6900 6050
 Wire Bus Line
 	3200 1700 3200 4300
-$Sheet
-S 9750 2200 1200 700 
-U 5D3AF8EC
-F0 "Video" 50
-F1 "video.sch" 50
-$EndSheet
-$Sheet
-S 10200 4100 1000 800 
-U 5D3AFB9B
-F0 "Audio" 50
-F1 "audio.sch" 50
-F2 "~CS" I L 10200 4300 50 
-F3 "R~W" I L 10200 4650 50 
-F4 "D[0..7]" B L 10200 4550 50 
-F5 "POTX" I R 11200 4200 50 
-F6 "POTY" I R 11200 4300 50 
-F7 "ϕ2" I L 10200 4850 50 
-F8 "~RES" I L 10200 4200 50 
-F9 "A[0..15]" I L 10200 4450 50 
-F10 "EXT_IN" I R 11200 4750 50 
-F11 "AUDIO_OUT" O R 11200 4850 50 
-$EndSheet
 $EndSCHEMATC

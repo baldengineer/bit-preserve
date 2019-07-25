@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 15 16
 Title "Commodore 64 - Audio section (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
@@ -16,92 +16,6 @@ Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 Text Notes 3200 3600 1    50   ~ 0
 SID\n[D400-D7FF]
-$Comp
-L power:+5V #PWR?
-U 1 1 5D3B7D95
-P 2900 1300
-AR Path="/5D3B7D95" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D3B7D95" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D3B7D95" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AFB9B/5D3B7D95" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2900 1150 50  0001 C CNN
-F 1 "+5V" H 2900 1450 50  0000 L CNN
-F 2 "" H 2900 1300 50  0001 C CNN
-F 3 "" H 2900 1300 50  0001 C CNN
-	1    2900 1300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D3B7D9B
-P 2600 1450
-AR Path="/5D3B7D9B" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D3B7D9B" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D3B7D9B" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AFB9B/5D3B7D9B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2600 1200 50  0001 C CNN
-F 1 "GND" H 2605 1277 50  0001 C CNN
-F 2 "" H 2600 1450 50  0001 C CNN
-F 3 "" H 2600 1450 50  0001 C CNN
-	1    2600 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5D3B7DA1
-P 2750 1400
-AR Path="/5D3B7DA1" Ref="C?"  Part="1" 
-AR Path="/5D28EBAC/5D3B7DA1" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D3B7DA1" Ref="C?"  Part="1" 
-AR Path="/5D3AFB9B/5D3B7DA1" Ref="C?"  Part="1" 
-F 0 "C?" V 2650 1350 50  0000 L CNN
-F 1 ".1 μF" V 2850 1300 50  0000 L CNN
-F 2 "" H 2750 1400 50  0001 C CNN
-F 3 "~" H 2750 1400 50  0001 C CNN
-	1    2750 1400
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D3B7DA7
-P 3400 1450
-AR Path="/5D3B7DA7" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D3B7DA7" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D3B7DA7" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AFB9B/5D3B7DA7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3400 1200 50  0001 C CNN
-F 1 "GND" H 3405 1277 50  0001 C CNN
-F 2 "" H 3400 1450 50  0001 C CNN
-F 3 "" H 3400 1450 50  0001 C CNN
-	1    3400 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5D3B7DAD
-P 3250 1400
-AR Path="/5D3B7DAD" Ref="C?"  Part="1" 
-AR Path="/5D28EBAC/5D3B7DAD" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D3B7DAD" Ref="C?"  Part="1" 
-AR Path="/5D3AFB9B/5D3B7DAD" Ref="C?"  Part="1" 
-F 0 "C?" V 3150 1350 50  0000 L CNN
-F 1 ".1 μF" V 3350 1250 50  0000 L CNN
-F 2 "" H 3250 1400 50  0001 C CNN
-F 3 "~" H 3250 1400 50  0001 C CNN
-	1    3250 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 5D3B7DB3
-P 3100 1300
-F 0 "#PWR?" H 3100 1150 50  0001 C CNN
-F 1 "+12V" H 3200 1450 50  0000 C CNN
-F 2 "" H 3100 1300 50  0001 C CNN
-F 3 "" H 3100 1300 50  0001 C CNN
-	1    3100 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D3B7DB9
@@ -146,24 +60,6 @@ D1
 Text Label 3700 2300 2    50   ~ 0
 D0
 Wire Wire Line
-	2900 1400 2900 1300
-Wire Wire Line
-	2600 1400 2600 1450
-Wire Wire Line
-	2650 1400 2600 1400
-Wire Wire Line
-	2900 1400 2850 1400
-Connection ~ 2900 1400
-Wire Wire Line
-	3100 1400 3100 1300
-Wire Wire Line
-	3400 1400 3400 1450
-Wire Wire Line
-	3350 1400 3400 1400
-Wire Wire Line
-	3100 1400 3150 1400
-Connection ~ 3100 1400
-Wire Wire Line
 	2250 950  2250 2000
 Text Label 2100 2700 0    50   ~ 0
 A4
@@ -176,10 +72,10 @@ A0
 Wire Wire Line
 	2150 2100 2150 950 
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 5D3B7DFD
 P 2350 3500
-F 0 "C?" V 2300 3350 50  0000 C CNN
+F 0 "C11" V 2300 3350 50  0000 C CNN
 F 1 "470 pF" V 2500 3550 50  0000 C CNN
 F 2 "" H 2350 3500 50  0001 C CNN
 F 3 "~" H 2350 3500 50  0001 C CNN
@@ -187,10 +83,10 @@ F 3 "~" H 2350 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C10
 U 1 1 5D3B7E03
 P 2350 3200
-F 0 "C?" V 2300 3050 50  0000 C CNN
+F 0 "C10" V 2300 3050 50  0000 C CNN
 F 1 "470 pF" V 2500 3250 50  0000 C CNN
 F 2 "" H 2350 3200 50  0001 C CNN
 F 3 "~" H 2350 3200 50  0001 C CNN
@@ -228,10 +124,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 3500 2450 3500
 Wire Wire Line
-	3100 1600 3100 1400
-Wire Wire Line
-	2900 1600 2900 1400
-Wire Wire Line
 	3500 3000 3700 3000
 Wire Wire Line
 	3500 2900 3700 2900
@@ -256,10 +148,10 @@ Wire Wire Line
 Text HLabel 2450 950  1    50   Input ~ 0
 ~RES
 $Comp
-L Audio_MOSTechnology:6581 U?
+L Audio_MOSTechnology:6581 U18
 U 1 1 5D3B7D8E
 P 3000 2900
-F 0 "U?" H 2600 4150 50  0000 L CNN
+F 0 "U18" H 2600 4150 50  0000 L CNN
 F 1 "6581" H 3400 4150 50  0000 R CNN
 F 2 "" H 2500 2600 50  0001 C CNN
 F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581_sid_preliminary_october_1982.pdf" H 2500 2600 50  0001 C CNN
@@ -358,6 +250,8 @@ $Comp
 L power:+12V #PWR?
 U 1 1 5D446F01
 P 4700 3550
+AR Path="/5D94F152/5D446F01" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D446F01" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4700 3400 50  0001 C CNN
 F 1 "+12V" H 4600 3700 50  0000 L CNN
 F 2 "" H 4700 3550 50  0001 C CNN
@@ -533,6 +427,114 @@ F 3 "~" H 1600 3250 50  0001 C CNN
 	1    1600 3250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D3B7D95
+P 2900 1250
+AR Path="/5D3B7D95" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D3B7D95" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D3B7D95" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D3B7D95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2900 1100 50  0001 C CNN
+F 1 "+5V" H 2900 1400 50  0000 L CNN
+F 2 "" H 2900 1250 50  0001 C CNN
+F 3 "" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3B7D9B
+P 2600 1400
+AR Path="/5D3B7D9B" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D3B7D9B" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D3B7D9B" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D3B7D9B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2600 1150 50  0001 C CNN
+F 1 "GND" H 2605 1227 50  0001 C CNN
+F 2 "" H 2600 1400 50  0001 C CNN
+F 3 "" H 2600 1400 50  0001 C CNN
+	1    2600 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D3B7DA1
+P 2750 1350
+AR Path="/5D3B7DA1" Ref="C?"  Part="1" 
+AR Path="/5D28EBAC/5D3B7DA1" Ref="C?"  Part="1" 
+AR Path="/5D4AE438/5D3B7DA1" Ref="C?"  Part="1" 
+AR Path="/5D3AFB9B/5D3B7DA1" Ref="C?"  Part="1" 
+F 0 "C?" V 2650 1300 50  0000 L CNN
+F 1 ".1 μF" V 2850 1250 50  0000 L CNN
+F 2 "" H 2750 1350 50  0001 C CNN
+F 3 "~" H 2750 1350 50  0001 C CNN
+	1    2750 1350
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3B7DA7
+P 3400 1400
+AR Path="/5D3B7DA7" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D3B7DA7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D3B7DA7" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D3B7DA7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 1150 50  0001 C CNN
+F 1 "GND" H 3405 1227 50  0001 C CNN
+F 2 "" H 3400 1400 50  0001 C CNN
+F 3 "" H 3400 1400 50  0001 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D3B7DAD
+P 3250 1350
+AR Path="/5D3B7DAD" Ref="C?"  Part="1" 
+AR Path="/5D28EBAC/5D3B7DAD" Ref="C?"  Part="1" 
+AR Path="/5D4AE438/5D3B7DAD" Ref="C?"  Part="1" 
+AR Path="/5D3AFB9B/5D3B7DAD" Ref="C?"  Part="1" 
+F 0 "C?" V 3150 1300 50  0000 L CNN
+F 1 ".1 μF" V 3350 1200 50  0000 L CNN
+F 2 "" H 3250 1350 50  0001 C CNN
+F 3 "~" H 3250 1350 50  0001 C CNN
+	1    3250 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D3B7DB3
+P 3100 1250
+F 0 "#PWR?" H 3100 1100 50  0001 C CNN
+F 1 "+12V" H 3200 1400 50  0000 C CNN
+F 2 "" H 3100 1250 50  0001 C CNN
+F 3 "" H 3100 1250 50  0001 C CNN
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1350 2900 1250
+Wire Wire Line
+	2600 1350 2600 1400
+Wire Wire Line
+	2650 1350 2600 1350
+Wire Wire Line
+	2900 1350 2850 1350
+Connection ~ 2900 1350
+Wire Wire Line
+	3100 1350 3100 1250
+Wire Wire Line
+	3400 1350 3400 1400
+Wire Wire Line
+	3350 1350 3400 1350
+Wire Wire Line
+	3100 1350 3150 1350
+Connection ~ 3100 1350
+Wire Wire Line
+	3100 1600 3100 1350
+Wire Wire Line
+	2900 1600 2900 1350
 Wire Bus Line
 	2000 950  2000 2600
 Wire Bus Line

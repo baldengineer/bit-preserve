@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+LIBS:C64B-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 16
+Title "Commodore 64 - Clock section (schematic #251469)"
+Date "2019-07-26"
+Rev "0.1"
+Comp "Commodore Business Machines, Inc."
+Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
+Comment2 ""
+Comment3 ""
+Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
+$EndDescr
+$Comp
+L power_more:9VAC1 #PWR?
+U 1 1 5D63CCE6
+P 1300 3550
+AR Path="/5D943305/5D63CCE6" Ref="#PWR?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCE6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 3450 50  0001 C CNN
+F 1 "9VAC1" H 1300 3825 50  0000 C CNN
+F 2 "" H 1300 3550 50  0001 C CNN
+F 3 "" H 1300 3550 50  0001 C CNN
+	1    1300 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3550 1300 3600
+$Comp
+L power:+5V #PWR?
+U 1 1 5D63CD04
+P 2250 3600
+AR Path="/5D63CD04" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D63CD04" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D63CD04" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D63CD04" Ref="#PWR?"  Part="1" 
+AR Path="/5D62D0FA/5D63CD04" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2250 3450 50  0001 C CNN
+F 1 "+5V" H 2150 3750 50  0000 L CNN
+F 2 "" H 2250 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+	1    2250 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4200 3000 4200
+Connection ~ 3000 4200
+Wire Wire Line
+	3000 3850 3000 4200
+Text Notes 4050 4300 2    50   ~ 0
+50/60 Hz (line freq.)
+Wire Wire Line
+	2250 3950 2200 3950
+Connection ~ 2250 3950
+Wire Wire Line
+	2250 4200 2250 3950
+Wire Wire Line
+	2450 4200 2250 4200
+Wire Wire Line
+	2300 3950 2250 3950
+Wire Wire Line
+	2900 3850 3000 3850
+Wire Wire Line
+	2750 4200 3000 4200
+Wire Wire Line
+	1900 3950 1800 3950
+Connection ~ 1800 3950
+$Comp
+L 74xx:74LS08 U?
+U 3 1 5D63CD0C
+P 2600 3850
+AR Path="/5D943305/5D63CD0C" Ref="U?"  Part="3" 
+AR Path="/5D62D0FA/5D63CD0C" Ref="U?"  Part="3" 
+F 0 "U?" H 2600 3533 50  0000 C CNN
+F 1 "74LS08" H 2600 3624 50  0000 C CNN
+F 2 "" H 2600 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2600 3850 50  0001 C CNN
+	3    2600 3850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2300 3750 2250 3750
+Wire Wire Line
+	2250 3750 2250 3600
+$Comp
+L Device:R R?
+U 1 1 5D63CCFE
+P 1300 3750
+AR Path="/5D943305/5D63CCFE" Ref="R?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCFE" Ref="R?"  Part="1" 
+F 0 "R?" H 1350 3600 50  0000 C CNN
+F 1 "560" V 1300 3750 50  0000 C CNN
+F 2 "" V 1230 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	1    0    0    1   
+$EndComp
+Connection ~ 1300 3950
+Wire Wire Line
+	1800 3950 1300 3950
+Wire Wire Line
+	1800 4250 1800 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5D63CCF5
+P 1800 4300
+AR Path="/5D943305/5D63CCF5" Ref="#PWR?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCF5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1800 4050 50  0001 C CNN
+F 1 "GND" H 1805 4127 50  0000 C CNN
+F 2 "" H 1800 4300 50  0001 C CNN
+F 3 "" H 1800 4300 50  0001 C CNN
+	1    1800 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4250 1300 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5D63CCEE
+P 1300 4300
+AR Path="/5D943305/5D63CCEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCEE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1300 4050 50  0001 C CNN
+F 1 "GND" H 1305 4127 50  0000 C CNN
+F 2 "" H 1300 4300 50  0001 C CNN
+F 3 "" H 1300 4300 50  0001 C CNN
+	1    1300 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3900 1300 3950
+$Comp
+L Device:C C?
+U 1 1 5D63CCE0
+P 1300 4100
+AR Path="/5D943305/5D63CCE0" Ref="C?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCE0" Ref="C?"  Part="1" 
+F 0 "C?" H 1415 4191 50  0000 L CNN
+F 1 ".1 μF" H 1415 4100 50  0000 L CNN
+F 2 "" H 1338 3950 50  0001 C CNN
+F 3 "~" H 1300 4100 50  0001 C CNN
+F 4 "25V" H 1415 4009 50  0000 L CNN "Voltage Rating"
+	1    1300 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener CR?
+U 1 1 5D63CCD9
+P 1800 4100
+AR Path="/5D943305/5D63CCD9" Ref="CR?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCD9" Ref="CR?"  Part="1" 
+F 0 "CR?" V 1709 4179 50  0000 L CNN
+F 1 "1N4371" V 1800 4179 50  0000 L CNN
+F 2 "" H 1800 4100 50  0001 C CNN
+F 3 "~" H 1800 4100 50  0001 C CNN
+F 4 "2.7V" V 1891 4179 50  0000 L CNN "Zener Voltage"
+	1    1800 4100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D63CCD2
+P 2050 3950
+AR Path="/5D943305/5D63CCD2" Ref="R?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCD2" Ref="R?"  Part="1" 
+F 0 "R?" V 1950 3950 50  0000 C CNN
+F 1 "1k" V 2050 3950 50  0000 C CNN
+F 2 "" V 1980 3950 50  0001 C CNN
+F 3 "~" H 2050 3950 50  0001 C CNN
+	1    2050 3950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D63CCCC
+P 2600 4200
+AR Path="/5D943305/5D63CCCC" Ref="R?"  Part="1" 
+AR Path="/5D62D0FA/5D63CCCC" Ref="R?"  Part="1" 
+F 0 "R?" V 2500 4200 50  0000 C CNN
+F 1 "2k7" V 2600 4200 50  0000 C CNN
+F 2 "" V 2530 4200 50  0001 C CNN
+F 3 "~" H 2600 4200 50  0001 C CNN
+	1    2600 4200
+	0    -1   1    0   
+$EndComp
+Text HLabel 4050 4200 2    50   Output ~ 0
+ϕTOD
+Text HLabel 3800 1450 2    50   Output ~ 0
+ϕCOLOR
+Text HLabel 3800 1550 2    50   Output ~ 0
+ϕDOT
+$Comp
+L power_more:CAN+5V #PWR?
+U 1 1 5D6533FB
+P 2000 2000
+F 0 "#PWR?" H 2000 1850 50  0001 C CNN
+F 1 "CAN+5V" H 2015 2173 50  0000 C CNN
+F 2 "" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C58
+U 1 1 5D6555FB
+P 2950 1700
+F 0 "C58" H 3065 1746 50  0000 L CNN
+F 1 ".22 μF" H 3065 1655 50  0000 L CNN
+F 2 "" H 2988 1550 50  0001 C CNN
+F 3 "~" H 2950 1700 50  0001 C CNN
+	1    2950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5D658454
+P 2550 1650
+F 0 "Y1" H 2550 1918 50  0000 C CNN
+F 1 "PAL/NTSC" H 2550 1827 50  0000 C CNN
+F 2 "" H 2550 1650 50  0001 C CNN
+F 3 "~" H 2550 1650 50  0001 C CNN
+	1    2550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CTRIM CT1
+U 1 1 5D65B2B2
+P 2800 2150
+F 0 "CT1" H 2916 2196 50  0000 L CNN
+F 1 "CTRIM" H 2916 2105 50  0000 L CNN
+F 2 "" H 2800 2150 50  0001 C CNN
+F 3 "~" H 2800 2150 50  0001 C CNN
+	1    2800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5D65CC9C
+P 3400 2100
+F 0 "L1" H 3452 2146 50  0000 L CNN
+F 1 "2.2 μH" H 3452 2055 50  0000 L CNN
+F 2 "" H 3400 2100 50  0001 C CNN
+F 3 "~" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
