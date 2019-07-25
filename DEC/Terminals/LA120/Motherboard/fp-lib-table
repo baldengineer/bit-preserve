@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Package_GeneralInstrument)(type KiCad)(uri "F:/KiCad Projects/bit-preserve/footprint-libs/Package_GeneralInstrument.pretty")(options "")(descr ""))
+)

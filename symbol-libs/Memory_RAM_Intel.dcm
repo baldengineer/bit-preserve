@@ -1,0 +1,34 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2114
+D 1024x4 bit static RAM, 450ns
+K RAM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n85
+$ENDCMP
+#
+$CMP 2114-2
+D 1024x4 bit static RAM, 200ns
+K RAM
+$ENDCMP
+#
+$CMP 2114-3
+D 1024x4 bit static RAM, 300ns
+K RAM
+$ENDCMP
+#
+$CMP 2114L2
+D 1024x4 bit static RAM, 200ns, low power
+K RAM
+$ENDCMP
+#
+$CMP 2114L3
+D 1024x4 bit static RAM, 300ns, low power
+K RAM
+$ENDCMP
+#
+$CMP 2114L4
+D 1024x4 bit static RAM, 450ns, low power
+K RAM
+$ENDCMP
+#
+#End Doc Library
