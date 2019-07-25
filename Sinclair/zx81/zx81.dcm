@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2114
+D 4x1k RAM
+$ENDCMP
+#
+$CMP 2364
+D 8x8k ROM
+$ENDCMP
+#
+$CMP 4816_4118
+D 8x2k / 8x1k RAM
+$ENDCMP
+#
+$CMP MODULATOR
+D RF Modulator
+$ENDCMP
+#
+$CMP ULA
+D Uncommited Logic Array
+$ENDCMP
+#
+$CMP Z80A
+D 8-bits processor
+$ENDCMP
+#
+#End Doc Library

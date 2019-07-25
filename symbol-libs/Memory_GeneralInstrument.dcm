@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ER1400
+D 100x14 bit Serial Electrically Alterable ROM
+K ROM, EAROM
+F https://archive.org/details/generalinstrumentmicroelectronicsdatacatalog1980/page/n163
+$ENDCMP
+#
+$CMP ER1400T
+D 100x14 bit Serial Electrically Alterable ROM
+K ROM, EAROM
+F https://archive.org/details/generalinstrumentmicroelectronicsdatacatalog1980/page/n163
+$ENDCMP
+#
+#End Doc Library

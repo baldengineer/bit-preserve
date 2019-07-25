@@ -1,7 +1,6 @@
 # Sinclair
-No Systems Exist Here Yet :(
+	* ZX 81
 
 # System Wish Lists
 	* ZX 80
-	* ZX 81
 	* Spectrum ZX

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DC950
+D Quad Current Regulator
+K regulator
+F https://archive.org/details/bitsavers_decterminact79_36675195/page/n45
+$ENDCMP
+#
+#End Doc Library

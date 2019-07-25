@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1489
+D Quad line receiver
+K rs232 receiver
+F https://archive.org/details/NationalSemiconductorInterfaceDatabook1979/page/n21
+$ENDCMP
+#
+$CMP DS1489A_Split
+D Quad line receiver, split symbol
+K RS232
+F https://archive.org/details/NationalSemiconductorInterfaceDatabook1979/page/n21
+$ENDCMP
+#
+$CMP DS1489_Split
+D Quad Line Receivers, split symbol
+K RS232
+F https://archive.org/details/NationalSemiconductorInterfaceDatabook1979/page/n21
+$ENDCMP
+#
+$CMP DS7640
+D quad NOR unified bus receiver
+K NOR receiver
+F https://archive.org/details/NationalSemiconductorInterfaceDatabook1979/page/n131
+$ENDCMP
+#
+$CMP DS8640
+D quad NOR unified bus receiver
+K NOR receiver
+F http://www.ti.com/lit/gpn/sn74ls02
+$ENDCMP
+#
+#End Doc Library
