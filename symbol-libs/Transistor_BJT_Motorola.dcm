@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MJ2500
+D 10A Ic, 60V Vce, Silicon Darlington Power PNP Transistor, TO-3
+K Darlington Power PNP Transistor
+F https://archive.org/details/bitsavers_motoroladaPowerDeviceData_75404386/page/n459
+$ENDCMP
+#
+$CMP MJ2501
+D 10A Ic, 80V Vce, Silicon Darlington Power PNP Transistor, TO-3
+K Darlington Power PNP Transistor
+F https://archive.org/details/bitsavers_motoroladaPowerDeviceData_75404386/page/n459
+$ENDCMP
+#
+$CMP MJ3000
+D 10A Ic, 60V Vce, Silicon Darlington Power NPN Transistor, TO-3
+K Darlington Power NPN Transistor
+F https://archive.org/details/bitsavers_motoroladaPowerDeviceData_75404386/page/n459
+$ENDCMP
+#
+$CMP MJ3001
+D 10A Ic, 80V Vce, Silicon Darlington Power NPN Transistor, TO-3
+K Darlington Power NPN Transistor
+F https://archive.org/details/bitsavers_motoroladaPowerDeviceData_75404386/page/n459
+$ENDCMP
+#
+#End Doc Library

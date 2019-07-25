@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1114589-00
+D 4 digit 7 segment Red LED, common cathode, 10mA, 3V
+K display LED
+$ENDCMP
+#
+#End Doc Library

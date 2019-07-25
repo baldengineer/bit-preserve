@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2316E
+D 16K (2K x 8) ROM, 450ns
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(0)
+D 16K (2K x 8) ROM, 450ns, CS=0
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(1)
+D 16K (2K x 8) ROM, 450ns, CS=1
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(2)
+D 16K (2K x 8) ROM, 450ns, CS=2
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(3)
+D 16K (2K x 8) ROM, 450ns, CS=3
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(4)
+D 16K (2K x 8) ROM, 450ns, CS=4
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(5)
+D 16K (2K x 8) ROM, 450ns, CS=5
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(6)
+D 16K (2K x 8) ROM, 450ns, CS=6
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+$CMP 8316E(7)
+D 16K (2K x 8) ROM, 450ns, CS=7
+K ROM
+F https://archive.org/details/bitsavers_inteldataBentDataCatalog_81512261/page/n157
+$ENDCMP
+#
+#End Doc Library

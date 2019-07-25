@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 71LS95
+D Tristate octal buffers, noninverting, common enable
+F https://archive.org/details/AdvancedMicroDevices-AMD-LinearAndInterfaceDataBookOCR/page/n389
+$ENDCMP
+#
+$CMP 71LS96
+D Tristate octal buffers, inverting
+$ENDCMP
+#
+$CMP 71LS97
+D Tristate dual quad buffers, noninverting
+$ENDCMP
+#
+$CMP 71LS98
+D Tristate dual quad buffers, inverting
+$ENDCMP
+#
+$CMP 81LS95
+D Tristate octal buffers, noninverting
+$ENDCMP
+#
+$CMP 81LS96
+D Tristate octal buffers, inverting
+$ENDCMP
+#
+$CMP 81LS97
+D Tristate dual quad buffers, noninverting
+$ENDCMP
+#
+$CMP 81LS98
+D Tristate dual quad buffers, inverting
+$ENDCMP
+#
+#End Doc Library
