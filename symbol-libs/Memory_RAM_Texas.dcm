@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TMS2114
+D 1024-Word by 4-Bit Static Random-Access Memory (SRAM)
+K sram,ram
+F https://archive.org/download/tms2114datasheetaug83/TMS2114-Datasheet_Aug83.pdf
+$ENDCMP
+#
+$CMP TMS2114-15
+D 1024-Word by 4-Bit Static Random-Access Memory (SRAM) 150ns
+K sram,ram
+F https://archive.org/download/tms2114datasheetaug83/TMS2114-Datasheet_Aug83.pdf
+$ENDCMP
+#
+$CMP TMS2114-20
+D 1024-Word by 4-Bit Static Random-Access Memory (SRAM) 200ns
+K sram,ram
+F https://archive.org/download/tms2114datasheetaug83/TMS2114-Datasheet_Aug83.pdf
+$ENDCMP
+#
 $CMP TMS4164
 D 65536-Bit Dynamic Random-Access Memory (DRAM)
 K DRAM,RAM
