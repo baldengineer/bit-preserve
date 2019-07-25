@@ -435,4 +435,240 @@ F9 "~IRQ" O R 1500 4650 50
 F10 "~NMI" O R 1500 4750 50 
 F11 "~EXTRST" I L 700 5250 50 
 $EndSheet
+Wire Wire Line
+	5050 1650 5250 1650
+Entry Wire Line
+	5250 1650 5350 1550
+Wire Wire Line
+	5050 1750 5250 1750
+Entry Wire Line
+	5250 1750 5350 1650
+Wire Wire Line
+	5050 1850 5250 1850
+Entry Wire Line
+	5250 1850 5350 1750
+Wire Wire Line
+	5050 1950 5250 1950
+Entry Wire Line
+	5250 1950 5350 1850
+Wire Wire Line
+	5050 2050 5250 2050
+Entry Wire Line
+	5250 2050 5350 1950
+Wire Wire Line
+	5050 2150 5250 2150
+Entry Wire Line
+	5250 2150 5350 2050
+Wire Wire Line
+	5050 2250 5250 2250
+Entry Wire Line
+	5250 2250 5350 2150
+Wire Wire Line
+	5050 2350 5250 2350
+Entry Wire Line
+	5250 2350 5350 2250
+Wire Wire Line
+	5050 2450 5250 2450
+Entry Wire Line
+	5250 2450 5350 2350
+Wire Wire Line
+	5050 2550 5250 2550
+Entry Wire Line
+	5250 2550 5350 2450
+Wire Wire Line
+	5050 2650 5250 2650
+Entry Wire Line
+	5250 2650 5350 2550
+Wire Wire Line
+	5050 2750 5250 2750
+Entry Wire Line
+	5250 2750 5350 2650
+Wire Wire Line
+	5050 2850 5250 2850
+Entry Wire Line
+	5250 2850 5350 2750
+Wire Wire Line
+	5050 2950 5250 2950
+Entry Wire Line
+	5250 2950 5350 2850
+Wire Wire Line
+	5050 3050 5250 3050
+Entry Wire Line
+	5250 3050 5350 2950
+Wire Wire Line
+	5050 3150 5250 3150
+Entry Wire Line
+	5250 3150 5350 3050
+Wire Wire Line
+	5050 4050 5250 4050
+Entry Wire Line
+	5250 4050 5350 4150
+Wire Wire Line
+	5050 4150 5250 4150
+Entry Wire Line
+	5250 4150 5350 4250
+Wire Wire Line
+	5050 4250 5250 4250
+Entry Wire Line
+	5250 4250 5350 4350
+Wire Wire Line
+	5050 4350 5250 4350
+Entry Wire Line
+	5250 4350 5350 4450
+Wire Wire Line
+	5050 4450 5250 4450
+Entry Wire Line
+	5250 4450 5350 4550
+Wire Wire Line
+	5050 4550 5250 4550
+Entry Wire Line
+	5250 4550 5350 4650
+Wire Wire Line
+	5050 4650 5250 4650
+Entry Wire Line
+	5250 4650 5350 4750
+Wire Wire Line
+	5050 4750 5250 4750
+Entry Wire Line
+	5250 4750 5350 4850
+Wire Wire Line
+	5050 3350 5350 3350
+Entry Wire Line
+	5350 3350 5450 3450
+Wire Wire Line
+	5050 3450 5350 3450
+Entry Wire Line
+	5350 3450 5450 3550
+Wire Wire Line
+	5050 3550 5350 3550
+Entry Wire Line
+	5350 3550 5450 3650
+Wire Wire Line
+	5050 3650 5350 3650
+Entry Wire Line
+	5350 3650 5450 3750
+Wire Wire Line
+	5050 3750 5350 3750
+Entry Wire Line
+	5350 3750 5450 3850
+Wire Wire Line
+	5050 3850 5350 3850
+Entry Wire Line
+	5350 3850 5450 3950
+Text Label 5250 1650 2    50   ~ 0
+A0
+Text Label 5250 1750 2    50   ~ 0
+A1
+Text Label 5250 1850 2    50   ~ 0
+A2
+Text Label 5250 1950 2    50   ~ 0
+A3
+Text Label 5250 2050 2    50   ~ 0
+A4
+Text Label 5250 2150 2    50   ~ 0
+A5
+Text Label 5250 2250 2    50   ~ 0
+A6
+Text Label 5250 2350 2    50   ~ 0
+A7
+Text Label 5250 2450 2    50   ~ 0
+A8
+Text Label 5250 2550 2    50   ~ 0
+A9
+Text Label 5250 2650 2    50   ~ 0
+A10
+Text Label 5250 2750 2    50   ~ 0
+A11
+Text Label 5250 2850 2    50   ~ 0
+A12
+Text Label 5250 2950 2    50   ~ 0
+A13
+Text Label 5250 3050 2    50   ~ 0
+A14
+Text Label 5250 3150 2    50   ~ 0
+A15
+Text Label 5250 4050 2    50   ~ 0
+D0
+Text Label 5250 4150 2    50   ~ 0
+D1
+Text Label 5250 4250 2    50   ~ 0
+D2
+Text Label 5250 4350 2    50   ~ 0
+D3
+Text Label 5250 4450 2    50   ~ 0
+D4
+Text Label 5250 4550 2    50   ~ 0
+D5
+Text Label 5250 4650 2    50   ~ 0
+D6
+Text Label 5250 4750 2    50   ~ 0
+D7
+Text Label 5350 3350 2    50   ~ 0
+P0
+Text Label 5350 3450 2    50   ~ 0
+P1
+Text Label 5350 3550 2    50   ~ 0
+P2
+Text Label 5350 3650 2    50   ~ 0
+P3
+Text Label 5350 3750 2    50   ~ 0
+P4
+Text Label 5350 3850 2    50   ~ 0
+P5
+Wire Wire Line
+	10100 2400 10300 2400
+Entry Wire Line
+	10300 2400 10400 2500
+Wire Wire Line
+	10100 2500 10300 2500
+Entry Wire Line
+	10300 2500 10400 2600
+Wire Wire Line
+	10100 2600 10300 2600
+Entry Wire Line
+	10300 2600 10400 2700
+Wire Wire Line
+	10100 2700 10300 2700
+Entry Wire Line
+	10300 2700 10400 2800
+Wire Wire Line
+	10100 2800 10300 2800
+Entry Wire Line
+	10300 2800 10400 2900
+Wire Wire Line
+	10100 2900 10300 2900
+Entry Wire Line
+	10300 2900 10400 3000
+Wire Wire Line
+	10100 3000 10300 3000
+Entry Wire Line
+	10300 3000 10400 3100
+Wire Wire Line
+	10100 3100 10300 3100
+Entry Wire Line
+	10300 3100 10400 3200
+Text Label 10300 2400 2    50   ~ 0
+D0
+Text Label 10300 2500 2    50   ~ 0
+D1
+Text Label 10300 2600 2    50   ~ 0
+D2
+Text Label 10300 2700 2    50   ~ 0
+D3
+Text Label 10300 2800 2    50   ~ 0
+D4
+Text Label 10300 2900 2    50   ~ 0
+D5
+Text Label 10300 3000 2    50   ~ 0
+D6
+Text Label 10300 3100 2    50   ~ 0
+D7
+Wire Bus Line
+	5450 3450 5450 3950
+Wire Bus Line
+	5350 4150 5350 4850
+Wire Bus Line
+	10400 2500 10400 3200
+Wire Bus Line
+	5350 1550 5350 3050
 $EndSCHEMATC
