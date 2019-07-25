@@ -918,7 +918,7 @@ Wire Wire Line
 	8250 4500 8250 4400
 Wire Wire Line
 	6900 4500 8050 4500
-Text HLabel 7950 3500 1    50   Input ~ 0
+Text HLabel 7950 3100 1    50   Input ~ 0
 ~EXTRST
 Wire Wire Line
 	5200 4950 5200 5000
@@ -1087,7 +1087,7 @@ Connection ~ 8050 4500
 Wire Wire Line
 	7850 3850 7950 3850
 Wire Wire Line
-	7950 3850 7950 3500
+	7950 3850 7950 3100
 Wire Bus Line
 	4050 4750 3950 4750
 Wire Bus Line
@@ -1103,14 +1103,14 @@ Connection ~ 3850 4350
 Wire Bus Line
 	3850 4350 4050 4350
 $Sheet
-S 8900 4200 1000 550 
+S 8350 3250 950  250 
 U 5D641FD1
 F0 "Cassette Interface" 50
 F1 "cassette.sch" 50
-F2 "MOTOR" I L 8900 4300 50 
-F3 "WRITE" O L 8900 4400 50 
-F4 "READ" O L 8900 4500 50 
-F5 "SENSE" O L 8900 4600 50 
+F2 "MOTOR" I L 8350 3300 50 
+F3 "WRITE" I L 8350 3400 50 
+F4 "READ" O R 9300 3400 50 
+F5 "SENSE" O R 9300 3300 50 
 $EndSheet
 Wire Wire Line
 	8600 4050 8600 4100
@@ -1141,7 +1141,7 @@ F 3 "~" H 8600 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8600 4500 8900 4500
+	8600 4500 9400 4500
 Wire Wire Line
 	8600 4850 8600 4800
 $Comp
@@ -1183,6 +1183,28 @@ Wire Wire Line
 	4300 6200 5400 6200
 Wire Wire Line
 	1900 6200 5400 6200
+Wire Wire Line
+	9400 4500 9400 3400
+Wire Wire Line
+	9400 3400 9300 3400
+Text HLabel 9400 3050 1    50   Output ~ 0
+CASS-SENSE
+Wire Wire Line
+	9300 3300 9400 3300
+Wire Wire Line
+	9400 3300 9400 3050
+Text HLabel 8150 3100 1    50   Input ~ 0
+CASS-WRT
+Wire Wire Line
+	8350 3400 8150 3400
+Wire Wire Line
+	8150 3400 8150 3100
+Text HLabel 8250 3100 1    50   Input ~ 0
+CASS-MOTOR
+Wire Wire Line
+	8350 3300 8250 3300
+Wire Wire Line
+	8250 3300 8250 3100
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
