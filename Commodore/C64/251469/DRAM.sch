@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 13 13
 Title "Commodore 64 - DRAM Section (schematic #251469)"
 Date "2019-07-11"
 Rev "0.1"

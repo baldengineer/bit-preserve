@@ -1022,11 +1022,18 @@ $EndComp
 Text Label 7050 2450 2    50   ~ 0
 CIA
 Wire Bus Line
+	5750 5050 6000 5050
+Wire Bus Line
 	5600 900  5600 2800
 Wire Bus Line
 	2200 900  2200 3250
 Wire Bus Line
-	5750 1100 5750 6600
+	5750 1100 5750 5050
 Wire Bus Line
 	4200 1100 4200 6700
+Connection ~ 5750 5050
+Wire Bus Line
+	5750 5050 5750 6600
+Text HLabel 6000 5050 2    50   Output ~ 0
+MA[0..7]
 $EndSCHEMATC
