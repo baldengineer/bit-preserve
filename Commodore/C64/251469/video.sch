@@ -31,9 +31,9 @@ F6 "CHROMA_OUT" O R 11150 800 50
 F7 "COMP_OUT" O R 11150 900 50 
 F8 "RF_OUT" O R 11150 1000 50 
 $EndSheet
-Text HLabel 2200 6650 0    50   Input ~ 0
+Text HLabel 1000 6650 0    50   Input ~ 0
 ϕDOT
-Text HLabel 2200 6750 0    50   Input ~ 0
+Text HLabel 1000 6750 0    50   Input ~ 0
 ϕCOLOR
 $Comp
 L power_more:CAN+5V #PWR?
@@ -162,9 +162,9 @@ $EndComp
 Wire Wire Line
 	4000 6950 4000 7050
 Wire Wire Line
-	2200 6650 3400 6650
+	1000 6650 3400 6650
 Wire Wire Line
-	2200 6750 3400 6750
+	1000 6750 3400 6750
 Text HLabel 1150 1600 0    50   Input ~ 0
 A[0..15]
 Text HLabel 1150 1700 0    50   Input ~ 0
@@ -246,15 +246,15 @@ CD3
 $Comp
 L 74xx:74LS08 U?
 U 2 1 5D4A2C67
-P -700 4500
+P 1500 6150
 AR Path="/5D28EBAC/5D4A2C67" Ref="U?"  Part="2" 
 AR Path="/5D4AE438/5D4A2C67" Ref="U?"  Part="2" 
 AR Path="/5D3AF8EC/5D4A2C67" Ref="U27"  Part="2" 
-F 0 "U27" H -700 4825 50  0000 C CNN
-F 1 "74LS08" H -700 4734 50  0000 C CNN
-F 2 "" H -700 4500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -700 4500 50  0001 C CNN
-	2    -700 4500
+F 0 "U27" H 1500 6475 50  0000 C CNN
+F 1 "74LS08" H 1500 6384 50  0000 C CNN
+F 2 "" H 1500 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1500 6150 50  0001 C CNN
+	2    1500 6150
 	1    0    0    -1  
 $EndComp
 Text HLabel 5400 1800 2    50   Output ~ 0
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3350 3350 1300
 Text HLabel 3350 1300 1    50   Input ~ 0
-VIC-CS
+~VIC
 Wire Wire Line
 	3400 3450 3250 3450
 Wire Wire Line
@@ -602,12 +602,62 @@ Wire Wire Line
 	4700 1800 5400 1800
 Connection ~ 4700 1800
 Connection ~ 1850 1800
+Wire Wire Line
+	1150 1800 1850 1800
+Text HLabel 5400 6350 2    50   Output ~ 0
+RF-COLOR
+Text HLabel 5400 6450 2    50   Output ~ 0
+RF-SYNC+LUM
+Wire Wire Line
+	5400 6350 4600 6350
+Wire Wire Line
+	4600 6450 5400 6450
+Text HLabel 1000 6450 0    50   Input ~ 0
+COLOR-R~W
+$Comp
+L 74xx:74LS258 U14
+U 1 1 5D56C3D9
+P -550 6100
+F 0 "U14" H -850 6850 50  0000 L CNN
+F 1 "74LS258" H -200 6850 50  0000 R CNN
+F 2 "" H -550 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H -550 6100 50  0001 C CNN
+	1    -550 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS373 U26
+U 1 1 5D57035C
+P -1450 8100
+F 0 "U26" H -1750 8750 50  0000 L CNN
+F 1 "74LS373" H -1100 8750 50  0000 R CNN
+F 2 "" H -1450 8100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H -1450 8100 50  0001 C CNN
+	1    -1450 8100
+	1    0    0    -1  
+$EndComp
+Text HLabel 1000 6250 0    50   Input ~ 0
+~COLOR
+Text Notes 2600 6100 1    50   ~ 0
+SRAM (COLOR)
+Wire Wire Line
+	1000 6250 1200 6250
+Wire Wire Line
+	1800 6150 2050 6150
+Wire Wire Line
+	1200 6050 1150 6050
+Wire Wire Line
+	1150 6050 1150 1800
+Text Label 1150 1800 3    50   ~ 0
+AEC
+Wire Wire Line
+	1000 6450 2050 6450
+Wire Wire Line
+	2050 6450 2050 6250
 Wire Bus Line
 	1950 1700 1950 3650
 Wire Bus Line
-	3050 2500 3050 5250
-Wire Bus Line
 	4900 1700 4900 4450
-Wire Wire Line
-	1150 1800 1850 1800
+Wire Bus Line
+	3050 2500 3050 5250
 $EndSCHEMATC

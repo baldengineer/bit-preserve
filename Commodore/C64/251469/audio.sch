@@ -533,10 +533,10 @@ F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581
 	1    3000 2900
 	1    0    0    -1  
 $EndComp
+Text HLabel 2250 950  1    50   Input ~ 0
+~SID
 Wire Bus Line
 	2000 950  2000 2600
 Wire Bus Line
 	3800 950  3800 2900
-Text HLabel 2250 950  1    50   Input ~ 0
-~SID-CS
 $EndSCHEMATC
