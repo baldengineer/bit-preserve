@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8701
+D Clock Generator, used in the Commodore 64 (board revisions 250425-01 and later)
+K clock c64
+F https://archive.org/download/mos8701datapage/MOS8701-datapage.pdf
+$ENDCMP
+#
+#End Doc Library
