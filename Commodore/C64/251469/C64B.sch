@@ -313,7 +313,7 @@ Wire Wire Line
 	1900 1600 1250 1600
 Connection ~ 1250 1600
 Wire Wire Line
-	1250 1600 1250 7050
+	1250 1600 1250 1750
 Wire Wire Line
 	1900 1800 1400 1800
 Wire Wire Line
@@ -915,14 +915,17 @@ $EndSheet
 Wire Wire Line
 	7500 3450 7900 3450
 $Sheet
-S 550  1650 550  350 
+S 550  1650 550  600 
 U 5D62D0FA
 F0 "Clock" 50
 F1 "clock.sch" 50
-F2 "ϕTOD" O R 1100 1950 50 
-F3 "ϕCOLOR" O R 1100 1800 50 
-F4 "ϕDOT" O R 1100 1700 50 
+F2 "ϕTOD" O R 1100 2150 50 
+F3 "ϕCOLOR" O R 1100 2000 50 
+F4 "ϕDOT" O R 1100 1900 50 
+F5 "~RESET" I R 1100 1750 50 
 $EndSheet
+Wire Wire Line
+	1100 1750 1250 1750
 Wire Bus Line
 	3000 4100 3000 4400
 Wire Bus Line
@@ -941,4 +944,7 @@ Wire Bus Line
 	6900 2500 6900 6050
 Wire Bus Line
 	3200 1700 3200 4300
+Connection ~ 1250 1750
+Wire Wire Line
+	1250 1750 1250 7050
 $EndSCHEMATC
