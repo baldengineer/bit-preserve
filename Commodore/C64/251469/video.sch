@@ -617,23 +617,23 @@ COLOR-R~W
 $Comp
 L 74xx:74LS258 U14
 U 1 1 5D56C3D9
-P -550 6100
-F 0 "U14" H -850 6850 50  0000 L CNN
-F 1 "74LS258" H -200 6850 50  0000 R CNN
-F 2 "" H -550 6100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS258" H -550 6100 50  0001 C CNN
-	1    -550 6100
+P -550 4850
+F 0 "U14" H -850 5600 50  0000 L CNN
+F 1 "74LS258" H -200 5600 50  0000 R CNN
+F 2 "" H -550 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS258" H -550 4850 50  0001 C CNN
+	1    -550 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS373 U26
 U 1 1 5D57035C
-P -1450 8100
-F 0 "U26" H -1750 8750 50  0000 L CNN
-F 1 "74LS373" H -1100 8750 50  0000 R CNN
-F 2 "" H -1450 8100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H -1450 8100 50  0001 C CNN
-	1    -1450 8100
+P 6550 2550
+F 0 "U26" H 6250 3200 50  0000 L CNN
+F 1 "74LS373" H 6900 3200 50  0000 R CNN
+F 2 "" H 6550 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6550 2550 50  0001 C CNN
+	1    6550 2550
 	1    0    0    -1  
 $EndComp
 Text HLabel 1000 6250 0    50   Input ~ 0
@@ -654,10 +654,66 @@ Wire Wire Line
 	1000 6450 2050 6450
 Wire Wire Line
 	2050 6450 2050 6250
+$Comp
+L power:+5V #PWR?
+U 1 1 5D5EEF76
+P 6550 1450
+AR Path="/5D5EEF76" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D5EEF76" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D5EEF76" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D5EEF76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 1300 50  0001 C CNN
+F 1 "+5V" H 6450 1600 50  0000 L CNN
+F 2 "" H 6550 1450 50  0001 C CNN
+F 3 "" H 6550 1450 50  0001 C CNN
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5EEF7C
+P 6850 1600
+AR Path="/5D5EEF7C" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D5EEF7C" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D5EEF7C" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D5EEF7C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6850 1350 50  0001 C CNN
+F 1 "GND" H 6855 1427 50  0001 C CNN
+F 2 "" H 6850 1600 50  0001 C CNN
+F 3 "" H 6850 1600 50  0001 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D5EEF82
+P 6700 1550
+AR Path="/5D5EEF82" Ref="C?"  Part="1" 
+AR Path="/5D28EBAC/5D5EEF82" Ref="C?"  Part="1" 
+AR Path="/5D4AE438/5D5EEF82" Ref="C?"  Part="1" 
+AR Path="/5D3AF8EC/5D5EEF82" Ref="C45"  Part="1" 
+F 0 "C45" V 6600 1500 50  0000 L CNN
+F 1 ".1 μF" V 6800 1400 50  0000 L CNN
+F 2 "" H 6700 1550 50  0001 C CNN
+F 3 "~" H 6700 1550 50  0001 C CNN
+	1    6700 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 1550 6550 1450
+Wire Wire Line
+	6850 1550 6850 1600
+Wire Wire Line
+	6800 1550 6850 1550
+Wire Wire Line
+	6550 1550 6600 1550
+Wire Wire Line
+	6550 1750 6550 1550
+Connection ~ 6550 1550
 Wire Bus Line
 	1950 1700 1950 3650
 Wire Bus Line
-	4900 1700 4900 4450
-Wire Bus Line
 	3050 2500 3050 5250
+Wire Bus Line
+	4900 1700 4900 4450
 $EndSCHEMATC
