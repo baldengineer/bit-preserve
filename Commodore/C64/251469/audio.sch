@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3200 2450 3200
 Text HLabel 2450 950  1    50   Input ~ 0
-~RES
+~RESET
 $Comp
 L Audio_MOSTechnology:6581 U18
 U 1 1 5D3B7D8E
