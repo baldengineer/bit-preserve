@@ -101,8 +101,6 @@ Wire Wire Line
 	2200 3300 2200 3200
 Wire Wire Line
 	2200 3200 2250 3200
-Text HLabel 2250 950  1    50   Input ~ 0
-~CS
 Text HLabel 2150 950  1    50   Input ~ 0
 R~W
 Text HLabel 3800 950  1    50   BiDi ~ 0
@@ -539,4 +537,6 @@ Wire Bus Line
 	2000 950  2000 2600
 Wire Bus Line
 	3800 950  3800 2900
+Text HLabel 2250 950  1    50   Input ~ 0
+~SID-CS
 $EndSCHEMATC
