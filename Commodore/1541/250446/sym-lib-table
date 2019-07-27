@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Commodore-1541)(type Legacy)(uri ${KIPRJMOD}/Commodore-1541.lib)(options "")(descr ""))
+)

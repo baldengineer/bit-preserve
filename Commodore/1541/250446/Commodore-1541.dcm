@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12VF
+D Power symbol creates a global label with name "+12VF"
+K power-flag
+$ENDCMP
+#
+$CMP 2016
+D Toshiba 2048 x 8 Static RAM
+$ENDCMP
+#
+$CMP 325572
+D Commodore Gate Array
+K gate array
+$ENDCMP
+#
+$CMP HM6116P4
+D Toshiba 2048 x 8 Static RAM
+$ENDCMP
+#
+$CMP M58725P
+D Toshiba 2048 x 8 Static RAM
+$ENDCMP
+#
+$CMP NE592
+D Video Amplifier DIP-14
+K video amplifier
+$ENDCMP
+#
+#End Doc Library
