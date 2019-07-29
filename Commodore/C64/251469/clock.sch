@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 16 15
 Title "Commodore 64 - Clock section (schematic #251469)"
 Date "2019-07-26"
 Rev "0.1"

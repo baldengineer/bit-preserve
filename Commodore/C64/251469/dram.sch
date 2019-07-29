@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 17
+Sheet 14 15
 Title "Commodore 64 - Dynamic RAM (schematic #251469)"
 Date "2019-07-29"
 Rev "0.1"
@@ -2100,6 +2100,8 @@ Entry Wire Line
 	3350 4150 3450 4050
 Wire Wire Line
 	3100 4150 3350 4150
+Text Label 3550 4050 0    50   ~ 0
+MA'0
 Wire Bus Line
 	5950 1350 5950 3250
 Wire Bus Line
@@ -2128,6 +2130,4 @@ Wire Bus Line
 	3450 3450 3450 4850
 Wire Bus Line
 	1100 1050 1100 4950
-Text Label 3550 4050 0    50   ~ 0
-MA'0
 $EndSCHEMATC
