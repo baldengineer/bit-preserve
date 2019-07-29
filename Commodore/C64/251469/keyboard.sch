@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 15
-Title "Commodore 64 - Keyboard section (schematic #251469)"
+Title "Commodore 64 - Keyboard (schematic #251469)"
 Date "2019-07-21"
 Rev "0.1"
 Comp "Commodore Business Machines, Inc."
@@ -173,7 +173,7 @@ L power:GND #PWR0211
 U 1 1 5D74E807
 P 3400 2000
 F 0 "#PWR0211" H 3400 1750 50  0001 C CNN
-F 1 "GND" H 3405 1827 50  0000 C CNN
+F 1 "GND" H 3405 1827 50  0001 C CNN
 F 2 "" H 3400 2000 50  0001 C CNN
 F 3 "" H 3400 2000 50  0001 C CNN
 	1    3400 2000
@@ -282,7 +282,7 @@ L power:GND #PWR0212
 U 1 1 5D77D12B
 P 650 1450
 F 0 "#PWR0212" H 650 1200 50  0001 C CNN
-F 1 "GND" H 650 1300 50  0000 C CNN
+F 1 "GND" H 650 1300 50  0001 C CNN
 F 2 "" H 650 1450 50  0001 C CNN
 F 3 "" H 650 1450 50  0001 C CNN
 	1    650  1450
