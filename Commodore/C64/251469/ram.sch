@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 17 17
-Title "Commodore 64 - RAM section (schematic #251469)"
+Title "Commodore 64 - Dynamic RAM (schematic #251469)"
 Date "2019-07-29"
 Rev "0.1"
 Comp "Commodore Business Machines, Inc."
@@ -83,13 +83,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 5200 1850 50  0001 C CNN
 	1    5200 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 3750 1050 1    50   Input ~ 0
-~VA15
 Text HLabel 3850 1050 1    50   Input ~ 0
+~VA15
+Text HLabel 3950 1050 1    50   Input ~ 0
 ~VA14
-Text HLabel 3550 1050 1    50   Input ~ 0
+Text HLabel 3600 1050 1    50   Input ~ 0
 VA7
-Text HLabel 3650 1050 1    50   Input ~ 0
+Text HLabel 3700 1050 1    50   Input ~ 0
 VA6
 Text HLabel 3450 1050 1    50   Input ~ 0
 VA5+13
@@ -1350,7 +1350,7 @@ Wire Wire Line
 	5550 4950 5350 4950
 Wire Wire Line
 	4650 4950 4450 4950
-Text HLabel 900  6250 0    50   Input ~ 0
+Text HLabel 1500 6250 0    50   Input ~ 0
 R~W
 Wire Wire Line
 	7350 5050 7200 5050
@@ -1454,8 +1454,6 @@ Wire Wire Line
 	9050 6250 9950 6250
 Text Label 3450 3450 0    50   ~ 0
 MA'[0..7]
-Text Label 3550 4050 0    50   ~ 0
-MA'0
 $Comp
 L power:+5V #PWR?
 U 1 1 5D5697BF
@@ -1487,11 +1485,11 @@ Text Notes 9600 4900 1    50   ~ 0
 RAM
 Text Notes 10500 4900 1    50   ~ 0
 RAM
-Text HLabel 900  6450 0    50   Input ~ 0
+Text HLabel 1500 6450 0    50   Input ~ 0
 ~CASRAM
-Text HLabel 900  6350 0    50   Input ~ 0
+Text HLabel 1500 6350 0    50   Input ~ 0
 ~RAS
-Text HLabel 900  6150 0    50   BiDi ~ 0
+Text HLabel 1500 6150 0    50   BiDi ~ 0
 D[0..7]
 $Comp
 L Device:C_Small C?
@@ -1583,27 +1581,27 @@ Wire Wire Line
 Wire Wire Line
 	3450 1050 3450 3150
 Wire Wire Line
-	4700 2150 3550 2150
+	4700 2150 3600 2150
 Wire Wire Line
-	3550 2150 3550 1050
+	3600 2150 3600 1050
 Wire Wire Line
 	4700 2250 4700 2150
 Connection ~ 4700 2150
 Wire Wire Line
-	4700 1850 3650 1850
+	4700 1850 3700 1850
 Wire Wire Line
-	3650 1850 3650 1050
+	3700 1850 3700 1050
 Wire Wire Line
 	4700 1950 4700 1850
 Connection ~ 4700 1850
 Wire Wire Line
-	4700 1550 3750 1550
+	4700 1550 3850 1550
 Wire Wire Line
-	3750 1550 3750 1050
+	3850 1550 3850 1050
 Wire Wire Line
-	4700 1250 3850 1250
+	4700 1250 3950 1250
 Wire Wire Line
-	3850 1250 3850 1050
+	3950 1250 3950 1050
 Wire Wire Line
 	1400 4650 1200 4650
 Wire Wire Line
@@ -1800,7 +1798,7 @@ Entry Wire Line
 	2500 1900 2400 1800
 Text HLabel 1000 5450 0    50   Input ~ 0
 ~AEC
-Text HLabel 4150 1050 1    50   Input ~ 0
+Text HLabel 4000 2450 0    50   Input ~ 0
 ~CAS
 $Comp
 L Device:R R42
@@ -1831,14 +1829,14 @@ $EndComp
 Wire Wire Line
 	3550 6350 4450 6350
 Wire Wire Line
-	3550 6350 900  6350
+	3550 6350 1500 6350
 Connection ~ 3550 6350
 Wire Wire Line
 	3750 4950 3550 4950
 Wire Wire Line
 	3550 4950 3550 6350
 Wire Wire Line
-	900  6250 3650 6250
+	1500 6250 3650 6250
 Wire Wire Line
 	3650 6250 4550 6250
 Connection ~ 3650 6250
@@ -1854,7 +1852,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5050 3600 6450
 Wire Wire Line
-	900  6450 2500 6450
+	1500 6450 2500 6450
 Wire Wire Line
 	2800 6450 3150 6450
 Connection ~ 3150 6450
@@ -1882,15 +1880,11 @@ Wire Wire Line
 Wire Wire Line
 	1400 5450 1000 5450
 Wire Wire Line
-	4050 2550 4700 2550
-Wire Wire Line
-	4050 1050 4050 2550
-Text HLabel 4050 1050 1    50   Input ~ 0
+	4000 2550 4700 2550
+Text HLabel 4000 2550 0    50   Input ~ 0
 AEC
 Wire Wire Line
-	4700 2450 4150 2450
-Wire Wire Line
-	4150 2450 4150 1050
+	4700 2450 4000 2450
 Text HLabel 1000 2900 0    50   Input ~ 0
 ~AEC
 Wire Wire Line
@@ -1907,19 +1901,27 @@ Wire Wire Line
 	10350 3550 10350 3450
 Connection ~ 10350 3550
 Entry Wire Line
-	2500 3650 2600 3750
+	2500 4250 2600 4350
 Wire Wire Line
-	2600 3550 2800 3550
+	2600 4750 2800 4750
 Wire Wire Line
-	2600 3750 2800 3750
+	2600 4350 2800 4350
+Wire Wire Line
+	3100 3750 3350 3750
+Entry Wire Line
+	3350 3750 3450 3650
+Wire Wire Line
+	3100 3950 3350 3950
+Entry Wire Line
+	3350 3950 3450 3850
+Wire Wire Line
+	3100 3550 3350 3550
+Entry Wire Line
+	3350 3550 3450 3450
 Wire Wire Line
 	3100 4950 3350 4950
 Entry Wire Line
 	3350 4950 3450 4850
-Wire Wire Line
-	3100 4750 3350 4750
-Entry Wire Line
-	3350 4750 3450 4650
 Wire Wire Line
 	3100 4550 3350 4550
 Entry Wire Line
@@ -1929,95 +1931,31 @@ Wire Wire Line
 Entry Wire Line
 	3350 4350 3450 4250
 Wire Wire Line
-	3100 4150 3350 4150
+	3100 4750 3350 4750
 Entry Wire Line
-	3350 4150 3450 4050
-Wire Wire Line
-	3100 3950 3350 3950
-Entry Wire Line
-	3350 3950 3450 3850
-Wire Wire Line
-	3100 3750 3350 3750
-Entry Wire Line
-	3350 3750 3450 3650
-Wire Wire Line
-	3100 3550 3350 3550
-Entry Wire Line
-	3350 3550 3450 3450
-Text Label 2600 3750 0    50   ~ 0
+	3350 4750 3450 4650
+Text Label 2600 4350 0    50   ~ 0
 MA4
 $Comp
 L Resistor_Pack:R_Pack04_SIP_Split RP?
 U 4 1 5D5697F7
-P 2950 4950
+P 2950 3750
 AR Path="/5D4AE438/5DA00A7E/5D5697F7" Ref="RP?"  Part="4" 
 AR Path="/5D3E26F1/5D5697F7" Ref="RP2"  Part="4" 
-F 0 "RP2" V 2850 4950 50  0000 C CNN
-F 1 "33" V 2950 4950 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 4825 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4950 50  0001 C CNN
-	4    2950 4950
+F 0 "RP2" V 2850 3750 50  0000 C CNN
+F 1 "33" V 2950 3750 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 3625 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3750 50  0001 C CNN
+	4    2950 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Resistor_Pack:R_Pack04_SIP_Split RP?
 U 3 1 5D5697F1
-P 2950 4750
+P 2950 3950
 AR Path="/5D4AE438/5DA00A7E/5D5697F1" Ref="RP?"  Part="3" 
 AR Path="/5D3E26F1/5D5697F1" Ref="RP2"  Part="3" 
-F 0 "RP2" V 2850 4750 50  0000 C CNN
-F 1 "33" V 2950 4750 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 4625 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4750 50  0001 C CNN
-	3    2950 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Pack04_SIP_Split RP?
-U 2 1 5D5697EB
-P 2950 4550
-AR Path="/5D4AE438/5DA00A7E/5D5697EB" Ref="RP?"  Part="2" 
-AR Path="/5D3E26F1/5D5697EB" Ref="RP2"  Part="2" 
-F 0 "RP2" V 2850 4550 50  0000 C CNN
-F 1 "33" V 2950 4550 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 4425 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4550 50  0001 C CNN
-	2    2950 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Pack04_SIP_Split RP?
-U 1 1 5D5697E5
-P 2950 4350
-AR Path="/5D4AE438/5DA00A7E/5D5697E5" Ref="RP?"  Part="1" 
-AR Path="/5D3E26F1/5D5697E5" Ref="RP2"  Part="1" 
-F 0 "RP2" V 2850 4350 50  0000 C CNN
-F 1 "33" V 2950 4350 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 4225 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4350 50  0001 C CNN
-	1    2950 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Pack04_SIP_Split RP?
-U 4 1 5D5697DF
-P 2950 4150
-AR Path="/5D4AE438/5DA00A7E/5D5697DF" Ref="RP?"  Part="4" 
-AR Path="/5D3E26F1/5D5697DF" Ref="RP1"  Part="4" 
-F 0 "RP1" V 2850 4150 50  0000 C CNN
-F 1 "33" V 2950 4150 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 4025 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4150 50  0001 C CNN
-	4    2950 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Pack04_SIP_Split RP?
-U 3 1 5D5697D9
-P 2950 3950
-AR Path="/5D4AE438/5DA00A7E/5D5697D9" Ref="RP?"  Part="3" 
-AR Path="/5D3E26F1/5D5697D9" Ref="RP1"  Part="3" 
-F 0 "RP1" V 2850 3950 50  0000 C CNN
+F 0 "RP2" V 2850 3950 50  0000 C CNN
 F 1 "33" V 2950 3950 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 3825 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3950 50  0001 C CNN
@@ -2026,94 +1964,148 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3950 50  0001 C CNN
 $EndComp
 $Comp
 L Resistor_Pack:R_Pack04_SIP_Split RP?
+U 2 1 5D5697EB
+P 2950 3550
+AR Path="/5D4AE438/5DA00A7E/5D5697EB" Ref="RP?"  Part="2" 
+AR Path="/5D3E26F1/5D5697EB" Ref="RP2"  Part="2" 
+F 0 "RP2" V 2850 3550 50  0000 C CNN
+F 1 "33" V 2950 3550 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 3425 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3550 50  0001 C CNN
+	2    2950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Pack04_SIP_Split RP?
+U 3 1 5D5697D9
+P 2950 4550
+AR Path="/5D4AE438/5DA00A7E/5D5697D9" Ref="RP?"  Part="3" 
+AR Path="/5D3E26F1/5D5697D9" Ref="RP1"  Part="3" 
+F 0 "RP1" V 2850 4550 50  0000 C CNN
+F 1 "33" V 2950 4550 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 4425 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4550 50  0001 C CNN
+	3    2950 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Pack04_SIP_Split RP?
 U 2 1 5D5697D3
-P 2950 3750
+P 2950 4350
 AR Path="/5D4AE438/5DA00A7E/5D5697D3" Ref="RP?"  Part="2" 
 AR Path="/5D3E26F1/5D5697D3" Ref="RP1"  Part="2" 
-F 0 "RP1" V 2850 3750 50  0000 C CNN
-F 1 "33" V 2950 3750 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 3625 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3750 50  0001 C CNN
-	2    2950 3750
+F 0 "RP1" V 2850 4350 50  0000 C CNN
+F 1 "33" V 2950 4350 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 4225 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4350 50  0001 C CNN
+	2    2950 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L Resistor_Pack:R_Pack04_SIP_Split RP?
 U 1 1 5D5697CD
-P 2950 3550
+P 2950 4750
 AR Path="/5D4AE438/5DA00A7E/5D5697CD" Ref="RP?"  Part="1" 
 AR Path="/5D3E26F1/5D5697CD" Ref="RP1"  Part="1" 
-F 0 "RP1" V 2850 3550 50  0000 C CNN
-F 1 "33" V 2950 3550 30  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP8" H 3000 3425 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3550 50  0001 C CNN
-	1    2950 3550
+F 0 "RP1" V 2850 4750 50  0000 C CNN
+F 1 "33" V 2950 4750 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 4625 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4750 50  0001 C CNN
+	1    2950 4750
 	0    1    1    0   
 $EndComp
-Text Label 2600 3550 0    50   ~ 0
-MA6
-Text Label 3350 4150 2    50   ~ 0
-MA'7
-Text Label 3350 4950 2    50   ~ 0
-MA'1
-Text Label 3350 4750 2    50   ~ 0
-MA'2
-Text Label 3350 4550 2    50   ~ 0
-MA'0
-Text Label 3350 4350 2    50   ~ 0
-MA'3
-Text Label 3350 3950 2    50   ~ 0
-MA'5
-Text Label 3350 3750 2    50   ~ 0
-MA'4
-Text Label 3350 3550 2    50   ~ 0
-MA'6
-Text Label 2600 3950 0    50   ~ 0
-MA5
-Text Label 2600 4150 0    50   ~ 0
-MA7
-Text Label 2600 4350 0    50   ~ 0
-MA3
-Text Label 2600 4550 0    50   ~ 0
-MA0
 Text Label 2600 4750 0    50   ~ 0
-MA2
+MA6
+Text Label 3350 4950 2    50   ~ 0
+MA'7
+Text Label 3350 3750 2    50   ~ 0
+MA'1
+Text Label 3350 3950 2    50   ~ 0
+MA'2
+Text Label 3350 3550 2    50   ~ 0
+MA'0
+Text Label 3350 4550 2    50   ~ 0
+MA'5
+Text Label 3350 4350 2    50   ~ 0
+MA'4
+Text Label 3350 4750 2    50   ~ 0
+MA'6
+Text Label 2600 4550 0    50   ~ 0
+MA5
 Text Label 2600 4950 0    50   ~ 0
+MA7
+Text Label 2600 3550 0    50   ~ 0
+MA0
+Text Label 2600 3950 0    50   ~ 0
+MA2
+Text Label 2600 3750 0    50   ~ 0
 MA1
 Entry Wire Line
-	2500 3450 2600 3550
-Entry Wire Line
-	2500 3850 2600 3950
-Wire Wire Line
-	2800 3950 2600 3950
-Entry Wire Line
-	2500 4050 2600 4150
-Wire Wire Line
-	2800 4150 2600 4150
-Entry Wire Line
-	2500 4250 2600 4350
-Wire Wire Line
-	2800 4350 2600 4350
+	2500 4650 2600 4750
 Entry Wire Line
 	2500 4450 2600 4550
 Wire Wire Line
 	2800 4550 2600 4550
 Entry Wire Line
-	2500 4650 2600 4750
-Wire Wire Line
-	2800 4750 2600 4750
-Entry Wire Line
 	2500 4850 2600 4950
 Wire Wire Line
 	2800 4950 2600 4950
+Entry Wire Line
+	2500 3450 2600 3550
+Wire Wire Line
+	2800 3550 2600 3550
+Entry Wire Line
+	2500 3850 2600 3950
+Wire Wire Line
+	2800 3950 2600 3950
+Entry Wire Line
+	2500 3650 2600 3750
+Wire Wire Line
+	2800 3750 2600 3750
+Wire Wire Line
+	2800 4150 2600 4150
+Entry Wire Line
+	2500 4050 2600 4150
+Text Label 2600 4150 0    50   ~ 0
+MA3
+Text Label 3350 4150 2    50   ~ 0
+MA'3
+$Comp
+L Resistor_Pack:R_Pack04_SIP_Split RP?
+U 4 1 5D5697DF
+P 2950 4950
+AR Path="/5D4AE438/5DA00A7E/5D5697DF" Ref="RP?"  Part="4" 
+AR Path="/5D3E26F1/5D5697DF" Ref="RP1"  Part="4" 
+F 0 "RP1" V 2850 4950 50  0000 C CNN
+F 1 "33" V 2950 4950 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 4825 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4950 50  0001 C CNN
+	4    2950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Pack04_SIP_Split RP?
+U 1 1 5D5697E5
+P 2950 4150
+AR Path="/5D4AE438/5DA00A7E/5D5697E5" Ref="RP?"  Part="1" 
+AR Path="/5D3E26F1/5D5697E5" Ref="RP2"  Part="1" 
+F 0 "RP2" V 2850 4150 50  0000 C CNN
+F 1 "33" V 2950 4150 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" H 3000 4025 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4150 50  0001 C CNN
+	1    2950 4150
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	3350 4150 3450 4050
+Wire Wire Line
+	3100 4150 3350 4150
 Wire Bus Line
 	5950 1350 5950 3250
 Wire Bus Line
 	2500 1600 2500 3250
 Wire Bus Line
 	2500 3250 5950 3250
-Wire Bus Line
-	2500 3250 2500 4850
 Wire Bus Line
 	7950 3450 7950 4650
 Wire Bus Line
@@ -2129,9 +2121,13 @@ Wire Bus Line
 Wire Bus Line
 	6150 3450 6150 4650
 Wire Bus Line
-	900  6150 10250 6150
+	1500 6150 10250 6150
+Wire Bus Line
+	2500 3250 2500 4850
 Wire Bus Line
 	3450 3450 3450 4850
 Wire Bus Line
 	1100 1050 1100 4950
+Text Label 3550 4050 0    50   ~ 0
+MA'0
 $EndSCHEMATC

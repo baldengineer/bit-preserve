@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 17
-Title "Commodore 64 - Video section (schematic #251469)"
+Title "Commodore 64 - Video/Bus Control (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
 Comp "Commodore Business Machines, Inc."
