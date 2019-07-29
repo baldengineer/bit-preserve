@@ -362,10 +362,10 @@ Entry Wire Line
 Wire Wire Line
 	2750 5050 2950 5050
 $Comp
-L Memory_RAM_Texas:TMS2114 U?
+L Memory_RAM_Texas:TMS2114 U6
 U 1 1 5D3DFA0A
 P 2400 5650
-F 0 "U?" H 2150 6400 50  0000 L CNN
+F 0 "U6" H 2150 6400 50  0000 L CNN
 F 1 "2114" H 2650 6400 50  0000 R CNN
 F 2 "" H 1900 6550 50  0001 C CNN
 F 3 "https://archive.org/download/tms2114datasheetaug83/TMS2114-Datasheet_Aug83.pdf" H 1900 6550 50  0001 C CNN
@@ -615,21 +615,10 @@ Wire Wire Line
 Text HLabel 1000 6450 0    50   Input ~ 0
 COLOR-R~W
 $Comp
-L 74xx:74LS258 U?
-U 1 1 5D56C3D9
-P -550 4850
-F 0 "U?" H -850 5600 50  0000 L CNN
-F 1 "74LS258" H -200 5600 50  0000 R CNN
-F 2 "" H -550 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS258" H -550 4850 50  0001 C CNN
-	1    -550 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS373 U?
+L 74xx:74LS373 U26
 U 1 1 5D57035C
 P 6550 2550
-F 0 "U?" H 6250 3200 50  0000 L CNN
+F 0 "U26" H 6250 3200 50  0000 L CNN
 F 1 "74LS373" H 6900 3200 50  0000 R CNN
 F 2 "" H 6550 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6550 2550 50  0001 C CNN
@@ -710,8 +699,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1750 6550 1550
 Connection ~ 6550 1550
-Text Notes 5300 4800 0    50   ~ 0
-Multiplex:\nRow Address time: Pins A06-A00 -> Bits A06-00\nColumn Address time: Pins A05-A00 -> Bits A13-A08 (A06 = 1)\n\nA10-A07 stable across multiplex
 Text Notes 4050 5150 1    50   ~ 0
 RAS(CAS)
 Wire Bus Line
