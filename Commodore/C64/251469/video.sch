@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 2 15
 Title "Commodore 64 - Video/Bus Control (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
@@ -218,7 +218,7 @@ D6
 Text Label 4800 4550 2    50   ~ 0
 D7
 Wire Bus Line
-	1150 1600 5000 1600
+	1150 1600 1750 1600
 Wire Bus Line
 	5000 1600 5000 5850
 Wire Wire Line
@@ -246,15 +246,15 @@ CD3
 $Comp
 L 74xx:74LS08 U?
 U 2 1 5D4A2C67
-P 1500 6150
+P 1450 6150
 AR Path="/5D28EBAC/5D4A2C67" Ref="U?"  Part="2" 
 AR Path="/5D4AE438/5D4A2C67" Ref="U?"  Part="2" 
 AR Path="/5D3AF8EC/5D4A2C67" Ref="U27"  Part="2" 
-F 0 "U27" H 1500 6475 50  0000 C CNN
-F 1 "74LS08" H 1500 6384 50  0000 C CNN
-F 2 "" H 1500 6150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1500 6150 50  0001 C CNN
-	2    1500 6150
+F 0 "U27" H 1450 6475 50  0000 C CNN
+F 1 "74LS08" H 1450 6384 50  0000 C CNN
+F 2 "" H 1450 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1450 6150 50  0001 C CNN
+	2    1450 6150
 	1    0    0    -1  
 $EndComp
 Text HLabel 5400 1800 2    50   Output ~ 0
@@ -579,12 +579,12 @@ Connection ~ 1850 3000
 Entry Wire Line
 	3050 3950 3150 3850
 Wire Wire Line
-	4600 3450 5400 3450
+	4600 3450 6000 3450
 Wire Wire Line
-	4600 3650 5400 3650
-Text HLabel 5400 3450 2    50   Output ~ 0
+	4600 3650 6000 3650
+Text HLabel 6000 3450 2    50   Output ~ 0
 VIC-BA
-Text HLabel 5400 3650 2    50   Output ~ 0
+Text HLabel 6000 3650 2    50   Output ~ 0
 ~VIC-IRQ
 Wire Wire Line
 	4600 6650 5400 6650
@@ -592,12 +592,8 @@ Text HLabel 5400 6650 2    50   Output ~ 0
 ϕ0
 Wire Wire Line
 	4600 6050 5400 6050
-Text HLabel 5400 6050 2    50   Output ~ 0
-~DRAM-RAS
 Wire Wire Line
 	4600 6150 5400 6150
-Text HLabel 5400 6150 2    50   Output ~ 0
-~DRAM-CAS
 Wire Wire Line
 	4700 1800 5400 1800
 Connection ~ 4700 1800
@@ -617,12 +613,12 @@ COLOR-R~W
 $Comp
 L 74xx:74LS373 U26
 U 1 1 5D57035C
-P 6550 2550
-F 0 "U26" H 6250 3200 50  0000 L CNN
-F 1 "74LS373" H 6900 3200 50  0000 R CNN
-F 2 "" H 6550 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6550 2550 50  0001 C CNN
-	1    6550 2550
+P 6600 5250
+F 0 "U26" H 6300 5900 50  0000 L CNN
+F 1 "74LS373" H 6950 5900 50  0000 R CNN
+F 2 "" H 6600 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 6600 5250 50  0001 C CNN
+	1    6600 5250
 	1    0    0    -1  
 $EndComp
 Text HLabel 1000 6250 0    50   Input ~ 0
@@ -630,11 +626,9 @@ Text HLabel 1000 6250 0    50   Input ~ 0
 Text Notes 2600 6100 1    50   ~ 0
 SRAM (COLOR)
 Wire Wire Line
-	1000 6250 1200 6250
+	1000 6250 1150 6250
 Wire Wire Line
-	1800 6150 2050 6150
-Wire Wire Line
-	1200 6050 1150 6050
+	1750 6150 2050 6150
 Wire Wire Line
 	1150 6050 1150 1800
 Text Label 1150 1800 3    50   ~ 0
@@ -646,65 +640,171 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 5D5EEF76
-P 6550 1450
+P 6600 4150
 AR Path="/5D5EEF76" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D5EEF76" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D5EEF76" Ref="#PWR?"  Part="1" 
 AR Path="/5D3AF8EC/5D5EEF76" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6550 1300 50  0001 C CNN
-F 1 "+5V" H 6450 1600 50  0000 L CNN
-F 2 "" H 6550 1450 50  0001 C CNN
-F 3 "" H 6550 1450 50  0001 C CNN
-	1    6550 1450
+F 0 "#PWR?" H 6600 4000 50  0001 C CNN
+F 1 "+5V" H 6500 4300 50  0000 L CNN
+F 2 "" H 6600 4150 50  0001 C CNN
+F 3 "" H 6600 4150 50  0001 C CNN
+	1    6600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D5EEF7C
-P 6850 1600
+P 6900 4300
 AR Path="/5D5EEF7C" Ref="#PWR?"  Part="1" 
 AR Path="/5D28EBAC/5D5EEF7C" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D5EEF7C" Ref="#PWR?"  Part="1" 
 AR Path="/5D3AF8EC/5D5EEF7C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6850 1350 50  0001 C CNN
-F 1 "GND" H 6855 1427 50  0001 C CNN
-F 2 "" H 6850 1600 50  0001 C CNN
-F 3 "" H 6850 1600 50  0001 C CNN
-	1    6850 1600
+F 0 "#PWR?" H 6900 4050 50  0001 C CNN
+F 1 "GND" H 6905 4127 50  0001 C CNN
+F 2 "" H 6900 4300 50  0001 C CNN
+F 3 "" H 6900 4300 50  0001 C CNN
+	1    6900 4300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6600 4250 6600 4150
+Wire Wire Line
+	6900 4250 6900 4300
+Wire Wire Line
+	6850 4250 6900 4250
+Wire Wire Line
+	6600 4250 6650 4250
+Wire Wire Line
+	6600 4450 6600 4250
+Connection ~ 6600 4250
+Text Notes 4050 5150 1    50   ~ 0
+RAS(CAS)
+Text HLabel 5400 6150 2    50   Output ~ 0
+~DRAM-CAS
+Text HLabel 5400 6050 2    50   Output ~ 0
+~DRAM-RAS
+Wire Wire Line
+	2050 5050 1850 5050
+Text Label 1850 5050 0    50   ~ 0
+A0
+Entry Wire Line
+	1750 4950 1850 5050
+Wire Wire Line
+	2050 5150 1850 5150
+Entry Wire Line
+	1750 5050 1850 5150
+Wire Wire Line
+	2050 5250 1850 5250
+Text Label 1850 5250 0    50   ~ 0
+A2
+Entry Wire Line
+	1750 5150 1850 5250
+Wire Wire Line
+	2050 5350 1850 5350
+Text Label 1850 5350 0    50   ~ 0
+A3
+Entry Wire Line
+	1750 5250 1850 5350
+Wire Wire Line
+	2050 5450 1850 5450
+Text Label 1850 5450 0    50   ~ 0
+A4
+Entry Wire Line
+	1750 5350 1850 5450
+Wire Wire Line
+	2050 5550 1850 5550
+Text Label 1850 5550 0    50   ~ 0
+A5
+Entry Wire Line
+	1750 5450 1850 5550
+Wire Wire Line
+	2050 5650 1850 5650
+Text Label 1850 5650 0    50   ~ 0
+A6
+Entry Wire Line
+	1750 5550 1850 5650
+Wire Wire Line
+	2050 5750 1850 5750
+Text Label 1850 5750 0    50   ~ 0
+A7
+Entry Wire Line
+	1750 5650 1850 5750
+Wire Wire Line
+	2050 5850 1850 5850
+Text Label 1850 5850 0    50   ~ 0
+A8
+Entry Wire Line
+	1750 5750 1850 5850
+Wire Wire Line
+	2050 5950 1850 5950
+Text Label 1850 5950 0    50   ~ 0
+A9
+Entry Wire Line
+	1750 5850 1850 5950
+Text Label 1850 5150 0    50   ~ 0
+A1
+Connection ~ 1750 1600
+Wire Bus Line
+	1750 1600 5000 1600
+Text HLabel 6000 1300 1    50   Input ~ 0
+~VA15
+Text HLabel 6100 1300 1    50   Input ~ 0
+~VA14
+Text HLabel 5750 1300 1    50   Output ~ 0
+VA7
+Text HLabel 5850 1300 1    50   Output ~ 0
+VA6
+Text HLabel 5600 1300 1    50   Output ~ 0
+VA5+13
+Text HLabel 5500 1300 1    50   Output ~ 0
+VA4+12
+Text HLabel 5400 1300 1    50   Output ~ 0
+VA3+11
+Text HLabel 5300 1300 1    50   Output ~ 0
+VA2+10
+Text HLabel 5200 1300 1    50   Output ~ 0
+VA1+9
+Text HLabel 5100 1300 1    50   Output ~ 0
+VA0+8
+$Comp
+L power:GND #PWR?
+U 1 1 5D52B262
+P 6600 6150
+AR Path="/5D52B262" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D52B262" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D52B262" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D52B262" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6600 5900 50  0001 C CNN
+F 1 "GND" H 6605 5977 50  0001 C CNN
+F 2 "" H 6600 6150 50  0001 C CNN
+F 3 "" H 6600 6150 50  0001 C CNN
+	1    6600 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 6050 6600 6150
 $Comp
 L Device:C_Small C?
 U 1 1 5D5EEF82
-P 6700 1550
+P 6750 4250
 AR Path="/5D5EEF82" Ref="C?"  Part="1" 
 AR Path="/5D28EBAC/5D5EEF82" Ref="C?"  Part="1" 
 AR Path="/5D4AE438/5D5EEF82" Ref="C?"  Part="1" 
 AR Path="/5D3AF8EC/5D5EEF82" Ref="C45"  Part="1" 
-F 0 "C45" V 6600 1500 50  0000 L CNN
-F 1 ".1 μF" V 6800 1400 50  0000 L CNN
-F 2 "" H 6700 1550 50  0001 C CNN
-F 3 "~" H 6700 1550 50  0001 C CNN
-	1    6700 1550
+F 0 "C45" V 6650 4200 50  0000 L CNN
+F 1 ".1 μF" V 6850 4100 50  0000 L CNN
+F 2 "" H 6750 4250 50  0001 C CNN
+F 3 "~" H 6750 4250 50  0001 C CNN
+	1    6750 4250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6550 1550 6550 1450
-Wire Wire Line
-	6850 1550 6850 1600
-Wire Wire Line
-	6800 1550 6850 1550
-Wire Wire Line
-	6550 1550 6600 1550
-Wire Wire Line
-	6550 1750 6550 1550
-Connection ~ 6550 1550
-Text Notes 4050 5150 1    50   ~ 0
-RAS(CAS)
 Wire Bus Line
 	1950 1700 1950 3650
 Wire Bus Line
 	4900 1700 4900 4450
+Wire Bus Line
+	1750 1600 1750 5850
 Wire Bus Line
 	3050 2500 3050 5250
 $EndSCHEMATC
