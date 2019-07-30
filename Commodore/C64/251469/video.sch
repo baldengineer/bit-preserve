@@ -16,20 +16,20 @@ Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 Text HLabel 1150 950  0    50   Input ~ 0
 RF_AUDIO
-Text HLabel 1150 1050 0    50   Input ~ 0
+Text HLabel 1150 1500 0    50   Input ~ 0
 ~CS
 $Sheet
-S 10000 600  1150 500 
+S 8550 1800 1150 500 
 U 5D62A4C4
 F0 "RF Modulator" 50
 F1 "modulator.sch" 50
-F2 "CHROMA_IN" I L 10000 800 50 
-F3 "LUMA_IN" I L 10000 700 50 
-F4 "AUDIO_IN" I L 10000 900 50 
-F5 "LUMA_OUT" O R 11150 700 50 
-F6 "CHROMA_OUT" O R 11150 800 50 
-F7 "COMP_OUT" O R 11150 900 50 
-F8 "RF_OUT" O R 11150 1000 50 
+F2 "CHROMA_IN" I L 8550 2000 50 
+F3 "LUMA_IN" I L 8550 1900 50 
+F4 "AUDIO_IN" I L 8550 2100 50 
+F5 "LUMA_OUT" O R 9700 1900 50 
+F6 "CHROMA_OUT" O R 9700 2000 50 
+F7 "COMP_OUT" O R 9700 2100 50 
+F8 "RF_OUT" O R 9700 2200 50 
 $EndSheet
 Text HLabel 1000 6650 0    50   Input ~ 0
 ϕDOT
@@ -608,17 +608,6 @@ Wire Wire Line
 	4600 6450 6600 6450
 Text HLabel 1000 6450 0    50   Input ~ 0
 COLOR-R~W
-$Comp
-L 74xx:74LS373 U26
-U 1 1 5D57035C
-P 8500 5250
-F 0 "U26" H 8200 5900 50  0000 L CNN
-F 1 "74LS373" H 8850 5900 50  0000 R CNN
-F 2 "" H 8500 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 8500 5250 50  0001 C CNN
-	1    8500 5250
-	1    0    0    -1  
-$EndComp
 Text HLabel 1000 6250 0    50   Input ~ 0
 ~COLOR
 Text Notes 2600 6100 1    50   ~ 0
@@ -635,47 +624,6 @@ Wire Wire Line
 	1000 6450 2050 6450
 Wire Wire Line
 	2050 6450 2050 6250
-$Comp
-L power:+5V #PWR?
-U 1 1 5D5EEF76
-P 8500 4150
-AR Path="/5D5EEF76" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D5EEF76" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D5EEF76" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D5EEF76" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 4000 50  0001 C CNN
-F 1 "+5V" H 8400 4300 50  0000 L CNN
-F 2 "" H 8500 4150 50  0001 C CNN
-F 3 "" H 8500 4150 50  0001 C CNN
-	1    8500 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D5EEF7C
-P 8800 4300
-AR Path="/5D5EEF7C" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D5EEF7C" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D5EEF7C" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D5EEF7C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8800 4050 50  0001 C CNN
-F 1 "GND" H 8805 4127 50  0001 C CNN
-F 2 "" H 8800 4300 50  0001 C CNN
-F 3 "" H 8800 4300 50  0001 C CNN
-	1    8800 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 4250 8500 4150
-Wire Wire Line
-	8800 4250 8800 4300
-Wire Wire Line
-	8750 4250 8800 4250
-Wire Wire Line
-	8500 4250 8550 4250
-Wire Wire Line
-	8500 4450 8500 4250
-Connection ~ 8500 4250
 Text Notes 4050 5150 1    50   ~ 0
 RAS(CAS)
 Text HLabel 6600 6150 2    50   Output ~ 0
@@ -761,38 +709,6 @@ Text HLabel 5200 1300 1    50   BiDi ~ 0
 VA1+9
 Text HLabel 5100 1300 1    50   BiDi ~ 0
 VA0+8
-$Comp
-L power:GND #PWR?
-U 1 1 5D52B262
-P 8500 6150
-AR Path="/5D52B262" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D52B262" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D52B262" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D52B262" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 5900 50  0001 C CNN
-F 1 "GND" H 8505 5977 50  0001 C CNN
-F 2 "" H 8500 6150 50  0001 C CNN
-F 3 "" H 8500 6150 50  0001 C CNN
-	1    8500 6150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 6050 8500 6150
-$Comp
-L Device:C_Small C?
-U 1 1 5D5EEF82
-P 8650 4250
-AR Path="/5D5EEF82" Ref="C?"  Part="1" 
-AR Path="/5D28EBAC/5D5EEF82" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D5EEF82" Ref="C?"  Part="1" 
-AR Path="/5D3AF8EC/5D5EEF82" Ref="C45"  Part="1" 
-F 0 "C45" V 8550 4200 50  0000 L CNN
-F 1 "0.1 μF" V 8750 4100 50  0000 L CNN
-F 2 "" H 8650 4250 50  0001 C CNN
-F 3 "~" H 8650 4250 50  0001 C CNN
-	1    8650 4250
-	0    1    1    0   
-$EndComp
 Entry Wire Line
 	4900 5550 5000 5450
 Wire Wire Line
