@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 3 15
 Title "C64 RF Modulator (schematic #251696)"
 Date "2019-07-10"
 Rev "0.1"

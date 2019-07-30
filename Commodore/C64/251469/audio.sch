@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 13 15
 Title "Commodore 64 - Audio section (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
@@ -456,7 +456,7 @@ AR Path="/5D28EBAC/5D3B7DAD" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D3B7DAD" Ref="C?"  Part="1" 
 AR Path="/5D3AFB9B/5D3B7DAD" Ref="C51"  Part="1" 
 F 0 "C51" V 3150 1250 50  0000 L CNN
-F 1 ".1 μF" V 3350 1150 50  0000 L CNN
+F 1 "0.1 μF" V 3350 1150 50  0000 L CNN
 F 2 "" H 3250 1300 50  0001 C CNN
 F 3 "~" H 3250 1300 50  0001 C CNN
 	1    3250 1300
@@ -486,7 +486,7 @@ AR Path="/5D28EBAC/5D3B7DA1" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D3B7DA1" Ref="C?"  Part="1" 
 AR Path="/5D3AFB9B/5D3B7DA1" Ref="C50"  Part="1" 
 F 0 "C50" V 2650 1250 50  0000 L CNN
-F 1 ".1 μF" V 2850 1200 50  0000 L CNN
+F 1 "0.1 μF" V 2850 1150 50  0000 L CNN
 F 2 "" H 2750 1300 50  0001 C CNN
 F 3 "~" H 2750 1300 50  0001 C CNN
 	1    2750 1300

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,21 +26,21 @@ F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1400 2000 1300 1250
+S 1400 2050 1300 1250
 U 5D3AF8EC
 F0 "Video & Bus Control" 50
 F1 "video.sch" 50
 $EndSheet
 $Sheet
-S 10050 2200 800  500 
+S 10300 2450 800  500 
 U 5D4095F3
 F0 "ROM" 50
 F1 "rom.sch" 50
-F2 "~KERNAL" I L 10050 2550 50 
-F3 "~CHARROM" I L 10050 2650 50 
-F4 "A[0..15]" I L 10050 2250 50 
-F5 "D[0..7]" T R 10850 2250 50 
-F6 "~BASIC" I L 10050 2450 50 
+F2 "~KERNAL" I L 10300 2800 50 
+F3 "~CHARROM" I L 10300 2900 50 
+F4 "A[0..15]" I L 10300 2500 50 
+F5 "D[0..7]" T R 11100 2500 50 
+F6 "~BASIC" I L 10300 2700 50 
 $EndSheet
 $Sheet
 S 550  2050 550  600 
@@ -186,8 +186,6 @@ Text Label 550  1500 0    50   ~ 0
 ϕ2
 Wire Wire Line
 	550  1500 10950 1500
-Text Label 550  1650 0    50   ~ 0
-AEC
 Text Label 550  1750 0    50   ~ 0
 ~AEC
 Text Label 550  1850 0    50   ~ 0
@@ -215,23 +213,8 @@ F 3 "https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf" H 1500 5350 50 
 	1    2450 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx_more:7406 U8
-U 2 1 5D4B1AF5
-P 3750 7500
-F 0 "U8" H 3800 7650 50  0000 C CNN
-F 1 "7406" H 3800 7350 50  0000 C CNN
-F 2 "" H 3750 7500 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 3750 7500 50  0001 C CNN
-	2    3750 7500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	550  1850 10950 1850
-Wire Wire Line
-	550  1750 10950 1750
-Wire Wire Line
-	550  1650 10950 1650
 $Sheet
 S 8600 1950 800  1050
 U 5D3E26F1
@@ -271,11 +254,200 @@ Wire Wire Line
 	1100 2150 1200 2150
 Wire Wire Line
 	1200 2150 1200 800 
+Connection ~ 1200 800 
+Wire Wire Line
+	1200 800  10450 800 
+Wire Wire Line
+	2850 3850 3050 3850
+Entry Wire Line
+	3050 3850 3150 3750
+Text Label 3050 3850 2    50   ~ 0
+A0
+Wire Wire Line
+	2850 3950 3050 3950
+Entry Wire Line
+	3050 3950 3150 3850
+Wire Wire Line
+	2850 4050 3050 4050
+Entry Wire Line
+	3050 4050 3150 3950
+Wire Wire Line
+	2850 4150 3050 4150
+Entry Wire Line
+	3050 4150 3150 4050
+Wire Wire Line
+	2850 4250 3050 4250
+Entry Wire Line
+	3050 4250 3150 4150
+Wire Wire Line
+	2850 4350 3050 4350
+Entry Wire Line
+	3050 4350 3150 4250
+Wire Wire Line
+	2850 4450 3050 4450
+Entry Wire Line
+	3050 4450 3150 4350
+Wire Wire Line
+	2850 4550 3050 4550
+Entry Wire Line
+	3050 4550 3150 4450
+Wire Wire Line
+	2850 4650 3050 4650
+Entry Wire Line
+	3050 4650 3150 4550
+Wire Wire Line
+	2850 4750 3050 4750
+Entry Wire Line
+	3050 4750 3150 4650
+Wire Wire Line
+	2850 4850 3050 4850
+Entry Wire Line
+	3050 4850 3150 4750
+Wire Wire Line
+	2850 4950 3050 4950
+Entry Wire Line
+	3050 4950 3150 4850
+Wire Wire Line
+	2850 5050 3050 5050
+Entry Wire Line
+	3050 5050 3150 4950
+Wire Wire Line
+	2850 5150 3050 5150
+Entry Wire Line
+	3050 5150 3150 5050
+Wire Wire Line
+	2850 5250 3050 5250
+Entry Wire Line
+	3050 5250 3150 5150
+Wire Wire Line
+	2850 5350 3050 5350
+Entry Wire Line
+	3050 5350 3150 5250
+Text Label 3050 3950 2    50   ~ 0
+A1
+Text Label 3050 4050 2    50   ~ 0
+A2
+Text Label 3050 4150 2    50   ~ 0
+A3
+Text Label 3050 4250 2    50   ~ 0
+A4
+Text Label 3050 4350 2    50   ~ 0
+A5
+Text Label 3050 4450 2    50   ~ 0
+A6
+Text Label 3050 4550 2    50   ~ 0
+A7
+Text Label 3050 4650 2    50   ~ 0
+A8
+Text Label 3050 4750 2    50   ~ 0
+A9
+Text Label 3050 4850 2    50   ~ 0
+A10
+Text Label 3050 4950 2    50   ~ 0
+A11
+Text Label 3050 5050 2    50   ~ 0
+A12
+Text Label 3050 5150 2    50   ~ 0
+A13
+Text Label 3050 5250 2    50   ~ 0
+A14
+Text Label 3050 5350 2    50   ~ 0
+A15
+Wire Wire Line
+	2850 5550 3050 5550
+Entry Wire Line
+	3050 5550 3150 5450
+Wire Wire Line
+	2850 5650 3050 5650
+Entry Wire Line
+	3050 5650 3150 5550
+Wire Wire Line
+	2850 5750 3050 5750
+Entry Wire Line
+	3050 5750 3150 5650
+Wire Wire Line
+	2850 5850 3050 5850
+Entry Wire Line
+	3050 5850 3150 5750
+Wire Wire Line
+	2850 5950 3050 5950
+Entry Wire Line
+	3050 5950 3150 5850
+Wire Wire Line
+	2850 6050 3050 6050
+Entry Wire Line
+	3050 6050 3150 5950
+Wire Wire Line
+	2850 6250 3050 6250
+Entry Wire Line
+	3050 6250 3150 6150
+Wire Wire Line
+	2850 6350 3050 6350
+Entry Wire Line
+	3050 6350 3150 6250
+Wire Wire Line
+	2850 6450 3050 6450
+Entry Wire Line
+	3050 6450 3150 6350
+Wire Wire Line
+	2850 6550 3050 6550
+Entry Wire Line
+	3050 6550 3150 6450
+Wire Wire Line
+	2850 6650 3050 6650
+Entry Wire Line
+	3050 6650 3150 6550
+Wire Wire Line
+	2850 6750 3050 6750
+Entry Wire Line
+	3050 6750 3150 6650
+Wire Wire Line
+	2850 6850 3050 6850
+Entry Wire Line
+	3050 6850 3150 6750
+Wire Wire Line
+	2850 6950 3050 6950
+Entry Wire Line
+	3050 6950 3150 6850
+Wire Wire Line
+	550  1750 10850 1750
+Text Label 550  1650 0    50   ~ 0
+AEC
+Wire Wire Line
+	550  1650 10150 1650
+$Comp
+L 74xx_more:7406 U8
+U 2 1 5D4B1AF5
+P 10500 2100
+F 0 "U8" H 10550 2250 50  0000 C CNN
+F 1 "7406" H 10550 1950 50  0000 C CNN
+F 2 "" H 10500 2100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 10500 2100 50  0001 C CNN
+	2    10500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2100 10150 2100
+Wire Wire Line
+	10150 2100 10150 1650
+Connection ~ 10150 1650
+Wire Wire Line
+	10150 1650 10950 1650
+Wire Wire Line
+	10800 2100 10850 2100
+Wire Wire Line
+	10850 2100 10850 1750
+Connection ~ 10850 1750
+Wire Wire Line
+	10850 1750 10950 1750
 Wire Bus Line
 	5850 2750 5850 3900
 Wire Bus Line
 	7650 2750 7650 3900
-Connection ~ 1200 800 
-Wire Wire Line
-	1200 800  10450 800 
+Wire Bus Line
+	3150 5400 3150 5950
+Wire Bus Line
+	3150 6100 3150 6850
+Wire Bus Line
+	3150 3700 3150 5250
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,7 +25,7 @@ AR Path="/5D28EBAC/5D45624E" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D45624E" Ref="C?"  Part="1" 
 AR Path="/5D3E26F1/5D45624E" Ref="C30"  Part="1" 
 F 0 "C30" V 5250 800 50  0000 L CNN
-F 1 ".1 μF" V 5450 750 50  0000 L CNN
+F 1 "0.1 μF" V 5450 700 50  0000 L CNN
 F 2 "" H 5350 850 50  0001 C CNN
 F 3 "~" H 5350 850 50  0001 C CNN
 	1    5350 850 
@@ -91,17 +91,17 @@ Text HLabel 3600 1050 1    50   Input ~ 0
 VA7
 Text HLabel 3700 1050 1    50   Input ~ 0
 VA6
-Text HLabel 3450 1050 1    50   Input ~ 0
+Text HLabel 3450 1050 1    50   BiDi ~ 0
 VA5+13
-Text HLabel 3350 1050 1    50   Input ~ 0
+Text HLabel 3350 1050 1    50   BiDi ~ 0
 VA4+12
-Text HLabel 3250 1050 1    50   Input ~ 0
+Text HLabel 3250 1050 1    50   BiDi ~ 0
 VA3+11
-Text HLabel 3150 1050 1    50   Input ~ 0
+Text HLabel 3150 1050 1    50   BiDi ~ 0
 VA2+10
-Text HLabel 3050 1050 1    50   Input ~ 0
+Text HLabel 3050 1050 1    50   BiDi ~ 0
 VA1+9
-Text HLabel 2950 1050 1    50   Input ~ 0
+Text HLabel 2950 1050 1    50   BiDi ~ 0
 VA0+8
 Entry Wire Line
 	2500 4850 2400 4950
@@ -183,7 +183,7 @@ AR Path="/5D28EBAC/5D40AAF7" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D40AAF7" Ref="C?"  Part="1" 
 AR Path="/5D3E26F1/5D40AAF7" Ref="C44"  Part="1" 
 F 0 "C44" V 1850 3600 50  0000 L CNN
-F 1 ".1 μF" V 2050 3550 50  0000 L CNN
+F 1 "0.1 μF" V 2050 3500 50  0000 L CNN
 F 2 "" H 1950 3650 50  0001 C CNN
 F 3 "~" H 1950 3650 50  0001 C CNN
 	1    1950 3650
@@ -1716,7 +1716,7 @@ AR Path="/5D28EBAC/5D40AACD" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D40AACD" Ref="C?"  Part="1" 
 AR Path="/5D3E26F1/5D40AACD" Ref="C29"  Part="1" 
 F 0 "C29" V 1850 1050 50  0000 L CNN
-F 1 ".1 μF" V 2050 1000 50  0000 L CNN
+F 1 "0.1 μF" V 2050 950 50  0000 L CNN
 F 2 "" H 1950 1100 50  0001 C CNN
 F 3 "~" H 1950 1100 50  0001 C CNN
 	1    1950 1100

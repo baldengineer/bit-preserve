@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 7 15
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -113,7 +113,7 @@ AR Path="/5D28EBAC/5D9BB0D7" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D9BB0D7" Ref="C?"  Part="1" 
 AR Path="/5D943305/5D9BB0D7" Ref="C2"  Part="1" 
 F 0 "C2" V 2350 1600 50  0000 L CNN
-F 1 ".1 μF" V 2550 1500 50  0000 L CNN
+F 1 "0.1 μF" V 2550 1500 50  0000 L CNN
 F 2 "" H 2450 1650 50  0001 C CNN
 F 3 "~" H 2450 1650 50  0001 C CNN
 	1    2450 1650
@@ -169,7 +169,7 @@ AR Path="/5D28EBAC/5D9BC587" Ref="C?"  Part="1"
 AR Path="/5D4AE438/5D9BC587" Ref="C?"  Part="1" 
 AR Path="/5D943305/5D9BC587" Ref="C3"  Part="1" 
 F 0 "C3" V 5850 1600 50  0000 L CNN
-F 1 ".1 μF" V 6050 1500 50  0000 L CNN
+F 1 "0.1 μF" V 6050 1500 50  0000 L CNN
 F 2 "" H 5950 1650 50  0001 C CNN
 F 3 "~" H 5950 1650 50  0001 C CNN
 	1    5950 1650
