@@ -240,7 +240,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1450 6150 50  0001 C CNN
 	2    1450 6150
 	1    0    0    -1  
 $EndComp
-Text HLabel 6250 1800 2    50   Output ~ 0
+Text HLabel 6750 1800 2    50   Output ~ 0
 AEC
 Wire Wire Line
 	4600 3350 4700 3350
@@ -262,8 +262,6 @@ Wire Wire Line
 	3400 3650 3150 3650
 Wire Wire Line
 	3150 3650 3150 1300
-Text HLabel 3150 1300 1    50   Input ~ 0
-LP
 Wire Wire Line
 	4400 2900 4400 2950
 Wire Wire Line
@@ -576,7 +574,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6150 6000 6150
 Wire Wire Line
-	4700 1800 6250 1800
+	4700 1800 6050 1800
 Connection ~ 4700 1800
 Connection ~ 1850 1800
 Wire Wire Line
@@ -892,6 +890,28 @@ Wire Wire Line
 	8350 6100 8300 6100
 Wire Wire Line
 	8250 5800 8350 5800
+$Comp
+L 74xx_more:7406 U?
+U 2 1 5D431B50
+P 6350 2150
+AR Path="/5D431B50" Ref="U?"  Part="2" 
+AR Path="/5D3AF8EC/5D431B50" Ref="U8"  Part="2" 
+F 0 "U8" H 6400 2300 50  0000 C CNN
+F 1 "7406" H 6400 2000 50  0000 C CNN
+F 2 "" H 6350 2150 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 6350 2150 50  0001 C CNN
+	2    6350 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1800 6050 2150
+Connection ~ 6050 1800
+Wire Wire Line
+	6050 1800 6750 1800
+Text HLabel 6750 2150 2    50   Output ~ 0
+~AEC
+Wire Wire Line
+	6650 2150 6750 2150
 Wire Wire Line
 	4600 5450 5950 5450
 Wire Bus Line
@@ -904,4 +924,6 @@ Wire Bus Line
 	4900 1700 4900 4450
 Wire Bus Line
 	3050 2500 3050 5250
+Text HLabel 3150 1300 1    50   Input ~ 0
+LIGHTPEN
 $EndSCHEMATC
