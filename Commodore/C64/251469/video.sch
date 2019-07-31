@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 14 15
 Title "Commodore 64 - Video/Bus Control (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
@@ -14,23 +14,8 @@ Comment2 ""
 Comment3 ""
 Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
-Text HLabel 1150 950  0    50   Input ~ 0
-RF_AUDIO
-Text HLabel 1150 1500 0    50   Input ~ 0
-~CS
-$Sheet
-S 8550 1800 1150 500 
-U 5D62A4C4
-F0 "RF Modulator" 50
-F1 "modulator.sch" 50
-F2 "CHROMA_IN" I L 8550 2000 50 
-F3 "LUMA_IN" I L 8550 1900 50 
-F4 "AUDIO_IN" I L 8550 2100 50 
-F5 "LUMA_OUT" O R 9700 1900 50 
-F6 "CHROMA_OUT" O R 9700 2000 50 
-F7 "COMP_OUT" O R 9700 2100 50 
-F8 "RF_OUT" O R 9700 2200 50 
-$EndSheet
+Text HLabel 6650 5450 0    50   Input ~ 0
+AUDIO_OUT
 Text HLabel 1000 6650 0    50   Input ~ 0
 ϕDOT
 Text HLabel 1000 6750 0    50   Input ~ 0
@@ -255,7 +240,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 1450 6150 50  0001 C CNN
 	2    1450 6150
 	1    0    0    -1  
 $EndComp
-Text HLabel 7200 1800 2    50   Output ~ 0
+Text HLabel 6250 1800 2    50   Output ~ 0
 AEC
 Wire Wire Line
 	4600 3350 4700 3350
@@ -427,8 +412,6 @@ Wire Wire Line
 	2400 4850 2400 4650
 Connection ~ 2400 4650
 Wire Wire Line
-	1150 1500 5000 1500
-Wire Wire Line
 	2400 6450 2400 6500
 $Comp
 L power:GND #PWR?
@@ -577,35 +560,27 @@ Connection ~ 1850 3000
 Entry Wire Line
 	3050 3950 3150 3850
 Wire Wire Line
-	4600 3450 6950 3450
+	4600 3450 6250 3450
 Wire Wire Line
-	4600 3650 6950 3650
-Text HLabel 6950 3450 2    50   Output ~ 0
+	4600 3650 6250 3650
+Text HLabel 6250 3450 2    50   Output ~ 0
 VIC-BA
-Text HLabel 6950 3650 2    50   Output ~ 0
+Text HLabel 6250 3650 2    50   Output ~ 0
 ~VIC-IRQ
 Wire Wire Line
-	4600 6650 6600 6650
-Text HLabel 6600 6650 2    50   Output ~ 0
+	4600 6650 6000 6650
+Text HLabel 6000 6650 2    50   Output ~ 0
 ϕ0
 Wire Wire Line
-	4600 6050 6600 6050
+	4600 6050 6000 6050
 Wire Wire Line
-	4600 6150 6600 6150
+	4600 6150 6000 6150
 Wire Wire Line
-	4700 1800 7200 1800
+	4700 1800 6250 1800
 Connection ~ 4700 1800
 Connection ~ 1850 1800
 Wire Wire Line
 	1150 1800 1850 1800
-Text HLabel 6600 6350 2    50   Output ~ 0
-RF-COLOR
-Text HLabel 6600 6450 2    50   Output ~ 0
-RF-SYNC+LUM
-Wire Wire Line
-	6600 6350 4600 6350
-Wire Wire Line
-	4600 6450 6600 6450
 Text HLabel 1000 6450 0    50   Input ~ 0
 COLOR-R~W
 Text HLabel 1000 6250 0    50   Input ~ 0
@@ -626,10 +601,6 @@ Wire Wire Line
 	2050 6450 2050 6250
 Text Notes 4050 5150 1    50   ~ 0
 RAS(CAS)
-Text HLabel 6600 6150 2    50   Output ~ 0
-~DRAM-CAS
-Text HLabel 6600 6050 2    50   Output ~ 0
-~DRAM-RAS
 Wire Wire Line
 	2050 5050 1850 5050
 Text Label 1850 5050 0    50   ~ 0
@@ -693,21 +664,21 @@ A1
 Connection ~ 1750 1600
 Wire Bus Line
 	1750 1600 5000 1600
-Text HLabel 5750 1300 1    50   Output ~ 0
-VA7
 Text HLabel 5850 1300 1    50   Output ~ 0
+VA7
+Text HLabel 5950 1300 1    50   Output ~ 0
 VA6
-Text HLabel 5600 1300 1    50   BiDi ~ 0
+Text HLabel 5700 1300 1    50   BiDi ~ 0
 VA5+13
-Text HLabel 5500 1300 1    50   BiDi ~ 0
+Text HLabel 5600 1300 1    50   BiDi ~ 0
 VA4+12
-Text HLabel 5400 1300 1    50   BiDi ~ 0
+Text HLabel 5500 1300 1    50   BiDi ~ 0
 VA3+11
-Text HLabel 5300 1300 1    50   BiDi ~ 0
+Text HLabel 5400 1300 1    50   BiDi ~ 0
 VA2+10
-Text HLabel 5200 1300 1    50   BiDi ~ 0
+Text HLabel 5300 1300 1    50   BiDi ~ 0
 VA1+9
-Text HLabel 5100 1300 1    50   BiDi ~ 0
+Text HLabel 5200 1300 1    50   BiDi ~ 0
 VA0+8
 Entry Wire Line
 	4900 5550 5000 5450
@@ -734,37 +705,195 @@ A10
 Text Label 4900 5850 2    50   ~ 0
 A11
 Wire Wire Line
-	4600 4750 5100 4750
+	4600 4750 5200 4750
 Wire Wire Line
-	4600 4850 5200 4850
+	4600 4850 5300 4850
 Wire Wire Line
-	4600 4950 5300 4950
+	4600 4950 5400 4950
 Wire Wire Line
-	4600 5050 5400 5050
+	4600 5050 5500 5050
 Wire Wire Line
-	4600 5150 5500 5150
+	4600 5150 5600 5150
 Wire Wire Line
-	4600 5250 5600 5250
+	4600 5250 5700 5250
 Wire Wire Line
-	5100 4750 5100 1300
+	5200 4750 5200 1300
 Wire Wire Line
-	5200 1300 5200 4850
+	5300 1300 5300 4850
 Wire Wire Line
-	5300 4950 5300 1300
+	5400 4950 5400 1300
 Wire Wire Line
-	5400 1300 5400 5050
+	5500 1300 5500 5050
 Wire Wire Line
-	5500 5150 5500 1300
+	5600 5150 5600 1300
 Wire Wire Line
-	5600 1300 5600 5250
+	5700 1300 5700 5250
 Wire Wire Line
-	4600 5350 5750 5350
+	4600 5350 5850 5350
 Wire Wire Line
-	5750 5350 5750 1300
+	5850 5350 5850 1300
 Wire Wire Line
-	5850 5450 5850 1300
+	5950 5450 5950 1300
+Text HLabel 6000 6150 2    50   Output ~ 0
+~DRAM-CAS
+Text HLabel 6000 6050 2    50   Output ~ 0
+~DRAM-RAS
+$Sheet
+S 7100 5350 1150 500 
+U 5D62A4C4
+F0 "RF Modulator" 50
+F1 "modulator.sch" 50
+F2 "CHROMA_IN" I L 7100 5650 50 
+F3 "LUMA_IN" I L 7100 5750 50 
+F4 "AUDIO_IN" I L 7100 5450 50 
+F5 "LUMA_OUT" O R 8250 5550 50 
+F6 "CHROMA_OUT" O R 8250 5650 50 
+F7 "COMP_OUT" O R 8250 5450 50 
+F8 "RF_OUT" O R 8250 5800 50 
+$EndSheet
 Wire Wire Line
-	4600 5450 5850 5450
+	4600 6350 6850 6350
+Wire Wire Line
+	4600 6450 6950 6450
+Wire Wire Line
+	6850 6350 6850 5650
+Wire Wire Line
+	6850 5650 7100 5650
+Wire Wire Line
+	6950 6450 6950 5750
+Wire Wire Line
+	6950 5750 7100 5750
+Wire Wire Line
+	6650 5450 6950 5450
+$Comp
+L Connector:DIN-8 CN5
+U 1 1 5D678B8B
+P 8950 5100
+F 0 "CN5" H 9100 4750 50  0000 C CNN
+F 1 "Audio/Video [DIN 41524, 262°]" H 8250 4750 50  0000 C CNN
+F 2 "" H 8950 5100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 8950 5100 50  0001 C CNN
+	1    8950 5100
+	-1   0    0    1   
+$EndComp
+Text Notes 8200 4400 0    50   ~ 0
+TODO check that symbol pin numbering matches that of service manual
+$Comp
+L power:GND #PWR?
+U 1 1 5D6B56BB
+P 8950 5450
+AR Path="/5D6B56BB" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D6B56BB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D6B56BB" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D6B56BB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8950 5200 50  0001 C CNN
+F 1 "GND" H 8955 5277 50  0001 C CNN
+F 2 "" H 8950 5450 50  0001 C CNN
+F 3 "" H 8950 5450 50  0001 C CNN
+	1    8950 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5400 8950 5450
+Wire Wire Line
+	9250 5100 9450 5100
+Wire Wire Line
+	9250 5200 9350 5200
+Wire Wire Line
+	9250 5000 9550 5000
+Wire Wire Line
+	8650 5200 8550 5200
+Wire Wire Line
+	8550 5200 8550 4500
+$Comp
+L power:+5V #PWR?
+U 1 1 5D6DE022
+P 8950 4750
+AR Path="/5D6DE022" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D6DE022" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D6DE022" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D6DE022" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8950 4600 50  0001 C CNN
+F 1 "+5V" H 8850 4900 50  0000 L CNN
+F 2 "" H 8950 4750 50  0001 C CNN
+F 3 "" H 8950 4750 50  0001 C CNN
+	1    8950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4750 8950 4800
+Text HLabel 9800 4500 2    50   Output ~ 0
+AUDIO_IN
+NoConn ~ 8650 5000
+Wire Wire Line
+	6950 5100 6950 5450
+Connection ~ 6950 5450
+Wire Wire Line
+	6950 5450 7100 5450
+Wire Wire Line
+	6950 5100 8650 5100
+Wire Wire Line
+	9800 4500 8550 4500
+Wire Wire Line
+	8650 5450 8650 6050
+Wire Wire Line
+	8650 6050 9350 6050
+Wire Wire Line
+	9350 5200 9350 6050
+Wire Wire Line
+	8650 5450 8250 5450
+Wire Wire Line
+	8250 5550 8550 5550
+Wire Wire Line
+	8550 5550 8550 6150
+Wire Wire Line
+	8550 6150 9450 6150
+Wire Wire Line
+	8250 5650 8450 5650
+Wire Wire Line
+	8450 5650 8450 6250
+Wire Wire Line
+	8450 6250 9550 6250
+Wire Wire Line
+	9550 5000 9550 6250
+Wire Wire Line
+	9450 5100 9450 6150
+$Comp
+L Connector:Conn_Coaxial CN-RF
+U 1 1 5D7BC702
+P 8100 6100
+F 0 "CN-RF" H 8200 6075 50  0000 L CNN
+F 1 "RF Out" H 8200 5984 50  0000 L CNN
+F 2 "" H 8100 6100 50  0001 C CNN
+F 3 " ~" H 8100 6100 50  0001 C CNN
+	1    8100 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7D581A
+P 8100 6350
+AR Path="/5D7D581A" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D7D581A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D7D581A" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D7D581A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8100 6100 50  0001 C CNN
+F 1 "GND" H 8105 6177 50  0001 C CNN
+F 2 "" H 8100 6350 50  0001 C CNN
+F 3 "" H 8100 6350 50  0001 C CNN
+	1    8100 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6300 8100 6350
+Wire Wire Line
+	8350 5800 8350 6100
+Wire Wire Line
+	8350 6100 8300 6100
+Wire Wire Line
+	8250 5800 8350 5800
+Wire Wire Line
+	4600 5450 5950 5450
 Wire Bus Line
 	5000 1600 5000 5750
 Wire Bus Line

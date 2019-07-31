@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 15
+Sheet 8 15
 Title "Commodore 64 - Serial Bus (schematic #251469)"
 Date "2019-07-22"
 Rev "0.1"
@@ -311,26 +311,9 @@ Wire Wire Line
 Wire Wire Line
 	3275 2350 3275 2400
 Wire Wire Line
-	2350 2150 2975 2150
-Wire Wire Line
-	2350 1750 3275 1750
-Wire Wire Line
 	3575 1950 3700 1950
 Wire Wire Line
 	3575 2150 3575 2400
-$Comp
-L Connector:DIN-6 CN?
-U 1 1 5DDED4D9
-P 3275 2050
-AR Path="/5D943305/5DDED4D9" Ref="CN?"  Part="1" 
-AR Path="/5D943305/5DDE0343/5DDED4D9" Ref="CN4"  Part="1" 
-F 0 "CN4" H 3225 2550 50  0000 C CNN
-F 1 "Serial Bus" H 3225 2450 50  0000 C CNN
-F 2 "" H 3275 2050 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3275 2050 50  0001 C CNN
-	1    3275 2050
-	-1   0    0    -1  
-$EndComp
 Text HLabel 3275 2400 3    50   Input ~ 0
 ~EXTRST
 Wire Wire Line
@@ -340,4 +323,23 @@ Wire Wire Line
 	2350 1950 2975 1950
 Wire Wire Line
 	2350 2050 2500 2050
+Wire Wire Line
+	2350 1750 3275 1750
+$Comp
+L Connector:DIN-6 CN?
+U 1 1 5DDED4D9
+P 3275 2050
+AR Path="/5D943305/5DDED4D9" Ref="CN?"  Part="1" 
+AR Path="/5D943305/5DDE0343/5DDED4D9" Ref="CN4"  Part="1" 
+F 0 "CN4" H 3225 2550 50  0000 C CNN
+F 1 "Serial Bus [DIN 45322]" H 3225 2450 50  0000 C CNN
+F 2 "" H 3275 2050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 3275 2050 50  0001 C CNN
+	1    3275 2050
+	-1   0    0    -1  
+$EndComp
+Text Notes 3100 2850 0    50   ~ 0
+TODO check that symbol pin numbering matches that of service manual
+Wire Wire Line
+	2350 2150 2975 2150
 $EndSCHEMATC

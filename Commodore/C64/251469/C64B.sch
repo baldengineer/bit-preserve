@@ -26,12 +26,6 @@ F 3 "https://archive.org/download/mos_6581_sid_preliminary_october_1982/mos_6581
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1400 2050 1300 1250
-U 5D3AF8EC
-F0 "Video & Bus Control" 50
-F1 "video.sch" 50
-$EndSheet
-$Sheet
 S 10300 2450 800  500 
 U 5D4095F3
 F0 "ROM" 50
@@ -93,7 +87,7 @@ F6 "POTY" I R 10600 4050 50
 F7 "ϕ2" I L 9650 4150 50 
 F8 "~RESET" I L 9650 3300 50 
 F9 "A[0..15]" I L 9650 3800 50 
-F10 "EXT_IN" I R 10600 3300 50 
+F10 "AUDIO_IN" I R 10600 3300 50 
 F11 "AUDIO_OUT" O R 10600 3400 50 
 $EndSheet
 $Comp
@@ -450,4 +444,10 @@ Wire Bus Line
 	3150 6100 3150 6850
 Wire Bus Line
 	3150 3700 3150 5250
+$Sheet
+S 1400 2050 1300 1250
+U 5D3AF8EC
+F0 "Video & Bus Control" 50
+F1 "video.sch" 50
+$EndSheet
 $EndSCHEMATC

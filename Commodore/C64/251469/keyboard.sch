@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 15
+Sheet 12 15
 Title "Commodore 64 - Keyboard (schematic #251469)"
 Date "2019-07-21"
 Rev "0.1"
