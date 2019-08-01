@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 16
+Sheet 11 17
 Title "Commodore 64 - Keyboard (schematic #251469)"
 Date "2019-07-21"
 Rev "0.1"
@@ -326,6 +326,37 @@ Text HLabel 4300 1200 2    50   Output ~ 0
 NMI
 Wire Wire Line
 	4200 1200 4300 1200
+$Comp
+L power:+5V #PWR?
+U 1 1 5D542ED2
+P 2800 950
+AR Path="/5D542ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D542ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D542ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5D9CCECB/5D542ED2" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D7052DF/5D542ED2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 800 50  0001 C CNN
+F 1 "+5V" H 2700 1100 50  0000 L CNN
+F 2 "" H 2800 950 50  0001 C CNN
+F 3 "" H 2800 950 50  0001 C CNN
+	1    2800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D5434CB
+P 2800 1850
+F 0 "#PWR?" H 2800 1600 50  0001 C CNN
+F 1 "GND" H 2805 1677 50  0001 C CNN
+F 2 "" H 2800 1850 50  0001 C CNN
+F 3 "" H 2800 1850 50  0001 C CNN
+	1    2800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1850 2800 1800
+Wire Wire Line
+	2800 950  2800 1000
 Wire Bus Line
 	700  2700 700  3500
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 16
+Sheet 10 17
 Title "Commodore 64 - Cassette Interface (schematic #251469)"
 Date "2019-07-22"
 Rev "0.1"

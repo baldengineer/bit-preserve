@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title "Commodore 64 (schematic #251469)"
 Date "2019-07-10"
 Rev "0.1"
@@ -46,198 +46,6 @@ F3 "~EXTRST" O R 1100 700 50
 $EndSheet
 Text Label 1250 1000 0    50   ~ 0
 P[0..5]
-$Comp
-L power:GND #PWR?
-U 1 1 5D6CB376
-P 5900 6150
-AR Path="/5D6CB376" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D6CB376" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D6CB376" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D6CB376" Ref="#PWR?"  Part="1" 
-AR Path="/5D57F552/5D6CB376" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 5900 50  0001 C CNN
-F 1 "GND" H 5905 5977 50  0001 C CNN
-F 2 "" H 5900 6150 50  0001 C CNN
-F 3 "" H 5900 6150 50  0001 C CNN
-	1    5900 6150
-	-1   0    0    -1  
-$EndComp
-Text Label 6750 5400 2    50   ~ 0
-D7
-Text Label 6750 5300 2    50   ~ 0
-D6
-Text Label 6750 5200 2    50   ~ 0
-D5
-Text Label 6750 5100 2    50   ~ 0
-D4
-Text Label 6750 5000 2    50   ~ 0
-D3
-Text Label 6750 4900 2    50   ~ 0
-D2
-Text Label 6750 4800 2    50   ~ 0
-D1
-Text Label 6750 4700 2    50   ~ 0
-D0
-Text Label 7000 4500 2    50   ~ 0
-P5
-Text Label 7000 4400 2    50   ~ 0
-P4
-Text Label 7000 4300 2    50   ~ 0
-P3
-Text Label 7000 4200 2    50   ~ 0
-P2
-Text Label 7000 4100 2    50   ~ 0
-P1
-Text Label 7000 4000 2    50   ~ 0
-P0
-$Comp
-L Device:C_Small C9
-U 1 1 5D501FC6
-P 6050 1900
-AR Path="/5D501FC6" Ref="C9"  Part="1" 
-AR Path="/5D28EBAC/5D501FC6" Ref="C?"  Part="1" 
-AR Path="/5D4AE438/5D501FC6" Ref="C?"  Part="1" 
-AR Path="/5D3AF8EC/5D501FC6" Ref="C?"  Part="1" 
-F 0 "C9" V 5950 1850 50  0000 L CNN
-F 1 "0.1 μF" V 6150 1750 50  0000 L CNN
-F 2 "" H 6050 1900 50  0001 C CNN
-F 3 "~" H 6050 1900 50  0001 C CNN
-	1    6050 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D501FC0
-P 6200 1950
-AR Path="/5D501FC0" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D501FC0" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D501FC0" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D501FC0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6200 1700 50  0001 C CNN
-F 1 "GND" H 6205 1777 50  0001 C CNN
-F 2 "" H 6200 1950 50  0001 C CNN
-F 3 "" H 6200 1950 50  0001 C CNN
-	1    6200 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5D501FBA
-P 5900 1800
-AR Path="/5D501FBA" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D501FBA" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D501FBA" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AF8EC/5D501FBA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5900 1650 50  0001 C CNN
-F 1 "+5V" H 5800 1950 50  0000 L CNN
-F 2 "" H 5900 1800 50  0001 C CNN
-F 3 "" H 5900 1800 50  0001 C CNN
-	1    5900 1800
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	6500 2300 6600 2200
-Text Label 6500 2300 2    50   ~ 0
-A0
-Entry Wire Line
-	6500 2400 6600 2300
-Entry Wire Line
-	6500 2500 6600 2400
-Entry Wire Line
-	6500 2600 6600 2500
-Entry Wire Line
-	6500 2700 6600 2600
-Entry Wire Line
-	6500 2800 6600 2700
-Entry Wire Line
-	6500 2900 6600 2800
-Entry Wire Line
-	6500 3000 6600 2900
-Entry Wire Line
-	6500 3100 6600 3000
-Entry Wire Line
-	6500 3200 6600 3100
-Entry Wire Line
-	6500 3300 6600 3200
-Entry Wire Line
-	6500 3400 6600 3300
-Entry Wire Line
-	6500 3500 6600 3400
-Entry Wire Line
-	6500 3600 6600 3500
-Entry Wire Line
-	6500 3700 6600 3600
-Entry Wire Line
-	6500 3800 6600 3700
-Text Label 6500 2400 2    50   ~ 0
-A1
-Text Label 6500 2500 2    50   ~ 0
-A2
-Text Label 6500 2600 2    50   ~ 0
-A3
-Text Label 6500 2700 2    50   ~ 0
-A4
-Text Label 6500 2800 2    50   ~ 0
-A5
-Text Label 6500 2900 2    50   ~ 0
-A6
-Text Label 6500 3000 2    50   ~ 0
-A7
-Text Label 6500 3100 2    50   ~ 0
-A8
-Text Label 6500 3200 2    50   ~ 0
-A9
-Text Label 6500 3300 2    50   ~ 0
-A10
-Text Label 6500 3400 2    50   ~ 0
-A11
-Text Label 6500 3500 2    50   ~ 0
-A12
-Text Label 6500 3600 2    50   ~ 0
-A13
-Text Label 6500 3700 2    50   ~ 0
-A14
-Text Label 6500 3800 2    50   ~ 0
-A15
-Entry Wire Line
-	7000 4000 7100 3900
-Entry Wire Line
-	7000 4100 7100 4000
-Entry Wire Line
-	7000 4200 7100 4100
-Entry Wire Line
-	7000 4300 7100 4200
-Entry Wire Line
-	7000 4400 7100 4300
-Entry Wire Line
-	7000 4500 7100 4400
-Entry Wire Line
-	6750 4700 6850 4600
-Entry Wire Line
-	6750 4800 6850 4700
-$Comp
-L CPU_MOSTechnology:6510 U7
-U 1 1 5D472E43
-P 5900 4100
-F 0 "U7" H 5600 6050 50  0000 L CNN
-F 1 "6510" H 6200 6050 50  0000 R CNN
-F 2 "" H 4950 3800 50  0001 C CNN
-F 3 "https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf" H 4950 3800 50  0001 C CNN
-	1    5900 4100
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	6750 5400 6850 5300
-Entry Wire Line
-	6750 5300 6850 5200
-Entry Wire Line
-	6750 5200 6850 5100
-Entry Wire Line
-	6750 5100 6850 5000
-Entry Wire Line
-	6750 5000 6850 4900
-Entry Wire Line
-	6750 4900 6850 4800
 $Sheet
 S 7750 1850 950  1050
 U 5D3AFB9B
@@ -305,7 +113,7 @@ F2 "AUDIO_OUT" I L 2500 3150 50
 F3 "ϕDOT" I L 2500 1950 50 
 F4 "ϕCOLOR" I L 2500 2050 50 
 F5 "A[0..11]" I L 2500 2200 50 
-F6 "D[0..7]" I L 2500 2300 50 
+F6 "D[0..7]" B L 2500 2300 50 
 F7 "AEC" O R 3550 1950 50 
 F8 "~VIC" I R 3550 3450 50 
 F9 "R~W" I L 2500 2400 50 
@@ -398,77 +206,6 @@ Wire Wire Line
 	6300 5600 7200 5600
 Wire Wire Line
 	5400 2300 5500 2300
-Connection ~ 5900 1900
-Wire Wire Line
-	5900 2100 5900 1900
-Wire Wire Line
-	5900 1900 5950 1900
-Wire Wire Line
-	6150 1900 6200 1900
-Wire Wire Line
-	6200 1900 6200 1950
-Wire Wire Line
-	5900 1900 5900 1800
-Wire Wire Line
-	6300 2300 6500 2300
-Wire Wire Line
-	6300 2400 6500 2400
-Wire Wire Line
-	6300 2500 6500 2500
-Wire Wire Line
-	6300 2600 6500 2600
-Wire Wire Line
-	6300 2700 6500 2700
-Wire Wire Line
-	6300 2800 6500 2800
-Wire Wire Line
-	6300 2900 6500 2900
-Wire Wire Line
-	6300 3000 6500 3000
-Wire Wire Line
-	6300 3100 6500 3100
-Wire Wire Line
-	6300 3200 6500 3200
-Wire Wire Line
-	6300 3300 6500 3300
-Wire Wire Line
-	6300 3400 6500 3400
-Wire Wire Line
-	6300 3500 6500 3500
-Wire Wire Line
-	6300 3600 6500 3600
-Wire Wire Line
-	6300 3700 6500 3700
-Wire Wire Line
-	6300 3800 6500 3800
-Wire Wire Line
-	6300 4000 7000 4000
-Wire Wire Line
-	6300 4100 7000 4100
-Wire Wire Line
-	6300 4200 7000 4200
-Wire Wire Line
-	6300 4300 7000 4300
-Wire Wire Line
-	6300 4400 7000 4400
-Wire Wire Line
-	6300 4500 7000 4500
-Wire Wire Line
-	6300 4700 6750 4700
-Wire Wire Line
-	6300 5400 6750 5400
-Wire Wire Line
-	6300 5300 6750 5300
-Wire Wire Line
-	6300 5200 6750 5200
-Wire Wire Line
-	6300 5100 6750 5100
-Wire Wire Line
-	6300 5000 6750 5000
-Wire Wire Line
-	6300 4900 6750 4900
-Wire Wire Line
-	6300 4800 6750 4800
 Wire Wire Line
 	1900 6850 2500 6850
 Wire Wire Line
@@ -886,8 +623,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 2500 5100 2500
 Wire Wire Line
-	5900 6100 5900 6150
-Wire Wire Line
 	5300 6950 5100 6950
 Wire Wire Line
 	5100 6950 5100 2500
@@ -927,48 +662,16 @@ Wire Wire Line
 	3550 5550 4600 5550
 Wire Wire Line
 	4600 5550 4600 7200
-$Comp
-L 74xx:74LS08 U27
-U 4 1 5D75A054
-P 9000 5250
-F 0 "U27" H 9000 5575 50  0000 C CNN
-F 1 "74LS08" H 9000 5484 50  0000 C CNN
-F 2 "" H 9000 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9000 5250 50  0001 C CNN
-	4    9000 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U27
-U 1 1 5D75E1A0
-P 9000 4600
-F 0 "U27" H 9000 4925 50  0000 C CNN
-F 1 "74LS08" H 9000 4834 50  0000 C CNN
-F 2 "" H 9000 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 9000 4600 50  0001 C CNN
-	1    9000 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 4700 8500 4700
-Wire Wire Line
-	8500 4700 8500 5350
-Wire Wire Line
-	8500 5350 8700 5350
-Text Notes 8250 5050 0    50   ~ 0
-~DMA
-Text Notes 8500 4550 0    50   ~ 0
-AEC
+$Sheet
+S 5600 1850 500  1100
+U 5D4581BB
+F0 "CPU" 50
+F1 "cpu.sch" 50
+$EndSheet
 Wire Bus Line
-	7100 1000 7100 4400
+	6600 1100 6600 6550
 Wire Bus Line
 	6850 1100 6850 6650
 Wire Bus Line
-	6600 1100 6600 6550
-Text Notes 8550 5150 0    50   ~ 0
-BA
-Text Notes 9350 5250 0    50   ~ 0
-RDY
-Text Notes 9350 4550 0    50   ~ 0
-CAEC
+	7100 1000 7100 4400
 $EndSCHEMATC

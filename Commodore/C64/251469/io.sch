@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 16
+Sheet 6 17
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -560,19 +560,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 6800 4300 6800
 Wire Wire Line
-	3550 1300 3550 5750
-Wire Wire Line
 	4300 6900 3450 6900
-Wire Wire Line
-	3450 1200 3450 5850
 Wire Wire Line
 	3350 7000 4300 7000
 Wire Wire Line
-	3350 2050 3350 5950
-Wire Wire Line
 	3250 7100 4300 7100
-Wire Wire Line
-	3250 2150 3250 6050
 Wire Wire Line
 	5400 5350 5200 5350
 Wire Wire Line
@@ -609,26 +601,6 @@ Wire Wire Line
 	5100 6500 6200 6500
 Wire Wire Line
 	6200 3850 7050 3850
-Wire Wire Line
-	3800 5750 3550 5750
-Wire Wire Line
-	3800 5850 3450 5850
-Wire Wire Line
-	3800 5950 3350 5950
-Wire Wire Line
-	3800 6050 3250 6050
-Connection ~ 3250 6050
-Connection ~ 3350 5950
-Connection ~ 3450 5850
-Connection ~ 3550 5750
-Wire Wire Line
-	3550 5750 3550 6800
-Wire Wire Line
-	3450 5850 3450 6900
-Wire Wire Line
-	3350 5950 3350 7000
-Wire Wire Line
-	3250 6050 3250 7100
 $Sheet
 S 4300 6600 700  600 
 U 5D47A471
@@ -655,41 +627,6 @@ Wire Wire Line
 	6800 4400 6800 7100
 Wire Wire Line
 	6800 7100 5000 7100
-Wire Wire Line
-	4100 5750 4150 5750
-Wire Wire Line
-	4150 5750 4150 5850
-Wire Wire Line
-	4150 5850 4100 5850
-Wire Wire Line
-	4150 5850 4150 5950
-Wire Wire Line
-	4150 5950 4100 5950
-Connection ~ 4150 5850
-Wire Wire Line
-	4150 5950 4150 6050
-Wire Wire Line
-	4150 6050 4100 6050
-Connection ~ 4150 5950
-$Comp
-L power:+5V #PWR?
-U 1 1 5D94F7F0
-P 4150 5650
-AR Path="/5D94F7F0" Ref="#PWR?"  Part="1" 
-AR Path="/5D28EBAC/5D94F7F0" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5D94F7F0" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D94F7F0" Ref="#PWR0203"  Part="1" 
-AR Path="/5D943305/5D47A471/5D94F7F0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0203" H 4150 5500 50  0001 C CNN
-F 1 "+5V" H 4050 5800 50  0000 L CNN
-F 2 "" H 4150 5650 50  0001 C CNN
-F 3 "" H 4150 5650 50  0001 C CNN
-	1    4150 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 5650 4150 5750
-Connection ~ 4150 5750
 Connection ~ 5200 5350
 Wire Wire Line
 	5200 5350 5200 5300
@@ -806,50 +743,6 @@ Wire Wire Line
 	6200 7400 6200 7500
 Wire Wire Line
 	6550 7400 6600 7400
-$Comp
-L Resistor_Pack:R_Network07_Split RP3
-U 7 1 5D3FF4BF
-P 3950 5750
-F 0 "RP3" V 3950 6100 50  0000 C CNN
-F 1 "3k3" V 3950 5750 30  0000 C CNN
-F 2 "" H 3950 5750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3950 5750 50  0001 C CNN
-	7    3950 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Network07_Split RP3
-U 6 1 5D401D35
-P 3950 5850
-F 0 "RP3" V 3950 6200 50  0000 C CNN
-F 1 "3k3" V 3950 5850 30  0000 C CNN
-F 2 "" H 3950 5850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3950 5850 50  0001 C CNN
-	6    3950 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Network07_Split RP3
-U 5 1 5D4039CF
-P 3950 5950
-F 0 "RP3" V 3950 6300 50  0000 C CNN
-F 1 "3k3" V 3950 5950 30  0000 C CNN
-F 2 "" H 3950 5950 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3950 5950 50  0001 C CNN
-	5    3950 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L Resistor_Pack:R_Network07_Split RP3
-U 4 1 5D404120
-P 3950 6050
-F 0 "RP3" V 3950 6400 50  0000 C CNN
-F 1 "3k3" V 3950 6050 30  0000 C CNN
-F 2 "" H 3950 6050 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3950 6050 50  0001 C CNN
-	4    3950 6050
-	0    1    1    0   
-$EndComp
 Text Label 6200 5350 0    50   ~ 0
 ~NMI
 Text Label 1700 6100 1    50   ~ 0
@@ -1052,8 +945,6 @@ Wire Wire Line
 	6900 3550 6900 3350
 Wire Wire Line
 	6800 3450 6800 3350
-Text Notes 3850 5400 0    50   ~ 0
-TODO/refac:\nMove pull-ups into UP sheet?
 Entry Wire Line
 	2950 4850 3050 4750
 Wire Bus Line
@@ -1064,6 +955,14 @@ Wire Wire Line
 	5050 3850 5050 3200
 Text HLabel 5050 3200 1    50   Output ~ 0
 LP
+Wire Wire Line
+	3550 1300 3550 6800
+Wire Wire Line
+	3450 1200 3450 6900
+Wire Wire Line
+	3350 2050 3350 7000
+Wire Wire Line
+	3250 2150 3250 7100
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 16
+Sheet 13 17
 Title "Commodore 64 - Video/Bus Control (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
@@ -152,7 +152,7 @@ Wire Wire Line
 	1000 6750 3400 6750
 Text HLabel 1150 1600 0    50   Input ~ 0
 A[0..11]
-Text HLabel 1150 1700 0    50   Input ~ 0
+Text HLabel 1150 1700 0    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
 	4600 3850 4800 3850
