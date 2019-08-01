@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 15
+Sheet 5 16
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -360,9 +360,6 @@ Wire Wire Line
 	5400 2250 5300 2250
 Wire Wire Line
 	5400 2050 5400 800 
-Connection ~ 5400 800 
-Wire Wire Line
-	5400 800  6950 800 
 Wire Wire Line
 	5300 2250 5300 750 
 Text HLabel 1050 6300 0    50   Input ~ 0
@@ -475,10 +472,6 @@ Text HLabel 2700 7500 3    50   Output ~ 0
 ~IRQ
 Text HLabel 6200 7500 3    50   Output ~ 0
 ~NMI
-Text Notes 6250 3450 0    50   ~ 0
-~VA14
-Text Notes 6250 3550 0    50   ~ 0
-~VA15
 Text HLabel 1100 800  0    50   BiDi ~ 0
 ~INTRST
 Wire Wire Line
@@ -488,13 +481,10 @@ Wire Wire Line
 	1900 2050 1900 800 
 Wire Wire Line
 	1900 800  1100 800 
-Connection ~ 5200 900 
 Wire Wire Line
 	5200 2350 5200 900 
 Wire Wire Line
 	1700 900  5200 900 
-Wire Wire Line
-	5200 900  6950 900 
 Entry Wire Line
 	6400 4450 6500 4550
 Wire Wire Line
@@ -864,16 +854,6 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3950 6050 50  0001 C CNN
 $EndComp
 Text Label 6200 5350 0    50   ~ 0
 ~NMI
-Text Label 6250 3750 0    50   ~ 0
-ATNOUT
-Text Label 6250 3850 0    50   ~ 0
-CLKOUT
-Text Label 6250 3950 0    50   ~ 0
-DATAOUT
-Text Label 6250 4050 0    50   ~ 0
-CLK
-Text Label 6250 4150 0    50   ~ 0
-DATA
 Text Label 1700 6100 1    50   ~ 0
 CASS-RD_(SRQ-IN)
 $Sheet
@@ -999,10 +979,6 @@ Wire Wire Line
 	8250 4500 8600 4500
 Wire Wire Line
 	8050 4500 8250 4500
-Text Notes 3850 5400 0    50   ~ 0
-TODO/refac:\nMove pull-ups into UP sheet?
-Text Notes 6250 3650 0    50   ~ 0
-UP-PA2
 Wire Wire Line
 	9400 4500 9400 3400
 Wire Wire Line
@@ -1067,18 +1043,32 @@ Text HLabel 1050 6200 0    50   Input ~ 0
 TOD
 Wire Wire Line
 	1900 6200 5400 6200
+Wire Wire Line
+	6200 3450 6800 3450
+Wire Wire Line
+	6200 3550 6900 3550
+Text HLabel 6900 3350 1    50   Output ~ 0
+~VA15
+Text HLabel 6800 3350 1    50   Output ~ 0
+~VA14
+Wire Wire Line
+	6900 3550 6900 3350
+Wire Wire Line
+	6800 3450 6800 3350
+Wire Bus Line
+	6500 4550 6500 6800
+Wire Bus Line
+	3050 3550 3050 4250
+Wire Bus Line
+	3050 4350 3050 5050
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
 	1600 1100 1600 2750
 Wire Bus Line
-	3050 4350 3050 5050
-Wire Bus Line
-	3050 3550 3050 4250
-Wire Bus Line
-	6500 4550 6500 6800
-Wire Bus Line
 	6500 1000 6500 3150
 Wire Bus Line
 	3000 1000 3000 3150
+Text Notes 3850 5400 0    50   ~ 0
+TODO/refac:\nMove pull-ups into UP sheet?
 $EndSCHEMATC
