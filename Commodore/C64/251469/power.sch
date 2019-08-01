@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 16
+Sheet 3 16
 Title "Commodore 64 - Power Section (schematic #251469)"
 Date "2019-07-16"
 Rev "0.1"

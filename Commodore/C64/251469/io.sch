@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 16
+Sheet 6 16
 Title "Commodore 64 - I/O Section (schematic #251469)"
 Date "2019-07-15"
 Rev "0.1"
@@ -1062,6 +1062,8 @@ Wire Wire Line
 	4800 3850 5050 3850
 Wire Wire Line
 	5050 3850 5050 3200
+Text HLabel 5050 3200 1    50   Output ~ 0
+LP
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
@@ -1076,6 +1078,4 @@ Wire Bus Line
 	6500 1000 6500 3150
 Wire Bus Line
 	3000 1000 3000 3150
-Text HLabel 5050 3200 1    50   Output ~ 0
-LP
 $EndSCHEMATC
