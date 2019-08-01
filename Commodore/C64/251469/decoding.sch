@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 15 16
 Title "Commodore 64 - Address Decoding (schematic #251469)"
 Date "2019-08-01"
 Rev "0.1"
