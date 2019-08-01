@@ -429,8 +429,6 @@ Entry Wire Line
 Entry Wire Line
 	2950 4750 3050 4650
 Entry Wire Line
-	2950 4850 3050 4750
-Entry Wire Line
 	2950 4950 3050 4850
 Entry Wire Line
 	2950 5050 3050 4950
@@ -863,8 +861,9 @@ F0 "Control Ports" 50
 F1 "controlports.sch" 50
 F2 "ROW[0..7]" B L 4000 3800 50 
 F3 "COL[0..7]" B L 4000 3700 50 
-F4 "POTX" O R 4800 3700 50 
-F5 "POTY" O R 4800 3800 50 
+F4 "POTX" O R 4800 3650 50 
+F5 "POTY" O R 4800 3750 50 
+F6 "LP" O R 4800 3850 50 
 $EndSheet
 Wire Wire Line
 	6200 3750 7050 3750
@@ -1013,8 +1012,6 @@ F3 "COL[0..7]" B L 4000 4250 50
 F4 "NMI" O R 4800 4250 50 
 $EndSheet
 Wire Bus Line
-	3050 4350 3900 4350
-Wire Bus Line
 	4000 3700 3800 3700
 Wire Bus Line
 	4000 3800 3900 3800
@@ -1023,13 +1020,13 @@ POTX
 Text HLabel 4950 3200 1    50   Output ~ 0
 POTY
 Wire Wire Line
-	4800 3700 4850 3700
+	4800 3650 4850 3650
 Wire Wire Line
-	4850 3700 4850 3200
+	4850 3650 4850 3200
 Wire Wire Line
-	4800 3800 4950 3800
+	4800 3750 4950 3750
 Wire Wire Line
-	4950 3800 4950 3200
+	4950 3750 4950 3200
 Connection ~ 3800 4250
 Connection ~ 3900 4350
 Wire Bus Line
@@ -1055,20 +1052,30 @@ Wire Wire Line
 	6900 3550 6900 3350
 Wire Wire Line
 	6800 3450 6800 3350
+Text Notes 3850 5400 0    50   ~ 0
+TODO/refac:\nMove pull-ups into UP sheet?
+Entry Wire Line
+	2950 4850 3050 4750
 Wire Bus Line
-	6500 4550 6500 6800
-Wire Bus Line
-	3050 3550 3050 4250
-Wire Bus Line
-	3050 4350 3050 5050
+	3050 4350 3900 4350
+Wire Wire Line
+	4800 3850 5050 3850
+Wire Wire Line
+	5050 3850 5050 3200
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
 	1600 1100 1600 2750
 Wire Bus Line
+	3050 4350 3050 5050
+Wire Bus Line
+	3050 3550 3050 4250
+Wire Bus Line
+	6500 4550 6500 6800
+Wire Bus Line
 	6500 1000 6500 3150
 Wire Bus Line
 	3000 1000 3000 3150
-Text Notes 3850 5400 0    50   ~ 0
-TODO/refac:\nMove pull-ups into UP sheet?
+Text HLabel 5050 3200 1    50   Output ~ 0
+LP
 $EndSCHEMATC
