@@ -151,7 +151,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 6750 3400 6750
 Text HLabel 1150 1600 0    50   Input ~ 0
-A[0..15]
+A[0..11]
 Text HLabel 1150 1700 0    50   Input ~ 0
 D[0..7]
 Wire Wire Line

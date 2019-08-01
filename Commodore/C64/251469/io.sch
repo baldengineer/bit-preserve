@@ -342,7 +342,7 @@ Connection ~ 1600 1100
 Wire Bus Line
 	1600 1100 1100 1100
 Text HLabel 1100 1100 0    50   Input ~ 0
-A[0..15]
+A[0..3]
 Wire Wire Line
 	1100 900  1700 900 
 Wire Wire Line

@@ -160,7 +160,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2400 2200 2400
 Text HLabel 2100 950  1    50   Input ~ 0
-A[0..15]
+A[0..4]
 Entry Wire Line
 	2200 2300 2100 2200
 Entry Wire Line

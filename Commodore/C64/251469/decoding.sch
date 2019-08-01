@@ -79,7 +79,7 @@ A10
 Text HLabel 900  1850 0    50   Input ~ 0
 R~W
 Text HLabel 900  800  0    50   Input ~ 0
-A[0..15]
+A[8..15]
 Connection ~ 2050 1150
 Wire Wire Line
 	2050 1350 2050 1150
@@ -246,7 +246,7 @@ Connection ~ 1000 800
 Wire Bus Line
 	1000 800  900  800 
 Text HLabel 900  900  0    50   Input ~ 0
-P[0..5]
+P[0..2]
 Text Label 1100 2750 0    50   ~ 0
 A12
 Text Label 1100 2850 0    50   ~ 0
