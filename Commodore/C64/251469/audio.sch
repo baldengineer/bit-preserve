@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 17
+Sheet 16 17
 Title "Commodore 64 - Audio section (schematic #251469)"
 Date "2019-07-25"
 Rev "0.1"
