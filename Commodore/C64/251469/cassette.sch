@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 17
+Sheet 8 17
 Title "Commodore 64 - Cassette Interface (schematic #251469)"
 Date "2019-07-22"
 Rev "0.1"
@@ -449,8 +449,8 @@ AR Path="/5D3CC739" Ref="#PWR?"  Part="1"
 AR Path="/5D28EBAC/5D3CC739" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D3CC739" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D3CC739" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D641FD1/5D3CC739" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 550 50  0001 C CNN
+AR Path="/5D943305/5D641FD1/5D3CC739" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2100 550 50  0001 C CNN
 F 1 "+5V" H 2000 850 50  0000 L CNN
 F 2 "" H 2100 700 50  0001 C CNN
 F 3 "" H 2100 700 50  0001 C CNN

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 17
+Sheet 4 17
 Title "Commodore 64 - User Port (schematic #251469)"
 Date "2019-07-21"
 Rev "0.1"
@@ -223,8 +223,8 @@ AR Path="/5D580A5A" Ref="#PWR?"  Part="1"
 AR Path="/5D28EBAC/5D580A5A" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AE438/5D580A5A" Ref="#PWR?"  Part="1" 
 AR Path="/5D943305/5D580A5A" Ref="#PWR?"  Part="1" 
-AR Path="/5D943305/5D47A471/5D580A5A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1400 600 50  0001 C CNN
+AR Path="/5D943305/5D47A471/5D580A5A" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1400 600 50  0001 C CNN
 F 1 "+5V" H 1300 900 50  0000 L CNN
 F 2 "" H 1400 750 50  0001 C CNN
 F 3 "" H 1400 750 50  0001 C CNN
