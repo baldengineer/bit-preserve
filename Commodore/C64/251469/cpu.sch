@@ -43,10 +43,8 @@ F 3 "https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf" H 1900 3250 50 
 	1    2850 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 4400 0    50   ~ 0
+Text Notes 2200 4850 1    50   ~ 0
 CAEC
-Text Notes 2100 5300 0    50   ~ 0
-RDY
 Wire Wire Line
 	1400 5250 1600 5250
 Wire Wire Line

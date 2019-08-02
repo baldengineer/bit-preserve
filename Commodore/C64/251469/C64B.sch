@@ -199,13 +199,11 @@ Wire Wire Line
 Wire Wire Line
 	1100 800  1200 800 
 Wire Wire Line
-	950  5900 5500 5900
+	7200 2250 7200 1200
 Wire Wire Line
-	7200 5600 7200 1200
+	6350 2250 7200 2250
 Wire Wire Line
-	6300 5600 7200 5600
-Wire Wire Line
-	5400 2300 5500 2300
+	5400 1950 5600 1950
 Wire Wire Line
 	1900 6850 2500 6850
 Wire Wire Line
@@ -411,13 +409,13 @@ Connection ~ 2200 1000
 Connection ~ 2400 900 
 Connection ~ 3650 1300
 Wire Wire Line
-	3650 1300 10950 1300
+	3650 1300 5200 1300
 Connection ~ 3750 1400
 Wire Wire Line
 	3750 1400 10950 1400
 Connection ~ 3850 1500
 Wire Wire Line
-	3850 1500 10950 1500
+	3850 1500 5100 1500
 Wire Bus Line
 	1250 900  2400 900 
 Wire Wire Line
@@ -434,8 +432,6 @@ Wire Wire Line
 	1800 1300 3650 1300
 Wire Wire Line
 	2000 1400 3750 1400
-Wire Wire Line
-	1900 1500 3650 1500
 Wire Wire Line
 	1800 1300 1800 1400
 Wire Wire Line
@@ -462,18 +458,12 @@ Text Label 10950 700  2    50   ~ 0
 ~EXTRST
 Text Label 10950 800  2    50   ~ 0
 ~INTRST
-Wire Wire Line
-	7050 6450 7650 6450
 Text Label 11150 6450 2    50   ~ 0
 ϕ2
 Wire Wire Line
-	7050 6450 7050 5900
-Wire Wire Line
-	6300 5900 7050 5900
+	6500 6450 6500 3100
 Wire Wire Line
 	1800 1400 1800 6700
-Wire Wire Line
-	3650 1500 3850 1500
 Wire Wire Line
 	3550 5000 4650 5000
 Wire Wire Line
@@ -484,13 +474,6 @@ Wire Wire Line
 	3550 5200 4650 5200
 Wire Wire Line
 	3550 5300 4650 5300
-Wire Wire Line
-	2500 3500 950  3500
-Wire Wire Line
-	950  3500 950  5900
-Wire Wire Line
-	6450 6450 7050 6450
-Connection ~ 7050 6450
 Wire Wire Line
 	500  7550 5300 7550
 Text Notes 1350 4750 0    50   ~ 0
@@ -558,15 +541,14 @@ Wire Wire Line
 Wire Bus Line
 	7350 1100 7350 2350
 Wire Bus Line
-	6850 1100 7350 1100
+	6700 1100 7350 1100
 Wire Wire Line
 	550  1400 2000 1400
 Wire Wire Line
 	3650 1300 3650 1500
-Connection ~ 3650 1500
 Wire Wire Line
 	3650 1500 3650 1950
-Connection ~ 6850 1100
+Connection ~ 6700 1100
 Connection ~ 2300 1100
 Wire Bus Line
 	6600 900  7450 900 
@@ -574,22 +556,15 @@ Wire Bus Line
 	2400 900  6600 900 
 Connection ~ 6600 900 
 Wire Bus Line
-	6600 900  6600 1100
-Connection ~ 7100 1000
-Wire Bus Line
-	7100 1000 10950 1000
-Wire Bus Line
-	2200 1000 7100 1000
-Wire Bus Line
-	2300 1100 6850 1100
+	2300 1100 6600 1100
 Wire Bus Line
 	6450 6550 6600 6550
 Wire Bus Line
-	6450 6650 6850 6650
+	6450 6650 6700 6650
 Wire Wire Line
 	7550 2100 7550 1200
 Wire Wire Line
-	5400 2300 5400 800 
+	5400 1950 5400 800 
 Connection ~ 5400 800 
 Wire Wire Line
 	5400 800  7650 800 
@@ -628,7 +603,7 @@ Wire Wire Line
 	5100 6950 5100 2500
 Connection ~ 5100 2500
 Wire Wire Line
-	5100 2500 5500 2500
+	5100 2500 5600 2500
 Wire Wire Line
 	2500 3050 1600 3050
 Text Notes 1550 3150 2    50   ~ 0
@@ -642,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 5450 4700 5450
 Wire Wire Line
-	5200 2600 5500 2600
+	5200 2600 5600 2600
 Wire Wire Line
 	5300 6850 5200 6850
 Wire Wire Line
@@ -663,15 +638,85 @@ Wire Wire Line
 Wire Wire Line
 	4600 5550 4600 7200
 $Sheet
-S 5600 1850 500  1100
+S 5600 1850 750  1350
 U 5D4581BB
 F0 "CPU" 50
 F1 "cpu.sch" 50
+F2 "A[0..15]" O R 6350 1950 50 
+F3 "D[0..7]" B R 6350 2050 50 
+F4 "P[0..5]" B R 6350 2150 50 
+F5 "ϕ2" O R 6350 3100 50 
+F6 "~IRQ" I L 5600 2500 50 
+F7 "~NMI" I L 5600 2600 50 
+F8 "~RESET" I L 5600 1950 50 
+F9 "R~W" O R 6350 2250 50 
+F10 "~DMA" I L 5600 3000 50 
+F11 "BA" I L 5600 2250 50 
+F12 "AEC" I L 5600 2150 50 
+F13 "ϕ0" I L 5600 2050 50 
 $EndSheet
 Wire Bus Line
-	6600 1100 6600 6550
+	6700 1100 6700 2050
 Wire Bus Line
-	6850 1100 6850 6650
+	6800 1000 6800 2150
+Wire Wire Line
+	1900 1500 3850 1500
 Wire Bus Line
-	7100 1000 7100 4400
+	6350 1950 6600 1950
+Connection ~ 6600 1950
+Wire Bus Line
+	6600 1950 6600 6550
+Wire Bus Line
+	6350 2050 6700 2050
+Connection ~ 6700 2050
+Wire Bus Line
+	6700 2050 6700 6650
+Wire Bus Line
+	6600 1100 6700 1100
+Connection ~ 6800 1000
+Wire Bus Line
+	6800 1000 10950 1000
+Wire Bus Line
+	2200 1000 6800 1000
+Wire Bus Line
+	6600 900  6600 1950
+Wire Bus Line
+	6350 2150 6800 2150
+Wire Wire Line
+	6450 6450 6500 6450
+Connection ~ 6500 6450
+Wire Wire Line
+	6500 6450 7650 6450
+Wire Wire Line
+	6350 3100 6500 3100
+Wire Wire Line
+	5600 2050 5300 2050
+Wire Wire Line
+	5300 2050 5300 1650
+Wire Wire Line
+	5300 1650 1700 1650
+Wire Wire Line
+	1700 1650 1700 3500
+Wire Wire Line
+	1700 3500 2500 3500
+Wire Wire Line
+	5600 2150 5200 2150
+Wire Wire Line
+	5200 2150 5200 1300
+Connection ~ 5200 1300
+Wire Wire Line
+	5200 1300 10950 1300
+Wire Wire Line
+	5600 2250 5100 2250
+Wire Wire Line
+	5100 2250 5100 1500
+Connection ~ 5100 1500
+Wire Wire Line
+	5100 1500 10950 1500
+Wire Wire Line
+	5600 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 3800
+Text Notes 5600 3950 2    50   ~ 0
+TODO
 $EndSCHEMATC
