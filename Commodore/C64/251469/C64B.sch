@@ -443,7 +443,7 @@ Text Label 10950 700  2    50   ~ 0
 ~EXTRST
 Text Label 10950 800  2    50   ~ 0
 ~INTRST
-Text Label 11150 4950 2    50   ~ 0
+Text Label 8900 4950 2    50   ~ 0
 ϕ2
 Wire Wire Line
 	6500 4950 6500 3100
@@ -491,7 +491,7 @@ Wire Wire Line
 	7650 2800 7650 4950
 Connection ~ 7650 4950
 Wire Wire Line
-	7650 4950 11150 4950
+	7650 4950 8900 4950
 Wire Wire Line
 	7650 2800 7750 2800
 Text Notes 8950 2800 2    50   ~ 0
@@ -731,4 +731,191 @@ Wire Wire Line
 	4850 7550 4850 6050
 Wire Wire Line
 	4850 6050 5300 6050
+$Comp
+L Connector_Edge:Conn_02x22_Edge CN6
+U 1 1 5D6B1D3A
+P 10200 4600
+F 0 "CN6" H 10250 5817 50  0000 C CNN
+F 1 "Cartridge/Expansion" H 10250 5726 50  0000 C CNN
+F 2 "" H 10200 4600 50  0001 C CNN
+F 3 "~" H 10200 4600 50  0001 C CNN
+	1    10200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3600 10800 3600
+Wire Wire Line
+	10500 3700 10800 3700
+Wire Wire Line
+	10500 3800 10800 3800
+Wire Wire Line
+	10500 3900 10800 3900
+Wire Wire Line
+	10500 4000 10800 4000
+Wire Wire Line
+	10500 4100 10800 4100
+Wire Wire Line
+	10500 4200 10800 4200
+Wire Wire Line
+	10500 4300 10800 4300
+Wire Wire Line
+	10500 4400 10800 4400
+Wire Wire Line
+	10500 4500 10800 4500
+Wire Wire Line
+	10500 4600 10800 4600
+Wire Wire Line
+	10500 4700 10800 4700
+Wire Wire Line
+	10500 4800 10800 4800
+Wire Wire Line
+	10500 4900 10800 4900
+Wire Wire Line
+	10500 5000 10800 5000
+Wire Wire Line
+	10500 5100 10800 5100
+Wire Wire Line
+	10500 5200 10800 5200
+Wire Wire Line
+	10500 5300 10800 5300
+Wire Wire Line
+	10500 5400 10800 5400
+Wire Wire Line
+	10500 5500 10800 5500
+Wire Wire Line
+	10500 5600 10800 5600
+Wire Wire Line
+	10500 5700 10800 5700
+Wire Wire Line
+	10000 3600 9700 3600
+Wire Wire Line
+	10000 3700 9700 3700
+Wire Wire Line
+	10000 3800 9700 3800
+Wire Wire Line
+	10000 3900 9700 3900
+Wire Wire Line
+	10000 4000 9700 4000
+Wire Wire Line
+	10000 4100 9700 4100
+Wire Wire Line
+	10000 4200 9700 4200
+Wire Wire Line
+	10000 4300 9700 4300
+Wire Wire Line
+	10000 4400 9700 4400
+Wire Wire Line
+	10000 4500 9700 4500
+Wire Wire Line
+	10000 4600 9700 4600
+Wire Wire Line
+	10000 4700 9700 4700
+Wire Wire Line
+	10000 4800 9700 4800
+Wire Wire Line
+	10000 4900 9700 4900
+Wire Wire Line
+	10000 5000 9700 5000
+Wire Wire Line
+	10000 5100 9700 5100
+Wire Wire Line
+	10000 5200 9700 5200
+Wire Wire Line
+	10000 5300 9700 5300
+Wire Wire Line
+	10000 5400 9700 5400
+Wire Wire Line
+	10000 5500 9700 5500
+Wire Wire Line
+	10000 5600 9700 5600
+Wire Wire Line
+	10000 5700 9700 5700
+Text Notes 10800 3900 2    50   ~ 0
+~NMI
+Text Notes 9700 4000 0    50   ~ 0
+R~W
+Text Notes 10800 3800 2    50   ~ 0
+~INSTRST
+Text Notes 10800 4000 2    50   ~ 0
+ϕ2
+Text Notes 9700 3900 0    50   ~ 0
+~IRQ
+Text Notes 9700 4700 0    50   ~ 0
+BA
+Text Notes 9700 4800 0    50   ~ 0
+~DMA
+Text Notes 9700 4900 0    50   ~ 0
+D7
+Text Notes 9700 5000 0    50   ~ 0
+D6
+Text Notes 9700 5100 0    50   ~ 0
+D5
+Text Notes 9700 5200 0    50   ~ 0
+D4
+Text Notes 9700 5300 0    50   ~ 0
+D3
+Text Notes 9700 5400 0    50   ~ 0
+D2
+Text Notes 9700 5500 0    50   ~ 0
+D1
+Text Notes 9700 5600 0    50   ~ 0
+D0
+Text Notes 10800 4100 2    50   ~ 0
+A15
+Text Notes 10800 4200 2    50   ~ 0
+A14
+Text Notes 10800 4300 2    50   ~ 0
+A13
+Text Notes 10800 4400 2    50   ~ 0
+A12
+Text Notes 10800 4500 2    50   ~ 0
+A11
+Text Notes 10800 4600 2    50   ~ 0
+A10
+Text Notes 10800 4700 2    50   ~ 0
+A9
+Text Notes 10800 4800 2    50   ~ 0
+A8
+Text Notes 10800 4900 2    50   ~ 0
+A7
+Text Notes 10800 5000 2    50   ~ 0
+A6
+Text Notes 10800 5100 2    50   ~ 0
+A5
+Text Notes 10800 5200 2    50   ~ 0
+A4
+Text Notes 10800 5300 2    50   ~ 0
+A3
+Text Notes 10800 5400 2    50   ~ 0
+A2
+Text Notes 10800 5500 2    50   ~ 0
+A1
+Text Notes 10800 5600 2    50   ~ 0
+A0
+Text Notes 9700 4400 0    50   ~ 0
+~EXROM
+Text Notes 9700 4300 0    50   ~ 0
+~GAME
+Text Notes 9700 3600 0    50   ~ 0
+GND
+Text Notes 10800 3600 2    50   ~ 0
+GND
+Text Notes 10800 5700 2    50   ~ 0
+GND
+Text Notes 9700 5700 0    50   ~ 0
+GND
+Text Notes 9700 4200 0    50   ~ 0
+~IO1
+Text Notes 9700 4500 0    50   ~ 0
+~IO2
+Text Notes 9700 4100 0    50   ~ 0
+ϕDOT
+Text Notes 9700 3700 0    50   ~ 0
++5V
+Text Notes 9700 3800 0    50   ~ 0
++5V
+Text Notes 9700 4600 0    50   ~ 0
+~ROML
+Text Notes 10800 3700 2    50   ~ 0
+~ROMH
 $EndSCHEMATC
