@@ -83,13 +83,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS258" H 6800 1850 50  0001 C CNN
 	1    6800 1850
 	1    0    0    -1  
 $EndComp
-Text HLabel 5450 900  1    50   Input ~ 0
+Text HLabel 5500 900  1    50   Input ~ 0
 ~VA15
-Text HLabel 5550 900  1    50   Input ~ 0
+Text HLabel 5600 900  1    50   Input ~ 0
 ~VA14
-Text HLabel 5200 900  1    50   Input ~ 0
+Text HLabel 5250 900  1    50   Input ~ 0
 VA7
-Text HLabel 5300 900  1    50   Input ~ 0
+Text HLabel 5350 900  1    50   Input ~ 0
 VA6
 Text HLabel 3650 900  1    50   BiDi ~ 0
 VA5+13
@@ -1579,27 +1579,27 @@ Wire Wire Line
 Wire Wire Line
 	3550 900  3550 2100
 Wire Wire Line
-	6300 2150 5200 2150
+	6300 2150 5250 2150
 Wire Wire Line
-	5200 2150 5200 1150
+	5250 2150 5250 1150
 Wire Wire Line
 	6300 2250 6300 2150
 Connection ~ 6300 2150
 Wire Wire Line
-	6300 1850 5300 1850
+	6300 1850 5350 1850
 Wire Wire Line
-	5300 1850 5300 1050
+	5350 1850 5350 1050
 Wire Wire Line
 	6300 1950 6300 1850
 Connection ~ 6300 1850
 Wire Wire Line
-	6300 1550 5450 1550
+	6300 1550 5500 1550
 Wire Wire Line
-	5450 1550 5450 900 
+	5500 1550 5500 900 
 Wire Wire Line
-	6300 1250 5550 1250
+	6300 1250 5600 1250
 Wire Wire Line
-	5550 1250 5550 900 
+	5600 1250 5600 900 
 Wire Wire Line
 	1400 4650 1200 4650
 Wire Wire Line
@@ -2235,21 +2235,21 @@ Connection ~ 3650 1600
 Wire Wire Line
 	3650 1600 3650 3150
 Wire Wire Line
-	5200 1150 3950 1150
+	5250 1150 3950 1150
 Wire Wire Line
 	3950 1150 3950 1500
-Connection ~ 5200 1150
+Connection ~ 5250 1150
 Wire Wire Line
-	5200 1150 5200 900 
+	5250 1150 5250 900 
 Wire Wire Line
 	3950 2200 3850 2200
 Wire Wire Line
 	3850 2200 3850 1050
 Wire Wire Line
-	3850 1050 5300 1050
-Connection ~ 5300 1050
+	3850 1050 5350 1050
+Connection ~ 5350 1050
 Wire Wire Line
-	5300 1050 5300 900 
+	5350 1050 5350 900 
 Text HLabel 2900 2500 0    50   Input ~ 0
 AEC
 Wire Wire Line
@@ -2259,11 +2259,66 @@ Wire Wire Line
 Text HLabel 2900 2400 0    50   Input ~ 0
 ~RAS
 Wire Bus Line
+	1100 3300 5150 3300
+Connection ~ 1100 3300
+Wire Wire Line
+	4950 1500 5050 1500
+Entry Wire Line
+	5050 1500 5150 1600
+Wire Wire Line
+	4950 1600 5050 1600
+Entry Wire Line
+	5050 1600 5150 1700
+Wire Wire Line
+	4950 1700 5050 1700
+Entry Wire Line
+	5050 1700 5150 1800
+Wire Wire Line
+	4950 1800 5050 1800
+Entry Wire Line
+	5050 1800 5150 1900
+Wire Wire Line
+	4950 1900 5050 1900
+Entry Wire Line
+	5050 1900 5150 2000
+Wire Wire Line
+	4950 2000 5050 2000
+Entry Wire Line
+	5050 2000 5150 2100
+Wire Wire Line
+	4950 2100 5050 2100
+Entry Wire Line
+	5050 2100 5150 2200
+Wire Wire Line
+	4950 2200 5050 2200
+Entry Wire Line
+	5050 2200 5150 2300
+Text Label 5050 1500 2    50   ~ 0
+A7
+Text Label 5050 1600 2    50   ~ 0
+A6
+Text Label 5050 1700 2    50   ~ 0
+A5
+Text Label 5050 1800 2    50   ~ 0
+A4
+Text Label 5050 1900 2    50   ~ 0
+A3
+Text Label 5050 2000 2    50   ~ 0
+A2
+Text Label 5050 2100 2    50   ~ 0
+A1
+Text Label 5050 2200 2    50   ~ 0
+A0
+Wire Bus Line
 	7550 1350 7550 3250
 Wire Bus Line
 	2500 1600 2500 3250
 Wire Bus Line
 	2500 3250 7550 3250
+Wire Bus Line
+	1100 3300 1100 4950
+Wire Bus Line
+	5150 1600 5150 3300
 Wire Bus Line
 	7950 3450 7950 4650
 Wire Bus Line
@@ -2281,9 +2336,9 @@ Wire Bus Line
 Wire Bus Line
 	1400 6150 10250 6150
 Wire Bus Line
+	1100 1050 1100 3300
+Wire Bus Line
 	2500 3250 2500 4850
 Wire Bus Line
 	3450 3450 3450 4850
-Wire Bus Line
-	1100 1050 1100 4950
 $EndSCHEMATC
