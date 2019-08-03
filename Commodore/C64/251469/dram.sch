@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 17
+Sheet 9 17
 Title "Commodore 64 - Dynamic RAM (schematic #251469)"
 Date "2019-07-29"
 Rev "0.1"
@@ -128,8 +128,8 @@ P 1800 4750
 AR Path="/5D40AAE1" Ref="U?"  Part="1" 
 AR Path="/5D28EBAC/5D40AAE1" Ref="U?"  Part="1" 
 AR Path="/5D4AE438/5D40AAE1" Ref="U?"  Part="1" 
-AR Path="/5D3E26F1/5D40AAE1" Ref="U14"  Part="1" 
-F 0 "U14" H 1500 5600 50  0000 L CNN
+AR Path="/5D3E26F1/5D40AAE1" Ref="U25"  Part="1" 
+F 0 "U25" H 1500 5600 50  0000 L CNN
 F 1 "74LS257" H 1850 5600 50  0000 L CNN
 F 2 "" H 1800 4750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf" H 1800 4750 50  0001 C CNN
