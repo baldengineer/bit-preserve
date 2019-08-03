@@ -26,10 +26,6 @@ Text HLabel 4450 1400 2    50   Output ~ 0
 CHROMA_OUT
 Text HLabel 4450 2950 2    50   Output ~ 0
 COMP_OUT
-Text Notes -1950 8700 0    50   ~ 0
-TODO
-Text Notes -2450 9550 0    250  ~ 0
-Pwr?
 $Comp
 L power_more:UNREG+9V #PWR0151
 U 1 1 5D3D43C5
