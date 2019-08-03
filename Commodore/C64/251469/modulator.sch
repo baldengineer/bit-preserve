@@ -29,15 +29,15 @@ COMP_OUT
 $Comp
 L power_more:UNREG+9V #PWR0151
 U 1 1 5D3D43C5
-P -2000 9100
+P -1650 8650
 AR Path="/5D262D6A/5D3D43C5" Ref="#PWR0151"  Part="1" 
 AR Path="/5D3AF8EC/5D62A4C4/5D3D43C5" Ref="#PWR0156"  Part="1" 
-F 0 "#PWR0156" H -2000 8950 50  0001 C CNN
-F 1 "UNREG+9V" H -1985 9273 50  0000 C CNN
-F 2 "" H -2000 9100 50  0001 C CNN
-F 3 "" H -2000 9100 50  0001 C CNN
-	1    -2000 9100
-	1    0    0    -1  
+F 0 "#PWR0156" H -1650 8500 50  0001 C CNN
+F 1 "UNREG+9V" H -1635 8823 50  0000 C CNN
+F 2 "" H -1650 8650 50  0001 C CNN
+F 3 "" H -1650 8650 50  0001 C CNN
+	1    -1650 8650
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:L_Core_Ferrite RFL1
@@ -1692,4 +1692,7 @@ Wire Wire Line
 Connection ~ 3650 9600
 Wire Wire Line
 	3650 9600 5600 9600
+Text Notes -1750 8550 0    50   ~ 0
+TODO double check power source
+NoConn ~ 2150 5750
 $EndSCHEMATC

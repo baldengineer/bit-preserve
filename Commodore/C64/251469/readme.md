@@ -17,6 +17,7 @@ Initial capture complete. The entire C64B schematic, including the RF modulator,
 
 ### Issues
  0) ERC ladybug far from happy yet. Working on removing those issues.
+ 0) Inductor component values from RF modulator not known (not in service manual) - try and get them from an actual RF can.
 
 ## Sources
 
