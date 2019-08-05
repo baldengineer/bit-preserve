@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -90,6 +90,8 @@ F 0 "C9" V 2900 1300 50  0000 L CNN
 F 1 "0.1 μF" V 3100 1200 50  0000 L CNN
 F 2 "" H 3000 1350 50  0001 C CNN
 F 3 "~" H 3000 1350 50  0001 C CNN
+F 4 "Ceramic" H 3000 1350 50  0001 C CNN "Type"
+F 5 "25V" H 3000 1350 50  0001 C CNN "Voltage Rating"
 	1    3000 1350
 	0    1    1    0   
 $EndComp

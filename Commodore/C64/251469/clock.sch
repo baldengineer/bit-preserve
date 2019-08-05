@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -144,6 +144,7 @@ F 1 "0.1 μF" H 1115 3900 50  0000 L CNN
 F 2 "" H 1038 3750 50  0001 C CNN
 F 3 "~" H 1000 3900 50  0001 C CNN
 F 4 "25V" H 1115 3809 50  0000 L CNN "Voltage Rating"
+F 5 "Ceramic" H 1000 3900 50  0001 C CNN "Type"
 	1    1000 3900
 	-1   0    0    -1  
 $EndComp
@@ -212,6 +213,9 @@ F 0 "C58" V 2850 950 50  0000 L CNN
 F 1 "0.22 μF" V 2750 850 50  0000 L CNN
 F 2 "" H 2738 1050 50  0001 C CNN
 F 3 "~" H 2700 1200 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for successor PCB #250466-01)" H 2700 1200 50  0001 C CNN "Note"
+F 5 "Ceramic" H 2700 1200 50  0001 C CNN "Type"
+F 6 "25V" H 2700 1200 50  0001 C CNN "Voltage Rating"
 	1    2700 1200
 	0    -1   -1   0   
 $EndComp

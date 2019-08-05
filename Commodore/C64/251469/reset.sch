@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 17
+Sheet 14 17
 Title "Commodore 64 - Reset Section (schematic #251469)"
 Date "2019-07-16"
 Rev "0.1"
@@ -179,9 +179,11 @@ L Device:C C34
 U 1 1 5D2EFE57
 P 900 1550
 F 0 "C34" H 650 1600 50  0000 L CNN
-F 1 ".1 μF" H 600 1500 50  0000 L CNN
+F 1 "0.1 μF" H 600 1500 50  0000 L CNN
 F 2 "" H 938 1400 50  0001 C CNN
 F 3 "~" H 900 1550 50  0001 C CNN
+F 4 "Ceramic" H 900 1550 50  0001 C CNN "Type"
+F 5 "25V" H 900 1550 50  0001 C CNN "Voltage Rating"
 	1    900  1550
 	1    0    0    -1  
 $EndComp
@@ -190,9 +192,12 @@ L Device:CP C24
 U 1 1 5D2F02F1
 P 2300 1950
 F 0 "C24" H 2350 2050 50  0000 L CNN
-F 1 "10 μF" H 2350 1850 50  0000 L CNN
+F 1 "22 μF" H 2350 1850 50  0000 L CNN
 F 2 "" H 2338 1800 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
+F 4 "Electrolytic" H 2300 1950 50  0001 C CNN "Type"
+F 5 "25V" H 2300 1950 50  0001 C CNN "Voltage Rating"
+F 6 "+50% / -10%" H 2300 1950 50  0001 C CNN "Voltage Tolerance"
 	1    2300 1950
 	1    0    0    -1  
 $EndComp
@@ -295,6 +300,8 @@ F 0 "C39" V 1750 900 50  0000 L CNN
 F 1 "0.1 μF" V 1950 850 50  0000 L CNN
 F 2 "" H 1850 950 50  0001 C CNN
 F 3 "~" H 1850 950 50  0001 C CNN
+F 4 "Ceramic" H 1850 950 50  0001 C CNN "Type"
+F 5 "25V" H 1850 950 50  0001 C CNN "Voltage Rating"
 	1    1850 950 
 	0    1    1    0   
 $EndComp

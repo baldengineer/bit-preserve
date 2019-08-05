@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -28,6 +28,9 @@ F 0 "C30" V 6850 800 50  0000 L CNN
 F 1 "0.1 μF" V 7050 700 50  0000 L CNN
 F 2 "" H 6950 850 50  0001 C CNN
 F 3 "~" H 6950 850 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 6950 850 50  0001 C CNN "Note"
+F 5 "Ceramic" H 6950 850 50  0001 C CNN "Type"
+F 6 "25V" H 6950 850 50  0001 C CNN "Voltage Rating"
 	1    6950 850 
 	0    1    1    0   
 $EndComp
@@ -132,6 +135,9 @@ F 0 "C28" H 3700 3650 50  0000 L CNN
 F 1 "0.1 μF" H 3600 3550 50  0000 L CNN
 F 2 "" H 3950 3650 50  0001 C CNN
 F 3 "~" H 3950 3650 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 3950 3650 50  0001 C CNN "Note"
+F 5 "Ceramic" H 3950 3650 50  0001 C CNN "Type"
+F 6 "25V" H 3950 3650 50  0001 C CNN "Voltage Rating"
 	1    3950 3650
 	1    0    0    -1  
 $EndComp
@@ -212,6 +218,8 @@ F 0 "C43" H 4600 3650 50  0000 L CNN
 F 1 "0.1 μF" H 4500 3550 50  0000 L CNN
 F 2 "" H 4850 3650 50  0001 C CNN
 F 3 "~" H 4850 3650 50  0001 C CNN
+F 4 "Ceramic" H 4850 3650 50  0001 C CNN "Type"
+F 5 "25V" H 4850 3650 50  0001 C CNN "Voltage Rating"
 	1    4850 3650
 	1    0    0    -1  
 $EndComp
@@ -310,6 +318,9 @@ F 0 "C27" H 5500 3650 50  0000 L CNN
 F 1 "0.1 μF" H 5400 3550 50  0000 L CNN
 F 2 "" H 5750 3650 50  0001 C CNN
 F 3 "~" H 5750 3650 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 5750 3650 50  0001 C CNN "Note"
+F 5 "Ceramic" H 5750 3650 50  0001 C CNN "Type"
+F 6 "25V" H 5750 3650 50  0001 C CNN "Voltage Rating"
 	1    5750 3650
 	1    0    0    -1  
 $EndComp
@@ -391,6 +402,8 @@ F 0 "C42" H 6400 3650 50  0000 L CNN
 F 1 "0.1 μF" H 6300 3550 50  0000 L CNN
 F 2 "" H 6650 3650 50  0001 C CNN
 F 3 "~" H 6650 3650 50  0001 C CNN
+F 4 "Ceramic" H 6650 3650 50  0001 C CNN "Type"
+F 5 "25V" H 6650 3650 50  0001 C CNN "Voltage Rating"
 	1    6650 3650
 	1    0    0    -1  
 $EndComp
@@ -507,6 +520,9 @@ F 0 "C26" H 7300 3650 50  0000 L CNN
 F 1 "0.1 μF" H 7200 3550 50  0000 L CNN
 F 2 "" H 7550 3650 50  0001 C CNN
 F 3 "~" H 7550 3650 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 7550 3650 50  0001 C CNN "Note"
+F 5 "Ceramic" H 7550 3650 50  0001 C CNN "Type"
+F 6 "25V" H 7550 3650 50  0001 C CNN "Voltage Rating"
 	1    7550 3650
 	1    0    0    -1  
 $EndComp
@@ -808,6 +824,8 @@ F 0 "C40" H 10000 3650 50  0000 L CNN
 F 1 "0.1 μF" H 9900 3550 50  0000 L CNN
 F 2 "" H 10250 3650 50  0001 C CNN
 F 3 "~" H 10250 3650 50  0001 C CNN
+F 4 "Ceramic" H 10250 3650 50  0001 C CNN "Type"
+F 5 "25V" H 10250 3650 50  0001 C CNN "Voltage Rating"
 	1    10250 3650
 	1    0    0    -1  
 $EndComp
@@ -922,6 +940,9 @@ F 0 "C25" H 9100 3650 50  0000 L CNN
 F 1 "0.1 μF" H 9000 3550 50  0000 L CNN
 F 2 "" H 9350 3650 50  0001 C CNN
 F 3 "~" H 9350 3650 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 9350 3650 50  0001 C CNN "Note"
+F 5 "Ceramic" H 9350 3650 50  0001 C CNN "Type"
+F 6 "25V" H 9350 3650 50  0001 C CNN "Voltage Rating"
 	1    9350 3650
 	1    0    0    -1  
 $EndComp
@@ -1354,6 +1375,8 @@ F 0 "C41" H 8200 3650 50  0000 L CNN
 F 1 "0.1 μF" H 8100 3550 50  0000 L CNN
 F 2 "" H 8450 3650 50  0001 C CNN
 F 3 "~" H 8450 3650 50  0001 C CNN
+F 4 "Ceramic" H 8450 3650 50  0001 C CNN "Type"
+F 5 "25V" H 8450 3650 50  0001 C CNN "Voltage Rating"
 	1    8450 3650
 	1    0    0    -1  
 $EndComp
@@ -1536,6 +1559,9 @@ F 0 "C29" V 1850 1050 50  0000 L CNN
 F 1 "0.1 μF" V 2050 950 50  0000 L CNN
 F 2 "" H 1950 1100 50  0001 C CNN
 F 3 "~" H 1950 1100 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 1950 1100 50  0001 C CNN "Note"
+F 5 "Ceramic" H 1950 1100 50  0001 C CNN "Type"
+F 6 "25V" H 1950 1100 50  0001 C CNN "Voltage Rating"
 	1    1950 1100
 	0    1    1    0   
 $EndComp
@@ -1640,6 +1666,9 @@ F 0 "C204" H 2850 6600 50  0000 L CNN
 F 1 "150 pF" H 3250 6600 50  0000 L CNN
 F 2 "" H 3150 6600 50  0001 C CNN
 F 3 "~" H 3150 6600 50  0001 C CNN
+F 4 "Ceramic" H 3150 6600 50  0001 C CNN "Type"
+F 5 "50V" H 3150 6600 50  0001 C CNN "Voltage Rating"
+F 6 "10%" H 3150 6600 50  0001 C CNN "Voltage Tolerance"
 	1    3150 6600
 	1    0    0    -1  
 $EndComp
@@ -1814,6 +1843,8 @@ F 0 "C45" V 4500 800 50  0000 L CNN
 F 1 "0.1 μF" V 4700 700 50  0000 L CNN
 F 2 "" H 4600 850 50  0001 C CNN
 F 3 "~" H 4600 850 50  0001 C CNN
+F 4 "Ceramic" H 4600 850 50  0001 C CNN "Type"
+F 5 "25V" H 4600 850 50  0001 C CNN "Voltage Rating"
 	1    4600 850 
 	0    1    1    0   
 $EndComp
@@ -2232,6 +2263,8 @@ F 0 "C44" V 1850 3650 50  0000 L CNN
 F 1 "0.1 μF" V 2050 3550 50  0000 L CNN
 F 2 "" H 1950 3700 50  0001 C CNN
 F 3 "~" H 1950 3700 50  0001 C CNN
+F 4 "Ceramic" H 1950 3700 50  0001 C CNN "Type"
+F 5 "25V" H 1950 3700 50  0001 C CNN "Voltage Rating"
 	1    1950 3700
 	0    1    1    0   
 $EndComp
@@ -2309,6 +2342,8 @@ Wire Wire Line
 	3100 5000 3350 5000
 Entry Wire Line
 	3350 5000 3450 4900
+Text Label 1100 3350 0    50   ~ 0
+A[0..7]
 Wire Bus Line
 	7550 1350 7550 3250
 Wire Bus Line
@@ -2341,6 +2376,4 @@ Wire Bus Line
 	1400 6150 10250 6150
 Wire Bus Line
 	3450 3450 3450 4900
-Text Label 1100 3350 0    50   ~ 0
-A[0..7]
 $EndSCHEMATC

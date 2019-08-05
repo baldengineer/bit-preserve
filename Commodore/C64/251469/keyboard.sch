@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -122,6 +122,9 @@ F 0 "C38" V 1600 1200 50  0000 C CNN
 F 1 "51 pF" V 1900 1200 50  0000 C CNN
 F 2 "" H 1788 1050 50  0001 C CNN
 F 3 "~" H 1750 1200 50  0001 C CNN
+F 4 "Ceramic" H 1750 1200 50  0001 C CNN "Type"
+F 5 "50V" H 1750 1200 50  0001 C CNN "Voltage Rating"
+F 6 "5%" H 1750 1200 50  0001 C CNN "Voltage Tolerance"
 	1    1750 1200
 	0    1    1    0   
 $EndComp
@@ -133,6 +136,9 @@ F 0 "C23" H 3515 1846 50  0000 L CNN
 F 1 "360 pF" H 3515 1755 50  0000 L CNN
 F 2 "" H 3438 1650 50  0001 C CNN
 F 3 "~" H 3400 1800 50  0001 C CNN
+F 4 "Ceramic" H 3400 1800 50  0001 C CNN "Type"
+F 5 "50V" H 3400 1800 50  0001 C CNN "Voltage Rating"
+F 6 "10%" H 3400 1800 50  0001 C CNN "Voltage Tolerance"
 	1    3400 1800
 	1    0    0    -1  
 $EndComp

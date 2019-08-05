@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 17
+Sheet 13 17
 Title "Commodore 64 - ROM Section (schematic #251469)"
 Date "2019-07-12"
 Rev "0.1"
@@ -72,6 +72,8 @@ F 0 "C4" V 1850 900 50  0000 L CNN
 F 1 "0.1 μF" V 2050 800 50  0000 L CNN
 F 2 "" H 1950 950 50  0001 C CNN
 F 3 "~" H 1950 950 50  0001 C CNN
+F 4 "Ceramic" H 1950 950 50  0001 C CNN "Type"
+F 5 "25V" H 1950 950 50  0001 C CNN "Voltage Rating"
 	1    1950 950 
 	0    1    1    0   
 $EndComp
@@ -131,6 +133,8 @@ F 0 "C5" V 3400 900 50  0000 L CNN
 F 1 "0.1 μF" V 3600 800 50  0000 L CNN
 F 2 "" H 3500 950 50  0001 C CNN
 F 3 "~" H 3500 950 50  0001 C CNN
+F 4 "Ceramic" H 3500 950 50  0001 C CNN "Type"
+F 5 "25V" H 3500 950 50  0001 C CNN "Voltage Rating"
 	1    3500 950 
 	0    1    1    0   
 $EndComp
@@ -190,6 +194,8 @@ F 0 "C6" V 4950 900 50  0000 L CNN
 F 1 "0.1 μF" V 5150 800 50  0000 L CNN
 F 2 "" H 5050 950 50  0001 C CNN
 F 3 "~" H 5050 950 50  0001 C CNN
+F 4 "Ceramic" H 5050 950 50  0001 C CNN "Type"
+F 5 "25V" H 5050 950 50  0001 C CNN "Voltage Rating"
 	1    5050 950 
 	0    1    1    0   
 $EndComp

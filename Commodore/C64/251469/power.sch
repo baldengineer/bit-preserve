@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -186,6 +186,8 @@ F 1 ".22 μF" V 949 2700 50  0000 C CNN
 F 2 "" H 1238 2550 50  0001 C CNN
 F 3 "~" H 1200 2700 50  0001 C CNN
 F 4 "100V" V 1040 2700 50  0000 C CNN "Voltage Rating"
+F 5 "Film" H 1200 2700 50  0001 C CNN "Type"
+F 6 "20%" H 1200 2700 50  0001 C CNN "Voltage Tolerance"
 	1    1200 2700
 	0    1    1    0   
 $EndComp
@@ -242,6 +244,8 @@ F 1 "100 μF" V 2104 1200 50  0000 C CNN
 F 2 "" H 1888 1050 50  0001 C CNN
 F 3 "~" H 1850 1200 50  0001 C CNN
 F 4 "16V" V 2013 1200 50  0000 C CNN "Voltage Rating"
+F 5 "Electrolytic" H 1850 1200 50  0001 C CNN "Type"
+F 6 "+50% / -10%" H 1850 1200 50  0001 C CNN "Voltage Tolerance"
 	1    1850 1200
 	0    -1   -1   0   
 $EndComp
@@ -371,6 +375,7 @@ F 1 "2200 μF" H 3400 1950 50  0000 L CNN
 F 2 "" H 3788 1900 50  0001 C CNN
 F 3 "~" H 3750 2050 50  0001 C CNN
 F 4 "16V" H 3850 1950 50  0000 C CNN "Voltage Rating"
+F 5 "Electrolytic" H 3750 2050 50  0001 C CNN "Type"
 	1    3750 2050
 	1    0    0    -1  
 $EndComp
@@ -398,6 +403,9 @@ F 0 "C95" H 4250 2150 50  0000 L CNN
 F 1 "0.1 μF" H 4250 1950 50  0000 L CNN
 F 2 "" H 4238 1900 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 4200 2050 50  0001 C CNN "Note"
+F 5 "Ceramic" H 4200 2050 50  0001 C CNN "Type"
+F 6 "25V" H 4200 2050 50  0001 C CNN "Voltage Rating"
 	1    4200 2050
 	1    0    0    -1  
 $EndComp
@@ -422,6 +430,8 @@ F 0 "C103" H 5200 2150 50  0000 L CNN
 F 1 "0.1 μF" H 5200 1950 50  0000 L CNN
 F 2 "" H 5188 1900 50  0001 C CNN
 F 3 "~" H 5150 2050 50  0001 C CNN
+F 4 "Ceramic" H 5150 2050 50  0001 C CNN "Type"
+F 5 "25V" H 5150 2050 50  0001 C CNN "Voltage Rating"
 	1    5150 2050
 	1    0    0    -1  
 $EndComp
@@ -451,7 +461,9 @@ F 0 "C90" H 4000 1500 50  0000 L CNN
 F 1 "470 μF" H 3600 1300 50  0000 L CNN
 F 2 "" H 3988 1250 50  0001 C CNN
 F 3 "~" H 3950 1400 50  0001 C CNN
-F 4 "25V" H 4050 1300 50  0000 C CNN "Voltage Rating"
+F 4 "50V" H 4050 1300 50  0000 C CNN "Voltage Rating"
+F 5 "Electrolytic" H 3950 1400 50  0001 C CNN "Type"
+F 6 "Voltage Rating says 25V in schematic but 50V in parts list" H 3950 1400 50  0001 C CNN "Note"
 	1    3950 1400
 	0    1    1    0   
 $EndComp
@@ -516,6 +528,7 @@ F 1 "1000 μF" H 4500 1050 50  0000 L CNN
 F 2 "" H 4888 1000 50  0001 C CNN
 F 3 "~" H 4850 1150 50  0001 C CNN
 F 4 "25V" H 4950 1050 50  0000 C CNN "Voltage Rating"
+F 5 "Electrolytic" H 4850 1150 50  0001 C CNN "Type"
 	1    4850 1150
 	1    0    0    -1  
 $EndComp
@@ -531,6 +544,8 @@ F 0 "C59" H 6100 1250 50  0000 L CNN
 F 1 "0.1 μF" H 6100 1050 50  0000 L CNN
 F 2 "" H 6088 1000 50  0001 C CNN
 F 3 "~" H 6050 1150 50  0001 C CNN
+F 4 "Ceramic" H 6050 1150 50  0001 C CNN "Type"
+F 5 "25V" H 6050 1150 50  0001 C CNN "Voltage Rating"
 	1    6050 1150
 	1    0    0    -1  
 $EndComp
@@ -545,6 +560,9 @@ F 0 "C89" H 5150 1250 50  0000 L CNN
 F 1 "0.1 μF" H 5150 1050 50  0000 L CNN
 F 2 "" H 5138 1000 50  0001 C CNN
 F 3 "~" H 5100 1150 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 5100 1150 50  0001 C CNN "Note"
+F 5 "Ceramic" H 5100 1150 50  0001 C CNN "Type"
+F 6 "25V" H 5100 1150 50  0001 C CNN "Voltage Rating"
 	1    5100 1150
 	1    0    0    -1  
 $EndComp
@@ -613,6 +631,8 @@ F 0 "C22" V 4200 2900 50  0000 L CNN
 F 1 "0.1 μF" V 4400 2800 50  0000 L CNN
 F 2 "" H 4300 2950 50  0001 C CNN
 F 3 "~" H 4300 2950 50  0001 C CNN
+F 4 "Ceramic" H 4300 2950 50  0001 C CNN "Type"
+F 5 "25V" H 4300 2950 50  0001 C CNN "Voltage Rating"
 	1    4300 2950
 	0    1    1    0   
 $EndComp
@@ -896,6 +916,8 @@ F 0 "C31" V 5100 2900 50  0000 L CNN
 F 1 "0.1 μF" V 5300 2800 50  0000 L CNN
 F 2 "" H 5200 2950 50  0001 C CNN
 F 3 "~" H 5200 2950 50  0001 C CNN
+F 4 "Ceramic" H 5200 2950 50  0001 C CNN "Type"
+F 5 "25V" H 5200 2950 50  0001 C CNN "Voltage Rating"
 	1    5200 2950
 	0    1    1    0   
 $EndComp
@@ -945,6 +967,8 @@ F 0 "C46" V 6750 2900 50  0000 L CNN
 F 1 "0.1 μF" V 6950 2800 50  0000 L CNN
 F 2 "" H 6850 2950 50  0001 C CNN
 F 3 "~" H 6850 2950 50  0001 C CNN
+F 4 "Ceramic" H 6850 2950 50  0001 C CNN "Type"
+F 5 "25V" H 6850 2950 50  0001 C CNN "Voltage Rating"
 	1    6850 2950
 	0    1    1    0   
 $EndComp

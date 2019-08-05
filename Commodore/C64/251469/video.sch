@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +48,9 @@ F 0 "C15" V 3700 2300 50  0000 L CNN
 F 1 "4.7 μF" V 3900 2100 50  0000 L CNN
 F 2 "" H 3750 2250 50  0001 C CNN
 F 3 "~" H 3750 2250 50  0001 C CNN
-F 4 "25V" V 3750 2250 50  0001 C CNN "Voltage Rating"
+F 4 "16V" V 3750 2250 50  0001 C CNN "Voltage Rating"
+F 5 "Tantalum" H 3750 2250 50  0001 C CNN "Type"
+F 6 "20%" H 3750 2250 50  0001 C CNN "Voltage Tolerance"
 	1    3750 2250
 	0    -1   1    0   
 $EndComp
@@ -88,6 +90,9 @@ F 0 "C101" V 3700 2650 50  0000 L CNN
 F 1 "0.1 μF" V 3850 2450 50  0000 L CNN
 F 2 "" H 3750 2600 50  0001 C CNN
 F 3 "~" H 3750 2600 50  0001 C CNN
+F 4 "Ceramic" H 3750 2600 50  0001 C CNN "Type"
+F 5 "50V" H 3750 2600 50  0001 C CNN "Voltage Rating"
+F 6 "+80% / -20%" H 3750 2600 50  0001 C CNN "Voltage Tolerance"
 	1    3750 2600
 	0    -1   1    0   
 $EndComp
@@ -295,6 +300,8 @@ F 0 "C53" V 4150 2550 50  0000 L CNN
 F 1 "0.1 μF" V 4350 2450 50  0000 L CNN
 F 2 "" H 4250 2600 50  0001 C CNN
 F 3 "~" H 4250 2600 50  0001 C CNN
+F 4 "Ceramic" H 4250 2600 50  0001 C CNN "Type"
+F 5 "50V" H 4250 2600 50  0001 C CNN "Voltage Rating"
 	1    4250 2600
 	0    1    1    0   
 $EndComp
@@ -395,6 +402,8 @@ F 0 "C7" V 2450 4300 50  0000 L CNN
 F 1 "0.1 μF" V 2650 4200 50  0000 L CNN
 F 2 "" H 2550 4350 50  0001 C CNN
 F 3 "~" H 2550 4350 50  0001 C CNN
+F 4 "Ceramic" H 2550 4350 50  0001 C CNN "Type"
+F 5 "25V" H 2550 4350 50  0001 C CNN "Voltage Rating"
 	1    2550 4350
 	0    1    1    0   
 $EndComp
