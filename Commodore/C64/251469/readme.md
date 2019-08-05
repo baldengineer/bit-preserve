@@ -10,14 +10,14 @@ Initial capture complete. The entire C64B schematic, including the RF modulator,
 
 ### To Do
  0) Work on issues from issue list (below).
- 0) Clean up layouts where possible. Specifically the main sheet and the RF modulator needs some TLC.
- 0) QA by matching service manual BOM 1-to-1 with BOM from KiCad.
- 0) Re-check KiCad symbol pin numbering on DIN symbols match those of the service manual.
- 0) Invite 3rd party reviews to further increase confidence in correctness.
+ 1) Clean up layouts where possible. Specifically the main sheet and the RF modulator needs some TLC.
+ 2) QA by matching service manual BOM 1-to-1 with BOM from KiCad.
+ 3) Re-check KiCad symbol pin numbering on DIN symbols match those of the service manual.
+ 4) Invite 3rd party reviews to further increase confidence in correctness.
 
 ### Issues
- 0) ERC ladybug far from happy yet. Working on removing those issues.
- 0) Inductor component values from RF modulator not known (not in service manual) - try and get them from an actual RF can.
+ 1) ERC ladybug far from happy yet. Working on removing those issues.
+ 2) Inductor component values from RF modulator not known (not in service manual) - try and get them from an actual RF can.
 
 ## Sources
 
