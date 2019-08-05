@@ -67,6 +67,7 @@ F 1 "470" V 1600 1825 50  0000 L CNN
 F 2 "" V 1530 1900 50  0001 C CNN
 F 3 "~" H 1600 1900 50  0001 C CNN
 F 4 "0.5 W" H 1800 1850 50  0000 C CNN "Power Rating"
+F 5 "5%" H 1600 1900 50  0001 C CNN "Ohmic Tolerance"
 	1    1600 1900
 	1    0    0    -1  
 $EndComp
@@ -123,6 +124,8 @@ F 0 "R4" V 1000 2300 50  0000 L CNN
 F 1 "1k" V 1100 2300 50  0000 L CNN
 F 2 "" V 1030 2350 50  0001 C CNN
 F 3 "~" H 1100 2350 50  0001 C CNN
+F 4 "0.25 W" H 1100 2350 50  0001 C CNN "Power Rating"
+F 5 "5%" H 1100 2350 50  0001 C CNN "Ohmic Tolerance"
 	1    1100 2350
 	0    1    1    0   
 $EndComp
@@ -416,6 +419,8 @@ F 0 "R60" V 2450 950 50  0000 L CNN
 F 1 "100" V 2500 1125 50  0000 L CNN
 F 2 "" V 2430 1200 50  0001 C CNN
 F 3 "~" H 2500 1200 50  0001 C CNN
+F 4 "0.25 W" H 2500 1200 50  0001 C CNN "Power Rating"
+F 5 "5%" H 2500 1200 50  0001 C CNN "Ohmic Tolerance"
 	1    2500 1200
 	0    1    1    0   
 $EndComp
@@ -444,6 +449,8 @@ F 0 "R1" H 2000 1050 50  0000 L CNN
 F 1 "3k3" V 2100 825 50  0000 L CNN
 F 2 "" V 2030 900 50  0001 C CNN
 F 3 "~" H 2100 900 50  0001 C CNN
+F 4 "0.25 W" H 2100 900 50  0001 C CNN "Power Rating"
+F 5 "5%" H 2100 900 50  0001 C CNN "Ohmic Tolerance"
 	1    2100 900 
 	1    0    0    -1  
 $EndComp

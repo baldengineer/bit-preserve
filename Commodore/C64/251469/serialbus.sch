@@ -79,6 +79,9 @@ F 0 "R30" V 1875 1000 50  0000 L CNN
 F 1 "1k" V 1950 1000 50  0000 L CNN
 F 2 "" V 1880 1050 50  0001 C CNN
 F 3 "~" H 1950 1050 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 1950 1050 50  0001 C CNN "Note"
+F 5 "0.25 W" H 1950 1050 50  0001 C CNN "Power Rating"
+F 6 "5%" H 1950 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    1950 1050
 	1    0    0    -1  
 $EndComp
@@ -92,6 +95,9 @@ F 0 "R29" V 2075 1000 50  0000 L CNN
 F 1 "1k" V 2150 1000 50  0000 L CNN
 F 2 "" V 2080 1050 50  0001 C CNN
 F 3 "~" H 2150 1050 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 2150 1050 50  0001 C CNN "Note"
+F 5 "0.25 W" H 2150 1050 50  0001 C CNN "Power Rating"
+F 6 "5%" H 2150 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    2150 1050
 	1    0    0    -1  
 $EndComp
@@ -135,6 +141,9 @@ F 0 "R28" V 1675 1000 50  0000 L CNN
 F 1 "1k" V 1750 1000 50  0000 L CNN
 F 2 "" V 1680 1050 50  0001 C CNN
 F 3 "~" H 1750 1050 50  0001 C CNN
+F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 1750 1050 50  0001 C CNN "Note"
+F 5 "0.25 W" H 1750 1050 50  0001 C CNN "Power Rating"
+F 6 "5%" H 1750 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    1750 1050
 	1    0    0    -1  
 $EndComp

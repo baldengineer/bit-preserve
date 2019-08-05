@@ -97,6 +97,8 @@ F 0 "R39" V 3050 3300 50  0000 C CNN
 F 1 "390" V 3150 3300 50  0000 C CNN
 F 2 "" V 3080 3300 50  0001 C CNN
 F 3 "~" H 3150 3300 50  0001 C CNN
+F 4 "0.25 W" H 3150 3300 50  0001 C CNN "Power Rating"
+F 5 "5%" H 3150 3300 50  0001 C CNN "Ohmic Tolerance"
 	1    3150 3300
 	-1   0    0    1   
 $EndComp
