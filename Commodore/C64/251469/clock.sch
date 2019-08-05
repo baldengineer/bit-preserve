@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 17 17
 Title "Commodore 64 - Clock section (schematic #251469)"
 Date "2019-07-26"
 Rev "0.1"
@@ -264,17 +264,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 1700 3300 1700
 Wire Wire Line
-	2600 1400 2550 1400
-Wire Wire Line
 	2500 2500 2550 2500
 Wire Wire Line
-	2550 1400 2550 1200
-Connection ~ 2550 1400
-Wire Wire Line
-	2550 1400 2500 1400
-Wire Wire Line
 	2550 800  2550 850 
-Connection ~ 2550 1200
 Wire Wire Line
 	2550 1200 2550 1150
 $Comp
@@ -376,4 +368,27 @@ Wire Wire Line
 	2000 1600 1900 1600
 Wire Wire Line
 	1900 1600 1900 950 
+Wire Wire Line
+	2500 1400 2500 1350
+Wire Wire Line
+	2500 1350 2550 1350
+Wire Wire Line
+	2600 1350 2600 1400
+Wire Wire Line
+	2550 1350 2550 1200
+Connection ~ 2550 1350
+Wire Wire Line
+	2550 1350 2600 1350
+Connection ~ 2550 1200
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D5FD99D
+P 2550 1200
+F 0 "#FLG0101" H 2550 1275 50  0001 C CNN
+F 1 "PWR_FLAG" V 2550 1327 50  0000 L CNN
+F 2 "" H 2550 1200 50  0001 C CNN
+F 3 "~" H 2550 1200 50  0001 C CNN
+	1    2550 1200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

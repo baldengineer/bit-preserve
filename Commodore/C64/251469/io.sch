@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -18,6 +18,8 @@ $Comp
 L Interface_Expansion_MOSTechnology:6526 U1
 U 1 1 5D94A940
 P 2300 3850
+AR Path="/5D94A940" Ref="U1"  Part="1" 
+AR Path="/5D943305/5D94A940" Ref="U1"  Part="1" 
 F 0 "U1" H 2000 5800 50  0000 L CNN
 F 1 "6526" H 2600 5800 50  0000 R CNN
 F 2 "" H 2300 4250 50  0001 C CNN
@@ -29,6 +31,8 @@ $Comp
 L Interface_Expansion_MOSTechnology:6526 U2
 U 1 1 5D94C592
 P 5800 3850
+AR Path="/5D94C592" Ref="U2"  Part="1" 
+AR Path="/5D943305/5D94C592" Ref="U2"  Part="1" 
 F 0 "U2" H 5500 5800 50  0000 L CNN
 F 1 "6526" H 6100 5800 50  0000 R CNN
 F 2 "" H 5800 4250 50  0001 C CNN
@@ -51,19 +55,6 @@ F 3 "" H 5800 5900 50  0001 C CNN
 	1    5800 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0158
-U 1 1 5D9B62EC
-P 2300 5900
-F 0 "#PWR0158" H 2300 5650 50  0001 C CNN
-F 1 "GND" H 2305 5727 50  0001 C CNN
-F 2 "" H 2300 5900 50  0001 C CNN
-F 3 "" H 2300 5900 50  0001 C CNN
-	1    2300 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5900 2300 5850
 Wire Wire Line
 	5800 5850 5800 5900
 $Comp
@@ -963,6 +954,19 @@ Wire Wire Line
 	3350 2050 3350 7000
 Wire Wire Line
 	3250 2150 3250 7100
+$Comp
+L power:GND #PWR0158
+U 1 1 5D654374
+P 2300 5900
+F 0 "#PWR0158" H 2300 5650 50  0001 C CNN
+F 1 "GND" H 2305 5727 50  0001 C CNN
+F 2 "" H 2300 5900 50  0001 C CNN
+F 3 "" H 2300 5900 50  0001 C CNN
+	1    2300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5850 2300 5900
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
