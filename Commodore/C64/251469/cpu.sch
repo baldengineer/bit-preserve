@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -16,9 +16,9 @@ Comment4 "KiCad schematic capture by Cumbayah! <cumbayah@subetha.dk>"
 $EndDescr
 Text HLabel 3550 950  1    50   Output ~ 0
 A[0..15]
-Text HLabel 3750 950  1    50   BiDi ~ 0
+Text HLabel 4300 950  1    50   BiDi ~ 0
 D[0..7]
-Text HLabel 3650 950  1    50   BiDi ~ 0
+Text HLabel 4150 950  1    50   BiDi ~ 0
 P[0..5]
 Text HLabel 4100 5350 2    50   Output ~ 0
 ϕ2
@@ -235,89 +235,63 @@ Wire Wire Line
 Wire Wire Line
 	3250 3250 3450 3250
 Wire Wire Line
-	3250 3450 3550 3450
-Wire Wire Line
-	3250 3550 3550 3550
-Wire Wire Line
-	3250 3650 3550 3650
-Wire Wire Line
-	3250 3750 3550 3750
-Wire Wire Line
-	3250 3850 3550 3850
-Wire Wire Line
-	3250 3950 3550 3950
-Wire Wire Line
-	3250 4150 3650 4150
-Wire Wire Line
-	3250 4850 3650 4850
-Wire Wire Line
-	3250 4750 3650 4750
-Wire Wire Line
-	3250 4650 3650 4650
-Wire Wire Line
-	3250 4550 3650 4550
-Wire Wire Line
-	3250 4450 3650 4450
-Wire Wire Line
-	3250 4350 3650 4350
-Wire Wire Line
-	3250 4250 3650 4250
-Text Label 3650 4850 2    50   ~ 0
+	3250 3450 3700 3450
+Text Label 4150 4850 2    50   ~ 0
 D7
-Text Label 3650 4750 2    50   ~ 0
+Text Label 4150 4750 2    50   ~ 0
 D6
-Text Label 3650 4650 2    50   ~ 0
+Text Label 4150 4650 2    50   ~ 0
 D5
-Text Label 3650 4550 2    50   ~ 0
+Text Label 4150 4550 2    50   ~ 0
 D4
-Text Label 3650 4450 2    50   ~ 0
+Text Label 4150 4450 2    50   ~ 0
 D3
-Text Label 3650 4350 2    50   ~ 0
+Text Label 4150 4350 2    50   ~ 0
 D2
-Text Label 3650 4250 2    50   ~ 0
+Text Label 4150 4250 2    50   ~ 0
 D1
-Text Label 3650 4150 2    50   ~ 0
+Text Label 4150 4150 2    50   ~ 0
 D0
 Entry Wire Line
-	3650 4150 3750 4050
+	4200 4150 4300 4050
 Entry Wire Line
-	3650 4250 3750 4150
+	4200 4250 4300 4150
 Entry Wire Line
-	3650 4850 3750 4750
+	4200 4850 4300 4750
 Entry Wire Line
-	3650 4750 3750 4650
+	4200 4750 4300 4650
 Entry Wire Line
-	3650 4650 3750 4550
+	4200 4650 4300 4550
 Entry Wire Line
-	3650 4550 3750 4450
+	4200 4550 4300 4450
 Entry Wire Line
-	3650 4450 3750 4350
+	4200 4450 4300 4350
 Entry Wire Line
-	3650 4350 3750 4250
-Text Label 3550 3950 2    50   ~ 0
+	4200 4350 4300 4250
+Text Label 4050 3950 2    50   ~ 0
 P5
-Text Label 3550 3850 2    50   ~ 0
+Text Label 4050 3850 2    50   ~ 0
 P4
-Text Label 3550 3750 2    50   ~ 0
+Text Label 4050 3750 2    50   ~ 0
 P3
-Text Label 3550 3650 2    50   ~ 0
+Text Label 4050 3650 2    50   ~ 0
 P2
-Text Label 3550 3550 2    50   ~ 0
+Text Label 4050 3550 2    50   ~ 0
 P1
-Text Label 3550 3450 2    50   ~ 0
+Text Label 4050 3450 2    50   ~ 0
 P0
 Entry Wire Line
-	3550 3450 3650 3350
+	4050 3450 4150 3350
 Entry Wire Line
-	3550 3550 3650 3450
+	4050 3550 4150 3450
 Entry Wire Line
-	3550 3650 3650 3550
+	4050 3650 4150 3550
 Entry Wire Line
-	3550 3750 3650 3650
+	4050 3750 4150 3650
 Entry Wire Line
-	3550 3850 3650 3750
+	4050 3850 4150 3750
 Entry Wire Line
-	3550 3950 3650 3850
+	4050 3950 4150 3850
 Wire Wire Line
 	2200 5150 2450 5150
 Wire Wire Line
@@ -370,10 +344,131 @@ F 3 "" H 2850 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 5550 2850 5600
+$Comp
+L Device:R_Small R44
+U 1 1 5D4BF8F5
+P 3800 3150
+F 0 "R44" V 3750 2900 50  0000 L CNN
+F 1 "3k3" V 3800 3100 30  0000 L CNN
+F 2 "" H 3800 3150 50  0001 C CNN
+F 3 "~" H 3800 3150 50  0001 C CNN
+F 4 "5%" H 3800 3150 50  0001 C CNN "Ohmic Tolerance"
+F 5 "0.25 W" H 3800 3150 50  0001 C CNN "Power Rating"
+	1    3800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4C0DC7
+P 3800 2950
+AR Path="/5D4C0DC7" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D4C0DC7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D4C0DC7" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AF8EC/5D4C0DC7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4581BB/5D4C0DC7" Ref="#PWR0261"  Part="1" 
+F 0 "#PWR0261" H 3800 2800 50  0001 C CNN
+F 1 "+5V" H 3700 3100 50  0000 L CNN
+F 2 "" H 3800 2950 50  0001 C CNN
+F 3 "" H 3800 2950 50  0001 C CNN
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2950 3800 3000
+$Comp
+L Device:R_Small R43
+U 1 1 5D4C889C
+P 3900 3150
+F 0 "R43" V 3850 2900 50  0000 L CNN
+F 1 "3k3" V 3900 3100 30  0000 L CNN
+F 2 "" H 3900 3150 50  0001 C CNN
+F 3 "~" H 3900 3150 50  0001 C CNN
+F 4 "5%" H 3900 3150 50  0001 C CNN "Ohmic Tolerance"
+F 5 "0.25 W" H 3900 3150 50  0001 C CNN "Power Rating"
+	1    3900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R45
+U 1 1 5D4C8B57
+P 3700 3150
+F 0 "R45" V 3650 2900 50  0000 L CNN
+F 1 "3k3" V 3700 3100 30  0000 L CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "~" H 3700 3150 50  0001 C CNN
+F 4 "5%" H 3700 3150 50  0001 C CNN "Ohmic Tolerance"
+F 5 "0.25 W" H 3700 3150 50  0001 C CNN "Power Rating"
+	1    3700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3050 3700 3000
+Wire Wire Line
+	3700 3000 3800 3000
+Connection ~ 3800 3000
+Wire Wire Line
+	3800 3000 3800 3050
+Wire Wire Line
+	3800 3000 3900 3000
+Wire Wire Line
+	3900 3000 3900 3050
+Wire Wire Line
+	3250 3750 4050 3750
+Wire Wire Line
+	3250 3850 4050 3850
+Wire Wire Line
+	3250 3950 4050 3950
+Text Notes 3300 3450 0    50   ~ 0
+~LORAM
+Text Notes 3300 3550 0    50   ~ 0
+~HIRAM
+Text Notes 3300 3650 0    50   ~ 0
+~CHAREN
+Text Notes 3300 3750 0    50   ~ 0
+CASS WRT
+Text Notes 3300 3850 0    50   ~ 0
+CASS SENSE
+Text Notes 3300 3950 0    50   ~ 0
+CASS MOTOR
+Wire Wire Line
+	3700 3250 3700 3450
+Connection ~ 3700 3450
+Wire Wire Line
+	3700 3450 4050 3450
+Wire Wire Line
+	3800 3250 3800 3550
+Wire Wire Line
+	3250 3550 3800 3550
+Connection ~ 3800 3550
+Wire Wire Line
+	3800 3550 4050 3550
+Wire Wire Line
+	3900 3250 3900 3650
+Wire Wire Line
+	3250 3650 3900 3650
+Connection ~ 3900 3650
+Wire Wire Line
+	3900 3650 4050 3650
+Wire Wire Line
+	3250 4150 4200 4150
+Wire Wire Line
+	3250 4250 4200 4250
+Wire Wire Line
+	3250 4350 4200 4350
+Wire Wire Line
+	3250 4450 4200 4450
+Wire Wire Line
+	3250 4550 4200 4550
+Wire Wire Line
+	3250 4650 4200 4650
+Wire Wire Line
+	3250 4750 4200 4750
+Wire Wire Line
+	3250 4850 4200 4850
 Wire Bus Line
-	3650 950  3650 3850
+	4150 950  4150 3850
 Wire Bus Line
-	3750 950  3750 4750
+	4300 950  4300 4750
 Wire Bus Line
 	3550 950  3550 3150
 $EndSCHEMATC
