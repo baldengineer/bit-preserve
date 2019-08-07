@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -357,6 +357,7 @@ F 0 "U6" H 2150 6100 50  0000 L CNN
 F 1 "2114" H 2650 6100 50  0000 R CNN
 F 2 "" H 1900 6250 50  0001 C CNN
 F 3 "https://archive.org/download/tms2114datasheetaug83/TMS2114-Datasheet_Aug83.pdf" H 1900 6250 50  0001 C CNN
+F 4 "200ns" H 2400 5350 50  0001 C CNN "Access Time"
 	1    2400 5350
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -24,6 +24,7 @@ F 0 "U8" H 1350 2550 50  0000 C CNN
 F 1 "7406" H 1375 2250 50  0000 C CNN
 F 2 "" H 1350 2400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 1350 2400 50  0001 C CNN
+F 4 "7416" H 1350 2400 50  0001 C CNN "Substitute"
 	1    1350 2400
 	1    0    0    -1  
 $EndComp

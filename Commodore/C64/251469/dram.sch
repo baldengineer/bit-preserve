@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -385,6 +385,7 @@ F 0 "U11" H 5600 5600 50  0000 L CNN
 F 1 "4164" H 5900 5600 50  0000 L CNN
 F 2 "" H 5850 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 5850 5450 50  0001 C CNN
+F 4 "200ns" H 5850 4750 50  0001 C CNN "Access Time"
 	1    5850 4750
 	1    0    0    -1  
 $EndComp
@@ -599,6 +600,7 @@ F 0 "U24" H 4700 5600 50  0000 L CNN
 F 1 "4164" H 5000 5600 50  0000 L CNN
 F 2 "" H 4950 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 4950 5450 50  0001 C CNN
+F 4 "200ns" H 4950 4750 50  0001 C CNN "Access Time"
 	1    4950 4750
 	1    0    0    -1  
 $EndComp
@@ -694,6 +696,7 @@ F 0 "U23" H 6500 5600 50  0000 L CNN
 F 1 "4164" H 6800 5600 50  0000 L CNN
 F 2 "" H 6750 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 6750 5450 50  0001 C CNN
+F 4 "200ns" H 6750 4750 50  0001 C CNN "Access Time"
 	1    6750 4750
 	1    0    0    -1  
 $EndComp
@@ -1000,6 +1003,7 @@ F 0 "U22" H 8300 5600 50  0000 L CNN
 F 1 "4164" H 8600 5600 50  0000 L CNN
 F 2 "" H 8550 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 8550 5450 50  0001 C CNN
+F 4 "200ns" H 8550 4750 50  0001 C CNN "Access Time"
 	1    8550 4750
 	1    0    0    -1  
 $EndComp
@@ -1064,6 +1068,7 @@ F 0 "U10" H 7400 5600 50  0000 L CNN
 F 1 "4164" H 7700 5600 50  0000 L CNN
 F 2 "" H 7650 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 7650 5450 50  0001 C CNN
+F 4 "200ns" H 7650 4750 50  0001 C CNN "Access Time"
 	1    7650 4750
 	1    0    0    -1  
 $EndComp
@@ -1143,6 +1148,7 @@ F 0 "U9" H 9200 5600 50  0000 L CNN
 F 1 "4164" H 9500 5600 50  0000 L CNN
 F 2 "" H 9450 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 9450 5450 50  0001 C CNN
+F 4 "200ns" H 9450 4750 50  0001 C CNN "Access Time"
 	1    9450 4750
 	1    0    0    -1  
 $EndComp
@@ -1158,6 +1164,7 @@ F 0 "U21" H 10100 5600 50  0000 L CNN
 F 1 "4164" H 10400 5600 50  0000 L CNN
 F 2 "" H 10350 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 10350 5450 50  0001 C CNN
+F 4 "200ns" H 10350 4750 50  0001 C CNN "Access Time"
 	1    10350 4750
 	1    0    0    -1  
 $EndComp
@@ -1177,6 +1184,7 @@ F 0 "U12" H 3800 5600 50  0000 L CNN
 F 1 "4164" H 4100 5600 50  0000 L CNN
 F 2 "" H 4050 5450 50  0001 C CNN
 F 3 "https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf" H 4050 5450 50  0001 C CNN
+F 4 "200ns" H 4050 4750 50  0001 C CNN "Access Time"
 	1    4050 4750
 	1    0    0    -1  
 $EndComp
@@ -2008,6 +2016,7 @@ F 0 "RP2" V 2850 4200 50  0000 C CNN
 F 1 "33" V 2950 4200 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 4075 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4200 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 4200 50  0001 C CNN "Note"
 	1    2950 4200
 	0    1    1    0   
 $EndComp
@@ -2021,6 +2030,7 @@ F 0 "RP1" V 2850 5000 50  0000 C CNN
 F 1 "33" V 2950 5000 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 4875 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 5000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 5000 50  0001 C CNN "Note"
 	4    2950 5000
 	0    1    1    0   
 $EndComp
@@ -2090,6 +2100,7 @@ F 0 "RP1" V 2850 4800 50  0000 C CNN
 F 1 "33" V 2950 4800 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 4675 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4800 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 4800 50  0001 C CNN "Note"
 	1    2950 4800
 	0    1    1    0   
 $EndComp
@@ -2103,6 +2114,7 @@ F 0 "RP1" V 2850 4400 50  0000 C CNN
 F 1 "33" V 2950 4400 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 4275 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4400 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 4400 50  0001 C CNN "Note"
 	2    2950 4400
 	0    1    1    0   
 $EndComp
@@ -2116,6 +2128,7 @@ F 0 "RP1" V 2850 4600 50  0000 C CNN
 F 1 "33" V 2950 4600 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 4475 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4600 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 4600 50  0001 C CNN "Note"
 	3    2950 4600
 	0    1    1    0   
 $EndComp
@@ -2129,6 +2142,7 @@ F 0 "RP2" V 2850 3600 50  0000 C CNN
 F 1 "33" V 2950 3600 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 3475 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3600 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 3600 50  0001 C CNN "Note"
 	2    2950 3600
 	0    1    1    0   
 $EndComp
@@ -2142,6 +2156,7 @@ F 0 "RP2" V 2850 4000 50  0000 C CNN
 F 1 "33" V 2950 4000 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 3875 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 4000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 4000 50  0001 C CNN "Note"
 	3    2950 4000
 	0    1    1    0   
 $EndComp
@@ -2155,6 +2170,7 @@ F 0 "RP2" V 2850 3800 50  0000 C CNN
 F 1 "33" V 2950 3800 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP8" H 3000 3675 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2950 3800 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-102-330)" H 2950 3800 50  0001 C CNN "Note"
 	4    2950 3800
 	0    1    1    0   
 $EndComp

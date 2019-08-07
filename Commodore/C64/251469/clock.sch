@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -267,6 +267,7 @@ F 0 "U31" H 2100 2450 50  0000 L CNN
 F 1 "8701" H 3000 2450 50  0000 R CNN
 F 2 "" H 2550 2300 50  0001 C CNN
 F 3 "https://archive.org/download/mos8701datapage/MOS8701-datapage.pdf" H 2550 2300 50  0001 C CNN
+F 4 "7701" H 2550 1950 50  0001 C CNN "Substitute"
 	1    2550 1950
 	1    0    0    -1  
 $EndComp

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:C64B-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -262,6 +262,7 @@ F 0 "RP3" V 875 1000 50  0000 C CNN
 F 1 "3k3" V 1250 1000 30  0000 C CNN
 F 2 "" H 1250 1000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1250 1000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-101-332)" H 1250 1000 50  0001 C CNN "Note"
 	4    1250 1000
 	1    0    0    -1  
 $EndComp
@@ -275,6 +276,7 @@ F 0 "RP3" V 950 1000 50  0000 C CNN
 F 1 "3k3" V 1350 1000 30  0000 C CNN
 F 2 "" H 1350 1000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1350 1000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-101-332)" H 1350 1000 50  0001 C CNN "Note"
 	5    1350 1000
 	1    0    0    -1  
 $EndComp
@@ -288,6 +290,7 @@ F 0 "RP3" V 1025 1000 50  0000 C CNN
 F 1 "3k3" V 1450 1000 30  0000 C CNN
 F 2 "" H 1450 1000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1450 1000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-101-332)" H 1450 1000 50  0001 C CNN "Note"
 	6    1450 1000
 	1    0    0    -1  
 $EndComp
@@ -301,6 +304,7 @@ F 0 "RP3" V 1100 1000 50  0000 C CNN
 F 1 "3k3" V 1550 1000 30  0000 C CNN
 F 2 "" H 1550 1000 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1550 1000 50  0001 C CNN
+F 4 "8 Pin (Bourns No.4308R-101-332)" H 1550 1000 50  0001 C CNN "Note"
 	7    1550 1000
 	1    0    0    -1  
 $EndComp
