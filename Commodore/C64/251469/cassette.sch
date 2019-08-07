@@ -102,6 +102,7 @@ F 0 "Q1" H 2740 2146 50  0000 L CNN
 F 1 "2SD880/TP29B" H 2740 2055 50  0000 L CNN
 F 2 "" H 2750 2200 50  0001 C CNN
 F 3 "https://www.el-component.com/bipolar-transistors/2sd880" H 2550 2100 50  0001 C CNN
+F 4 "TIP29A" H 2550 2100 50  0001 C CNN "Substitute"
 	1    2550 2100
 	1    0    0    -1  
 $EndComp
