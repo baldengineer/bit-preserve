@@ -256,6 +256,7 @@ F 0 "L1" H 2500 1050 50  0000 R CNN
 F 1 "2.2 μH" H 2500 950 50  0000 R CNN
 F 2 "" H 2550 1000 50  0001 C CNN
 F 3 "~" H 2550 1000 50  0001 C CNN
+F 4 "Coil Inductor" H 2550 1000 50  0001 C CNN "Type"
 	1    2550 1000
 	1    0    0    -1  
 $EndComp
