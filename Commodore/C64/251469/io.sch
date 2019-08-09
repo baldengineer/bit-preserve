@@ -332,7 +332,7 @@ Wire Bus Line
 	3000 1000 1100 1000
 Connection ~ 3000 1000
 Wire Bus Line
-	5100 1100 1600 1100
+	5100 1100 3950 1100
 Connection ~ 1600 1100
 Wire Bus Line
 	1600 1100 1100 1100
@@ -976,6 +976,95 @@ F 3 "" H 2300 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 5850 2300 5900
+Connection ~ 3950 1100
+Wire Bus Line
+	3950 1100 1600 1100
+Wire Wire Line
+	4250 1700 4050 1700
+Text Label 4050 1700 0    50   ~ 0
+A12
+Wire Wire Line
+	4250 1800 4050 1800
+Text Label 4050 1800 0    50   ~ 0
+A13
+Wire Wire Line
+	4250 1900 4050 1900
+Text Label 4050 1900 0    50   ~ 0
+A14
+Wire Wire Line
+	4250 2000 4050 2000
+Text Label 4050 2000 0    50   ~ 0
+A15
+Entry Wire Line
+	3950 1600 4050 1700
+Entry Wire Line
+	3950 1700 4050 1800
+Entry Wire Line
+	3950 1800 4050 1900
+Entry Wire Line
+	3950 1900 4050 2000
+$Comp
+L Resistor_Pack:R_Network09_Split RN4
+U 3 1 5D543279
+P 4400 2000
+F 0 "RN4" V 4400 2350 50  0000 C CNN
+F 1 "3k3" V 4400 2000 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 4450 1875 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 2000 50  0001 C CNN
+	3    4400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RN4
+U 5 1 5D54459F
+P 4400 1800
+F 0 "RN4" V 4400 2050 50  0000 L CNN
+F 1 "3k3" V 4400 1750 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 4450 1675 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1800 50  0001 C CNN
+	5    4400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RN4
+U 7 1 5D545B52
+P 4400 1700
+F 0 "RN4" V 4400 1950 50  0000 L CNN
+F 1 "3k3" V 4400 1650 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 4450 1575 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1700 50  0001 C CNN
+	7    4400 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RN4
+U 4 1 5D543E85
+P 4400 1900
+F 0 "RN4" V 4400 2150 50  0000 L CNN
+F 1 "3k3" V 4400 1850 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 4450 1775 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1900 50  0001 C CNN
+	4    4400 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 2000 4600 2000
+Wire Wire Line
+	4600 2000 4600 1900
+Wire Wire Line
+	4550 1700 4600 1700
+Connection ~ 4600 1700
+Wire Wire Line
+	4600 1700 4600 1600
+Wire Wire Line
+	4550 1800 4600 1800
+Connection ~ 4600 1800
+Wire Wire Line
+	4600 1800 4600 1700
+Wire Wire Line
+	4550 1900 4600 1900
+Wire Bus Line
+	3950 1100 3950 1900
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line
@@ -990,4 +1079,22 @@ Wire Bus Line
 	6500 1000 6500 3150
 Wire Bus Line
 	3000 1000 3000 3150
+Connection ~ 4600 1900
+Wire Wire Line
+	4600 1900 4600 1800
+$Comp
+L power:+5V #PWR?
+U 1 1 5D5B174A
+P 4600 1600
+AR Path="/5D5B174A" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D5B174A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D5B174A" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D5B174A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 1450 50  0001 C CNN
+F 1 "+5V" H 4500 1750 50  0000 L CNN
+F 2 "" H 4600 1600 50  0001 C CNN
+F 3 "" H 4600 1600 50  0001 C CNN
+	1    4600 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

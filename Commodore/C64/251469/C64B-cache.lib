@@ -1687,6 +1687,43 @@ X R7 8 0 -150 80 U 50 50 7 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_Pack_R_Network09_Split
+#
+DEF Resistor_Pack_R_Network09_Split RN 0 40 Y N 9 F N
+F0 "RN" 50 25 50 H V L CNN
+F1 "Resistor_Pack_R_Network09_Split" 50 -50 50 H V L CNN
+F2 "Resistor_THT:R_Array_SIP10" 50 -125 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R?Array?SIP*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+S -30 70 30 -70 2 1 8 N
+S -30 70 30 -70 3 1 8 N
+S -30 70 30 -70 4 1 8 N
+S -30 70 30 -70 5 1 8 N
+S -30 70 30 -70 6 1 8 N
+S -30 70 30 -70 7 1 8 N
+X common 1 0 150 80 D 50 50 0 0 P
+X R1 2 0 -150 80 U 50 50 1 1 P
+X common 1 0 150 80 D 50 50 2 1 P
+X R2 3 0 -150 80 U 50 50 2 1 P
+X common 1 0 150 80 D 50 50 3 1 P
+X R3 4 0 -150 80 U 50 50 3 1 P
+X common 1 0 150 80 D 50 50 4 1 P
+X R4 5 0 -150 80 U 50 50 4 1 P
+X common 1 0 150 80 D 50 50 5 1 P
+X R5 6 0 -150 80 U 50 50 5 1 P
+X common 1 0 150 80 D 50 50 6 1 P
+X R6 7 0 -150 80 U 50 50 6 1 P
+X common 1 0 150 80 D 50 50 7 1 P
+X R7 8 0 -150 80 U 50 50 7 1 P
+X R8 9 0 -150 80 U 50 50 8 1 P
+X R9 10 0 -150 80 U 50 50 9 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_Pack_R_Pack04_SIP_Split
 #
 DEF Resistor_Pack_R_Pack04_SIP_Split RN 0 40 Y N 4 F N
