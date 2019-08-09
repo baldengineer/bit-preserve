@@ -24,6 +24,7 @@ F 0 "VR2" H 4600 2000 50  0000 L CNN
 F 1 "7805" H 5000 2000 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 2075 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 4800 1800 50  0001 C CNN
+F 4 "MC7805CT" H 4800 1850 50  0001 C CNN "Substitute"
 	1    4800 1850
 	1    0    0    -1  
 $EndComp
@@ -37,6 +38,7 @@ F 0 "VR1" H 5400 1150 50  0000 L CNN
 F 1 "7812" H 5800 1150 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5600 1225 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5600 950 50  0001 C CNN
+F 4 "MC7812CT" H 5600 1000 50  0001 C CNN "Substitute"
 	1    5600 1000
 	1    0    0    -1  
 $EndComp
