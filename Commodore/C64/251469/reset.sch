@@ -66,7 +66,7 @@ F 0 "R34" H 2350 1150 50  0000 L CNN
 F 1 "47k" V 2300 1050 50  0000 L CNN
 F 2 "" V 2230 1100 50  0001 C CNN
 F 3 "~" H 2300 1100 50  0001 C CNN
-F 4 "0.25 W" H 2300 1100 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 2300 1100 50  0001 C CNN "Power Rating"
 F 5 "5%" H 2300 1100 50  0001 C CNN "Ohmic Tolerance"
 	1    2300 1100
 	1    0    0    -1  
@@ -80,7 +80,7 @@ F 1 "1k" V 3350 1050 50  0000 L CNN
 F 2 "" V 3280 1100 50  0001 C CNN
 F 3 "~" H 3350 1100 50  0001 C CNN
 F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 3350 1100 50  0001 C CNN "Note"
-F 5 "0.25 W" H 3350 1100 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3350 1100 50  0001 C CNN "Power Rating"
 F 6 "5%" H 3350 1100 50  0001 C CNN "Ohmic Tolerance"
 	1    3350 1100
 	1    0    0    -1  
@@ -93,7 +93,7 @@ F 0 "R26" V 2800 2350 50  0000 C CNN
 F 1 "3k3" V 2900 2350 50  0000 C CNN
 F 2 "" V 2830 2350 50  0001 C CNN
 F 3 "~" H 2900 2350 50  0001 C CNN
-F 4 "0.25 W" H 2900 2350 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 2900 2350 50  0001 C CNN "Power Rating"
 F 5 "5%" H 2900 2350 50  0001 C CNN "Ohmic Tolerance"
 	1    2900 2350
 	0    -1   1    0   
@@ -106,7 +106,7 @@ F 0 "R50" H 950 1100 50  0000 L CNN
 F 1 "1M" V 900 1100 50  0000 L CNN
 F 2 "" V 830 1150 50  0001 C CNN
 F 3 "~" H 900 1150 50  0001 C CNN
-F 4 "0.25 W" H 900 1150 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 900 1150 50  0001 C CNN "Power Rating"
 F 5 "5%" H 900 1150 50  0001 C CNN "Ohmic Tolerance"
 	1    900  1150
 	-1   0    0    1   
@@ -348,7 +348,7 @@ F 1 "1k" V 3350 1850 50  0000 L CNN
 F 2 "" V 3280 1900 50  0001 C CNN
 F 3 "~" H 3350 1900 50  0001 C CNN
 F 4 "Not in Service Manual parts list but on Schematic #251469" H 3350 1900 50  0001 C CNN "Note"
-F 5 "0.25 W" H 3350 1900 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3350 1900 50  0001 C CNN "Power Rating"
 F 6 "5%" H 3350 1900 50  0001 C CNN "Ohmic Tolerance"
 	1    3350 1900
 	-1   0    0    -1  

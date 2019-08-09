@@ -353,7 +353,7 @@ F 1 "3k3" V 3800 3100 30  0000 L CNN
 F 2 "" H 3800 3150 50  0001 C CNN
 F 3 "~" H 3800 3150 50  0001 C CNN
 F 4 "5%" H 3800 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3800 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3800 3150 50  0001 C CNN "Power Rating"
 	1    3800 3150
 	1    0    0    -1  
 $EndComp
@@ -384,7 +384,7 @@ F 1 "3k3" V 3900 3100 30  0000 L CNN
 F 2 "" H 3900 3150 50  0001 C CNN
 F 3 "~" H 3900 3150 50  0001 C CNN
 F 4 "5%" H 3900 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3900 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3900 3150 50  0001 C CNN "Power Rating"
 	1    3900 3150
 	1    0    0    -1  
 $EndComp
@@ -397,7 +397,7 @@ F 1 "3k3" V 3700 3100 30  0000 L CNN
 F 2 "" H 3700 3150 50  0001 C CNN
 F 3 "~" H 3700 3150 50  0001 C CNN
 F 4 "5%" H 3700 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3700 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3700 3150 50  0001 C CNN "Power Rating"
 	1    3700 3150
 	1    0    0    -1  
 $EndComp
