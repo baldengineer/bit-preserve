@@ -477,8 +477,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 5800 1700 4550
 Wire Wire Line
-	1800 5700 8450 5700
-Wire Wire Line
 	1800 4650 1800 5700
 Wire Wire Line
 	6400 2250 6400 3550
@@ -1099,8 +1097,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 4650 8350 5800
 Wire Wire Line
-	8350 5800 1700 5800
-Wire Wire Line
 	10700 4050 10700 6400
 Wire Wire Line
 	10700 6400 7100 6400
@@ -1114,6 +1110,66 @@ Wire Wire Line
 	7200 4900 7200 4950
 Wire Wire Line
 	7200 4950 9450 4950
+$Comp
+L Resistor_Pack:R_Network09_Split RN?
+U 6 1 5D5BAB1B
+P 8100 4650
+AR Path="/5D943305/5D5BAB1B" Ref="RN?"  Part="4" 
+AR Path="/5D5BAB1B" Ref="RP4"  Part="6" 
+F 0 "RP4" V 8200 4550 50  0000 L CNN
+F 1 "3k3" V 8100 4600 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8150 4525 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 4650 50  0001 C CNN
+	6    8100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RN?
+U 8 1 5D5BAB09
+P 8100 4750
+AR Path="/5D943305/5D5BAB09" Ref="RN?"  Part="3" 
+AR Path="/5D5BAB09" Ref="RP4"  Part="8" 
+F 0 "RP4" V 8000 4750 50  0000 C CNN
+F 1 "3k3" V 8100 4750 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8150 4625 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 4750 50  0001 C CNN
+	8    8100 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 4650 8250 4650
+Connection ~ 8350 4650
+Wire Wire Line
+	8250 4750 8450 4750
+Connection ~ 8450 4750
+Wire Wire Line
+	1700 5800 8350 5800
+Wire Wire Line
+	1800 5700 8450 5700
+Wire Wire Line
+	7950 4650 7850 4650
+Wire Wire Line
+	7850 4650 7850 4550
+Wire Wire Line
+	7850 4650 7850 4750
+Wire Wire Line
+	7850 4750 7950 4750
+Connection ~ 7850 4650
+$Comp
+L power:+5V #PWR?
+U 1 1 5D721FCB
+P 7850 4550
+AR Path="/5D721FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D721FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D721FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D721FCB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7850 4400 50  0001 C CNN
+F 1 "+5V" H 7800 4700 50  0000 L CNN
+F 2 "" H 7850 4550 50  0001 C CNN
+F 3 "" H 7850 4550 50  0001 C CNN
+	1    7850 4550
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	6700 1850 6700 6800
 Wire Bus Line

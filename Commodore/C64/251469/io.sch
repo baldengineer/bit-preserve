@@ -1004,10 +1004,10 @@ Entry Wire Line
 Entry Wire Line
 	3950 1900 4050 2000
 $Comp
-L Resistor_Pack:R_Network09_Split RN4
+L Resistor_Pack:R_Network09_Split RP4
 U 3 1 5D543279
 P 4400 2000
-F 0 "RN4" V 4400 2350 50  0000 C CNN
+F 0 "RP4" V 4400 2350 50  0000 C CNN
 F 1 "3k3" V 4400 2000 30  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" H 4450 1875 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 2000 50  0001 C CNN
@@ -1015,10 +1015,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor_Pack:R_Network09_Split RN4
+L Resistor_Pack:R_Network09_Split RP4
 U 5 1 5D54459F
 P 4400 1800
-F 0 "RN4" V 4400 2050 50  0000 L CNN
+F 0 "RP4" V 4400 2050 50  0000 L CNN
 F 1 "3k3" V 4400 1750 30  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" H 4450 1675 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1800 50  0001 C CNN
@@ -1026,10 +1026,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor_Pack:R_Network09_Split RN4
+L Resistor_Pack:R_Network09_Split RP4
 U 7 1 5D545B52
 P 4400 1700
-F 0 "RN4" V 4400 1950 50  0000 L CNN
+F 0 "RP4" V 4400 1950 50  0000 L CNN
 F 1 "3k3" V 4400 1650 30  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" H 4450 1575 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1700 50  0001 C CNN
@@ -1037,10 +1037,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Resistor_Pack:R_Network09_Split RN4
+L Resistor_Pack:R_Network09_Split RP4
 U 4 1 5D543E85
 P 4400 1900
-F 0 "RN4" V 4400 2150 50  0000 L CNN
+F 0 "RP4" V 4400 2150 50  0000 L CNN
 F 1 "3k3" V 4400 1850 30  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" H 4450 1775 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4400 1900 50  0001 C CNN
