@@ -166,6 +166,7 @@ F 0 "SW1" V 1546 1362 50  0000 R CNN
 F 1 "Power Switch" V 1455 1362 50  0000 R CNN
 F 2 "" H 1500 1550 50  0001 C CNN
 F 3 "~" H 1500 1550 50  0001 C CNN
+F 4 "Rocker DPDT" H 1500 1550 50  0001 C CNN "Type"
 	1    1500 1550
 	0    -1   -1   0   
 $EndComp
@@ -302,6 +303,9 @@ F 0 "F1" H 1160 1596 50  0000 L CNN
 F 1 "1A" H 1160 1505 50  0000 L CNN
 F 2 "" V 1030 1550 50  0001 C CNN
 F 3 "~" H 1100 1550 50  0001 C CNN
+F 4 "1.5A" H 1100 1550 50  0001 C CNN "Current Rating"
+F 5 "Normal Blow" H 1100 1550 50  0001 C CNN "Type"
+F 6 "250V" H 1100 1550 50  0001 C CNN "Voltage Rating"
 	1    1100 1550
 	1    0    0    -1  
 $EndComp
