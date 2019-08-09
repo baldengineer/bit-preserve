@@ -996,8 +996,6 @@ Connection ~ 5050 4250
 Wire Wire Line
 	5050 2300 5050 4250
 Wire Wire Line
-	5050 4250 9450 4250
-Wire Wire Line
 	9450 5950 9050 5950
 Wire Wire Line
 	9450 5850 9050 5850
@@ -1170,6 +1168,76 @@ F 3 "" H 7850 4550 50  0001 C CNN
 	1    7850 4550
 	-1   0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7D5D81
+P 8650 1700
+AR Path="/5D7D5D81" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D7D5D81" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D7D5D81" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D7D5D81" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8650 1550 50  0001 C CNN
+F 1 "+5V" H 8550 1850 50  0000 L CNN
+F 2 "" H 8650 1700 50  0001 C CNN
+F 3 "" H 8650 1700 50  0001 C CNN
+	1    8650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 9 1 5D7D5D8D
+P 8650 1900
+AR Path="/5D943305/5D7D5D8D" Ref="RP?"  Part="5" 
+AR Path="/5D7D5D8D" Ref="RP4"  Part="9" 
+F 0 "RP4" V 8750 1800 50  0000 L CNN
+F 1 "3k3" V 8650 1850 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8700 1775 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8650 1900 50  0001 C CNN
+	9    8650 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4250 8350 4250
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 2 1 5D7D5D87
+P 8350 4050
+AR Path="/5D943305/5D7D5D87" Ref="RP?"  Part="7" 
+AR Path="/5D7D5D87" Ref="RP4"  Part="2" 
+F 0 "RP4" V 8450 3950 50  0000 L CNN
+F 1 "3k3" V 8350 4000 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8400 3925 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8350 4050 50  0001 C CNN
+	2    8350 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4200 8350 4250
+$Comp
+L power:+5V #PWR?
+U 1 1 5D86D3B7
+P 8350 3800
+AR Path="/5D86D3B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D28EBAC/5D86D3B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D86D3B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D86D3B7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 3650 50  0001 C CNN
+F 1 "+5V" H 8300 3950 50  0000 L CNN
+F 2 "" H 8350 3800 50  0001 C CNN
+F 3 "" H 8350 3800 50  0001 C CNN
+	1    8350 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3800 8350 3900
+Connection ~ 8350 4250
+Wire Wire Line
+	8350 4250 9450 4250
+Wire Wire Line
+	8650 2050 8650 2100
+Connection ~ 8650 2100
+Wire Wire Line
+	8650 1700 8650 1750
 Wire Bus Line
 	6700 1850 6700 6800
 Wire Bus Line
