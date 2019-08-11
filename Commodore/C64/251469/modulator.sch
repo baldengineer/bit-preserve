@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 12 17
+Sheet 10 17
 Title "C64 RF Modulator (schematic #251696)"
 Date "2019-08-11"
 Rev "0.2"

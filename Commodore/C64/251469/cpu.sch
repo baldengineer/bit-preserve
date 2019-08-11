@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 5 17
 Title "Commodore 64 - CPU"
 Date "2019-08-11"
 Rev "0.2"
