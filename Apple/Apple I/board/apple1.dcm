@@ -1,0 +1,65 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2504
+D 1024-BIT MULTIPLEX DYNAMIC SHIFT REGISTER
+$ENDCMP
+#
+$CMP 2513
+D 2560-BIT STATIC CHARACTER GENERATOR (64x8x5)
+$ENDCMP
+#
+$CMP 2519
+D HEX 40-BIT STATIC SHIFT REGISTER
+$ENDCMP
+#
+$CMP 6502_6800
+D CPU MOS6502 or MC6800
+$ENDCMP
+#
+$CMP 74157_257
+D QUADRUPLE 2-LINE TO 1-LINE DATA SELECTORS/MULTIPLEXERS
+$ENDCMP
+#
+$CMP 7450
+D DUAL 2-WIDE 2-INPUT AND-OR-INVERT GATES
+$ENDCMP
+#
+$CMP DM8097
+D TRI-STATE HEX BUFFERS
+$ENDCMP
+#
+$CMP DS0025
+D Two Phase MOS Clock Driver
+$ENDCMP
+#
+$CMP EdgeConnector
+D Generic connector, double row, 02x22, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP LM320_TO220
+D 3-Terminal Negative Regulator
+$ENDCMP
+#
+$CMP LM323
+D 5-Volt Positive Regulator
+$ENDCMP
+#
+$CMP LM340
+D 1.5A Fixed Voltage Regulators
+$ENDCMP
+#
+$CMP MC6820
+D PERIPHERAL INTERFACE ADAPTER
+$ENDCMP
+#
+$CMP MK4096
+D 4096x1-BIT DYNAMIC RAM
+$ENDCMP
+#
+$CMP MMI6301
+D 256x4-BIT PROM
+$ENDCMP
+#
+#End Doc Library
