@@ -4868,4 +4868,8 @@ Wire Bus Line
 	12400 2500 12400 5200
 Wire Bus Line
 	14000 2500 14000 5200
+Text Notes 17000 5475 0    50   ~ 0
+480ns
+Text Notes 7925 12800 0    50   ~ 0
+3.5us
 $EndSCHEMATC
