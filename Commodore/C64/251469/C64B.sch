@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 17
 Title "Commodore 64 (schematic #251469)"
-Date "2019-07-10"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -32,21 +32,6 @@ Wire Wire Line
 	800  5250 2600 5250
 Wire Wire Line
 	800  6400 800  5250
-$Comp
-L power:+5V #PWR0101
-U 1 1 5EADA271
-P 9200 3950
-AR Path="/5EADA271" Ref="#PWR0101"  Part="1" 
-AR Path="/5D28EBAC/5EADA271" Ref="#PWR?"  Part="1" 
-AR Path="/5D4AE438/5EADA271" Ref="#PWR?"  Part="1" 
-AR Path="/5D3AFB9B/5EADA271" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 9200 3800 50  0001 C CNN
-F 1 "+5V" H 9150 4100 50  0000 L CNN
-F 2 "" H 9200 3950 50  0001 C CNN
-F 3 "" H 9200 3950 50  0001 C CNN
-	1    9200 3950
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 1400 11100 1400
 Connection ~ 8850 1400
@@ -124,8 +109,6 @@ Wire Wire Line
 	9050 4350 9450 4350
 Wire Wire Line
 	6800 1100 9050 1100
-Wire Wire Line
-	9050 4350 9050 1100
 $Comp
 L Connector_Edge:Conn_02x22_Edge CN6
 U 1 1 5D6B1D3A
@@ -476,8 +459,6 @@ Wire Wire Line
 	1700 4550 2600 4550
 Wire Wire Line
 	1700 5800 1700 4550
-Wire Wire Line
-	1800 5700 8450 5700
 Wire Wire Line
 	1800 4650 1800 5700
 Wire Wire Line
@@ -987,7 +968,6 @@ Wire Wire Line
 	11150 3250 8750 3250
 Wire Wire Line
 	9200 4150 9200 4050
-Connection ~ 9200 4050
 Wire Wire Line
 	8750 3250 8750 4450
 Wire Wire Line
@@ -997,8 +977,6 @@ Text Notes 11100 600  2    50   ~ 0
 Connection ~ 5050 4250
 Wire Wire Line
 	5050 2300 5050 4250
-Wire Wire Line
-	5050 4250 9450 4250
 Wire Wire Line
 	9450 5950 9050 5950
 Wire Wire Line
@@ -1037,14 +1015,12 @@ Connection ~ 8950 1000
 Wire Bus Line
 	8950 1000 11100 1000
 Wire Wire Line
-	9200 3950 9200 4050
-Wire Wire Line
 	8850 5050 9450 5050
 Connection ~ 10400 800 
 Wire Bus Line
 	10400 800  11100 800 
 Wire Bus Line
-	6500 800  10400 800 
+	6500 800  7200 800 
 Wire Wire Line
 	9950 4450 10300 4450
 Text Label 10300 4450 2    50   ~ 0
@@ -1099,8 +1075,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 4650 8350 5800
 Wire Wire Line
-	8350 5800 1700 5800
-Wire Wire Line
 	10700 4050 10700 6400
 Wire Wire Line
 	10700 6400 7100 6400
@@ -1114,8 +1088,310 @@ Wire Wire Line
 	7200 4900 7200 4950
 Wire Wire Line
 	7200 4950 9450 4950
+$Comp
+L Resistor_Pack:R_Network09_Split RN?
+U 6 1 5D5BAB1B
+P 8100 4650
+AR Path="/5D943305/5D5BAB1B" Ref="RN?"  Part="4" 
+AR Path="/5D5BAB1B" Ref="RP4"  Part="6" 
+F 0 "RP4" V 8200 4550 50  0000 L CNN
+F 1 "3k3" V 8100 4600 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8150 4525 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 4650 50  0001 C CNN
+	6    8100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RN?
+U 8 1 5D5BAB09
+P 8100 4750
+AR Path="/5D943305/5D5BAB09" Ref="RN?"  Part="3" 
+AR Path="/5D5BAB09" Ref="RP4"  Part="8" 
+F 0 "RP4" V 8000 4750 50  0000 C CNN
+F 1 "3k3" V 8100 4750 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8150 4625 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8100 4750 50  0001 C CNN
+	8    8100 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 4650 8250 4650
+Connection ~ 8350 4650
+Wire Wire Line
+	8250 4750 8450 4750
+Connection ~ 8450 4750
+Wire Wire Line
+	1700 5800 8350 5800
+Wire Wire Line
+	1800 5700 8450 5700
+Wire Wire Line
+	7950 4650 7850 4650
+Wire Wire Line
+	7850 4650 7850 4550
+Wire Wire Line
+	7850 4650 7850 4750
+Wire Wire Line
+	7850 4750 7950 4750
+Connection ~ 7850 4650
+$Comp
+L power:+5V #PWR0262
+U 1 1 5D721FCB
+P 7850 4550
+AR Path="/5D721FCB" Ref="#PWR0262"  Part="1" 
+AR Path="/5D28EBAC/5D721FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D721FCB" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D721FCB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0262" H 7850 4400 50  0001 C CNN
+F 1 "+5V" H 7800 4700 50  0000 L CNN
+F 2 "" H 7850 4550 50  0001 C CNN
+F 3 "" H 7850 4550 50  0001 C CNN
+	1    7850 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0263
+U 1 1 5D7D5D81
+P 8650 1700
+AR Path="/5D7D5D81" Ref="#PWR0263"  Part="1" 
+AR Path="/5D28EBAC/5D7D5D81" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D7D5D81" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D7D5D81" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0263" H 8650 1550 50  0001 C CNN
+F 1 "+5V" H 8550 1850 50  0000 L CNN
+F 2 "" H 8650 1700 50  0001 C CNN
+F 3 "" H 8650 1700 50  0001 C CNN
+	1    8650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 9 1 5D7D5D8D
+P 8650 1900
+AR Path="/5D943305/5D7D5D8D" Ref="RP?"  Part="5" 
+AR Path="/5D7D5D8D" Ref="RP4"  Part="9" 
+F 0 "RP4" V 8750 1800 50  0000 L CNN
+F 1 "3k3" V 8650 1850 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8700 1775 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8650 1900 50  0001 C CNN
+	9    8650 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 2 1 5D7D5D87
+P 8450 4000
+AR Path="/5D943305/5D7D5D87" Ref="RP?"  Part="7" 
+AR Path="/5D7D5D87" Ref="RP4"  Part="2" 
+F 0 "RP4" V 8550 3900 50  0000 L CNN
+F 1 "3k3" V 8450 3950 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 8500 3875 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 8450 4000 50  0001 C CNN
+	2    8450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4150 8450 4250
+$Comp
+L power:+5V #PWR0264
+U 1 1 5D86D3B7
+P 8450 3750
+AR Path="/5D86D3B7" Ref="#PWR0264"  Part="1" 
+AR Path="/5D28EBAC/5D86D3B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D86D3B7" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D86D3B7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0264" H 8450 3600 50  0001 C CNN
+F 1 "+5V" H 8400 3900 50  0000 L CNN
+F 2 "" H 8450 3750 50  0001 C CNN
+F 3 "" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3750 8450 3850
+Wire Wire Line
+	8650 2050 8650 2100
+Connection ~ 8650 2100
+Wire Wire Line
+	8650 1700 8650 1750
+$Comp
+L Device:R_Small R51
+U 1 1 5D921EF7
+P 9250 3050
+F 0 "R51" V 9350 3050 50  0000 C CNN
+F 1 "1k5" V 9250 3050 30  0000 C CNN
+F 2 "" H 9250 3050 50  0001 C CNN
+F 3 "~" H 9250 3050 50  0001 C CNN
+F 4 "5%" H 9250 3050 50  0001 C CNN "Ohmic Tolerance"
+F 5 "0.25W" H 9250 3050 50  0001 C CNN "Power Rating"
+	1    9250 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 3050 9150 3050
+Connection ~ 9200 4050
+Wire Wire Line
+	9200 3950 9200 4050
+$Comp
+L power:+5V #PWR0101
+U 1 1 5EADA271
+P 9200 3950
+AR Path="/5EADA271" Ref="#PWR0101"  Part="1" 
+AR Path="/5D28EBAC/5EADA271" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5EADA271" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5EADA271" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 9200 3800 50  0001 C CNN
+F 1 "+5V" H 9150 4100 50  0000 L CNN
+F 2 "" H 9200 3950 50  0001 C CNN
+F 3 "" H 9200 3950 50  0001 C CNN
+	1    9200 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 2950 9450 3050
+$Comp
+L power:+5V #PWR0265
+U 1 1 5D962239
+P 9450 2950
+AR Path="/5D962239" Ref="#PWR0265"  Part="1" 
+AR Path="/5D28EBAC/5D962239" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D962239" Ref="#PWR?"  Part="1" 
+AR Path="/5D3AFB9B/5D962239" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0265" H 9450 2800 50  0001 C CNN
+F 1 "+5V" H 9400 3100 50  0000 L CNN
+F 2 "" H 9450 2950 50  0001 C CNN
+F 3 "" H 9450 2950 50  0001 C CNN
+	1    9450 2950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9050 3050
+Wire Wire Line
+	9050 3050 9050 1100
+Wire Wire Line
+	9050 3050 9050 4350
+Wire Wire Line
+	9450 3050 9350 3050
+Connection ~ 8450 4250
+Wire Wire Line
+	8450 4250 9450 4250
+Wire Wire Line
+	5050 4250 8450 4250
+Wire Wire Line
+	7500 2650 7300 2650
+Text Label 7300 2650 0    50   ~ 0
+A12
+Wire Wire Line
+	7500 2750 7300 2750
+Text Label 7300 2750 0    50   ~ 0
+A13
+Wire Wire Line
+	7500 2850 7300 2850
+Text Label 7300 2850 0    50   ~ 0
+A14
+Wire Wire Line
+	7500 2950 7300 2950
+Text Label 7300 2950 0    50   ~ 0
+A15
+Entry Wire Line
+	7200 2550 7300 2650
+Entry Wire Line
+	7200 2650 7300 2750
+Entry Wire Line
+	7200 2750 7300 2850
+Entry Wire Line
+	7200 2850 7300 2950
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 3 1 5D5941DE
+P 7650 2950
+AR Path="/5D943305/5D5941DE" Ref="RP?"  Part="3" 
+AR Path="/5D5941DE" Ref="RP4"  Part="3" 
+F 0 "RP4" V 7650 3300 50  0000 C CNN
+F 1 "3k3" V 7650 2950 30  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 7700 2825 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7650 2950 50  0001 C CNN
+	3    7650 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 5 1 5D5941E4
+P 7650 2750
+AR Path="/5D943305/5D5941E4" Ref="RP?"  Part="5" 
+AR Path="/5D5941E4" Ref="RP4"  Part="5" 
+F 0 "RP4" V 7650 3000 50  0000 L CNN
+F 1 "3k3" V 7650 2700 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 7700 2625 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7650 2750 50  0001 C CNN
+	5    7650 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 7 1 5D5941EA
+P 7650 2650
+AR Path="/5D943305/5D5941EA" Ref="RP?"  Part="7" 
+AR Path="/5D5941EA" Ref="RP4"  Part="7" 
+F 0 "RP4" V 7650 2900 50  0000 L CNN
+F 1 "3k3" V 7650 2600 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 7700 2525 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7650 2650 50  0001 C CNN
+	7    7650 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor_Pack:R_Network09_Split RP?
+U 4 1 5D5941F0
+P 7650 2850
+AR Path="/5D943305/5D5941F0" Ref="RP?"  Part="4" 
+AR Path="/5D5941F0" Ref="RP4"  Part="4" 
+F 0 "RP4" V 7650 3100 50  0000 L CNN
+F 1 "3k3" V 7650 2800 30  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" H 7700 2725 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7650 2850 50  0001 C CNN
+	4    7650 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 2950 7850 2950
+Wire Wire Line
+	7850 2950 7850 2850
+Wire Wire Line
+	7800 2650 7850 2650
+Connection ~ 7850 2650
+Wire Wire Line
+	7850 2650 7850 2550
+Wire Wire Line
+	7800 2750 7850 2750
+Connection ~ 7850 2750
+Wire Wire Line
+	7850 2750 7850 2650
+Wire Wire Line
+	7800 2850 7850 2850
+Connection ~ 7850 2850
+Wire Wire Line
+	7850 2850 7850 2750
+$Comp
+L power:+5V #PWR0266
+U 1 1 5D594201
+P 7850 2550
+AR Path="/5D594201" Ref="#PWR0266"  Part="1" 
+AR Path="/5D28EBAC/5D594201" Ref="#PWR?"  Part="1" 
+AR Path="/5D4AE438/5D594201" Ref="#PWR?"  Part="1" 
+AR Path="/5D943305/5D594201" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0266" H 7850 2400 50  0001 C CNN
+F 1 "+5V" H 7750 2700 50  0000 L CNN
+F 2 "" H 7850 2550 50  0001 C CNN
+F 3 "" H 7850 2550 50  0001 C CNN
+	1    7850 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 800 
+Wire Bus Line
+	7200 800  10400 800 
 Wire Bus Line
 	6700 1850 6700 6800
+Wire Bus Line
+	7200 800  7200 2850
 Wire Bus Line
 	8950 1000 8950 5850
 Wire Bus Line

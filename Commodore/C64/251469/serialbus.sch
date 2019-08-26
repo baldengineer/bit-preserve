@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 17
+Sheet 16 17
 Title "Commodore 64 - Serial Bus (schematic #251469)"
-Date "2019-07-22"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -81,7 +81,7 @@ F 1 "1k" V 1950 1000 50  0000 L CNN
 F 2 "" V 1880 1050 50  0001 C CNN
 F 3 "~" H 1950 1050 50  0001 C CNN
 F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 1950 1050 50  0001 C CNN "Note"
-F 5 "0.25 W" H 1950 1050 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 1950 1050 50  0001 C CNN "Power Rating"
 F 6 "5%" H 1950 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    1950 1050
 	1    0    0    -1  
@@ -97,7 +97,7 @@ F 1 "1k" V 2150 1000 50  0000 L CNN
 F 2 "" V 2080 1050 50  0001 C CNN
 F 3 "~" H 2150 1050 50  0001 C CNN
 F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 2150 1050 50  0001 C CNN "Note"
-F 5 "0.25 W" H 2150 1050 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 2150 1050 50  0001 C CNN "Power Rating"
 F 6 "5%" H 2150 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    2150 1050
 	1    0    0    -1  
@@ -143,7 +143,7 @@ F 1 "1k" V 1750 1000 50  0000 L CNN
 F 2 "" V 1680 1050 50  0001 C CNN
 F 3 "~" H 1750 1050 50  0001 C CNN
 F 4 "Not in Service Manual parts list for PCB #2504251-1 (but listed for predecessor PCB #250407-04)" H 1750 1050 50  0001 C CNN "Note"
-F 5 "0.25 W" H 1750 1050 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 1750 1050 50  0001 C CNN "Power Rating"
 F 6 "5%" H 1750 1050 50  0001 C CNN "Ohmic Tolerance"
 	1    1750 1050
 	1    0    0    -1  
@@ -219,6 +219,7 @@ F 0 "CR103" H 2350 2850 50  0000 C CNN
 F 1 "1N4148" H 2350 3050 50  0001 C CNN
 F 2 "" H 2350 2950 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
+F 4 "1N914" H 2350 2950 50  0001 C CNN "Substitute"
 	1    2350 2950
 	1    0    0    -1  
 $EndComp
@@ -232,6 +233,7 @@ F 0 "CR101" H 2350 3050 50  0000 C CNN
 F 1 "1N4148" H 2350 3250 50  0001 C CNN
 F 2 "" H 2350 3150 50  0001 C CNN
 F 3 "~" H 2350 3150 50  0001 C CNN
+F 4 "1N914" H 2350 3150 50  0001 C CNN "Substitute"
 	1    2350 3150
 	1    0    0    -1  
 $EndComp
@@ -245,6 +247,7 @@ F 0 "CR100" H 1750 3050 50  0000 C CNN
 F 1 "1N4148" H 1750 3275 50  0001 C CNN
 F 2 "" H 1750 3150 50  0001 C CNN
 F 3 "~" H 1750 3150 50  0001 C CNN
+F 4 "1N914" H 1750 3150 50  0001 C CNN "Substitute"
 	1    1750 3150
 	1    0    0    -1  
 $EndComp
@@ -273,6 +276,7 @@ F 0 "CR102" H 1750 2850 50  0000 C CNN
 F 1 "1N4148" H 1750 3075 50  0001 C CNN
 F 2 "" H 1750 2950 50  0001 C CNN
 F 3 "~" H 1750 2950 50  0001 C CNN
+F 4 "1N914" H 1750 2950 50  0001 C CNN "Substitute"
 	1    1750 2950
 	1    0    0    -1  
 $EndComp

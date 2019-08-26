@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 17
+Sheet 12 17
 Title "Commodore 64 - Keyboard (schematic #251469)"
-Date "2019-07-21"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -100,7 +100,7 @@ F 0 "R41" H 1400 1150 50  0000 L CNN
 F 1 "1M" V 1550 950 50  0000 L CNN
 F 2 "" V 1480 1000 50  0001 C CNN
 F 3 "~" H 1550 1000 50  0001 C CNN
-F 4 "0.25 W" H 1550 1000 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 1550 1000 50  0001 C CNN "Power Rating"
 F 5 "5%" H 1550 1000 50  0001 C CNN "Ohmic Tolerance"
 	1    1550 1000
 	1    0    0    -1  
@@ -113,7 +113,7 @@ F 0 "R35" H 1800 1150 50  0000 L CNN
 F 1 "470k" V 1950 900 50  0000 L CNN
 F 2 "" V 1880 1000 50  0001 C CNN
 F 3 "~" H 1950 1000 50  0001 C CNN
-F 4 "0.25 W" H 1950 1000 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 1950 1000 50  0001 C CNN "Power Rating"
 F 5 "5%" H 1950 1000 50  0001 C CNN "Ohmic Tolerance"
 	1    1950 1000
 	1    0    0    -1  
@@ -197,7 +197,7 @@ F 0 "R33" H 3200 1050 50  0000 L CNN
 F 1 "47k" V 3400 875 50  0000 L CNN
 F 2 "" V 3330 950 50  0001 C CNN
 F 3 "~" H 3400 950 50  0001 C CNN
-F 4 "0.25 W" H 3400 950 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 3400 950 50  0001 C CNN "Power Rating"
 F 5 "5%" H 3400 950 50  0001 C CNN "Ohmic Tolerance"
 	1    3400 950 
 	1    0    0    -1  

@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 17
+Sheet 2 17
 Title "Commodore 64 - Power Section (schematic #251469)"
-Date "2019-07-16"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -24,6 +24,7 @@ F 0 "VR2" H 4600 2000 50  0000 L CNN
 F 1 "7805" H 5000 2000 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 2075 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 4800 1800 50  0001 C CNN
+F 4 "MC7805CT" H 4800 1850 50  0001 C CNN "Substitute"
 	1    4800 1850
 	1    0    0    -1  
 $EndComp
@@ -37,6 +38,7 @@ F 0 "VR1" H 5400 1150 50  0000 L CNN
 F 1 "7812" H 5800 1150 50  0000 R CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5600 1225 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5600 950 50  0001 C CNN
+F 4 "MC7812CT" H 5600 1000 50  0001 C CNN "Substitute"
 	1    5600 1000
 	1    0    0    -1  
 $EndComp
@@ -97,7 +99,7 @@ F 0 "R39" V 3050 3600 50  0000 C CNN
 F 1 "390" V 3150 3600 50  0000 C CNN
 F 2 "" V 3080 3600 50  0001 C CNN
 F 3 "~" H 3150 3600 50  0001 C CNN
-F 4 "0.25 W" H 3150 3600 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 3150 3600 50  0001 C CNN "Power Rating"
 F 5 "5%" H 3150 3600 50  0001 C CNN "Ohmic Tolerance"
 	1    3150 3600
 	-1   0    0    1   
@@ -164,6 +166,7 @@ F 0 "SW1" V 1546 1362 50  0000 R CNN
 F 1 "Power Switch" V 1455 1362 50  0000 R CNN
 F 2 "" H 1500 1550 50  0001 C CNN
 F 3 "~" H 1500 1550 50  0001 C CNN
+F 4 "Rocker DPDT" H 1500 1550 50  0001 C CNN "Type"
 	1    1500 1550
 	0    -1   -1   0   
 $EndComp
@@ -176,6 +179,7 @@ F 1 "1.2 μH" V 1200 1862 50  0000 R CNN
 F 2 "" H 1200 2090 50  0001 C CNN
 F 3 "~" H 1200 2090 50  0001 C CNN
 F 4 "5A" V 1109 1862 50  0000 R CNN "Current Rating"
+F 5 "Line Filter" H 1200 2050 50  0001 C CNN "Type"
 	1    1200 2050
 	0    -1   -1   0   
 $EndComp
@@ -184,7 +188,7 @@ L Device:C C20
 U 1 1 5D34667A
 P 1200 2700
 F 0 "C20" V 858 2700 50  0000 C CNN
-F 1 ".22 μF" V 949 2700 50  0000 C CNN
+F 1 "0.22 μF" V 949 2700 50  0000 C CNN
 F 2 "" H 1238 2550 50  0001 C CNN
 F 3 "~" H 1200 2700 50  0001 C CNN
 F 4 "100V" V 1040 2700 50  0000 C CNN "Voltage Rating"
@@ -219,6 +223,7 @@ F 0 "L5" H 1752 2046 50  0000 L CNN
 F 1 "1.2 μH" H 1752 1955 50  0000 L CNN
 F 2 "" H 1700 2000 50  0001 C CNN
 F 3 "~" H 1700 2000 50  0001 C CNN
+F 4 "Coil Inductor" H 1700 2000 50  0001 C CNN "Type"
 	1    1700 2000
 	1    0    0    -1  
 $EndComp
@@ -298,6 +303,9 @@ F 0 "F1" H 1160 1596 50  0000 L CNN
 F 1 "1A" H 1160 1505 50  0000 L CNN
 F 2 "" V 1030 1550 50  0001 C CNN
 F 3 "~" H 1100 1550 50  0001 C CNN
+F 4 "1.5A" H 1100 1550 50  0001 C CNN "Current Rating"
+F 5 "Normal Blow" H 1100 1550 50  0001 C CNN "Type"
+F 6 "250V" H 1100 1550 50  0001 C CNN "Voltage Rating"
 	1    1100 1550
 	1    0    0    -1  
 $EndComp
@@ -334,11 +342,13 @@ L Device:D_Bridge_+A-A CR4
 U 1 1 5D30E6B0
 P 3300 1850
 F 0 "CR4" H 3000 2000 50  0000 L CNN
-F 1 "100V 2A" H 3150 1850 50  0000 L CNN
+F 1 "S2V310" H 3150 1850 50  0000 L CNN
 F 2 "" H 3300 1850 50  0001 C CNN
 F 3 "~" H 3300 1850 50  0001 C CNN
 F 4 "100V" H 3500 2100 50  0001 C CNN "Voltage Rating"
 F 5 "2A" H 3600 2000 50  0001 C CNN "Current Rating"
+F 6 "DBA20B, DBA20C" H 3300 1850 50  0001 C CNN "Substitute"
+F 7 "Bridge" H 3300 1850 50  0001 C CNN "Type"
 	1    3300 1850
 	1    0    0    -1  
 $EndComp
@@ -474,7 +484,7 @@ L Device:D CR6
 U 1 1 5D340F12
 P 4350 1400
 F 0 "CR6" H 4350 1616 50  0000 C CNN
-F 1 "IN4001" H 4350 1525 50  0000 C CNN
+F 1 "1N4001" H 4350 1525 50  0000 C CNN
 F 2 "" H 4350 1400 50  0001 C CNN
 F 3 "~" H 4350 1400 50  0001 C CNN
 	1    4350 1400
@@ -512,9 +522,10 @@ L Device:D CR5
 U 1 1 5D378248
 P 4350 1000
 F 0 "CR5" H 4350 784 50  0000 C CNN
-F 1 "IN4001" H 4350 875 50  0000 C CNN
+F 1 "1N4001" H 4350 875 50  0000 C CNN
 F 2 "" H 4350 1000 50  0001 C CNN
 F 3 "~" H 4350 1000 50  0001 C CNN
+F 4 "Rectifier" H 4350 1000 50  0001 C CNN "Type"
 	1    4350 1000
 	-1   0    0    1   
 $EndComp

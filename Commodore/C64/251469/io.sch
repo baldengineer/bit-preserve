@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 17
 Title "Commodore 64 - I/O Section (schematic #251469)"
-Date "2019-07-15"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -331,8 +331,6 @@ Wire Bus Line
 Wire Bus Line
 	3000 1000 1100 1000
 Connection ~ 3000 1000
-Wire Bus Line
-	5100 1100 1600 1100
 Connection ~ 1600 1100
 Wire Bus Line
 	1600 1100 1100 1100
@@ -833,6 +831,7 @@ F 0 "CR104" H 8600 4150 50  0000 C CNN
 F 1 "1N4148" H 8600 4350 50  0001 C CNN
 F 2 "" H 8600 4250 50  0001 C CNN
 F 3 "~" H 8600 4250 50  0001 C CNN
+F 4 "1N914" H 8600 4250 50  0001 C CNN "Substitute"
 	1    8600 4250
 	0    1    1    0   
 $EndComp
@@ -862,6 +861,7 @@ F 0 "CR105" H 8600 4750 50  0000 C CNN
 F 1 "1N4148" H 8600 4775 50  0001 C CNN
 F 2 "" H 8600 4650 50  0001 C CNN
 F 3 "~" H 8600 4650 50  0001 C CNN
+F 4 "1N914" H 8600 4650 50  0001 C CNN "Substitute"
 	1    8600 4650
 	0    1    1    0   
 $EndComp
@@ -974,6 +974,8 @@ F 3 "" H 2300 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 5850 2300 5900
+Wire Bus Line
+	1600 1100 5100 1100
 Wire Bus Line
 	5100 1100 5100 2750
 Wire Bus Line

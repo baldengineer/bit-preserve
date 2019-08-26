@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 16 17
 Title "Commodore 64 - Audio section (schematic #251469)"
-Date "2019-07-25"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -189,7 +189,7 @@ F 0 "R7" V 3950 3800 50  0000 C CNN
 F 1 "10k" V 4050 3800 50  0000 C CNN
 F 2 "" V 3980 3800 50  0001 C CNN
 F 3 "~" H 4050 3800 50  0001 C CNN
-F 4 "0.25 W" H 4050 3800 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 4050 3800 50  0001 C CNN "Power Rating"
 F 5 "5%" H 4050 3800 50  0001 C CNN "Ohmic Tolerance"
 	1    4050 3800
 	0    1    1    0   
@@ -213,7 +213,7 @@ F 0 "R38" H 4600 4250 50  0000 L CNN
 F 1 "1k" V 4800 4200 50  0000 L CNN
 F 2 "" V 4730 4250 50  0001 C CNN
 F 3 "~" H 4800 4250 50  0001 C CNN
-F 4 "0.25 W" H 4800 4250 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 4800 4250 50  0001 C CNN "Power Rating"
 F 5 "5%" H 4800 4250 50  0001 C CNN "Ohmic Tolerance"
 	1    4800 4250
 	1    0    0    -1  
@@ -271,7 +271,7 @@ F 0 "R6" H 3750 4050 50  0000 C CNN
 F 1 "1k" V 3850 4050 50  0000 C CNN
 F 2 "" V 3780 4050 50  0001 C CNN
 F 3 "~" H 3850 4050 50  0001 C CNN
-F 4 "0.25 W" H 3850 4050 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 3850 4050 50  0001 C CNN "Power Rating"
 F 5 "5%" H 3850 4050 50  0001 C CNN "Ohmic Tolerance"
 	1    3850 4050
 	1    0    0    -1  
@@ -588,7 +588,7 @@ F 0 "R3" V 1850 4250 50  0000 C CNN
 F 1 "100k" V 1950 4250 50  0000 C CNN
 F 2 "" V 1880 4250 50  0001 C CNN
 F 3 "~" H 1950 4250 50  0001 C CNN
-F 4 "0.25 W" H 1950 4250 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 1950 4250 50  0001 C CNN "Power Rating"
 F 5 "5%" H 1950 4250 50  0001 C CNN "Ohmic Tolerance"
 	1    1950 4250
 	-1   0    0    1   

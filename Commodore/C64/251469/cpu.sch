@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 5 17
 Title "Commodore 64 - CPU"
-Date "2019-08-01"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -353,7 +353,7 @@ F 1 "3k3" V 3800 3100 30  0000 L CNN
 F 2 "" H 3800 3150 50  0001 C CNN
 F 3 "~" H 3800 3150 50  0001 C CNN
 F 4 "5%" H 3800 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3800 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3800 3150 50  0001 C CNN "Power Rating"
 	1    3800 3150
 	1    0    0    -1  
 $EndComp
@@ -384,7 +384,7 @@ F 1 "3k3" V 3900 3100 30  0000 L CNN
 F 2 "" H 3900 3150 50  0001 C CNN
 F 3 "~" H 3900 3150 50  0001 C CNN
 F 4 "5%" H 3900 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3900 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3900 3150 50  0001 C CNN "Power Rating"
 	1    3900 3150
 	1    0    0    -1  
 $EndComp
@@ -397,7 +397,7 @@ F 1 "3k3" V 3700 3100 30  0000 L CNN
 F 2 "" H 3700 3150 50  0001 C CNN
 F 3 "~" H 3700 3150 50  0001 C CNN
 F 4 "5%" H 3700 3150 50  0001 C CNN "Ohmic Tolerance"
-F 5 "0.25 W" H 3700 3150 50  0001 C CNN "Power Rating"
+F 5 "0.25W" H 3700 3150 50  0001 C CNN "Power Rating"
 	1    3700 3150
 	1    0    0    -1  
 $EndComp

@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 17
+Sheet 8 17
 Title "Commodore 64 - Dynamic RAM (schematic #251469)"
-Date "2019-07-29"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -1659,7 +1659,7 @@ F 0 "R42" V 2750 6450 50  0000 C CNN
 F 1 "82" V 2650 6450 50  0000 C CNN
 F 2 "" V 2580 6450 50  0001 C CNN
 F 3 "~" H 2650 6450 50  0001 C CNN
-F 4 "0.25 W" H 2650 6450 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 2650 6450 50  0001 C CNN "Power Rating"
 F 5 "5%" V 2650 6450 50  0001 C CNN "Ohmic Tolerance"
 	1    2650 6450
 	0    1    1    0   

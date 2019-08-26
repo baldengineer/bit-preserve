@@ -4,10 +4,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 17
+Sheet 15 17
 Title "Commodore 64 - Cassette Interface (schematic #251469)"
-Date "2019-07-22"
-Rev "0.1"
+Date "2019-08-11"
+Rev "0.2"
 Comp "Commodore Business Machines, Inc."
 Comment1 "Based on C64/C64C Service Manual (1992-03) pp. 31-32 [PN-314001-03]"
 Comment2 ""
@@ -66,7 +66,7 @@ F 0 "R2" H 1670 1946 50  0000 L CNN
 F 1 "470" V 1600 1825 50  0000 L CNN
 F 2 "" V 1530 1900 50  0001 C CNN
 F 3 "~" H 1600 1900 50  0001 C CNN
-F 4 "0.5 W" H 1800 1850 50  0000 C CNN "Power Rating"
+F 4 "0.5W" H 1800 1850 50  0000 C CNN "Power Rating"
 F 5 "5%" H 1600 1900 50  0001 C CNN "Ohmic Tolerance"
 	1    1600 1900
 	1    0    0    -1  
@@ -87,10 +87,12 @@ L Device:D_Zener CR2
 U 1 1 5D65420C
 P 2150 2300
 F 0 "CR2" V 2050 2200 50  0000 C CNN
-F 1 "6.8 V" V 2050 2450 50  0000 C CNN
+F 1 "1N754A" V 2050 2450 50  0000 C CNN
 F 2 "" H 2150 2300 50  0001 C CNN
 F 3 "~" H 2150 2300 50  0001 C CNN
-F 4 "0.5 W" H 2500 2800 50  0001 C CNN "Power Rating"
+F 4 "0.5W" H 2500 2800 50  0001 C CNN "Power Rating"
+F 5 "6.8V" V 2150 2450 50  0000 C CNN "Zener Voltage"
+F 6 "Zener" H 2150 2300 50  0001 C CNN "Type"
 	1    2150 2300
 	0    1    1    0   
 $EndComp
@@ -102,6 +104,7 @@ F 0 "Q1" H 2740 2146 50  0000 L CNN
 F 1 "2SD880/TP29B" H 2740 2055 50  0000 L CNN
 F 2 "" H 2750 2200 50  0001 C CNN
 F 3 "https://www.el-component.com/bipolar-transistors/2sd880" H 2550 2100 50  0001 C CNN
+F 4 "TIP29A" H 2550 2100 50  0001 C CNN "Substitute"
 	1    2550 2100
 	1    0    0    -1  
 $EndComp
@@ -124,7 +127,7 @@ F 0 "R4" V 1000 2300 50  0000 L CNN
 F 1 "1k" V 1100 2300 50  0000 L CNN
 F 2 "" V 1030 2350 50  0001 C CNN
 F 3 "~" H 1100 2350 50  0001 C CNN
-F 4 "0.25 W" H 1100 2350 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 1100 2350 50  0001 C CNN "Power Rating"
 F 5 "5%" H 1100 2350 50  0001 C CNN "Ohmic Tolerance"
 	1    1100 2350
 	0    1    1    0   
@@ -419,7 +422,7 @@ F 0 "R60" V 2450 950 50  0000 L CNN
 F 1 "100" V 2500 1125 50  0000 L CNN
 F 2 "" V 2430 1200 50  0001 C CNN
 F 3 "~" H 2500 1200 50  0001 C CNN
-F 4 "0.25 W" H 2500 1200 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 2500 1200 50  0001 C CNN "Power Rating"
 F 5 "5%" H 2500 1200 50  0001 C CNN "Ohmic Tolerance"
 	1    2500 1200
 	0    1    1    0   
@@ -449,7 +452,7 @@ F 0 "R1" H 2000 1050 50  0000 L CNN
 F 1 "3k3" V 2100 825 50  0000 L CNN
 F 2 "" V 2030 900 50  0001 C CNN
 F 3 "~" H 2100 900 50  0001 C CNN
-F 4 "0.25 W" H 2100 900 50  0001 C CNN "Power Rating"
+F 4 "0.25W" H 2100 900 50  0001 C CNN "Power Rating"
 F 5 "5%" H 2100 900 50  0001 C CNN "Ohmic Tolerance"
 	1    2100 900 
 	1    0    0    -1  
