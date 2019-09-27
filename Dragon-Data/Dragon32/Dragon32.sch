@@ -1,0 +1,335 @@
+EESchema Schematic File Version 4
+LIBS:Dragon32-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPU_NXP_6800:MC6809E U19
+U 1 1 5D8E8B3B
+P 4450 2600
+F 0 "U19" H 4450 4181 50  0000 C CNN
+F 1 "MC6809E" H 4450 4090 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 4450 1100 50  0001 C CNN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf" H 4350 4025 50  0001 C CNN
+	1    4450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_Controller_Motorola:MC6883 U?
+U 1 1 5D8E9B62
+P 9300 2950
+F 0 "U?" H 9300 4531 50  0000 C CNN
+F 1 "MC6883" H 9300 4440 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 9300 1450 50  0001 C CNN
+F 3 "http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf" H 9200 4375 50  0001 C CNN
+	1    9300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_ROM_Dragon:BASIC_8K U?
+U 1 1 5D8EACFE
+P 11900 2950
+F 0 "U?" H 11900 4031 50  0000 C CNN
+F 1 "BASIC_8K" H 11900 3940 50  0000 C CNN
+F 2 "" H 13200 4650 50  0001 C CNN
+F 3 "" H 13200 4650 50  0001 C CNN
+	1    11900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_ROM_Dragon:BASIC_8K U?
+U 1 1 5D8EB84A
+P 13150 3000
+F 0 "U?" H 13150 4081 50  0000 C CNN
+F 1 "BASIC_8K" H 13150 3990 50  0000 C CNN
+F 2 "" H 14450 4700 50  0001 C CNN
+F 3 "" H 14450 4700 50  0001 C CNN
+	1    13150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS244 U?
+U 1 1 5D8EDF12
+P 2700 6300
+F 0 "U?" H 2700 7281 50  0000 C CNN
+F 1 "74LS244" H 2700 7190 50  0000 C CNN
+F 2 "" H 2700 6300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 2700 6300 50  0001 C CNN
+	1    2700 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM_Siemens:HYB4116 U?
+U 1 1 5D8E3F74
+P 4700 6450
+F 0 "U?" H 4700 7417 50  0000 C CNN
+F 1 "HYB4116" H 4700 7326 50  0000 C CNN
+F 2 "" H 5650 7500 50  0001 C CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf" H 5650 7500 50  0001 C CNN
+	1    4700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_RAM_Siemens:HYB4116 U?
+U 1 1 5D8E4A34
+P 5900 6450
+F 0 "U?" H 5900 7417 50  0000 C CNN
+F 1 "HYB4116" H 5900 7326 50  0000 C CNN
+F 2 "" H 6850 7500 50  0001 C CNN
+F 3 "https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf" H 6850 7500 50  0001 C CNN
+	1    5900 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2400 3750 2400
+Wire Wire Line
+	3950 2500 3750 2500
+Wire Wire Line
+	3950 2600 3750 2600
+$Comp
+L Diode:1N914 D?
+U 1 1 5D8F4DEA
+P 1000 2500
+F 0 "D?" H 1000 2716 50  0000 C CNN
+F 1 "1N914" H 1000 2625 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1000 2325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 1000 2500 50  0001 C CNN
+	1    1000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 5D8FA86A
+P 1000 2900
+F 0 "D?" H 1000 3116 50  0000 C CNN
+F 1 "1N914" H 1000 3025 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1000 2725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 1000 2900 50  0001 C CNN
+	1    1000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N914 D?
+U 1 1 5D90D4D2
+P 1400 2500
+F 0 "D?" H 1400 2716 50  0000 C CNN
+F 1 "1N914" H 1400 2625 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1400 2325 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 1400 2500 50  0001 C CNN
+	1    1400 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D90DC6B
+P 1850 2500
+F 0 "R?" H 1920 2546 50  0000 L CNN
+F 1 "R" H 1920 2455 50  0000 L CNN
+F 2 "" V 1780 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D91D28C
+P 1400 2900
+F 0 "C?" H 1492 2946 50  0000 L CNN
+F 1 "C_Small" H 1492 2855 50  0000 L CNN
+F 2 "" H 1400 2900 50  0001 C CNN
+F 3 "~" H 1400 2900 50  0001 C CNN
+	1    1400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D92118F
+P 1850 2950
+F 0 "SW?" V 1804 3098 50  0000 L CNN
+F 1 "SW_Push" V 1895 3098 50  0000 L CNN
+F 2 "" H 1850 3150 50  0001 C CNN
+F 3 "~" H 1850 3150 50  0001 C CNN
+	1    1850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D92F6F9
+P 1150 750
+F 0 "#PWR?" H 1150 600 50  0001 C CNN
+F 1 "+5V" H 1165 923 50  0000 C CNN
+F 2 "" H 1150 750 50  0001 C CNN
+F 3 "" H 1150 750 50  0001 C CNN
+	1    1150 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5D9300DA
+P 1550 750
+F 0 "#PWR?" H 1550 600 50  0001 C CNN
+F 1 "+12V" H 1565 923 50  0000 C CNN
+F 2 "" H 1550 750 50  0001 C CNN
+F 3 "" H 1550 750 50  0001 C CNN
+	1    1550 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D93072B
+P 1150 1000
+F 0 "#PWR?" H 1150 750 50  0001 C CNN
+F 1 "GND" H 1155 827 50  0000 C CNN
+F 2 "" H 1150 1000 50  0001 C CNN
+F 3 "" H 1150 1000 50  0001 C CNN
+	1    1150 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5D930CEA
+P 1550 1000
+F 0 "#PWR?" H 1550 1100 50  0001 C CNN
+F 1 "-5V" H 1565 1173 50  0000 C CNN
+F 2 "" H 1550 1000 50  0001 C CNN
+F 3 "" H 1550 1000 50  0001 C CNN
+	1    1550 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5D935C02
+P 2450 2550
+F 0 "C?" H 2538 2596 50  0000 L CNN
+F 1 "CP_Small" H 2538 2505 50  0000 L CNN
+F 2 "" H 2450 2550 50  0001 C CNN
+F 3 "~" H 2450 2550 50  0001 C CNN
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D939BFD
+P 2450 2100
+F 0 "R?" H 2520 2146 50  0000 L CNN
+F 1 "R" H 2520 2055 50  0000 L CNN
+F 2 "" V 2380 2100 50  0001 C CNN
+F 3 "~" H 2450 2100 50  0001 C CNN
+	1    2450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2300 1000 2350
+Wire Wire Line
+	1000 2650 1000 2700
+Wire Wire Line
+	1400 2700 1400 2650
+Connection ~ 1000 2700
+Wire Wire Line
+	1000 2700 1000 2750
+Wire Wire Line
+	1400 2700 1400 2800
+Connection ~ 1400 2700
+Wire Wire Line
+	1850 3150 1850 3200
+Wire Wire Line
+	1850 3200 1400 3200
+Wire Wire Line
+	1400 3200 1400 3000
+Wire Wire Line
+	1400 3200 1400 3250
+Connection ~ 1400 3200
+Wire Wire Line
+	1000 3050 1000 3200
+Wire Wire Line
+	1000 3200 850  3200
+Wire Wire Line
+	1000 2300 850  2300
+Connection ~ 1000 2300
+Wire Wire Line
+	1850 2650 1850 2700
+Wire Wire Line
+	1000 2700 1400 2700
+Wire Wire Line
+	1850 2700 1400 2700
+Connection ~ 1850 2700
+Wire Wire Line
+	1850 2700 1850 2750
+Wire Wire Line
+	2450 2650 2450 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5D95090E
+P 1400 3250
+F 0 "#PWR?" H 1400 3000 50  0001 C CNN
+F 1 "GND" H 1405 3077 50  0000 C CNN
+F 2 "" H 1400 3250 50  0001 C CNN
+F 3 "" H 1400 3250 50  0001 C CNN
+	1    1400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D951BFA
+P 2450 2700
+F 0 "#PWR?" H 2450 2450 50  0001 C CNN
+F 1 "GND" H 2455 2527 50  0000 C CNN
+F 2 "" H 2450 2700 50  0001 C CNN
+F 3 "" H 2450 2700 50  0001 C CNN
+	1    2450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2300 2450 2450
+Wire Wire Line
+	2450 2250 2450 2300
+Connection ~ 2450 2300
+Wire Wire Line
+	1000 2300 2450 2300
+Wire Wire Line
+	1400 2350 1400 2200
+Wire Wire Line
+	1400 2200 1850 2200
+Wire Wire Line
+	1850 2200 1850 2350
+Wire Wire Line
+	1400 2200 1400 2150
+Connection ~ 1400 2200
+$Comp
+L power:+5V #PWR?
+U 1 1 5D95BE0D
+P 1400 2150
+F 0 "#PWR?" H 1400 2000 50  0001 C CNN
+F 1 "+5V" H 1415 2323 50  0000 C CNN
+F 2 "" H 1400 2150 50  0001 C CNN
+F 3 "" H 1400 2150 50  0001 C CNN
+	1    1400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1950 2450 1900
+$Comp
+L power:+5V #PWR?
+U 1 1 5D95DD27
+P 2450 1900
+F 0 "#PWR?" H 2450 1750 50  0001 C CNN
+F 1 "+5V" H 2465 2073 50  0000 C CNN
+F 2 "" H 2450 1900 50  0001 C CNN
+F 3 "" H 2450 1900 50  0001 C CNN
+	1    2450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2300 3950 2300
+$EndSCHEMATC
