@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC6847
+D PRovides a means to interface a M6800 to NTSC television.
+K CPU
+F https://en.wikipedia.org/wiki/ANTIC
+$ENDCMP
+#
+#End Doc Library
