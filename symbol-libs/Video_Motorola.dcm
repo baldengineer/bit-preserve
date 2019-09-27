@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC6847
+D PRovides a means to interface a M6800 to NTSC television.
+K CPU
+F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6847 MOS Video Display Generator (Motorola).pdf
+$ENDCMP
+#
+$CMP MC6847Y
+D PRovides a means to interface a M6800 to NTSC television.
+K CPU
+F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6847 MOS Video Display Generator (Motorola).pdf
+$ENDCMP
+#
+#End Doc Library
