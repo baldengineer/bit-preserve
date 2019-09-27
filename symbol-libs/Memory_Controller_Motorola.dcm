@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS783
+D Synchronous Address Multiplexer
+K TTL MUX MMU
+F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf
+$ENDCMP
+#
+$CMP MC6883
+D Synchronous Address Multiplexer
+K TTL MUX MMU
+F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf
+$ENDCMP
+#
+#End Doc Library

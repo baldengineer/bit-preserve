@@ -12,10 +12,4 @@ K TTL MUX MUX2
 F https://www.ti.com/lit/ds/symlink/sn74ls257b.pdf
 $ENDCMP
 #
-$CMP 74LS783
-D Synchronous Address Multiplexer
-K TTL MUX MMU
-F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf
-$ENDCMP
-#
 #End Doc Library
