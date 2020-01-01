@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 82S129
+D 1K-bit TTL bipolar PROM
+$ENDCMP
+#
+$CMP EdgeConnector
+D Apple Cassette Interface Edge Connector
+$ENDCMP
+#
+#End Doc Library

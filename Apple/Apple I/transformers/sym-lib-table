@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name apple1_transformers)(type Legacy)(uri ${KIPRJMOD}/apple1_transformers.lib)(options "")(descr ""))
+)

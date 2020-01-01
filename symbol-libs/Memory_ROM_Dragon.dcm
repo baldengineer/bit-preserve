@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BASIC_8K
+D Dragon BASIC ROM
+K ROM, Dragon
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HYB4116
+D 16kx1 DRAM
+K RAM
+F https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS18263/INFNS18263-1.pdf
+$ENDCMP
+#
+#End Doc Library
