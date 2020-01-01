@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -48,7 +48,7 @@ F 3 "" H 6000 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freetronics_schematic:M07 JP?
+L IIgs-Schematic-rescue:M07-freetronics_schematic JP?
 U 1 1 5BF2229C
 P 7900 5600
 F 0 "JP?" H 7878 5328 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 2800 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freetronics_schematic:M02 JP?
+L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
 U 1 1 5BF22441
 P 11700 6950
 F 0 "JP?" H 11678 6928 50  0000 L CNN

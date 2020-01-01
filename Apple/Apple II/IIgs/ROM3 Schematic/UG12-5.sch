@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -236,7 +236,7 @@ Wire Wire Line
 Text Label 6750 2850 2    50   ~ 0
 CP-CNTL
 $Comp
-L freetronics_schematic:M02 JP?
+L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
 U 1 1 5CB3AF62
 P 7600 3850
 F 0 "JP?" H 7578 3790 50  0000 L CNN
@@ -649,7 +649,7 @@ L2-8
 Wire Wire Line
 	4450 3750 4750 3750
 $Comp
-L freetronics_schematic:M07 J18
+L IIgs-Schematic-rescue:M07-freetronics_schematic J18
 U 1 1 5CBC3DCE
 P 3250 6450
 F 0 "J18" H 3150 6550 50  0000 C CNN
