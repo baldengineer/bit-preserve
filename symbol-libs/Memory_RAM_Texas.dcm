@@ -42,4 +42,24 @@ K DRAM,RAM
 F https://archive.org/download/tms4164datasheetnov85/TMS4164-datasheet-nov85.pdf
 $ENDCMP
 #
+$CMP TMS4464
+D 65536x4-Bbit Dynamic Random-Access Memory (DRAM)
+K DRAM,RAM
+$ENDCMP
+#
+$CMP TMS4464-12
+D 65536x4-Bbit Dynamic Random-Access Memory (DRAM) 120ns
+K DRAM,RAM
+$ENDCMP
+#
+$CMP TMS4464-15
+D 65536x4-Bbit Dynamic Random-Access Memory (DRAM) 150ns
+K DRAM,RAM
+$ENDCMP
+#
+$CMP TMS4464-20
+D 65536x4-Bbit Dynamic Random-Access Memory (DRAM) 200ns
+K DRAM,RAM
+$ENDCMP
+#
 #End Doc Library
