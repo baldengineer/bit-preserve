@@ -1,3 +1,5 @@
+Note that these are organized by assembly number. 
+
 # Commodore 64 Schematic Sources
 * [www.zimmers.net](http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html).
 * [retro-kit.co.uk](https://www.retro-kit.co.uk/user/custom/Commodore/C64/manuals/C64C_Service_Manual.pdf) - Service Manual.
