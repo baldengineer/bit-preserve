@@ -1,12 +1,12 @@
-# Commodore 64 [#251469]
+# Commodore 64 [#250466]
 
-This directory contains a KiCad project for the Commodore 64, schematic 251469, a.k.a. "C64B", with board revisions 250425-01 and 240441-01.
+This directory contains a KiCad project for the Commodore 64, schematic 252278, a.k.a. "C64B3", with board revision 250466.
 
-This part of the [BitPreserve project](https://github.com/baldengineer/bit-preserve), initiated by [@baldengineer](https://github.com/baldengineer), was created by, and is maintained by, Cumbayah! (cumbayah@subetha.dk).
-Please coordinate updates or fixes to this schematic with him.
+This part of the [BitPreserve project](https://github.com/baldengineer/bit-preserve), initiated by [@baldengineer](https://github.com/baldengineer), was created for #251469 by Cumbayah! (cumbayah@subetha.dk) and modified to match 250466.
 
 ## Status
-Initial capture complete. The entire C64B schematic, including the RF modulator, is represented.
+Initial capture complete. The entire C64B3 schematic, including the RF modulator, is represented.
+Verified against schematic and board. ERC reports no issues.
 
 ### To Do
  0) Work on issues from issue list (below).
@@ -16,14 +16,13 @@ Initial capture complete. The entire C64B schematic, including the RF modulator,
  4) Invite 3rd party reviews to further increase confidence in correctness.
 
 ### Issues
- 1) ERC ladybug far from happy yet. Working on removing those issues.
- 2) Inductor component values from RF modulator not known (not in service manual) - try and get them from an actual RF can.
+ 1) Inductor component values from RF modulator not known (not in service manual) - try and get them from an actual RF can.
 
 ## Sources
 
 ### Schematic
 
-* [C64/C64C Service Manual (1992-03)](https://archive.org/details/C64-C64C_Service_Manual_1992-03_Commodore) - pp. 31-32 (PN-314001-03)
+* [C64/C64C Service Manual (1992-03)](https://archive.org/details/C64-C64C_Service_Manual_1992-03_Commodore) - pp. 37-38 (PN-314001-03)
 
 The schematic is not intended to be a 1-to-1 capture of the large and complex Service Manual diagrams, layout-wise.
 Rather, the aim is to be semantically identical to those, while restructuring the schematics in smaller independent units,
