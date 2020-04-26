@@ -193,16 +193,6 @@ Entry Wire Line
 Entry Wire Line
 	3550 3250 3650 3150
 Wire Wire Line
-	3150 3150 3150 2000
-Wire Wire Line
-	3250 900  3250 1800
-Wire Wire Line
-	3350 900  3350 1900
-Wire Wire Line
-	3450 900  3450 1700
-Wire Wire Line
-	3550 900  3550 2100
-Wire Wire Line
 	6300 2150 5250 2150
 Wire Wire Line
 	5250 2150 5250 1150
@@ -568,51 +558,9 @@ F 5 "25V" H 4600 850 50  0001 C CNN "Voltage Rating"
 	1    4600 850 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3950 2000 3150 2000
-Connection ~ 3150 2000
-Wire Wire Line
-	3150 2000 3150 900 
-Wire Wire Line
-	3250 1800 3950 1800
-Connection ~ 3250 1800
-Wire Wire Line
-	3250 1800 3250 3150
-Wire Wire Line
-	3350 1900 3950 1900
-Connection ~ 3350 1900
-Wire Wire Line
-	3350 1900 3350 3150
-Wire Wire Line
-	3450 1700 3950 1700
-Connection ~ 3450 1700
-Wire Wire Line
-	3450 1700 3450 3150
-Wire Wire Line
-	3550 2100 3950 2100
-Connection ~ 3550 2100
-Wire Wire Line
-	3550 2100 3550 3150
-Wire Wire Line
-	3950 1600 3650 1600
-Wire Wire Line
-	3650 900  3650 1600
-Connection ~ 3650 1600
-Wire Wire Line
-	3650 1600 3650 3150
-Wire Wire Line
-	5250 1150 3950 1150
-Wire Wire Line
-	3950 1150 3950 1500
 Connection ~ 5250 1150
 Wire Wire Line
 	5250 1150 5250 900 
-Wire Wire Line
-	3950 2200 3850 2200
-Wire Wire Line
-	3850 2200 3850 1050
-Wire Wire Line
-	3850 1050 5350 1050
 Connection ~ 5350 1050
 Wire Wire Line
 	5350 1050 5350 900 
@@ -660,19 +608,19 @@ Entry Wire Line
 	5050 2200 5150 2300
 Text Label 5050 1500 2    50   ~ 0
 A7
-Text Label 5050 1600 2    50   ~ 0
-A6
-Text Label 5050 1700 2    50   ~ 0
-A5
-Text Label 5050 1800 2    50   ~ 0
-A4
-Text Label 5050 1900 2    50   ~ 0
-A3
-Text Label 5050 2000 2    50   ~ 0
-A2
-Text Label 5050 2100 2    50   ~ 0
-A1
 Text Label 5050 2200 2    50   ~ 0
+A6
+Text Label 5050 1600 2    50   ~ 0
+A5
+Text Label 5050 2100 2    50   ~ 0
+A4
+Text Label 5050 1700 2    50   ~ 0
+A3
+Text Label 5050 1900 2    50   ~ 0
+A2
+Text Label 5050 1800 2    50   ~ 0
+A1
+Text Label 5050 2000 2    50   ~ 0
 A0
 Text Label 3450 3450 0    50   ~ 0
 MA'[0..7]
@@ -1421,6 +1369,60 @@ $EndComp
 Connection ~ 4550 6250
 Wire Wire Line
 	4550 6250 6650 6250
+Wire Wire Line
+	3550 900  3550 2100
+Wire Wire Line
+	3150 900  3150 2000
+Wire Wire Line
+	3350 900  3350 1900
+Wire Wire Line
+	3250 900  3250 1800
+Wire Wire Line
+	3450 900  3450 1700
+Wire Wire Line
+	3650 900  3650 1600
+Wire Wire Line
+	3950 2000 3150 2000
+Connection ~ 3150 2000
+Wire Wire Line
+	3150 2000 3150 3150
+Wire Wire Line
+	3950 1800 3250 1800
+Connection ~ 3250 1800
+Wire Wire Line
+	3250 1800 3250 3150
+Wire Wire Line
+	3950 1900 3350 1900
+Connection ~ 3350 1900
+Wire Wire Line
+	3350 1900 3350 3150
+Wire Wire Line
+	3950 1700 3450 1700
+Connection ~ 3450 1700
+Wire Wire Line
+	3450 1700 3450 3150
+Wire Wire Line
+	3950 2100 3550 2100
+Connection ~ 3550 2100
+Wire Wire Line
+	3550 2100 3550 3150
+Wire Wire Line
+	3950 1600 3650 1600
+Connection ~ 3650 1600
+Wire Wire Line
+	3650 1600 3650 3150
+Wire Wire Line
+	3950 1500 3850 1500
+Wire Wire Line
+	3850 1500 3850 1150
+Wire Wire Line
+	3850 1150 5250 1150
+Wire Wire Line
+	3750 1050 3750 2200
+Wire Wire Line
+	3750 2200 3950 2200
+Wire Wire Line
+	3750 1050 5350 1050
 Wire Bus Line
 	7550 1350 7550 3250
 Wire Bus Line
