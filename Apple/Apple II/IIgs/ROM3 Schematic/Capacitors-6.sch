@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:IIgs Schematic-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1462,9 +1462,11 @@ F 3 "" H 8900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L freetronics_schematic:M02 JP24
+L IIgs-Schematic-rescue:M02-freetronics_schematic JP24
 U 1 1 5E2DFE04
 P 8450 5850
+AR Path="/5E2DFE04" Ref="JP24"  Part="1" 
+AR Path="/5BF20EB3/5E2DFE04" Ref="JP24"  Part="1" 
 F 0 "JP24" H 8350 5600 50  0000 C CNN
 F 1 "FAN_CONNECTOR" H 8300 6000 40  0000 C CNN
 F 2 "" H 8450 5850 60  0000 C CNN
