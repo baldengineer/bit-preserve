@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:IIgs Schematic-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1260,14 +1259,14 @@ Connection ~ 6100 5800
 Wire Wire Line
 	5350 5800 5350 6150
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic JP22
+L Connector_Generic:Conn_01x07 JP22
 U 1 1 5E243117
-P 6750 5650
-F 0 "JP22" H 6567 5850 50  0000 C CNN
-F 1 "Molex-7Pin" H 6567 5766 40  0000 C CNN
-F 2 "" H 6750 5650 60  0000 C CNN
-F 3 "" H 6750 5650 60  0000 C CNN
-	1    6750 5650
+P 6850 5950
+F 0 "JP22" H 6850 6400 50  0000 C CNN
+F 1 "Molex-7Pin" H 6950 6400 40  0001 C CNN
+F 2 "" H 6850 5950 60  0000 C CNN
+F 3 "" H 6850 5950 60  0000 C CNN
+	1    6850 5950
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line

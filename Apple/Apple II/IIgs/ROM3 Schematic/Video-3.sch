@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:IIgs Schematic-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -78,17 +77,6 @@ F 2 "" H 7100 5450 50  0001 C CNN
 F 3 "" H 7100 5450 50  0001 C CNN
 	1    7450 5000
 	1    0    0    -1  
-$EndComp
-$Comp
-L IIgs-Schematic-rescue:M17-freetronics_schematic U?
-U 1 1 5BF1DD73
-P 9050 1250
-F 0 "U?" H 9017 2189 70  0000 R CNN
-F 1 "M17" H 9017 2310 70  0000 R CNN
-F 2 "" H 9050 1250 60  0000 C CNN
-F 3 "" H 9050 1250 60  0000 C CNN
-	1    9050 1250
-	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	9650 5500 10000 5500

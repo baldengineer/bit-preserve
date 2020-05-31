@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:IIgs Schematic-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -649,14 +648,14 @@ L2-8
 Wire Wire Line
 	4450 3750 4750 3750
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic J18
+L Connector_Generic:Conn_01x07 J18
 U 1 1 5CBC3DCE
-P 3250 6450
-F 0 "J18" H 3150 6550 50  0000 C CNN
-F 1 "Apple Desk Top Bus" H 2900 6650 40  0000 C CNN
-F 2 "" H 3250 6450 60  0000 C CNN
-F 3 "" H 3250 6450 60  0000 C CNN
-	1    3250 6450
+P 3350 6750
+F 0 "J18" H 3400 7300 50  0000 C CNN
+F 1 "Apple Desk Top Bus" H 3350 7200 40  0000 C CNN
+F 2 "" H 3350 6750 60  0000 C CNN
+F 3 "" H 3350 6750 60  0000 C CNN
+	1    3350 6750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
