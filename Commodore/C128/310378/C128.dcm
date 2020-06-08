@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 251878-01
+D Commodore 128 line filter assembly
+K commodore 128 line filter
+$ENDCMP
+#
+$CMP Filter-Power-C128
+D Commodore 128 line filter assembly
+K commodore 128 line filter
+$ENDCMP
+#
+#End Doc Library

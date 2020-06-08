@@ -18,6 +18,17 @@ K vic-ii,vic,video interface chip,graphics chip
 F https://archive.org/download/mos_6567_vic_ii_preliminary/mos_6567_vic_ii_preliminary.pdf
 $ENDCMP
 #
+$CMP 8563
+D Commodore 128 80-column VDC
+K commodore,128,vdc,video
+$ENDCMP
+#
+$CMP 8564
+D Video Interface Chip IIe (VIC-IIe)
+K vic-iie,vic,video interface chip,graphics chip
+F https://archive.org/download/mos_6567_vic_ii_preliminary/mos_6567_vic_ii_preliminary.pdf
+$ENDCMP
+#
 $CMP 8565
 D Video Interface Chip II (VIC-II)
 K vic-ii,vic,video interface chip,graphics chip

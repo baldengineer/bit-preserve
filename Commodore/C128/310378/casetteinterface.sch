@@ -1,0 +1,587 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 23
+Title "Commodore 128, Schematic #310379"
+Date ""
+Rev ""
+Comp "Commodore Business Machines, Inc."
+Comment1 "Matches PCB assy #310378 rev 9"
+Comment2 "Capture by Johan Grip"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Edge:Conn_02x06_Edge CN2
+U 1 1 5DC67F8E
+P 6400 5300
+F 0 "CN2" H 6450 5717 50  0000 C CNN
+F 1 "Cassette" H 6450 5626 50  0000 C CNN
+F 2 "" H 6400 4800 50  0001 C CNN
+F 3 "~" H 6400 4800 50  0001 C CNN
+	1    6400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 5DC68FEB
+P 5150 5150
+F 0 "FB1" V 5100 5050 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5150 50  0001 C CNN
+F 2 "" V 5080 5150 50  0001 C CNN
+F 3 "~" H 5150 5150 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5150 50  0001 C CNN "Mouser Part"
+	1    5150 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 5DC6AC0A
+P 5150 5000
+F 0 "FB2" V 5100 4900 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5000 50  0001 C CNN
+F 2 "" V 5080 5000 50  0001 C CNN
+F 3 "~" H 5150 5000 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5000 50  0001 C CNN "Mouser Part"
+	1    5150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB3
+U 1 1 5DC6AFFD
+P 5150 5750
+F 0 "FB3" V 5100 5650 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5750 50  0001 C CNN
+F 2 "" V 5080 5750 50  0001 C CNN
+F 3 "~" H 5150 5750 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5750 50  0001 C CNN "Mouser Part"
+	1    5150 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB4
+U 1 1 5DC6C4AD
+P 5150 5600
+F 0 "FB4" V 5100 5500 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5600 50  0001 C CNN
+F 2 "" V 5080 5600 50  0001 C CNN
+F 3 "~" H 5150 5600 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5600 50  0001 C CNN "Mouser Part"
+	1    5150 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB5
+U 1 1 5DC6C4B3
+P 5150 5300
+F 0 "FB5" V 5100 5200 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5300 50  0001 C CNN
+F 2 "" V 5080 5300 50  0001 C CNN
+F 3 "~" H 5150 5300 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5300 50  0001 C CNN "Mouser Part"
+	1    5150 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB6
+U 1 1 5DC6C4B9
+P 5150 5450
+F 0 "FB6" V 5100 5350 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 5004 5450 50  0001 C CNN
+F 2 "" V 5080 5450 50  0001 C CNN
+F 3 "~" H 5150 5450 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 5150 5450 50  0001 C CNN "Mouser Part"
+	1    5150 5450
+	0    1    1    0   
+$EndComp
+Text Label 6700 5100 0    50   ~ 0
+CCN1
+Text Label 6700 5200 0    50   ~ 0
+CCN2
+Text Label 6700 5300 0    50   ~ 0
+CCN3
+Text Label 6700 5400 0    50   ~ 0
+CCN4
+Text Label 6700 5500 0    50   ~ 0
+CCN5
+Text Label 6700 5600 0    50   ~ 0
+CCN6
+Text Label 6200 5100 2    50   ~ 0
+CCN1
+Text Label 6200 5200 2    50   ~ 0
+CCN2
+Text Label 6200 5300 2    50   ~ 0
+CCN3
+Text Label 6200 5400 2    50   ~ 0
+CCN4
+Text Label 6200 5500 2    50   ~ 0
+CCN5
+Text Label 6200 5600 2    50   ~ 0
+CCN6
+Entry Wire Line
+	5850 5500 5950 5600
+Entry Wire Line
+	5850 5400 5950 5500
+Entry Wire Line
+	5850 5300 5950 5400
+Entry Wire Line
+	5850 5200 5950 5300
+Entry Wire Line
+	5850 5100 5950 5200
+Entry Wire Line
+	5850 5000 5950 5100
+Entry Wire Line
+	7050 5000 6950 5100
+Entry Wire Line
+	7050 5100 6950 5200
+Entry Wire Line
+	7050 5200 6950 5300
+Entry Wire Line
+	7050 5300 6950 5400
+Entry Wire Line
+	7050 5400 6950 5500
+Entry Wire Line
+	7050 5500 6950 5600
+Wire Bus Line
+	7050 4750 5850 4750
+Text Label 6200 4750 0    50   ~ 0
+CCN[1..6]
+Entry Wire Line
+	5600 4900 5500 5000
+Entry Wire Line
+	5600 5050 5500 5150
+Entry Wire Line
+	5600 5200 5500 5300
+Entry Wire Line
+	5600 5350 5500 5450
+Entry Wire Line
+	5600 5500 5500 5600
+Entry Wire Line
+	5600 5650 5500 5750
+Wire Bus Line
+	5600 4750 5850 4750
+Connection ~ 5850 4750
+Wire Wire Line
+	5250 5000 5500 5000
+Wire Wire Line
+	5250 5150 5500 5150
+Wire Wire Line
+	5250 5300 5500 5300
+Wire Wire Line
+	5250 5450 5500 5450
+Wire Wire Line
+	5250 5600 5500 5600
+Wire Wire Line
+	5250 5750 5500 5750
+Text Label 5250 5000 0    50   ~ 0
+CCN1
+Text Label 5250 5150 0    50   ~ 0
+CCN2
+Text Label 5250 5300 0    50   ~ 0
+CCN3
+Text Label 5250 5450 0    50   ~ 0
+CCN4
+Text Label 5250 5600 0    50   ~ 0
+CCN5
+Text Label 5250 5750 0    50   ~ 0
+CCN6
+Wire Wire Line
+	5950 5100 6200 5100
+Wire Wire Line
+	6200 5200 5950 5200
+Wire Wire Line
+	5950 5300 6200 5300
+Wire Wire Line
+	6200 5400 5950 5400
+Wire Wire Line
+	5950 5500 6200 5500
+Wire Wire Line
+	6200 5600 5950 5600
+Wire Wire Line
+	6700 5600 6950 5600
+Wire Wire Line
+	6950 5500 6700 5500
+Wire Wire Line
+	6700 5400 6950 5400
+Wire Wire Line
+	6950 5300 6700 5300
+Wire Wire Line
+	6700 5200 6950 5200
+Wire Wire Line
+	6950 5100 6700 5100
+Entry Wire Line
+	4550 5650 4650 5750
+Entry Wire Line
+	4550 5500 4650 5600
+Entry Wire Line
+	4550 5350 4650 5450
+Entry Wire Line
+	4550 5200 4650 5300
+Entry Wire Line
+	4550 5050 4650 5150
+Entry Wire Line
+	4550 4900 4650 5000
+Wire Wire Line
+	4650 5000 5050 5000
+Wire Wire Line
+	5050 5150 4650 5150
+Wire Wire Line
+	5050 5300 4650 5300
+Wire Wire Line
+	5050 5450 4650 5450
+Wire Wire Line
+	5050 5600 4650 5600
+Wire Wire Line
+	5050 5750 4650 5750
+Text Label 4650 5000 0    50   ~ 0
+CASS1
+Text Label 4650 5150 0    50   ~ 0
+CASS2
+Text Label 4650 5300 0    50   ~ 0
+CASS3
+Text Label 4650 5450 0    50   ~ 0
+CASS4
+Text Label 4650 5600 0    50   ~ 0
+CASS5
+Text Label 4650 5750 0    50   ~ 0
+CASS6
+Entry Wire Line
+	4550 1850 4650 1750
+Text Label 4650 1750 0    50   ~ 0
+CASS2
+Wire Wire Line
+	4650 1750 5100 1750
+Wire Wire Line
+	5100 1750 5100 1350
+$Comp
+L power:+5V #PWR0171
+U 1 1 5DC841C0
+P 5100 1150
+F 0 "#PWR0171" H 5100 1000 50  0001 C CNN
+F 1 "+5V" H 5115 1323 50  0000 C CNN
+F 2 "" H 5100 1150 50  0001 C CNN
+F 3 "" H 5100 1150 50  0001 C CNN
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C70
+U 1 1 5DC84827
+P 5400 1350
+F 0 "C70" V 5171 1350 50  0000 C CNN
+F 1 "0.1 µF" V 5262 1350 50  0000 C CNN
+F 2 "" H 5400 1350 50  0001 C CNN
+F 3 "~" H 5400 1350 50  0001 C CNN
+F 4 "Ceramic" H 5400 1350 50  0001 C CNN "Type"
+F 5 "581-SA105E104MAR" H 5400 1350 50  0001 C CNN "Mouser Part"
+F 6 "25V" H 5400 1350 50  0001 C CNN "Voltage Rating"
+F 7 "+80% -20%" H 5400 1350 50  0001 C CNN "Voltage Tolerance"
+	1    5400 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 5DC8547F
+P 5600 1450
+F 0 "#PWR0172" H 5600 1200 50  0001 C CNN
+F 1 "GND" H 5605 1277 50  0001 C CNN
+F 2 "" H 5600 1450 50  0001 C CNN
+F 3 "" H 5600 1450 50  0001 C CNN
+	1    5600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1450 5600 1350
+Wire Wire Line
+	5600 1350 5500 1350
+Wire Wire Line
+	5300 1350 5100 1350
+Connection ~ 5100 1350
+Wire Wire Line
+	5100 1350 5100 1150
+Entry Wire Line
+	4650 1900 4550 2000
+Text Label 4650 1900 0    50   ~ 0
+CASS1
+$Comp
+L power:GND #PWR0173
+U 1 1 5DC8697B
+P 5100 2050
+F 0 "#PWR0173" H 5100 1800 50  0001 C CNN
+F 1 "GND" H 5105 1877 50  0000 C CNN
+F 2 "" H 5100 2050 50  0001 C CNN
+F 3 "" H 5100 2050 50  0001 C CNN
+	1    5100 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2050 5100 1900
+Wire Wire Line
+	5100 1900 4650 1900
+Entry Wire Line
+	4550 1850 4450 1750
+Entry Wire Line
+	4450 1900 4550 2000
+Entry Wire Line
+	4450 2050 4550 2150
+$Comp
+L Device:R R4
+U 1 1 5DC88477
+P 2200 1900
+F 0 "R4" V 2150 1700 50  0000 C CNN
+F 1 "100" V 2200 1900 50  0000 C CNN
+F 2 "" V 2130 1900 50  0001 C CNN
+F 3 "~" H 2200 1900 50  0001 C CNN
+F 4 "660-MF1/4DCT52A1000F" H 2200 1900 50  0001 C CNN "Mouser Part"
+	1    2200 1900
+	0    1    1    0   
+$EndComp
+Text Label 4450 1900 2    50   ~ 0
+CASS5
+Text Label 4450 1750 2    50   ~ 0
+CASS6
+Text Label 4450 2050 2    50   ~ 0
+CASS4
+Wire Wire Line
+	2350 1900 3300 1900
+Text HLabel 1350 1900 0    50   Output ~ 0
+WRITE
+Text HLabel 1350 2050 0    50   Output ~ 0
+READ
+Text HLabel 1350 1750 0    50   Output ~ 0
+SENSE
+Wire Wire Line
+	1350 1750 1850 1750
+Wire Wire Line
+	4450 2050 3700 2050
+Wire Wire Line
+	2050 1900 1350 1900
+$Comp
+L Resistor_Pack:R_Network07_Split RP5
+U 1 1 5DC8D1BD
+P 1850 1450
+F 0 "RP5" H 1937 1496 50  0000 L CNN
+F 1 "3.3k" H 1937 1405 50  0000 L CNN
+F 2 "" H 1900 1325 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1850 1450 50  0001 C CNN
+F 4 "652-4608X-1LF-3.3K" H 1850 1450 50  0001 C CNN "Mouser Part"
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1600 1850 1750
+Connection ~ 1850 1750
+Wire Wire Line
+	1850 1750 2850 1750
+$Comp
+L power:+5V #PWR0174
+U 1 1 5DC8F1BE
+P 1850 1150
+F 0 "#PWR0174" H 1850 1000 50  0001 C CNN
+F 1 "+5V" H 1865 1323 50  0000 C CNN
+F 2 "" H 1850 1150 50  0001 C CNN
+F 3 "" H 1850 1150 50  0001 C CNN
+	1    1850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1300 1850 1150
+$Comp
+L Device:C_Small C72
+U 1 1 5DC905E1
+P 2850 2300
+F 0 "C72" H 3000 2200 50  0000 R CNN
+F 1 "470 pF" H 2800 2400 50  0000 R CNN
+F 2 "" H 2850 2300 50  0001 C CNN
+F 3 "~" H 2850 2300 50  0001 C CNN
+F 4 "Ceramic" H 2850 2300 50  0001 C CNN "Type"
+F 5 "581-SA101A471JAR" H 2850 2300 50  0001 C CNN "Mouser Part"
+	1    2850 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C73
+U 1 1 5DC91445
+P 3300 2300
+F 0 "C73" H 3450 2200 50  0000 R CNN
+F 1 "470 pF" H 3250 2400 50  0000 R CNN
+F 2 "" H 3300 2300 50  0001 C CNN
+F 3 "~" H 3300 2300 50  0001 C CNN
+F 4 "Ceramic" H 3300 2300 50  0001 C CNN "Type"
+F 5 "581-SA101A471JAR" H 3300 2300 50  0001 C CNN "Mouser Part"
+	1    3300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C75
+U 1 1 5DC91843
+P 3700 2300
+F 0 "C75" H 3850 2200 50  0000 R CNN
+F 1 "470 pF" H 3650 2400 50  0000 R CNN
+F 2 "" H 3700 2300 50  0001 C CNN
+F 3 "~" H 3700 2300 50  0001 C CNN
+F 4 "Ceramic" H 3700 2300 50  0001 C CNN "Type"
+F 5 "581-SA101A471JAR" H 3700 2300 50  0001 C CNN "Mouser Part"
+	1    3700 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2200 3700 2050
+Connection ~ 3700 2050
+Wire Wire Line
+	3700 2050 1350 2050
+Wire Wire Line
+	3300 2200 3300 1900
+Connection ~ 3300 1900
+Wire Wire Line
+	3300 1900 4450 1900
+Wire Wire Line
+	2850 2200 2850 1750
+Connection ~ 2850 1750
+Wire Wire Line
+	2850 1750 4450 1750
+Wire Wire Line
+	3300 2400 3300 2600
+$Comp
+L power:GND #PWR0175
+U 1 1 5DC95B26
+P 3300 2700
+F 0 "#PWR0175" H 3300 2450 50  0001 C CNN
+F 1 "GND" H 3305 2527 50  0001 C CNN
+F 2 "" H 3300 2700 50  0001 C CNN
+F 3 "" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2400 2850 2600
+Wire Wire Line
+	2850 2600 3300 2600
+Connection ~ 3300 2600
+Wire Wire Line
+	3300 2600 3300 2700
+Wire Wire Line
+	3700 2400 3700 2600
+Wire Wire Line
+	3700 2600 3300 2600
+Entry Wire Line
+	4450 4000 4550 4100
+Text Label 4450 4000 2    50   ~ 0
+CASS3
+$Comp
+L Transistor_BJT:BD911 Q3
+U 1 1 5DC9B1FC
+P 3200 3700
+F 0 "Q3" H 3390 3746 50  0000 L CNN
+F 1 "2SD880" H 3390 3655 50  0000 L CNN
+F 2 "" H 3450 3625 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001277.pdf" H 3200 3700 50  0001 L CNN
+F 4 "512-KSD880YTU" H 3200 3700 50  0001 C CNN "Mouser Part"
+	1    3200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3900 3300 4000
+$Comp
+L Device:D_Zener CR1
+U 1 1 5DC9E097
+P 2550 3950
+F 0 "CR1" V 2504 4029 50  0000 L CNN
+F 1 "6.8v" V 2595 4029 50  0000 L CNN
+F 2 "" H 2550 3950 50  0001 C CNN
+F 3 "~" H 2550 3950 50  0001 C CNN
+F 4 "771-BZX79-B6V8,143" H 2550 3950 50  0001 C CNN "Mouser Part"
+F 5 "Zener" H 2550 3950 50  0001 C CNN "Type"
+	1    2550 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3700 2550 3700
+Wire Wire Line
+	2550 3700 2550 3800
+$Comp
+L power:GND #PWR0176
+U 1 1 5DCA0392
+P 2550 4200
+F 0 "#PWR0176" H 2550 3950 50  0001 C CNN
+F 1 "GND" H 2555 4027 50  0001 C CNN
+F 2 "" H 2550 4200 50  0001 C CNN
+F 3 "" H 2550 4200 50  0001 C CNN
+	1    2550 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4200 2550 4100
+$Comp
+L Device:R R5
+U 1 1 5DCA1E5F
+P 2250 3450
+F 0 "R5" H 2150 3400 50  0000 C CNN
+F 1 "470" V 2250 3450 50  0000 C CNN
+F 2 "" V 2180 3450 50  0001 C CNN
+F 3 "~" H 2250 3450 50  0001 C CNN
+F 4 "660-MF1/4DCT52R4700F" H 2250 3450 50  0001 C CNN "Mouser Part"
+	1    2250 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3300 2250 3100
+Wire Wire Line
+	2250 3100 2400 3100
+Wire Wire Line
+	3300 3100 3300 3500
+Wire Wire Line
+	2250 3600 2250 3700
+Wire Wire Line
+	2250 3700 2550 3700
+Connection ~ 2550 3700
+$Comp
+L 74xx:74LS06 U30
+U 6 1 5DCA60D1
+P 1800 3700
+F 0 "U30" H 1800 4017 50  0000 C CNN
+F 1 "7406" H 1800 3926 50  0000 C CNN
+F 2 "" H 1800 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 1800 3700 50  0001 C CNN
+F 4 "595-SN74LS06N" H 1800 3700 50  0001 C CNN "Mouser Part"
+	6    1800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4000 4450 4000
+Wire Wire Line
+	2100 3700 2250 3700
+Connection ~ 2250 3700
+Text HLabel 1350 3700 0    50   Output ~ 0
+MOTOR
+Wire Wire Line
+	1350 3700 1500 3700
+$Comp
+L power_more:UNREG+9V #PWR0177
+U 1 1 5DCB066B
+P 2400 2800
+F 0 "#PWR0177" H 2400 2650 50  0001 C CNN
+F 1 "UNREG+9V" H 2415 2973 50  0000 C CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2800 2400 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2400 3100 3300 3100
+Text Label 4550 3650 1    50   ~ 0
+CASS[1..6]
+Wire Bus Line
+	5850 4750 5850 5500
+Wire Bus Line
+	7050 4750 7050 5500
+Wire Bus Line
+	5600 4750 5600 5650
+Wire Bus Line
+	4550 1850 4550 5650
+$EndSCHEMATC

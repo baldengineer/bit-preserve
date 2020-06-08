@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 23128
+D 16k x 8 Mask ROM
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP 23256
+D 32k x 8 Mask ROM
+K 32k,mask,rom
+$ENDCMP
+#
 $CMP 2332
 D MOS Technology 4096x8 Static Read Only Memory (ROM)
 K 2332,rom
@@ -10,6 +20,26 @@ $CMP 2364
 D MOS Technology 8192x8 Static Read Only Memory (ROM)
 K 2364,rom
 F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP 251913-01
+D Commodore 128 ROM for C64 basic/kernal
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP 318018-02
+D Commodore 128 Basic ROM, $4000
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP 318019-02
+D Commodore 128 Basic ROM, $8000
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP 318020-03
+D Commodore 128 Kernal ROM
+K 16k,mask,rom
 $ENDCMP
 #
 $CMP 901225-01
@@ -28,6 +58,26 @@ $CMP 901227-03
 D MOS Technology 8192x8 Static Read Only Memory (ROM) mask programmed with Commodore 64 KERNAL
 K 2364,rom,c64
 F https://archive.org/download/mos_2364_rom_feb_1980/mos_2364_rom_feb_1980.pdf
+$ENDCMP
+#
+$CMP CBM_C128_Basic_4000_23128
+D Commodore 128 Basic ROM, $4000
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP CBM_C128_Basic_8000_23128
+D Commodore 128 Basic ROM, $8000
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP CBM_C128_C64_Kern_Basic
+D Commodore 128 ROM for C64 basic/kernal
+K 16k,mask,rom
+$ENDCMP
+#
+$CMP CBM_C128_Kernal_23128
+D Commodore 128 Kernal ROM
+K 16k,mask,rom
 $ENDCMP
 #
 $CMP CBM_C64_Basic_2364

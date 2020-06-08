@@ -65,6 +65,42 @@ X R7 8 0 -150 80 U 50 50 7 1 P
 ENDDRAW
 ENDDEF
 #
+# R_Network08_Split
+#
+DEF R_Network08_Split RN 0 40 Y N 8 F N
+F0 "RN" 50 25 50 H V L CNN
+F1 "R_Network08_Split" 50 -50 50 H V L CNN
+F2 "Resistor_THT:R_Array_SIP9" 50 -125 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R?Array?SIP*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+S -30 70 30 -70 2 1 8 N
+S -30 70 30 -70 3 1 8 N
+S -30 70 30 -70 4 1 8 N
+S -30 70 30 -70 5 1 8 N
+S -30 70 30 -70 6 1 8 N
+S -30 70 30 -70 7 1 8 N
+X common 1 0 150 80 D 50 50 0 0 P
+X R8 2 0 -150 80 U 50 50 1 1 P
+X common 1 0 150 80 D 50 50 2 1 P
+X R8 3 0 -150 80 U 50 50 2 1 P
+X common 1 0 150 80 D 50 50 3 1 P
+X R8 4 0 -150 80 U 50 50 3 1 P
+X common 1 0 150 80 D 50 50 4 1 P
+X R8 5 0 -150 80 U 50 50 4 1 P
+X common 1 0 150 80 D 50 50 5 1 P
+X R8 6 0 -150 80 U 50 50 5 1 P
+X common 1 0 150 80 D 50 50 6 1 P
+X R8 7 0 -150 80 U 50 50 6 1 P
+X common 1 0 150 80 D 50 50 7 1 P
+X R8 8 0 -150 80 U 50 50 7 1 P
+X R8 9 0 -150 80 U 50 50 8 1 P
+ENDDRAW
+ENDDEF
+#
 # R_Network09_Split
 #
 DEF R_Network09_Split RN 0 40 Y N 9 F N

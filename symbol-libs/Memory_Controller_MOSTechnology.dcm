@@ -1,5 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 310389-01
+D Commodore 128 MMU
+K commodore,128,mmu
+$ENDCMP
+#
+$CMP 315012-01
+D Commodore 128 PLA
+K commodore,128,pla
+$ENDCMP
+#
+$CMP 8721
+D Commodore 128 PLA
+K commodore,128,pla
+$ENDCMP
+#
+$CMP 8722
+D Commodore 128 MMU
+K commodore,128,mmu
+$ENDCMP
+#
 $CMP 906114-01
 D Programmable Logic Array (PLA) memory controller for the Commodore 64
 K PLA,memory controller,C64
