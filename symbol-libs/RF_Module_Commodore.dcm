@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 251719-01
+D Commodore 64E/128 RF Modulator module
+K commodore,128,64,rf-modulator
+$ENDCMP
+#
+#End Doc Library

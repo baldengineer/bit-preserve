@@ -12,6 +12,12 @@ K R network star-topology
 F http://www.vishay.com/docs/31509/csc.pdf
 $ENDCMP
 #
+$CMP R_Network08_Split
+D 8 resistor network (split), star topology, bussed resistors, small symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
 $CMP R_Network09_Split
 D 9 resistor network (split), star topology, bussed resistors, small symbol
 K R network star-topology

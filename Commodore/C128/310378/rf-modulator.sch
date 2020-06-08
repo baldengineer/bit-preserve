@@ -1,0 +1,455 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 23
+Title "Commodore 128, Schematic #310379"
+Date ""
+Rev ""
+Comp "Commodore Business Machines, Inc."
+Comment1 "Matches PCB assy #310378 rev 9"
+Comment2 "Capture by Johan Grip"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module_Commodore:251719-01 M1
+U 1 1 5DE4DEA6
+P 5400 3750
+F 0 "M1" H 4850 4250 50  0000 C CNN
+F 1 "RF_Modulator" H 5800 4250 50  0000 C CNN
+F 2 "" H 5300 3850 50  0001 C CNN
+F 3 "" H 5300 3850 50  0001 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3600 3950 0    50   Input ~ 0
+AUDIO
+Text HLabel 2600 3550 0    50   Input ~ 0
+SYNC_LUM
+Text HLabel 2600 3750 0    50   Input ~ 0
+CHROMA
+Wire Wire Line
+	4700 3550 3150 3550
+$Comp
+L Device:EMI_Filter_LCL EMI39
+U 1 1 5DE4EC58
+P 4200 4050
+F 0 "EMI39" H 4200 4250 50  0000 C CNN
+F 1 "270 pF" H 4400 4000 50  0000 C CNN
+F 2 "" V 4200 4050 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 4200 4050 50  0001 C CNN
+F 4 "81-DSS1NB32A271Q91A" H 4200 4050 50  0001 C CNN "Mouser Part"
+	1    4200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3950 4700 3950
+Wire Wire Line
+	5400 4300 5400 4400
+Wire Wire Line
+	5400 4400 4800 4400
+Wire Wire Line
+	4200 4400 4200 4150
+Wire Wire Line
+	4800 4400 4800 4500
+Connection ~ 4800 4400
+Wire Wire Line
+	4800 4400 4200 4400
+$Comp
+L power:GND #PWR0255
+U 1 1 5DE5019A
+P 4800 4500
+F 0 "#PWR0255" H 4800 4250 50  0001 C CNN
+F 1 "GND" H 4805 4327 50  0001 C CNN
+F 2 "" H 4800 4500 50  0001 C CNN
+F 3 "" H 4800 4500 50  0001 C CNN
+	1    4800 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3750 2950 3750
+Wire Wire Line
+	3900 3950 3750 3950
+Wire Wire Line
+	3750 3950 3750 4750
+Connection ~ 3750 3950
+Wire Wire Line
+	3750 3950 3600 3950
+NoConn ~ 6100 4000
+$Comp
+L Device:EMI_Filter_LCL EMI40
+U 1 1 5DE50C4B
+P 6950 3400
+F 0 "EMI40" H 6950 3600 50  0000 C CNN
+F 1 "100 pF" H 7150 3350 50  0000 C CNN
+F 2 "" V 6950 3400 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6950 3400 50  0001 C CNN
+F 4 "81-DSS1NB32A101Q91A" H 6950 3400 50  0001 C CNN "Mouser Part"
+	1    6950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_LCL EMI41
+U 1 1 5DE51C0C
+P 6950 3800
+F 0 "EMI41" H 6950 4000 50  0000 C CNN
+F 1 "100 pF" H 7150 3750 50  0000 C CNN
+F 2 "" V 6950 3800 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6950 3800 50  0001 C CNN
+F 4 "81-DSS1NB32A101Q91A" H 6950 3800 50  0001 C CNN "Mouser Part"
+	1    6950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:EMI_Filter_LCL EMI42
+U 1 1 5DE52478
+P 6950 4200
+F 0 "EMI42" H 6950 4400 50  0000 C CNN
+F 1 "100 pF" H 7150 4150 50  0000 C CNN
+F 2 "" V 6950 4200 50  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6950 4200 50  0001 C CNN
+F 4 "81-DSS1NB32A101Q91A" H 6950 4200 50  0001 C CNN "Mouser Part"
+	1    6950 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3550 6250 3550
+Wire Wire Line
+	6250 3550 6250 3300
+Wire Wire Line
+	6250 3300 6650 3300
+Wire Wire Line
+	6100 3850 6250 3850
+Wire Wire Line
+	6250 3850 6250 4100
+Wire Wire Line
+	6250 4100 6650 4100
+Wire Wire Line
+	6100 3700 6650 3700
+Wire Wire Line
+	6950 3500 6500 3500
+Wire Wire Line
+	6500 3500 6500 3900
+$Comp
+L power:GND #PWR0256
+U 1 1 5DE5394C
+P 6500 4400
+F 0 "#PWR0256" H 6500 4150 50  0001 C CNN
+F 1 "GND" H 6505 4227 50  0001 C CNN
+F 2 "" H 6500 4400 50  0001 C CNN
+F 3 "" H 6500 4400 50  0001 C CNN
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4300 6500 4300
+Connection ~ 6500 4300
+Wire Wire Line
+	6500 4300 6500 4400
+Wire Wire Line
+	6950 3900 6500 3900
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 3900 6500 4300
+$Comp
+L power:+5V #PWR0257
+U 1 1 5DE547BD
+P 4900 2500
+F 0 "#PWR0257" H 4900 2350 50  0001 C CNN
+F 1 "+5V" H 4915 2673 50  0000 C CNN
+F 2 "" H 4900 2500 50  0001 C CNN
+F 3 "" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C94
+U 1 1 5DE54D1A
+P 5700 2900
+F 0 "C94" V 5550 2900 50  0000 C CNN
+F 1 "0.22 µF" V 5850 2900 50  0000 C CNN
+F 2 "" H 5738 2750 50  0001 C CNN
+F 3 "~" H 5700 2900 50  0001 C CNN
+F 4 "Ceramic" H 5700 2900 50  0001 C CNN "Type"
+F 5 "581-SA115E224MAR" H 5700 2900 50  0001 C CNN "Mouser Part"
+	1    5700 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C120
+U 1 1 5DE551AE
+P 5100 2900
+F 0 "C120" V 4950 2900 50  0000 C CNN
+F 1 "0.01 µF" V 5250 2950 50  0000 C CNN
+F 2 "" H 5138 2750 50  0001 C CNN
+F 3 "~" H 5100 2900 50  0001 C CNN
+F 4 "Ceramic" H 5100 2900 50  0001 C CNN "Type"
+F 5 "581-SA105E103M" H 5100 2900 50  0001 C CNN "Mouser Part"
+F 6 "25V" H 5100 2900 50  0001 C CNN "Voltage Rating"
+F 7 "+80% -20%" H 5100 2900 50  0001 C CNN "Voltage Tolerance"
+	1    5100 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0258
+U 1 1 5DE55528
+P 5900 3000
+F 0 "#PWR0258" H 5900 2750 50  0001 C CNN
+F 1 "GND" H 5905 2827 50  0001 C CNN
+F 2 "" H 5900 3000 50  0001 C CNN
+F 3 "" H 5900 3000 50  0001 C CNN
+	1    5900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0259
+U 1 1 5DE558AE
+P 4900 3000
+F 0 "#PWR0259" H 4900 2750 50  0001 C CNN
+F 1 "GND" H 4905 2827 50  0001 C CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3000 4900 2900
+Wire Wire Line
+	4900 2900 4950 2900
+Wire Wire Line
+	5850 2900 5900 2900
+Wire Wire Line
+	5900 2900 5900 3000
+Wire Wire Line
+	5250 2900 5400 2900
+Connection ~ 5400 2900
+Wire Wire Line
+	5400 2900 5400 3200
+Wire Wire Line
+	5400 2900 5550 2900
+$Comp
+L Connector_Generic:Conn_01x08 CN8
+U 1 1 5DE5721A
+P 8850 4750
+F 0 "CN8" V 8722 5130 50  0000 L CNN
+F 1 "8 pin DIN" V 8813 5130 50  0000 L CNN
+F 2 "" H 8850 4750 50  0001 C CNN
+F 3 "~" H 8850 4750 50  0001 C CNN
+	1    8850 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 3700 9150 4550
+Wire Wire Line
+	7250 3700 9150 3700
+Wire Wire Line
+	8850 3300 8850 4550
+Wire Wire Line
+	7250 3300 8850 3300
+Wire Wire Line
+	7250 4100 8650 4100
+Wire Wire Line
+	8650 4100 8650 4550
+NoConn ~ 8550 4550
+Wire Wire Line
+	8750 4550 8750 4400
+Wire Wire Line
+	8750 4400 9600 4400
+$Comp
+L Device:Ferrite_Bead_Small FB15
+U 1 1 5DE5D0A9
+P 9700 4400
+F 0 "FB15" V 9800 4400 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 9554 4400 50  0001 C CNN
+F 2 "" V 9630 4400 50  0001 C CNN
+F 3 "~" H 9700 4400 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 9700 4400 50  0001 C CNN "Mouser Part"
+	1    9700 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5DE5DD9C
+P 9950 4650
+F 0 "R25" H 9880 4604 50  0000 R CNN
+F 1 "100k" H 9880 4695 50  0000 R CNN
+F 2 "" V 9880 4650 50  0001 C CNN
+F 3 "~" H 9950 4650 50  0001 C CNN
+F 4 "660-MF1/4LCT52R104J" H 9950 4650 50  0001 C CNN "Mouser Part"
+	1    9950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C93
+U 1 1 5DE5E568
+P 10250 4400
+F 0 "C93" V 9998 4400 50  0000 C CNN
+F 1 "0.1 µF" V 10089 4400 50  0000 C CNN
+F 2 "" H 10288 4250 50  0001 C CNN
+F 3 "~" H 10250 4400 50  0001 C CNN
+F 4 "Ceramic" H 10250 4400 50  0001 C CNN "Type"
+F 5 "581-SA105E104MAR" H 10250 4400 50  0001 C CNN "Mouser Part"
+F 6 "25V" H 10250 4400 50  0001 C CNN "Voltage Rating"
+F 7 "+80% -20%" H 10250 4400 50  0001 C CNN "Voltage Tolerance"
+	1    10250 4400
+	0    1    1    0   
+$EndComp
+Text HLabel 10550 4400 2    50   Output ~ 0
+EXT_AUDIO
+Wire Wire Line
+	10550 4400 10400 4400
+Wire Wire Line
+	10100 4400 9950 4400
+Wire Wire Line
+	9950 4400 9950 4500
+Wire Wire Line
+	9800 4400 9950 4400
+Connection ~ 9950 4400
+$Comp
+L power:GND #PWR0260
+U 1 1 5DE6038A
+P 9950 4900
+F 0 "#PWR0260" H 9950 4650 50  0001 C CNN
+F 1 "GND" H 9955 4727 50  0001 C CNN
+F 2 "" H 9950 4900 50  0001 C CNN
+F 3 "" H 9950 4900 50  0001 C CNN
+	1    9950 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4800 9950 4900
+$Comp
+L Device:Ferrite_Bead_Small FB13
+U 1 1 5DE61087
+P 8250 4450
+F 0 "FB13" V 8105 4450 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 8104 4450 50  0001 C CNN
+F 2 "" V 8180 4450 50  0001 C CNN
+F 3 "~" H 8250 4450 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 8250 4450 50  0001 C CNN "Mouser Part"
+	1    8250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0261
+U 1 1 5DE615DD
+P 8050 4350
+F 0 "#PWR0261" H 8050 4200 50  0001 C CNN
+F 1 "+5V" H 8065 4523 50  0000 C CNN
+F 2 "" H 8050 4350 50  0001 C CNN
+F 3 "" H 8050 4350 50  0001 C CNN
+	1    8050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4350 8050 4450
+Wire Wire Line
+	8050 4450 8150 4450
+Wire Wire Line
+	8350 4450 8450 4450
+Wire Wire Line
+	8450 4450 8450 4550
+Wire Wire Line
+	8950 4550 8950 3900
+Wire Wire Line
+	8950 3900 8700 3900
+Wire Wire Line
+	7500 3900 7500 4750
+Wire Wire Line
+	3750 4750 7500 4750
+$Comp
+L Device:Ferrite_Bead_Small FB14
+U 1 1 5DE63C10
+P 8600 3900
+F 0 "FB14" V 8450 3900 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 8454 3900 50  0001 C CNN
+F 2 "" V 8530 3900 50  0001 C CNN
+F 3 "~" H 8600 3900 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 8600 3900 50  0001 C CNN "Mouser Part"
+	1    8600 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3900 7500 3900
+Wire Wire Line
+	9050 4550 9050 4000
+Wire Wire Line
+	9050 4000 9350 4000
+Wire Wire Line
+	9350 4000 9350 4100
+$Comp
+L power:GND #PWR0262
+U 1 1 5DE6628F
+P 9350 4100
+F 0 "#PWR0262" H 9350 3850 50  0001 C CNN
+F 1 "GND" H 9355 3927 50  0001 C CNN
+F 2 "" H 9350 4100 50  0001 C CNN
+F 3 "" H 9350 4100 50  0001 C CNN
+	1    9350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB19
+U 1 1 5DCF0C3A
+P 3050 3550
+F 0 "FB19" V 3200 3550 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 2904 3550 50  0001 C CNN
+F 2 "" V 2980 3550 50  0001 C CNN
+F 3 "~" H 3050 3550 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 3050 3550 50  0001 C CNN "Mouser Part"
+	1    3050 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 3550 2600 3550
+$Comp
+L Device:Ferrite_Bead_Small FB20
+U 1 1 5DCF15D6
+P 3050 3750
+F 0 "FB20" V 2900 3750 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 2904 3750 50  0001 C CNN
+F 2 "" V 2980 3750 50  0001 C CNN
+F 3 "~" H 3050 3750 50  0001 C CNN
+F 4 "81-BL02RN2R1M2B" H 3050 3750 50  0001 C CNN "Mouser Part"
+	1    3050 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 3750 4700 3750
+$Comp
+L Device:L L?
+U 1 1 5DE6ACB1
+P 5150 2550
+AR Path="/5DC6141C/5DE6ACB1" Ref="L?"  Part="1" 
+AR Path="/5DC6141C/5DE4C2CF/5DE6ACB1" Ref="L3"  Part="1" 
+F 0 "L3" V 5250 2550 50  0000 C CNN
+F 1 "2.2 µH" V 5100 2550 50  0000 C CNN
+F 2 "" H 5150 2550 50  0001 C CNN
+F 3 "~" H 5150 2550 50  0001 C CNN
+F 4 "871-B78108S1222K" H 5150 2550 50  0001 C CNN "Mouser Part"
+	1    5150 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 2500 4900 2550
+Wire Wire Line
+	4900 2550 5000 2550
+Wire Wire Line
+	5300 2550 5400 2550
+Wire Wire Line
+	5400 2550 5400 2900
+$Comp
+L power:PWR_FLAG #FLG0109
+U 1 1 5DE6E079
+P 5400 2550
+F 0 "#FLG0109" H 5400 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5400 2723 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "~" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 2550
+$EndSCHEMATC

@@ -42,4 +42,9 @@ K cpu,mpu,microprocessor
 F https://archive.org/download/mos_6510_mpu/mos_6510_mpu.pdf
 $ENDCMP
 #
+$CMP 8502
+D 8-bit microprocessor with I/O
+K cpu,mpu,microprocessor
+$ENDCMP
+#
 #End Doc Library

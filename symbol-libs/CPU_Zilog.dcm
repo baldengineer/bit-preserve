@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Z80
+D Zilog Z80 CPU. KiCad standard library Z80 has the pin types wrong.
+F https://archive.org/details/bitsavers_zilogz80Z8_13426241
+$ENDCMP
+#
+#End Doc Library
