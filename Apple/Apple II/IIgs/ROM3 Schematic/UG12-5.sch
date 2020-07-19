@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:IIgs Schematic-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -37,10 +36,10 @@ F 3 "" H 1650 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:KEYGLU U?
+L IIgs-Schematic:KEYGLU UI12
 U 1 1 5BF20720
 P 9550 2250
-F 0 "U?" H 9550 3615 50  0000 C CNN
+F 0 "UI12" H 9550 3615 50  0000 C CNN
 F 1 "KEYGLU" H 9550 3524 50  0000 C CNN
 F 2 "" H 9250 3500 50  0001 C CNN
 F 3 "" H 9250 3500 50  0001 C CNN
@@ -603,9 +602,11 @@ $EndComp
 Text Label 6300 6950 0    50   ~ 0
 ADB
 $Comp
-L IIgs-Schematic:L-Pack L2
+L IIgs-Schematic-rescue:L-Pack-IIgs-Schematic L2
 U 1 1 5CBA10D5
 P 4300 6700
+AR Path="/5CBA10D5" Ref="L2"  Part="1" 
+AR Path="/5BF204DB/5CBA10D5" Ref="L2"  Part="1" 
 F 0 "L2" H 4300 6950 50  0000 C CNN
 F 1 "D-15C" H 4300 6450 50  0000 C CNN
 F 2 "" V 4300 6850 50  0001 C CNN
@@ -649,14 +650,14 @@ L2-8
 Wire Wire Line
 	4450 3750 4750 3750
 $Comp
-L IIgs-Schematic-rescue:M07-freetronics_schematic J18
+L Connector_Generic:Conn_01x07 J18
 U 1 1 5CBC3DCE
-P 3250 6450
-F 0 "J18" H 3150 6550 50  0000 C CNN
-F 1 "Apple Desk Top Bus" H 2900 6650 40  0000 C CNN
-F 2 "" H 3250 6450 60  0000 C CNN
-F 3 "" H 3250 6450 60  0000 C CNN
-	1    3250 6450
+P 3350 6750
+F 0 "J18" H 3400 7300 50  0000 C CNN
+F 1 "Apple Desk Top Bus" H 3350 7200 40  0000 C CNN
+F 2 "" H 3350 6750 60  0000 C CNN
+F 3 "" H 3350 6750 60  0000 C CNN
+	1    3350 6750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1307,4 +1308,8 @@ Wire Wire Line
 	750  6900 850  6900
 Wire Wire Line
 	1050 6900 1150 6900
+Text GLabel 4350 4150 0    39   Input ~ 0
+CREF.H
+Text Notes 5400 950  0    50   ~ 0
+off-page symbols not show
 $EndSCHEMATC
