@@ -2275,4 +2275,6 @@ Wire Wire Line
 	2550 2450 2950 2450
 Text Notes 750  1950 0    50   ~ 0
 Verify if this is the XOR from the CYA Page
+Text Notes 2300 700  0    50   ~ 0
+Global labels not shown
 $EndSCHEMATC

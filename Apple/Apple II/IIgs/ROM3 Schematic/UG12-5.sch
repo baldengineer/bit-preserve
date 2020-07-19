@@ -602,9 +602,11 @@ $EndComp
 Text Label 6300 6950 0    50   ~ 0
 ADB
 $Comp
-L IIgs-Schematic:L-Pack L2
+L IIgs-Schematic-rescue:L-Pack-IIgs-Schematic L2
 U 1 1 5CBA10D5
 P 4300 6700
+AR Path="/5CBA10D5" Ref="L2"  Part="1" 
+AR Path="/5BF204DB/5CBA10D5" Ref="L2"  Part="1" 
 F 0 "L2" H 4300 6950 50  0000 C CNN
 F 1 "D-15C" H 4300 6450 50  0000 C CNN
 F 2 "" V 4300 6850 50  0001 C CNN
@@ -1308,4 +1310,6 @@ Wire Wire Line
 	1050 6900 1150 6900
 Text GLabel 4350 4150 0    39   Input ~ 0
 CREF.H
+Text Notes 5400 950  0    50   ~ 0
+off-page symbols not show
 $EndSCHEMATC

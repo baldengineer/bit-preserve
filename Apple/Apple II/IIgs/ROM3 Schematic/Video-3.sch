@@ -2788,4 +2788,6 @@ F 3 "~" H 3400 8000 50  0001 C CNN
 	1    3200 8000
 	0    -1   -1   0   
 $EndComp
+Text Notes 3650 900  0    50   ~ 0
+Off-Page symbols not show on the UF2
 $EndSCHEMATC
