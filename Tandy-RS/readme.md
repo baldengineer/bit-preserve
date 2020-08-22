@@ -1,5 +1,6 @@
 # Tandy / Radio Shack
-No Systems Exist Here Yet :(
+	* TRS-80 Color Computer 2
+		* Schematic 26-3134 / 26-3136 [Work in Progress](https://github.com/troysbucket/bit-preserve/tree/add-tandy-coco-2/Tandy-RS/TRS-80 Color Computer/Color Computer 2/26-313x)
 
 # System Wishlists
 	* TRS-80 Model I
