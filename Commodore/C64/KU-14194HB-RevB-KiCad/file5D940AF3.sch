@@ -1,0 +1,5396 @@
+EESchema Schematic File Version 4
+LIBS:KU-14194HB-REV-B-KiCad-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title "C64 Motherboard KU-14194HB"
+Date "2020-01-23"
+Rev "1.4"
+Comp "Commodore 1982"
+Comment1 "Retraced and schematics by bwack 2019"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KU-schematics-library:CIA_U1 U?
+U 1 1 5D981549
+P 5850 5000
+AR Path="/5D981549" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981549" Ref="U1"  Part="1" 
+F 0 "U1" H 6350 4500 79  0000 C CNN
+F 1 "CIA_U1" H 6350 3700 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP40" H 6350 4900 50  0001 C CNN
+F 3 "" H 6350 4900 50  0001 C CNN
+	1    5850 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5850 5900
+Text Label 1950 5100 0    50   ~ 0
+COL0
+Text Label 1950 5200 0    50   ~ 0
+COL1
+Text Label 1950 5300 0    50   ~ 0
+COL2
+Text Label 1950 5400 0    50   ~ 0
+COL3
+Text Label 1950 5500 0    50   ~ 0
+COL4
+Text Label 1950 5600 0    50   ~ 0
+COL5
+Text Label 1950 5700 0    50   ~ 0
+COL6
+Text Label 1950 5800 0    50   ~ 0
+COL7
+Text Label 1950 6000 0    50   ~ 0
+ROW0
+Text Label 1950 6100 0    50   ~ 0
+ROW1
+Text Label 1950 6200 0    50   ~ 0
+ROW2
+Text Label 1950 6300 0    50   ~ 0
+ROW3
+Text Label 1950 6400 0    50   ~ 0
+ROW4
+Text Label 1950 6500 0    50   ~ 0
+ROW5
+Text Label 1950 6600 0    50   ~ 0
+ROW6
+Text Label 1950 6700 0    50   ~ 0
+ROW7
+$Comp
+L KU-schematics-library:SERIAL_BUS_CON CN?
+U 1 1 5D981560
+P 1900 1300
+AR Path="/5D981560" Ref="CN?"  Part="1" 
+AR Path="/5D940AF4/5D981560" Ref="CN4"  Part="1" 
+F 0 "CN4" V 1550 1350 118 0000 C CNN
+F 1 "SERIAL_BUS_CON" H 2000 350 118 0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:SERIAL_CON_DIN6" H 1850 700 118 0001 C CNN
+F 3 "" H 1850 700 118 0001 C CNN
+	1    1900 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 1250 1600 1    79   Italic 0
+SERIAL BUS
+Text Notes 1400 1850 1    79   Italic 0
+(6-PIN FEMALE DIN)
+Text Label 1900 1000 0    50   Italic 0
+~RESET~
+Text Label 1900 1100 0    50   Italic 0
+~SRQIN~
+Text Label 1900 1200 0    50   Italic 0
+DATA
+Text Label 1900 1300 0    50   Italic 0
+CLK
+Text Label 1900 1400 0    50   Italic 0
+ATN
+Wire Wire Line
+	1900 1500 1950 1500
+Wire Wire Line
+	1950 1500 1950 1600
+$Comp
+L KU-schematics-library:FERRITE_BEAD FB?
+U 1 1 5D981574
+P 2200 2700
+AR Path="/5D981574" Ref="FB?"  Part="1" 
+AR Path="/5D940AF4/5D981574" Ref="FB18"  Part="1" 
+F 0 "FB18" H 2200 2778 50  0000 C CNN
+F 1 "FERRITE_BEAD" H 2200 2650 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 2250 2725 50  0001 C CNN
+F 3 "" H 2200 2700 50  0001 C CNN
+	1    2200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D98157A
+P 2000 2700
+AR Path="/5D98157A" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D98157A" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2000 2550 50  0001 C CNN
+F 1 "+5V" V 2015 2828 50  0000 L CNN
+F 2 "" H 2000 2700 50  0001 C CNN
+F 3 "" H 2000 2700 50  0001 C CNN
+	1    2000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-schematics-library:USER_PORT_CON CN?
+U 1 1 5D981580
+P 1900 9100
+AR Path="/5D981580" Ref="CN?"  Part="1" 
+AR Path="/5D940AF4/5D981580" Ref="CN2"  Part="1" 
+F 0 "CN2" V 1550 9100 118 0000 C CIN
+F 1 "USER_PORT_CON" V 1750 9150 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:EDGE_CON_24P" H 1800 8950 50  0001 C CNN
+F 3 "" H 1800 8950 50  0001 C CNN
+	1    1900 9100
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 9700 1    79   Italic 0
+(24-PIN MALE EDGE)
+Text Notes 1250 9400 1    79   Italic 0
+USER PORT
+Wire Wire Line
+	1900 8300 2400 8300
+Wire Wire Line
+	1900 8400 2500 8400
+Wire Wire Line
+	1900 9600 2300 9600
+Text Label 1900 8300 0    50   ~ 0
+CNT2
+Text Label 1900 8400 0    50   ~ 0
+SP2
+Text Label 1900 8500 0    50   ~ 0
+~PC2~
+Text Label 1900 8600 0    50   ~ 0
+PA2
+Text Label 1900 8700 0    50   ~ 0
+PB0
+Text Label 1900 8800 0    50   ~ 0
+PB1
+Text Label 1900 8900 0    50   ~ 0
+PB2
+Text Label 1900 9000 0    50   ~ 0
+PB3
+Text Label 1900 9100 0    50   ~ 0
+PB4
+Text Label 1900 9200 0    50   ~ 0
+PB5
+Text Label 1900 9300 0    50   ~ 0
+PB6
+Text Label 1900 9400 0    50   ~ 0
+PB7
+Text Label 1900 9500 0    50   ~ 0
+~FLAG2~
+Text Label 1900 9800 0    50   ~ 0
+~RESET~
+Text Label 1950 9900 0    50   ~ 0
+9VAC~~
+Text Label 1950 10000 0    50   ~ 0
+'9VAC~~
+Wire Wire Line
+	1950 10100 1900 10100
+Wire Wire Line
+	1900 10200 1950 10200
+Connection ~ 1950 10200
+Wire Wire Line
+	1950 10200 1950 10100
+Wire Wire Line
+	1900 10300 1950 10300
+Connection ~ 1950 10300
+Wire Wire Line
+	1950 10300 1950 10200
+Wire Wire Line
+	1900 10400 1950 10400
+Connection ~ 1950 10400
+Wire Wire Line
+	1950 10400 1950 10300
+$Comp
+L Device:C_Small C?
+U 1 1 5D9815A5
+P 2400 9700
+AR Path="/5D9815A5" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D9815A5" Ref="C96"  Part="1" 
+F 0 "C96" V 2350 9800 50  0000 C CNN
+F 1 ".1" V 2450 9800 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 2400 9700 50  0001 C CNN
+F 3 "~" H 2400 9700 50  0001 C CNN
+	1    2400 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 9700 2650 9700
+Wire Wire Line
+	2300 9700 2300 9600
+Connection ~ 2300 9600
+Wire Wire Line
+	2300 9600 2550 9600
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9815AF
+P 2550 9600
+AR Path="/5D9815AF" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9815AF" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2550 9450 50  0001 C CNN
+F 1 "+5V" V 2500 9650 50  0000 L CNN
+F 2 "" H 2550 9600 50  0001 C CNN
+F 3 "" H 2550 9600 50  0001 C CNN
+	1    2550 9600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9815B5
+P 2200 7450
+AR Path="/5D9815B5" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9815B5" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2200 7300 50  0001 C CNN
+F 1 "+5V" H 2150 7600 50  0000 L CNN
+F 2 "" H 2200 7450 50  0001 C CNN
+F 3 "" H 2200 7450 50  0001 C CNN
+	1    2200 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7500 2300 7500
+Connection ~ 2300 7500
+Wire Wire Line
+	2300 7500 2400 7500
+Connection ~ 2400 7500
+Wire Wire Line
+	2400 7500 2500 7500
+Connection ~ 2200 7500
+Wire Wire Line
+	2200 7500 2200 7450
+Text Notes 2550 7700 0    50   ~ 0
+RP3\n3.3K
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D9815C3
+P 3050 10700
+AR Path="/5D9815C3" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D9815C3" Ref="R41"  Part="1" 
+F 0 "R41" H 2850 10750 50  0000 L CNN
+F 1 "1M" H 2875 10675 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3050 10700 50  0001 C CNN
+F 3 "" H 3050 10700 50  0001 C CNN
+	1    3050 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D9815C9
+P 3900 10350
+AR Path="/5D9815C9" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D9815C9" Ref="R33"  Part="1" 
+F 0 "R33" H 3700 10400 50  0000 L CNN
+F 1 "47K" H 3700 10325 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3900 10350 50  0001 C CNN
+F 3 "" H 3900 10350 50  0001 C CNN
+	1    3900 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D9815D5
+P 3800 10650
+AR Path="/5D9815D5" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D9815D5" Ref="C23"  Part="1" 
+F 0 "C23" H 3700 10800 50  0000 C CNN
+F 1 "360pF" H 3668 10728 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_AXIAL_P12.7mm" H 3800 10650 50  0001 C CNN
+F 3 "~" H 3800 10650 50  0001 C CNN
+	1    3800 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D9815DB
+P 3250 10900
+AR Path="/5D9815DB" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D9815DB" Ref="C38"  Part="1" 
+F 0 "C38" V 3050 10875 50  0000 C CNN
+F 1 "51pF" V 3125 10900 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_AXIAL_P12.7mm" H 3250 10900 50  0001 C CNN
+F 3 "~" H 3250 10900 50  0001 C CNN
+	1    3250 10900
+	0    1    1    0   
+$EndComp
+Text Label 2350 6900 0    50   ~ 0
+~RESTORE~
+$Comp
+L KU-schematics-library:556 U?
+U 1 1 5D9815E2
+P 4300 10800
+AR Path="/5D9815E2" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9815E2" Ref="U20"  Part="1" 
+F 0 "U20" H 4300 10900 79  0000 C CNN
+F 1 "556" H 4150 11300 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 4300 10800 50  0001 C CNN
+F 3 "" H 4300 10800 50  0001 C CNN
+	1    4300 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:556 U?
+U 2 1 5D9815E8
+P 11800 7550
+AR Path="/5D9815E8" Ref="U?"  Part="2" 
+AR Path="/5D940AF4/5D9815E8" Ref="U20"  Part="2" 
+F 0 "U20" H 11800 7650 79  0000 C CNN
+F 1 "556" H 11650 8050 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 11800 7550 50  0001 C CNN
+F 3 "" H 11800 7550 50  0001 C CNN
+	2    11800 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 10500 3900 10500
+Wire Wire Line
+	3900 10600 3900 10550
+Connection ~ 3900 10500
+Wire Wire Line
+	4000 10600 3900 10600
+Wire Wire Line
+	3150 10900 3050 10900
+Wire Wire Line
+	3050 10900 3050 10800
+Connection ~ 3050 10900
+Wire Wire Line
+	3050 10900 2800 10900
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9815F7
+P 3050 10550
+AR Path="/5D9815F7" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9815F7" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3050 10400 50  0001 C CNN
+F 1 "+5V" H 2950 10700 50  0000 L CNN
+F 2 "" H 3050 10550 50  0001 C CNN
+F 3 "" H 3050 10550 50  0001 C CNN
+	1    3050 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9815FD
+P 3900 10200
+AR Path="/5D9815FD" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9815FD" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3900 10050 50  0001 C CNN
+F 1 "+5V" H 3800 10350 50  0000 L CNN
+F 2 "" H 3900 10200 50  0001 C CNN
+F 3 "" H 3900 10200 50  0001 C CNN
+	1    3900 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 10500 3900 10450
+Wire Wire Line
+	3900 10250 3900 10200
+Wire Wire Line
+	4000 10400 4000 10200
+Wire Wire Line
+	4000 10200 3900 10200
+Connection ~ 3900 10200
+Wire Wire Line
+	3350 10900 3500 10900
+Wire Wire Line
+	3050 10600 3050 10550
+NoConn ~ 4600 10900
+Wire Wire Line
+	3800 10550 3900 10550
+Connection ~ 3900 10550
+Wire Wire Line
+	3900 10550 3900 10500
+Connection ~ 2450 2900
+Wire Wire Line
+	2450 4000 2450 2900
+Wire Wire Line
+	2450 2900 2450 2700
+Wire Wire Line
+	1900 6900 2800 6900
+Text Label 1900 4700 0    50   Italic 0
+BTNA\~LP~
+Text Label 1900 4600 0    50   Italic 0
+JOYA3
+Text Label 1900 4500 0    50   Italic 0
+JOYA2
+Text Label 1900 4400 0    50   Italic 0
+JOYA1
+Text Label 1900 4300 0    50   Italic 0
+JOYA0
+Text Label 1900 4200 0    50   Italic 0
+POTAY
+Text Label 1900 4100 0    50   Italic 0
+POTAX
+Wire Wire Line
+	1950 4800 1950 4900
+Wire Wire Line
+	1900 4800 1950 4800
+Wire Wire Line
+	1900 4000 2450 4000
+Text Label 1900 3600 0    50   Italic 0
+BTNB
+Text Label 1900 3500 0    50   Italic 0
+JOYB3
+Text Label 1900 3400 0    50   Italic 0
+JOYB2
+Text Label 1900 3300 0    50   Italic 0
+JOYB1
+Text Label 1900 3200 0    50   Italic 0
+JOYB0
+Text Label 1900 3100 0    50   Italic 0
+POTBY
+Text Label 1900 3000 0    50   Italic 0
+POTBX
+Wire Wire Line
+	1950 3700 1950 3800
+Wire Wire Line
+	1900 3700 1950 3700
+Wire Wire Line
+	1900 2900 2450 2900
+Wire Wire Line
+	1950 7100 1950 7200
+Wire Wire Line
+	1900 7100 1950 7100
+Text Notes 1250 6400 1    79   Italic 0
+KEYBOARD
+Text Notes 1400 6550 1    79   Italic 0
+(20-PIN MALE)
+$Comp
+L KU-schematics-library:KEYBOARD_20PIN_MALE CN?
+U 1 1 5D981645
+P 1900 7100
+AR Path="/5D981645" Ref="CN?"  Part="1" 
+AR Path="/5D940AF4/5D981645" Ref="CN1"  Part="1" 
+F 0 "CN1" V 1550 8100 118 0000 C CIN
+F 1 "KEYBOARD_20PIN_MALE" V 1750 8000 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:KEYBOARD_CON" H 1900 7100 50  0001 C CNN
+F 3 "" H 1900 7100 50  0001 C CNN
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 3650 1    79   Italic 0
+(MALE DB9)
+Text Notes 1250 3800 1    79   Italic 0
+CONTROL PORT2
+Text Notes 1250 4900 1    79   Italic 0
+CONTROL PORT1
+Text Notes 1400 4750 1    79   Italic 0
+(MALE DB9)
+$Comp
+L KU-schematics-library:CONTROL_PORT CN?
+U 1 1 5D98164F
+P 1900 3300
+AR Path="/5D98164F" Ref="CN?"  Part="1" 
+AR Path="/5D940AF4/5D98164F" Ref="CN8"  Part="1" 
+F 0 "CN8" V 1550 3300 118 0000 C CNN
+F 1 "CONTROL_PORT" V 1750 3300 39  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:JOYPORT_DB9" H 1900 3700 118 0001 C CNN
+F 3 "" H 1900 3700 118 0001 C CNN
+	1    1900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:CONTROL_PORT CN?
+U 1 1 5D981655
+P 1900 4400
+AR Path="/5D981655" Ref="CN?"  Part="1" 
+AR Path="/5D940AF4/5D981655" Ref="CN9"  Part="1" 
+F 0 "CN9" V 1550 4400 118 0000 C CNN
+F 1 "CONTROL_PORT" V 1750 4400 39  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:JOYPORT_DB9" H 1900 4800 118 0001 C CNN
+F 3 "" H 1900 4800 118 0001 C CNN
+	1    1900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 6800 1900 6800
+$Comp
+L power:+5V #PWR?
+U 1 1 5D98165C
+P 1975 6800
+AR Path="/5D98165C" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D98165C" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 1975 6650 50  0001 C CNN
+F 1 "+5V" V 1990 6928 50  0000 L CNN
+F 2 "" H 1975 6800 50  0001 C CNN
+F 3 "" H 1975 6800 50  0001 C CNN
+	1    1975 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 6700 5850 6700
+Wire Wire Line
+	1900 6600 5850 6600
+Wire Wire Line
+	1900 6500 5850 6500
+Wire Wire Line
+	1900 6400 2750 6400
+Wire Wire Line
+	1900 6300 2850 6300
+Wire Wire Line
+	1900 6200 2950 6200
+Wire Wire Line
+	1900 6100 3050 6100
+Wire Wire Line
+	1900 6000 3150 6000
+Wire Wire Line
+	1900 5800 2550 5800
+Wire Wire Line
+	1900 5700 2650 5700
+Wire Wire Line
+	1900 5600 5850 5600
+Wire Wire Line
+	1900 5500 3250 5500
+Wire Wire Line
+	1900 5400 3350 5400
+Wire Wire Line
+	1900 5300 3450 5300
+Wire Wire Line
+	1900 5200 3550 5200
+Wire Wire Line
+	1900 5100 3650 5100
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D981672
+P 6500 9700
+AR Path="/5D981672" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981672" Ref="#U0101"  Part="1" 
+F 0 "#U0101" H 6500 9700 50  0001 C CNN
+F 1 "GND_SMALL" H 6500 9700 50  0001 C CNN
+F 2 "" H 6500 9700 50  0001 C CNN
+F 3 "" H 6500 9700 50  0001 C CNN
+	1    6500 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D981678
+P 1950 10500
+AR Path="/5D981678" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981678" Ref="#U0102"  Part="1" 
+F 0 "#U0102" H 1950 10500 50  0001 C CNN
+F 1 "GND_SMALL" H 1950 10500 50  0001 C CNN
+F 2 "" H 1950 10500 50  0001 C CNN
+F 3 "" H 1950 10500 50  0001 C CNN
+	1    1950 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 10400 1950 10500
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D98167F
+P 3800 10750
+AR Path="/5D98167F" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D98167F" Ref="#U0103"  Part="1" 
+F 0 "#U0103" H 3800 10750 50  0001 C CNN
+F 1 "GND_SMALL" H 3800 10750 50  0001 C CNN
+F 2 "" H 3800 10750 50  0001 C CNN
+F 3 "" H 3800 10750 50  0001 C CNN
+	1    3800 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D981685
+P 2650 9700
+AR Path="/5D981685" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981685" Ref="#U0104"  Part="1" 
+F 0 "#U0104" H 2650 9700 50  0001 C CNN
+F 1 "GND_SMALL" H 2650 9700 50  0001 C CNN
+F 2 "" H 2650 9700 50  0001 C CNN
+F 3 "" H 2650 9700 50  0001 C CNN
+	1    2650 9700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D98168B
+P 1950 7200
+AR Path="/5D98168B" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D98168B" Ref="#U0105"  Part="1" 
+F 0 "#U0105" H 1950 7200 50  0001 C CNN
+F 1 "GND_SMALL" H 1950 7200 50  0001 C CNN
+F 2 "" H 1950 7200 50  0001 C CNN
+F 3 "" H 1950 7200 50  0001 C CNN
+	1    1950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D981691
+P 1950 4900
+AR Path="/5D981691" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981691" Ref="#U0106"  Part="1" 
+F 0 "#U0106" H 1950 4900 50  0001 C CNN
+F 1 "GND_SMALL" H 1950 4900 50  0001 C CNN
+F 2 "" H 1950 4900 50  0001 C CNN
+F 3 "" H 1950 4900 50  0001 C CNN
+	1    1950 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D981697
+P 1950 3800
+AR Path="/5D981697" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981697" Ref="#U0107"  Part="1" 
+F 0 "#U0107" H 1950 3800 50  0001 C CNN
+F 1 "GND_SMALL" H 1950 3800 50  0001 C CNN
+F 2 "" H 1950 3800 50  0001 C CNN
+F 3 "" H 1950 3800 50  0001 C CNN
+	1    1950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D98169D
+P 1950 1600
+AR Path="/5D98169D" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D98169D" Ref="#U0108"  Part="1" 
+F 0 "#U0108" H 1950 1600 50  0001 C CNN
+F 1 "GND_SMALL" H 1950 1600 50  0001 C CNN
+F 2 "" H 1950 1600 50  0001 C CNN
+F 3 "" H 1950 1600 50  0001 C CNN
+	1    1950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D9816A3
+P 6500 7100
+AR Path="/5D9816A3" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9816A3" Ref="#U0109"  Part="1" 
+F 0 "#U0109" H 6500 7100 50  0001 C CNN
+F 1 "GND_SMALL" H 6500 7100 50  0001 C CNN
+F 2 "" H 6500 7100 50  0001 C CNN
+F 3 "" H 6500 7100 50  0001 C CNN
+	1    6500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D9816B0
+P 4950 10650
+AR Path="/5D9816B0" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9816B0" Ref="#U0110"  Part="1" 
+F 0 "#U0110" H 4950 10650 50  0001 C CNN
+F 1 "GND_SMALL" H 4950 10650 50  0001 C CNN
+F 2 "" H 4950 10650 50  0001 C CNN
+F 3 "" H 4950 10650 50  0001 C CNN
+	1    4950 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9816B6
+P 4950 10250
+AR Path="/5D9816B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9816B6" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 4950 10100 50  0001 C CNN
+F 1 "+5V" H 4850 10400 50  0000 L CNN
+F 2 "" H 4950 10250 50  0001 C CNN
+F 3 "" H 4950 10250 50  0001 C CNN
+	1    4950 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D9816BC
+P 4800 10300
+AR Path="/5D9816BC" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D9816BC" Ref="C22"  Part="1" 
+F 0 "C22" V 4650 10250 50  0000 C CNN
+F 1 ".1" V 4716 10212 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 4800 10300 50  0001 C CNN
+F 3 "~" H 4800 10300 50  0001 C CNN
+	1    4800 10300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 10250 4950 10300
+Connection ~ 4950 10300
+Wire Wire Line
+	4950 10300 4950 10350
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D9816C5
+P 4700 10400
+AR Path="/5D9816C5" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9816C5" Ref="#U0111"  Part="1" 
+F 0 "#U0111" H 4700 10400 50  0001 C CNN
+F 1 "GND_SMALL" H 4700 10400 50  0001 C CNN
+F 2 "" H 4700 10400 50  0001 C CNN
+F 3 "" H 4700 10400 50  0001 C CNN
+	1    4700 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 10300 4700 10400
+Wire Wire Line
+	4900 10300 4950 10300
+$Comp
+L KU-schematics-library:74LS06_ U?
+U 3 1 5D9816CD
+P 5050 10650
+AR Path="/5D9816CD" Ref="U?"  Part="3" 
+AR Path="/5D940AF4/5D9816CD" Ref="U8"  Part="3" 
+F 0 "U8" H 4826 10799 50  0000 L CNN
+F 1 "7406N" H 5032 10735 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 5050 10650 50  0001 C CNN
+F 3 "" H 5050 10650 50  0001 C CNN
+	3    5050 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7500 2500 7600
+Wire Wire Line
+	2400 7800 2400 8300
+Wire Wire Line
+	2400 7600 2400 7500
+Wire Wire Line
+	2300 7600 2300 7500
+Wire Wire Line
+	2200 7600 2200 7500
+Connection ~ 2200 7900
+Wire Wire Line
+	2200 7800 2200 7900
+Text Label 1900 7900 0    50   ~ 0
+CNT1
+Text Label 1900 8000 0    50   ~ 0
+SP1
+Wire Wire Line
+	1900 7900 2200 7900
+Connection ~ 2300 8000
+Wire Wire Line
+	2300 7800 2300 8000
+Text Label 1900 8100 0    50   ~ 0
+ATN'
+Wire Wire Line
+	1900 8000 2300 8000
+$Comp
+L KU-schematics-library:74LS06_ U?
+U 1 1 5D9816FB
+P 4450 7950
+AR Path="/5D9816FB" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9816FB" Ref="U8"  Part="1" 
+F 0 "U8" H 4300 8100 50  0000 C CNN
+F 1 "7406N" H 4100 8150 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 4450 7950 50  0001 C CNN
+F 3 "" H 4450 7950 50  0001 C CNN
+	1    4450 7950
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:74LS06_ U?
+U 4 1 5D981701
+P 4450 7600
+AR Path="/5D981701" Ref="U?"  Part="5" 
+AR Path="/5D940AF4/5D981701" Ref="U8"  Part="4" 
+F 0 "U8" H 4300 7750 50  0000 C CNN
+F 1 "7406N" H 4100 7800 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 4450 7600 50  0001 C CNN
+F 3 "" H 4450 7600 50  0001 C CNN
+	4    4450 7600
+	-1   0    0    1   
+$EndComp
+Text Label 5400 7800 0    50   ~ 0
+CLK'
+Connection ~ 2500 8400
+Connection ~ 2400 8300
+Wire Wire Line
+	2500 7800 2500 8400
+Wire Wire Line
+	5850 7900 5050 7900
+Wire Wire Line
+	5850 8000 4950 8000
+Text Label 5400 7900 0    50   ~ 0
+DATA_OUT
+Text Label 5400 8000 0    50   ~ 0
+CLK_OUT
+Text Label 5400 8100 0    50   ~ 0
+ATN_OUT
+Wire Wire Line
+	6350 7100 6350 9700
+$Comp
+L KU-schematics-library:CIA_U2 U?
+U 1 1 5D981724
+P 5850 7600
+AR Path="/5D981724" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D981724" Ref="U2"  Part="1" 
+F 0 "U2" H 6350 6900 79  0000 C CNN
+F 1 "CIA_U2" H 6350 5900 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP40" H 6350 6450 50  0001 C CNN
+F 3 "" H 6350 6450 50  0001 C CNN
+	1    5850 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 8500 5850 8500
+Wire Wire Line
+	2500 8400 5850 8400
+Wire Wire Line
+	2400 8300 5850 8300
+Wire Wire Line
+	1900 9500 5550 9500
+Wire Wire Line
+	1900 9400 5850 9400
+Wire Wire Line
+	1900 9300 5850 9300
+Wire Wire Line
+	1900 9200 5850 9200
+Wire Wire Line
+	1900 9100 5850 9100
+Wire Wire Line
+	1900 9000 5850 9000
+Wire Wire Line
+	1900 8900 5850 8900
+Wire Wire Line
+	1900 8800 5850 8800
+Wire Wire Line
+	1900 8700 5850 8700
+Wire Wire Line
+	1900 8600 5850 8600
+Wire Wire Line
+	3500 10750 3500 10900
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D9815CF
+P 3500 10650
+AR Path="/5D9815CF" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D9815CF" Ref="R35"  Part="1" 
+F 0 "R35" H 3350 10800 50  0000 L CNN
+F 1 "470K" H 3250 10700 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3500 10650 50  0001 C CNN
+F 3 "" H 3500 10650 50  0001 C CNN
+	1    3500 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 10550 3500 10450
+$Comp
+L power:+5V #PWR?
+U 1 1 5D98160F
+P 3500 10450
+AR Path="/5D98160F" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D98160F" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3500 10300 50  0001 C CNN
+F 1 "+5V" H 3400 10600 50  0000 L CNN
+F 2 "" H 3500 10450 50  0001 C CNN
+F 3 "" H 3500 10450 50  0001 C CNN
+	1    3500 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 10900 4000 10900
+Connection ~ 3500 10900
+Wire Wire Line
+	2800 6900 2800 10900
+Connection ~ 2550 5800
+Wire Wire Line
+	2550 5800 5850 5800
+Wire Wire Line
+	2550 2500 2450 2500
+Wire Wire Line
+	2550 2500 2550 5800
+Wire Wire Line
+	2450 2700 2400 2700
+Wire Wire Line
+	2350 2500 2350 2300
+Wire Wire Line
+	2450 2300 2450 2500
+Connection ~ 2450 2500
+Wire Wire Line
+	2450 2500 2350 2500
+Wire Wire Line
+	2550 2300 2550 2400
+Wire Wire Line
+	2550 2400 2650 2400
+Wire Wire Line
+	2650 2300 2650 2400
+Connection ~ 2650 5700
+Connection ~ 2650 2400
+Wire Wire Line
+	2650 2400 2650 5700
+Wire Wire Line
+	2650 5700 5850 5700
+Wire Wire Line
+	2750 2300 2750 3000
+Wire Wire Line
+	1900 3000 2750 3000
+Wire Wire Line
+	2850 2300 2850 3100
+Wire Wire Line
+	1900 3100 2850 3100
+Wire Wire Line
+	2950 2300 2950 4100
+Wire Wire Line
+	1900 4100 2950 4100
+Wire Wire Line
+	3050 2300 3050 4200
+Wire Wire Line
+	1900 4200 3050 4200
+Text Label 2550 2950 1    50   ~ 0
+COL7
+Text Label 2650 2950 1    50   ~ 0
+COL6
+Text Label 2750 2950 1    50   Italic 0
+POTBX
+Text Label 2850 2950 1    50   Italic 0
+POTBY
+Text Label 2950 2950 1    50   Italic 0
+POTAX
+Text Label 3050 2950 1    50   Italic 0
+POTAY
+$Comp
+L Device:C_Small C?
+U 1 1 5D6A0E7C
+P 2400 1650
+AR Path="/5D6A0E7C" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D6A0E7C" Ref="C47"  Part="1" 
+F 0 "C47" V 2246 1716 50  0000 C CNN
+F 1 ".1" V 2316 1746 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 2400 1650 50  0001 C CNN
+F 3 "~" H 2400 1650 50  0001 C CNN
+	1    2400 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 1700 2650 1650
+Wire Wire Line
+	2650 1650 2500 1650
+$Comp
+L power:+5V #PWR?
+U 1 1 5D6AC15A
+P 2650 1650
+AR Path="/5D6AC15A" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D6AC15A" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 2650 1500 50  0001 C CNN
+F 1 "+5V" H 2573 1806 50  0000 L CNN
+F 2 "" H 2650 1650 50  0001 C CNN
+F 3 "" H 2650 1650 50  0001 C CNN
+	1    2650 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2650 1650
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5D6AD15C
+P 2300 1650
+AR Path="/5D6AD15C" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5D6AD15C" Ref="#U0112"  Part="1" 
+F 0 "#U0112" H 2300 1650 50  0001 C CNN
+F 1 "GND_SMALL" H 2300 1650 50  0001 C CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "" H 2300 1650 50  0001 C CNN
+	1    2300 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5D6AF25C
+P 3250 2100
+AR Path="/5D6AF25C" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5D6AF25C" Ref="#U0113"  Part="1" 
+F 0 "#U0113" H 3250 2100 50  0001 C CNN
+F 1 "GND_SMALL" H 3250 2100 50  0001 C CNN
+F 2 "" H 3250 2100 50  0001 C CNN
+F 3 "" H 3250 2100 50  0001 C CNN
+	1    3250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:4066_U28 U28
+U 1 1 5D5F10AC
+P 2700 2000
+F 0 "U28" H 2300 2100 75  0000 L CIN
+F 1 "4066_U28" H 2600 1500 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 2700 2000 50  0001 C CNN
+F 3 "" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2000 3250 2100
+Wire Wire Line
+	2750 1700 2750 1500
+Wire Wire Line
+	2750 1500 2950 1500
+Wire Wire Line
+	2950 1700 2950 1500
+Connection ~ 2950 1500
+Wire Wire Line
+	2950 1500 4850 1500
+Wire Wire Line
+	2850 1700 2850 1650
+Wire Wire Line
+	3050 1700 3050 1650
+Wire Wire Line
+	2850 1650 3050 1650
+Connection ~ 3050 1650
+Wire Wire Line
+	3050 1650 4850 1650
+Text GLabel 4850 1500 2    50   Output ~ 0
+POTX
+Text GLabel 4850 1650 2    50   Output ~ 0
+POTY
+Wire Wire Line
+	1900 4700 2750 4700
+Wire Wire Line
+	2750 4700 2750 6400
+Connection ~ 2750 4700
+Wire Wire Line
+	2750 4700 4750 4700
+Connection ~ 2750 6400
+Wire Wire Line
+	2750 6400 5850 6400
+Wire Wire Line
+	2850 4600 2850 6300
+Wire Wire Line
+	1900 4600 2850 4600
+Connection ~ 2850 6300
+Wire Wire Line
+	2850 6300 5850 6300
+Wire Wire Line
+	2950 4500 2950 6200
+Wire Wire Line
+	1900 4500 2950 4500
+Connection ~ 2950 6200
+Wire Wire Line
+	2950 6200 5850 6200
+Wire Wire Line
+	3050 4400 3050 6100
+Wire Wire Line
+	1900 4400 3050 4400
+Connection ~ 3050 6100
+Wire Wire Line
+	3050 6100 5850 6100
+Wire Wire Line
+	3150 4300 3150 6000
+Wire Wire Line
+	1900 4300 3150 4300
+Connection ~ 3150 6000
+Wire Wire Line
+	3150 6000 5850 6000
+Wire Wire Line
+	3250 3600 3250 5500
+Wire Wire Line
+	1900 3600 3250 3600
+Connection ~ 3250 5500
+Wire Wire Line
+	3250 5500 5850 5500
+Wire Wire Line
+	3350 3500 3350 5400
+Wire Wire Line
+	1900 3500 3350 3500
+Connection ~ 3350 5400
+Wire Wire Line
+	3350 5400 5850 5400
+Wire Wire Line
+	3450 3400 3450 5300
+Wire Wire Line
+	1900 3400 3450 3400
+Connection ~ 3450 5300
+Wire Wire Line
+	3450 5300 5850 5300
+Wire Wire Line
+	3550 3300 3550 5200
+Wire Wire Line
+	1900 3300 3550 3300
+Connection ~ 3550 5200
+Wire Wire Line
+	3550 5200 5850 5200
+Wire Wire Line
+	3650 3200 3650 5100
+Wire Wire Line
+	1900 3200 3650 3200
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 5850 5100
+Text GLabel 4750 4700 2    50   Output ~ 0
+BTNA\~LP~
+Wire Wire Line
+	5850 6800 2900 6800
+Wire Wire Line
+	2900 6800 2900 7900
+Wire Wire Line
+	2200 7900 2900 7900
+Wire Wire Line
+	5850 6900 3000 6900
+Wire Wire Line
+	3000 6900 3000 8000
+Wire Wire Line
+	2300 8000 3000 8000
+Wire Wire Line
+	3850 1400 3850 6950
+Wire Wire Line
+	1900 1400 3850 1400
+Wire Wire Line
+	4050 1300 4050 6950
+Wire Wire Line
+	1900 1300 4050 1300
+Wire Wire Line
+	4250 1200 4250 6950
+Wire Wire Line
+	1900 1200 4250 1200
+Wire Wire Line
+	1900 8100 3850 8100
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB7
+U 1 1 5D62E02F
+P 3850 7050
+F 0 "FB7" H 3777 6988 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 3800 6950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 3850 7050 50  0001 C CNN
+F 3 "" H 3850 7050 50  0001 C CNN
+	1    3850 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB9
+U 1 1 5D62F499
+P 4050 7050
+F 0 "FB9" H 3973 6989 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 4000 6950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 4050 7050 50  0001 C CNN
+F 3 "" H 4050 7050 50  0001 C CNN
+	1    4050 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB8
+U 1 1 5D62FE49
+P 4250 7050
+F 0 "FB8" H 4173 6991 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 4200 6950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 4250 7050 50  0001 C CNN
+F 3 "" H 4250 7050 50  0001 C CNN
+	1    4250 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 7800 5150 7800
+Wire Wire Line
+	5150 7800 5150 7300
+Wire Wire Line
+	5150 7300 4150 7300
+Wire Wire Line
+	4250 7150 4250 7200
+Connection ~ 4250 7200
+Wire Wire Line
+	4050 7150 4050 7300
+Connection ~ 4050 7300
+Wire Wire Line
+	4050 7300 3650 7300
+Wire Wire Line
+	3850 7150 3850 7400
+$Comp
+L power:+5V #PWR?
+U 1 1 5D705E19
+P 3350 7100
+AR Path="/5D705E19" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D705E19" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 3350 6950 50  0001 C CNN
+F 1 "+5V" H 3273 7256 50  0000 L CNN
+F 2 "" H 3350 7100 50  0001 C CNN
+F 3 "" H 3350 7100 50  0001 C CNN
+	1    3350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D71590D
+P 3550 7400
+AR Path="/5D71590D" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D71590D" Ref="R28"  Part="1" 
+F 0 "R28" V 3622 7311 50  0000 L CNN
+F 1 "1K" V 3692 7311 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3550 7400 50  0001 C CNN
+F 3 "" H 3550 7400 50  0001 C CNN
+	1    3550 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D71717F
+P 3550 7300
+AR Path="/5D71717F" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D71717F" Ref="R30"  Part="1" 
+F 0 "R30" V 3500 6850 50  0000 L CNN
+F 1 "1K" V 3568 6876 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3550 7300 50  0001 C CNN
+F 3 "" H 3550 7300 50  0001 C CNN
+	1    3550 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D717363
+P 3550 7200
+AR Path="/5D717363" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D717363" Ref="R29"  Part="1" 
+F 0 "R29" V 3420 7134 50  0000 L CNN
+F 1 "1K" V 3488 7179 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 3550 7200 50  0001 C CNN
+F 3 "" H 3550 7200 50  0001 C CNN
+	1    3550 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 7100 3350 7200
+Wire Wire Line
+	3450 7200 3350 7200
+Connection ~ 3350 7200
+Wire Wire Line
+	3350 7200 3350 7300
+Wire Wire Line
+	3450 7300 3350 7300
+Connection ~ 3350 7300
+Wire Wire Line
+	3350 7300 3350 7400
+Wire Wire Line
+	3450 7400 3350 7400
+Wire Wire Line
+	3850 7400 3650 7400
+Wire Wire Line
+	3850 7400 3850 8100
+Connection ~ 3850 7400
+Connection ~ 3850 8100
+Wire Wire Line
+	4350 7200 4350 7450
+Connection ~ 4350 7200
+Wire Wire Line
+	4350 7200 4250 7200
+Wire Wire Line
+	4600 10500 4750 10500
+Wire Wire Line
+	4400 7450 4350 7450
+Wire Wire Line
+	5050 7450 4750 7450
+Wire Wire Line
+	5050 7450 5050 7900
+Wire Wire Line
+	4950 8000 4950 7750
+Wire Wire Line
+	4950 7750 4750 7750
+Wire Wire Line
+	4750 8100 5850 8100
+Text Label 5400 7600 0    50   ~ 0
+~NMI~
+Wire Wire Line
+	5850 7700 5250 7700
+Wire Wire Line
+	5250 7700 5250 7200
+Text Label 5400 7700 0    50   ~ 0
+DATA'
+Wire Wire Line
+	5350 7600 5350 10500
+Wire Wire Line
+	5350 10500 5100 10500
+Wire Wire Line
+	5350 7600 5850 7600
+Connection ~ 5350 7600
+Wire Wire Line
+	5550 10100 5550 9500
+Connection ~ 5550 9500
+Wire Wire Line
+	5550 9500 5850 9500
+Wire Wire Line
+	5550 10300 5550 10500
+Text Notes 5600 10300 0    50   ~ 0
+RP3\n3.3K
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA3CA08
+P 5550 10500
+AR Path="/5DA3CA08" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5DA3CA08" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 5550 10350 50  0001 C CNN
+F 1 "+5V" H 5450 10650 50  0000 L CNN
+F 2 "" H 5550 10500 50  0001 C CNN
+F 3 "" H 5550 10500 50  0001 C CNN
+	1    5550 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 7750 4150 7750
+Wire Wire Line
+	4150 7750 4150 7300
+Connection ~ 4150 7300
+Wire Wire Line
+	4150 7300 4050 7300
+Wire Wire Line
+	3850 8100 4400 8100
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D5F26A8
+P 12150 7950
+AR Path="/5D5F26A8" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D5F26A8" Ref="#U0115"  Part="1" 
+F 0 "#U0115" H 12150 7950 50  0001 C CNN
+F 1 "GND_SMALL" H 12150 7950 50  0001 C CNN
+F 2 "" H 12150 7950 50  0001 C CNN
+F 3 "" H 12150 7950 50  0001 C CNN
+	1    12150 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 7650 12100 7650
+$Comp
+L KU-schematics-library:6510_MPU U7
+U 1 1 5D609008
+P 6350 3050
+F 0 "U7" H 6389 3212 79  0000 R CNN
+F 1 "6510_MPU" H 6150 1350 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP40" H 6350 3050 50  0001 C CNN
+F 3 "" H 6350 3050 50  0001 C CNN
+	1    6350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D61494D
+P 6350 4800
+AR Path="/5D61494D" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D61494D" Ref="#U0116"  Part="1" 
+F 0 "#U0116" H 6350 4800 50  0001 C CNN
+F 1 "GND_SMALL" H 6350 4800 50  0001 C CNN
+F 2 "" H 6350 4800 50  0001 C CNN
+F 3 "" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D62FBD7
+P 6750 7350
+AR Path="/5D62FBD7" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D62FBD7" Ref="C3"  Part="1" 
+F 0 "C3" V 6600 7300 50  0000 C CNN
+F 1 ".1" V 6666 7262 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 6750 7350 50  0001 C CNN
+F 3 "~" H 6750 7350 50  0001 C CNN
+	1    6750 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D6C3700
+P 6500 7350
+AR Path="/5D6C3700" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D6C3700" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6500 7200 50  0001 C CNN
+F 1 "+5V" H 6423 7506 50  0000 L CNN
+F 2 "" H 6500 7350 50  0001 C CNN
+F 3 "" H 6500 7350 50  0001 C CNN
+	1    6500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 7400 6500 7350
+Wire Wire Line
+	6500 7350 6650 7350
+Connection ~ 6500 7350
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D6E62CA
+P 6900 7450
+AR Path="/5D6E62CA" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D6E62CA" Ref="#U0117"  Part="1" 
+F 0 "#U0117" H 6900 7450 50  0001 C CNN
+F 1 "GND_SMALL" H 6900 7450 50  0001 C CNN
+F 2 "" H 6900 7450 50  0001 C CNN
+F 3 "" H 6900 7450 50  0001 C CNN
+	1    6900 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 7350 6900 7350
+Wire Wire Line
+	6900 7350 6900 7450
+$Comp
+L Device:C_Small C?
+U 1 1 5D7261A0
+P 5700 4800
+AR Path="/5D7261A0" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D7261A0" Ref="C2"  Part="1" 
+F 0 "C2" V 5600 4690 50  0000 C CNN
+F 1 ".1" V 5663 4703 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 5700 4800 50  0001 C CNN
+F 3 "~" H 5700 4800 50  0001 C CNN
+	1    5700 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4800 6250 4800
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D79666A
+P 5550 4900
+AR Path="/5D79666A" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D79666A" Ref="#U0118"  Part="1" 
+F 0 "#U0118" H 5550 4900 50  0001 C CNN
+F 1 "GND_SMALL" H 5550 4900 50  0001 C CNN
+F 2 "" H 5550 4900 50  0001 C CNN
+F 3 "" H 5550 4900 50  0001 C CNN
+	1    5550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4800 5550 4800
+Wire Wire Line
+	5550 4800 5550 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7A6335
+P 5800 4800
+AR Path="/5D7A6335" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D7A6335" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 5800 4650 50  0001 C CNN
+F 1 "+5V" H 5683 4941 50  0000 L CNN
+F 2 "" H 5800 4800 50  0001 C CNN
+F 3 "" H 5800 4800 50  0001 C CNN
+	1    5800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4600 5850 4600
+Text Notes 5400 4450 0    50   ~ 0
+RP3\n3.3K
+Wire Wire Line
+	5350 4500 5350 4600
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7FC800
+P 5350 4250
+AR Path="/5D7FC800" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D7FC800" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 5350 4100 50  0001 C CNN
+F 1 "+5V" H 5233 4391 50  0000 L CNN
+F 2 "" H 5350 4250 50  0001 C CNN
+F 3 "" H 5350 4250 50  0001 C CNN
+	1    5350 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 4600
+Wire Wire Line
+	5350 4600 5350 7600
+Wire Wire Line
+	5350 4250 5350 4300
+Connection ~ 5800 4800
+$Comp
+L Device:C_Small C?
+U 1 1 5D86FA8C
+P 5750 1350
+AR Path="/5D86FA8C" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D86FA8C" Ref="C9"  Part="1" 
+F 0 "C9" H 5620 1390 50  0000 C CNN
+F 1 ".1" H 5635 1318 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 5750 1350 50  0001 C CNN
+F 3 "~" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D871F63
+P 5750 1450
+AR Path="/5D871F63" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D871F63" Ref="#U0119"  Part="1" 
+F 0 "#U0119" H 5750 1450 50  0001 C CNN
+F 1 "GND_SMALL" H 5750 1450 50  0001 C CNN
+F 2 "" H 5750 1450 50  0001 C CNN
+F 3 "" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1150 6350 1100
+Wire Wire Line
+	6350 1100 5750 1100
+Wire Wire Line
+	5750 1100 5750 1250
+$Comp
+L Device:CP_Small C8
+U 1 1 5D88433C
+P 5450 1350
+F 0 "C8" H 5275 1395 50  0000 L CNN
+F 1 "10uF" H 5194 1312 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 5450 1350 50  0001 C CNN
+F 3 "~" H 5450 1350 50  0001 C CNN
+	1    5450 1350
+	1    0    0    -1  
+$EndComp
+Text Notes 5200 1500 0    50   ~ 0
+25V
+Wire Wire Line
+	5450 1250 5450 1100
+Wire Wire Line
+	5450 1100 5750 1100
+Connection ~ 5750 1100
+Wire Wire Line
+	5450 1100 5300 1100
+Connection ~ 5450 1100
+$Comp
+L power:+5V #PWR?
+U 1 1 5D8B8046
+P 5300 1100
+AR Path="/5D8B8046" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D8B8046" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5300 950 50  0001 C CNN
+F 1 "+5V" V 5300 1200 50  0000 L CNN
+F 2 "" H 5300 1100 50  0001 C CNN
+F 3 "" H 5300 1100 50  0001 C CNN
+	1    5300 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D8B8ED7
+P 5450 1450
+AR Path="/5D8B8ED7" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D8B8ED7" Ref="#U0120"  Part="1" 
+F 0 "#U0120" H 5450 1450 50  0001 C CNN
+F 1 "GND_SMALL" H 5450 1450 50  0001 C CNN
+F 2 "" H 5450 1450 50  0001 C CNN
+F 3 "" H 5450 1450 50  0001 C CNN
+	1    5450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5000 5850 5000
+Wire Wire Line
+	1900 1100 3600 1100
+Wire Wire Line
+	4450 1100 4450 1150
+Text Label 4750 5000 0    50   ~ 0
+CASS_RD
+Text Notes 3300 850  0    50   ~ 0
+RP3\n3.3K
+$Comp
+L power:+5V #PWR?
+U 1 1 5D94FAE8
+P 3250 900
+AR Path="/5D94FAE8" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D94FAE8" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 3250 750 50  0001 C CNN
+F 1 "+5V" V 3250 1000 50  0000 L CNN
+F 2 "" H 3250 900 50  0001 C CNN
+F 3 "" H 3250 900 50  0001 C CNN
+	1    3250 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 900  3250 900 
+Wire Wire Line
+	3500 900  3600 900 
+Wire Wire Line
+	3600 900  3600 1100
+Connection ~ 3600 1100
+Wire Wire Line
+	3600 1100 4450 1100
+Wire Wire Line
+	1900 1000 2250 1000
+Wire Wire Line
+	2250 1000 2250 600 
+Wire Wire Line
+	4450 1150 4700 1150
+Wire Wire Line
+	4700 1150 4700 1000
+Connection ~ 4450 1150
+Wire Wire Line
+	4450 1150 4450 5000
+$Comp
+L KU-schematics-library:74LS06_ U?
+U 2 1 5D660AE6
+P 4450 7300
+AR Path="/5D660AE6" Ref="U?"  Part="5" 
+AR Path="/5D940AF4/5D660AE6" Ref="U8"  Part="2" 
+F 0 "U8" H 4300 7450 50  0000 C CNN
+F 1 "7406N" H 4100 7500 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 4450 7300 50  0001 C CNN
+F 3 "" H 4450 7300 50  0001 C CNN
+	2    4450 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:74LS06_ U?
+U 6 1 5D66EC31
+P 12600 7400
+AR Path="/5D66EC31" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D66EC31" Ref="U8"  Part="6" 
+F 0 "U8" H 12475 7548 50  0000 C CNN
+F 1 "7406N" H 12631 7464 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 12600 7400 50  0001 C CNN
+F 3 "" H 12600 7400 50  0001 C CNN
+	6    12600 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 7250 12100 7250
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D6C9363
+P 12250 7050
+AR Path="/5D6C9363" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D6C9363" Ref="#U0114"  Part="1" 
+F 0 "#U0114" H 12250 7050 50  0001 C CNN
+F 1 "GND_SMALL" H 12250 7050 50  0001 C CNN
+F 2 "" H 12250 7050 50  0001 C CNN
+F 3 "" H 12250 7050 50  0001 C CNN
+	1    12250 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12100 7350
+Wire Wire Line
+	11500 7350 11400 7350
+Wire Wire Line
+	11400 7350 11400 7250
+Wire Wire Line
+	11500 7250 11400 7250
+Connection ~ 11400 7250
+Wire Wire Line
+	11400 7250 11250 7250
+$Comp
+L Device:C_Small C?
+U 1 1 5D776EF0
+P 11450 7850
+AR Path="/5D776EF0" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D776EF0" Ref="C105"  Part="1" 
+F 0 "C105" H 11268 7826 50  0000 C CNN
+F 1 ".1" H 11296 7899 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11450 7850 50  0001 C CNN
+F 3 "~" H 11450 7850 50  0001 C CNN
+	1    11450 7850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12150 7650 12150 7950
+Wire Wire Line
+	11500 7650 11450 7650
+Wire Wire Line
+	11450 7750 11450 7650
+Connection ~ 11450 7650
+Wire Wire Line
+	11450 7650 11300 7650
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D813E28
+P 11450 7950
+AR Path="/5D813E28" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D813E28" Ref="#U0121"  Part="1" 
+F 0 "#U0121" H 11450 7950 50  0001 C CNN
+F 1 "GND_SMALL" H 11450 7950 50  0001 C CNN
+F 2 "" H 11450 7950 50  0001 C CNN
+F 3 "" H 11450 7950 50  0001 C CNN
+	1    11450 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C24
+U 1 1 5D8669AC
+P 11250 7350
+F 0 "C24" H 10991 7394 50  0000 L CNN
+F 1 "10uF" H 10994 7318 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 11250 7350 50  0001 C CNN
+F 3 "~" H 11250 7350 50  0001 C CNN
+	1    11250 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 11000 7500 0    50   ~ 0
+25V
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D8669B4
+P 11250 7450
+AR Path="/5D8669B4" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D8669B4" Ref="#U0122"  Part="1" 
+F 0 "#U0122" H 11250 7450 50  0001 C CNN
+F 1 "GND_SMALL" H 11250 7450 50  0001 C CNN
+F 2 "" H 11250 7450 50  0001 C CNN
+F 3 "" H 11250 7450 50  0001 C CNN
+	1    11250 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 7150 11500 6800
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D8E7096
+P 11250 7050
+AR Path="/5D8E7096" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D8E7096" Ref="R34"  Part="1" 
+F 0 "R34" H 11050 7100 50  0000 L CNN
+F 1 "47K" H 11050 7025 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 11250 7050 50  0001 C CNN
+F 3 "" H 11250 7050 50  0001 C CNN
+	1    11250 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 7150 11250 7250
+Connection ~ 11250 7250
+Wire Wire Line
+	11250 6800 11250 6950
+$Comp
+L power:+5V #PWR?
+U 1 1 5D911CD8
+P 11500 6800
+AR Path="/5D911CD8" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D911CD8" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 11500 6650 50  0001 C CNN
+F 1 "+5V" H 11450 6950 50  0000 L CNN
+F 2 "" H 11500 6800 50  0001 C CNN
+F 3 "" H 11500 6800 50  0001 C CNN
+	1    11500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D912062
+P 11250 6800
+AR Path="/5D912062" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D912062" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 11250 6650 50  0001 C CNN
+F 1 "+5V" H 11200 6950 50  0000 L CNN
+F 2 "" H 11250 6800 50  0001 C CNN
+F 3 "" H 11250 6800 50  0001 C CNN
+	1    11250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D69F8A8
+P 12250 6950
+AR Path="/5D69F8A8" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D69F8A8" Ref="C39"  Part="1" 
+F 0 "C39" H 12086 6921 50  0000 C CNN
+F 1 ".1" H 12096 6999 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 12250 6950 50  0001 C CNN
+F 3 "~" H 12250 6950 50  0001 C CNN
+	1    12250 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12250 6850 12100 6850
+Wire Wire Line
+	12100 6850 12100 7150
+Wire Wire Line
+	12100 6850 12100 6800
+Connection ~ 12100 6850
+$Comp
+L power:+5V #PWR?
+U 1 1 5D99D9B3
+P 12100 6800
+AR Path="/5D99D9B3" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D99D9B3" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 12100 6650 50  0001 C CNN
+F 1 "+5V" H 12050 6950 50  0000 L CNN
+F 2 "" H 12100 6800 50  0001 C CNN
+F 3 "" H 12100 6800 50  0001 C CNN
+	1    12100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D9B675D
+P 12750 7050
+AR Path="/5D9B675D" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D9B675D" Ref="R36"  Part="1" 
+F 0 "R36" H 12550 7100 50  0000 L CNN
+F 1 "1K" H 12550 7025 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 12750 7050 50  0001 C CNN
+F 3 "" H 12750 7050 50  0001 C CNN
+	1    12750 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12650 7250 12750 7250
+Wire Wire Line
+	12750 7250 12750 7150
+Wire Wire Line
+	12750 6950 12750 6800
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9DE996
+P 12750 6800
+AR Path="/5D9DE996" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9DE996" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 12750 6650 50  0001 C CNN
+F 1 "+5V" H 12700 6950 50  0000 L CNN
+F 2 "" H 12750 6800 50  0001 C CNN
+F 3 "" H 12750 6800 50  0001 C CNN
+	1    12750 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D9E75BE
+P 11200 7650
+AR Path="/5D9E75BE" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D9E75BE" Ref="R50"  Part="1" 
+F 0 "R50" V 11125 7578 50  0000 L CNN
+F 1 "1M" V 11056 7615 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 11200 7650 50  0001 C CNN
+F 3 "" H 11200 7650 50  0001 C CNN
+	1    11200 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DA4042A
+P 11100 7650
+AR Path="/5DA4042A" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5DA4042A" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 11100 7500 50  0001 C CNN
+F 1 "+5V" V 11100 7750 50  0000 L CNN
+F 2 "" H 11100 7650 50  0001 C CNN
+F 3 "" H 11100 7650 50  0001 C CNN
+	1    11100 7650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 7200 5250 7200
+Wire Wire Line
+	3650 7200 4250 7200
+Wire Wire Line
+	7550 9800 7550 9050
+Wire Wire Line
+	7550 9050 6850 9050
+Wire Wire Line
+	1900 9800 7550 9800
+Wire Wire Line
+	7550 9050 7550 6600
+Wire Wire Line
+	7550 6600 6850 6600
+Connection ~ 7550 9050
+Wire Wire Line
+	7550 6600 7550 6050
+Wire Wire Line
+	7550 1750 6850 1750
+Connection ~ 7550 6600
+Wire Wire Line
+	7550 1750 7550 600 
+Wire Wire Line
+	2250 600  7550 600 
+Connection ~ 7550 1750
+Wire Wire Line
+	6350 10700 6900 10700
+Connection ~ 6350 9700
+Text Label 6450 10700 0    50   ~ 0
+60Hz
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D73A764
+P 7950 10650
+AR Path="/5D73A764" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D73A764" Ref="R5"  Part="1" 
+F 0 "R5" V 7800 10581 50  0000 L CNN
+F 1 "560" V 7876 10575 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 7950 10650 50  0001 C CNN
+F 3 "" H 7950 10650 50  0001 C CNN
+	1    7950 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D73CAE4
+P 6850 10500
+AR Path="/5D73CAE4" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D73CAE4" Ref="C46"  Part="1" 
+F 0 "C46" V 6686 10498 50  0000 C CNN
+F 1 ".1" V 6750 10500 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 6850 10500 50  0001 C CNN
+F 3 "~" H 6850 10500 50  0001 C CNN
+	1    6850 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D6C6D57
+P 7300 10750
+AR Path="/5D6C6D57" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D6C6D57" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 7300 10600 50  0001 C CNN
+F 1 "+5V" V 7300 10850 50  0000 L CNN
+F 2 "" H 7300 10750 50  0001 C CNN
+F 3 "" H 7300 10750 50  0001 C CNN
+	1    7300 10750
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D6CAD3A
+P 7100 10900
+AR Path="/5D6CAD3A" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D6CAD3A" Ref="#U0123"  Part="1" 
+F 0 "#U0123" H 7100 10900 50  0001 C CNN
+F 1 "GND_SMALL" H 7100 10900 50  0001 C CNN
+F 2 "" H 7100 10900 50  0001 C CNN
+F 3 "" H 7100 10900 50  0001 C CNN
+	1    7100 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D6CB62A
+P 6750 10600
+AR Path="/5D6CB62A" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D6CB62A" Ref="#U0124"  Part="1" 
+F 0 "#U0124" H 6750 10600 50  0001 C CNN
+F 1 "GND_SMALL" H 6750 10600 50  0001 C CNN
+F 2 "" H 6750 10600 50  0001 C CNN
+F 3 "" H 6750 10600 50  0001 C CNN
+	1    6750 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 10600 6750 10500
+Text Label 6350 10250 1    50   ~ 0
+60Hz
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D6D7D45
+P 6650 10250
+AR Path="/5D6D7D45" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D6D7D45" Ref="R37"  Part="1" 
+F 0 "R37" V 6500 10181 50  0000 L CNN
+F 1 "2.7K" V 6576 10175 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 6650 10250 50  0001 C CNN
+F 3 "" H 6650 10250 50  0001 C CNN
+	1    6650 10250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 9700 6350 10250
+Wire Wire Line
+	6550 10250 6350 10250
+Connection ~ 6350 10250
+Wire Wire Line
+	6350 10250 6350 10700
+$Comp
+L Device:D_Zener_Small_ALT CR1
+U 1 1 5D7A5DB8
+P 7700 10850
+F 0 "CR1" V 7726 10626 50  0000 L CNN
+F 1 "IN4371" V 7796 10556 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:ZENER_12.7mm" V 7700 10850 50  0001 C CNN
+F 3 "~" V 7700 10850 50  0001 C CNN
+	1    7700 10850
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D7BB02F
+P 7700 11050
+AR Path="/5D7BB02F" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D7BB02F" Ref="#U0125"  Part="1" 
+F 0 "#U0125" H 7700 11050 50  0001 C CNN
+F 1 "GND_SMALL" H 7700 11050 50  0001 C CNN
+F 2 "" H 7700 11050 50  0001 C CNN
+F 3 "" H 7700 11050 50  0001 C CNN
+	1    7700 11050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 10950 7700 11050
+Text Notes 7447 11058 0    50   ~ 0
+2.7V
+Wire Wire Line
+	8050 10650 8300 10650
+Wire Wire Line
+	8300 9900 8300 10650
+Wire Wire Line
+	1900 9900 8300 9900
+Wire Wire Line
+	1900 10000 8400 10000
+Text Label 8050 10650 0    50   ~ 0
+9VAC~~
+$Comp
+L KU-schematics-library:7408_U27 U27
+U 3 1 5D908276
+P 7100 10700
+F 0 "U27" H 7100 10700 50  0000 C CNN
+F 1 "7408_U27" H 7100 10500 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 7050 10700 50  0001 C CNN
+F 3 "" H 7050 10700 50  0001 C CNN
+	3    7100 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 10500 6950 10500
+Wire Wire Line
+	7100 10500 7150 10500
+Connection ~ 7100 10500
+$Comp
+L power:+5V #PWR?
+U 1 1 5D936E5F
+P 7150 10500
+AR Path="/5D936E5F" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D936E5F" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 7150 10350 50  0001 C CNN
+F 1 "+5V" V 7083 10492 50  0000 L CNN
+F 2 "" H 7150 10500 50  0001 C CNN
+F 3 "" H 7150 10500 50  0001 C CNN
+	1    7150 10500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 10250 7350 10250
+Wire Wire Line
+	7350 10250 7350 10650
+Wire Wire Line
+	7350 10650 7300 10650
+Wire Wire Line
+	7700 10750 7700 10650
+Connection ~ 7350 10650
+Wire Wire Line
+	7350 10650 7700 10650
+Connection ~ 7700 10650
+Text Notes 7600 10650 1    40   ~ 0
+Cut here, and\nadd 1K resistor
+Wire Wire Line
+	7700 10650 7850 10650
+Text Notes 7750 10900 0    40   ~ 0
+Piggyback\n0.1uF cap here
+Text Label 3950 10900 0    10   ~ 0
+TRIGA
+Wire Wire Line
+	12750 7250 13000 7250
+Wire Wire Line
+	13000 7250 13000 6050
+Connection ~ 12750 7250
+Connection ~ 7550 6050
+Wire Wire Line
+	7550 6050 7550 1750
+Text GLabel 14750 6050 2    50   Output ~ 0
+~RESET~
+Text GLabel 7750 9600 2    50   Input ~ 0
+~CIA1~
+Text GLabel 7750 9450 2    50   Input ~ 0
+~CIA2~
+Wire Wire Line
+	7250 6800 6850 6800
+Text Label 6850 6800 0    50   ~ 0
+~CIA1~
+Text Label 6900 9450 0    50   ~ 0
+~CIA2~
+Text GLabel 7750 9300 2    50   Output ~ 0
+~VA15~
+Text GLabel 7750 9150 2    50   Output ~ 0
+~VA14~
+Text GLabel 7750 8900 2    50   Output ~ 0
+A[0..15]
+Wire Wire Line
+	6850 7600 6950 7600
+Wire Wire Line
+	6850 7700 6950 7700
+Wire Wire Line
+	6850 7800 6950 7800
+Wire Wire Line
+	6850 7900 6950 7900
+Wire Wire Line
+	6850 8000 6950 8000
+Wire Wire Line
+	6850 8100 6950 8100
+Wire Wire Line
+	6850 8200 6950 8200
+Wire Wire Line
+	6850 8300 6950 8300
+Text Label 6850 7600 0    50   ~ 0
+D7
+Text Label 6850 7700 0    50   ~ 0
+D6
+Text Label 6850 7800 0    50   ~ 0
+D5
+Text Label 6850 7900 0    50   ~ 0
+D4
+Text Label 6850 8000 0    50   ~ 0
+D3
+Text Label 6850 8100 0    50   ~ 0
+D2
+Text Label 6850 8200 0    50   ~ 0
+D1
+Text Label 6850 8300 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 7600 7050 7700
+Entry Wire Line
+	6950 7700 7050 7800
+Entry Wire Line
+	6950 7800 7050 7900
+Entry Wire Line
+	6950 7900 7050 8000
+Entry Wire Line
+	6950 8000 7050 8100
+Entry Wire Line
+	6950 8100 7050 8200
+Entry Wire Line
+	6950 8200 7050 8300
+Entry Wire Line
+	6950 8300 7050 8400
+Wire Bus Line
+	7750 8400 7050 8400
+Entry Wire Line
+	7050 1850 7150 1950
+Entry Wire Line
+	7050 1950 7150 2050
+Entry Wire Line
+	7050 2050 7150 2150
+Entry Wire Line
+	7050 2150 7150 2250
+Entry Wire Line
+	7050 2250 7150 2350
+Entry Wire Line
+	7050 2350 7150 2450
+Entry Wire Line
+	7050 2450 7150 2550
+Entry Wire Line
+	7050 2550 7150 2650
+Entry Wire Line
+	7050 2650 7150 2750
+Entry Wire Line
+	7050 2750 7150 2850
+Entry Wire Line
+	7050 2850 7150 2950
+Entry Wire Line
+	7050 2950 7150 3050
+Entry Wire Line
+	7050 3050 7150 3150
+Entry Wire Line
+	7050 3150 7150 3250
+Entry Wire Line
+	7050 3250 7150 3350
+Entry Wire Line
+	7050 3350 7150 3450
+Wire Wire Line
+	6850 1850 7050 1850
+Wire Wire Line
+	6850 1950 7050 1950
+Wire Wire Line
+	6850 2050 7050 2050
+Wire Wire Line
+	6850 2150 7050 2150
+Wire Wire Line
+	6850 2250 7050 2250
+Wire Wire Line
+	6850 2350 7050 2350
+Wire Wire Line
+	6850 2450 7050 2450
+Wire Wire Line
+	6850 2550 7050 2550
+Wire Wire Line
+	6850 2650 7050 2650
+Wire Wire Line
+	6850 2750 7050 2750
+Wire Wire Line
+	6850 2850 7050 2850
+Wire Wire Line
+	6850 2950 7050 2950
+Wire Wire Line
+	6850 3050 7050 3050
+Wire Wire Line
+	6850 3150 7050 3150
+Wire Wire Line
+	6850 3250 7050 3250
+Wire Wire Line
+	6850 3350 7050 3350
+Text Label 6900 3350 0    50   ~ 0
+A0
+Text Label 6900 3250 0    50   ~ 0
+A1
+Text Label 6900 3150 0    50   ~ 0
+A2
+Text Label 6900 3050 0    50   ~ 0
+A3
+Text Label 6900 2950 0    50   ~ 0
+A4
+Text Label 6900 2850 0    50   ~ 0
+A5
+Text Label 6900 2750 0    50   ~ 0
+A6
+Text Label 6900 2650 0    50   ~ 0
+A7
+Text Label 6900 2550 0    50   ~ 0
+A8
+Text Label 6900 2450 0    50   ~ 0
+A9
+Text Label 6900 2350 0    50   ~ 0
+A10
+Text Label 6900 2250 0    50   ~ 0
+A11
+Text Label 6900 2150 0    50   ~ 0
+A12
+Text Label 6900 2050 0    50   ~ 0
+A13
+Text Label 6900 1950 0    50   ~ 0
+A14
+Text Label 6900 1850 0    50   ~ 0
+A15
+Wire Wire Line
+	6850 9150 7350 9150
+Wire Wire Line
+	7350 9150 7350 6700
+Wire Wire Line
+	7350 6700 6850 6700
+Wire Wire Line
+	7350 6700 7350 4350
+Wire Wire Line
+	7350 4350 6850 4350
+Connection ~ 7350 6700
+Text Label 6900 8800 0    50   ~ 0
+A0
+Text Label 6900 8700 0    50   ~ 0
+A1
+Text Label 6900 8600 0    50   ~ 0
+A2
+Text Label 6900 8500 0    50   ~ 0
+A3
+Entry Wire Line
+	7100 5900 7200 6000
+Entry Wire Line
+	7100 6000 7200 6100
+Entry Wire Line
+	7100 6100 7200 6200
+Entry Wire Line
+	7100 6200 7200 6300
+Wire Wire Line
+	6850 5900 7100 5900
+Wire Wire Line
+	6850 6000 7100 6000
+Wire Wire Line
+	6850 6100 7100 6100
+Wire Wire Line
+	6850 6200 7100 6200
+Text Label 6900 6200 0    50   ~ 0
+A0
+Text Label 6900 6100 0    50   ~ 0
+A1
+Text Label 6900 6000 0    50   ~ 0
+A2
+Text Label 6900 5900 0    50   ~ 0
+A3
+Wire Wire Line
+	6850 5000 6950 5000
+Wire Wire Line
+	6850 5100 6950 5100
+Wire Wire Line
+	6850 5200 6950 5200
+Wire Wire Line
+	6850 5300 6950 5300
+Wire Wire Line
+	6850 5400 6950 5400
+Wire Wire Line
+	6850 5500 6950 5500
+Wire Wire Line
+	6850 5600 6950 5600
+Wire Wire Line
+	6850 5700 6950 5700
+Text Label 6850 5000 0    50   ~ 0
+D7
+Text Label 6850 5100 0    50   ~ 0
+D6
+Text Label 6850 5200 0    50   ~ 0
+D5
+Text Label 6850 5300 0    50   ~ 0
+D4
+Text Label 6850 5400 0    50   ~ 0
+D3
+Text Label 6850 5500 0    50   ~ 0
+D2
+Text Label 6850 5600 0    50   ~ 0
+D1
+Text Label 6850 5700 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 5000 7050 5100
+Entry Wire Line
+	6950 5100 7050 5200
+Entry Wire Line
+	6950 5200 7050 5300
+Entry Wire Line
+	6950 5300 7050 5400
+Entry Wire Line
+	6950 5400 7050 5500
+Entry Wire Line
+	6950 5500 7050 5600
+Entry Wire Line
+	6950 5600 7050 5700
+Entry Wire Line
+	6950 5700 7050 5800
+Wire Wire Line
+	6850 3450 6950 3450
+Wire Wire Line
+	6850 3550 6950 3550
+Wire Wire Line
+	6850 3650 6950 3650
+Wire Wire Line
+	6850 3750 6950 3750
+Wire Wire Line
+	6850 3850 6950 3850
+Wire Wire Line
+	6850 3950 6950 3950
+Wire Wire Line
+	6850 4050 6950 4050
+Wire Wire Line
+	6850 4150 6950 4150
+Text Label 6850 3450 0    50   ~ 0
+D7
+Text Label 6850 3550 0    50   ~ 0
+D6
+Text Label 6850 3650 0    50   ~ 0
+D5
+Text Label 6850 3750 0    50   ~ 0
+D4
+Text Label 6850 3850 0    50   ~ 0
+D3
+Text Label 6850 3950 0    50   ~ 0
+D2
+Text Label 6850 4050 0    50   ~ 0
+D1
+Text Label 6850 4150 0    50   ~ 0
+D0
+Entry Wire Line
+	6950 3450 7050 3550
+Entry Wire Line
+	6950 3550 7050 3650
+Entry Wire Line
+	6950 3650 7050 3750
+Entry Wire Line
+	6950 3750 7050 3850
+Entry Wire Line
+	6950 3850 7050 3950
+Entry Wire Line
+	6950 3950 7050 4050
+Entry Wire Line
+	6950 4050 7050 4150
+Entry Wire Line
+	6950 4150 7050 4250
+Text Label 6900 9150 0    50   ~ 0
+R\~W~
+Text Label 6850 6700 0    50   ~ 0
+R\~W~
+Wire Wire Line
+	7750 9150 7650 9150
+Wire Wire Line
+	7650 9150 7650 9250
+Wire Wire Line
+	7650 9250 6850 9250
+Wire Wire Line
+	7750 9450 6850 9450
+Wire Wire Line
+	7750 9600 7250 9600
+Wire Wire Line
+	7250 6800 7250 9600
+Wire Wire Line
+	7750 9300 7700 9300
+Wire Wire Line
+	7700 9300 7700 9350
+Wire Wire Line
+	7700 9350 6850 9350
+Wire Wire Line
+	6850 8950 7450 8950
+Wire Wire Line
+	7450 8950 7450 6500
+Wire Wire Line
+	7450 6500 6850 6500
+Wire Wire Line
+	7450 6500 7450 4250
+Connection ~ 7450 6500
+Wire Wire Line
+	7450 4250 7950 4250
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB5
+U 1 1 5E11A8A0
+P 7300 4250
+F 0 "FB5" H 7229 4168 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 7250 4150 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 7300 4250 50  0001 C CNN
+F 3 "" H 7300 4250 50  0001 C CNN
+	1    7300 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4250 6950 4250
+Wire Wire Line
+	6950 4250 6950 4300
+Wire Wire Line
+	6950 4300 7100 4300
+Wire Wire Line
+	7100 4300 7050 4250
+Wire Wire Line
+	7050 4250 7200 4250
+Wire Wire Line
+	7450 4250 7400 4250
+Connection ~ 7450 4250
+Text GLabel 7950 4250 2    50   Output ~ 0
+PHI2
+Text Label 6850 4250 0    20   ~ 0
+PH2_FB
+Text Label 6850 6500 0    50   ~ 0
+PHI2
+Text Label 6900 8950 0    50   ~ 0
+PHI2
+Text GLabel 7950 4650 2    50   Input ~ 0
+RDY
+Wire Wire Line
+	7950 4650 6850 4650
+Text GLabel 7950 6700 2    50   Output ~ 0
+R\~W~
+Wire Wire Line
+	7950 6700 7350 6700
+Text GLabel 7950 6400 2    50   Input ~ 0
+~IRQ~
+Wire Wire Line
+	7950 6400 7250 6400
+Wire Wire Line
+	7250 6400 7250 4550
+Wire Wire Line
+	7250 4550 6850 4550
+Connection ~ 7250 6400
+Wire Wire Line
+	7250 6400 6850 6400
+Text Label 6850 4550 0    50   ~ 0
+~IRQ~
+Text Label 6900 6300 0    50   ~ 0
+~IRQ~
+Text Notes 8050 7500 0    50   ~ 0
+RP4\n3.3K
+$Comp
+L power:+5V #PWR?
+U 1 1 5E657E8D
+P 8400 7000
+AR Path="/5E657E8D" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5E657E8D" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 8400 6850 50  0001 C CNN
+F 1 "+5V" V 8333 6992 50  0000 L CNN
+F 2 "" H 8400 7000 50  0001 C CNN
+F 3 "" H 8400 7000 50  0001 C CNN
+	1    8400 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 7000 8350 7000
+Wire Wire Line
+	8250 7100 8350 7100
+Wire Wire Line
+	8350 7100 8350 7000
+Connection ~ 8350 7000
+Wire Wire Line
+	8350 7000 8400 7000
+Wire Wire Line
+	8350 7200 8350 7100
+Connection ~ 8350 7100
+Wire Wire Line
+	8250 7300 8350 7300
+Wire Wire Line
+	8350 7300 8350 7200
+Connection ~ 8350 7200
+Wire Wire Line
+	8050 7000 7850 7000
+Wire Wire Line
+	8050 7100 7850 7100
+Wire Wire Line
+	8050 7200 7850 7200
+Wire Wire Line
+	8050 7300 7850 7300
+Text Label 7850 7000 0    50   ~ 0
+A15
+Text Label 7850 7100 0    50   ~ 0
+A14
+Text Label 7850 7200 0    50   ~ 0
+A13
+Text Label 7850 7300 0    50   ~ 0
+A12
+Entry Wire Line
+	7750 7100 7850 7000
+Entry Wire Line
+	7750 7300 7850 7200
+Entry Wire Line
+	7750 7200 7850 7100
+Entry Wire Line
+	7750 7400 7850 7300
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 3 1 5EAE3C90
+P 8150 7000
+F 0 "RP4" V 8028 7000 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7125 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7000 50  0001 C CNN
+F 3 "" H 8150 7000 50  0001 C CNN
+	3    8150 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 4 1 5EAE4B71
+P 8150 7100
+F 0 "RP4" V 8028 7100 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7225 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7100 50  0001 C CNN
+F 3 "" H 8150 7100 50  0001 C CNN
+	4    8150 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 5 1 5EAE552E
+P 8150 7200
+F 0 "RP4" V 8028 7200 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7325 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7200 50  0001 C CNN
+F 3 "" H 8150 7200 50  0001 C CNN
+	5    8150 7200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 7200 8350 7200
+$Comp
+L KU-schematics-library:R_ARRAY_9WAY_US RP4
+U 7 1 5EAE6B76
+P 8150 7300
+F 0 "RP4" V 8028 7300 50  0001 C CNN
+F 1 "R_ARRAY_9WAY_US" H 8525 7425 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_9WAY" H 8150 7300 50  0001 C CNN
+F 3 "" H 8150 7300 50  0001 C CNN
+	7    8150 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 3 1 5EB45D77
+P 3400 900
+F 0 "RP3" V 3499 900 50  0001 C CNN
+F 1 "R_ARRAY_7WAY_US" H 3750 950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 3400 910 50  0001 C CNN
+F 3 "" H 3400 910 50  0001 C CNN
+	3    3400 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 2 1 5EB4C7B1
+P 5350 4400
+F 0 "RP3" H 5403 4400 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 5700 4450 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 5350 4410 50  0001 C CNN
+F 3 "" H 5350 4410 50  0001 C CNN
+	2    5350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 1 1 5EB4FB2A
+P 5550 10200
+F 0 "RP3" H 5475 10200 50  0001 R CNN
+F 1 "R_ARRAY_7WAY_US" H 5900 10250 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 5550 10210 50  0001 C CNN
+F 3 "" H 5550 10210 50  0001 C CNN
+	1    5550 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 4 1 5EB53CAC
+P 2200 7700
+F 0 "RP3" H 2253 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2550 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2200 7710 50  0001 C CNN
+F 3 "" H 2200 7710 50  0001 C CNN
+	4    2200 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 5 1 5EB54880
+P 2300 7700
+F 0 "RP3" H 2352 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2650 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2300 7710 50  0001 C CNN
+F 3 "" H 2300 7710 50  0001 C CNN
+	5    2300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 6 1 5EB5508B
+P 2400 7700
+F 0 "RP3" H 2452 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2750 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2400 7710 50  0001 C CNN
+F 3 "" H 2400 7710 50  0001 C CNN
+	6    2400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_ARRAY_7WAY_US RP3
+U 7 1 5EB55888
+P 2500 7700
+F 0 "RP3" H 2553 7700 50  0001 L CNN
+F 1 "R_ARRAY_7WAY_US" H 2850 7750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RP_ARRAY_7WAY" H 2500 7710 50  0001 C CNN
+F 3 "" H 2500 7710 50  0001 C CNN
+	7    2500 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1000 7650 2400
+Wire Wire Line
+	7750 2300 7750 900 
+Wire Wire Line
+	6150 1150 6150 800 
+Wire Wire Line
+	6150 800  7850 800 
+Wire Wire Line
+	4700 1000 7650 1000
+Wire Wire Line
+	6050 1150 6050 900 
+Wire Wire Line
+	6050 900  7750 900 
+Wire Wire Line
+	6250 1150 6250 700 
+Wire Wire Line
+	6250 700  7950 700 
+Text Label 6350 700  0    50   ~ 0
+CASS_MOTOR
+Text Label 6350 800  0    50   ~ 0
+CASS_SENSE
+Text Label 6350 900  0    50   ~ 0
+CASS_WRT
+Wire Wire Line
+	6150 800  6000 800 
+Connection ~ 6150 800 
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5DCBFA15
+P 5900 800
+AR Path="/5DCBFA15" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5DCBFA15" Ref="R1"  Part="1" 
+F 0 "R1" V 5965 831 50  0000 L CNN
+F 1 "3K3" V 5964 656 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 5900 800 50  0001 C CNN
+F 3 "" H 5900 800 50  0001 C CNN
+	1    5900 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DCC6310
+P 5800 800
+AR Path="/5DCC6310" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5DCC6310" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 5800 650 50  0001 C CNN
+F 1 "+5V" V 5800 950 50  0000 L CNN
+F 2 "" H 5800 800 50  0001 C CNN
+F 3 "" H 5800 800 50  0001 C CNN
+	1    5800 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5DD73687
+P 8150 1650
+AR Path="/5DD73687" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5DD73687" Ref="R4"  Part="1" 
+F 0 "R4" V 8000 1600 50  0000 L CNN
+F 1 "1K" V 8081 1601 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 8150 1650 50  0001 C CNN
+F 3 "" H 8150 1650 50  0001 C CNN
+	1    8150 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1650 8050 1650
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5DDA4199
+P 8300 1800
+AR Path="/5DDA4199" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5DDA4199" Ref="R3"  Part="1" 
+F 0 "R3" H 8144 1832 50  0000 L CNN
+F 1 "10K" H 8100 1750 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 8300 1800 50  0001 C CNN
+F 3 "" H 8300 1800 50  0001 C CNN
+	1    8300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1650 8300 1650
+Wire Wire Line
+	8300 1650 8300 1700
+Wire Wire Line
+	8300 1650 8400 1650
+Connection ~ 8300 1650
+Wire Wire Line
+	8300 1900 8300 1950
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DE745B1
+P 8300 1950
+AR Path="/5DE745B1" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DE745B1" Ref="#U0126"  Part="1" 
+F 0 "#U0126" H 8300 1950 50  0001 C CNN
+F 1 "GND_SMALL" H 8300 1950 50  0001 C CNN
+F 2 "" H 8300 1950 50  0001 C CNN
+F 3 "" H 8300 1950 50  0001 C CNN
+	1    8300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2SC1815 Q2
+U 1 1 5DE772A8
+P 8600 1650
+F 0 "Q2" H 8800 1400 50  0000 L CNN
+F 1 "2SC1815" H 8800 1300 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:Q_NPN_ECB" H 8800 1750 50  0001 C CNN
+F 3 "~" H 8600 1650 50  0001 C CNN
+	1    8600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DE77F9C
+P 8700 1950
+AR Path="/5DE77F9C" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DE77F9C" Ref="#U0127"  Part="1" 
+F 0 "#U0127" H 8700 1950 50  0001 C CNN
+F 1 "GND_SMALL" H 8700 1950 50  0001 C CNN
+F 2 "" H 8700 1950 50  0001 C CNN
+F 3 "" H 8700 1950 50  0001 C CNN
+	1    8700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1950 8700 1850
+$Comp
+L Device:D_Zener_Small_ALT CR2
+U 1 1 5DEA5E08
+P 8950 1650
+F 0 "CR2" V 8967 1707 50  0000 L CNN
+F 1 "IN755" V 9038 1712 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:ZENER_12.7mm" V 8950 1650 50  0001 C CNN
+F 3 "~" V 8950 1650 50  0001 C CNN
+	1    8950 1650
+	0    1    1    0   
+$EndComp
+Text Notes 9061 1847 0    50   ~ 0
+7.5V
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DF06A56
+P 8950 1750
+AR Path="/5DF06A56" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DF06A56" Ref="#U0128"  Part="1" 
+F 0 "#U0128" H 8950 1750 50  0001 C CNN
+F 1 "GND_SMALL" H 8950 1750 50  0001 C CNN
+F 2 "" H 8950 1750 50  0001 C CNN
+F 3 "" H 8950 1750 50  0001 C CNN
+	1    8950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1450 8950 1450
+Wire Wire Line
+	8950 1450 8950 1550
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5DF30FC4
+P 8700 1250
+AR Path="/5DF30FC4" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5DF30FC4" Ref="R2"  Part="1" 
+F 0 "R2" H 8544 1282 50  0000 L CNN
+F 1 "1.5K" H 8500 1200 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 8700 1250 50  0001 C CNN
+F 3 "" H 8700 1250 50  0001 C CNN
+	1    8700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DF353AE
+P 9000 1250
+AR Path="/5DF353AE" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DF353AE" Ref="C18"  Part="1" 
+F 0 "C18" H 8862 1298 50  0000 C CNN
+F 1 ".1" H 8885 1218 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9000 1250 50  0001 C CNN
+F 3 "~" H 9000 1250 50  0001 C CNN
+	1    9000 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1150 8700 1050
+Wire Wire Line
+	8700 1050 9000 1050
+Wire Wire Line
+	9000 1050 9000 1150
+Wire Wire Line
+	9000 1350 9000 1450
+Wire Wire Line
+	9000 1450 8950 1450
+Connection ~ 8950 1450
+Wire Wire Line
+	8700 1450 8700 1350
+Connection ~ 8700 1450
+Connection ~ 9000 1050
+Wire Wire Line
+	9650 1050 9650 1250
+Connection ~ 9650 1250
+Wire Wire Line
+	9650 1250 9650 1450
+Wire Wire Line
+	9350 1250 9650 1250
+Wire Wire Line
+	9800 1850 9650 1850
+Text Notes 11100 2800 1    79   Italic 0
+(6-PIN MALE EDGE)
+Text Notes 10950 2550 1    79   Italic 0
+CASSETTE
+Wire Wire Line
+	7850 2200 10550 2200
+Wire Wire Line
+	9600 2300 7750 2300
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB2
+U 1 1 5DAA6748
+P 9900 1850
+F 0 "FB2" H 9826 1791 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9850 1750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9900 1850 50  0001 C CNN
+F 3 "" H 9900 1850 50  0001 C CNN
+	1    9900 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 1850 10000 1850
+Text Label 10050 2200 0    50   ~ 0
+CASS_SENSE
+Text Label 10050 2300 0    50   ~ 0
+CASS_WRT'
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB1
+U 1 1 5DA580A1
+P 9700 2300
+F 0 "FB1" H 9475 2262 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9650 2200 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9700 2300 50  0001 C CNN
+F 3 "" H 9700 2300 50  0001 C CNN
+	1    9700 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10550 2300 9800 2300
+$Comp
+L Device:C_Small C?
+U 1 1 5DA2D6BA
+P 10350 2600
+AR Path="/5DA2D6BA" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DA2D6BA" Ref="C1"  Part="1" 
+F 0 "C1" H 10231 2628 50  0000 C CNN
+F 1 ".1" H 10232 2560 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 10350 2600 50  0001 C CNN
+F 3 "~" H 10350 2600 50  0001 C CNN
+	1    10350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D9B7902
+P 10350 2700
+AR Path="/5D9B7902" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D9B7902" Ref="#U0129"  Part="1" 
+F 0 "#U0129" H 10350 2700 50  0001 C CNN
+F 1 "GND_SMALL" H 10350 2700 50  0001 C CNN
+F 2 "" H 10350 2700 50  0001 C CNN
+F 3 "" H 10350 2700 50  0001 C CNN
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2500 9850 2500
+$Comp
+L power:+5V #PWR?
+U 1 1 5D8620F6
+P 9850 2500
+AR Path="/5D8620F6" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D8620F6" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 9850 2350 50  0001 C CNN
+F 1 "+5V" V 9850 2600 50  0000 L CNN
+F 2 "" H 9850 2500 50  0001 C CNN
+F 3 "" H 9850 2500 50  0001 C CNN
+	1    9850 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D858E83
+P 10550 2700
+AR Path="/5D858E83" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D858E83" Ref="#U0130"  Part="1" 
+F 0 "#U0130" H 10550 2700 50  0001 C CNN
+F 1 "GND_SMALL" H 10550 2700 50  0001 C CNN
+F 2 "" H 10550 2700 50  0001 C CNN
+F 3 "" H 10550 2700 50  0001 C CNN
+	1    10550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 2600 10550 2700
+Wire Wire Line
+	10150 2500 10350 2500
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB3
+U 1 1 5D80BE41
+P 10050 2500
+F 0 "FB3" H 9975 2571 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 10000 2400 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 10050 2500 50  0001 C CNN
+F 3 "" H 10050 2500 50  0001 C CNN
+	1    10050 2500
+	-1   0    0    1   
+$EndComp
+Text Label 10050 2400 0    50   ~ 0
+CASS_RD
+Wire Wire Line
+	7650 2400 10550 2400
+$Comp
+L KU-schematics-library:CASSETTE_PORT_CON CN3
+U 1 1 5D6D39F5
+P 10850 2050
+F 0 "CN3" V 11200 1700 118 0000 L CNN
+F 1 "CASSETTE_PORT_CON" H 10725 1350 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:EDGE_CON_12P_TAPE" H 10850 2050 50  0001 C CNN
+F 3 "" H 10850 2050 50  0001 C CNN
+	1    10850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 800  7850 2200
+Wire Wire Line
+	10550 2500 10350 2500
+Connection ~ 10350 2500
+Wire Wire Line
+	9050 1450 9000 1450
+Connection ~ 9000 1450
+Wire Wire Line
+	7950 700  7950 1650
+$Comp
+L Transistor_BJT:2SC1815 Q1
+U 1 1 5E5B30FE
+P 9250 1450
+F 0 "Q1" H 9205 1786 50  0000 L CNN
+F 1 "2SC1815" H 9203 1707 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:Q_NPN_ECB" H 9450 1550 50  0001 C CNN
+F 3 "~" H 9250 1450 50  0001 C CNN
+	1    9250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:+9V_UNREG #PWR0126
+U 1 1 5E649CD5
+P 9000 1050
+F 0 "#PWR0126" H 9000 900 50  0001 C CNN
+F 1 "+9V_UNREG" H 9000 1249 50  0000 C CNN
+F 2 "" H 9000 1000 50  0001 C CNN
+F 3 "" H 9000 850 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1050 9650 1050
+$Comp
+L Transistor_BJT:TIP41 Q3
+U 1 1 5E65DDA8
+P 9550 1650
+F 0 "Q3" H 9741 1696 50  0000 L CNN
+F 1 "TP298/2SD880" H 9741 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9800 1575 50  0001 L CIN
+F 3 "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF" H 9550 1650 50  0001 L CNN
+	1    9550 1650
+	1    0    0    -1  
+$EndComp
+Text Label 10450 2500 0    8    ~ 0
+5V_FB3
+Wire Wire Line
+	6850 1350 7450 1350
+Wire Wire Line
+	7450 1350 7450 2650
+Wire Wire Line
+	7450 2650 8050 2650
+Wire Wire Line
+	6850 1450 7400 1450
+Wire Wire Line
+	7400 1450 7400 2850
+Wire Wire Line
+	7400 2850 7900 2850
+Wire Wire Line
+	6850 1550 7350 1550
+Wire Wire Line
+	7350 1550 7350 3050
+Wire Wire Line
+	7350 3050 7800 3050
+Wire Wire Line
+	6850 1650 7300 1650
+Wire Wire Line
+	7300 1650 7300 3250
+Wire Wire Line
+	7300 3250 7700 3250
+Text Label 6950 1450 0    50   ~ 0
+~LORAM~
+Text Label 6950 1550 0    50   ~ 0
+~HIRAM~
+Text Label 6950 1650 0    50   ~ 0
+~CHAREN~
+Text GLabel 8050 2650 2    50   Input ~ 0
+CAEC
+Text GLabel 8050 2850 2    50   Input ~ 0
+~LORAM~
+Text GLabel 8050 3050 2    50   Input ~ 0
+~HIRAM~
+Text GLabel 8050 3250 2    50   Input ~ 0
+~CHAREN~
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D85B741
+P 7700 3450
+AR Path="/5D85B741" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D85B741" Ref="R43"  Part="1" 
+F 0 "R43" V 7777 3515 50  0000 L CNN
+F 1 "3K3" V 7776 3321 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 7700 3450 50  0001 C CNN
+F 3 "" H 7700 3450 50  0001 C CNN
+	1    7700 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D860829
+P 7800 3450
+AR Path="/5D860829" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D860829" Ref="R44"  Part="1" 
+F 0 "R44" H 7727 3725 50  0000 L CNN
+F 1 "3K3" H 7725 3794 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 7800 3450 50  0001 C CNN
+F 3 "" H 7800 3450 50  0001 C CNN
+	1    7800 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D860B91
+P 7900 3450
+AR Path="/5D860B91" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D860B91" Ref="R45"  Part="1" 
+F 0 "R45" H 7712 3431 50  0000 L CNN
+F 1 "3K3" H 7709 3502 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 3350 7700 3250
+Connection ~ 7700 3250
+Wire Wire Line
+	7700 3250 8050 3250
+Wire Wire Line
+	7800 3350 7800 3050
+Connection ~ 7800 3050
+Wire Wire Line
+	7800 3050 8050 3050
+Wire Wire Line
+	7900 3350 7900 2850
+Connection ~ 7900 2850
+Wire Wire Line
+	7900 2850 8050 2850
+Wire Wire Line
+	7700 3550 7700 3650
+Wire Wire Line
+	7700 3650 7800 3650
+Wire Wire Line
+	7800 3550 7800 3650
+Connection ~ 7800 3650
+Wire Wire Line
+	7800 3650 7900 3650
+Wire Wire Line
+	7900 3550 7900 3650
+Connection ~ 7900 3650
+Wire Wire Line
+	7900 3650 8050 3650
+$Comp
+L power:+5V #PWR?
+U 1 1 5DBCE200
+P 8050 3650
+AR Path="/5DBCE200" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5DBCE200" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 8050 3500 50  0001 C CNN
+F 1 "+5V" V 7983 3642 50  0000 L CNN
+F 2 "" H 8050 3650 50  0001 C CNN
+F 3 "" H 8050 3650 50  0001 C CNN
+	1    8050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4450 8250 4450
+Wire Wire Line
+	8250 4450 8250 5300
+$Comp
+L Connector_Generic:Conn_01x03 CN10
+U 1 1 5D6CE6C8
+P 9150 10650
+F 0 "CN10" V 9313 10876 118 0000 R CNN
+F 1 "LED_CONNECTOR" V 8972 10462 50  0001 R CNN
+F 2 "KU-14194HB-RevB-KiCad:LED_CON" H 9150 10650 50  0001 C CNN
+F 3 "~" H 9150 10650 50  0001 C CNN
+	1    9150 10650
+	0    1    1    0   
+$EndComp
+Text Notes 9632 11020 2    79   Italic 0
+LED CONNECTOR
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB20
+U 1 1 5D6ED673
+P 9150 10050
+F 0 "FB20" H 8863 10016 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9100 9950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9150 10050 50  0001 C CNN
+F 3 "" H 9150 10050 50  0001 C CNN
+	1    9150 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB21
+U 1 1 5D6E9946
+P 9250 10050
+F 0 "FB21" H 8961 10015 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9200 9950 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9250 10050 50  0001 C CNN
+F 3 "" H 9250 10050 50  0001 C CNN
+	1    9250 10050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 9650 9150 9950
+Wire Wire Line
+	9250 10450 9250 10400
+Wire Wire Line
+	9250 10400 9050 10400
+Wire Wire Line
+	9050 10400 9050 10450
+Connection ~ 9250 10400
+Wire Wire Line
+	9250 10400 9250 10150
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D920620
+P 9150 9650
+AR Path="/5D920620" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D920620" Ref="#U0131"  Part="1" 
+F 0 "#U0131" H 9150 9650 50  0001 C CNN
+F 1 "GND_SMALL" H 9150 9650 50  0001 C CNN
+F 2 "" H 9150 9650 50  0001 C CNN
+F 3 "" H 9150 9650 50  0001 C CNN
+	1    9150 9650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D9221F5
+P 9250 9550
+AR Path="/5D9221F5" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5D9221F5" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 9250 9400 50  0001 C CNN
+F 1 "+5V" H 9200 9700 50  0000 L CNN
+F 2 "" H 9250 9550 50  0001 C CNN
+F 3 "" H 9250 9550 50  0001 C CNN
+	1    9250 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5DA31F97
+P 9250 9650
+AR Path="/5DA31F97" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5DA31F97" Ref="R39"  Part="1" 
+F 0 "R39" H 9299 9680 50  0000 L CNN
+F 1 "390" H 9302 9610 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9250 9650 50  0001 C CNN
+F 3 "" H 9250 9650 50  0001 C CNN
+	1    9250 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 9750 9250 9950
+$Comp
+L Device:L_Core_Iron L5
+U 1 1 5DAA79FD
+P 11200 9950
+F 0 "L5" H 11288 9996 50  0000 L CNN
+F 1 "1.2uH" H 11288 9905 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:INDUCTOR_P15.24mm" H 11200 9950 50  0001 C CNN
+F 3 "~" H 11200 9950 50  0001 C CNN
+	1    11200 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DAAD40F
+P 10500 9700
+AR Path="/5DAAD40F" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DAAD40F" Ref="C21"  Part="1" 
+F 0 "C21" V 10255 9689 50  0000 C CNN
+F 1 ".22" V 10322 9698 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_POLY_100V_TH_P10.16mm" H 10500 9700 50  0001 C CNN
+F 3 "~" H 10500 9700 50  0001 C CNN
+	1    10500 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:CHOKE L4
+U 1 1 5DAA65EF
+P 10300 9950
+F 0 "L4" H 10375 10037 50  0000 L CNN
+F 1 "CHOKE" H 10350 10050 50  0001 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CHOKE" H 10300 9950 50  0001 C CNN
+F 3 "" H 10300 9950 50  0001 C CNN
+	1    10300 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 10200 10300 10200
+Wire Wire Line
+	10300 10200 10300 10100
+Wire Wire Line
+	10600 10200 10700 10200
+Wire Wire Line
+	10700 10200 10700 10100
+$Comp
+L Device:C_Small C?
+U 1 1 5DAAF6AA
+P 10500 10200
+AR Path="/5DAAF6AA" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DAAF6AA" Ref="C20"  Part="1" 
+F 0 "C20" V 10268 10204 50  0000 C CNN
+F 1 ".22" V 10328 10199 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_POLY_100V_TH_P10.16mm" H 10500 10200 50  0001 C CNN
+F 3 "~" H 10500 10200 50  0001 C CNN
+	1    10500 10200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10300 9800 10300 9700
+Wire Wire Line
+	10300 9700 10400 9700
+Text Notes 10402 9629 0    50   ~ 0
+100V
+Text Notes 10409 10132 0    50   ~ 0
+100V
+Text Notes 11256 11013 2    79   Italic 0
+POWER INPUT
+Text Notes 11455 11148 2    79   Italic 0
+(7PIN MALE DIN)
+$Comp
+L KU-schematics-library:POWER_CON CN7
+U 1 1 5E100F90
+P 10950 10750
+F 0 "CN7" H 11474 10539 79  0000 C CNN
+F 1 "POWER_CON" H 10950 10750 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:POWER_CON_DIN7" H 10950 10750 50  0001 C CNN
+F 3 "" H 10950 10750 50  0001 C CNN
+	1    10950 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 10650 10300 10200
+Connection ~ 10300 10200
+Connection ~ 10700 10200
+Wire Wire Line
+	11200 9800 11200 9700
+$Comp
+L Device:C_Small C?
+U 1 1 5E579B64
+P 11400 10200
+AR Path="/5E579B64" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E579B64" Ref="C97"  Part="1" 
+F 0 "C97" V 11500 10200 50  0000 C CNN
+F 1 ".22" V 11567 10175 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11400 10200 50  0001 C CNN
+F 3 "~" H 11400 10200 50  0001 C CNN
+	1    11400 10200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11600 10200 11500 10200
+Wire Wire Line
+	11300 10200 11200 10200
+Connection ~ 11200 10200
+Wire Wire Line
+	11200 10200 11200 10100
+$Comp
+L Device:C_Small C?
+U 1 1 5E5E5C34
+P 11400 9700
+AR Path="/5E5E5C34" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E5E5C34" Ref="C100"  Part="1" 
+F 0 "C100" V 11218 9701 50  0000 C CNN
+F 1 ".22" V 11288 9694 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11400 9700 50  0001 C CNN
+F 3 "~" H 11400 9700 50  0001 C CNN
+	1    11400 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 9700 11200 9700
+Connection ~ 11600 10200
+Wire Wire Line
+	11400 10650 11500 10650
+Connection ~ 11600 10650
+Wire Wire Line
+	11600 10650 11600 10400
+Connection ~ 11500 10650
+Wire Wire Line
+	11500 10650 11600 10650
+Wire Wire Line
+	11200 10400 11200 10200
+Wire Wire Line
+	10700 10400 10700 10200
+$Comp
+L KU-schematics-library:POWER_SWITCH SW1
+U 1 1 5E38E46E
+P 10700 10400
+F 0 "SW1" H 10850 10550 50  0000 L CNN
+F 1 "POWER_SWITCH" H 11094 10518 50  0001 L CNN
+F 2 "KU-14194HB-RevB-KiCad:POWER_SWITCH" H 10700 10400 50  0001 C CNN
+F 3 "" H 10700 10400 50  0001 C CNN
+	1    10700 10400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8300 9900 8300 9150
+Connection ~ 8300 9900
+Text Label 10700 9500 1    50   ~ 0
+9VAC~~
+Text Notes 11200 10400 1    50   ~ 0
++5
+Connection ~ 10700 9150
+$Comp
+L Device:C_Small C?
+U 1 1 5E8C42B2
+P 10850 9700
+AR Path="/5E8C42B2" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E8C42B2" Ref="C99"  Part="1" 
+F 0 "C99" V 10652 9712 50  0000 C CNN
+F 1 ".1" V 10726 9704 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 10850 9700 50  0001 C CNN
+F 3 "~" H 10850 9700 50  0001 C CNN
+	1    10850 9700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 9800 10950 9700
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E9015DC
+P 10950 9800
+AR Path="/5E9015DC" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E9015DC" Ref="#U0132"  Part="1" 
+F 0 "#U0132" H 10950 9800 50  0001 C CNN
+F 1 "GND_SMALL" H 10950 9800 50  0001 C CNN
+F 2 "" H 10950 9800 50  0001 C CNN
+F 3 "" H 10950 9800 50  0001 C CNN
+	1    10950 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 9800 10700 9700
+Wire Wire Line
+	10700 9700 10600 9700
+Wire Wire Line
+	10750 9700 10700 9700
+Connection ~ 10700 9700
+Wire Wire Line
+	10700 9700 10700 9150
+Wire Wire Line
+	10300 9700 10300 9600
+Wire Wire Line
+	10300 9600 9950 9600
+Wire Wire Line
+	9950 9600 9950 9650
+Connection ~ 10300 9700
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F43522D
+P 9950 9850
+AR Path="/5F43522D" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F43522D" Ref="#U0133"  Part="1" 
+F 0 "#U0133" H 9950 9850 50  0001 C CNN
+F 1 "GND_SMALL" H 9950 9850 50  0001 C CNN
+F 2 "" H 9950 9850 50  0001 C CNN
+F 3 "" H 9950 9850 50  0001 C CNN
+	1    9950 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F437CEE
+P 9950 9750
+AR Path="/5F437CEE" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5F437CEE" Ref="C98"  Part="1" 
+F 0 "C98" H 9803 9811 50  0000 C CNN
+F 1 ".1" H 9812 9736 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9950 9750 50  0001 C CNN
+F 3 "~" H 9950 9750 50  0001 C CNN
+	1    9950 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F4795A3
+P 10300 9400
+F 0 "F1" H 10150 9469 50  0000 L CNN
+F 1 "1A" H 10150 9393 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:FUSE" V 10230 9400 50  0001 C CNN
+F 3 "~" H 10300 9400 50  0001 C CNN
+	1    10300 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 9550 10300 9600
+Connection ~ 10300 9600
+Wire Wire Line
+	8400 9250 8400 10000
+Wire Wire Line
+	11200 9150 11400 9150
+Wire Wire Line
+	11800 9150 11800 9200
+Wire Wire Line
+	11200 9150 11200 9050
+$Comp
+L Device:C_Small C?
+U 1 1 5F52A75E
+P 11800 9300
+AR Path="/5F52A75E" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5F52A75E" Ref="C92"  Part="1" 
+F 0 "C92" H 11949 9336 50  0000 C CNN
+F 1 ".1" H 11938 9272 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11800 9300 50  0001 C CNN
+F 3 "~" H 11800 9300 50  0001 C CNN
+	1    11800 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F65272A
+P 11800 9400
+AR Path="/5F65272A" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F65272A" Ref="#U0134"  Part="1" 
+F 0 "#U0134" H 11800 9400 50  0001 C CNN
+F 1 "GND_SMALL" H 11800 9400 50  0001 C CNN
+F 2 "" H 11800 9400 50  0001 C CNN
+F 3 "" H 11800 9400 50  0001 C CNN
+	1    11800 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C91
+U 1 1 5F696658
+P 11400 9300
+F 0 "C91" H 11477 9355 50  0000 L CNN
+F 1 "100uF" H 11477 9284 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P5.08mm" H 11400 9300 50  0001 C CNN
+F 3 "~" H 11400 9300 50  0001 C CNN
+	1    11400 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 9200 11400 9150
+Connection ~ 11400 9150
+Wire Wire Line
+	11400 9150 11800 9150
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F6D7363
+P 11400 9400
+AR Path="/5F6D7363" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F6D7363" Ref="#U0135"  Part="1" 
+F 0 "#U0135" H 11400 9400 50  0001 C CNN
+F 1 "GND_SMALL" H 11400 9400 50  0001 C CNN
+F 2 "" H 11400 9400 50  0001 C CNN
+F 3 "" H 11400 9400 50  0001 C CNN
+	1    11400 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F758740
+P 11200 9050
+AR Path="/5F758740" Ref="#PWR?"  Part="1" 
+AR Path="/5D940AF4/5F758740" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 11200 8900 50  0001 C CNN
+F 1 "+5V" H 11150 9200 50  0000 L CNN
+F 2 "" H 11200 9050 50  0001 C CNN
+F 3 "" H 11200 9050 50  0001 C CNN
+	1    11200 9050
+	1    0    0    -1  
+$EndComp
+Text Notes 11481 9421 0    50   ~ 0
+16V
+Wire Wire Line
+	11500 9700 11600 9700
+Wire Wire Line
+	11600 9700 11600 10200
+Wire Wire Line
+	11200 9150 11200 9700
+Connection ~ 11200 9150
+Connection ~ 11200 9700
+$Comp
+L KU-schematics-library:7805 VR2
+U 1 1 5D7004EC
+P 9250 8750
+F 0 "VR2" H 9244 8927 79  0000 C CNN
+F 1 "7805" H 9250 8750 79  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:VOTLAGE_REGULATOR_TO220" H 9250 8900 50  0001 C CNN
+F 3 "" H 9250 8900 50  0001 C CNN
+	1    9250 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:7812 VR1
+U 1 1 5D701AE0
+P 9250 7950
+F 0 "VR1" H 9253 8115 79  0000 C CNN
+F 1 "7812" H 9250 7950 79  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:VOTLAGE_REGULATOR_TO220" H 9250 7950 50  0001 C CNN
+F 3 "" H 9250 7950 50  0001 C CNN
+	1    9250 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:BRIDGE_RECTIFIER CR4
+U 1 1 5D7028E2
+P 10300 8750
+F 0 "CR4" H 10450 8900 50  0000 L CNN
+F 1 "BRIDGE_RECTIFIER" H 10300 7850 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:BRIDGE_RECTIFIER" H 10300 8750 50  0001 C CNN
+F 3 "" H 10300 8750 50  0001 C CNN
+	1    10300 8750
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 9250
+Wire Wire Line
+	10700 8500 10300 8500
+Wire Wire Line
+	10700 8500 10700 9150
+Wire Wire Line
+	10500 8750 10500 8850
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D8659B6
+P 10500 8850
+AR Path="/5D8659B6" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D8659B6" Ref="#U0136"  Part="1" 
+F 0 "#U0136" H 10500 8850 50  0001 C CNN
+F 1 "GND_SMALL" H 10500 8850 50  0001 C CNN
+F 2 "" H 10500 8850 50  0001 C CNN
+F 3 "" H 10500 8850 50  0001 C CNN
+	1    10500 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 8500 10300 8550
+Wire Wire Line
+	10300 8950 10300 9250
+Wire Wire Line
+	10700 8500 10700 7950
+Connection ~ 10700 8500
+$Comp
+L Diode:1N4001 CR6
+U 1 1 5D983D96
+P 10300 8150
+F 0 "CR6" V 10313 8229 50  0000 L CNN
+F 1 "1N4001" V 10400 8200 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RECTIFIER_TH_P12.7mm" H 10300 7975 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 10300 8150 50  0001 C CNN
+	1    10300 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C90
+U 1 1 5D98522D
+P 10500 7950
+F 0 "C90" V 10729 7876 50  0000 L CNN
+F 1 "470uF" V 10663 7829 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:LARGE_ELECTROLYTIC_33x18_P38.10mm_AXIAL_TH" H 10500 7950 50  0001 C CNN
+F 3 "~" H 10500 7950 50  0001 C CNN
+	1    10500 7950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 7950 10600 7950
+Wire Wire Line
+	10400 7950 10300 7950
+Wire Wire Line
+	10300 8000 10300 7950
+$Comp
+L Diode:1N4001 CR5
+U 1 1 5DA7DEB6
+P 10150 7950
+F 0 "CR5" H 10150 8166 50  0000 C CNN
+F 1 "1N4001" H 10150 8075 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RECTIFIER_TH_P12.7mm" H 10150 7775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 10150 7950 50  0001 C CNN
+	1    10150 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 8750 8800 8750
+Wire Wire Line
+	8950 7950 8800 7950
+Wire Wire Line
+	8300 9150 10700 9150
+Wire Wire Line
+	8400 9250 10300 9250
+Wire Wire Line
+	10300 8350 10300 8300
+Wire Wire Line
+	10000 7950 9850 7950
+Text Notes 10569 7885 2    50   ~ 0
+50V
+$Comp
+L Device:CP_Small C88
+U 1 1 5DDB1877
+P 9850 8100
+F 0 "C88" H 9957 8096 50  0000 L CNN
+F 1 "470uF" H 9906 8022 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:LARGE_ELECTROLYTIC_33x18_P38.10mm_AXIAL_TH" H 9850 8100 50  0001 C CNN
+F 3 "~" H 9850 8100 50  0001 C CNN
+	1    9850 8100
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 7950
+Wire Wire Line
+	9850 7950 9700 7950
+Text Notes 10111 8289 2    50   ~ 0
+50V
+Wire Wire Line
+	9850 8000 9850 7950
+Wire Wire Line
+	9850 8200 9850 8250
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DFE6639
+P 9850 8250
+AR Path="/5DFE6639" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DFE6639" Ref="#U0137"  Part="1" 
+F 0 "#U0137" H 9850 8250 50  0001 C CNN
+F 1 "GND_SMALL" H 9850 8250 50  0001 C CNN
+F 2 "" H 9850 8250 50  0001 C CNN
+F 3 "" H 9850 8250 50  0001 C CNN
+	1    9850 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C19
+U 1 1 5DFEA501
+P 9850 8900
+F 0 "C19" H 9961 8892 50  0000 L CNN
+F 1 "2200uF" H 9906 8822 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:LARGE_ELECTROLYTIC_33x18_P38.10mm_AXIAL_TH" H 9850 8900 50  0001 C CNN
+F 3 "~" H 9850 8900 50  0001 C CNN
+	1    9850 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 8800 9850 8750
+Connection ~ 9850 8750
+Wire Wire Line
+	9850 8750 10100 8750
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E028E1F
+P 9850 9050
+AR Path="/5E028E1F" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E028E1F" Ref="#U0138"  Part="1" 
+F 0 "#U0138" H 9850 9050 50  0001 C CNN
+F 1 "GND_SMALL" H 9850 9050 50  0001 C CNN
+F 2 "" H 9850 9050 50  0001 C CNN
+F 3 "" H 9850 9050 50  0001 C CNN
+	1    9850 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 9050 9850 9000
+Wire Wire Line
+	9550 8750 9550 8350
+Connection ~ 9550 8750
+Connection ~ 9550 8350
+Wire Wire Line
+	9550 8750 9700 8750
+Wire Wire Line
+	9550 8350 10300 8350
+$Comp
+L Device:C_Small C?
+U 1 1 5E0AC113
+P 9700 8900
+AR Path="/5E0AC113" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E0AC113" Ref="C95"  Part="1" 
+F 0 "C95" H 9553 8961 50  0000 C CNN
+F 1 ".1" H 9562 8886 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9700 8900 50  0001 C CNN
+F 3 "~" H 9700 8900 50  0001 C CNN
+	1    9700 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 8800 9700 8750
+Connection ~ 9700 8750
+Wire Wire Line
+	9700 8750 9850 8750
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E169FE2
+P 9700 9050
+AR Path="/5E169FE2" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E169FE2" Ref="#U0139"  Part="1" 
+F 0 "#U0139" H 9700 9050 50  0001 C CNN
+F 1 "GND_SMALL" H 9700 9050 50  0001 C CNN
+F 2 "" H 9700 9050 50  0001 C CNN
+F 3 "" H 9700 9050 50  0001 C CNN
+	1    9700 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 9050 9700 9000
+$Comp
+L Device:C_Small C?
+U 1 1 5E1AA0CF
+P 9700 8100
+AR Path="/5E1AA0CF" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E1AA0CF" Ref="C89"  Part="1" 
+F 0 "C89" H 9553 8161 50  0000 C CNN
+F 1 ".1" H 9562 8086 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9700 8100 50  0001 C CNN
+F 3 "~" H 9700 8100 50  0001 C CNN
+	1    9700 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 8000 9700 7950
+Connection ~ 9700 7950
+Wire Wire Line
+	9700 7950 9550 7950
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E1EA551
+P 9700 8250
+AR Path="/5E1EA551" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E1EA551" Ref="#U0140"  Part="1" 
+F 0 "#U0140" H 9700 8250 50  0001 C CNN
+F 1 "GND_SMALL" H 9700 8250 50  0001 C CNN
+F 2 "" H 9700 8250 50  0001 C CNN
+F 3 "" H 9700 8250 50  0001 C CNN
+	1    9700 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 8250 9700 8200
+Wire Wire Line
+	9250 8150 9250 8250
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E2F133C
+P 9250 8250
+AR Path="/5E2F133C" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E2F133C" Ref="#U0141"  Part="1" 
+F 0 "#U0141" H 9250 8250 50  0001 C CNN
+F 1 "GND_SMALL" H 9250 8250 50  0001 C CNN
+F 2 "" H 9250 8250 50  0001 C CNN
+F 3 "" H 9250 8250 50  0001 C CNN
+	1    9250 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8950 9250 9050
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E331590
+P 9250 9050
+AR Path="/5E331590" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E331590" Ref="#U0142"  Part="1" 
+F 0 "#U0142" H 9250 9050 50  0001 C CNN
+F 1 "GND_SMALL" H 9250 9050 50  0001 C CNN
+F 2 "" H 9250 9050 50  0001 C CNN
+F 3 "" H 9250 9050 50  0001 C CNN
+	1    9250 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C57
+U 1 1 5E34B4AC
+P 8800 8100
+F 0 "C57" H 8878 8094 50  0000 L CNN
+F 1 "10uF" H 8878 8027 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 8800 8100 50  0001 C CNN
+F 3 "~" H 8800 8100 50  0001 C CNN
+	1    8800 8100
+	1    0    0    -1  
+$EndComp
+Text Notes 8876 8275 0    50   ~ 0
+25V
+Wire Wire Line
+	8800 8000 8800 7950
+Connection ~ 8800 7950
+Wire Wire Line
+	8800 7950 8650 7950
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E40D490
+P 8800 8250
+AR Path="/5E40D490" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E40D490" Ref="#U0143"  Part="1" 
+F 0 "#U0143" H 8800 8250 50  0001 C CNN
+F 1 "GND_SMALL" H 8800 8250 50  0001 C CNN
+F 2 "" H 8800 8250 50  0001 C CNN
+F 3 "" H 8800 8250 50  0001 C CNN
+	1    8800 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 8250 8800 8200
+Connection ~ 10300 7950
+$Comp
+L Device:C_Small C?
+U 1 1 5E6BFF78
+P 8650 8100
+AR Path="/5E6BFF78" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E6BFF78" Ref="C59"  Part="1" 
+F 0 "C59" H 8503 8161 50  0000 C CNN
+F 1 ".1" H 8512 8086 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 8650 8100 50  0001 C CNN
+F 3 "~" H 8650 8100 50  0001 C CNN
+	1    8650 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 8000 8650 7950
+Connection ~ 8650 7950
+Wire Wire Line
+	8650 7950 8350 7950
+Wire Wire Line
+	8650 8200 8650 8250
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E74232D
+P 8650 8250
+AR Path="/5E74232D" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E74232D" Ref="#U0144"  Part="1" 
+F 0 "#U0144" H 8650 8250 50  0001 C CNN
+F 1 "GND_SMALL" H 8650 8250 50  0001 C CNN
+F 2 "" H 8650 8250 50  0001 C CNN
+F 3 "" H 8650 8250 50  0001 C CNN
+	1    8650 8250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 8350 9550 8350
+$Comp
+L power:+12V #PWR0131
+U 1 1 5E8098D9
+P 8350 7950
+F 0 "#PWR0131" H 8350 7800 50  0001 C CNN
+F 1 "+12V" V 8424 7926 50  0000 L CNN
+F 2 "" H 8350 7950 50  0001 C CNN
+F 3 "" H 8350 7950 50  0001 C CNN
+	1    8350 7950
+	0    -1   -1   0   
+$EndComp
+Text Label 8250 8350 0    50   ~ 0
++9V_UNREG
+$Comp
+L Device:C_Small C?
+U 1 1 5EA6B47B
+P 8650 8900
+AR Path="/5EA6B47B" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5EA6B47B" Ref="C103"  Part="1" 
+F 0 "C103" H 8476 8933 50  0000 C CNN
+F 1 ".1" H 8498 8860 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 8650 8900 50  0001 C CNN
+F 3 "~" H 8650 8900 50  0001 C CNN
+	1    8650 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C102
+U 1 1 5EA6CBB8
+P 8800 8900
+F 0 "C102" H 8878 8894 50  0000 L CNN
+F 1 "10uF" H 8881 8817 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 8800 8900 50  0001 C CNN
+F 3 "~" H 8800 8900 50  0001 C CNN
+	1    8800 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 8800 8800 8750
+Connection ~ 8800 8750
+Wire Wire Line
+	8650 8750 8650 8800
+Wire Wire Line
+	8650 8750 8800 8750
+Wire Wire Line
+	8800 9000 8800 9050
+Wire Wire Line
+	8650 9000 8650 9050
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EB75115
+P 8800 9050
+AR Path="/5EB75115" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EB75115" Ref="#U0145"  Part="1" 
+F 0 "#U0145" H 8800 9050 50  0001 C CNN
+F 1 "GND_SMALL" H 8800 9050 50  0001 C CNN
+F 2 "" H 8800 9050 50  0001 C CNN
+F 3 "" H 8800 9050 50  0001 C CNN
+	1    8800 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EB755AB
+P 8650 9050
+AR Path="/5EB755AB" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EB755AB" Ref="#U0146"  Part="1" 
+F 0 "#U0146" H 8650 9050 50  0001 C CNN
+F 1 "GND_SMALL" H 8650 9050 50  0001 C CNN
+F 2 "" H 8650 9050 50  0001 C CNN
+F 3 "" H 8650 9050 50  0001 C CNN
+	1    8650 9050
+	1    0    0    -1  
+$EndComp
+Text Notes 8881 9098 0    50   ~ 0
+25V
+Wire Wire Line
+	8650 8750 8250 8750
+Connection ~ 8650 8750
+Text Label 8250 8750 0    50   ~ 0
+CAN+5V
+Text Notes 10104 9090 2    50   ~ 0
+16V
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5ECB7F95
+P 11700 10500
+AR Path="/5ECB7F95" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5ECB7F95" Ref="#U0147"  Part="1" 
+F 0 "#U0147" H 11700 10500 50  0001 C CNN
+F 1 "GND_SMALL" H 11700 10500 50  0001 C CNN
+F 2 "" H 11700 10500 50  0001 C CNN
+F 3 "" H 11700 10500 50  0001 C CNN
+	1    11700 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 10400 11600 10400
+Wire Wire Line
+	11700 10400 11700 10500
+Connection ~ 11600 10400
+Wire Wire Line
+	11600 10400 11600 10200
+Wire Wire Line
+	9150 10150 9150 10450
+Text Label 9150 10350 1    31   ~ 0
+GND_LED
+Text Label 9250 10350 1    31   ~ 0
+LED+
+Text Label 1950 4000 0    31   ~ 0
+5V_joyport
+Text Label 9900 9250 0    50   ~ 0
+'9VAC~~
+Text Label 10700 10400 1    50   ~ 0
+9VAC
+Wire Wire Line
+	11300 10650 11200 10650
+Connection ~ 11200 10650
+$Comp
+L KU-schematics-library:74LS629N U31
+U 1 1 5D884582
+P 9900 6700
+AR Path="/5D884582" Ref="U31"  Part="1" 
+AR Path="/5D940AF4/5D884582" Ref="U31"  Part="1" 
+F 0 "U31" H 9793 6745 59  0000 L CNN
+F 1 "74LS629N" H 9618 6665 59  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP16" H 9900 6700 50  0001 C CNN
+F 3 "" H 9900 6700 50  0001 C CNN
+	1    9900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB17
+U 1 1 5D95514B
+P 9900 7100
+F 0 "FB17" V 9897 7129 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9850 7000 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9900 7100 50  0001 C CNN
+F 3 "" H 9900 7100 50  0001 C CNN
+	1    9900 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D95B678
+P 9900 7400
+AR Path="/5D95B678" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5D95B678" Ref="C36"  Part="1" 
+F 0 "C36" H 10056 7482 50  0000 C CNN
+F 1 "20pF" H 10100 7400 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9900 7400 50  0001 C CNN
+F 3 "~" H 9900 7400 50  0001 C CNN
+	1    9900 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5D95BE6E
+P 9900 7550
+AR Path="/5D95BE6E" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5D95BE6E" Ref="#U0148"  Part="1" 
+F 0 "#U0148" H 9900 7550 50  0001 C CNN
+F 1 "GND_SMALL" H 9900 7550 50  0001 C CNN
+F 2 "" H 9900 7550 50  0001 C CNN
+F 3 "" H 9900 7550 50  0001 C CNN
+	1    9900 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 7300 9900 7250
+Wire Wire Line
+	9900 7250 9250 7250
+Connection ~ 9900 7250
+Wire Wire Line
+	9900 7250 9900 7200
+Text GLabel 9250 7250 0    50   Output ~ 0
+DOT_CLOCK
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DA391E1
+P 9600 7050
+AR Path="/5DA391E1" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DA391E1" Ref="#U0149"  Part="1" 
+F 0 "#U0149" H 9600 7050 50  0001 C CNN
+F 1 "GND_SMALL" H 9600 7050 50  0001 C CNN
+F 2 "" H 9600 7050 50  0001 C CNN
+F 3 "" H 9600 7050 50  0001 C CNN
+	1    9600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DA39741
+P 9400 7050
+AR Path="/5DA39741" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DA39741" Ref="#U0150"  Part="1" 
+F 0 "#U0150" H 9400 7050 50  0001 C CNN
+F 1 "GND_SMALL" H 9400 7050 50  0001 C CNN
+F 2 "" H 9400 7050 50  0001 C CNN
+F 3 "" H 9400 7050 50  0001 C CNN
+	1    9400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DA2D2DF
+P 9900 6400
+AR Path="/5DA2D2DF" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DA2D2DF" Ref="C86"  Part="1" 
+F 0 "C86" V 9700 6400 50  0000 C CNN
+F 1 "82pF" V 9776 6400 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9900 6400 50  0001 C CNN
+F 3 "~" H 9900 6400 50  0001 C CNN
+	1    9900 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10100 6400 10000 6400
+Wire Wire Line
+	9700 6400 9800 6400
+Connection ~ 13000 6050
+Wire Wire Line
+	13000 6050 14750 6050
+Wire Wire Line
+	7550 6050 13000 6050
+Wire Wire Line
+	9400 6750 9400 7050
+Wire Wire Line
+	9600 7000 9600 7050
+Wire Wire Line
+	10250 3450 10250 3400
+$Comp
+L Device:C_Small C?
+U 1 1 5EFDA322
+P 10250 3550
+AR Path="/5EFDA322" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5EFDA322" Ref="C70"  Part="1" 
+F 0 "C70" H 10100 3550 50  0000 C CNN
+F 1 "15pF 5%" H 10016 3477 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 10250 3550 50  0001 C CNN
+F 3 "~" H 10250 3550 50  0001 C CNN
+	1    10250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EFD8E0F
+P 10000 3400
+AR Path="/5EFD8E0F" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EFD8E0F" Ref="#U0152"  Part="1" 
+F 0 "#U0152" H 10000 3400 50  0001 C CNN
+F 1 "GND_SMALL" H 10000 3400 50  0001 C CNN
+F 2 "" H 10000 3400 50  0001 C CNN
+F 3 "" H 10000 3400 50  0001 C CNN
+	1    10000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 3300 10000 3400
+Wire Wire Line
+	10200 3300 10000 3300
+Text Notes 10550 3500 2    50   ~ 0
+25V
+Wire Wire Line
+	10250 3100 10250 3200
+Wire Wire Line
+	10400 3100 10250 3100
+$Comp
+L KU-schematics-library:Crystal Y1
+U 1 1 5ED22A17
+P 10250 3300
+F 0 "Y1" H 10050 3350 50  0000 L CNN
+F 1 "Crystal" H 10250 3150 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CRYSTAL" H 10250 3300 50  0001 C CNN
+F 3 "" H 10250 3300 50  0001 C CNN
+	1    10250 3300
+	1    0    0    -1  
+$EndComp
+Text Label 10200 2950 0    50   ~ 0
++Vc
+Text Notes 11007 4427 2    50   ~ 0
+25V
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EBED72C
+P 11050 4200
+AR Path="/5EBED72C" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EBED72C" Ref="#U0153"  Part="1" 
+F 0 "#U0153" H 11050 4200 50  0001 C CNN
+F 1 "GND_SMALL" H 11050 4200 50  0001 C CNN
+F 2 "" H 11050 4200 50  0001 C CNN
+F 3 "" H 11050 4200 50  0001 C CNN
+	1    11050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 3550 10900 3500
+Wire Wire Line
+	10600 3550 10600 3500
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E4FA872
+P 10900 3550
+AR Path="/5E4FA872" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E4FA872" Ref="#U0154"  Part="1" 
+F 0 "#U0154" H 10900 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 10900 3550 50  0001 C CNN
+F 2 "" H 10900 3550 50  0001 C CNN
+F 3 "" H 10900 3550 50  0001 C CNN
+	1    10900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E4FA2E4
+P 10900 3400
+AR Path="/5E4FA2E4" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E4FA2E4" Ref="C68"  Part="1" 
+F 0 "C68" H 11010 3461 50  0000 C CNN
+F 1 ".1" H 11002 3381 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 10900 3400 50  0001 C CNN
+F 3 "~" H 10900 3400 50  0001 C CNN
+	1    10900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 3300 10800 2950
+Connection ~ 10800 3300
+Wire Wire Line
+	10800 3300 10900 3300
+Wire Wire Line
+	10700 3300 10700 3250
+Connection ~ 10700 3300
+Wire Wire Line
+	10600 3300 10700 3300
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E466D01
+P 10600 3550
+AR Path="/5E466D01" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E466D01" Ref="#U0155"  Part="1" 
+F 0 "#U0155" H 10600 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 10600 3550 50  0001 C CNN
+F 2 "" H 10600 3550 50  0001 C CNN
+F 3 "" H 10600 3550 50  0001 C CNN
+	1    10600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 2950 10700 3050
+Wire Wire Line
+	10800 2950 10700 2950
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5E341D62
+P 10700 3150
+AR Path="/5E341D62" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5E341D62" Ref="R26"  Part="1" 
+F 0 "R26" H 10500 3200 50  0000 L CNN
+F 1 "100" H 10500 3125 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 10700 3150 50  0001 C CNN
+F 3 "" H 10700 3150 50  0001 C CNN
+	1    10700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 4450 10700 4400
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB16
+U 1 1 5E2F7729
+P 10700 4550
+F 0 "FB16" V 10697 4579 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 10650 4450 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 10700 4550 50  0001 C CNN
+F 3 "" H 10700 4550 50  0001 C CNN
+	1    10700 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10000 3900 10000 4300
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E2AF6CE
+P 10000 4300
+AR Path="/5E2AF6CE" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E2AF6CE" Ref="#U0156"  Part="1" 
+F 0 "#U0156" H 10000 4300 50  0001 C CNN
+F 1 "GND_SMALL" H 10000 4300 50  0001 C CNN
+F 2 "" H 10000 4300 50  0001 C CNN
+F 3 "" H 10000 4300 50  0001 C CNN
+	1    10000 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4300 10200 4250
+Connection ~ 10500 4250
+Wire Wire Line
+	10400 4250 10500 4250
+Wire Wire Line
+	10500 4250 10500 4300
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E1D800F
+P 10500 4300
+AR Path="/5E1D800F" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E1D800F" Ref="#U0157"  Part="1" 
+F 0 "#U0157" H 10500 4300 50  0001 C CNN
+F 1 "GND_SMALL" H 10500 4300 50  0001 C CNN
+F 2 "" H 10500 4300 50  0001 C CNN
+F 3 "" H 10500 4300 50  0001 C CNN
+	1    10500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E1D6D66
+P 10200 4300
+AR Path="/5E1D6D66" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E1D6D66" Ref="#U0158"  Part="1" 
+F 0 "#U0158" H 10200 4300 50  0001 C CNN
+F 1 "GND_SMALL" H 10200 4300 50  0001 C CNN
+F 2 "" H 10200 4300 50  0001 C CNN
+F 3 "" H 10200 4300 50  0001 C CNN
+	1    10200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:74LS629N U31
+U 2 1 5D8867C0
+P 10500 3950
+AR Path="/5D8867C0" Ref="U31"  Part="2" 
+AR Path="/5D940AF4/5D8867C0" Ref="U31"  Part="2" 
+F 0 "U31" H 10624 4019 59  0000 R CNN
+F 1 "74LS629N" H 10737 3927 59  0000 R CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP16" H 10500 3950 50  0001 C CNN
+F 3 "" H 10500 3950 50  0001 C CNN
+	2    10500 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 4750 0    50   Output ~ 0
+PHI_COLOR
+$Comp
+L KU-schematics-library:R_POTMETER_US R27
+U 1 1 5D88D3ED
+P 11350 4000
+F 0 "R27" H 11403 4038 50  0000 L CNN
+F 1 "500" H 11403 3963 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:POTMETER" H 11350 4000 39  0001 C CNN
+F 3 "" H 11350 4000 39  0001 C CNN
+	1    11350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D92D8A2
+P 11350 3150
+AR Path="/5D92D8A2" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D92D8A2" Ref="R53"  Part="1" 
+F 0 "R53" H 11150 3200 50  0000 L CNN
+F 1 "100" H 11150 3125 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 11350 3150 50  0001 C CNN
+F 3 "" H 11350 3150 50  0001 C CNN
+	1    11350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5D92E780
+P 11350 4250
+AR Path="/5D92E780" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5D92E780" Ref="R52"  Part="1" 
+F 0 "R52" H 11405 4282 50  0000 L CNN
+F 1 "330" H 11406 4209 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 11350 4250 50  0001 C CNN
+F 3 "" H 11350 4250 50  0001 C CNN
+	1    11350 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3900 11350 3250
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DA1A3F3
+P 11350 4450
+AR Path="/5DA1A3F3" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DA1A3F3" Ref="#U0159"  Part="1" 
+F 0 "#U0159" H 11350 4450 50  0001 C CNN
+F 1 "GND_SMALL" H 11350 4450 50  0001 C CNN
+F 2 "" H 11350 4450 50  0001 C CNN
+F 3 "" H 11350 4450 50  0001 C CNN
+	1    11350 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3050 11350 2950
+Connection ~ 10800 2950
+Wire Wire Line
+	10700 4750 10700 4650
+Wire Wire Line
+	9700 6400 9700 6450
+Wire Wire Line
+	10100 6400 10100 6450
+Wire Wire Line
+	10550 6750 10400 6750
+Wire Wire Line
+	10550 5900 10550 6750
+Wire Wire Line
+	10250 3650 10250 3700
+Wire Wire Line
+	10400 3100 10400 3700
+Wire Wire Line
+	10700 3300 10700 3700
+Wire Wire Line
+	10800 3300 10800 3700
+Wire Wire Line
+	11350 4450 11350 4350
+Wire Wire Line
+	11350 4150 11350 4100
+Wire Wire Line
+	11250 4750 10700 4750
+Connection ~ 10700 4750
+Wire Wire Line
+	11250 4900 11050 4900
+Text Label 11050 4900 0    50   ~ 0
++Vc
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E403153
+P 12100 5250
+AR Path="/5E403153" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E403153" Ref="#U0160"  Part="1" 
+F 0 "#U0160" H 12100 5250 50  0001 C CNN
+F 1 "GND_SMALL" H 12100 5250 50  0001 C CNN
+F 2 "" H 12100 5250 50  0001 C CNN
+F 3 "" H 12100 5250 50  0001 C CNN
+	1    12100 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12450 4750
+NoConn ~ 11950 5100
+$Comp
+L Device:C_Small C?
+U 1 1 5E637306
+P 12650 4600
+AR Path="/5E637306" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E637306" Ref="C74"  Part="1" 
+F 0 "C74" H 12800 4650 50  0000 C CNN
+F 1 ".1" H 12800 4600 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 12650 4600 50  0001 C CNN
+F 3 "~" H 12650 4600 50  0001 C CNN
+	1    12650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5E637DF8
+P 12650 4700
+AR Path="/5E637DF8" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5E637DF8" Ref="#U0161"  Part="1" 
+F 0 "#U0161" H 12650 4700 50  0001 C CNN
+F 1 "GND_SMALL" H 12650 4700 50  0001 C CNN
+F 2 "" H 12650 4700 50  0001 C CNN
+F 3 "" H 12650 4700 50  0001 C CNN
+	1    12650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12250 4500 12650 4500
+Wire Wire Line
+	12250 4500 12250 4550
+Connection ~ 12650 4500
+Text Label 11650 4300 3    50   ~ 0
++Vc
+Wire Wire Line
+	12200 5100 12200 5150
+Wire Wire Line
+	12200 5150 12100 5150
+Wire Wire Line
+	12100 5150 12100 5100
+Wire Wire Line
+	12100 5150 12100 5250
+Connection ~ 12100 5150
+Wire Wire Line
+	11750 4550 11750 4500
+Wire Wire Line
+	11750 4500 11850 4500
+Wire Wire Line
+	11850 4500 11850 4550
+Connection ~ 11750 4500
+Wire Wire Line
+	11950 4550 11950 4000
+Wire Wire Line
+	12150 4150 12300 4150
+$Comp
+L Device:C_Small C?
+U 1 1 5EC4D361
+P 12300 4250
+AR Path="/5EC4D361" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5EC4D361" Ref="C83"  Part="1" 
+F 0 "C83" H 12450 4300 50  0000 C CNN
+F 1 "82pF" H 12492 4232 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 12300 4250 50  0001 C CNN
+F 3 "~" H 12300 4250 50  0001 C CNN
+	1    12300 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EC4D90E
+P 12300 4350
+AR Path="/5EC4D90E" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EC4D90E" Ref="#U0162"  Part="1" 
+F 0 "#U0162" H 12300 4350 50  0001 C CNN
+F 1 "GND_SMALL" H 12300 4350 50  0001 C CNN
+F 2 "" H 12300 4350 50  0001 C CNN
+F 3 "" H 12300 4350 50  0001 C CNN
+	1    12300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:74LS74 U29
+U 1 1 5ED5863B
+P 12250 3500
+F 0 "U29" H 12100 3550 59  0000 L CNN
+F 1 "74LS74" H 12061 3451 59  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 12250 3500 39  0001 C CNN
+F 3 "" H 12250 3500 39  0001 C CNN
+	1    12250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:74LS74 U29
+U 2 1 5ED5C888
+P 13100 5050
+F 0 "U29" H 13075 5104 59  0000 C CNN
+F 1 "74LS74" H 13080 5013 59  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 13100 5050 39  0001 C CNN
+F 3 "" H 13100 5050 39  0001 C CNN
+	2    13100 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 4900 12450 4900
+Wire Wire Line
+	12800 5200 12800 5400
+Wire Wire Line
+	12800 5400 13350 5400
+Wire Wire Line
+	13350 5400 13350 5200
+Wire Wire Line
+	13350 4900 13550 4900
+Wire Wire Line
+	13050 4700 13050 4650
+Wire Wire Line
+	13150 4700 13150 4650
+Wire Wire Line
+	13150 4650 13050 4650
+Connection ~ 13050 4650
+NoConn ~ 12500 3350
+Wire Wire Line
+	12300 2950 12300 3150
+Wire Wire Line
+	11950 3650 11950 3850
+Wire Wire Line
+	11950 3850 12200 3850
+Connection ~ 12200 3850
+Wire Wire Line
+	12200 3850 12300 3850
+Wire Wire Line
+	12300 3850 12300 3900
+Connection ~ 12300 3850
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F16D1D0
+P 12300 3900
+AR Path="/5F16D1D0" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F16D1D0" Ref="#U0163"  Part="1" 
+F 0 "#U0163" H 12300 3900 50  0001 C CNN
+F 1 "GND_SMALL" H 12300 3900 50  0001 C CNN
+F 2 "" H 12300 3900 50  0001 C CNN
+F 3 "" H 12300 3900 50  0001 C CNN
+	1    12300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 4000 12500 4000
+Wire Wire Line
+	12500 4000 12500 3650
+Wire Wire Line
+	11750 3150 12200 3150
+Connection ~ 12300 2950
+Wire Wire Line
+	11750 3150 11750 4500
+$Comp
+L KU-schematics-library:JUMPER_WIRE E1
+U 1 1 5F332FD1
+P 11750 3150
+F 0 "E1" H 11750 3150 39  0001 C CNN
+F 1 "JUMPER_WIRE" H 11750 3100 39  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:JUMPER_WIRE" H 11750 3150 39  0001 C CNN
+F 3 "" H 11750 3150 39  0001 C CNN
+	1    11750 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 11750 3150
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F4F4FD1
+P 11500 3250
+AR Path="/5F4F4FD1" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F4F4FD1" Ref="#U0164"  Part="1" 
+F 0 "#U0164" H 11500 3250 50  0001 C CNN
+F 1 "GND_SMALL" H 11500 3250 50  0001 C CNN
+F 2 "" H 11500 3250 50  0001 C CNN
+F 3 "" H 11500 3250 50  0001 C CNN
+	1    11500 3250
+	1    0    0    -1  
+$EndComp
+Text Label 11800 3150 0    31   ~ 0
+jumper_select
+Wire Wire Line
+	11950 3350 11950 3650
+Connection ~ 11950 3650
+Wire Wire Line
+	11600 3050 11500 3050
+Wire Wire Line
+	11500 3050 11500 2950
+Connection ~ 11500 2950
+Wire Wire Line
+	11500 2950 12300 2950
+Wire Wire Line
+	11600 3150 11500 3150
+Wire Wire Line
+	11500 3150 11500 3250
+Text Notes 11500 3050 0    39   ~ 0
+E2
+Text Notes 11500 3150 0    39   ~ 0
+E3
+Text Notes 11618 3216 0    39   ~ 0
+E1
+$Comp
+L Device:C_Small C?
+U 1 1 5DB93884
+P 9950 3050
+AR Path="/5DB93884" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DB93884" Ref="C67"  Part="1" 
+F 0 "C67" H 10098 3100 50  0000 C CNN
+F 1 ".1" H 10052 3031 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9950 3050 50  0001 C CNN
+F 3 "~" H 9950 3050 50  0001 C CNN
+	1    9950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DB944F7
+P 9950 3150
+AR Path="/5DB944F7" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DB944F7" Ref="#U0165"  Part="1" 
+F 0 "#U0165" H 9950 3150 50  0001 C CNN
+F 1 "GND_SMALL" H 9950 3150 50  0001 C CNN
+F 2 "" H 9950 3150 50  0001 C CNN
+F 3 "" H 9950 3150 50  0001 C CNN
+	1    9950 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 2950
+Wire Wire Line
+	12650 2950 12650 4200
+Wire Wire Line
+	12300 2950 12650 2950
+Connection ~ 12650 4200
+Wire Wire Line
+	12650 4200 12650 4500
+Text Label 13850 4200 0    50   ~ 0
++Vc
+Wire Wire Line
+	15650 5900 15650 5200
+Wire Wire Line
+	15550 5200 15650 5200
+$Comp
+L Transistor_BJT:2SC1815 Q7
+U 1 1 5E215F01
+P 14900 5000
+F 0 "Q7" H 14850 4750 50  0000 L CNN
+F 1 "2SC1815" H 14650 4850 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:Q_NPN_ECB" H 15100 5100 50  0001 C CNN
+F 3 "~" H 14900 5000 50  0001 C CNN
+	1    14900 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 15650 5200
+Wire Wire Line
+	15150 5200 15000 5200
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5E386B74
+P 14550 5000
+AR Path="/5E386B74" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5E386B74" Ref="R19"  Part="1" 
+F 0 "R19" V 14400 4931 50  0000 L CNN
+F 1 "15K" V 14476 4925 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 14550 5000 50  0001 C CNN
+F 3 "" H 14550 5000 50  0001 C CNN
+	1    14550 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14350 4900 14350 5000
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5E4FA6A5
+P 15650 4400
+AR Path="/5E4FA6A5" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5E4FA6A5" Ref="R16"  Part="1" 
+F 0 "R16" H 15450 4450 50  0000 L CNN
+F 1 "1K" H 15495 4374 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 15650 4400 50  0001 C CNN
+F 3 "" H 15650 4400 50  0001 C CNN
+	1    15650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15650 4300 15650 4200
+Wire Wire Line
+	15650 4500 15650 4650
+Wire Wire Line
+	15350 5050 15350 4800
+Text Label 15350 4800 3    50   ~ 0
++Vc
+Wire Wire Line
+	13550 5100 13500 5100
+Wire Wire Line
+	13500 5100 13500 5500
+Wire Wire Line
+	13500 5500 10300 5500
+Text GLabel 10150 5500 0    50   Output ~ 0
+PHI0
+Wire Wire Line
+	10300 5500 10300 5300
+Wire Wire Line
+	8250 5300 10300 5300
+Connection ~ 10300 5500
+Wire Wire Line
+	10300 5500 10150 5500
+Wire Wire Line
+	15000 4200 15650 4200
+Wire Wire Line
+	15000 4800 15000 4200
+Connection ~ 15000 4200
+Connection ~ 13050 4200
+Wire Wire Line
+	13050 4200 13050 4650
+Wire Wire Line
+	12650 4200 13050 4200
+Wire Wire Line
+	13050 4200 15000 4200
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EBF89DE
+P 15350 5350
+AR Path="/5EBF89DE" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EBF89DE" Ref="#U0168"  Part="1" 
+F 0 "#U0168" H 15350 5350 50  0001 C CNN
+F 1 "GND_SMALL" H 15350 5350 50  0001 C CNN
+F 2 "" H 15350 5350 50  0001 C CNN
+F 3 "" H 15350 5350 50  0001 C CNN
+	1    15350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED6F14D
+P 15800 4400
+AR Path="/5ED6F14D" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5ED6F14D" Ref="C84"  Part="1" 
+F 0 "C84" H 15950 4450 50  0000 C CNN
+F 1 ".1" H 15941 4383 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 15800 4400 50  0001 C CNN
+F 3 "~" H 15800 4400 50  0001 C CNN
+	1    15800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 4300 15800 4200
+Wire Wire Line
+	15800 4200 15650 4200
+Connection ~ 15650 4200
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5EF459B3
+P 15800 4500
+AR Path="/5EF459B3" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5EF459B3" Ref="#U0169"  Part="1" 
+F 0 "#U0169" H 15800 4500 50  0001 C CNN
+F 1 "GND_SMALL" H 15800 4500 50  0001 C CNN
+F 2 "" H 15800 4500 50  0001 C CNN
+F 3 "" H 15800 4500 50  0001 C CNN
+	1    15800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EFA4F13
+P 15450 4900
+AR Path="/5EFA4F13" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5EFA4F13" Ref="C56"  Part="1" 
+F 0 "C56" H 15600 4950 50  0000 C CNN
+F 1 ".1" H 15591 4883 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 15450 4900 50  0001 C CNN
+F 3 "~" H 15450 4900 50  0001 C CNN
+	1    15450 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 4800 15350 4800
+Wire Wire Line
+	14700 5000 14650 5000
+Wire Wire Line
+	14700 5000 14700 4650
+Wire Wire Line
+	14700 4650 15100 4650
+Connection ~ 14700 5000
+$Comp
+L Device:C_Small C?
+U 1 1 5F1E4514
+P 15200 4650
+AR Path="/5F1E4514" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5F1E4514" Ref="C85"  Part="1" 
+F 0 "C85" V 15023 4633 50  0000 C CNN
+F 1 ".47" V 15090 4628 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 15200 4650 50  0001 C CNN
+F 3 "~" H 15200 4650 50  0001 C CNN
+	1    15200 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5F1E4E0C
+P 15400 4650
+AR Path="/5F1E4E0C" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5F1E4E0C" Ref="R17"  Part="1" 
+F 0 "R17" V 15250 4581 50  0000 L CNN
+F 1 "2K7" V 15326 4575 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 15400 4650 50  0001 C CNN
+F 3 "" H 15400 4650 50  0001 C CNN
+	1    15400 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15500 4650 15650 4650
+Connection ~ 15650 4650
+Wire Wire Line
+	15650 4650 15650 5200
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5F48B2EB
+P 15450 5000
+AR Path="/5F48B2EB" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5F48B2EB" Ref="#U0170"  Part="1" 
+F 0 "#U0170" H 15450 5000 50  0001 C CNN
+F 1 "GND_SMALL" H 15450 5000 50  0001 C CNN
+F 2 "" H 15450 5000 50  0001 C CNN
+F 3 "" H 15450 5000 50  0001 C CNN
+	1    15450 5000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	13550 4700 14450 4700
+Wire Notes Line
+	14450 4700 14450 5450
+Wire Notes Line
+	14450 5450 15150 5450
+Wire Notes Line
+	15150 5450 15150 5050
+Wire Notes Line
+	15150 5050 15550 5050
+Wire Notes Line
+	15550 5050 15550 5550
+Wire Notes Line
+	15550 5550 13550 5550
+Wire Notes Line
+	13550 4700 13550 5550
+Wire Wire Line
+	14450 5000 14350 5000
+Connection ~ 14350 5000
+Wire Wire Line
+	14350 5000 14350 5100
+Wire Wire Line
+	10550 5900 15650 5900
+$Comp
+L KU-schematics-library:MC4044 U32
+U 1 1 5FC22A1F
+P 13750 5000
+F 0 "U32" H 13750 5200 39  0000 C CNN
+F 1 "MC4044" H 13750 4800 28  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 13750 5000 39  0001 C CNN
+F 3 "" H 13750 5000 39  0001 C CNN
+	1    13750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:MC4044 U32
+U 2 1 5FC24FDC
+P 14150 5000
+F 0 "U32" H 14150 5200 39  0000 C CNN
+F 1 "MC4044" H 14150 4800 28  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 14150 5000 39  0001 C CNN
+F 3 "" H 14150 5000 39  0001 C CNN
+	2    14150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:MC4044 U32
+U 3 1 5FC26ED5
+P 15350 5200
+F 0 "U32" H 15250 5200 39  0000 L CNN
+F 1 "MC4044" H 15370 5122 28  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP14" H 15350 5200 39  0001 C CNN
+F 3 "" H 15350 5200 39  0001 C CNN
+	3    15350 5200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11850 5100
+Wire Wire Line
+	12150 4150 12150 4500
+Text Label 12550 4900 0    28   ~ 0
+F_DIV
+$Comp
+L KU-schematics-library:74LS193 U30
+U 1 1 5E36193F
+P 11650 4800
+F 0 "U30" H 11650 4800 59  0000 L CNN
+F 1 "74LS193" H 11650 4700 59  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP16" H 11650 4800 39  0001 C CNN
+F 3 "" H 11650 4800 39  0001 C CNN
+	1    11650 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 4300 11650 4550
+NoConn ~ 11550 4550
+Wire Wire Line
+	12050 4550 12050 4500
+Wire Wire Line
+	12050 4500 12150 4500
+Connection ~ 12150 4500
+Wire Wire Line
+	12150 4500 12150 4550
+Text Notes 9250 6400 0    28   ~ 0
+No R101
+Wire Wire Line
+	9900 7550 9900 7500
+Connection ~ 11350 2950
+Wire Wire Line
+	11350 2950 11500 2950
+Wire Wire Line
+	10800 2950 11350 2950
+$Comp
+L Device:C_Small C?
+U 1 1 605940C6
+P 11200 4100
+AR Path="/605940C6" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/605940C6" Ref="C58"  Part="1" 
+F 0 "C58" H 11198 3913 50  0000 C CNN
+F 1 ".1" H 11191 3846 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11200 4100 50  0001 C CNN
+F 3 "~" H 11200 4100 50  0001 C CNN
+	1    11200 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11200 4000
+Wire Wire Line
+	11200 4000 11300 4000
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 605F81BA
+P 11200 4200
+AR Path="/605F81BA" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/605F81BA" Ref="#U0151"  Part="1" 
+F 0 "#U0151" H 11200 4200 50  0001 C CNN
+F 1 "GND_SMALL" H 11200 4200 50  0001 C CNN
+F 2 "" H 11200 4200 50  0001 C CNN
+F 3 "" H 11200 4200 50  0001 C CNN
+	1    11200 4200
+	1    0    0    -1  
+$EndComp
+Text Notes 9600 4950 0    39   ~ 0
+( 14.31818 MHz - NTSC )\n( 17.734472 MHz - PAL )
+Wire Wire Line
+	5350 10500 5350 10950
+Wire Wire Line
+	5350 10950 5550 10950
+Connection ~ 5350 10500
+Text GLabel 5550 10950 2    50   Input ~ 0
+~NMI~
+Text Notes 5350 11100 0    39   ~ 0
+To Cartridge Expansion
+Wire Wire Line
+	6850 8800 7050 8800
+Wire Wire Line
+	6850 8700 7050 8700
+Wire Wire Line
+	6850 8600 7050 8600
+Wire Wire Line
+	6850 8500 7050 8500
+Wire Bus Line
+	7750 8900 7150 8900
+Wire Bus Line
+	7750 7400 7150 7400
+Entry Wire Line
+	7050 8800 7150 8900
+Entry Wire Line
+	7050 8700 7150 8800
+Entry Wire Line
+	7050 8600 7150 8700
+Entry Wire Line
+	7050 8500 7150 8600
+Wire Bus Line
+	7150 5900 7200 5900
+Wire Bus Line
+	7200 6350 7150 6350
+Wire Bus Line
+	7150 6350 7150 7400
+Connection ~ 7150 7400
+Text GLabel 7750 8400 2    39   BiDi ~ 0
+D[0..7]
+$Comp
+L Device:CP_Small C107
+U 1 1 5E382A73
+P 10600 3400
+F 0 "C107" H 10399 3512 50  0000 L CNN
+F 1 "10" H 10426 3429 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 10600 3400 50  0001 C CNN
+F 3 "~" H 10600 3400 50  0001 C CNN
+	1    10600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 4000 11050 4000
+$Comp
+L Device:CP_Small C108
+U 1 1 5E384BF0
+P 11050 4100
+F 0 "C108" H 10814 3941 50  0000 L CNN
+F 1 "10" H 10910 3873 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 11050 4100 50  0001 C CNN
+F 3 "~" H 11050 4100 50  0001 C CNN
+	1    11050 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11050 4000
+Wire Wire Line
+	11050 4000 11200 4000
+Connection ~ 9950 2950
+Wire Wire Line
+	9950 2950 10700 2950
+Text Label 8600 2950 0    50   ~ 0
+CAN+5V
+Connection ~ 8850 2950
+Wire Wire Line
+	8550 2950 8850 2950
+Connection ~ 9150 2950
+Wire Wire Line
+	8850 2950 9000 2950
+$Comp
+L Device:CP_Small C65
+U 1 1 5E3804C1
+P 8850 3050
+F 0 "C65" H 8616 3088 50  0000 L CNN
+F 1 "10uF" H 8594 3012 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 8850 3050 50  0001 C CNN
+F 3 "~" H 8850 3050 50  0001 C CNN
+	1    8850 3050
+	1    0    0    -1  
+$EndComp
+Text Notes 8788 3229 2    50   ~ 0
+25V
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DE13935
+P 8850 3150
+AR Path="/5DE13935" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DE13935" Ref="#U0167"  Part="1" 
+F 0 "#U0167" H 8850 3150 50  0001 C CNN
+F 1 "GND_SMALL" H 8850 3150 50  0001 C CNN
+F 2 "" H 8850 3150 50  0001 C CNN
+F 3 "" H 8850 3150 50  0001 C CNN
+	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DDB9793
+P 9150 3150
+AR Path="/5DDB9793" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DDB9793" Ref="#U0166"  Part="1" 
+F 0 "#U0166" H 9150 3150 50  0001 C CNN
+F 1 "GND_SMALL" H 9150 3150 50  0001 C CNN
+F 2 "" H 9150 3150 50  0001 C CNN
+F 3 "" H 9150 3150 50  0001 C CNN
+	1    9150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5DD5F6C1
+P 9150 3050
+AR Path="/5DD5F6C1" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5DD5F6C1" Ref="C66"  Part="1" 
+F 0 "C66" H 9009 3048 50  0000 C CNN
+F 1 ".1" H 9048 2976 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9150 3050 50  0001 C CNN
+F 3 "~" H 9150 3050 50  0001 C CNN
+	1    9150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2950 9150 2950
+$Comp
+L Device:L L2
+U 1 1 5D8B7CFB
+P 9350 2950
+F 0 "L2" V 9485 2998 50  0000 C CNN
+F 1 "2.2uH" V 9414 2956 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9350 2950 50  0001 C CNN
+F 3 "~" H 9350 2950 50  0001 C CNN
+	1    9350 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5E6DCD95
+P 9350 3350
+F 0 "L1" V 9485 3398 50  0000 C CNN
+F 1 "2.2uH" V 9414 3356 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 9350 3350 50  0001 C CNN
+F 3 "~" H 9350 3350 50  0001 C CNN
+	1    9350 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E6DD4CD
+P 9550 3450
+AR Path="/5E6DD4CD" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E6DD4CD" Ref="C61"  Part="1" 
+F 0 "C61" H 9409 3448 50  0000 C CNN
+F 1 ".1" H 9448 3376 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9550 3450 50  0001 C CNN
+F 3 "~" H 9550 3450 50  0001 C CNN
+	1    9550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3350 9550 3350
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E7A2B77
+P 9550 3550
+AR Path="/5E7A2B77" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E7A2B77" Ref="#U0201"  Part="1" 
+F 0 "#U0201" H 9550 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 9550 3550 50  0001 C CNN
+F 2 "" H 9550 3550 50  0001 C CNN
+F 3 "" H 9550 3550 50  0001 C CNN
+	1    9550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 2950 8550 3350
+Wire Wire Line
+	8550 3350 8850 3350
+Text Label 8600 3350 0    50   ~ 0
+CAN+5V
+$Comp
+L Device:CP_Small C64
+U 1 1 5E8063B8
+P 8850 3450
+F 0 "C64" H 8616 3488 50  0000 L CNN
+F 1 "10uF" H 8594 3412 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_ELYT_RADIAL_P2.54mm" H 8850 3450 50  0001 C CNN
+F 3 "~" H 8850 3450 50  0001 C CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8850 3350
+Wire Wire Line
+	8850 3350 9150 3350
+$Comp
+L Device:C_Small C?
+U 1 1 5E8068C5
+P 9150 3450
+AR Path="/5E8068C5" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E8068C5" Ref="C63"  Part="1" 
+F 0 "C63" H 9009 3448 50  0000 C CNN
+F 1 ".1" H 9048 3376 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 9150 3450 50  0001 C CNN
+F 3 "~" H 9150 3450 50  0001 C CNN
+	1    9150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 3350
+Wire Wire Line
+	9150 3350 9200 3350
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E80718E
+P 9150 3550
+AR Path="/5E80718E" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E80718E" Ref="#U0202"  Part="1" 
+F 0 "#U0202" H 9150 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 9150 3550 50  0001 C CNN
+F 2 "" H 9150 3550 50  0001 C CNN
+F 3 "" H 9150 3550 50  0001 C CNN
+	1    9150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E807920
+P 8850 3550
+AR Path="/5E807920" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E807920" Ref="#U0203"  Part="1" 
+F 0 "#U0203" H 8850 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 8850 3550 50  0001 C CNN
+F 2 "" H 8850 3550 50  0001 C CNN
+F 3 "" H 8850 3550 50  0001 C CNN
+	1    8850 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 8750 3600 2    50   ~ 0
+25V
+Wire Wire Line
+	9700 2950 9950 2950
+$Comp
+L KU-schematics-library:FERRITE_NARROW FB19
+U 1 1 5D9D201D
+P 9600 2950
+F 0 "FB19" H 9527 3016 50  0000 L CNN
+F 1 "FERRITE_NARROW" H 9550 2850 50  0001 C CNN
+F 2 "KU-14194HB-RevB-KiCad:FERRITE_BEAD_TH_P12.7mm" H 9600 2950 50  0001 C CNN
+F 3 "" H 9600 2950 50  0001 C CNN
+	1    9600 2950
+	1    0    0    -1  
+$EndComp
+Text Label 8500 6400 0    50   ~ 0
+CAN+5V
+$Comp
+L Oscillator:ABLNO XT1
+U 1 1 5DA48A52
+P 8950 4400
+F 0 "XT1" H 9394 4446 50  0000 L CNN
+F 1 "NOT USED" H 9394 4355 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:DIP4_DIP14_but_4_pins" H 8950 4050 50  0001 C CNN
+F 3 "https://abracon.com/Precisiontiming/ABLNO.pdf" H 8750 4500 50  0001 C CNN
+	1    8950 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8550 4400
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue U?
+U 1 1 5DB110FC
+P 8950 4700
+AR Path="/5DB110FC" Ref="U?"  Part="1" 
+AR Path="/5D940AF4/5DB110FC" Ref="#U0236"  Part="1" 
+F 0 "#U0236" H 8950 4700 50  0001 C CNN
+F 1 "GND_SMALL" H 8950 4700 50  0001 C CNN
+F 2 "" H 8950 4700 50  0001 C CNN
+F 3 "" H 8950 4700 50  0001 C CNN
+	1    8950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4100 8950 3950
+Text Label 8950 3950 3    50   ~ 0
++Vc
+Wire Wire Line
+	10700 4400 9350 4400
+Connection ~ 10700 4400
+Wire Wire Line
+	10700 4400 10700 4250
+Wire Wire Line
+	10150 4750 10700 4750
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5E0D17B1
+P 12950 3100
+AR Path="/5E0D17B1" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5E0D17B1" Ref="R23"  Part="1" 
+F 0 "R23" H 12750 3150 50  0000 L CNN
+F 1 "NC" H 12750 3075 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 12950 3100 50  0001 C CNN
+F 3 "" H 12950 3100 50  0001 C CNN
+	1    12950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 3000 12950 2950
+Wire Wire Line
+	12950 2950 12650 2950
+Connection ~ 12650 2950
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E1390F2
+P 12950 3500
+AR Path="/5E1390F2" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E1390F2" Ref="#U0238"  Part="1" 
+F 0 "#U0238" H 12950 3500 50  0001 C CNN
+F 1 "GND_SMALL" H 12950 3500 50  0001 C CNN
+F 2 "" H 12950 3500 50  0001 C CNN
+F 3 "" H 12950 3500 50  0001 C CNN
+	1    12950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-schematics-library:R_US_CUSTOM R?
+U 1 1 5E13986B
+P 13300 3400
+AR Path="/5E13986B" Ref="R?"  Part="1" 
+AR Path="/5D940AF4/5E13986B" Ref="R22"  Part="1" 
+F 0 "R22" H 13100 3450 50  0000 L CNN
+F 1 "0R" H 13100 3375 50  0000 L CNN
+F 2 "KU-14194HB-RevB-KiCad:RESISTOR" H 13300 3400 50  0001 C CNN
+F 3 "" H 13300 3400 50  0001 C CNN
+	1    13300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E19F876
+P 13300 3500
+AR Path="/5E19F876" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E19F876" Ref="#U0239"  Part="1" 
+F 0 "#U0239" H 13300 3500 50  0001 C CNN
+F 1 "GND_SMALL" H 13300 3500 50  0001 C CNN
+F 2 "" H 13300 3500 50  0001 C CNN
+F 3 "" H 13300 3500 50  0001 C CNN
+	1    13300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E2A761A
+P 11150 3400
+AR Path="/5E2A761A" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E2A761A" Ref="C55"  Part="1" 
+F 0 "C55" H 11248 3468 50  0000 C CNN
+F 1 "NC" H 11273 3381 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 11150 3400 50  0001 C CNN
+F 3 "~" H 11150 3400 50  0001 C CNN
+	1    11150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 3300 10900 3300
+Connection ~ 10900 3300
+$Comp
+L KU-14194HB-REV-B-KiCad-rescue:GND_SMALL-power-KU-14194HB-REV-B-KiCad-rescue-KU-14194HB-REV-B-KiCad-rescue #U?
+U 1 1 5E30D1DB
+P 11150 3550
+AR Path="/5E30D1DB" Ref="#U?"  Part="1" 
+AR Path="/5D940AF4/5E30D1DB" Ref="#U0240"  Part="1" 
+F 0 "#U0240" H 11150 3550 50  0001 C CNN
+F 1 "GND_SMALL" H 11150 3550 50  0001 C CNN
+F 2 "" H 11150 3550 50  0001 C CNN
+F 3 "" H 11150 3550 50  0001 C CNN
+	1    11150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 3500 11150 3550
+$Comp
+L Device:C_Small C?
+U 1 1 5E0D1EF1
+P 12950 3350
+AR Path="/5E0D1EF1" Ref="C?"  Part="1" 
+AR Path="/5D940AF4/5E0D1EF1" Ref="C87"  Part="1" 
+F 0 "C87" H 12800 3400 50  0000 C CNN
+F 1 "NC" H 12799 3321 50  0000 C CNN
+F 2 "KU-14194HB-RevB-KiCad:CAP_P5.08mm" H 12950 3350 50  0001 C CNN
+F 3 "~" H 12950 3350 50  0001 C CNN
+	1    12950 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 2700 2    39   Output ~ 0
+CAN+5V
+Wire Wire Line
+	9050 2700 9000 2700
+Wire Wire Line
+	9000 2700 9000 2950
+Connection ~ 9000 2950
+Wire Wire Line
+	9000 2950 9150 2950
+Wire Wire Line
+	12950 3500 12950 3450
+Wire Wire Line
+	12950 3250 12950 3200
+Wire Wire Line
+	13300 3250 12950 3250
+Connection ~ 12950 3250
+Wire Wire Line
+	13300 3300 13300 3250
+Wire Bus Line
+	7750 7100 7750 7400
+Wire Bus Line
+	7150 7400 7150 8900
+Wire Bus Line
+	7200 5900 7200 6350
+Wire Bus Line
+	7150 1950 7150 5900
+Wire Bus Line
+	7050 3550 7050 8400
+$EndSCHEMATC

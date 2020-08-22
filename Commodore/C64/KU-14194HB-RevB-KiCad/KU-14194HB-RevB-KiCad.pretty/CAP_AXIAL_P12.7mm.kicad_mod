@@ -1,0 +1,15 @@
+(module CAP_AXIAL_P12.7mm (layer F.Cu) (tedit 5D6447F1)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP_AXIAL_P12.7mm (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 12.7 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

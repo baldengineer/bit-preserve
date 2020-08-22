@@ -1,0 +1,16 @@
+(module LED_CON (layer F.Cu) (tedit 5D6EBAC0)
+  (fp_text reference REF** (at 0 3.04) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED_CON (at 0 2.04) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 2.54) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 5.08) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
