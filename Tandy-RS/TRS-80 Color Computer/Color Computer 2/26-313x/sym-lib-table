@@ -40,4 +40,7 @@
   (lib (name Video_MOSTechnology)(type Legacy)(uri /home/pi/github/troysbucket/bit-preserve/symbol-libs/Video_MOSTechnology.lib)(options "")(descr ""))
   (lib (name Video_Motorola)(type Legacy)(uri /home/pi/github/troysbucket/bit-preserve/symbol-libs/Video_Motorola.lib)(options "")(descr ""))
   (lib (name Regulator_Linear_Tandy)(type Legacy)(uri /home/pi/github/troysbucket/bit-preserve/symbol-libs/Regulator_Linear_Tandy.lib)(options "")(descr ""))
+  (lib (name coco2)(type Legacy)(uri ${KIPRJMOD}/coco2.lib)(options "")(descr ""))
+  (lib (name Memory_RAM_Fujitsu)(type Legacy)(uri /home/pi/github/troysbucket/bit-preserve/symbol-libs/Memory_RAM_Fujitsu.lib)(options "")(descr ""))
+  (lib (name RF_Module_Tandy)(type Legacy)(uri /home/pi/github/troysbucket/bit-preserve/symbol-libs/RF_Module_Tandy.lib)(options "")(descr ""))
 )
