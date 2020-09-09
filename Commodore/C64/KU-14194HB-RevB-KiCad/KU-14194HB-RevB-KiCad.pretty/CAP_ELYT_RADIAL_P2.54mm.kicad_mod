@@ -1,0 +1,20 @@
+(module CAP_ELYT_RADIAL_P2.54mm (layer F.Cu) (tedit 5D645BEC)
+  (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP_ELYT_RADIAL_P2.54mm (at 0 1.27) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model "C:/Program Files/KiCad/share/kicad/modules/Capacitor_THT.pretty/C_Axial_L12.0mm_D8.5mm_P20.00mm_Horizontal.kicad_mod"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D6.3mm_H11.0mm_P2.50mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

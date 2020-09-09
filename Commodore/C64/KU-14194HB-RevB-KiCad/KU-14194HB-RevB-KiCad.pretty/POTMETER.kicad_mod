@@ -1,0 +1,16 @@
+(module POTMETER (layer F.Cu) (tedit 5D751F4A)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value POTMETER (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at -2.54 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 -2.54) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3339P_Vertical.step
+    (offset (xyz -2.5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+)
