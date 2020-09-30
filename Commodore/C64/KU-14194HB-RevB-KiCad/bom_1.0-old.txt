@@ -1,0 +1,85 @@
+C64 KU-Motherboard (replica) bom for V1.0. Warning, bom has mistakes !
+ 
+most part numbers are for mouser.com
+ 
+ 
+4x  40 pin IC socket: 517-4840-6000-CP
+2x  28 pin IC socket: 517-4828-6000-CP
+3x  24 pin IC socket: 517-4824-6000-CP
+1x  20 pin IC socket: 517-4820-3000-CP
+1x  18 pin IC socket: 517-4818-3000-CP
+14x 16 pin IC socket: 517-4816-3000-CP
+7x  14 pin IC socket: 517-4814-3000-CP
+ 
+2x  470uF 50V Elytt: 598-477TTA050M
+1x 2200uF 16V Elytt: 594-2222-021-16222
+ 
+16x 10UF 25V 5X5mm radial capacitor for CAN and left side: 667-ECE-A1EKS100I
+1x 100uF 16V 667-EEU-FC1C101B
+ 
+solder sucker pump
+solder wicks
+pinsett
+ 
+axial ceramic:
+C11 C10     2   470pF   594-A471K15X7RF5UAA
+C23         1   360pF   594-A331J15C0GF5TAA 330pF
+C38         1   51pF    594-A470J15C0GH5TAA 47pF
+C48 C93     2   1800pF  80-C420C182J5G5TATU
+C83         1   82pF    80-C410C820J1G
+C36         1   .1  80-C322C104K5R5TA (mistake)
+        53  .1  80-C322C104K5R5TA
+C49 C52     2   .1  80-C322C104K5R5TA
+C21 C20     2   .22 594-2222-368-25224
+C85         1   .47 80-C330C474K5R
+C97 C100    2   .22 80-C330C224K1R
+CN1         1   KEYBOARD_20PIN_MALE 538-22-28-4204
+CN10        1   LED_CONNECTOR       538-22-28-4033
+CN6         1   EXPANSION_PORT      Digikey: H122591-ND
+CN8 CN9     2   CONTROL_PORT        571-5747467-1
+CR1         1   IN4371          78-TZX2V7A 2.7V 500mW DO-35-2
+CR2         1   IN755           78-TZX7V5C 7.5V 500mW DO-35-2
+CR4         1   BRIDGE_RECTIFIER    627-S2VB60-5000
+CR6 CR5     2   1N4001          625-1N4001-E3/54
+F1      1   1A FUSE         504-BK/1A1907-03-R (fuseclip x 2) +  fuse 530-3AG1-R
+FB18++      9   FERRITE_BEAD        81-BL01RN1A2A2B
+FB7++       13  FERRITE_NARROW      81-BL01RN1A2A2B
+L2 L1       2   2.2uH           652-78F2R2J-RC
+L4      1   CHOKE           80-SSR10V-21038
+L5      1   1.2uH           542-5800-4R7-RC
+Q2 Q1 Q7 Q8     4   2SC1815         512-KSC1815YTA
+Q3      1   TP298/2SD880        512-KSD880YTU
+R1 R43 R44 R45  4   3K3         594-MBB02070C3301FC1
+R17         1   2K7         594-MBB02070C2701FC1
+R19         1   15K         594-MBB02070C1502FC1
+R2 R51      2   1.5K            594-MBB02070C1501FCT
+R26         1   100         594-MBB02070C1000FCT
+R28 ++      8   1K          594-MBB02070C1001FCT +1 bodge at CR1
+R3 R7       2   10K         594-MBB02070C1002FCT
+R31         1   180         594-MBB02070C1800FCT
+R33 R34     2   47K     594-MBB02070C4702FC1
+R35         1   470K        594-MBB02070C4703FCT
+R37         1   2.7K        594-MBB02070C2701FCT
+R39         1   390     594-MBB02070C3900FCT 603-MFR-25FTE52-390R
+R41 R50     2   1M      594-MBB02070C1004FCT
+R5      1   560     594-MBB02070C5600FCT
+R27         1   500 652-3306F-1-501 (trimmer resistor)
+RP1 RP2     2   33  268-33-RC (isolated)
+RP3         1   3k3 774-77081332P (bussed)
+RP4         1   3k3 774-770101332P (bussed)
+U14         1   74LS258 595-SN74LS258BN
+U15         1   74LS139 595-SN74LS139AN
+U20         1   NE556   595-NE556NE4
+U25 U13     2   74LS257 595-SN74LS257BN
+U26         1   74LS373 595-SN74LS373N
+U27         1   7408    595-SN74LS08N
+U28 U16     2   4066    595-CD4066BE
+U29         1   74LS74      595-SN74LS74AN
+U30         1   74LS193     595-SN74LS193N
+U31         1   74LS629N    595-SN74LS629N
+U32         1   MC4044      ebay
+U6      1   2114        ebay
+U8      1   7406N       595-SN74LS06N
+VR1         1   7812        926-LM2940CT-12/NOPB
+VR2         1   7805        511-L4941BV
+Y1      1   Crystal     815-AB-17.734475-B4

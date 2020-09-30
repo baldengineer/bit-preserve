@@ -1,0 +1,15 @@
+(module CAP_P5.08mm (layer F.Cu) (tedit 5D64448F)
+  (fp_text reference REF** (at 2.54 1.27) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value CAP_P5.08mm (at 2.54 2.54) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 5.08 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,15 @@
+(module ZENER_12.7mm (layer F.Cu) (tedit 5D643F81)
+  (fp_text reference REF** (at 6.35 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ZENER_12.7mm (at 6.35 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 12.7 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
