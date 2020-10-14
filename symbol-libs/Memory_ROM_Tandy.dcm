@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BASIC_8K
+D CoCo BASIC ROM
+K ROM, Tandy, CoCo
+$ENDCMP
+#
+$CMP EXTENDED_8K
+D CoCo Extended BASIC ROM
+K ROM, Tandy, CoCo
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB8118
+D 16kx1 DRAM
+K RAM
+F https://segaretro.org/images/f/f6/MB8118_datasheet.pdf
+$ENDCMP
+#
+$CMP MB8118-12P
+D 16kx1 DRAM
+K RAM
+F https://segaretro.org/images/f/f6/MB8118_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
