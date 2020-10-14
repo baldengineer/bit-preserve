@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "TRS-80 Color Computer 2 (26-3134 / 26-3136) - ROM"
+Date "2020-10-14"
+Rev "0.1"
+Comp "Tandy Corporation"
+Comment1 "Based on \"Service Manual TRS-80 Color Computer 2 NTSC Version\" pp. 87"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Kicad schematic capture by troysbucket"
 $EndDescr
 $Comp
 L Memory_ROM_Tandy:BASIC_8K IC12
@@ -37,21 +37,10 @@ F 3 "" H 9350 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 5F7B24F7
-P 5400 2500
-F 0 "#PWR?" H 5400 2350 50  0001 C CNN
-F 1 "+5V" H 5400 2640 50  0000 C CNN
-F 2 "" H 5400 2500 50  0001 C CNN
-F 3 "" H 5400 2500 50  0001 C CNN
-	1    5400 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0137
 U 1 1 5F7B2A4D
 P 5400 4950
-F 0 "#PWR?" H 5400 4700 50  0001 C CNN
+F 0 "#PWR0137" H 5400 4700 50  0001 C CNN
 F 1 "GND" H 5400 4800 50  0000 C CNN
 F 2 "" H 5400 4950 50  0001 C CNN
 F 3 "" H 5400 4950 50  0001 C CNN
@@ -59,25 +48,14 @@ F 3 "" H 5400 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0138
 U 1 1 5F7B2D4A
 P 8050 4950
-F 0 "#PWR?" H 8050 4700 50  0001 C CNN
+F 0 "#PWR0138" H 8050 4700 50  0001 C CNN
 F 1 "GND" H 8050 4800 50  0000 C CNN
 F 2 "" H 8050 4950 50  0001 C CNN
 F 3 "" H 8050 4950 50  0001 C CNN
 	1    8050 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F7B3066
-P 8050 2500
-F 0 "#PWR?" H 8050 2350 50  0001 C CNN
-F 1 "+5V" H 8050 2640 50  0000 C CNN
-F 2 "" H 8050 2500 50  0001 C CNN
-F 3 "" H 8050 2500 50  0001 C CNN
-	1    8050 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -92,10 +70,10 @@ F 3 "~" H 5750 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0140
 U 1 1 5F7B3DD1
 P 6050 2750
-F 0 "#PWR?" H 6050 2500 50  0001 C CNN
+F 0 "#PWR0140" H 6050 2500 50  0001 C CNN
 F 1 "GND" H 6050 2600 50  0000 C CNN
 F 2 "" H 6050 2750 50  0001 C CNN
 F 3 "" H 6050 2750 50  0001 C CNN
@@ -114,10 +92,10 @@ F 3 "~" H 8350 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0141
 U 1 1 5F7B476B
 P 8650 2750
-F 0 "#PWR?" H 8650 2500 50  0001 C CNN
+F 0 "#PWR0141" H 8650 2500 50  0001 C CNN
 F 1 "GND" H 8650 2600 50  0000 C CNN
 F 2 "" H 8650 2750 50  0001 C CNN
 F 3 "" H 8650 2750 50  0001 C CNN
@@ -132,9 +110,6 @@ Wire Wire Line
 	5400 2500 5400 2650
 Wire Wire Line
 	5600 2650 5400 2650
-Connection ~ 5400 2650
-Wire Wire Line
-	5400 2650 5400 3050
 Wire Wire Line
 	5900 2650 6050 2650
 Wire Wire Line
@@ -143,9 +118,6 @@ Wire Wire Line
 	8050 2500 8050 2650
 Wire Wire Line
 	8200 2650 8050 2650
-Connection ~ 8050 2650
-Wire Wire Line
-	8050 2650 8050 3050
 Wire Wire Line
 	8500 2650 8650 2650
 Wire Wire Line
@@ -428,6 +400,34 @@ Wire Bus Line
 Wire Bus Line
 	6100 5650 8750 5650
 Connection ~ 8750 5650
+Wire Wire Line
+	8050 2650 8050 3050
+Connection ~ 8050 2650
+$Comp
+L power:+5V #PWR0139
+U 1 1 5F9041FF
+P 8050 2500
+F 0 "#PWR0139" H 8050 2350 50  0001 C CNN
+F 1 "+5V" H 8050 2640 50  0000 C CNN
+F 2 "" H 8050 2500 50  0001 C CNN
+F 3 "" H 8050 2500 50  0001 C CNN
+	1    8050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0136
+U 1 1 5F921AC0
+P 5400 2500
+F 0 "#PWR0136" H 5400 2350 50  0001 C CNN
+F 1 "+5V" H 5400 2640 50  0000 C CNN
+F 2 "" H 5400 2500 50  0001 C CNN
+F 3 "" H 5400 2500 50  0001 C CNN
+	1    5400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2650 5400 3050
+Connection ~ 5400 2650
 Wire Bus Line
 	8750 3350 8750 5650
 Wire Bus Line

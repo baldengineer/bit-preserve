@@ -4,15 +4,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Sheet 2 8
+Title "TRS-80 Color Computer 2 (26-3134 / 26-3136) - Power"
+Date "2020-10-14"
+Rev "0.1"
+Comp "Tandy Corporation"
+Comment1 "Based on \"Service Manual TRS-80 Color Computer 2 NTSC Version\" pp. 87"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Kicad schematic capture by troysbucket"
 $EndDescr
 $Comp
 L Diode:1N4002 D1
@@ -186,8 +186,6 @@ Wire Wire Line
 	3900 3950 3900 3650
 Connection ~ 3900 3650
 Wire Wire Line
-	3900 3650 4300 3650
-Wire Wire Line
 	4300 3950 4300 3650
 Connection ~ 4300 3650
 Connection ~ 3900 4550
@@ -195,8 +193,6 @@ Wire Wire Line
 	3900 4250 3900 4550
 Wire Wire Line
 	3700 4550 3900 4550
-Wire Wire Line
-	3900 4550 4300 4550
 Wire Wire Line
 	4300 4650 4300 4550
 Connection ~ 4300 4550
@@ -228,8 +224,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6000 3650
 Wire Wire Line
-	6000 3650 6600 3650
-Wire Wire Line
 	6600 3650 6600 3750
 Wire Wire Line
 	6000 4050 6000 4100
@@ -253,8 +247,6 @@ Wire Wire Line
 Connection ~ 5150 3650
 Connection ~ 6000 3650
 Wire Wire Line
-	6000 4550 6600 4550
-Wire Wire Line
 	4800 4550 5150 4550
 Connection ~ 6000 4550
 Wire Wire Line
@@ -262,19 +254,6 @@ Wire Wire Line
 Connection ~ 5150 4550
 Wire Wire Line
 	5150 4550 6000 4550
-$Comp
-L Device:CP C1
-U 1 1 5F446734
-P 6100 5400
-F 0 "C1" H 6125 5500 50  0000 L CNN
-F 1 "220 uF" H 6125 5300 50  0000 L CNN
-F 2 "" H 6138 5250 50  0001 C CNN
-F 3 "~" H 6100 5400 50  0001 C CNN
-F 4 "16V" H 6100 5400 50  0001 C CNN "Voltage"
-F 5 "20%" H 6100 5400 50  0001 C CNN "Tolerance"
-	1    6100 5400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6000 4100 5700 4100
 Wire Wire Line
@@ -293,12 +272,6 @@ F 3 "" H 6100 5600 50  0001 C CNN
 	1    6100 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 5550 6100 5600
-Wire Wire Line
-	6100 5250 6100 5150
-Wire Wire Line
-	5700 5150 6100 5150
 $Comp
 L Device:C C3
 U 1 1 5F452B1D
@@ -513,7 +486,7 @@ Wire Wire Line
 	9900 3200 10150 3200
 Connection ~ 10450 3200
 Wire Wire Line
-	10450 3200 10750 3200
+	10450 3200 10600 3200
 Wire Wire Line
 	10150 3350 10150 3200
 Connection ~ 10150 3200
@@ -536,12 +509,9 @@ Wire Wire Line
 	10950 3200 10750 3200
 Connection ~ 10750 3200
 Wire Wire Line
-	6100 5150 7800 5150
-Wire Wire Line
 	7800 5150 7800 4600
 Wire Wire Line
 	7800 4600 7950 4600
-Connection ~ 6100 5150
 Wire Wire Line
 	6600 4100 7100 4100
 Connection ~ 6600 4100
@@ -559,7 +529,7 @@ Wire Wire Line
 	7100 4150 7100 4100
 Connection ~ 7100 4100
 Wire Wire Line
-	7100 4100 7550 4100
+	7100 4100 7400 4100
 $Comp
 L coco2:TransformerAssy T1
 U 1 1 5F5235B1
@@ -582,13 +552,9 @@ Wire Notes Line
 Text Notes 2200 5250 0    50   ~ 0
 AC 120V 60Hz
 Wire Wire Line
-	2800 3900 2900 3900
-Wire Wire Line
 	2900 3900 2900 4000
 Wire Wire Line
 	2900 4000 3100 4000
-Wire Wire Line
-	2800 4300 2900 4300
 Wire Wire Line
 	2900 4300 2900 4200
 Wire Wire Line
@@ -606,4 +572,80 @@ F 3 "" H 2400 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 4750 2400 4850
+$Comp
+L Device:CP C1
+U 1 1 5F446734
+P 6100 5400
+F 0 "C1" H 5900 5300 50  0000 L CNN
+F 1 "220 uF" H 5750 5550 50  0000 L CNN
+F 2 "" H 6138 5250 50  0001 C CNN
+F 3 "~" H 6100 5400 50  0001 C CNN
+F 4 "16V" H 6100 5400 50  0001 C CNN "Voltage"
+F 5 "20%" H 6100 5400 50  0001 C CNN "Tolerance"
+	1    6100 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 5550 6100 5600
+Wire Wire Line
+	6100 5150 7400 5150
+Wire Wire Line
+	5700 5150 6100 5150
+Connection ~ 6100 5150
+Wire Wire Line
+	6100 5250 6100 5150
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5F8FE177
+P 7400 4100
+F 0 "#FLG0107" H 7400 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 7400 4250 50  0000 C CNN
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "~" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 4100
+Wire Wire Line
+	7400 4100 7550 4100
+Wire Wire Line
+	6000 3650 6600 3650
+Wire Wire Line
+	6000 4550 6600 4550
+Wire Wire Line
+	3900 4550 4300 4550
+Wire Wire Line
+	3900 3650 4300 3650
+Wire Wire Line
+	2800 3900 2900 3900
+Wire Wire Line
+	2800 4300 2900 4300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F8FF1DD
+P 7400 5150
+F 0 "#FLG0101" H 7400 5225 50  0001 C CNN
+F 1 "PWR_FLAG" H 7400 5300 50  0000 C CNN
+F 2 "" H 7400 5150 50  0001 C CNN
+F 3 "~" H 7400 5150 50  0001 C CNN
+	1    7400 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 5150
+Wire Wire Line
+	7400 5150 7800 5150
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F927B03
+P 10600 3200
+F 0 "#FLG0103" H 10600 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 10600 3350 50  0000 C CNN
+F 2 "" H 10600 3200 50  0001 C CNN
+F 3 "~" H 10600 3200 50  0001 C CNN
+	1    10600 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 10600 3200
+Wire Wire Line
+	10600 3200 10750 3200
 $EndSCHEMATC
