@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name coco2)(type Legacy)(uri ${KIPRJMOD}/coco2.lib)(options "")(descr ""))
+  (lib (name Regulator_Linear_Tandy)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Regulator_Linear_Tandy.lib)(options "")(descr ""))
+  (lib (name Memory_ROM_Tandy)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Memory_ROM_Tandy.lib)(options "")(descr ""))
+  (lib (name Memory_Controller_Motorola)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Memory_Controller_Motorola.lib)(options "")(descr ""))
+  (lib (name Memory_RAM_Fujitsu)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Memory_RAM_Fujitsu.lib)(options "")(descr ""))
+  (lib (name RF_Module_Tandy)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/RF_Module_Tandy.lib)(options "")(descr ""))
+  (lib (name Video_Motorola)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Video_Motorola.lib)(options "")(descr ""))
+  (lib (name Interface_Tandy)(type Legacy)(uri ${KIPRJMOD}/../../../../symbol-libs/Interface_Tandy.lib)(options "")(descr ""))
+)

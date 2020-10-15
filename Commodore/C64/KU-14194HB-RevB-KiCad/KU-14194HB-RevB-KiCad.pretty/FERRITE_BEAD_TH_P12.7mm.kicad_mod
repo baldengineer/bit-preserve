@@ -1,0 +1,15 @@
+(module FERRITE_BEAD_TH_P12.7mm (layer F.Cu) (tedit 5D6C2430)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FERRITE_BEAD_TH_P12.7mm (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -6.35 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 6.35 0) (size 1.8 1.8) (drill 1.1) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P30.48mm.wrl
+    (offset (xyz -6.2 0 0))
+    (scale (xyz 0.41 0.7 0.7))
+    (rotate (xyz 0 0 0))
+  )
+)
