@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Commodore-Vic-20)(type Legacy)(uri ${KIPRJMOD}/Commodore-Vic-20.lib)(options "")(descr "Commore components"))
+  (lib (name Commodore-Vic-20-rescue)(type Legacy)(uri ${KIPRJMOD}/Commodore-Vic-20-rescue.lib)(options "")(descr ""))
 )
