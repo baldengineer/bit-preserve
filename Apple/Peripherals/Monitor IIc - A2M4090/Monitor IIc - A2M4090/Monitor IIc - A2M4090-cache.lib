@@ -1,0 +1,341 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener_Small
+#
+DEF Device_D_Zener_Small D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Device_D_Zener_Small" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 10 -10 40 -30 40 -30 -40 N
+P 4 0 1 10 30 40 -30 0 30 -40 30 40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Lamp_Neon
+#
+DEF Device_Lamp_Neon NE 0 1 Y N 1 F N
+F0 "NE" 25 150 50 H V L CNN
+F1 "Device_Lamp_Neon" 25 -150 50 H V L CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
+DRAW
+C 0 0 100 0 1 0 N
+C 40 -50 10 0 1 0 F
+S -60 -20 60 -30 0 1 0 F
+S -60 30 60 20 0 1 0 F
+P 2 0 1 0 0 -100 0 -30 N
+P 2 0 1 0 0 30 0 100 N
+X ~ 1 0 -200 100 U 50 50 1 1 P
+X ~ 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Q_NPN_BCE
+#
+DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Device_Q_NPN_BCE" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_POT_Small
+#
+DEF Device_R_POT_Small RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT_Small" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 30 71 -30 -71 0 1 10 N
+P 6 0 1 0 35 0 25 0 65 15 65 -15 25 0 35 0 F
+X 1 1 0 100 25 D 25 25 1 1 P
+X 2 2 100 0 39 L 25 25 1 1 P
+X 3 3 0 -100 25 U 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Variable
+#
+DEF Device_R_Variable R 0 0 N Y 1 F N
+F0 "R" 100 -100 50 V V L CNN
+F1 "Device_R_Variable" -100 -50 50 V V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+P 5 0 1 0 100 60 100 100 60 100 100 100 -80 -80 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_SPARK_GAP
+#
+DEF Device_SPARK_GAP E 0 0 N Y 1 F N
+F0 "E" 0 80 50 H V C CNN
+F1 "Device_SPARK_GAP" 0 -75 50 H V C CNN
+F2 "" 0 -70 50 H I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ SG*
+$ENDFPLIST
+DRAW
+P 4 0 1 0 -100 25 -100 -25 -25 0 -100 25 N
+P 4 0 1 0 100 25 100 -25 25 0 100 25 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Jumper_Jumper_2_Bridged
+#
+DEF Jumper_Jumper_2_Bridged JP 0 0 Y N 1 F N
+F0 "JP" 0 75 50 H V C CNN
+F1 "Jumper_Jumper_2_Bridged" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -70 100 1269 531 0 1 0 N -60 10 60 10
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_+11.6
+#
+DEF Monitor_IIc_Library_+11.6 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Monitor_IIc_Library_+11.6" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12C 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_+42V
+#
+DEF Monitor_IIc_Library_+42V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Monitor_IIc_Library_+42V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +48V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_+431V
+#
+DEF Monitor_IIc_Library_+431V #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Monitor_IIc_Library_+431V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_-246V
+#
+DEF Monitor_IIc_Library_-246V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 50 H I C CNN
+F1 "Monitor_IIc_Library_-246V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
+X -48V 1 0 0 0 U 50 50 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_C10M42P31-(D)-ARF-S8
+#
+DEF Monitor_IIc_Library_C10M42P31-(D)-ARF-S8 CRT? 0 40 Y Y 1 F N
+F0 "CRT?" 0 425 50 H V C CNN
+F1 "Monitor_IIc_Library_C10M42P31-(D)-ARF-S8" -50 -425 50 H V C CNN
+F2 "" 0 1000 50 H I C CNN
+F3 "" 0 1000 50 H I C CNN
+DRAW
+P 2 0 1 8 -100 -400 -100 -400 N
+P 2 0 1 8 -100 0 -50 0 N
+P 2 0 1 8 -50 0 -50 0 N
+P 2 0 1 8 -25 0 0 0 N
+P 2 0 1 8 25 0 50 0 N
+P 5 0 1 8 -100 100 -50 100 -50 50 50 50 50 100 N
+P 7 0 1 8 -100 250 -25 250 -25 200 0 175 25 200 25 250 100 250 N
+P 10 0 1 8 -100 -325 -100 325 100 325 100 -325 50 -250 25 -325 0 -275 -25 -325 -50 -250 -100 -325 N
+P 2 1 1 8 -100 -200 -50 -200 N
+P 2 1 1 8 -100 -100 -50 -100 N
+P 2 1 1 8 -50 -200 -50 -200 N
+P 2 1 1 8 -50 -100 -50 -100 N
+P 2 1 1 8 -25 -200 0 -200 N
+P 2 1 1 8 -25 -100 0 -100 N
+P 2 1 1 8 25 -200 50 -200 N
+P 2 1 1 8 25 -100 50 -100 N
+X ~ 2 -200 100 100 R 50 50 1 1 I
+X ~ 3 200 250 100 L 50 50 1 1 I
+X ~ 4 -200 250 100 R 50 50 1 1 I
+X ~ 5 -200 0 100 R 50 50 1 1 I
+X ~ 6 -200 -100 100 R 50 50 1 1 I
+X ~ 7 -200 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Monitor_IIc_Library_Conn_Off_Board
+#
+DEF Monitor_IIc_Library_Conn_Off_Board P/J? 0 40 Y Y 1 F N
+F0 "P/J?" 0 100 50 H V C CNN
+F1 "Monitor_IIc_Library_Conn_Off_Board" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -50 0 0 0 N
+P 2 0 1 8 0 0 -50 -50 N
+P 2 0 1 8 0 0 -50 50 N
+P 2 0 1 8 50 0 0 -50 N
+P 2 0 1 8 50 0 0 50 N
+X ~ 1 -100 0 50 R 50 50 1 1 I
+X ~ 2 100 0 50 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +11.6
+D Power symbol creates a global label with name "+11.6"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +42V
+D Power symbol creates a global label with name "+48V"
+K power-flag
+$ENDCMP
+#
+$CMP +431V
+D Power symbol creates a global label with name "+431V"
+K power-flag
+$ENDCMP
+#
+$CMP -246V
+D Power symbol creates a global label with name "-246V"
+K power-flag
+$ENDCMP
+#
+$CMP C10M42P31-(D)-ARF-S8
+D 9in monochrome CRT used in the Monitor IIc
+$ENDCMP
+#
+#End Doc Library
