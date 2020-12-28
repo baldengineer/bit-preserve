@@ -348,11 +348,11 @@ X A7 9 -500 -200 200 R 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# CPU_Obsolete_6502
+# Commodore-Vic-20-rescue_6502-CPU_Obsolete
 #
-DEF CPU_Obsolete_6502 U 0 20 Y Y 1 F N
+DEF Commodore-Vic-20-rescue_6502-CPU_Obsolete U 0 20 Y Y 1 F N
 F0 "U" -300 1050 50 H V C CNN
-F1 "CPU_Obsolete_6502" 250 1050 50 H V C CNN
+F1 "Commodore-Vic-20-rescue_6502-CPU_Obsolete" 250 1050 50 H V C CNN
 F2 "Package_DIP:DIP-40_W15.24mm" 0 -200 50 H I C CNN
 F3 "" -550 150 50 H I C CNN
 $FPLIST

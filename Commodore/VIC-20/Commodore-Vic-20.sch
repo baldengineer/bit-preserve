@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Commodore-Vic-20-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -4316,7 +4315,7 @@ Wire Wire Line
 Entry Wire Line
 	2650 12800 2750 12900
 Text Label 2750 12900 0    50   ~ 0
-CA4
+CA5
 Wire Wire Line
 	2750 12900 2900 12900
 Text GLabel 1550 13500 0    50   Input ~ 0
@@ -7285,6 +7284,17 @@ Wire Wire Line
 	1350 4350 2800 4350
 Wire Wire Line
 	900  4250 1650 4250
+$Comp
+L Commodore-Vic-20-rescue:6502-CPU_Obsolete UE10
+U 1 1 5D30EA56
+P 3400 3950
+F 0 "UE10" H 3050 5000 50  0000 C CNN
+F 1 "6502" H 3700 5000 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 3400 3750 50  0001 C CNN
+F 3 "http://archive.6502.org/datasheets/mos_6500_mpu_nov_1985.pdf" H 2850 4100 50  0001 C CNN
+	1    3400 3950
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	24900 5150 24900 7000
 Wire Bus Line
@@ -7323,15 +7333,4 @@ Wire Bus Line
 	2650 1600 2650 18550
 Wire Bus Line
 	12750 1600 12750 7850
-$Comp
-L CPU_Obsolete:6502 UE10
-U 1 1 5D30EA56
-P 3400 3950
-F 0 "UE10" H 3050 5000 50  0000 C CNN
-F 1 "6502" H 3700 5000 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 3400 3750 50  0001 C CNN
-F 3 "http://archive.6502.org/datasheets/mos_6500_mpu_nov_1985.pdf" H 2850 4100 50  0001 C CNN
-	1    3400 3950
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
