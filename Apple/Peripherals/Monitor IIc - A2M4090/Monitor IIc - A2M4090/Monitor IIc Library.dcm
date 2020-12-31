@@ -1,7 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +11.1
+D Power symbol creates a global label with name "+11.1"
+K power-flag
+$ENDCMP
+#
 $CMP +11.6
 D Power symbol creates a global label with name "+11.6"
+K power-flag
+$ENDCMP
+#
+$CMP +11.8
+D Power symbol creates a global label with name "+11.8"
 K power-flag
 $ENDCMP
 #
