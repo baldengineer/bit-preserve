@@ -39,4 +39,16 @@ $CMP C10M42P31-(D)-ARF-S8
 D 9in monochrome CRT used in the Monitor IIc
 $ENDCMP
 #
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_for_IIc
+D EMI 3-inductor filter
+K EMI filter
+F ~
+$ENDCMP
+#
 #End Doc Library
