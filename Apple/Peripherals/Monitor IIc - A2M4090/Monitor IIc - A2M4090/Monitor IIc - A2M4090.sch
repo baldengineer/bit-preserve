@@ -1822,10 +1822,10 @@ Connection ~ 8850 5400
 Wire Wire Line
 	8850 5400 8900 5400
 $Comp
-L Monitor~IIc~Library:AN5763 U?
+L Monitor~IIc~Library:AN5763 U11
 U 1 1 5FF0E99D
 P 10900 7400
-F 0 "U?" H 11700 7950 50  0000 L CNN
+F 0 "U11" H 11700 7950 50  0000 L CNN
 F 1 "AN5763" H 11700 7850 50  0000 L CNN
 F 2 "" H 10225 7625 50  0001 C CNN
 F 3 "" H 10225 7625 50  0001 C CNN
@@ -2919,10 +2919,10 @@ Wire Wire Line
 Wire Wire Line
 	6600 9350 8100 9350
 $Comp
-L Monitor~IIc~Library:L123CB IC?
+L Monitor~IIc~Library:L123CB IC701
 U 1 1 60FC54C7
 P 3400 12700
-F 0 "IC?" H 3850 13150 50  0000 L CNN
+F 0 "IC701" H 3850 13150 50  0000 L CNN
 F 1 "L123CB" H 3850 13050 50  0000 L CNN
 F 2 "" H 3025 13100 50  0001 C CNN
 F 3 "" H 3025 13100 50  0001 C CNN
@@ -4724,7 +4724,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 7600 7800 12700
 $Comp
-L freetronics_schematic:M03 P1
+L Monitor-IIc---A2M4090-rescue:M03-freetronics_schematic P1
 U 1 1 6195FFF8
 P 1600 9850
 F 0 "P1" H 1417 9429 50  0000 C CNN
@@ -4871,4 +4871,10 @@ $EndComp
 Wire Wire Line
 	3650 3650 3650 3950
 Connection ~ 3650 3950
+Text Notes 3400 12100 0    50   ~ 0
+White
+Text Notes 2900 11850 0    50   ~ 0
+Orange
+Text Notes 3550 11700 0    50   ~ 0
+Blue
 $EndSCHEMATC

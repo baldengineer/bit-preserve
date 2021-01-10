@@ -418,6 +418,24 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Monitor-IIc---A2M4090-rescue_M03-freetronics_schematic
+#
+DEF Monitor-IIc---A2M4090-rescue_M03-freetronics_schematic JP 0 30 Y N 1 F N
+F0 "JP" -100 100 50 H V C CNN
+F1 "Monitor-IIc---A2M4090-rescue_M03-freetronics_schematic" -100 -300 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C -100 -200 35 0 1 0 N
+C -100 0 35 0 1 0 F
+C -100 -100 35 1 1 0 N
+P 5 0 1 0 -150 50 -50 50 -50 -250 -150 -250 -150 50 N
+X 1 1 -300 0 165 R 60 60 0 1 P
+X 2 2 -300 -100 165 R 60 60 0 1 P
+X 3 3 -300 -200 165 R 60 60 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Monitor_IIc_Library_+11.1
 #
 DEF Monitor_IIc_Library_+11.1 #PWR 0 0 Y Y 1 F P
@@ -793,24 +811,6 @@ C 80 0 20 0 0 0 N
 P 2 0 0 0 -60 10 60 70 N
 X A 1 -200 0 100 R 50 50 1 1 P
 X B 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# freetronics_schematic_M03
-#
-DEF freetronics_schematic_M03 JP 0 30 Y N 1 F N
-F0 "JP" -100 100 50 H V C CNN
-F1 "freetronics_schematic_M03" -100 -300 40 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -100 -200 35 0 1 0 N
-C -100 0 35 0 1 0 F
-C -100 -100 35 1 1 0 N
-P 5 0 1 0 -150 50 -50 50 -50 -250 -150 -250 -150 50 N
-X 1 1 -300 0 165 R 60 60 0 1 P
-X 2 2 -300 -100 165 R 60 60 0 1 P
-X 3 3 -300 -200 165 R 60 60 0 1 P
 ENDDRAW
 ENDDEF
 #
