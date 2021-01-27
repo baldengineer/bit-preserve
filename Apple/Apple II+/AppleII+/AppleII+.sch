@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -38,5 +38,11 @@ S 2500 1000 1000 750
 U 600C06CD
 F0 "Disk II Controller" 50
 F1 "DiskIIController.sch" 50
+$EndSheet
+$Sheet
+S 2510 2000 990  600 
+U 6039AAB4
+F0 "RAM" 50
+F1 "RAM.sch" 50
 $EndSheet
 $EndSCHEMATC

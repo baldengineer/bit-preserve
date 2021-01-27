@@ -1,0 +1,383 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS174 B5
+U 1 1 6039AFBF
+P 3000 1700
+F 0 "B5" H 3000 1700 50  0000 C CNN
+F 1 "74LS174" H 3180 1050 50  0000 C CNN
+F 2 "" H 3000 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 3000 1700 50  0001 C CNN
+	1    3000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS174 B8
+U 1 1 6039BDC2
+P 5000 1700
+F 0 "B8" H 5000 1700 50  0000 C CNN
+F 1 "74LS174" H 5190 1050 50  0000 C CNN
+F 2 "" H 5000 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS257 B7
+U 1 1 6039C8F3
+P 8000 1750
+F 0 "B7" H 8000 1750 50  0000 C CNN
+F 1 "74LS257" H 8170 910 50  0000 C CNN
+F 2 "" H 8000 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 8000 1750 50  0001 C CNN
+	1    8000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AppleII+:4116 E3
+U 1 1 603A4397
+P 1330 3690
+F 0 "E3" H 1305 4455 50  0000 C CNN
+F 1 "4116" H 1305 4364 50  0000 C CNN
+F 2 "" H 1330 3690 50  0001 C CNN
+F 3 "" H 1330 3690 50  0001 C CNN
+	1    1330 3690
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603BB4A4
+P 1330 4500
+F 0 "#PWR?" H 1330 4250 50  0001 C CNN
+F 1 "GND" H 1335 4327 50  0000 C CNN
+F 2 "" H 1330 4500 50  0001 C CNN
+F 3 "" H 1330 4500 50  0001 C CNN
+	1    1330 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1330 4500 1330 4440
+$Comp
+L power:+5V #PWR?
+U 1 1 603BC5F3
+P 1940 3150
+F 0 "#PWR?" H 1940 3000 50  0001 C CNN
+F 1 "+5V" H 2000 3280 50  0000 C CNN
+F 2 "" H 1940 3150 50  0001 C CNN
+F 3 "" H 1940 3150 50  0001 C CNN
+	1    1940 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 603BD58A
+P 1820 3150
+F 0 "#PWR?" H 1820 3000 50  0001 C CNN
+F 1 "+12V" H 1790 3310 50  0000 C CNN
+F 2 "" H 1820 3150 50  0001 C CNN
+F 3 "" H 1820 3150 50  0001 C CNN
+	1    1820 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 603BDEF0
+P 1660 3150
+F 0 "#PWR?" H 1660 3250 50  0001 C CNN
+F 1 "-5V" H 1600 3290 50  0000 C CNN
+F 2 "" H 1660 3150 50  0001 C CNN
+F 3 "" H 1660 3150 50  0001 C CNN
+	1    1660 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1660 3150 1660 3190
+Wire Wire Line
+	1660 3190 1630 3190
+Wire Wire Line
+	1630 3290 1820 3290
+Wire Wire Line
+	1820 3290 1820 3150
+Wire Wire Line
+	1630 3390 1940 3390
+Wire Wire Line
+	1940 3390 1940 3150
+Entry Wire Line
+	720  3090 820  3190
+Entry Wire Line
+	720  3390 820  3490
+Entry Wire Line
+	720  3290 820  3390
+Entry Wire Line
+	720  3190 820  3290
+Text Label 970  3690 2    50   ~ 0
+RA5
+Entry Wire Line
+	720  3490 820  3590
+Entry Wire Line
+	720  3590 820  3690
+Text Label 970  3190 2    50   ~ 0
+RA0
+Wire Wire Line
+	820  3190 980  3190
+Wire Wire Line
+	820  3290 980  3290
+Wire Wire Line
+	820  3390 980  3390
+Wire Wire Line
+	820  3490 980  3490
+Wire Wire Line
+	820  3590 980  3590
+Wire Wire Line
+	820  3690 980  3690
+Text Label 960  3590 2    50   ~ 0
+RA4
+Text Label 960  3490 2    50   ~ 0
+RA3
+Text Label 960  3390 2    50   ~ 0
+RA2
+Text Label 960  3290 2    50   ~ 0
+RA1
+Wire Wire Line
+	8500 1150 8600 1150
+Entry Wire Line
+	8700 1950 8600 2050
+Entry Wire Line
+	8600 1750 8700 1650
+Entry Wire Line
+	8600 1450 8700 1350
+Entry Wire Line
+	8600 1150 8700 1050
+Text Label 8510 1150 0    50   ~ 0
+D6
+Wire Wire Line
+	8500 1450 8600 1450
+Text Label 8510 1450 0    50   ~ 0
+D7
+Wire Wire Line
+	8500 1750 8600 1750
+Wire Wire Line
+	8500 2050 8600 2050
+Text Label 8510 2050 0    50   ~ 0
+D4
+Text Label 8510 1750 0    50   ~ 0
+D5
+Text GLabel 8700 950  2    50   Input ~ 0
+D[0..7]
+Text GLabel 7200 950  2    50   Input ~ 0
+LD[0..7]
+Entry Wire Line
+	7200 1150 7300 1250
+Wire Wire Line
+	7300 1250 7500 1250
+Entry Wire Line
+	7200 1450 7300 1550
+Wire Wire Line
+	7300 1550 7500 1550
+Entry Wire Line
+	7200 1750 7300 1850
+Wire Wire Line
+	7300 1850 7500 1850
+Entry Wire Line
+	7200 2050 7300 2150
+Wire Wire Line
+	7300 2150 7500 2150
+Text Label 7360 1250 0    50   ~ 0
+LD6
+Text Label 7360 1550 0    50   ~ 0
+LD7
+Text Label 7360 1850 0    50   ~ 0
+LD5
+Text Label 7360 2150 0    50   ~ 0
+LD4
+$Comp
+L power:+5V #PWR?
+U 1 1 603EFC70
+P 3000 930
+F 0 "#PWR?" H 3000 780 50  0001 C CNN
+F 1 "+5V" H 3060 1060 50  0000 C CNN
+F 2 "" H 3000 930 50  0001 C CNN
+F 3 "" H 3000 930 50  0001 C CNN
+	1    3000 930 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603F0ECA
+P 3000 2540
+F 0 "#PWR?" H 3000 2290 50  0001 C CNN
+F 1 "GND" H 3005 2367 50  0000 C CNN
+F 2 "" H 3000 2540 50  0001 C CNN
+F 3 "" H 3000 2540 50  0001 C CNN
+	1    3000 2540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2500 3000 2540
+Wire Wire Line
+	3000 930  3000 1000
+$Comp
+L power:+5V #PWR?
+U 1 1 603F3435
+P 5000 930
+F 0 "#PWR?" H 5000 780 50  0001 C CNN
+F 1 "+5V" H 5060 1060 50  0000 C CNN
+F 2 "" H 5000 930 50  0001 C CNN
+F 3 "" H 5000 930 50  0001 C CNN
+	1    5000 930 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 603F3B7B
+P 8000 790
+F 0 "#PWR?" H 8000 640 50  0001 C CNN
+F 1 "+5V" H 8060 920 50  0000 C CNN
+F 2 "" H 8000 790 50  0001 C CNN
+F 3 "" H 8000 790 50  0001 C CNN
+	1    8000 790 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603F4D7D
+P 5000 2560
+F 0 "#PWR?" H 5000 2310 50  0001 C CNN
+F 1 "GND" H 5005 2387 50  0000 C CNN
+F 2 "" H 5000 2560 50  0001 C CNN
+F 3 "" H 5000 2560 50  0001 C CNN
+	1    5000 2560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603F557C
+P 8000 2810
+F 0 "#PWR?" H 8000 2560 50  0001 C CNN
+F 1 "GND" H 8005 2637 50  0000 C CNN
+F 2 "" H 8000 2810 50  0001 C CNN
+F 3 "" H 8000 2810 50  0001 C CNN
+	1    8000 2810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 930  5000 1000
+Wire Wire Line
+	5000 2560 5000 2500
+Wire Wire Line
+	8000 2810 8000 2750
+Wire Wire Line
+	8000 790  8000 850 
+Wire Wire Line
+	10000 790  10000 850 
+Wire Wire Line
+	10000 2810 10000 2750
+$Comp
+L power:GND #PWR?
+U 1 1 603F5EF1
+P 10000 2810
+F 0 "#PWR?" H 10000 2560 50  0001 C CNN
+F 1 "GND" H 10005 2637 50  0000 C CNN
+F 2 "" H 10000 2810 50  0001 C CNN
+F 3 "" H 10000 2810 50  0001 C CNN
+	1    10000 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 603F452A
+P 10000 790
+F 0 "#PWR?" H 10000 640 50  0001 C CNN
+F 1 "+5V" H 10060 920 50  0000 C CNN
+F 2 "" H 10000 790 50  0001 C CNN
+F 3 "" H 10000 790 50  0001 C CNN
+	1    10000 790 
+	1    0    0    -1  
+$EndComp
+Text Label 9360 1550 0    50   ~ 0
+LD3
+Text Label 9360 1850 0    50   ~ 0
+LD1
+Text Label 9360 2150 0    50   ~ 0
+LD0
+Text Label 9360 1250 0    50   ~ 0
+LD2
+Wire Wire Line
+	9300 2150 9500 2150
+Entry Wire Line
+	9200 2050 9300 2150
+Wire Wire Line
+	9300 1850 9500 1850
+Entry Wire Line
+	9200 1750 9300 1850
+Wire Wire Line
+	9300 1550 9500 1550
+Entry Wire Line
+	9200 1450 9300 1550
+Wire Wire Line
+	9300 1250 9500 1250
+Entry Wire Line
+	9200 1150 9300 1250
+Text GLabel 9200 950  2    50   Input ~ 0
+LD[0..7]
+Text GLabel 10700 950  2    50   Input ~ 0
+D[0..7]
+Text Label 10510 1750 0    50   ~ 0
+D1
+Text Label 10510 2050 0    50   ~ 0
+D0
+Wire Wire Line
+	10500 2050 10600 2050
+Wire Wire Line
+	10500 1750 10600 1750
+Text Label 10510 1450 0    50   ~ 0
+D3
+Wire Wire Line
+	10500 1450 10600 1450
+Text Label 10510 1150 0    50   ~ 0
+D2
+Entry Wire Line
+	10600 1150 10700 1050
+Entry Wire Line
+	10600 1450 10700 1350
+Entry Wire Line
+	10600 1750 10700 1650
+Entry Wire Line
+	10700 1950 10600 2050
+Wire Wire Line
+	10500 1150 10600 1150
+$Comp
+L 74xx:74LS257 B6
+U 1 1 6039CF70
+P 10000 1750
+F 0 "B6" H 10000 1750 50  0000 C CNN
+F 1 "74LS257" H 10180 910 50  0000 C CNN
+F 2 "" H 10000 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 10000 1750 50  0001 C CNN
+	1    10000 1750
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7200 950  7200 2050
+Wire Bus Line
+	8700 950  8700 1950
+Wire Bus Line
+	9200 950  9200 2050
+Wire Bus Line
+	10700 950  10700 1950
+Wire Bus Line
+	720  2990 720  3590
+$EndSCHEMATC

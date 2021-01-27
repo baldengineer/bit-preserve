@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L 74xx:74LS138 H2
 U 1 1 6017B2DB
-P 1800 3500
-F 0 "H2" H 1990 3960 50  0000 C CNN
-F 1 "74LS138" H 1970 2950 50  0000 C CNN
-F 2 "" H 1800 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 1800 3500 50  0001 C CNN
-	1    1800 3500
+P 2110 3760
+F 0 "H2" H 2300 4220 50  0000 C CNN
+F 1 "74LS138" H 2280 3210 50  0000 C CNN
+F 2 "" H 2110 3760 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 2110 3760 50  0001 C CNN
+	1    2110 3760
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -120,10 +120,8 @@ Wire Wire Line
 	3500 2020 3550 2020
 Text Label 3500 1320 0    50   ~ 0
 ~C000-C0FF
-Text Label 960  3900 2    50   ~ 0
+Text Label 1270 4160 2    50   ~ 0
 ~C000-C0FF
-Wire Wire Line
-	960  3900 1300 3900
 Wire Wire Line
 	2500 1320 2300 1320
 Wire Wire Line
@@ -231,64 +229,64 @@ Wire Wire Line
 	1790 1720 2500 1720
 Wire Wire Line
 	1790 1380 1790 1360
-Text GLabel 2350 3300 2    50   Output ~ 0
+Text GLabel 2660 3560 2    50   Output ~ 0
 ~DEV-SEL-1
-Text GLabel 2900 3400 2    50   Output ~ 0
+Text GLabel 3210 3660 2    50   Output ~ 0
 ~DEV-SEL-2
-Text GLabel 2350 3500 2    50   Output ~ 0
+Text GLabel 2660 3760 2    50   Output ~ 0
 ~DEV-SEL-3
-Text GLabel 2900 3600 2    50   Output ~ 0
+Text GLabel 3210 3860 2    50   Output ~ 0
 ~DEV-SEL-4
-Text GLabel 2350 3700 2    50   Output ~ 0
+Text GLabel 2660 3960 2    50   Output ~ 0
 ~DEV-SEL-5
-Text GLabel 2900 3800 2    50   Output ~ 0
+Text GLabel 3210 4060 2    50   Output ~ 0
 ~DEV-SEL-6
-Text GLabel 2350 3900 2    50   Output ~ 0
+Text GLabel 2660 4160 2    50   Output ~ 0
 ~DEV-SEL-7
 Wire Wire Line
-	2300 3400 2900 3400
+	2610 3660 3210 3660
 Wire Wire Line
-	2300 3600 2900 3600
+	2610 3860 3210 3860
 Wire Wire Line
-	2300 3800 2900 3800
-Text GLabel 2900 3200 2    50   Output ~ 0
+	2610 4060 3210 4060
+Text GLabel 3210 3460 2    50   Output ~ 0
 ~DEV-SEL-0
 Wire Wire Line
-	2300 3300 2350 3300
+	2610 3560 2660 3560
 Wire Wire Line
-	2300 3500 2350 3500
+	2610 3760 2660 3760
 Wire Wire Line
-	2300 3900 2350 3900
+	2610 4160 2660 4160
 Wire Wire Line
-	2300 3700 2350 3700
+	2610 3960 2660 3960
 Wire Wire Line
-	2300 3200 2900 3200
+	2610 3460 3210 3460
 $Comp
 L power:+5V #PWR?
 U 1 1 601BA58C
-P 1800 2840
-F 0 "#PWR?" H 1800 2690 50  0001 C CNN
-F 1 "+5V" H 1700 2940 50  0000 C CNN
-F 2 "" H 1800 2840 50  0001 C CNN
-F 3 "" H 1800 2840 50  0001 C CNN
-	1    1800 2840
+P 2110 3100
+F 0 "#PWR?" H 2110 2950 50  0001 C CNN
+F 1 "+5V" H 2010 3200 50  0000 C CNN
+F 2 "" H 2110 3100 50  0001 C CNN
+F 3 "" H 2110 3100 50  0001 C CNN
+	1    2110 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 2840 1800 2900
+	2110 3100 2110 3160
 $Comp
 L power:GND #PWR?
 U 1 1 601BCD95
-P 1800 4240
-F 0 "#PWR?" H 1800 3990 50  0001 C CNN
-F 1 "GND" H 1700 4130 50  0000 C CNN
-F 2 "" H 1800 4240 50  0001 C CNN
-F 3 "" H 1800 4240 50  0001 C CNN
-	1    1800 4240
+P 2110 4500
+F 0 "#PWR?" H 2110 4250 50  0001 C CNN
+F 1 "GND" H 2010 4390 50  0000 C CNN
+F 2 "" H 2110 4500 50  0001 C CNN
+F 3 "" H 2110 4500 50  0001 C CNN
+	1    2110 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 4200 1800 4240
+	2110 4460 2110 4500
 $Comp
 L power:GND #PWR?
 U 1 1 601BDE5E
@@ -336,34 +334,34 @@ F 3 "" H 8910 4490 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 3200 1100 3200
+	1610 3460 1410 3460
 Wire Wire Line
-	1300 3300 1100 3300
+	1610 3560 1410 3560
 Wire Wire Line
-	1300 3400 1100 3400
+	1610 3660 1410 3660
 Entry Wire Line
-	1000 3100 1100 3200
+	1310 3360 1410 3460
 Entry Wire Line
-	1000 3200 1100 3300
+	1310 3460 1410 3560
 Entry Wire Line
-	1000 3300 1100 3400
-Text GLabel 1000 3000 0    50   Input ~ 0
+	1310 3560 1410 3660
+Text GLabel 1310 3260 0    50   Input ~ 0
 A[0..15]
-Text Label 1130 3200 0    50   ~ 0
+Text Label 1440 3460 0    50   ~ 0
 A4
-Text Label 1130 3300 0    50   ~ 0
+Text Label 1440 3560 0    50   ~ 0
 A5
-Text Label 1130 3400 0    50   ~ 0
+Text Label 1440 3660 0    50   ~ 0
 A6
-Text GLabel 1250 3800 0    50   Input ~ 0
+Text GLabel 1560 4060 0    50   Input ~ 0
 PHI1
 Wire Wire Line
-	1250 3800 1300 3800
+	1560 4060 1610 4060
 Wire Wire Line
-	1300 3700 1100 3700
+	1610 3960 1410 3960
 Entry Wire Line
-	1000 3600 1100 3700
-Text Label 1130 3700 0    50   ~ 0
+	1310 3860 1410 3960
+Text Label 1440 3960 0    50   ~ 0
 A7
 Wire Wire Line
 	6000 2360 6000 2300
@@ -375,7 +373,7 @@ Text GLabel 5220 1800 0    50   Input ~ 0
 PHI0
 Wire Wire Line
 	5220 1800 5500 1800
-Text Notes 3470 3880 0    50   ~ 0
+Text Notes 3780 4140 0    50   ~ 0
 Peripheral Card I/O Locations:\nDevice Select 0 - C080-C08F\nDevice Select 1 - C090-C09F\nDevice Select 2 - C0A0-C0AF\nDevice Select 3 - C0B0-C0BF\nDevice Select 4 - C0C0-C0CF\nDevice Select 5 - C0D0-C0DF\nDevice Select 6 - C0E0-C0EF\nDevice Select 7 - C0F0-C0FF
 Text Notes 3450 2750 0    50   ~ 0
 Peripheral Card ROM Address Space:\nI/O Select 1 - C100-C1FF\nI/O Select 2 - C200-C2FF\nI/O Select 3 - C300-C3FF\nI/O Select 4 - C400-C4FF\nI/O Select 5 - C500-C5FF\nI/O Select 6 - C600-C6FF\nI/O Select 7 - C700-C7FF
@@ -624,17 +622,6 @@ F 3 "~" H 9240 4060 50  0001 C CNN
 	1    9240 4060
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R21
-U 1 1 601B04D5
-P 9430 3960
-F 0 "R21" V 9350 3960 50  0000 C CNN
-F 1 "100R" V 9500 3990 50  0000 C CNN
-F 2 "" H 9430 3960 50  0001 C CNN
-F 3 "~" H 9430 3960 50  0001 C CNN
-	1    9430 3960
-	0    1    1    0   
-$EndComp
 Connection ~ 9240 3960
 Wire Wire Line
 	9240 3960 9330 3960
@@ -654,49 +641,27 @@ PDL1
 $Comp
 L Device:C_Small C6
 U 1 1 601B92D5
-P 10190 3860
-F 0 "C6" H 10250 3860 50  0000 L CNN
-F 1 ".022uF" H 10190 3780 50  0000 L CNN
-F 2 "" H 10190 3860 50  0001 C CNN
-F 3 "~" H 10190 3860 50  0001 C CNN
-	1    10190 3860
+P 10190 4000
+F 0 "C6" H 10250 4000 50  0000 L CNN
+F 1 ".022uF" H 10190 3920 50  0000 L CNN
+F 2 "" H 10190 4000 50  0001 C CNN
+F 3 "~" H 10190 4000 50  0001 C CNN
+	1    10190 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R22
-U 1 1 601B92DB
-P 10290 3760
-F 0 "R22" V 10210 3760 50  0000 C CNN
-F 1 "100R" V 10230 3930 50  0000 C CNN
-F 2 "" H 10290 3760 50  0001 C CNN
-F 3 "~" H 10290 3760 50  0001 C CNN
-	1    10290 3760
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 601B92E4
-P 10190 3960
-F 0 "#PWR?" H 10190 3710 50  0001 C CNN
-F 1 "GND" H 10290 3860 50  0000 C CNN
-F 2 "" H 10190 3960 50  0001 C CNN
-F 3 "" H 10190 3960 50  0001 C CNN
-	1    10190 3960
+P 10190 4100
+F 0 "#PWR?" H 10190 3850 50  0001 C CNN
+F 1 "GND" H 10290 4000 50  0000 C CNN
+F 2 "" H 10190 4100 50  0001 C CNN
+F 3 "" H 10190 4100 50  0001 C CNN
+	1    10190 4100
 	1    0    0    -1  
 $EndComp
 Text Label 10590 3760 0    50   ~ 0
 PDL2
-$Comp
-L Device:R_Small_US R20
-U 1 1 601BDEE2
-P 9450 3090
-F 0 "R20" V 9370 3090 50  0000 C CNN
-F 1 "100R" V 9520 3120 50  0000 C CNN
-F 2 "" H 9450 3090 50  0001 C CNN
-F 3 "~" H 9450 3090 50  0001 C CNN
-	1    9450 3090
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 601BDEEB
@@ -722,17 +687,6 @@ F 3 "~" H 9190 3190 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R23
-U 1 1 601C2602
-P 10050 3350
-F 0 "R23" V 9970 3350 50  0000 C CNN
-F 1 "100R" V 10120 3380 50  0000 C CNN
-F 2 "" H 10050 3350 50  0001 C CNN
-F 3 "~" H 10050 3350 50  0001 C CNN
-	1    10050 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 601C260B
 P 9670 3570
@@ -745,7 +699,6 @@ F 3 "" H 9670 3570 50  0001 C CNN
 $EndComp
 Text Label 10220 3350 0    50   ~ 0
 PDL3
-Connection ~ 10190 3760
 Wire Wire Line
 	9190 3290 9190 3310
 Wire Wire Line
@@ -948,25 +901,13 @@ Wire Wire Line
 Wire Wire Line
 	2250 7050 2050 7050
 Wire Wire Line
-	1750 6150 1750 6475
-Wire Wire Line
 	1750 5550 1750 5475
 Wire Wire Line
 	1750 5475 1150 5475
 Wire Wire Line
-	1150 5475 1150 6475
-Wire Wire Line
 	1150 7500 1750 7500
 Wire Wire Line
 	1750 7500 1750 7250
-Wire Wire Line
-	1150 6475 1750 6475
-Connection ~ 1150 6475
-Wire Wire Line
-	1150 6475 1150 7500
-Connection ~ 1750 6475
-Wire Wire Line
-	1750 6475 1750 6650
 Text Label 1125 6950 2    50   ~ 0
 Cassette_Out
 Text Label 1125 5850 2    50   ~ 0
@@ -1003,6 +944,291 @@ Wire Wire Line
 	10390 3760 10770 3760
 Wire Wire Line
 	9530 3960 9750 3960
+$Comp
+L Device:C_Small C11
+U 1 1 6011E3E3
+P 2400 5750
+F 0 "C11" V 2500 5680 50  0000 L CNN
+F 1 ".1uF" V 2280 5670 50  0000 L CNN
+F 2 "" H 2400 5750 50  0001 C CNN
+F 3 "~" H 2400 5750 50  0001 C CNN
+	1    2400 5750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 5750 2300 5750
+$Comp
+L Device:R_Small R21
+U 1 1 60132E44
+P 9430 3960
+F 0 "R21" V 9360 3960 50  0000 C CNN
+F 1 "100R" V 9500 3980 50  0000 C CNN
+F 2 "" H 9430 3960 50  0001 C CNN
+F 3 "~" H 9430 3960 50  0001 C CNN
+	1    9430 3960
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 60135D61
+P 10290 3760
+F 0 "R22" V 10220 3760 50  0000 C CNN
+F 1 "100R" V 10360 3780 50  0000 C CNN
+F 2 "" H 10290 3760 50  0001 C CNN
+F 3 "~" H 10290 3760 50  0001 C CNN
+	1    10290 3760
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10190 3900 10190 3760
+Connection ~ 10190 3760
+$Comp
+L Device:R_Small R23
+U 1 1 6014BA0D
+P 10050 3350
+F 0 "R23" V 9980 3350 50  0000 C CNN
+F 1 "100R" V 10120 3370 50  0000 C CNN
+F 2 "" H 10050 3350 50  0001 C CNN
+F 3 "~" H 10050 3350 50  0001 C CNN
+	1    10050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R20
+U 1 1 6014CC6F
+P 9450 3090
+F 0 "R20" V 9380 3090 50  0000 C CNN
+F 1 "100R" V 9520 3110 50  0000 C CNN
+F 2 "" H 9450 3090 50  0001 C CNN
+F 3 "~" H 9450 3090 50  0001 C CNN
+	1    9450 3090
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 6014DD76
+P 2700 5750
+F 0 "R24" V 2630 5750 50  0000 C CNN
+F 1 "47K" V 2770 5750 50  0000 C CNN
+F 2 "" H 2700 5750 50  0001 C CNN
+F 3 "~" H 2700 5750 50  0001 C CNN
+	1    2700 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 5750 2600 5750
+$Comp
+L Device:D CR1
+U 1 1 60158A4D
+P 2960 5950
+F 0 "CR1" V 2940 5750 50  0000 L CNN
+F 1 "1N914" V 3020 5650 50  0000 L CNN
+F 2 "" H 2960 5950 50  0001 C CNN
+F 3 "~" H 2960 5950 50  0001 C CNN
+	1    2960 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5750 2960 5750
+Wire Wire Line
+	2960 5750 2960 5800
+$Comp
+L Device:Q_NPN_Darlington_EBC Q4
+U 1 1 6016F458
+P 3300 5750
+F 0 "Q4" H 3150 5900 50  0000 L CNN
+F 1 "MPSA13" H 2960 5830 50  0000 L CNN
+F 2 "" H 3500 5850 50  0001 C CNN
+F 3 "~" H 3300 5750 50  0001 C CNN
+	1    3300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2960 5750 3100 5750
+Connection ~ 2960 5750
+$Comp
+L power:GND #PWR?
+U 1 1 6017B25B
+P 3400 6160
+F 0 "#PWR?" H 3400 5910 50  0001 C CNN
+F 1 "GND" H 3300 6050 50  0000 C CNN
+F 2 "" H 3400 6160 50  0001 C CNN
+F 3 "" H 3400 6160 50  0001 C CNN
+	1    3400 6160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5950 3400 6110
+Wire Wire Line
+	3400 6110 2960 6110
+Wire Wire Line
+	2960 6110 2960 6100
+$Comp
+L Device:R_Small R25
+U 1 1 601902A4
+P 3740 5550
+F 0 "R25" V 3670 5550 50  0000 C CNN
+F 1 "27R" V 3810 5550 50  0000 C CNN
+F 2 "" H 3740 5550 50  0001 C CNN
+F 3 "~" H 3740 5550 50  0001 C CNN
+	1    3740 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 601913D4
+P 4000 5800
+F 0 "C12" H 3840 5870 50  0000 L CNN
+F 1 ".1uF" H 3820 5720 50  0000 L CNN
+F 2 "" H 4000 5800 50  0001 C CNN
+F 3 "~" H 4000 5800 50  0001 C CNN
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5550 3640 5550
+$Comp
+L dk_Rectangular-Connectors-Headers-Male-Pins:22-23-2021 J1
+U 1 1 6019D2F9
+P 4200 5650
+F 0 "J1" H 4450 5610 50  0000 R CNN
+F 1 "Speaker Connector" H 4860 5510 50  0000 R CNN
+F 2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" H 4400 5850 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 4400 5950 60  0001 L CNN
+F 4 "WM4200-ND" H 4400 6050 60  0001 L CNN "Digi-Key_PN"
+F 5 "22-23-2021" H 4400 6150 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 4400 6250 60  0001 L CNN "Category"
+F 7 "Rectangular Connectors - Headers, Male Pins" H 4400 6350 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" H 4400 6450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" H 4400 6550 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN HEADER VERT 2POS 2.54MM" H 4400 6650 60  0001 L CNN "Description"
+F 11 "Molex" H 4400 6750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4400 6850 60  0001 L CNN "Status"
+	1    4200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3840 5550 4000 5550
+Wire Wire Line
+	4000 5700 4000 5550
+Connection ~ 4000 5550
+Wire Wire Line
+	4000 5550 4200 5550
+Wire Wire Line
+	4000 5900 4000 6110
+Wire Wire Line
+	4000 6110 3400 6110
+Connection ~ 3400 6110
+Wire Wire Line
+	3400 6110 3400 6160
+$Comp
+L power:+5V #PWR?
+U 1 1 60218674
+P 4300 5500
+F 0 "#PWR?" H 4300 5350 50  0001 C CNN
+F 1 "+5V" H 4200 5600 50  0000 C CNN
+F 2 "" H 4300 5500 50  0001 C CNN
+F 3 "" H 4300 5500 50  0001 C CNN
+	1    4300 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5500 4300 5550
+$Comp
+L power:+5V #PWR?
+U 1 1 60224B37
+P 6160 6570
+F 0 "#PWR?" H 6160 6420 50  0001 C CNN
+F 1 "+5V" H 6060 6670 50  0000 C CNN
+F 2 "" H 6160 6570 50  0001 C CNN
+F 3 "" H 6160 6570 50  0001 C CNN
+	1    6160 6570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6160 6570 6160 6620
+Text GLabel 900  6500 0    50   Input ~ 0
+Soft5
+Wire Wire Line
+	1150 5475 1150 6500
+Wire Wire Line
+	1750 6150 1750 6500
+Wire Wire Line
+	900  6500 1150 6500
+Connection ~ 1150 6500
+Wire Wire Line
+	1150 6500 1150 7500
+Wire Wire Line
+	1150 6500 1750 6500
+Connection ~ 1750 6500
+Wire Wire Line
+	1750 6500 1750 6650
+$Comp
+L Device:R_Small R19
+U 1 1 6025C9E3
+P 2400 6850
+F 0 "R19" V 2330 6850 50  0000 C CNN
+F 1 "12K" V 2470 6850 50  0000 C CNN
+F 2 "" H 2400 6850 50  0001 C CNN
+F 3 "~" H 2400 6850 50  0001 C CNN
+	1    2400 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R18
+U 1 1 6025D275
+P 2700 7000
+F 0 "R18" H 2810 7010 50  0000 C CNN
+F 1 "100R" V 2620 7000 50  0000 C CNN
+F 2 "" H 2700 7000 50  0001 C CNN
+F 3 "~" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack2 J2
+U 1 1 6025DDFF
+P 3200 6750
+F 0 "J2" H 3020 6733 50  0000 R CNN
+F 1 "Cassette Data Out" H 3020 6824 50  0000 R CNN
+F 2 "" H 3200 6750 50  0001 C CNN
+F 3 "~" H 3200 6750 50  0001 C CNN
+	1    3200 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 6850 2300 6850
+Wire Wire Line
+	2500 6850 2700 6850
+Wire Wire Line
+	2700 6900 2700 6850
+Connection ~ 2700 6850
+Wire Wire Line
+	2700 6850 3000 6850
+$Comp
+L power:GND #PWR?
+U 1 1 602C0312
+P 2700 7150
+F 0 "#PWR?" H 2700 6900 50  0001 C CNN
+F 1 "GND" H 2600 7040 50  0000 C CNN
+F 2 "" H 2700 7150 50  0001 C CNN
+F 3 "" H 2700 7150 50  0001 C CNN
+	1    2700 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 7100 2700 7130
+Wire Wire Line
+	2900 7130 2700 7130
+Connection ~ 2700 7130
+Wire Wire Line
+	2700 7130 2700 7150
+Wire Wire Line
+	2900 6750 3000 6750
+Wire Wire Line
+	2900 6750 2900 7130
+Wire Wire Line
+	830  4160 1610 4160
 Wire Wire Line
 	4800 1900 5500 1900
 Wire Bus Line
@@ -1014,5 +1240,5 @@ Wire Bus Line
 Wire Bus Line
 	5300 1100 5300 1900
 Wire Bus Line
-	1000 3000 1000 3600
+	1310 3260 1310 3860
 $EndSCHEMATC

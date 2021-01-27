@@ -330,6 +330,37 @@ X S2 9 -500 -500 200 R 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
+# 74xx_74LS257
+#
+DEF 74xx_74LS257 U 0 40 Y Y 1 L N
+F0 "U" -300 750 50 H V C CNN
+F1 "74xx_74LS257" -300 -850 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP?16*
+$ENDFPLIST
+DRAW
+S -300 700 300 -800 1 1 10 f
+X S 1 -500 -600 200 R 50 50 1 0 I
+X I1d 10 -500 -400 200 R 50 50 1 0 I
+X I0d 11 -500 -300 200 R 50 50 1 0 I
+X Zc 12 500 0 200 L 50 50 1 0 T
+X I1c 13 -500 -100 200 R 50 50 1 0 I
+X I0c 14 -500 0 200 R 50 50 1 0 I
+X OE 15 -500 -700 200 R 50 50 1 0 I I
+X VCC 16 0 900 200 D 50 50 1 0 W
+X I0a 2 -500 600 200 R 50 50 1 0 I
+X I1a 3 -500 500 200 R 50 50 1 0 I
+X Za 4 500 600 200 L 50 50 1 0 T
+X I0b 5 -500 300 200 R 50 50 1 0 I
+X I1b 6 -500 200 200 R 50 50 1 0 I
+X Zb 7 500 300 200 L 50 50 1 0 T
+X GND 8 0 -1000 200 U 50 50 1 0 W
+X Zd 9 500 -300 200 L 50 50 1 0 T
+ENDDRAW
+ENDDEF
+#
 # 74xx_74LS259
 #
 DEF 74xx_74LS259 U 0 40 Y Y 1 L N
@@ -498,6 +529,34 @@ X ~Q 8 300 -100 100 L 50 50 2 0 O
 X Q 9 300 100 100 L 50 50 2 0 O
 X VCC 14 0 400 100 D 50 50 3 0 W
 X GND 7 0 -400 100 U 50 50 3 0 W
+ENDDRAW
+ENDDEF
+#
+# AppleII+_4116
+#
+DEF AppleII+_4116 U 0 40 Y Y 1 F N
+F0 "U" -200 650 50 H V C CNN
+F1 "AppleII+_4116" 100 650 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 600 200 -650 0 1 0 N
+X VBB 1 300 500 100 L 50 50 1 1 W
+X A0 10 -350 500 100 R 50 50 1 1 I
+X A1 11 -350 400 100 R 50 50 1 1 I
+X A2 12 -350 300 100 R 50 50 1 1 I
+X A6 13 -350 -100 100 R 50 50 1 1 I
+X D0 14 300 -300 100 L 50 50 1 1 O
+X ~CAS 15 -350 -300 100 R 50 50 1 1 I
+X GND 16 0 -750 100 U 50 50 1 1 W
+X DI 2 300 -500 100 L 50 50 1 1 I
+X R~W 3 -350 -500 100 R 50 50 1 1 I
+X ~RAS 4 -350 -400 100 R 50 50 1 1 I
+X A5 5 -350 0 100 R 50 50 1 1 I
+X A4 6 -350 100 100 R 50 50 1 1 I
+X A3 7 -350 200 100 R 50 50 1 1 I
+X VDD 8 300 400 100 L 50 50 1 1 W
+X VCC 9 300 300 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -765,6 +824,26 @@ X D0 9 400 600 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# Connector_AudioJack2
+#
+DEF Connector_AudioJack2 J 0 20 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Connector_AudioJack2" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -150 0 -100 -100 0 1 10 F
+S -100 150 100 -100 0 1 10 f
+P 4 0 1 10 0 0 25 -25 50 0 100 0 N
+P 5 0 1 10 100 100 -25 100 -25 0 -50 -25 -75 0 N
+X ~ S 200 100 100 L 50 50 1 1 P
+X ~ T 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_MountingPin_Conn_02x25_Counter_Clockwise_MountingPin
 #
 DEF Connector_Generic_MountingPin_Conn_02x25_Counter_Clockwise_MountingPin J 0 40 Y N 1 F N
@@ -901,6 +980,48 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_D
+#
+DEF Device_D D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Q_NPN_Darlington_EBC
+#
+DEF Device_Q_NPN_Darlington_EBC Q 0 0 Y N 1 F N
+F0 "Q" 180 50 50 H V L CNN
+F1 "Device_Q_NPN_Darlington_EBC" 180 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 0 25 0 100 75 100 100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 225 R 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -956,21 +1077,20 @@ X R8.2 9 0 -150 50 U 50 50 8 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Small_US
+# Device_R_Small
 #
-DEF Device_R_Small_US R 0 10 N N 1 F N
+DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
 DRAW
-P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
-P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
-X ~ 1 0 100 40 D 50 50 1 1 P
-X ~ 2 0 -100 40 U 50 50 1 1 P
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1028,6 +1148,31 @@ X Q 9 500 200 150 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
+# dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_22-23-2021" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 300 60 H I L CNN
+F4 "WM4200-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "22-23-2021" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/Molex%20PDFs/A-6373-N_Series_Dwg_2010-12-03.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/22-23-2021/WM4200-ND/26667" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.54MM" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P
@@ -1055,6 +1200,19 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_-5V
+#
+DEF power_-5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 50 H I C CNN
+F1 "power_-5V" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
+X -5V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
