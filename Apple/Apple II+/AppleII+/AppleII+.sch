@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -28,7 +28,7 @@ F0 "ROM" 50
 F1 "ROM.sch" 50
 $EndSheet
 $Sheet
-S 980  2900 1100 600 
+S 1000 2950 1100 600 
 U 6017A131
 F0 "IO_AddressDecode" 50
 F1 "IO_AddressDecode.sch" 50
@@ -44,5 +44,11 @@ S 2510 2000 990  600
 U 6039AAB4
 F0 "RAM" 50
 F1 "RAM.sch" 50
+$EndSheet
+$Sheet
+S 2510 2950 990  600 
+U 6016C232
+F0 "RAM decode" 50
+F1 "RAM Decode.sch" 50
 $EndSheet
 $EndSCHEMATC

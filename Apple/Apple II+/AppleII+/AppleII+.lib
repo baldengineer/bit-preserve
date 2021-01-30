@@ -49,6 +49,35 @@ X VCC 9 300 300 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# 555
+#
+DEF 555 U 0 40 Y Y 1 F N
+F0 "U" -350 250 60 H V L CNN
+F1 "555" 50 -350 60 H V L CNN
+F2 "digikey-footprints:DIP-8_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" 200 300 60 H I L CNN
+F4 "296-1411-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NE555P" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Clock/Timing - Programmable Timers and Oscillators" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/NE555P/296-1411-5-ND/277057" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC OSC SINGLE TIMER 100KHZ 8-DIP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -350 200 350 -300 0 1 0 f
+X GND 1 0 -400 100 U 50 50 1 1 W
+X TRIG 2 500 -50 150 L 50 50 1 1 I
+X OUT 3 -500 -50 150 R 50 50 1 1 O
+X RESET 4 -500 100 150 R 50 50 1 1 I
+X CONT 5 -500 -200 150 R 50 50 1 1 B
+X THRES 6 500 -200 150 L 50 50 1 1 I
+X DISCH 7 500 100 150 L 50 50 1 1 O
+X VCC 8 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # 6502
 #
 DEF 6502 U 0 40 Y Y 1 F N
@@ -205,6 +234,34 @@ X I6 12 -300 0 100 R 50 50 5 1 I
 X DIS1 1-UF -30 240 100 R 50 50 6 1 I
 X Y6 13 300 0 100 L 50 50 6 1 O
 X I6 14 -300 0 100 R 50 50 6 1 I
+ENDDRAW
+ENDDEF
+#
+# AppleII+_Keyboard_Connector
+#
+DEF AppleII+_Keyboard_Connector U 0 40 Y Y 1 F N
+F0 "U" -50 450 50 H V C CNN
+F1 "AppleII+_Keyboard_Connector" -50 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 400 300 -400 0 1 0 N
+X +5V 1 -450 350 100 R 50 50 1 1 W
+X Data2 10 400 -250 100 L 50 50 1 1 O
+X Data3 11 400 -150 100 L 50 50 1 1 O
+X Data0 12 400 -50 100 L 50 50 1 1 O
+X Data1 13 400 50 100 L 50 50 1 1 O
+X NC~ 14 400 150 100 L 50 50 1 1 N
+X -12V 15 400 250 100 L 50 50 1 1 W
+X NC 16 400 350 100 L 50 50 1 1 N
+X STROBE 2 -450 250 100 R 50 50 1 1 O
+X ~RESET 3 -450 150 100 R 50 50 1 1 O
+X NC~ 4 -450 50 100 R 50 50 1 1 N
+X Data5 5 -450 -50 100 R 50 50 1 1 O
+X Data4 6 -450 -150 100 R 50 50 1 1 O
+X Data6 7 -450 -250 100 R 50 50 1 1 O
+X GND 8 -450 -350 100 R 50 50 1 1 W
+X NC~ 9 400 -350 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #

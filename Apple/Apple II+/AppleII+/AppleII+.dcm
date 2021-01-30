@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 555
+D IC OSC SINGLE TIMER 100KHZ 8-DIP
+K 296-1411-5-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
+$ENDCMP
+#
 $CMP MC6800
 D 8-Bit Microprocessing unit 1.0MHz, DIP-40
 K MCU
