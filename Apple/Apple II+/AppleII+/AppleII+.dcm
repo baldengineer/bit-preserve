@@ -6,6 +6,30 @@ K 296-1411-5-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
 $ENDCMP
 #
+$CMP 74LS160
+D Synchronous 4-bit programmable decimal Counter
+K TTL CNT CNT4
+F http://www.ti.com/lit/gpn/sn74LS160
+$ENDCMP
+#
+$CMP 74LS161
+D Synchronous 4-bit programmable binary Counter
+K TTL CNT CNT4
+F http://www.ti.com/lit/gpn/sn74LS161
+$ENDCMP
+#
+$CMP 74LS162
+D Synchronous 4-bit programmable decimal Counter
+K TTL CNT CNT4
+F http://www.ti.com/lit/gpn/sn74LS162
+$ENDCMP
+#
+$CMP 74LS163
+D Synchronous 4-bit programmable binary Counter
+K TTL CNT CNT4
+F http://www.ti.com/lit/gpn/sn74LS163
+$ENDCMP
+#
 $CMP MC6800
 D 8-Bit Microprocessing unit 1.0MHz, DIP-40
 K MCU

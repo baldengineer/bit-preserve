@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -594,4 +594,70 @@ Wire Bus Line
 	7370 800  7370 1900
 Wire Bus Line
 	8870 800  8870 1800
+$Comp
+L Device:R_Network06_US RN?
+U 1 1 60160226
+P 2300 4170
+F 0 "RN?" H 2588 4216 50  0000 L CNN
+F 1 "R_Network06_US" H 2588 4125 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 2675 4170 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2300 4170 50  0001 C CNN
+	1    2300 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network07_US RN?
+U 1 1 60161A23
+P 2310 4880
+F 0 "RN?" H 2698 4926 50  0000 L CNN
+F 1 "R_Network07_US" H 2698 4835 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 2785 4880 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2310 4880 50  0001 C CNN
+	1    2310 4880
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 A2
+U 2 1 60163316
+P 2430 3520
+F 0 "A2" H 2430 3845 50  0000 C CNN
+F 1 "74LS00" H 2430 3754 50  0000 C CNN
+F 2 "" H 2430 3520 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2430 3520 50  0001 C CNN
+	2    2430 3520
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS20 D2
+U 2 1 601652F5
+P 1800 3110
+F 0 "D2" H 1800 3485 50  0000 C CNN
+F 1 "74LS20" H 1800 3394 50  0000 C CNN
+F 2 "" H 1800 3110 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 1800 3110 50  0001 C CNN
+	2    1800 3110
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74LS139 E2
+U 2 1 601683CD
+P 1170 4170
+F 0 "E2" H 1170 4786 50  0000 C CNN
+F 1 "74LS139" H 1170 4695 50  0000 C CNN
+F 2 "" H 1170 4170 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 1170 4170 50  0001 C CNN
+	2    1170 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74LS139 E2
+U 1 1 60169CB7
+P 1220 5400
+F 0 "E2" H 1220 6016 50  0000 C CNN
+F 1 "74LS139" H 1220 5925 50  0000 C CNN
+F 2 "" H 1220 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 1220 5400 50  0001 C CNN
+	1    1220 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
