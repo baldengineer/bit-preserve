@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AppleII+)(type Legacy)(uri ${KIPRJMOD}/AppleII+.lib)(options "")(descr ""))
+)

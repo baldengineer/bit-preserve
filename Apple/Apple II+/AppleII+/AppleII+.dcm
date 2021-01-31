@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 555
+D IC OSC SINGLE TIMER 100KHZ 8-DIP
+K 296-1411-5-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
+$ENDCMP
+#
+$CMP MC6800
+D 8-Bit Microprocessing unit 1.0MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MC68A00
+D 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MC68A00_copy
+D 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MC68B00
+D 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MC68B00_copy
+D 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+$CMP MOS6502
+D 8-Bit Microprocessing unit 1.0MHz, DIP-40
+K MCU
+F http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf
+$ENDCMP
+#
+#End Doc Library
