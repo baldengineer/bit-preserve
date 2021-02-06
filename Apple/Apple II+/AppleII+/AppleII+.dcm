@@ -30,6 +30,12 @@ K TTL CNT CNT4
 F http://www.ti.com/lit/gpn/sn74LS163
 $ENDCMP
 #
+$CMP 74LS175
+D 4-bit D Flip-Flop, reset
+K TTL REG REG4 DFF
+F http://www.ti.com/lit/gpn/sn74LS175
+$ENDCMP
+#
 $CMP MC6800
 D 8-Bit Microprocessing unit 1.0MHz, DIP-40
 K MCU
