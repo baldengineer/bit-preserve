@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 8
-Title ""
+Title "Apple II+ Schematic"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "Captured from the Apple II Reference Manual (1979)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
