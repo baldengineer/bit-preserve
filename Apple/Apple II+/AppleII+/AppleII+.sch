@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -50,5 +50,11 @@ S 2510 2950 990  600
 U 6016C232
 F0 "RAM decode" 50
 F1 "RAM Decode.sch" 50
+$EndSheet
+$Sheet
+S 1000 3800 1100 700 
+U 6016CDE0
+F0 "Clock Generation" 50
+F1 "ClockGen.sch" 50
 $EndSheet
 $EndSCHEMATC
