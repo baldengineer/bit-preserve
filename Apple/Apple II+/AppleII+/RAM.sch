@@ -203,10 +203,6 @@ Text Label 2450 1090 2    50   ~ 0
 RA2
 Text Label 2450 990  2    50   ~ 0
 RA1
-Text GLabel 2290 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	2290 1790 2470 1790
 Text GLabel 2210 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -301,10 +297,6 @@ Text Label 3730 1090 2    50   ~ 0
 RA2
 Text Label 3730 990  2    50   ~ 0
 RA1
-Text GLabel 3570 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	3570 1790 3750 1790
 Text GLabel 3490 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -399,10 +391,6 @@ Text Label 4990 1090 2    50   ~ 0
 RA2
 Text Label 4990 990  2    50   ~ 0
 RA1
-Text GLabel 4830 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	4830 1790 5010 1790
 Text GLabel 4750 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -497,10 +485,6 @@ Text Label 6300 1090 2    50   ~ 0
 RA2
 Text Label 6300 990  2    50   ~ 0
 RA1
-Text GLabel 6140 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	6140 1790 6320 1790
 Text GLabel 6060 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -595,10 +579,6 @@ Text Label 7560 1090 2    50   ~ 0
 RA2
 Text Label 7560 990  2    50   ~ 0
 RA1
-Text GLabel 7400 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	7400 1790 7580 1790
 Text GLabel 7320 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -693,10 +673,6 @@ Text Label 8840 1090 2    50   ~ 0
 RA2
 Text Label 8840 990  2    50   ~ 0
 RA1
-Text GLabel 8680 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	8680 1790 8860 1790
 Text GLabel 8600 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -804,10 +780,6 @@ Text Label 10100 1090 2    50   ~ 0
 RA2
 Text Label 10100 990  2    50   ~ 0
 RA1
-Text GLabel 9940 1790 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	9940 1790 10120 1790
 Text GLabel 9860 690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -915,10 +887,10 @@ Text Label 1200 2950 2    50   ~ 0
 RA2
 Text Label 1200 2850 2    50   ~ 0
 RA1
-Text GLabel 1040 3650 0    50   Input ~ 0
+Text GLabel 1090 3650 0    50   Input ~ 0
 ~RAS
 Wire Wire Line
-	1040 3650 1220 3650
+	1090 3650 1220 3650
 Text GLabel 960  2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1013,10 +985,6 @@ Text Label 2460 2950 2    50   ~ 0
 RA2
 Text Label 2460 2850 2    50   ~ 0
 RA1
-Text GLabel 2300 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	2300 3650 2480 3650
 Text GLabel 2220 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1111,10 +1079,6 @@ Text Label 3740 2950 2    50   ~ 0
 RA2
 Text Label 3740 2850 2    50   ~ 0
 RA1
-Text GLabel 3580 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	3580 3650 3760 3650
 Text GLabel 3500 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1209,10 +1173,6 @@ Text Label 5000 2950 2    50   ~ 0
 RA2
 Text Label 5000 2850 2    50   ~ 0
 RA1
-Text GLabel 4840 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	4840 3650 5020 3650
 Text GLabel 4760 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1307,10 +1267,6 @@ Text Label 6310 2950 2    50   ~ 0
 RA2
 Text Label 6310 2850 2    50   ~ 0
 RA1
-Text GLabel 6150 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	6150 3650 6330 3650
 Text GLabel 6070 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1405,10 +1361,6 @@ Text Label 7570 2950 2    50   ~ 0
 RA2
 Text Label 7570 2850 2    50   ~ 0
 RA1
-Text GLabel 7410 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	7410 3650 7590 3650
 Text GLabel 7330 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1503,10 +1455,6 @@ Text Label 8850 2950 2    50   ~ 0
 RA2
 Text Label 8850 2850 2    50   ~ 0
 RA1
-Text GLabel 8690 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	8690 3650 8870 3650
 Text GLabel 8610 2550 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1601,10 +1549,6 @@ Text Label 10110 2950 2    50   ~ 0
 RA2
 Text Label 10110 2850 2    50   ~ 0
 RA1
-Text GLabel 9950 3650 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	9950 3650 10130 3650
 Text GLabel 9870 2550 2    50   Input ~ 0
 RA[0..5]
 Wire Wire Line
@@ -1682,13 +1626,13 @@ Connection ~ 2830 4040
 Wire Wire Line
 	2830 4040 1570 4040
 Text Label 1880 1690 0    50   ~ 0
-RAM_DO0
+RDO0
 Wire Wire Line
-	1860 1690 2210 1690
+	1860 1690 2080 1690
 Text Label 1890 3550 0    50   ~ 0
-RAM_DO0
+RDO0
 Wire Wire Line
-	1870 3550 2220 3550
+	1870 3550 2090 3550
 $Comp
 L AppleII+:4116 C3
 U 1 1 602566AC
@@ -1794,10 +1738,10 @@ Text Label 1130 4830 2    50   ~ 0
 RA2
 Text Label 1130 4730 2    50   ~ 0
 RA1
-Text GLabel 970  5530 0    50   Input ~ 0
+Text GLabel 1090 5530 0    50   Input ~ 0
 ~RAS
 Wire Wire Line
-	970  5530 1150 5530
+	1090 5530 1150 5530
 Text GLabel 890  4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1892,10 +1836,6 @@ Text Label 2390 4830 2    50   ~ 0
 RA2
 Text Label 2390 4730 2    50   ~ 0
 RA1
-Text GLabel 2230 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	2230 5530 2410 5530
 Text GLabel 2150 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -1990,10 +1930,6 @@ Text Label 3670 4830 2    50   ~ 0
 RA2
 Text Label 3670 4730 2    50   ~ 0
 RA1
-Text GLabel 3510 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	3510 5530 3690 5530
 Text GLabel 3430 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2088,10 +2024,6 @@ Text Label 4930 4830 2    50   ~ 0
 RA2
 Text Label 4930 4730 2    50   ~ 0
 RA1
-Text GLabel 4770 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	4770 5530 4950 5530
 Text GLabel 4690 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2186,10 +2118,6 @@ Text Label 6240 4830 2    50   ~ 0
 RA2
 Text Label 6240 4730 2    50   ~ 0
 RA1
-Text GLabel 6080 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	6080 5530 6260 5530
 Text GLabel 6000 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2284,10 +2212,6 @@ Text Label 7500 4830 2    50   ~ 0
 RA2
 Text Label 7500 4730 2    50   ~ 0
 RA1
-Text GLabel 7340 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	7340 5530 7520 5530
 Text GLabel 7260 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2382,10 +2306,6 @@ Text Label 8780 4830 2    50   ~ 0
 RA2
 Text Label 8780 4730 2    50   ~ 0
 RA1
-Text GLabel 8620 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	8620 5530 8800 5530
 Text GLabel 8540 4430 2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2480,10 +2400,6 @@ Text Label 10040 4830 2    50   ~ 0
 RA2
 Text Label 10040 4730 2    50   ~ 0
 RA1
-Text GLabel 9880 5530 0    50   Input ~ 0
-~RAS
-Wire Wire Line
-	9880 5530 10060 5530
 Text GLabel 9800 4430 2    50   Input ~ 0
 RA[0..5]
 Wire Wire Line
@@ -2524,9 +2440,9 @@ Connection ~ 2760 5920
 Wire Wire Line
 	2760 5920 1500 5920
 Text Label 1820 5430 0    50   ~ 0
-RAM_DO0
+RDO0
 Wire Wire Line
-	1800 5430 2150 5430
+	1800 5430 2020 5430
 $Comp
 L power:+5V #PWR?
 U 1 1 602F511D
@@ -2593,7 +2509,7 @@ U 1 1 602F514F
 P 2170 6850
 AR Path="/6016C232/602F514F" Ref="B?"  Part="1" 
 AR Path="/6039AAB4/602F514F" Ref="B5"  Part="1" 
-F 0 "B5" H 1920 7420 50  0000 C CNN
+F 0 "B5" H 2420 7400 50  0000 C CNN
 F 1 "74LS174" H 2420 6200 50  0000 C CNN
 F 2 "" H 2170 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 2170 6850 50  0001 C CNN
@@ -2651,7 +2567,7 @@ U 1 1 6055816C
 P 4030 6850
 AR Path="/6016C232/6055816C" Ref="B?"  Part="1" 
 AR Path="/6039AAB4/6055816C" Ref="B8"  Part="1" 
-F 0 "B8" H 3780 7420 50  0000 C CNN
+F 0 "B8" H 4270 7400 50  0000 C CNN
 F 1 "74LS174" H 4280 6200 50  0000 C CNN
 F 2 "" H 4030 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 4030 6850 50  0001 C CNN
@@ -2659,121 +2575,121 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS174" H 4030 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1670 6750 2    50   ~ 0
-RAM_DO0
+RDO0
 Wire Wire Line
-	1670 6750 1330 6750
+	1670 6750 1470 6750
 Wire Wire Line
-	1670 6850 1330 6850
+	1670 6850 1470 6850
 Wire Wire Line
-	1670 6650 1330 6650
+	1670 6650 1470 6650
 Text Label 1670 6850 2    50   ~ 0
-RAM_DO1
+RDO1
 Text Label 1670 6650 2    50   ~ 0
-RAM_DO3
+RDO3
 Text Label 1670 6550 2    50   ~ 0
-RAM_DO2
+RDO2
 Wire Wire Line
-	1670 6550 1330 6550
+	1670 6550 1470 6550
 Text Label 3530 6750 2    50   ~ 0
-RAM_DO4
+RDO4
 Wire Wire Line
-	3530 6750 3190 6750
+	3530 6750 3330 6750
 Wire Wire Line
-	3530 6850 3190 6850
+	3530 6850 3330 6850
 Wire Wire Line
-	3530 6650 3190 6650
+	3530 6650 3330 6650
 Text Label 3530 6850 2    50   ~ 0
-RAM_DO5
+RDO5
 Text Label 3530 6650 2    50   ~ 0
-RAM_DO7
+RDO7
 Text Label 3530 6550 2    50   ~ 0
-RAM_DO6
+RDO6
 Wire Wire Line
-	3530 6550 3190 6550
+	3530 6550 3330 6550
 Text Label 4430 3550 0    50   ~ 0
-RAM_DO2
+RDO2
 Wire Wire Line
-	4410 3550 4760 3550
+	4410 3550 4630 3550
 Text Label 5690 3550 0    50   ~ 0
-RAM_DO3
+RDO3
 Wire Wire Line
-	5670 3550 6020 3550
+	5670 3550 5890 3550
 Text Label 7000 3550 0    50   ~ 0
-RAM_DO4
+RDO4
 Wire Wire Line
-	6980 3550 7330 3550
+	6980 3550 7200 3550
 Text Label 8260 3550 0    50   ~ 0
-RAM_DO5
+RDO5
 Wire Wire Line
-	8240 3550 8590 3550
+	8240 3550 8460 3550
 Text Label 9540 3550 0    50   ~ 0
-RAM_DO6
+RDO6
 Wire Wire Line
-	9520 3550 9870 3550
+	9520 3550 9740 3550
 Text Label 10800 3550 0    50   ~ 0
-RAM_DO7
+RDO7
 Wire Wire Line
-	10780 3550 11130 3550
+	10780 3550 11000 3550
 Text Label 10790 1690 0    50   ~ 0
-RAM_DO7
+RDO7
 Wire Wire Line
-	10770 1690 11120 1690
+	10770 1690 10990 1690
 Text Label 9530 1690 0    50   ~ 0
-RAM_DO6
+RDO6
 Wire Wire Line
-	9510 1690 9860 1690
+	9510 1690 9730 1690
 Text Label 8250 1690 0    50   ~ 0
-RAM_DO5
+RDO5
 Wire Wire Line
-	8230 1690 8580 1690
+	8230 1690 8450 1690
 Text Label 6990 1690 0    50   ~ 0
-RAM_DO4
+RDO4
 Wire Wire Line
-	6970 1690 7320 1690
+	6970 1690 7190 1690
 Text Label 5680 1690 0    50   ~ 0
-RAM_DO3
+RDO3
 Wire Wire Line
-	5660 1690 6010 1690
+	5660 1690 5880 1690
 Text Label 3140 1690 0    50   ~ 0
-RAM_DO1
+RDO1
 Wire Wire Line
-	3120 1690 3470 1690
+	3120 1690 3340 1690
 Text Label 3150 3550 0    50   ~ 0
-RAM_DO1
+RDO1
 Wire Wire Line
-	3130 3550 3480 3550
+	3130 3550 3350 3550
 Text Label 4420 1690 0    50   ~ 0
-RAM_DO2
+RDO2
 Wire Wire Line
-	4400 1690 4750 1690
+	4400 1690 4620 1690
 Text Label 3080 5430 0    50   ~ 0
-RAM_DO1
+RDO1
 Wire Wire Line
-	3060 5430 3410 5430
+	3060 5430 3280 5430
 Text Label 4360 5430 0    50   ~ 0
-RAM_DO2
+RDO2
 Wire Wire Line
-	4340 5430 4690 5430
+	4340 5430 4560 5430
 Text Label 5620 5430 0    50   ~ 0
-RAM_DO3
+RDO3
 Wire Wire Line
-	5600 5430 5950 5430
+	5600 5430 5820 5430
 Text Label 6930 5430 0    50   ~ 0
-RAM_DO4
+RDO4
 Wire Wire Line
-	6910 5430 7260 5430
+	6910 5430 7130 5430
 Text Label 8190 5430 0    50   ~ 0
-RAM_DO5
+RDO5
 Wire Wire Line
-	8170 5430 8520 5430
+	8170 5430 8390 5430
 Text Label 9470 5430 0    50   ~ 0
-RAM_DO6
+RDO6
 Wire Wire Line
-	9450 5430 9800 5430
+	9450 5430 9670 5430
 Text Label 10730 5430 0    50   ~ 0
-RAM_DO7
+RDO7
 Wire Wire Line
-	10710 5430 11060 5430
+	10710 5430 10930 5430
 Text GLabel 1900 1890 2    50   Input ~ 0
 D0
 Wire Wire Line
@@ -2890,10 +2806,538 @@ Text GLabel 900  1890 0    50   Input ~ 0
 RRW
 Wire Wire Line
 	900  1890 1210 1890
-Wire Bus Line
-	2920 6250 2920 6750
+Text GLabel 900  3550 0    50   Input ~ 0
+~DCAS
+Text GLabel 900  3750 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	900  3750 1220 3750
+Wire Wire Line
+	900  3550 1220 3550
+Text GLabel 900  5430 0    50   Input ~ 0
+~DCAS
+Text GLabel 900  5630 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	900  5630 1150 5630
+Wire Wire Line
+	900  5430 1150 5430
+Text GLabel 2350 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	2350 5530 2410 5530
+Text GLabel 2310 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	2310 5230 2410 5230
+Text GLabel 2320 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 2350 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	2350 5660 2380 5660
+Wire Wire Line
+	2380 5660 2380 5630
+Wire Wire Line
+	2380 5630 2410 5630
+Wire Wire Line
+	2320 5390 2370 5390
+Wire Wire Line
+	2370 5390 2370 5430
+Wire Wire Line
+	2370 5430 2410 5430
+Text GLabel 3630 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	3630 5530 3690 5530
+Text GLabel 3590 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	3590 5230 3690 5230
+Text GLabel 3600 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 3630 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	3630 5660 3660 5660
+Wire Wire Line
+	3600 5390 3650 5390
+Wire Wire Line
+	3650 5390 3650 5430
+Wire Wire Line
+	3650 5430 3690 5430
+Wire Wire Line
+	3660 5660 3660 5630
+Wire Wire Line
+	3660 5630 3690 5630
+Text GLabel 4890 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	4890 5530 4950 5530
+Text GLabel 4850 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	4850 5230 4950 5230
+Text GLabel 4860 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 4890 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	4890 5660 4920 5660
+Wire Wire Line
+	4860 5390 4910 5390
+Wire Wire Line
+	4910 5390 4910 5430
+Wire Wire Line
+	4910 5430 4950 5430
+Wire Wire Line
+	4920 5660 4920 5630
+Wire Wire Line
+	4920 5630 4950 5630
+Text GLabel 6200 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	6200 5530 6260 5530
+Text GLabel 6160 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	6160 5230 6260 5230
+Text GLabel 6170 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 6200 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	6200 5660 6230 5660
+Wire Wire Line
+	6170 5390 6220 5390
+Wire Wire Line
+	6220 5390 6220 5430
+Wire Wire Line
+	6220 5430 6260 5430
+Wire Wire Line
+	6230 5660 6230 5630
+Wire Wire Line
+	6230 5630 6260 5630
+Text GLabel 7460 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	7460 5530 7520 5530
+Text GLabel 7420 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	7420 5230 7520 5230
+Text GLabel 7430 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 7460 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	7460 5660 7490 5660
+Wire Wire Line
+	7430 5390 7480 5390
+Wire Wire Line
+	7480 5390 7480 5430
+Wire Wire Line
+	7480 5430 7520 5430
+Wire Wire Line
+	7490 5660 7490 5630
+Wire Wire Line
+	7490 5630 7520 5630
+Text GLabel 8740 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	8740 5530 8800 5530
+Text GLabel 8700 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	8700 5230 8800 5230
+Text GLabel 8710 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 8740 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	8740 5660 8770 5660
+Wire Wire Line
+	8710 5390 8760 5390
+Wire Wire Line
+	8760 5390 8760 5430
+Wire Wire Line
+	8760 5430 8800 5430
+Wire Wire Line
+	8770 5660 8770 5630
+Wire Wire Line
+	8770 5630 8800 5630
+Text GLabel 10000 5530 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	10000 5530 10060 5530
+Text GLabel 9960 5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	9960 5230 10060 5230
+Text GLabel 9970 5390 0    50   Input ~ 0
+~DCAS
+Text GLabel 10000 5660 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	10000 5660 10030 5660
+Wire Wire Line
+	9970 5390 10020 5390
+Wire Wire Line
+	10020 5390 10020 5430
+Wire Wire Line
+	10020 5430 10060 5430
+Wire Wire Line
+	10030 5660 10030 5630
+Wire Wire Line
+	10030 5630 10060 5630
+Text GLabel 2420 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	2420 3650 2480 3650
+Text GLabel 2380 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	2380 3350 2480 3350
+Text GLabel 2390 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 2420 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	2420 3780 2450 3780
+Wire Wire Line
+	2450 3780 2450 3750
+Wire Wire Line
+	2450 3750 2480 3750
+Wire Wire Line
+	2390 3510 2440 3510
+Wire Wire Line
+	2440 3510 2440 3550
+Wire Wire Line
+	2440 3550 2480 3550
+Text GLabel 3700 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	3700 3650 3760 3650
+Text GLabel 3660 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	3660 3350 3760 3350
+Text GLabel 3670 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 3700 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	3700 3780 3730 3780
+Wire Wire Line
+	3730 3780 3730 3750
+Wire Wire Line
+	3730 3750 3760 3750
+Wire Wire Line
+	3670 3510 3720 3510
+Wire Wire Line
+	3720 3510 3720 3550
+Wire Wire Line
+	3720 3550 3760 3550
+Text GLabel 4960 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	4960 3650 5020 3650
+Text GLabel 4920 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	4920 3350 5020 3350
+Text GLabel 4930 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 4960 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	4960 3780 4990 3780
+Wire Wire Line
+	4990 3780 4990 3750
+Wire Wire Line
+	4990 3750 5020 3750
+Wire Wire Line
+	4930 3510 4980 3510
+Wire Wire Line
+	4980 3510 4980 3550
+Wire Wire Line
+	4980 3550 5020 3550
+Text GLabel 6270 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	6270 3650 6330 3650
+Text GLabel 6230 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	6230 3350 6330 3350
+Text GLabel 6240 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 6270 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	6270 3780 6300 3780
+Wire Wire Line
+	6300 3780 6300 3750
+Wire Wire Line
+	6300 3750 6330 3750
+Wire Wire Line
+	6240 3510 6290 3510
+Wire Wire Line
+	6290 3510 6290 3550
+Wire Wire Line
+	6290 3550 6330 3550
+Text GLabel 7530 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	7530 3650 7590 3650
+Text GLabel 7490 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	7490 3350 7590 3350
+Text GLabel 7500 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 7530 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	7530 3780 7560 3780
+Wire Wire Line
+	7560 3780 7560 3750
+Wire Wire Line
+	7560 3750 7590 3750
+Wire Wire Line
+	7500 3510 7550 3510
+Wire Wire Line
+	7550 3510 7550 3550
+Wire Wire Line
+	7550 3550 7590 3550
+Text GLabel 8810 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	8810 3650 8870 3650
+Text GLabel 8770 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	8770 3350 8870 3350
+Text GLabel 8780 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 8810 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	8810 3780 8840 3780
+Wire Wire Line
+	8840 3780 8840 3750
+Wire Wire Line
+	8840 3750 8870 3750
+Wire Wire Line
+	8780 3510 8830 3510
+Wire Wire Line
+	8830 3510 8830 3550
+Wire Wire Line
+	8830 3550 8870 3550
+Text GLabel 10070 3650 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	10070 3650 10130 3650
+Text GLabel 10030 3350 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	10030 3350 10130 3350
+Text GLabel 10040 3510 0    50   Input ~ 0
+~DCAS
+Text GLabel 10070 3780 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	10070 3780 10100 3780
+Wire Wire Line
+	10100 3780 10100 3750
+Wire Wire Line
+	10100 3750 10130 3750
+Wire Wire Line
+	10040 3510 10090 3510
+Wire Wire Line
+	10090 3510 10090 3550
+Wire Wire Line
+	10090 3550 10130 3550
+Text GLabel 2410 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	2410 1790 2470 1790
+Text GLabel 2370 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	2370 1490 2470 1490
+Text GLabel 2380 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 2410 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	2410 1920 2440 1920
+Wire Wire Line
+	2440 1920 2440 1890
+Wire Wire Line
+	2440 1890 2470 1890
+Wire Wire Line
+	2380 1650 2430 1650
+Wire Wire Line
+	2430 1650 2430 1690
+Wire Wire Line
+	2430 1690 2470 1690
+Text GLabel 3690 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	3690 1790 3750 1790
+Text GLabel 3650 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	3650 1490 3750 1490
+Text GLabel 3660 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 3690 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	3690 1920 3720 1920
+Wire Wire Line
+	3720 1920 3720 1890
+Wire Wire Line
+	3720 1890 3750 1890
+Wire Wire Line
+	3660 1650 3710 1650
+Wire Wire Line
+	3710 1650 3710 1690
+Wire Wire Line
+	3710 1690 3750 1690
+Text GLabel 4950 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	4950 1790 5010 1790
+Text GLabel 4910 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	4910 1490 5010 1490
+Text GLabel 4920 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 4950 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	4950 1920 4980 1920
+Wire Wire Line
+	4980 1920 4980 1890
+Wire Wire Line
+	4980 1890 5010 1890
+Wire Wire Line
+	4920 1650 4970 1650
+Wire Wire Line
+	4970 1650 4970 1690
+Wire Wire Line
+	4970 1690 5010 1690
+Text GLabel 6260 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	6260 1790 6320 1790
+Text GLabel 6220 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	6220 1490 6320 1490
+Text GLabel 6230 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 6260 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	6260 1920 6290 1920
+Wire Wire Line
+	6290 1920 6290 1890
+Wire Wire Line
+	6290 1890 6320 1890
+Wire Wire Line
+	6230 1650 6280 1650
+Wire Wire Line
+	6280 1650 6280 1690
+Wire Wire Line
+	6280 1690 6320 1690
+Text GLabel 7520 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	7520 1790 7580 1790
+Text GLabel 7480 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	7480 1490 7580 1490
+Text GLabel 7490 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 7520 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	7520 1920 7550 1920
+Wire Wire Line
+	7550 1920 7550 1890
+Wire Wire Line
+	7550 1890 7580 1890
+Wire Wire Line
+	7490 1650 7540 1650
+Wire Wire Line
+	7540 1650 7540 1690
+Wire Wire Line
+	7540 1690 7580 1690
+Text GLabel 8800 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	8800 1790 8860 1790
+Text GLabel 8760 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	8760 1490 8860 1490
+Text GLabel 8770 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 8800 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	8800 1920 8830 1920
+Wire Wire Line
+	8830 1920 8830 1890
+Wire Wire Line
+	8830 1890 8860 1890
+Wire Wire Line
+	8770 1650 8820 1650
+Wire Wire Line
+	8820 1650 8820 1690
+Wire Wire Line
+	8820 1690 8860 1690
+Text GLabel 10060 1790 0    50   Input ~ 0
+~RAS
+Wire Wire Line
+	10060 1790 10120 1790
+Text GLabel 10020 1490 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	10020 1490 10120 1490
+Text GLabel 10030 1650 0    50   Input ~ 0
+~DCAS
+Text GLabel 10060 1920 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	10060 1920 10090 1920
+Wire Wire Line
+	10090 1920 10090 1890
+Wire Wire Line
+	10090 1890 10120 1890
+Wire Wire Line
+	10030 1650 10080 1650
+Wire Wire Line
+	10080 1650 10080 1690
+Wire Wire Line
+	10080 1690 10120 1690
+Text GLabel 1520 7350 0    50   Input ~ 0
+SOFT5
+Wire Wire Line
+	1520 7350 1670 7350
+Text GLabel 3380 7350 0    50   Input ~ 0
+SOFT5
+Wire Wire Line
+	3380 7350 3530 7350
 Wire Bus Line
 	4780 6250 4780 6750
+Wire Bus Line
+	2920 6250 2920 6750
 Wire Bus Line
 	950  690  950  1290
 Wire Bus Line

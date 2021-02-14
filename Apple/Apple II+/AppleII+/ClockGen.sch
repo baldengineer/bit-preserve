@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title "Apple II+ Schematic"
 Date ""
 Rev "0"
@@ -343,17 +343,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS195" H 8220 5610 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS153 C1
-U 1 1 601F3ED0
-P 10100 5310
-F 0 "C1" H 10360 6240 50  0000 C CNN
-F 1 "74LS153" H 10280 6160 50  0000 C CNN
-F 2 "" H 10100 5310 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 10100 5310 50  0001 C CNN
-	1    10100 5310
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS86 B2
 U 3 1 601F72B1
 P 2870 1870
@@ -625,10 +614,10 @@ Text GLabel 3220 1870 2    50   Output ~ 0
 14M
 Wire Wire Line
 	3170 1870 3220 1870
-Text GLabel 8480 2800 0    50   Input ~ 0
+Text GLabel 8400 2800 0    50   Input ~ 0
 14M
 Wire Wire Line
-	8490 2900 8590 2900
+	8480 2900 8590 2900
 Text GLabel 7620 5710 0    50   Input ~ 0
 14M
 Wire Wire Line
@@ -726,10 +715,10 @@ Wire Wire Line
 	6340 4900 6370 4900
 Text GLabel 7620 6110 0    50   Input ~ 0
 SOFT5
-Text GLabel 8490 2900 0    50   Input ~ 0
+Text GLabel 8480 2900 0    50   Input ~ 0
 SOFT5
 Wire Wire Line
-	8480 2800 8590 2800
+	8400 2800 8590 2800
 Wire Wire Line
 	7620 6110 7720 6110
 Wire Wire Line
@@ -758,13 +747,13 @@ Wire Wire Line
 Wire Wire Line
 	9200 5510 9200 5410
 Wire Wire Line
-	9200 5410 9600 5410
+	9200 5410 9720 5410
 Wire Wire Line
 	8720 5410 8810 5410
 Wire Wire Line
 	8810 5410 8810 5610
 Wire Wire Line
-	8810 5610 9600 5610
+	8810 5610 9720 5610
 Text GLabel 8860 5410 2    50   Output ~ 0
 Q3
 Wire Wire Line
@@ -821,7 +810,7 @@ Wire Wire Line
 Wire Wire Line
 	9410 4920 9410 6010
 Wire Wire Line
-	9410 6010 9600 6010
+	9410 6010 9720 6010
 Wire Wire Line
 	8950 4900 8950 4920
 Wire Wire Line
@@ -887,35 +876,33 @@ Wire Wire Line
 	9590 2300 9700 2300
 NoConn ~ 9590 2500
 Wire Wire Line
-	9590 2400 9890 2400
+	9590 2400 9680 2400
 Wire Wire Line
-	9890 2400 9890 3260
+	9680 2400 9680 3550
 Wire Wire Line
-	9890 3260 9510 3260
+	8550 3550 8550 2200
 Wire Wire Line
-	8520 3260 8520 2200
+	8550 2200 8590 2200
 Wire Wire Line
-	8520 2200 8590 2200
+	9720 5510 9680 5510
 Wire Wire Line
-	9600 5510 9510 5510
+	9680 5510 9680 5310
 Wire Wire Line
-	9510 5510 9510 5310
+	9680 5310 9720 5310
 Wire Wire Line
-	9510 5310 9600 5310
+	9680 5310 9680 3550
+Connection ~ 9680 5310
+Connection ~ 9680 3550
 Wire Wire Line
-	9510 5310 9510 3260
-Connection ~ 9510 5310
-Connection ~ 9510 3260
-Wire Wire Line
-	9510 3260 8520 3260
+	9680 3550 8550 3550
 Text GLabel 7800 1900 0    50   Input ~ 0
 7M
 Wire Wire Line
 	7800 1900 7890 1900
-Text GLabel 8480 2600 0    50   Input ~ 0
+Text GLabel 8350 2600 0    50   Input ~ 0
 ~7M
 Wire Wire Line
-	8480 2600 8590 2600
+	8350 2600 8590 2600
 Text GLabel 6880 5900 2    50   Input ~ 0
 ~7M
 Wire Wire Line
@@ -967,7 +954,7 @@ Connection ~ 6960 5800
 Text GLabel 9500 6110 0    50   Input ~ 0
 PHI0
 Wire Wire Line
-	9500 6110 9600 6110
+	9500 6110 9720 6110
 Text GLabel 7000 3500 2    50   Output ~ 0
 ~LDPS
 Wire Wire Line
@@ -1014,29 +1001,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 602268D4
-P 10100 6430
-F 0 "#PWR?" H 10100 6180 50  0001 C CNN
-F 1 "GND" H 10230 6370 50  0000 C CNN
-F 2 "" H 10100 6430 50  0001 C CNN
-F 3 "" H 10100 6430 50  0001 C CNN
-	1    10100 6430
+P 9680 6410
+F 0 "#PWR?" H 9680 6160 50  0001 C CNN
+F 1 "GND" H 9810 6350 50  0000 C CNN
+F 2 "" H 9680 6410 50  0001 C CNN
+F 3 "" H 9680 6410 50  0001 C CNN
+	1    9680 6410
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 6022707B
-P 10100 4250
-F 0 "#PWR?" H 10100 4100 50  0001 C CNN
-F 1 "+5V" H 10210 4320 50  0000 C CNN
-F 2 "" H 10100 4250 50  0001 C CNN
-F 3 "" H 10100 4250 50  0001 C CNN
-	1    10100 4250
+P 10220 4280
+F 0 "#PWR?" H 10220 4130 50  0001 C CNN
+F 1 "+5V" H 10330 4350 50  0000 C CNN
+F 2 "" H 10220 4280 50  0001 C CNN
+F 3 "" H 10220 4280 50  0001 C CNN
+	1    10220 4280
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 4250 10100 4310
-Wire Wire Line
-	10100 6430 10100 6420
+	10220 4280 10220 4310
 Wire Wire Line
 	9590 2000 9880 2000
 Wire Wire Line
@@ -1062,15 +1047,15 @@ Wire Wire Line
 Wire Wire Line
 	6640 5300 6900 5300
 Wire Wire Line
-	10600 5310 11000 5310
+	10720 5310 10760 5310
 Wire Wire Line
-	11000 5310 11000 3510
+	10760 5310 10760 3600
 Wire Wire Line
-	11000 3510 8000 3510
+	10760 3600 8520 3600
 Wire Wire Line
-	8000 3510 8000 2400
+	8520 3600 8520 2400
 Wire Wire Line
-	8000 2400 8590 2400
+	8520 2400 8590 2400
 Text GLabel 6220 5800 0    50   Output ~ 0
 LDI94
 Wire Wire Line
@@ -1184,15 +1169,6 @@ Wire Wire Line
 	4650 6550 4330 6550
 Wire Wire Line
 	4330 6550 4330 6610
-Wire Wire Line
-	9600 5810 9570 5810
-Wire Wire Line
-	9570 5810 9570 6420
-Wire Wire Line
-	9570 6420 10100 6420
-Connection ~ 10100 6420
-Wire Wire Line
-	10100 6420 10100 6410
 $Comp
 L 74xx:74LS04 C11
 U 4 1 601E8BB7
@@ -1214,6 +1190,59 @@ Wire Bus Line
 	5910 2770 5940 2770
 Wire Bus Line
 	5790 870  5850 870 
+Text GLabel 9630 4710 0    50   Input ~ 0
+C1-5
+Wire Wire Line
+	9640 4610 9720 4610
+$Comp
+L 74xx:74LS153 C1
+U 1 1 601F3ED0
+P 10220 5310
+F 0 "C1" H 10480 6240 50  0000 C CNN
+F 1 "74LS153" H 10400 6160 50  0000 C CNN
+F 2 "" H 10220 5310 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 10220 5310 50  0001 C CNN
+	1    10220 5310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9680 6410 10220 6410
+Wire Wire Line
+	9680 6410 9680 5810
+Wire Wire Line
+	9680 5810 9720 5810
+Connection ~ 9680 6410
+Wire Wire Line
+	9630 4710 9720 4710
+Text GLabel 9640 4610 0    50   Input ~ 0
+C1-6
+$Comp
+L power:GND #PWR?
+U 1 1 6087F185
+P 9610 5110
+F 0 "#PWR?" H 9610 4860 50  0001 C CNN
+F 1 "GND" H 9530 5100 50  0000 C CNN
+F 2 "" H 9610 5110 50  0001 C CNN
+F 3 "" H 9610 5110 50  0001 C CNN
+	1    9610 5110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9610 5110 9720 5110
+Text GLabel 9630 4810 0    50   Input ~ 0
+A13
+Wire Wire Line
+	9630 4810 9720 4810
+Text GLabel 9630 4910 0    50   Input ~ 0
+A12
+Wire Wire Line
+	9630 4910 9720 4910
+Text Notes 9330 4480 0    50   ~ 0
+C1 Signals from RAM\naddress decoding
+Text GLabel 10790 4610 2    50   Output ~ 0
+MemSelE1
+Wire Wire Line
+	10790 4610 10720 4610
 Wire Bus Line
 	5910 2770 5910 4910
 Wire Bus Line
