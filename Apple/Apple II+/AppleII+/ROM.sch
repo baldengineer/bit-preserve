@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title "Apple II+ Schematic"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 "Captured from the Apple II Reference Manual (1979)"
 Comment2 ""
@@ -134,7 +134,7 @@ L power:GND #PWR?
 U 1 1 6027B520
 P 8050 1220
 F 0 "#PWR?" H 8050 970 50  0001 C CNN
-F 1 "GND" H 8055 1047 50  0000 C CNN
+F 1 "GND" H 8130 1210 50  0000 C CNN
 F 2 "" H 8050 1220 50  0001 C CNN
 F 3 "" H 8050 1220 50  0001 C CNN
 	1    8050 1220
@@ -862,8 +862,8 @@ $Comp
 L 74xx:74LS138 F12
 U 1 1 6035532D
 P 3750 6300
-F 0 "F12" H 3940 5750 50  0000 C CNN
-F 1 "74LS138" H 3990 5670 50  0000 C CNN
+F 0 "F12" H 3990 6820 50  0000 C CNN
+F 1 "74LS138" H 3920 6740 50  0000 C CNN
 F 2 "" H 3750 6300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 3750 6300 50  0001 C CNN
 	1    3750 6300
@@ -1086,6 +1086,30 @@ Wire Wire Line
 	4250 6600 4810 6600
 Wire Wire Line
 	4250 6700 4810 6700
+$Comp
+L power:GND #PWR?
+U 1 1 602051A9
+P 8000 3200
+F 0 "#PWR?" H 8000 2950 50  0001 C CNN
+F 1 "GND" H 8080 3190 50  0000 C CNN
+F 2 "" H 8000 3200 50  0001 C CNN
+F 3 "" H 8000 3200 50  0001 C CNN
+	1    8000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3200 5750 3200
+Wire Wire Line
+	3750 3200 3750 3250
+Wire Wire Line
+	7750 3200 7750 3250
+Wire Wire Line
+	5750 3250 5750 3200
+Connection ~ 5750 3200
+Wire Wire Line
+	5750 3200 3750 3200
+Wire Wire Line
+	7750 3200 8000 3200
 Wire Bus Line
 	2010 6100 2010 6500
 Wire Bus Line
@@ -1106,4 +1130,5 @@ Wire Bus Line
 	3000 1350 3000 6100
 Wire Bus Line
 	7080 1350 7080 4450
+Connection ~ 7750 3200
 $EndSCHEMATC

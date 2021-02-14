@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title "Apple II+ Schematic"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 "Captured from the Apple II Reference Manual (1979)"
 Comment2 ""
@@ -586,14 +586,6 @@ Wire Wire Line
 	9600 960  9600 1000
 Wire Wire Line
 	9600 1000 9670 1000
-Wire Bus Line
-	10870 800  10870 1800
-Wire Bus Line
-	9370 800  9370 1900
-Wire Bus Line
-	7370 800  7370 1900
-Wire Bus Line
-	8870 800  8870 1800
 $Comp
 L Device:R_Network06_US RN?
 U 1 1 60160226
@@ -660,4 +652,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 1220 5400 50  0001 C CNN
 	1    1220 5400
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	10870 800  10870 1800
+Wire Bus Line
+	9370 800  9370 1900
+Wire Bus Line
+	7370 800  7370 1900
+Wire Bus Line
+	8870 800  8870 1800
 $EndSCHEMATC

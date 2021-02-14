@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title "Apple II+ Schematic"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 "Captured from the Apple II Reference Manual (1979)"
 Comment2 ""
@@ -105,10 +105,10 @@ Text Label 1190 1090 2    50   ~ 0
 RA2
 Text Label 1190 990  2    50   ~ 0
 RA1
-Text GLabel 1030 1790 0    50   Input ~ 0
+Text GLabel 1100 1790 0    50   Input ~ 0
 ~RAS
 Wire Wire Line
-	1030 1790 1210 1790
+	1100 1790 1210 1790
 Text GLabel 950  690  2    50   Input ~ 0
 RA[0..5]
 $Comp
@@ -2870,6 +2870,26 @@ Wire Wire Line
 	10840 3750 10780 3750
 Wire Wire Line
 	10780 5630 10710 5630
+Text GLabel 1030 1490 0    50   Input ~ 0
+ERA6
+Wire Wire Line
+	1030 1490 1210 1490
+Text GLabel 1040 3350 0    50   Input ~ 0
+DRA6
+Wire Wire Line
+	1040 3350 1220 3350
+Text GLabel 970  5230 0    50   Input ~ 0
+CRA6
+Wire Wire Line
+	970  5230 1150 5230
+Text GLabel 900  1690 0    50   Input ~ 0
+~ECAS
+Wire Wire Line
+	900  1690 1210 1690
+Text GLabel 900  1890 0    50   Input ~ 0
+RRW
+Wire Wire Line
+	900  1890 1210 1890
 Wire Bus Line
 	2920 6250 2920 6750
 Wire Bus Line

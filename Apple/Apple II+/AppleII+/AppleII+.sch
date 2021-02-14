@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "Apple II+ Schematic"
 Date ""
-Rev ""
+Rev "0"
 Comp ""
 Comment1 "Captured from the Apple II Reference Manual (1979)"
 Comment2 ""
@@ -56,5 +56,11 @@ S 1000 3800 1100 700
 U 6016CDE0
 F0 "Clock Generation" 50
 F1 "ClockGen.sch" 50
+$EndSheet
+$Sheet
+S 2510 3800 990  700 
+U 60210F9E
+F0 "RAM Address Multiplexing" 50
+F1 "RAMAddressMux.sch" 50
 $EndSheet
 $EndSCHEMATC
