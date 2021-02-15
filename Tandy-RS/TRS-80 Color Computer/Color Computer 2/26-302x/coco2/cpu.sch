@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -129,8 +129,11 @@ U 1 1 6027ED5C
 P 8150 2350
 F 0 "C47" V 7921 2350 50  0000 C CNN
 F 1 ".1uF" V 8012 2350 50  0000 C CNN
-F 2 "" H 8150 2350 50  0001 C CNN
-F 3 "~" H 8150 2350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 8150 2350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 8150 2350 50  0001 C CNN
+F 4 "digikey" V 8150 2350 50  0001 C CNN "Vendor"
+F 5 "1109PHTR-ND" V 8150 2350 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 8150 2350 50  0001 C CNN "Manufacturerer part #"
 	1    8150 2350
 	0    1    1    0   
 $EndComp
@@ -208,17 +211,6 @@ F 3 "" H 1150 2450 50  0001 C CNN
 	1    1150 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C48
-U 1 1 6028C77F
-P 1150 2250
-F 0 "C48" H 1058 2204 50  0000 R CNN
-F 1 "1uF" H 1058 2295 50  0000 R CNN
-F 2 "" H 1150 2250 50  0001 C CNN
-F 3 "~" H 1150 2250 50  0001 C CNN
-	1    1150 2250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1150 2350 1150 2450
 $Comp
@@ -227,7 +219,7 @@ U 1 1 6028F442
 P 1150 1850
 F 0 "R20" H 1218 1896 50  0000 L CNN
 F 1 "100K" H 1218 1805 50  0000 L CNN
-F 2 "" H 1150 1850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1150 1850 50  0001 C CNN
 F 3 "~" H 1150 1850 50  0001 C CNN
 	1    1150 1850
 	1    0    0    -1  
@@ -258,7 +250,7 @@ U 1 1 60297794
 P 4300 1550
 F 0 "S2" V 4254 1698 50  0000 L CNN
 F 1 "Reset Switch" V 4345 1698 50  0000 L CNN
-F 2 "" H 4300 1750 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 4300 1750 50  0001 C CNN
 F 3 "~" H 4300 1750 50  0001 C CNN
 	1    4300 1550
 	0    1    1    0   
@@ -292,8 +284,10 @@ U 1 1 60289058
 P 3950 1450
 F 0 "C58" V 3721 1450 50  0000 C CNN
 F 1 ".1uF" V 3812 1450 50  0000 C CNN
-F 2 "" H 3950 1450 50  0001 C CNN
-F 3 "~" H 3950 1450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 3950 1450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 3950 1450 50  0001 C CNN
+F 4 "digikey" V 3950 1450 50  0001 C CNN "Field4"
+F 5 "1109PHTR-ND" V 3950 1450 50  0001 C CNN "Field5"
 	1    3950 1450
 	1    0    0    -1  
 $EndComp
@@ -328,7 +322,7 @@ U 1 1 6027B3E2
 P 3400 1200
 F 0 "R22" H 3468 1246 50  0000 L CNN
 F 1 "100K" H 3468 1155 50  0000 L CNN
-F 2 "" H 3400 1200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3400 1200 50  0001 C CNN
 F 3 "~" H 3400 1200 50  0001 C CNN
 	1    3400 1200
 	1    0    0    -1  
@@ -392,7 +386,7 @@ U 1 1 602F0A61
 P 5350 3450
 F 0 "R18" H 5418 3496 50  0000 L CNN
 F 1 "4.7K" H 5418 3405 50  0000 L CNN
-F 2 "" H 5350 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5350 3450 50  0001 C CNN
 F 3 "~" H 5350 3450 50  0001 C CNN
 	1    5350 3450
 	1    0    0    -1  
@@ -403,7 +397,7 @@ U 1 1 602F2DDD
 P 5050 3450
 F 0 "R17" H 5118 3496 50  0000 L CNN
 F 1 "4.7K" H 5118 3405 50  0000 L CNN
-F 2 "" H 5050 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5050 3450 50  0001 C CNN
 F 3 "~" H 5050 3450 50  0001 C CNN
 	1    5050 3450
 	1    0    0    -1  
@@ -414,7 +408,7 @@ U 1 1 602F33E5
 P 4750 3450
 F 0 "R14" H 4818 3496 50  0000 L CNN
 F 1 "4.7K" H 4818 3405 50  0000 L CNN
-F 2 "" H 4750 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4750 3450 50  0001 C CNN
 F 3 "~" H 4750 3450 50  0001 C CNN
 	1    4750 3450
 	1    0    0    -1  
@@ -425,7 +419,7 @@ U 1 1 602F38E0
 P 4450 3450
 F 0 "R5" H 4518 3496 50  0000 L CNN
 F 1 "4.7K" H 4518 3405 50  0000 L CNN
-F 2 "" H 4450 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4450 3450 50  0001 C CNN
 F 3 "~" H 4450 3450 50  0001 C CNN
 	1    4450 3450
 	1    0    0    -1  
@@ -508,8 +502,11 @@ U 1 1 6032511D
 P 6500 5400
 F 0 "C37" H 6408 5354 50  0000 R CNN
 F 1 "33pF" H 6408 5445 50  0000 R CNN
-F 2 "" H 6500 5400 50  0001 C CNN
-F 3 "~" H 6500 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6500 5400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa150_en.pdf?ref_disty=digikey" H 6500 5400 50  0001 C CNN
+F 4 "digikey" H 6500 5400 50  0001 C CNN "Vendor"
+F 5 "445-180775-1-ND" H 6500 5400 50  0001 C CNN "Vendor part#"
+F 6 "FA28NP01H330JNU06" H 6500 5400 50  0001 C CNN "Manufacturer part#"
 	1    6500 5400
 	-1   0    0    1   
 $EndComp
@@ -519,8 +516,11 @@ U 1 1 60326637
 P 5950 5400
 F 0 "C38" H 5858 5354 50  0000 R CNN
 F 1 "56pF" H 5858 5445 50  0000 R CNN
-F 2 "" H 5950 5400 50  0001 C CNN
-F 3 "~" H 5950 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5950 5400 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 5950 5400 50  0001 C CNN
+F 4 "digikey" H 5950 5400 50  0001 C CNN "Vendor"
+F 5 "490-9030-1-ND" H 5950 5400 50  0001 C CNN "Vendor part#"
+F 6 "RDE5C1H560J0M1H03A" H 5950 5400 50  0001 C CNN "Manufacturer part#"
 	1    5950 5400
 	-1   0    0    1   
 $EndComp
@@ -554,6 +554,20 @@ Wire Wire Line
 	8050 4600 9800 4600
 Wire Wire Line
 	6500 5000 6500 5300
+$Comp
+L Device:CP_Small C48
+U 1 1 60289B8F
+P 1150 2250
+F 0 "C48" H 1238 2296 50  0000 L CNN
+F 1 "1uF" H 1238 2205 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 1150 2250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/42052/515d.pdf" H 1150 2250 50  0001 C CNN
+F 4 "digikey" H 1150 2250 50  0001 C CNN "Vendor"
+F 5 "718-2229-ND" H 1150 2250 50  0001 C CNN "Vendor part#"
+F 6 "515D105M050JA6AE3" H 1150 2250 50  0001 C CNN "Manufacturer part#"
+	1    1150 2250
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	6700 2600 6700 3300
 Wire Bus Line
