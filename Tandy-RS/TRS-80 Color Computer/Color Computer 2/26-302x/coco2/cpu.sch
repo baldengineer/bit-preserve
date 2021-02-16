@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -129,8 +129,11 @@ U 1 1 6027ED5C
 P 8150 2350
 F 0 "C47" V 7921 2350 50  0000 C CNN
 F 1 ".1uF" V 8012 2350 50  0000 C CNN
-F 2 "" H 8150 2350 50  0001 C CNN
-F 3 "~" H 8150 2350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 8150 2350 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 8150 2350 50  0001 C CNN
+F 4 "digikey" V 8150 2350 50  0001 C CNN "Vendor"
+F 5 "1109PHTR-ND" V 8150 2350 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 8150 2350 50  0001 C CNN "Manufacturerer part #"
 	1    8150 2350
 	0    1    1    0   
 $EndComp
@@ -195,205 +198,23 @@ Wire Wire Line
 Wire Wire Line
 	8350 5450 7550 5450
 Connection ~ 7550 5450
-Wire Wire Line
-	1150 2050 1150 2150
-$Comp
-L power:GNDS #PWR0104
-U 1 1 6028BD4B
-P 1150 2450
-F 0 "#PWR0104" H 1150 2200 50  0001 C CNN
-F 1 "GNDS" H 1155 2277 50  0000 C CNN
-F 2 "" H 1150 2450 50  0001 C CNN
-F 3 "" H 1150 2450 50  0001 C CNN
-	1    1150 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C48
-U 1 1 6028C77F
-P 1150 2250
-F 0 "C48" H 1058 2204 50  0000 R CNN
-F 1 "1uF" H 1058 2295 50  0000 R CNN
-F 2 "" H 1150 2250 50  0001 C CNN
-F 3 "~" H 1150 2250 50  0001 C CNN
-	1    1150 2250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1150 2350 1150 2450
-$Comp
-L Device:R_Small_US R20
-U 1 1 6028F442
-P 1150 1850
-F 0 "R20" H 1218 1896 50  0000 L CNN
-F 1 "100K" H 1218 1805 50  0000 L CNN
-F 2 "" H 1150 1850 50  0001 C CNN
-F 3 "~" H 1150 1850 50  0001 C CNN
-	1    1150 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1950 1150 2050
-Wire Wire Line
-	1150 1600 1150 1750
-$Comp
-L power:+5V #PWR0105
-U 1 1 602911E7
-P 1150 1600
-F 0 "#PWR0105" H 1150 1450 50  0001 C CNN
-F 1 "+5V" H 1165 1773 50  0000 C CNN
-F 2 "" H 1150 1600 50  0001 C CNN
-F 3 "" H 1150 1600 50  0001 C CNN
-	1    1150 1600
-	1    0    0    -1  
-$EndComp
-Text HLabel 1000 2050 0    50   Output ~ 0
+Text HLabel 3250 2850 0    50   Input ~ 0
 ~RESET
-Connection ~ 3400 2050
-Wire Wire Line
-	3400 2050 1150 2050
-$Comp
-L Switch:SW_Push S2
-U 1 1 60297794
-P 4300 1550
-F 0 "S2" V 4254 1698 50  0000 L CNN
-F 1 "Reset Switch" V 4345 1698 50  0000 L CNN
-F 2 "" H 4300 1750 50  0001 C CNN
-F 3 "~" H 4300 1750 50  0001 C CNN
-	1    4300 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3950 1750 3950 1800
-Connection ~ 3950 1750
-Wire Wire Line
-	4300 1750 3950 1750
-Wire Wire Line
-	3950 1550 3950 1750
-Connection ~ 3950 1350
-Wire Wire Line
-	4300 1350 3950 1350
-$Comp
-L power:GNDS #PWR0106
-U 1 1 6028C331
-P 3950 1800
-F 0 "#PWR0106" H 3950 1550 50  0001 C CNN
-F 1 "GNDS" H 3955 1627 50  0000 C CNN
-F 2 "" H 3950 1800 50  0001 C CNN
-F 3 "" H 3950 1800 50  0001 C CNN
-	1    3950 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1350 3950 1350
-$Comp
-L Device:C_Small C58
-U 1 1 60289058
-P 3950 1450
-F 0 "C58" V 3721 1450 50  0000 C CNN
-F 1 ".1uF" V 3812 1450 50  0000 C CNN
-F 2 "" H 3950 1450 50  0001 C CNN
-F 3 "~" H 3950 1450 50  0001 C CNN
-	1    3950 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1350 3400 1500
-Connection ~ 3400 1350
-Wire Wire Line
-	3150 1350 3400 1350
-Wire Wire Line
-	3400 1050 3400 1100
-Connection ~ 3400 1050
-Wire Wire Line
-	3150 1050 3400 1050
-Wire Wire Line
-	3400 950  3400 1050
-$Comp
-L power:+5V #PWR0107
-U 1 1 6027D23C
-P 3400 950
-F 0 "#PWR0107" H 3400 800 50  0001 C CNN
-F 1 "+5V" H 3415 1123 50  0000 C CNN
-F 2 "" H 3400 950 50  0001 C CNN
-F 3 "" H 3400 950 50  0001 C CNN
-	1    3400 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1300 3400 1350
-$Comp
-L Device:R_Small_US R22
-U 1 1 6027B3E2
-P 3400 1200
-F 0 "R22" H 3468 1246 50  0000 L CNN
-F 1 "100K" H 3468 1155 50  0000 L CNN
-F 2 "" H 3400 1200 50  0001 C CNN
-F 3 "~" H 3400 1200 50  0001 C CNN
-	1    3400 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1800 3400 2050
-$Comp
-L Diode:1N4148 CR12
-U 1 1 602761A5
-P 3150 1200
-F 0 "CR12" V 3050 900 50  0000 L CNN
-F 1 "1N4148" V 3200 850 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3150 1025 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3150 1200 50  0001 C CNN
-	1    3150 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148 CR11
-U 1 1 60275AC3
-P 3400 1650
-F 0 "CR11" V 3350 1350 50  0000 L CNN
-F 1 "1N4148" V 3450 1250 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3400 1475 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3400 1650 50  0001 C CNN
-	1    3400 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Diode:1N4148 CR10
-U 1 1 602C5BF7
-P 2450 1350
-F 0 "CR10" H 2400 1200 50  0000 L CNN
-F 1 "1N4148" H 2350 1500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2450 1175 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2450 1350 50  0001 C CNN
-	1    2450 1350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2600 1350 3150 1350
-Connection ~ 3150 1350
-Wire Wire Line
-	1800 1350 2300 1350
-Text HLabel 1800 1350 0    50   Input ~ 0
-VDGCLK
-Connection ~ 1150 2050
-Wire Wire Line
-	1150 2050 1000 2050
 Wire Wire Line
 	7050 3600 6550 3600
 Wire Wire Line
 	6550 3600 6550 2850
-Wire Wire Line
-	6550 2850 3400 2850
-Wire Wire Line
-	3400 2850 3400 2050
 $Comp
 L Device:R_Small_US R18
 U 1 1 602F0A61
 P 5350 3450
 F 0 "R18" H 5418 3496 50  0000 L CNN
 F 1 "4.7K" H 5418 3405 50  0000 L CNN
-F 2 "" H 5350 3450 50  0001 C CNN
-F 3 "~" H 5350 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5350 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5350 3450 50  0001 C CNN
+F 4 "digikey" H 5350 3450 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70TR-ND" H 5350 3450 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 5350 3450 50  0001 C CNN "Manufacturer part#"
 	1    5350 3450
 	1    0    0    -1  
 $EndComp
@@ -403,8 +224,11 @@ U 1 1 602F2DDD
 P 5050 3450
 F 0 "R17" H 5118 3496 50  0000 L CNN
 F 1 "4.7K" H 5118 3405 50  0000 L CNN
-F 2 "" H 5050 3450 50  0001 C CNN
-F 3 "~" H 5050 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5050 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5050 3450 50  0001 C CNN
+F 4 "digikey" H 5050 3450 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70TR-ND" H 5050 3450 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 5050 3450 50  0001 C CNN "Manufacturer part#"
 	1    5050 3450
 	1    0    0    -1  
 $EndComp
@@ -414,8 +238,11 @@ U 1 1 602F33E5
 P 4750 3450
 F 0 "R14" H 4818 3496 50  0000 L CNN
 F 1 "4.7K" H 4818 3405 50  0000 L CNN
-F 2 "" H 4750 3450 50  0001 C CNN
-F 3 "~" H 4750 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4750 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4750 3450 50  0001 C CNN
+F 4 "digikey" H 4750 3450 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70TR-ND" H 4750 3450 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 4750 3450 50  0001 C CNN "Manufacturer part#"
 	1    4750 3450
 	1    0    0    -1  
 $EndComp
@@ -425,8 +252,11 @@ U 1 1 602F38E0
 P 4450 3450
 F 0 "R5" H 4518 3496 50  0000 L CNN
 F 1 "4.7K" H 4518 3405 50  0000 L CNN
-F 2 "" H 4450 3450 50  0001 C CNN
-F 3 "~" H 4450 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4450 3450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4450 3450 50  0001 C CNN
+F 4 "digikey" H 4450 3450 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70TR-ND" H 4450 3450 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 4450 3450 50  0001 C CNN "Manufacturer part#"
 	1    4450 3450
 	1    0    0    -1  
 $EndComp
@@ -498,9 +328,9 @@ Wire Wire Line
 Connection ~ 4450 4400
 Wire Wire Line
 	7050 5000 6500 5000
-Text HLabel 5200 4900 0    50   Output ~ 0
+Text HLabel 5200 4900 0    50   Input ~ 0
 E
-Text HLabel 5200 5000 0    50   Output ~ 0
+Text HLabel 5200 5000 0    50   Input ~ 0
 Q
 $Comp
 L Device:C_Small C37
@@ -508,8 +338,11 @@ U 1 1 6032511D
 P 6500 5400
 F 0 "C37" H 6408 5354 50  0000 R CNN
 F 1 "33pF" H 6408 5445 50  0000 R CNN
-F 2 "" H 6500 5400 50  0001 C CNN
-F 3 "~" H 6500 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6500 5400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa150_en.pdf?ref_disty=digikey" H 6500 5400 50  0001 C CNN
+F 4 "digikey" H 6500 5400 50  0001 C CNN "Vendor"
+F 5 "445-180775-1-ND" H 6500 5400 50  0001 C CNN "Vendor part#"
+F 6 "FA28NP01H330JNU06" H 6500 5400 50  0001 C CNN "Manufacturer part#"
 	1    6500 5400
 	-1   0    0    1   
 $EndComp
@@ -519,8 +352,11 @@ U 1 1 60326637
 P 5950 5400
 F 0 "C38" H 5858 5354 50  0000 R CNN
 F 1 "56pF" H 5858 5445 50  0000 R CNN
-F 2 "" H 5950 5400 50  0001 C CNN
-F 3 "~" H 5950 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5950 5400 50  0001 C CNN
+F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c49e.ashx?la=en-us" H 5950 5400 50  0001 C CNN
+F 4 "digikey" H 5950 5400 50  0001 C CNN "Vendor"
+F 5 "490-9030-1-ND" H 5950 5400 50  0001 C CNN "Vendor part#"
+F 6 "RDE5C1H560J0M1H03A" H 5950 5400 50  0001 C CNN "Manufacturer part#"
 	1    5950 5400
 	-1   0    0    1   
 $EndComp
@@ -554,6 +390,74 @@ Wire Wire Line
 	8050 4600 9800 4600
 Wire Wire Line
 	6500 5000 6500 5300
+$Comp
+L power:GNDS #PWR?
+U 1 1 60456BE4
+P 3900 3250
+AR Path="/602A51A8/60456BE4" Ref="#PWR?"  Part="1" 
+AR Path="/60273794/60456BE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 3000 50  0001 C CNN
+F 1 "GNDS" H 3905 3077 50  0000 C CNN
+F 2 "" H 3900 3250 50  0001 C CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 3900 3250
+$Comp
+L Device:R_Small_US R?
+U 1 1 60456BEB
+P 3900 2650
+AR Path="/602A51A8/60456BEB" Ref="R?"  Part="1" 
+AR Path="/60273794/60456BEB" Ref="R20"  Part="1" 
+F 0 "R20" H 3968 2696 50  0000 L CNN
+F 1 "100K" H 3968 2605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3900 2650 50  0001 C CNN
+F 3 "~" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2400 3900 2550
+$Comp
+L power:+5V #PWR?
+U 1 1 60456BF3
+P 3900 2400
+AR Path="/602A51A8/60456BF3" Ref="#PWR?"  Part="1" 
+AR Path="/60273794/60456BF3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 2250 50  0001 C CNN
+F 1 "+5V" H 3915 2573 50  0000 C CNN
+F 2 "" H 3900 2400 50  0001 C CNN
+F 3 "" H 3900 2400 50  0001 C CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 60456BFE
+P 3900 3050
+AR Path="/602A51A8/60456BFE" Ref="C?"  Part="1" 
+AR Path="/60273794/60456BFE" Ref="C48"  Part="1" 
+F 0 "C48" H 3988 3096 50  0000 L CNN
+F 1 "1uF" H 3988 3005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3900 3050 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/42052/515d.pdf" H 3900 3050 50  0001 C CNN
+F 4 "digikey" H 3900 3050 50  0001 C CNN "Vendor"
+F 5 "718-2229-ND" H 3900 3050 50  0001 C CNN "Vendor part#"
+F 6 "515D105M050JA6AE3" H 3900 3050 50  0001 C CNN "Manufacturer part#"
+	1    3900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 3900 2850
+Wire Wire Line
+	6550 2850 3900 2850
+Connection ~ 3900 2850
+Wire Wire Line
+	3900 2850 3900 2950
+Wire Wire Line
+	3900 2850 3250 2850
 Wire Bus Line
 	6700 2600 6700 3300
 Wire Bus Line
