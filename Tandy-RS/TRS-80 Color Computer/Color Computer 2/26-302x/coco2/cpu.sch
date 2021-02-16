@@ -198,7 +198,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5450 7550 5450
 Connection ~ 7550 5450
-Text HLabel 3250 2850 0    50   Output ~ 0
+Text HLabel 3250 2850 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
 	7050 3600 6550 3600
@@ -328,9 +328,9 @@ Wire Wire Line
 Connection ~ 4450 4400
 Wire Wire Line
 	7050 5000 6500 5000
-Text HLabel 5200 4900 0    50   Output ~ 0
+Text HLabel 5200 4900 0    50   Input ~ 0
 E
-Text HLabel 5200 5000 0    50   Output ~ 0
+Text HLabel 5200 5000 0    50   Input ~ 0
 Q
 $Comp
 L Device:C_Small C37

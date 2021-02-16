@@ -807,7 +807,7 @@ Wire Wire Line
 	5250 4650 1050 4650
 Wire Wire Line
 	5250 4650 5250 3200
-Text HLabel 1500 6550 0    50   Input ~ 0
+Text HLabel 1500 6550 0    50   Output ~ 0
 ~RESET
 Wire Wire Line
 	1500 6550 4100 6550
