@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 3
+Sheet 3 6
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -684,10 +684,10 @@ Connection ~ 4650 5850
 Wire Wire Line
 	5000 5850 4650 5850
 $Comp
-L power:GNDS #PWR?
+L power:GNDS #PWR0106
 U 1 1 6040358F
 P 4650 6300
-F 0 "#PWR?" H 4650 6050 50  0001 C CNN
+F 0 "#PWR0106" H 4650 6050 50  0001 C CNN
 F 1 "GNDS" H 4655 6127 50  0000 C CNN
 F 2 "" H 4650 6300 50  0001 C CNN
 F 3 "" H 4650 6300 50  0001 C CNN
@@ -722,10 +722,10 @@ Wire Wire Line
 Wire Wire Line
 	4100 5450 4100 5550
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0107
 U 1 1 604035A5
 P 4100 5450
-F 0 "#PWR?" H 4100 5300 50  0001 C CNN
+F 0 "#PWR0107" H 4100 5300 50  0001 C CNN
 F 1 "+5V" H 4115 5623 50  0000 C CNN
 F 2 "" H 4100 5450 50  0001 C CNN
 F 3 "" H 4100 5450 50  0001 C CNN
@@ -838,7 +838,7 @@ Cassette_Motor_In_TTL
 Text HLabel 6150 5000 0    50   Output ~ 0
 Cassette_Motor_Out
 Text HLabel 6150 4100 0    50   Output ~ 0
-Serial_Data_Out_TTL
+Serial_Data_Out_RS232
 Text HLabel 8400 4400 2    50   Input ~ 0
 Serial_Data_In
 Text HLabel 8400 4700 2    50   Output ~ 0
@@ -859,4 +859,28 @@ Wire Wire Line
 	8550 3800 8550 4150
 Wire Wire Line
 	8550 4150 8650 4150
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 603AF7ED
+P 5050 2900
+F 0 "#FLG0102" H 5050 2975 50  0001 C CNN
+F 1 "PWR_FLAG" H 5050 3073 50  0000 C CNN
+F 2 "" H 5050 2900 50  0001 C CNN
+F 3 "~" H 5050 2900 50  0001 C CNN
+	1    5050 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 2900
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 603B147E
+P 5250 3200
+F 0 "#FLG0103" H 5250 3275 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 3373 50  0000 C CNN
+F 2 "" H 5250 3200 50  0001 C CNN
+F 3 "~" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 3200
 $EndSCHEMATC

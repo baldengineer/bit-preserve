@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name coco2)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/coco2.lib)(options "")(descr ""))
+  (lib (name Memory_ROM_Tandy)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/Memory_ROM_Tandy.lib)(options "")(descr ""))
+  (lib (name Memory_Controller_Motorola)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/Memory_Controller_Motorola.lib)(options "")(descr ""))
+  (lib (name Memory_RAM_Motorola)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/Memory_RAM_Motorola.lib)(options "")(descr ""))
 )

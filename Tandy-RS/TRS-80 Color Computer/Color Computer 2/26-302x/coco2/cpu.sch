@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 2 6
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -171,8 +171,6 @@ Entry Wire Line
 	6800 3300 6700 3200
 Entry Wire Line
 	6800 3400 6700 3300
-Wire Bus Line
-	5650 2600 6700 2600
 Text HLabel 5650 2600 0    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
@@ -395,8 +393,8 @@ L power:GNDS #PWR?
 U 1 1 60456BE4
 P 3900 3250
 AR Path="/602A51A8/60456BE4" Ref="#PWR?"  Part="1" 
-AR Path="/60273794/60456BE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 3000 50  0001 C CNN
+AR Path="/60273794/60456BE4" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3900 3000 50  0001 C CNN
 F 1 "GNDS" H 3905 3077 50  0000 C CNN
 F 2 "" H 3900 3250 50  0001 C CNN
 F 3 "" H 3900 3250 50  0001 C CNN
@@ -425,8 +423,8 @@ L power:+5V #PWR?
 U 1 1 60456BF3
 P 3900 2400
 AR Path="/602A51A8/60456BF3" Ref="#PWR?"  Part="1" 
-AR Path="/60273794/60456BF3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3900 2250 50  0001 C CNN
+AR Path="/60273794/60456BF3" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3900 2250 50  0001 C CNN
 F 1 "+5V" H 3915 2573 50  0000 C CNN
 F 2 "" H 3900 2400 50  0001 C CNN
 F 3 "" H 3900 2400 50  0001 C CNN
@@ -458,6 +456,56 @@ Wire Wire Line
 	3900 2850 3900 2950
 Wire Wire Line
 	3900 2850 3250 2850
+Text Label 6900 2700 0    50   ~ 0
+D0
+Text Label 6900 2800 0    50   ~ 0
+D1
+Text Label 6900 2900 0    50   ~ 0
+D2
+Text Label 6900 3000 0    50   ~ 0
+D3
+Text Label 6900 3100 0    50   ~ 0
+D4
+Text Label 6900 3200 0    50   ~ 0
+D5
+Text Label 6900 3300 0    50   ~ 0
+D6
+Text Label 6900 3400 0    50   ~ 0
+D7
+Text Label 8150 2700 0    50   ~ 0
+A0
+Text Label 8150 2800 0    50   ~ 0
+A1
+Text Label 8150 2900 0    50   ~ 0
+A2
+Text Label 8150 3000 0    50   ~ 0
+A3
+Text Label 8150 3100 0    50   ~ 0
+A4
+Text Label 8150 3200 0    50   ~ 0
+A5
+Text Label 8150 3300 0    50   ~ 0
+A6
+Text Label 8150 3400 0    50   ~ 0
+A7
+Text Label 8150 3500 0    50   ~ 0
+A8
+Text Label 8150 3600 0    50   ~ 0
+A9
+Text Label 8150 3700 0    50   ~ 0
+A10
+Text Label 8150 3800 0    50   ~ 0
+A11
+Text Label 8150 3900 0    50   ~ 0
+A12
+Text Label 8150 4000 0    50   ~ 0
+A13
+Text Label 8150 4100 0    50   ~ 0
+A14
+Text Label 8150 4200 0    50   ~ 0
+A15
+Wire Bus Line
+	6700 2600 5650 2600
 Wire Bus Line
 	6700 2600 6700 3300
 Wire Bus Line
