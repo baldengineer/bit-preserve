@@ -78,6 +78,34 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# 555_alt1
+#
+DEF 555_alt1 U 0 40 Y Y 1 F N
+F0 "U" -30 290 60 H V L CNN
+F1 "555_alt1" -270 -660 60 H V L CNN
+F2 "digikey-footprints:DIP-8_W7.62mm" 200 200 60 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" 200 300 60 H I L CNN
+F4 "296-1411-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NE555P" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Clock/Timing - Programmable Timers and Oscillators" 200 700 60 H I L CNN "Family"
+F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/texas-instruments/NE555P/296-1411-5-ND/277057" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC OSC SINGLE TIMER 100KHZ 8-DIP" 200 1000 60 H I L CNN "Description"
+F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -210 240 300 -600 0 1 0 f
+X GND 1 200 -700 100 U 50 50 1 1 W
+X TRIG 2 -360 -500 150 R 50 50 1 1 I
+X OUT 3 450 0 150 L 50 50 1 1 O
+X RESET 4 -360 170 150 R 50 50 1 1 I
+X THRES 6 -360 -400 150 R 50 50 1 1 I
+X DISCH 7 -360 -130 150 R 50 50 1 1 O
+X VCC 8 200 340 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # 6502
 #
 DEF 6502 U 0 40 Y Y 1 F N
@@ -118,6 +146,32 @@ X D3 6 -500 200 200 R 50 50 1 0 I
 X CEP 7 0 -700 200 U 50 50 1 0 I
 X GND 8 450 -400 200 L 50 50 1 0 W
 X ~PE 9 -500 0 200 R 50 50 1 0 I
+ENDDRAW
+ENDDEF
+#
+# 74LS174
+#
+DEF 74LS174 U 0 40 Y Y 6 F N
+F0 "U" 0 180 50 H V C CNN
+F1 "74LS174" 0 -180 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -140 140 140 -130 0 1 0 f
+X ~CLR 1 -190 -100 50 R 25 25 0 1 I L
+X CLK 9 -190 0 50 R 25 25 0 1 I F
+X 1Q 2 190 100 50 L 25 25 1 1 O
+X 1D 3 -190 100 50 R 25 25 1 1 I
+X 2D 4 -190 100 50 R 25 25 2 1 I
+X 2Q 5 190 100 50 L 25 25 2 1 O
+X 3D 6 -190 100 50 R 25 25 3 1 I
+X 3Q 7 190 100 50 L 25 25 3 1 O
+X 3Q 10 190 100 50 L 25 25 4 1 O
+X 3D 11 -190 100 50 R 25 25 4 1 I
+X 3Q 12 190 100 50 L 25 25 5 1 O
+X 3D 13 -190 100 50 R 25 25 5 1 I
+X 3D 14 -190 100 50 R 25 25 6 1 I
+X 3Q 15 190 100 50 L 25 25 6 1 O
 ENDDRAW
 ENDDEF
 #

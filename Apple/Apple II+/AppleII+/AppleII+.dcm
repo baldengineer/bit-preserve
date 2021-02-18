@@ -6,6 +6,12 @@ K 296-1411-5-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
 $ENDCMP
 #
+$CMP 555_alt1
+D IC OSC SINGLE TIMER 100KHZ 8-DIP
+K 296-1411-5-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
+$ENDCMP
+#
 $CMP 74LS160
 D Synchronous 4-bit programmable decimal Counter
 K TTL CNT CNT4
@@ -28,6 +34,10 @@ $CMP 74LS163
 D Synchronous 4-bit programmable binary Counter
 K TTL CNT CNT4
 F http://www.ti.com/lit/gpn/sn74LS163
+$ENDCMP
+#
+$CMP 74LS174
+D SN74LS174 - Hex D-Type Flip-flops
 $ENDCMP
 #
 $CMP 74LS175

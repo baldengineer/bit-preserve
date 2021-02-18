@@ -2475,7 +2475,7 @@ Wire Wire Line
 	2170 6130 2170 6150
 Text GLabel 1520 7150 0    50   Input ~ 0
 ~RAS
-Text GLabel 2920 6250 2    50   Input ~ 0
+Text GLabel 2920 6250 2    50   Output ~ 0
 LD[0..7]
 Entry Wire Line
 	2920 6650 2820 6750
@@ -2533,7 +2533,7 @@ Wire Wire Line
 	4030 7650 4030 7670
 Text GLabel 3380 7150 0    50   Input ~ 0
 ~RAS
-Text GLabel 4780 6250 2    50   Input ~ 0
+Text GLabel 4780 6250 2    50   Output ~ 0
 LD[0..7]
 Entry Wire Line
 	4780 6650 4680 6750
@@ -3334,6 +3334,23 @@ Text GLabel 3380 7350 0    50   Input ~ 0
 SOFT5
 Wire Wire Line
 	3380 7350 3530 7350
+Text Notes 5080 6680 0    50   ~ 0
+LD0..7 = Latched Data bus\nfeeding Video Generator sections
+$Comp
+L power:+5V #PWR?
+U 1 1 603370EE
+P 4030 6110
+AR Path="/6016C232/603370EE" Ref="#PWR?"  Part="1" 
+AR Path="/6039AAB4/603370EE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4030 5960 50  0001 C CNN
+F 1 "+5V" H 3920 6170 50  0000 C CNN
+F 2 "" H 4030 6110 50  0001 C CNN
+F 3 "" H 4030 6110 50  0001 C CNN
+	1    4030 6110
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4030 6110 4030 6150
 Wire Bus Line
 	4780 6250 4780 6750
 Wire Bus Line

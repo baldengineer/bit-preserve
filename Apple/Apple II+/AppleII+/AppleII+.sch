@@ -14,51 +14,51 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 995  995  1080 725 
+S 1000 1000 2000 2000
 U 5FE9FF4D
 F0 "CPU" 50
 F1 "CPU.sch" 50
-F2 "A[0..15]" O R 2075 1100 50 
-F3 "D[0..7]" B R 2075 1230 50 
+F2 "A[0..15]" O R 3000 1105 50 
+F3 "D[0..7]" B R 3000 1235 50 
 $EndSheet
 $Sheet
-S 2340 1000 1090 600 
+S 4000 1000 2000 2000
 U 6024C432
 F0 "ROM" 50
 F1 "ROM.sch" 50
 $EndSheet
 $Sheet
-S 1000 2950 1100 600 
+S 7000 4000 2000 1000
 U 6017A131
 F0 "IO_AddressDecode" 50
 F1 "IO_AddressDecode.sch" 50
 $EndSheet
 $Sheet
-S 1000 4100 1000 750 
+S 4000 6000 2000 1000
 U 600C06CD
 F0 "Disk II Controller" 50
 F1 "DiskIIController.sch" 50
 $EndSheet
 $Sheet
-S 2340 1990 990  600 
+S 4000 4000 2000 1000
 U 6039AAB4
 F0 "RAM" 50
 F1 "RAM.sch" 50
 $EndSheet
 $Sheet
-S 2340 2940 1100 700 
+S 1000 6000 2000 1000
 U 6016CDE0
 F0 "Clock Generation" 50
 F1 "ClockGen.sch" 50
 $EndSheet
 $Sheet
-S 1000 1990 990  700 
+S 1000 4000 2000 1000
 U 60210F9E
 F0 "RAM Address Multiplexing" 50
 F1 "RAMAddressMux.sch" 50
 $EndSheet
 $Sheet
-S 4000 1000 2000 1000
+S 6990 1000 2000 2000
 U 632BF564
 F0 "Video Generation" 50
 F1 "Video Gen.sch" 50
