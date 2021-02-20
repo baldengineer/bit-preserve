@@ -21,9 +21,10 @@ Initial capture no complete. The entire Apple II+ Autostart ROM schematic, is re
 ### Issues
  1) Connector references are missing from schematic, check on board pictures
  2) Move Disk II Controller schematic to its own project file set and move it to its own folder/section in BitPreserve
+ 3) Check changes from Apple II to Apple II+ schematics from online documentation and document the schematic with the correct designation
 
 ## Sources
-Apple II+ Reference Manual (Apple product number A2:0001A - 030-004-01
+Apple II Reference Manual (Apple product number A2:0001A - 030-004-01
 
 
 ### Schematic

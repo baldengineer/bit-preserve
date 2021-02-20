@@ -12,6 +12,12 @@ K 296-1411-5-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fne555
 $ENDCMP
 #
+$CMP 74LS151
+D Multiplexer 8 to 1
+K TTL MUX8
+F http://www.ti.com/lit/gpn/sn74LS151
+$ENDCMP
+#
 $CMP 74LS160
 D Synchronous 4-bit programmable decimal Counter
 K TTL CNT CNT4
@@ -44,6 +50,12 @@ $CMP 74LS175
 D 4-bit D Flip-Flop, reset
 K TTL REG REG4 DFF
 F http://www.ti.com/lit/gpn/sn74LS175
+$ENDCMP
+#
+$CMP 74LS194
+D Shift Register 4-bit Bidirectional
+K TTL RS SR4
+F http://www.ti.com/lit/gpn/sn74LS194
 $ENDCMP
 #
 $CMP MC6800
