@@ -1,4 +1,4 @@
-18691728245483187
+18693342076860825
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48695,6 +48695,13 @@ Crystal
 Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm
 Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins
 THT ceramic resonator filter DSS6
+0
+3
+3
+Crystal_coco2
+Crystal_HC49-U_Horizontal
+Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf
+THT crystal
 0
 3
 3

@@ -220,9 +220,9 @@ A[0..12]
 Wire Wire Line
 	3900 4550 2850 4550
 Text HLabel 2850 4550 0    50   Input ~ 0
-CE_BASIC
+~CS_BASIC
 Text HLabel 6100 4550 0    50   Input ~ 0
-CE_EXTENDED_BASIC
+~CS_EXTENDED_BASIC
 Wire Wire Line
 	6100 4550 6600 4550
 $Comp
