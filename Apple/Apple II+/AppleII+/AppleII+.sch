@@ -34,12 +34,6 @@ F0 "IO_AddressDecode" 50
 F1 "IO_AddressDecode.sch" 50
 $EndSheet
 $Sheet
-S 4000 6000 2000 1000
-U 600C06CD
-F0 "Disk II Controller" 50
-F1 "DiskIIController.sch" 50
-$EndSheet
-$Sheet
 S 4000 4000 2000 1000
 U 6039AAB4
 F0 "RAM" 50
@@ -62,5 +56,11 @@ S 6990 1000 2000 2000
 U 632BF564
 F0 "Video Generation" 50
 F1 "Video Gen.sch" 50
+$EndSheet
+$Sheet
+S 4000 6000 2000 1000
+U 60408BD1
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
 $EndSheet
 $EndSCHEMATC
