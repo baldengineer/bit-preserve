@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 6
+Sheet 1 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -13,40 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 "Kicad schematic capture by Rocky Hill"
 $EndDescr
-$Sheet
-S 3550 2100 1200 1600
-U 60273794
-F0 "cpu" 50
-F1 "cpu.sch" 50
-F2 "~NMI" I L 3550 2400 50 
-F3 "~IRQ" I L 3550 3200 50 
-F4 "~FIRQ" I L 3550 3300 50 
-F5 "~HALT" I L 3550 2300 50 
-F6 "R~W" O R 4750 2400 50 
-F7 "~RESET" I L 3550 2150 50 
-F8 "E" I L 3550 2550 50 
-F9 "Q" I L 3550 2650 50 
-F10 "A[0..15]" O R 4750 2200 50 
-F11 "D[0..7]" B R 4750 2300 50 
-$EndSheet
-$Sheet
-S 1750 2100 1250 3100
-U 602A51A8
-F0 "power" 50
-F1 "power.sch" 50
-F2 "VDGCLK" I L 1750 2150 50 
-F3 "Serial_Data_In_RS232" I L 1750 2350 50 
-F4 "Carrier_Detect_In_RS232" I L 1750 2450 50 
-F5 "Cassette_Data_in" I L 1750 2550 50 
-F6 "Cassette_Motor_In_TTL" I L 1750 2650 50 
-F7 "Cassette_Motor_Out" O R 3000 2950 50 
-F8 "Serial_Data_Out_TTL" O R 3000 3100 50 
-F9 "Serial_Data_In" I L 1750 3250 50 
-F10 "Cassette_Data_Out_TTL" O R 3000 3450 50 
-F11 "Carrier_Detect_Out_TTL" O R 3000 3550 50 
-F12 "~RESET" O R 3000 2150 50 
-F13 "Serial_Data_Out_RS232" O R 3000 3650 50 
-$EndSheet
 $Sheet
 S 7850 2900 950  800 
 U 603E4732
@@ -76,15 +42,11 @@ Wire Bus Line
 Wire Bus Line
 	5350 1900 5350 2300
 Wire Bus Line
-	5350 2300 5500 2300
-Wire Bus Line
 	5350 1900 7400 1900
 Wire Bus Line
 	7850 1800 5250 1800
 Wire Bus Line
 	5250 1800 5250 2200
-Wire Bus Line
-	5250 2200 5500 2200
 Wire Wire Line
 	6850 3200 7850 3200
 Wire Wire Line
@@ -92,61 +54,516 @@ Wire Wire Line
 Wire Wire Line
 	6850 3400 7850 3400
 Wire Bus Line
-	6850 3100 7850 3100
-Wire Bus Line
 	7850 2950 7400 2950
 Wire Bus Line
 	7400 2950 7400 1900
 Connection ~ 7400 1900
 Wire Bus Line
 	7400 1900 7850 1900
-Wire Bus Line
-	4750 2200 5250 2200
-Connection ~ 5250 2200
-Wire Bus Line
-	5350 2300 4750 2300
-Connection ~ 5350 2300
 Wire Wire Line
-	4750 2400 5500 2400
-Wire Wire Line
-	3000 2150 3550 2150
-Wire Bus Line
-	7850 3500 6850 3500
-$Sheet
-S 5500 2100 1350 2450
-U 603D345E
-F0 "sam" 50
-F1 "sam.sch" 50
-F2 "MA[0..7]" O R 6850 3100 50 
-F3 "~RAS" O R 6850 3400 50 
-F4 "~CAS" O R 6850 3300 50 
-F5 "~WE" O R 6850 3200 50 
-F6 "E" O R 6850 4150 50 
-F7 "Q" O R 6850 4250 50 
-F8 "VDGCLK" O R 6850 4000 50 
-F9 "DA0" I L 5500 4200 50 
-F10 "~HS" I L 5500 4300 50 
-F11 "R~W" I L 5500 2400 50 
-F12 "~SLENB" I L 5500 4400 50 
-F13 "~CS_BASIC" O R 6850 2150 50 
-F14 "~CS_EXTENDED_BASIC" O R 6850 2250 50 
-F15 "~CS_PIA0" O R 6850 3800 50 
-F16 "~CS_PIA1" O R 6850 3900 50 
-F17 "~CTS" O R 6850 4350 50 
-F18 "~SCS" O R 6850 4450 50 
-F19 "D[0..7]" B L 5500 2300 50 
-F20 "MD[0..7]" I R 6850 3500 50 
-F21 "DD[0..]" O R 6850 4100 50 
-F22 "A[0..15]" I L 5500 2200 50 
-$EndSheet
-Wire Wire Line
-	1750 2150 1400 2150
-Wire Wire Line
-	1400 2150 1400 1350
-Wire Wire Line
-	1400 1350 9150 1350
+	4750 2400 5000 2400
 Wire Wire Line
 	9150 1350 9150 4000
 Wire Wire Line
 	9150 4000 6850 4000
+$Sheet
+S 1400 2100 1250 3100
+U 602A51A8
+F0 "power" 50
+F1 "power.sch" 50
+F2 "VDGCLK" I L 1400 2150 50 
+F3 "Serial_Data_In_RS232" I L 1400 2350 50 
+F4 "Carrier_Detect_In_RS232" I L 1400 2450 50 
+F5 "Cassette_Data_in" I L 1400 2550 50 
+F6 "Cassette_Motor_In_TTL" I L 1400 2650 50 
+F7 "Cassette_Motor_Out" O R 2650 2950 50 
+F8 "Serial_Data_Out_TTL" O R 2650 3100 50 
+F9 "Serial_Data_In" I L 1400 3250 50 
+F10 "Cassette_Data_Out_TTL" O R 2650 3450 50 
+F11 "Carrier_Detect_Out_TTL" O R 2650 3550 50 
+F12 "~RESET" O R 2650 2150 50 
+F13 "Serial_Data_Out_RS232" O R 2650 3650 50 
+$EndSheet
+Wire Wire Line
+	1050 2150 1050 1350
+Wire Wire Line
+	1400 2150 1050 2150
+$Sheet
+S 3550 2100 1200 1600
+U 60273794
+F0 "cpu" 50
+F1 "cpu.sch" 50
+F2 "~NMI" I L 3550 2400 50 
+F3 "~IRQ" I L 3550 3200 50 
+F4 "~FIRQ" I L 3550 3300 50 
+F5 "~HALT" I L 3550 2300 50 
+F6 "R~W" O R 4750 2400 50 
+F7 "~RESET" I L 3550 2150 50 
+F8 "E" I L 3550 2550 50 
+F9 "Q" I L 3550 2650 50 
+F10 "A[0..15]" O R 4750 2200 50 
+F11 "D[0..7]" B R 4750 2300 50 
+$EndSheet
+Wire Wire Line
+	4950 7800 5100 7800
+Text Label 4300 6000 2    50   ~ 0
+~HALT
+Wire Wire Line
+	4450 6000 4300 6000
+Text Label 4300 6100 2    50   ~ 0
+~RESET
+Wire Wire Line
+	4450 6100 4300 6100
+Text Label 4300 6200 2    50   ~ 0
+Q
+Wire Wire Line
+	4450 6200 4300 6200
+Text Label 4300 6500 2    50   ~ 0
+D3
+Text Label 4300 6600 2    50   ~ 0
+D5
+Text Label 4300 6700 2    50   ~ 0
+D7
+Text Label 4300 6800 2    50   ~ 0
+A0
+Text Label 4300 6900 2    50   ~ 0
+A2
+Text Label 4300 7000 2    50   ~ 0
+A4
+Text Label 4300 7100 2    50   ~ 0
+A6
+Text Label 4300 7200 2    50   ~ 0
+A8
+Text Label 4300 7300 2    50   ~ 0
+A10
+Text Label 4300 7400 2    50   ~ 0
+A12
+Wire Wire Line
+	4450 7600 4300 7600
+Text Label 4300 7700 2    50   ~ 0
+A13
+Text Label 4300 7800 2    50   ~ 0
+A15
+Text Label 5100 7800 0    50   ~ 0
+~SLENB
+Text Label 5100 7700 0    50   ~ 0
+A14
+Text Label 5100 7600 0    50   ~ 0
+~SCS
+Wire Wire Line
+	4950 7600 5100 7600
+Text Label 5100 7400 0    50   ~ 0
+~CTS
+Wire Wire Line
+	4950 7400 5100 7400
+Text Label 5100 7300 0    50   ~ 0
+A11
+Text Label 5100 7200 0    50   ~ 0
+A9
+Text Label 5100 7100 0    50   ~ 0
+A7
+Text Label 5100 7000 0    50   ~ 0
+A5
+Text Label 5100 6900 0    50   ~ 0
+A3
+Text Label 5100 6600 0    50   ~ 0
+D6
+Text Label 5100 6500 0    50   ~ 0
+D4
+Text Label 5100 6400 0    50   ~ 0
+D2
+Wire Wire Line
+	4950 6200 5100 6200
+Text Label 5100 6100 0    50   ~ 0
+E
+Wire Wire Line
+	4950 6100 5100 6100
+Text Label 5100 6000 0    50   ~ 0
+~NMI
+Wire Wire Line
+	4950 6000 5100 6000
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J6
+U 1 1 608C28B7
+P 4650 6800
+F 0 "J6" H 4700 7800 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 4700 5700 50  0000 C CNN
+F 2 "" H 4650 6800 50  0001 C CNN
+F 3 "~" H 4650 6800 50  0001 C CNN
+	1    4650 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2150 3050 2150
+Wire Wire Line
+	1050 1350 9150 1350
+Text Label 3150 2300 0    50   ~ 0
+~HALT
+Wire Wire Line
+	3550 2300 3150 2300
+Text Label 3150 2400 0    50   ~ 0
+~NMI
+Text Label 3150 2550 0    50   ~ 0
+E
+Text Label 3150 2650 0    50   ~ 0
+Q
+Wire Wire Line
+	3150 2400 3550 2400
+Wire Wire Line
+	3550 2550 3150 2550
+Wire Wire Line
+	3150 2650 3550 2650
+Text Label 3050 1950 1    50   ~ 0
+~RESET
+Wire Wire Line
+	3050 1950 3050 2150
+Connection ~ 3050 2150
+Wire Wire Line
+	3050 2150 3550 2150
+$Comp
+L power:+5V #PWR?
+U 1 1 6093BFF7
+P 3700 5450
+AR Path="/60273794/6093BFF7" Ref="#PWR?"  Part="1" 
+AR Path="/6093BFF7" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 3700 5300 50  0001 C CNN
+F 1 "+5V" H 3715 5623 50  0000 C CNN
+F 2 "" H 3700 5450 50  0001 C CNN
+F 3 "" H 3700 5450 50  0001 C CNN
+	1    3700 5450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6093C001
+P 4200 5550
+AR Path="/60273794/6093C001" Ref="C?"  Part="1" 
+AR Path="/6093C001" Ref="C40"  Part="1" 
+F 0 "C40" V 4050 5600 50  0000 C CNN
+F 1 ".1uF" V 4300 5550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4200 5550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4200 5550 50  0001 C CNN
+F 4 "digikey" V 4200 5550 50  0001 C CNN "Vendor"
+F 5 "1109PHTR-ND" V 4200 5550 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 4200 5550 50  0001 C CNN "Manufacturerer part #"
+	1    4200 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 6400 5750 6400
+Wire Wire Line
+	4950 6500 5750 6500
+Wire Wire Line
+	4950 6600 5750 6600
+Entry Wire Line
+	3650 6400 3550 6300
+Entry Wire Line
+	3650 6500 3550 6400
+Wire Wire Line
+	3650 6500 4450 6500
+Entry Wire Line
+	3650 6600 3550 6500
+Wire Wire Line
+	3650 6600 4450 6600
+Entry Wire Line
+	3650 6700 3550 6600
+Wire Wire Line
+	3650 6700 4450 6700
+Wire Wire Line
+	5950 6700 5950 5450
+Wire Wire Line
+	5000 5450 5000 2400
+Connection ~ 5000 2400
+Wire Wire Line
+	5000 2400 5500 2400
+Wire Wire Line
+	3550 6800 4450 6800
+Entry Wire Line
+	3450 6700 3550 6800
+Entry Wire Line
+	3450 6800 3550 6900
+Wire Wire Line
+	3550 6900 4450 6900
+Entry Wire Line
+	3450 6900 3550 7000
+Wire Wire Line
+	3550 7000 4450 7000
+Entry Wire Line
+	3450 7000 3550 7100
+Wire Wire Line
+	3550 7100 4450 7100
+Entry Wire Line
+	3450 7100 3550 7200
+Wire Wire Line
+	3550 7200 4450 7200
+Entry Wire Line
+	3450 7200 3550 7300
+Wire Wire Line
+	3550 7300 4450 7300
+Entry Wire Line
+	3450 7300 3550 7400
+Wire Wire Line
+	3550 7400 4450 7400
+Entry Wire Line
+	3450 7300 3550 7400
+Entry Wire Line
+	3450 7600 3550 7700
+Wire Wire Line
+	3550 7700 4450 7700
+Entry Wire Line
+	3450 7700 3550 7800
+Entry Wire Line
+	5850 6800 5950 6900
+Entry Wire Line
+	5850 6900 5950 7000
+Entry Wire Line
+	5850 7000 5950 7100
+Entry Wire Line
+	5850 7100 5950 7200
+Entry Wire Line
+	5850 7200 5950 7300
+Entry Wire Line
+	5850 7300 5950 7400
+Entry Wire Line
+	5850 7700 5950 7800
+Wire Wire Line
+	5000 5450 5950 5450
+Wire Wire Line
+	4950 6700 5950 6700
+Wire Wire Line
+	5850 7000 4950 7000
+Wire Wire Line
+	4950 7100 5850 7100
+Wire Wire Line
+	5850 7200 4950 7200
+Wire Wire Line
+	4950 7300 5850 7300
+Wire Wire Line
+	5850 7700 4950 7700
+Text Label 7300 4550 2    50   ~ 0
+E
+Text Label 7300 4650 2    50   ~ 0
+Q
+Wire Wire Line
+	6900 4550 7300 4550
+Wire Wire Line
+	7300 4650 6900 4650
+Text Label 7250 4750 0    50   ~ 0
+~CTS
+Text Label 7250 4850 0    50   ~ 0
+~SCS
+Text Label 7250 4450 0    50   ~ 0
+~SLENB
+Wire Wire Line
+	7250 4450 6900 4450
+Wire Wire Line
+	7250 4750 6900 4750
+Wire Wire Line
+	6900 4850 7250 4850
+$Comp
+L power:GNDS #PWR?
+U 1 1 60A1FE63
+P 3750 7550
+AR Path="/602A51A8/60A1FE63" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60A1FE63" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60A1FE63" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60A1FE63" Ref="#PWR?"  Part="1" 
+AR Path="/60A1FE63" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 3750 7300 50  0001 C CNN
+F 1 "GNDS" H 3600 7500 50  0000 C CNN
+F 2 "" H 3750 7550 50  0001 C CNN
+F 3 "" H 3750 7550 50  0001 C CNN
+	1    3750 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7500 3750 7550
+Wire Wire Line
+	3750 7500 4450 7500
+$Comp
+L power:GNDS #PWR?
+U 1 1 60A24DD1
+P 5650 7550
+AR Path="/602A51A8/60A24DD1" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60A24DD1" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60A24DD1" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60A24DD1" Ref="#PWR?"  Part="1" 
+AR Path="/60A24DD1" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 5650 7300 50  0001 C CNN
+F 1 "GNDS" H 5500 7500 50  0000 C CNN
+F 2 "" H 5650 7550 50  0001 C CNN
+F 3 "" H 5650 7550 50  0001 C CNN
+	1    5650 7550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7550 5650 7500
+Wire Wire Line
+	4950 7500 5650 7500
+$Comp
+L power:GNDS #PWR?
+U 1 1 60A3AC34
+P 5700 5950
+AR Path="/602A51A8/60A3AC34" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60A3AC34" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60A3AC34" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60A3AC34" Ref="#PWR?"  Part="1" 
+AR Path="/60A3AC34" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 5700 5700 50  0001 C CNN
+F 1 "GNDS" H 5700 5800 50  0000 C CNN
+F 2 "" H 5700 5950 50  0001 C CNN
+F 3 "" H 5700 5950 50  0001 C CNN
+	1    5700 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5950 5700 5900
+Wire Wire Line
+	4950 5900 5700 5900
+$Comp
+L power:GNDS #PWR?
+U 1 1 60A48794
+P 3900 5950
+AR Path="/602A51A8/60A48794" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60A48794" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60A48794" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60A48794" Ref="#PWR?"  Part="1" 
+AR Path="/60A48794" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 3900 5700 50  0001 C CNN
+F 1 "GNDS" H 3900 5800 50  0000 C CNN
+F 2 "" H 3900 5950 50  0001 C CNN
+F 3 "" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5900 3900 5950
+Wire Wire Line
+	3900 5900 4400 5900
+Wire Wire Line
+	3700 6300 3700 5550
+Wire Wire Line
+	3700 6300 4450 6300
+Wire Wire Line
+	4100 5550 3700 5550
+Connection ~ 3700 5550
+Wire Wire Line
+	3700 5550 3700 5450
+Wire Wire Line
+	4300 5550 4400 5550
+Wire Wire Line
+	4400 5550 4400 5900
+Connection ~ 4400 5900
+Wire Wire Line
+	4400 5900 4450 5900
+Wire Wire Line
+	4950 6900 5850 6900
+Wire Bus Line
+	3550 5150 4900 5150
+Wire Bus Line
+	4900 5150 4900 5550
+Wire Bus Line
+	4900 5550 5850 5550
+Text Label 4300 6400 2    50   ~ 0
+D1
+Wire Wire Line
+	3650 6400 4450 6400
+Connection ~ 4900 5150
+Wire Bus Line
+	4900 5150 4900 2300
+Entry Wire Line
+	5750 6600 5850 6500
+Entry Wire Line
+	5750 6500 5850 6400
+Entry Wire Line
+	5750 6400 5850 6300
+Wire Bus Line
+	7850 3500 6900 3500
+Wire Bus Line
+	6900 3100 7850 3100
+Connection ~ 5250 2200
+Wire Bus Line
+	5250 2200 5500 2200
+Wire Bus Line
+	4750 2300 4900 2300
+Connection ~ 4900 2300
+Connection ~ 5350 2300
+Wire Bus Line
+	5350 2300 5500 2300
+Wire Bus Line
+	4750 2200 4800 2200
+Wire Bus Line
+	4800 2200 4800 5050
+Connection ~ 4800 2200
+Wire Bus Line
+	4800 2200 5250 2200
+Wire Wire Line
+	5850 6800 4950 6800
+Text Label 5100 6800 0    50   ~ 0
+A1
+$Sheet
+S 5500 2100 1400 2800
+U 603D345E
+F0 "sam" 50
+F1 "sam.sch" 50
+F2 "MA[0..7]" O R 6900 3100 50 
+F3 "~RAS" O R 6900 3400 50 
+F4 "~CAS" O R 6900 3300 50 
+F5 "~WE" O R 6900 3200 50 
+F6 "E" O R 6900 4550 50 
+F7 "Q" O R 6900 4650 50 
+F8 "VDGCLK" O R 6900 4000 50 
+F9 "DA0" I R 6900 4350 50 
+F10 "~HS" I R 6900 4250 50 
+F11 "R~W" I L 5500 2400 50 
+F12 "~SLENB" I R 6900 4450 50 
+F13 "~CS_BASIC" O R 6900 2150 50 
+F14 "~CS_EXTENDED_BASIC" O R 6900 2250 50 
+F15 "~CS_PIA0" O R 6900 3800 50 
+F16 "~CS_PIA1" O R 6900 3900 50 
+F17 "~CTS" O R 6900 4750 50 
+F18 "~SCS" O R 6900 4850 50 
+F19 "D[0..7]" B L 5500 2300 50 
+F20 "MD[0..7]" I R 6900 3500 50 
+F21 "DD[0..]" O R 6900 4100 50 
+F22 "A[0..15]" I L 5500 2200 50 
+$EndSheet
+Text Label 5100 6300 0    50   ~ 0
+D0
+Wire Wire Line
+	4950 6300 5750 6300
+Entry Wire Line
+	5750 6300 5850 6200
+Wire Bus Line
+	4900 2300 5350 2300
+Wire Bus Line
+	4800 5050 3450 5050
+Text Label 3800 5050 0    50   ~ 0
+A[0..15]
+Text Label 4900 5550 2    50   ~ 0
+D[0..7]
+Wire Wire Line
+	4450 7800 3550 7800
+Wire Bus Line
+	5850 5550 5850 6500
+Wire Bus Line
+	3550 5150 3550 6600
+Wire Bus Line
+	3450 5050 3450 8000
+Wire Bus Line
+	5950 8000 3450 8000
+Wire Bus Line
+	5950 6900 5950 8000
+$Sheet
+S 1450 6100 1200 1200
+U 603CF7B8
+F0 "peripherals" 50
+F1 "peripherals.sch" 50
+$EndSheet
+$Sheet
+S 7750 5400 850  850 
+U 603D560B
+F0 "video" 50
+F1 "video.sch" 50
+$EndSheet
 $EndSCHEMATC
