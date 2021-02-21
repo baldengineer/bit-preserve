@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
-Title "Apple II+ Schematic"
+Title "Apple II Schematic"
 Date ""
 Rev "0"
 Comp ""
@@ -29,21 +29,10 @@ L power:+5V #PWR0102
 U 1 1 5FEB7447
 P 7990 1180
 F 0 "#PWR0102" H 7990 1030 50  0001 C CNN
-F 1 "+5V" H 8005 1353 50  0000 C CNN
+F 1 "+5V" H 7890 1570 50  0000 C CNN
 F 2 "" H 7990 1180 50  0001 C CNN
 F 3 "" H 7990 1180 50  0001 C CNN
 	1    7990 1180
-	1    0    0    -1  
-$EndComp
-$Comp
-L AppleII+:MOS6502 U3
-U 1 1 5FEA2C1D
-P 7990 2640
-F 0 "U3" H 8340 4050 50  0000 C CNN
-F 1 "MOS6502" H 8220 3980 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 7990 1140 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/MC68A00L.pdf" H 7990 2640 50  0001 C CNN
-	1    7990 2640
 	1    0    0    -1  
 $EndComp
 Text GLabel 6170 2250 0    50   Input ~ 0
@@ -507,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 4290 10490 4290
 $Comp
-L AppleII+:8T97 H5
+L AppleII:8T97 H5
 U 1 1 60056C39
 P 9770 1820
 F 0 "H5" H 9820 2280 50  0000 C CNN
@@ -645,7 +634,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 7020 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AppleII+:8T28 H11
+L AppleII:8T28 H11
 U 1 1 6006D96A
 P 4470 1700
 F 0 "H11" H 4480 890 50  0000 C CNN
@@ -656,7 +645,7 @@ F 3 "" H 4470 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L AppleII+:8T28 H10
+L AppleII:8T28 H10
 U 1 1 60075353
 P 4470 3300
 F 0 "H10" H 4480 2490 50  0000 C CNN
@@ -1552,6 +1541,17 @@ Wire Wire Line
 	7480 6390 7480 6360
 Wire Wire Line
 	7480 4430 7480 4460
+$Comp
+L AppleII:MOS6502 U3
+U 1 1 60383B3B
+P 7990 2640
+F 0 "U3" H 8340 4050 50  0000 C CNN
+F 1 "MOS6502" H 8220 3980 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 7990 1140 50  0001 C CNN
+F 3 "" H 7990 2640 50  0001 C CNN
+	1    7990 2640
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8180 4560 8180 5560
 Wire Bus Line

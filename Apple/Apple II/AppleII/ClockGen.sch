@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
-Title "Apple II+ Schematic"
+Title "Apple II Schematic"
 Date ""
 Rev "0"
 Comp ""
@@ -1239,6 +1239,10 @@ Wire Wire Line
 	9630 4910 9720 4910
 Text Notes 9330 4480 0    50   ~ 0
 C1 Signals from RAM\naddress decoding
+Text GLabel 10790 4610 2    50   Output ~ 0
+MemSelE1
+Wire Wire Line
+	10790 4610 10720 4610
 Text Notes 5850 6860 0    50   ~ 0
 Horizontal Video Address
 Text Notes 4130 2270 2    50   ~ 0
@@ -1251,30 +1255,10 @@ Wire Notes Line
 	4120 2290 4120 2020
 Wire Notes Line
 	3310 2020 4120 2020
-Text GLabel 10950 4610 2    50   Output ~ 0
-CRA6
-Text GLabel 10950 4710 2    50   Output ~ 0
-DRA6
-Text GLabel 10950 4810 2    50   Output ~ 0
-ERA6
-Wire Wire Line
-	10800 4710 10950 4710
-Wire Wire Line
-	10800 4810 10950 4810
-Wire Wire Line
-	10720 4610 10800 4610
-Wire Wire Line
-	10800 4610 10800 4710
-Connection ~ 10800 4610
-Wire Wire Line
-	10800 4610 10950 4610
-Wire Wire Line
-	10800 4810 10800 4710
 Wire Bus Line
 	5910 2770 5910 4910
 Wire Bus Line
 	5780 4610 5780 6700
 Wire Bus Line
 	5790 870  5790 3180
-Connection ~ 10800 4710
 $EndSCHEMATC

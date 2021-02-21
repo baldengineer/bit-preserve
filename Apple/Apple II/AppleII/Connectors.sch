@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
-Title "Apple II+ Schematic"
+Title "Apple II Schematic"
 Date ""
 Rev "0"
 Comp ""
