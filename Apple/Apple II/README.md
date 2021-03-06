@@ -22,7 +22,8 @@ Initial capture complete. The entire Apple II Autostart ROM schematic is represe
  2) Resolve duplicated component references from original schematic (Capacitor C1 and chip C1).
 
 ## Sources
-Apple II Reference Manual (Apple product number A2:0001A - 030-004-01
+Apple II Reference Manual (Apple product number A2:0001A - 030-004-01)
+Apple II 'The Red Book' Reference Manual Jan. 1978 (available from https://downloads.reactivemicro.com/Apple%20II%20Items/Documentation/Manuals/)
 The Apple II Circuit Description by Winston D. Gayler
 Understanding the Apple II by Jim Sather
 
