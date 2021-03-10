@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BBC)(type Legacy)(uri ${KIPRJMOD}/BBC.lib)(options "")(descr ""))
+)
