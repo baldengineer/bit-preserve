@@ -814,248 +814,123 @@ Text HLabel 8300 5700 2    50   Output ~ 0
 ~SCS
 Wire Wire Line
 	7800 5700 8300 5700
-$Comp
-L 74xx:74LS273 U5
-U 1 1 60414C4C
-P 9200 1750
-F 0 "U5" H 9350 2400 50  0000 C CNN
-F 1 "74LS273" H 8900 2400 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9200 1750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 9200 1750 50  0001 C CNN
-F 4 "digikey" H 9200 1750 50  0001 C CNN "Vendor"
-F 5 "296-1657-5-ND" H 9200 1750 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS273N" H 9200 1750 50  0001 C CNN "Manufacturer part#"
-	1    9200 1750
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	9950 1250 10050 1150
-Entry Wire Line
-	9950 1350 10050 1250
-Entry Wire Line
-	9950 1450 10050 1350
-Entry Wire Line
-	9950 1550 10050 1450
-Entry Wire Line
-	9950 1650 10050 1550
-Entry Wire Line
-	9950 1750 10050 1650
-Entry Wire Line
-	9950 1850 10050 1750
-Entry Wire Line
-	9950 1950 10050 1850
-Wire Wire Line
-	9950 1250 9700 1250
-Wire Wire Line
-	9700 1350 9950 1350
-Wire Wire Line
-	9950 1450 9700 1450
-Wire Wire Line
-	9700 1550 9950 1550
-Wire Wire Line
-	9950 1650 9700 1650
-Wire Wire Line
-	9700 1750 9950 1750
-Wire Wire Line
-	9950 1850 9700 1850
-Wire Wire Line
-	9700 1950 9950 1950
-Text Label 9850 1250 2    50   ~ 0
-DD4
-Text Label 9850 1350 2    50   ~ 0
-DD5
-Text Label 9850 1450 2    50   ~ 0
-DD6
-Text Label 9850 1550 2    50   ~ 0
-DD7
-Text Label 9850 1650 2    50   ~ 0
-DD0
-Text Label 9850 1750 2    50   ~ 0
-DD1
-Text Label 9850 1850 2    50   ~ 0
-DD2
-Text Label 9850 1950 2    50   ~ 0
-DD3
-Text Label 9850 4100 2    50   ~ 0
+Text Label 9850 2500 2    50   ~ 0
 D0
-Text Label 9850 4000 2    50   ~ 0
+Text Label 9850 2400 2    50   ~ 0
 D1
-Text Label 9850 3900 2    50   ~ 0
+Text Label 9850 2300 2    50   ~ 0
 D2
-Text Label 9850 3800 2    50   ~ 0
+Text Label 9850 2200 2    50   ~ 0
 D3
-Text Label 9850 3700 2    50   ~ 0
+Text Label 9850 2100 2    50   ~ 0
 D5
-Text Label 9850 3600 2    50   ~ 0
+Text Label 9850 2000 2    50   ~ 0
 D6
-Text Label 9850 3500 2    50   ~ 0
+Text Label 9850 1900 2    50   ~ 0
 D7
-Text Label 9850 3400 2    50   ~ 0
+Text Label 9850 1800 2    50   ~ 0
 D4
 Wire Wire Line
-	9700 4100 9950 4100
+	9700 2500 9950 2500
 Wire Wire Line
-	9950 4000 9700 4000
+	9950 2400 9700 2400
 Wire Wire Line
-	9700 3900 9950 3900
+	9700 2300 9950 2300
 Wire Wire Line
-	9950 3800 9700 3800
+	9950 2200 9700 2200
 Wire Wire Line
-	9700 3700 9950 3700
+	9700 2100 9950 2100
 Wire Wire Line
-	9950 3600 9700 3600
+	9950 2000 9700 2000
 Wire Wire Line
-	9700 3500 9950 3500
+	9700 1900 9950 1900
 Wire Wire Line
-	9950 3400 9700 3400
+	9950 1800 9700 1800
 Entry Wire Line
-	9950 4100 10050 4000
+	9950 2500 10050 2400
 Entry Wire Line
-	9950 4000 10050 3900
+	9950 2400 10050 2300
 Entry Wire Line
-	9950 3900 10050 3800
+	9950 2300 10050 2200
 Entry Wire Line
-	9950 3800 10050 3700
+	9950 2200 10050 2100
 Entry Wire Line
-	9950 3700 10050 3600
+	9950 2100 10050 2000
 Entry Wire Line
-	9950 3600 10050 3500
+	9950 2000 10050 1900
 Entry Wire Line
-	9950 3500 10050 3400
+	9950 1900 10050 1800
 Entry Wire Line
-	9950 3400 10050 3300
+	9950 1800 10050 1700
 Wire Wire Line
 	2950 4600 1300 4600
-Text HLabel 10200 3000 2    50   BiDi ~ 0
+Text HLabel 10200 1400 2    50   BiDi ~ 0
 D[0..7]
 $Comp
 L power:GNDS #PWR?
-U 1 1 60584106
-P 9950 2700
-AR Path="/602A51A8/60584106" Ref="#PWR?"  Part="1" 
-AR Path="/60308A73/60584106" Ref="#PWR?"  Part="1" 
-AR Path="/603E4732/60584106" Ref="#PWR?"  Part="1" 
-AR Path="/603D345E/60584106" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 9950 2450 50  0001 C CNN
-F 1 "GNDS" H 10050 2700 50  0000 C CNN
-F 2 "" H 9950 2700 50  0001 C CNN
-F 3 "" H 9950 2700 50  0001 C CNN
-	1    9950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDS #PWR?
 U 1 1 60584942
-P 9600 4850
+P 9200 3250
 AR Path="/602A51A8/60584942" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/60584942" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/60584942" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/60584942" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 9600 4600 50  0001 C CNN
-F 1 "GNDS" H 9605 4677 50  0000 C CNN
-F 2 "" H 9600 4850 50  0001 C CNN
-F 3 "" H 9600 4850 50  0001 C CNN
-	1    9600 4850
+F 0 "#PWR0133" H 9200 3000 50  0001 C CNN
+F 1 "GNDS" H 9205 3077 50  0000 C CNN
+F 2 "" H 9200 3250 50  0001 C CNN
+F 3 "" H 9200 3250 50  0001 C CNN
+	1    9200 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 4700 9600 4850
+	9200 3100 9200 3250
 Entry Wire Line
-	7900 3500 8000 3600
+	7900 1900 8000 2000
 Entry Wire Line
-	7900 3400 8000 3500
+	7900 1800 8000 1900
 Entry Wire Line
-	7900 3300 8000 3400
+	7900 1700 8000 1800
 Entry Wire Line
-	7900 3600 8000 3700
+	7900 2000 8000 2100
 Entry Wire Line
-	7900 3700 8000 3800
+	7900 2100 8000 2200
 Entry Wire Line
-	7900 3800 8000 3900
+	7900 2200 8000 2300
 Entry Wire Line
-	7900 3900 8000 4000
+	7900 2300 8000 2400
 Entry Wire Line
-	7900 4000 8000 4100
+	7900 2400 8000 2500
 Wire Wire Line
-	8000 3400 8700 3400
+	8000 1800 8700 1800
 Wire Wire Line
-	8700 3500 8000 3500
+	8700 1900 8000 1900
 Wire Wire Line
-	8000 3600 8700 3600
+	8000 2000 8700 2000
 Wire Wire Line
-	8700 3700 8000 3700
+	8700 2100 8000 2100
 Wire Wire Line
-	8000 3800 8700 3800
+	8000 2200 8700 2200
 Wire Wire Line
-	8700 3900 8000 3900
+	8700 2300 8000 2300
 Wire Wire Line
-	8000 4000 8700 4000
+	8000 2400 8700 2400
 Wire Wire Line
-	8700 4100 8000 4100
-Text Label 8500 3400 0    50   ~ 0
+	8700 2500 8000 2500
+Text Label 8500 1800 0    50   ~ 0
 MD4
-Text Label 8500 3500 0    50   ~ 0
+Text Label 8500 1900 0    50   ~ 0
 MD7
-Text Label 8500 3600 0    50   ~ 0
+Text Label 8500 2000 0    50   ~ 0
 MD6
-Text Label 8500 3700 0    50   ~ 0
+Text Label 8500 2100 0    50   ~ 0
 MD5
-Text Label 8500 3800 0    50   ~ 0
+Text Label 8500 2200 0    50   ~ 0
 MD3
-Text Label 8500 3900 0    50   ~ 0
+Text Label 8500 2300 0    50   ~ 0
 MD2
-Text Label 8500 4000 0    50   ~ 0
+Text Label 8500 2400 0    50   ~ 0
 MD1
-Text Label 8500 4100 0    50   ~ 0
+Text Label 8500 2500 0    50   ~ 0
 MD0
-Entry Wire Line
-	7900 1350 8000 1450
-Entry Wire Line
-	7900 1250 8000 1350
-Entry Wire Line
-	7900 1150 8000 1250
-Entry Wire Line
-	7900 1450 8000 1550
-Entry Wire Line
-	7900 1550 8000 1650
-Entry Wire Line
-	7900 1650 8000 1750
-Entry Wire Line
-	7900 1750 8000 1850
-Entry Wire Line
-	7900 1850 8000 1950
-Wire Wire Line
-	8000 1250 8700 1250
-Wire Wire Line
-	8700 1350 8000 1350
-Wire Wire Line
-	8000 1450 8700 1450
-Wire Wire Line
-	8700 1550 8000 1550
-Wire Wire Line
-	8000 1650 8700 1650
-Wire Wire Line
-	8700 1750 8000 1750
-Wire Wire Line
-	8000 1850 8700 1850
-Wire Wire Line
-	8700 1950 8000 1950
-Text Label 8500 1250 0    50   ~ 0
-MD4
-Text Label 8500 1350 0    50   ~ 0
-MD5
-Text Label 8500 1450 0    50   ~ 0
-MD6
-Text Label 8500 1550 0    50   ~ 0
-MD7
-Text Label 8500 1650 0    50   ~ 0
-MD0
-Text Label 8500 1750 0    50   ~ 0
-MD1
-Text Label 8500 1850 0    50   ~ 0
-MD2
-Text Label 8500 1950 0    50   ~ 0
-MD3
 Wire Wire Line
 	1850 5500 1850 5850
 Wire Wire Line
@@ -1068,188 +943,58 @@ Wire Wire Line
 Wire Wire Line
 	1200 5800 1200 5850
 Connection ~ 1850 5850
-$Comp
-L power:+5V #PWR?
-U 1 1 6062BD45
-P 9200 750
-AR Path="/602A51A8/6062BD45" Ref="#PWR?"  Part="1" 
-AR Path="/60308A73/6062BD45" Ref="#PWR?"  Part="1" 
-AR Path="/603E4732/6062BD45" Ref="#PWR?"  Part="1" 
-AR Path="/603D345E/6062BD45" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 9200 600 50  0001 C CNN
-F 1 "+5V" H 9215 923 50  0000 C CNN
-F 2 "" H 9200 750 50  0001 C CNN
-F 3 "" H 9200 750 50  0001 C CNN
-	1    9200 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60633CC0
-P 8950 750
-AR Path="/602A51A8/60633CC0" Ref="C?"  Part="1" 
-AR Path="/60308A73/60633CC0" Ref="C?"  Part="1" 
-AR Path="/603E4732/60633CC0" Ref="C?"  Part="1" 
-AR Path="/603D345E/60633CC0" Ref="C21"  Part="1" 
-F 0 "C21" V 9000 850 50  0000 C CNN
-F 1 ".1uF" V 8800 750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 8950 750 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 8950 750 50  0001 C CNN
-F 4 "digikey" V 8950 750 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 8950 750 50  0001 C CNN "Field5"
-	1    8950 750 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9200 4700 9600 4700
-$Comp
-L 74xx:74LS244 U6
-U 1 1 603F7E8C
-P 9200 3900
-F 0 "U6" H 9400 4550 50  0000 C CNN
-F 1 "74LS244" H 8900 4550 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9200 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 9200 3900 50  0001 C CNN
-F 4 "digikey" H 9200 3900 50  0001 C CNN "Vendor"
-F 5 "296-1653-5-ND" H 9200 3900 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS244N" H 9200 3900 50  0001 C CNN "Manufacturer part#"
-	1    9200 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 750  9050 750 
-Wire Wire Line
-	9200 750  9200 950 
-Connection ~ 9200 750 
-$Comp
-L power:GNDS #PWR?
-U 1 1 6071E78D
-P 8800 800
-AR Path="/602A51A8/6071E78D" Ref="#PWR?"  Part="1" 
-AR Path="/60308A73/6071E78D" Ref="#PWR?"  Part="1" 
-AR Path="/603E4732/6071E78D" Ref="#PWR?"  Part="1" 
-AR Path="/603D345E/6071E78D" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 8800 550 50  0001 C CNN
-F 1 "GNDS" H 8650 800 50  0000 C CNN
-F 2 "" H 8800 800 50  0001 C CNN
-F 3 "" H 8800 800 50  0001 C CNN
-	1    8800 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 750  8800 750 
-Wire Wire Line
-	8800 750  8800 800 
 Wire Wire Line
 	7800 5100 8250 5100
 Wire Wire Line
-	8250 5100 8250 4400
+	8250 2700 8700 2700
 Wire Wire Line
-	8250 4300 8700 4300
+	8700 2800 8250 2800
+Connection ~ 8250 2800
 Wire Wire Line
-	8700 4400 8250 4400
-Connection ~ 8250 4400
-Wire Wire Line
-	8250 4400 8250 4300
+	8250 2800 8250 2700
 Wire Bus Line
-	10050 3000 10200 3000
+	10050 1400 10200 1400
 $Comp
 L power:+5V #PWR?
 U 1 1 60751253
-P 9450 2850
+P 9200 1500
 AR Path="/602A51A8/60751253" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/60751253" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/60751253" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/60751253" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 9450 2700 50  0001 C CNN
-F 1 "+5V" H 9465 3023 50  0000 C CNN
-F 2 "" H 9450 2850 50  0001 C CNN
-F 3 "" H 9450 2850 50  0001 C CNN
-	1    9450 2850
+F 0 "#PWR0136" H 9200 1350 50  0001 C CNN
+F 1 "+5V" H 9215 1673 50  0000 C CNN
+F 2 "" H 9200 1500 50  0001 C CNN
+F 3 "" H 9200 1500 50  0001 C CNN
+	1    9200 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6075125B
-P 8950 2950
-AR Path="/602A51A8/6075125B" Ref="C?"  Part="1" 
-AR Path="/60308A73/6075125B" Ref="C?"  Part="1" 
-AR Path="/603E4732/6075125B" Ref="C?"  Part="1" 
-AR Path="/603D345E/6075125B" Ref="C25"  Part="1" 
-F 0 "C25" V 9100 2950 50  0000 C CNN
-F 1 ".1uF" V 8800 2950 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 8950 2950 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 8950 2950 50  0001 C CNN
-F 4 "digikey" V 8950 2950 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 8950 2950 50  0001 C CNN "Field5"
-	1    8950 2950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9200 2950 9100 2950
-$Comp
-L power:GNDS #PWR?
-U 1 1 60751264
-P 8800 3000
-AR Path="/602A51A8/60751264" Ref="#PWR?"  Part="1" 
-AR Path="/60308A73/60751264" Ref="#PWR?"  Part="1" 
-AR Path="/603E4732/60751264" Ref="#PWR?"  Part="1" 
-AR Path="/603D345E/60751264" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 8800 2750 50  0001 C CNN
-F 1 "GNDS" H 8650 3000 50  0000 C CNN
-F 2 "" H 8800 3000 50  0001 C CNN
-F 3 "" H 8800 3000 50  0001 C CNN
-	1    8800 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 2950 8800 2950
-Wire Wire Line
-	8800 2950 8800 3000
-Wire Wire Line
-	9200 3100 9200 2950
-Connection ~ 9200 2950
 Wire Bus Line
-	7900 750  7400 750 
-Text HLabel 7400 750  0    50   Input ~ 0
+	7900 1050 7400 1050
+Text HLabel 7400 1050 0    50   Input ~ 0
 MD[0..7]
-Text HLabel 10200 750  2    50   Output ~ 0
-DD[0..]
+$Comp
+L 74xx:74LS244 U6
+U 1 1 603F7E8C
+P 9200 2300
+F 0 "U6" H 9400 2950 50  0000 C CNN
+F 1 "74LS244" H 8900 2950 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9200 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 9200 2300 50  0001 C CNN
+F 4 "digikey" H 9200 2300 50  0001 C CNN "Vendor"
+F 5 "296-1653-5-ND" H 9200 2300 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS244N" H 9200 2300 50  0001 C CNN "Manufacturer part#"
+	1    9200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2800 8250 5100
 Wire Bus Line
-	10200 750  10050 750 
-Wire Wire Line
-	8700 2250 8450 2250
-Wire Wire Line
-	8450 2250 8450 2650
-Wire Wire Line
-	8450 2650 9100 2650
-Wire Wire Line
-	9100 2650 9100 2950
-Connection ~ 9100 2950
-Wire Wire Line
-	9100 2950 9050 2950
-Wire Wire Line
-	9200 2550 9950 2550
-Wire Wire Line
-	9950 2550 9950 2700
-Wire Wire Line
-	9200 2950 9450 2950
-Wire Wire Line
-	9450 2950 9450 2850
-Text Label 4900 3900 0    50   ~ 0
-~RAS
-Text Label 8200 2150 2    50   ~ 0
-~RAS
-Wire Wire Line
-	8200 2150 8700 2150
+	7900 1050 7900 2400
+Wire Bus Line
+	10050 1400 10050 2400
 Wire Bus Line
 	4400 2250 4400 3700
 Wire Bus Line
-	10050 3000 10050 4000
-Wire Bus Line
-	10050 750  10050 1850
-Wire Bus Line
 	2600 2900 2600 4400
-Wire Bus Line
-	7900 750  7900 4000
 $EndSCHEMATC
