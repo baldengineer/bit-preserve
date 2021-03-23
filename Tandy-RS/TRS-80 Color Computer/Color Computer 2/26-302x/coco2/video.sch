@@ -403,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4950 5650 6200
 Text HLabel 8750 4850 2    50   Input ~ 0
-SND
+RF_SND
 Wire Wire Line
 	8500 4850 8750 4850
 $Comp
