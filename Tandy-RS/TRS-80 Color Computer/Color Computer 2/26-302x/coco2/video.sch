@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-03-21"
 Rev "0.1"
@@ -543,7 +543,7 @@ Connection ~ 7500 4200
 Wire Wire Line
 	7500 4200 8100 4200
 Text HLabel 3550 4100 0    50   Input ~ 0
-CS
+CSS
 Text HLabel 5400 4200 0    50   Input ~ 0
 ~INT~_EXT
 Text HLabel 5400 4400 0    50   Input ~ 0
@@ -551,7 +551,7 @@ GM1
 Text HLabel 5400 4500 0    50   Input ~ 0
 GM2
 Text HLabel 5400 4600 0    50   Input ~ 0
-~A_G
+~A~_G
 Wire Wire Line
 	6150 4200 5950 4200
 Wire Wire Line
@@ -870,9 +870,9 @@ Wire Wire Line
 	1650 4600 700  4600
 Wire Wire Line
 	700  4600 700  5750
+Connection ~ 700  5750
 Wire Bus Line
 	3650 1100 3650 2000
 Wire Bus Line
 	5800 1500 5800 3250
-Connection ~ 700  5750
 $EndSCHEMATC

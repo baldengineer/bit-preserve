@@ -1,4 +1,4 @@
-18693342076859490
+18699807928380490
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81711,9 +81711,37 @@ varistor SIOV
 2
 2
 coco2
+CUI_SDS-40J
+
+
+0
+6
+6
+coco2
+CUI_SDS-50J
+
+
+0
+7
+7
+coco2
+CUI_SDS-60J
+
+
+0
+8
+8
+coco2
 F2UEE
 
 
 0
 6
 6
+coco2
+HB1-DC5V-H62_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
