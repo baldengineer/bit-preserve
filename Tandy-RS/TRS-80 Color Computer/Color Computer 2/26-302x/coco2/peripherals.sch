@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-20"
 Rev "0.1"
@@ -66,7 +66,6 @@ Wire Wire Line
 	10000 1000 10000 950 
 Wire Wire Line
 	10000 950  9400 950 
-Connection ~ 9400 950 
 $Comp
 L power:GNDS #PWR?
 U 1 1 60A871AE
@@ -251,15 +250,15 @@ Wire Wire Line
 Connection ~ 10250 2450
 Wire Wire Line
 	10250 2450 9750 2450
-Text Notes 6600 550  0    50   ~ 0
+Text Notes 6650 950  0    50   ~ 0
 The SALT chip (Supply and Level Translator)
-Text Notes 6550 650  0    50   ~ 0
+Text Notes 6600 1050 0    50   ~ 0
  is responsible for supply regulation, RS-232
-Text Notes 6550 750  0    50   ~ 0
+Text Notes 6600 1150 0    50   ~ 0
  interface level translation, cassette read
-Text Notes 6550 850  0    50   ~ 0
+Text Notes 6600 1250 0    50   ~ 0
  operations, and driving the cassette relay.
-Text Notes 6600 950  0    50   ~ 0
+Text Notes 6650 1350 0    50   ~ 0
 http://roust-it.dk/coco/coco2_service_manual.pdf
 Text HLabel 6250 1850 0    50   Input ~ 0
 -SALT_VIN
@@ -316,13 +315,9 @@ Wire Wire Line
 	6350 1850 6300 1850
 Wire Wire Line
 	6350 2150 6250 2150
-Wire Wire Line
-	6300 1850 6300 950 
 Connection ~ 6300 1850
 Wire Wire Line
 	6300 1850 6250 1850
-Wire Wire Line
-	6300 950  9400 950 
 Wire Wire Line
 	3450 3250 4700 3250
 Wire Wire Line
@@ -633,10 +628,6 @@ Wire Wire Line
 	3450 2150 3650 2150
 Wire Wire Line
 	3650 3450 3450 3450
-Text HLabel 4150 950  1    50   Input ~ 0
-RSW
-Text HLabel 4400 950  1    50   Input ~ 0
-LSW
 Wire Wire Line
 	4150 950  4150 1150
 Connection ~ 4150 1150
@@ -1319,8 +1310,6 @@ Wire Wire Line
 Connection ~ 9350 4150
 Wire Wire Line
 	8000 5400 8150 5400
-Text HLabel 8150 5000 1    50   Input ~ 0
-LSW
 Wire Wire Line
 	8150 5000 8150 5200
 $Comp
@@ -1375,8 +1364,6 @@ Wire Wire Line
 	9450 5700 9050 5700
 Connection ~ 9050 5700
 Connection ~ 9450 5400
-Text HLabel 9450 5000 1    50   Input ~ 0
-RSW
 Wire Wire Line
 	9450 5000 9450 5200
 $Comp
@@ -1933,6 +1920,25 @@ F 3 "" H 5550 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 4550 5550 4600
+Text Label 8150 5000 1    50   ~ 0
+LSW
+Text Label 9550 4850 1    50   ~ 0
+RSW
+Wire Wire Line
+	9450 5000 9550 5000
+Wire Wire Line
+	9550 5000 9550 4850
+Text Label 4150 950  1    50   ~ 0
+RSW
+Text Label 4400 950  1    50   ~ 0
+LSW
+Wire Wire Line
+	6300 550  10000 550 
+Wire Wire Line
+	10000 550  10000 950 
+Wire Wire Line
+	6300 550  6300 1850
 Wire Bus Line
 	1000 1150 1000 5400
+Connection ~ 10000 950 
 $EndSCHEMATC

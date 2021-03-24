@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-03-21"
 Rev "0.1"
@@ -327,21 +327,19 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR?
 U 1 1 607B2D84
-P 6650 2200
+P 6650 1600
 AR Path="/602A51A8/607B2D84" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/607B2D84" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/607B2D84" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/607B2D84" Ref="#PWR?"  Part="1" 
 AR Path="/603D560B/607B2D84" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 6650 2050 50  0001 C CNN
-F 1 "+5V" H 6665 2373 50  0000 C CNN
-F 2 "" H 6650 2200 50  0001 C CNN
-F 3 "" H 6650 2200 50  0001 C CNN
-	1    6650 2200
+F 0 "#PWR0132" H 6650 1450 50  0001 C CNN
+F 1 "+5V" H 6665 1773 50  0000 C CNN
+F 2 "" H 6650 1600 50  0001 C CNN
+F 3 "" H 6650 1600 50  0001 C CNN
+	1    6650 1600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 2200 6650 2450
 $Comp
 L power:GNDS #PWR?
 U 1 1 607B6B60
@@ -361,43 +359,41 @@ $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 607B84AF
-P 8700 5150
+P 9050 5150
 AR Path="/602A51A8/607B84AF" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/607B84AF" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/607B84AF" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/607B84AF" Ref="#PWR?"  Part="1" 
 AR Path="/603D560B/607B84AF" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 8700 4900 50  0001 C CNN
-F 1 "GNDS" H 8800 5150 50  0000 C CNN
-F 2 "" H 8700 5150 50  0001 C CNN
-F 3 "" H 8700 5150 50  0001 C CNN
-	1    8700 5150
+F 0 "#PWR0135" H 9050 4900 50  0001 C CNN
+F 1 "GNDS" H 9150 5150 50  0000 C CNN
+F 2 "" H 9050 5150 50  0001 C CNN
+F 3 "" H 9050 5150 50  0001 C CNN
+	1    9050 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 5050 8700 5050
-Wire Wire Line
-	8700 5050 8700 5150
+	9050 5050 9050 5150
 $Comp
 L power:+5V #PWR?
 U 1 1 607BA50D
-P 9250 4450
+P 9050 4450
 AR Path="/602A51A8/607BA50D" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/607BA50D" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/607BA50D" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/607BA50D" Ref="#PWR?"  Part="1" 
 AR Path="/603D560B/607BA50D" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 9250 4300 50  0001 C CNN
-F 1 "+5V" H 9265 4623 50  0000 C CNN
-F 2 "" H 9250 4450 50  0001 C CNN
-F 3 "" H 9250 4450 50  0001 C CNN
-	1    9250 4450
+F 0 "#PWR0137" H 9050 4300 50  0001 C CNN
+F 1 "+5V" H 9065 4623 50  0000 C CNN
+F 2 "" H 9050 4450 50  0001 C CNN
+F 3 "" H 9050 4450 50  0001 C CNN
+	1    9050 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 4650 9250 4450
+	9050 4650 9050 4450
 Wire Wire Line
-	8500 4650 9250 4650
+	8500 4650 9050 4650
 Wire Wire Line
 	6150 4950 5650 4950
 Wire Wire Line
@@ -871,6 +867,108 @@ Wire Wire Line
 Wire Wire Line
 	700  4600 700  5750
 Connection ~ 700  5750
+$Comp
+L Device:C_Small C?
+U 1 1 60A3B5B6
+P 9600 4850
+AR Path="/602A51A8/60A3B5B6" Ref="C?"  Part="1" 
+AR Path="/60308A73/60A3B5B6" Ref="C?"  Part="1" 
+AR Path="/603E4732/60A3B5B6" Ref="C?"  Part="1" 
+AR Path="/603D345E/60A3B5B6" Ref="C?"  Part="1" 
+AR Path="/603D560B/60A3B5B6" Ref="C32"  Part="1" 
+F 0 "C32" H 9450 4850 50  0000 C CNN
+F 1 ".1uF" H 9500 4750 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 9600 4850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 9600 4850 50  0001 C CNN
+F 4 "digikey" V 9600 4850 50  0001 C CNN "Field4"
+F 5 "1109PHTR-ND" V 9600 4850 50  0001 C CNN "Field5"
+	1    9600 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 9050 5050
+Wire Wire Line
+	9050 5050 9600 5050
+Wire Wire Line
+	8500 5050 9050 5050
+Connection ~ 9050 4650
+Wire Wire Line
+	9050 4650 9600 4650
+Wire Wire Line
+	9600 4650 9600 4750
+Wire Wire Line
+	9600 4950 9600 5050
+$Comp
+L Device:CP_Small C?
+U 1 1 60A6A791
+P 9950 4850
+AR Path="/602A51A8/60A6A791" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/60A6A791" Ref="C?"  Part="1" 
+AR Path="/603D560B/60A6A791" Ref="C62"  Part="1" 
+F 0 "C62" H 9750 4850 50  0000 L CNN
+F 1 "100uF 16v" H 10050 4850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9950 4850 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9950 4850 50  0001 C CNN
+F 4 "digikey" H 9950 4850 50  0001 C CNN "Vendor"
+F 5 "493-16208-1-ND" H 9950 4850 50  0001 C CNN "Vendor part#"
+F 6 "UVZ1C101MDD1TA" H 9950 4850 50  0001 C CNN "Manufacturer part#"
+	1    9950 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 4750 9950 4650
+Wire Wire Line
+	9950 4650 9600 4650
+Connection ~ 9600 4650
+Wire Wire Line
+	9950 4950 9950 5050
+Wire Wire Line
+	9950 5050 9600 5050
+Connection ~ 9600 5050
+$Comp
+L Device:C_Small C?
+U 1 1 60B21EEE
+P 7400 1950
+AR Path="/602A51A8/60B21EEE" Ref="C?"  Part="1" 
+AR Path="/60308A73/60B21EEE" Ref="C?"  Part="1" 
+AR Path="/603E4732/60B21EEE" Ref="C?"  Part="1" 
+AR Path="/603D345E/60B21EEE" Ref="C?"  Part="1" 
+AR Path="/603D560B/60B21EEE" Ref="C30"  Part="1" 
+F 0 "C30" H 7250 1950 50  0000 C CNN
+F 1 ".1uF" H 7300 1850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 7400 1950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 7400 1950 50  0001 C CNN
+F 4 "digikey" V 7400 1950 50  0001 C CNN "Field4"
+F 5 "1109PHTR-ND" V 7400 1950 50  0001 C CNN "Field5"
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1600 6650 1800
+Wire Wire Line
+	7400 1850 7400 1800
+Wire Wire Line
+	7400 1800 6650 1800
+Connection ~ 6650 1800
+Wire Wire Line
+	6650 1800 6650 2450
+$Comp
+L power:GNDS #PWR?
+U 1 1 60B37AB5
+P 7400 2250
+AR Path="/602A51A8/60B37AB5" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60B37AB5" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60B37AB5" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60B37AB5" Ref="#PWR?"  Part="1" 
+AR Path="/603D560B/60B37AB5" Ref="#PWR0188"  Part="1" 
+F 0 "#PWR0188" H 7400 2000 50  0001 C CNN
+F 1 "GNDS" H 7750 2200 50  0000 C CNN
+F 2 "" H 7400 2250 50  0001 C CNN
+F 3 "" H 7400 2250 50  0001 C CNN
+	1    7400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 2050 7400 2250
 Wire Bus Line
 	3650 1100 3650 2000
 Wire Bus Line

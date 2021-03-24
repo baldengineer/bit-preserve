@@ -909,15 +909,15 @@ $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 60501EFC
-P 4350 7550
+P 4750 7550
 AR Path="/602A51A8/60501EFC" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/60501EFC" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/60501EFC" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 4350 7300 50  0001 C CNN
-F 1 "GNDS" H 4355 7377 50  0000 C CNN
-F 2 "" H 4350 7550 50  0001 C CNN
-F 3 "" H 4350 7550 50  0001 C CNN
-	1    4350 7550
+F 0 "#PWR0154" H 4750 7300 50  0001 C CNN
+F 1 "GNDS" H 4755 7377 50  0000 C CNN
+F 2 "" H 4750 7550 50  0001 C CNN
+F 3 "" H 4750 7550 50  0001 C CNN
+	1    4750 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1300,6 +1300,31 @@ Wire Wire Line
 	6700 5400 5900 5400
 Wire Wire Line
 	5900 5400 5900 2950
+Connection ~ 5900 2950
+$Comp
+L Device:C_Small C?
+U 1 1 60AFF920
+P 4750 7250
+AR Path="/602A51A8/60AFF920" Ref="C?"  Part="1" 
+AR Path="/60308A73/60AFF920" Ref="C?"  Part="1" 
+AR Path="/603E4732/60AFF920" Ref="C57"  Part="1" 
+F 0 "C57" H 4950 7200 50  0000 C CNN
+F 1 ".1uF" H 4950 7300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4750 7250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4750 7250 50  0001 C CNN
+F 4 "digikey" V 4750 7250 50  0001 C CNN "Field4"
+F 5 "1109PHTR-ND" V 4750 7250 50  0001 C CNN "Field5"
+	1    4750 7250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 7000 4750 7150
+Wire Wire Line
+	4750 7350 4750 7550
+Wire Wire Line
+	4350 7000 4750 7000
+Wire Wire Line
+	4350 7550 4750 7550
 Wire Bus Line
 	8500 800  8500 5150
 Wire Bus Line
@@ -1324,5 +1349,5 @@ Wire Bus Line
 	3750 700  3750 5000
 Wire Bus Line
 	1300 700  1300 5000
-Connection ~ 5900 2950
+Connection ~ 4750 7550
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 8
+Sheet 5 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
 Rev "0.1"
@@ -477,15 +477,15 @@ Connection ~ 1200 5300
 $Comp
 L 74xx:74LS02 U10
 U 1 1 60783064
-P 1650 6950
-F 0 "U10" H 1650 7275 50  0000 C CNN
-F 1 "74LS02" H 1650 7184 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1650 6950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1650 6950 50  0001 C CNN
-F 4 "digikey" H 1650 6950 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 1650 6950 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 1650 6950 50  0001 C CNN "manufacturer part#"
-	1    1650 6950
+P 3000 6750
+F 0 "U10" H 3000 7075 50  0000 C CNN
+F 1 "74LS02" H 3000 6984 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3000 6750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 6750 50  0001 C CNN
+F 4 "digikey" H 3000 6750 50  0001 C CNN "Vendor"
+F 5 "296-1627-5-ND" H 3000 6750 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS02N" H 3000 6750 50  0001 C CNN "manufacturer part#"
+	1    3000 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -519,15 +519,15 @@ $EndComp
 $Comp
 L 74xx:74LS02 U10
 U 4 1 6078966A
-P 1650 7500
-F 0 "U10" H 1650 7825 50  0000 C CNN
-F 1 "74LS02" H 1650 7734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1650 7500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1650 7500 50  0001 C CNN
-F 4 "digikey" H 1650 7500 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 1650 7500 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 1650 7500 50  0001 C CNN "manufacturer part#"
-	4    1650 7500
+P 3000 7300
+F 0 "U10" H 3000 7625 50  0000 C CNN
+F 1 "74LS02" H 3000 7534 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3000 7300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 7300 50  0001 C CNN
+F 4 "digikey" H 3000 7300 50  0001 C CNN "Vendor"
+F 5 "296-1627-5-ND" H 3000 7300 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS02N" H 3000 7300 50  0001 C CNN "manufacturer part#"
+	4    3000 7300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -714,33 +714,31 @@ F 3 "" H 7950 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 6850 1350 7050
+	2700 6650 2700 6850
 Wire Wire Line
-	1350 7050 1350 7400
-Connection ~ 1350 7050
+	2700 6850 2700 7200
+Connection ~ 2700 6850
 Wire Wire Line
-	1350 7400 1350 7600
-Connection ~ 1350 7400
-Wire Wire Line
-	1350 7600 1350 7700
-Connection ~ 1350 7600
+	2700 7200 2700 7400
+Connection ~ 2700 7200
+Connection ~ 2700 7400
 $Comp
 L power:GNDS #PWR?
 U 1 1 6039D88E
-P 1350 7700
+P 2250 7750
 AR Path="/602A51A8/6039D88E" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/6039D88E" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/6039D88E" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/6039D88E" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 1350 7450 50  0001 C CNN
-F 1 "GNDS" H 1355 7527 50  0000 C CNN
-F 2 "" H 1350 7700 50  0001 C CNN
-F 3 "" H 1350 7700 50  0001 C CNN
-	1    1350 7700
+F 0 "#PWR0131" H 2250 7500 50  0001 C CNN
+F 1 "GNDS" H 2255 7577 50  0000 C CNN
+F 2 "" H 2250 7750 50  0001 C CNN
+F 3 "" H 2250 7750 50  0001 C CNN
+	1    2250 7750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1950 6950
-NoConn ~ 1950 7500
+NoConn ~ 3300 6750
+NoConn ~ 3300 7300
 Text HLabel 8300 5300 2    50   Output ~ 0
 ~CS_BASIC
 Text HLabel 8300 5200 2    50   Output ~ 0
@@ -1006,6 +1004,72 @@ F 3 "" H 3450 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 2050 3450 1800
+$Comp
+L 74xx:74LS02 U10
+U 5 1 60B6B089
+P 1550 7050
+F 0 "U10" H 1350 7500 50  0000 C CNN
+F 1 "74LS02" H 1750 7450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1550 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1550 7050 50  0001 C CNN
+F 4 "digikey" H 1550 7050 50  0001 C CNN "Vendor"
+F 5 "296-1627-5-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS02N" H 1550 7050 50  0001 C CNN "manufacturer part#"
+	5    1550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 7550 1550 7750
+Wire Wire Line
+	2700 7750 2250 7750
+Wire Wire Line
+	2700 7400 2700 7750
+Connection ~ 2250 7750
+$Comp
+L power:+5V #PWR?
+U 1 1 60BB266A
+P 1550 6350
+AR Path="/602A51A8/60BB266A" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/60BB266A" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/60BB266A" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/60BB266A" Ref="#PWR0189"  Part="1" 
+F 0 "#PWR0189" H 1550 6200 50  0001 C CNN
+F 1 "+5V" H 1565 6523 50  0000 C CNN
+F 2 "" H 1550 6350 50  0001 C CNN
+F 3 "" H 1550 6350 50  0001 C CNN
+	1    1550 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6350 1550 6400
+$Comp
+L Device:C_Small C?
+U 1 1 60BB9D46
+P 800 7000
+AR Path="/602A51A8/60BB9D46" Ref="C?"  Part="1" 
+AR Path="/60308A73/60BB9D46" Ref="C?"  Part="1" 
+AR Path="/603E4732/60BB9D46" Ref="C?"  Part="1" 
+AR Path="/603D345E/60BB9D46" Ref="C33"  Part="1" 
+F 0 "C33" H 650 7000 50  0000 C CNN
+F 1 ".1uF" H 1000 7000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 800 7000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 800 7000 50  0001 C CNN
+F 4 "digikey" V 800 7000 50  0001 C CNN "Field4"
+F 5 "1109PHTR-ND" V 800 7000 50  0001 C CNN "Field5"
+	1    800  7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6900 800  6400
+Wire Wire Line
+	800  6400 1550 6400
+Connection ~ 1550 6400
+Wire Wire Line
+	1550 6400 1550 6550
+Wire Wire Line
+	800  7100 800  7750
+Wire Wire Line
+	800  7750 1550 7750
 Wire Bus Line
 	7900 1050 7900 2400
 Wire Bus Line
@@ -1014,4 +1078,7 @@ Wire Bus Line
 	4400 2250 4400 3700
 Wire Bus Line
 	2600 2900 2600 4400
+Connection ~ 1550 7750
+Wire Wire Line
+	1550 7750 2250 7750
 $EndSCHEMATC
