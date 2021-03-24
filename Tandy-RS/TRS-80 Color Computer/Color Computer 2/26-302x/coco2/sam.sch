@@ -184,10 +184,6 @@ Text HLabel 5200 4100 2    50   Output ~ 0
 ~WE
 Wire Wire Line
 	3950 3900 5200 3900
-Wire Wire Line
-	3950 4000 5200 4000
-Wire Wire Line
-	3950 4100 5200 4100
 Text HLabel 6000 4300 2    50   Output ~ 0
 E
 Text HLabel 6000 4400 2    50   Output ~ 0
@@ -989,6 +985,27 @@ F 6 "SN74LS244N" H 9200 2300 50  0001 C CNN "Manufacturer part#"
 $EndComp
 Wire Wire Line
 	8250 2800 8250 5100
+Wire Wire Line
+	5200 4000 3950 4000
+Wire Wire Line
+	3950 4100 5200 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 608EE964
+P 3450 1800
+AR Path="/602A51A8/608EE964" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/608EE964" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/608EE964" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/608EE964" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 3450 1650 50  0001 C CNN
+F 1 "+5V" H 3465 1973 50  0000 C CNN
+F 2 "" H 3450 1800 50  0001 C CNN
+F 3 "" H 3450 1800 50  0001 C CNN
+	1    3450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2050 3450 1800
 Wire Bus Line
 	7900 1050 7900 2400
 Wire Bus Line

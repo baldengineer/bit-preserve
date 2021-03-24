@@ -184,8 +184,6 @@ Wire Wire Line
 Wire Wire Line
 	850  5500 1800 5500
 Wire Wire Line
-	1800 5600 700  5600
-Wire Wire Line
 	700  5600 700  3150
 Wire Wire Line
 	1800 2950 1000 2950
@@ -359,30 +357,16 @@ Wire Wire Line
 Wire Wire Line
 	4250 5400 3450 5400
 Wire Wire Line
-	3450 5400 3450 2950
-Wire Wire Line
 	3300 5500 3300 3050
 Wire Wire Line
 	3300 5500 4250 5500
 Wire Wire Line
 	4250 5600 3150 5600
 Wire Wire Line
-	3150 5600 3150 3150
-Wire Wire Line
-	4250 2950 3450 2950
-Connection ~ 3450 2950
-Wire Wire Line
-	3450 2950 3450 1000
-Wire Wire Line
 	4250 3050 3300 3050
 Connection ~ 3300 3050
 Wire Wire Line
 	3300 3050 3300 1100
-Wire Wire Line
-	4250 3150 3150 3150
-Connection ~ 3150 3150
-Wire Wire Line
-	3150 3150 3150 1200
 $Comp
 L Memory_RAM_Motorola:MCM4517 U16
 U 1 1 604271E9
@@ -536,32 +520,14 @@ Entry Wire Line
 Wire Wire Line
 	6700 5250 6150 5250
 Wire Wire Line
-	6700 5400 5900 5400
-Wire Wire Line
-	5900 5400 5900 2950
-Wire Wire Line
 	5750 5500 5750 3050
 Wire Wire Line
 	5750 5500 6700 5500
-Wire Wire Line
-	6700 5600 5600 5600
-Wire Wire Line
-	5600 5600 5600 3150
-Wire Wire Line
-	6700 2950 5900 2950
-Connection ~ 5900 2950
-Wire Wire Line
-	5900 2950 5900 1000
 Wire Wire Line
 	6700 3050 5750 3050
 Connection ~ 5750 3050
 Wire Wire Line
 	5750 3050 5750 1100
-Wire Wire Line
-	6700 3150 5600 3150
-Connection ~ 5600 3150
-Wire Wire Line
-	5600 3150 5600 1200
 Connection ~ 3150 1200
 Wire Wire Line
 	3150 1200 5600 1200
@@ -759,17 +725,11 @@ Entry Wire Line
 Wire Wire Line
 	9150 5250 8600 5250
 Wire Wire Line
-	9150 5400 8350 5400
-Wire Wire Line
 	8350 5400 8350 2950
 Wire Wire Line
 	8200 5500 8200 3050
 Wire Wire Line
 	8200 5500 9150 5500
-Wire Wire Line
-	9150 5600 8050 5600
-Wire Wire Line
-	8050 5600 8050 3150
 Wire Wire Line
 	9150 2950 8350 2950
 Connection ~ 8350 2950
@@ -780,11 +740,6 @@ Wire Wire Line
 Connection ~ 8200 3050
 Wire Wire Line
 	8200 3050 8200 1100
-Wire Wire Line
-	9150 3150 8050 3150
-Connection ~ 8050 3150
-Wire Wire Line
-	8050 3150 8050 1200
 Connection ~ 8050 1200
 Wire Wire Line
 	8050 1200 9400 1200
@@ -1301,28 +1256,73 @@ Text Label 6350 5000 0    50   ~ 0
 MA6
 Text Label 6350 5100 0    50   ~ 0
 MA7
-Wire Bus Line
-	1150 800  1150 5150
-Wire Bus Line
-	2950 2550 2950 6500
-Wire Bus Line
-	3600 800  3600 5150
-Wire Bus Line
-	5400 2550 5400 6500
-Wire Bus Line
-	6050 800  6050 5150
-Wire Bus Line
-	7850 2550 7850 6500
+Wire Wire Line
+	3150 1200 3150 3150
+Wire Wire Line
+	4250 3150 3150 3150
+Connection ~ 3150 3150
+Wire Wire Line
+	3150 3150 3150 5600
+Wire Wire Line
+	9150 5600 8050 5600
+Wire Wire Line
+	9150 5400 8350 5400
+Wire Wire Line
+	1800 5600 700  5600
+Wire Wire Line
+	8050 1200 8050 3150
+Wire Wire Line
+	9150 3150 8050 3150
+Connection ~ 8050 3150
+Wire Wire Line
+	8050 3150 8050 5600
+Wire Wire Line
+	3450 1000 3450 2950
+Wire Wire Line
+	4250 2950 3450 2950
+Connection ~ 3450 2950
+Wire Wire Line
+	3450 2950 3450 5400
+Wire Wire Line
+	5900 1000 5900 2950
+Wire Wire Line
+	6700 2950 5900 2950
+Wire Wire Line
+	5600 1200 5600 3150
+Wire Wire Line
+	6700 3150 5600 3150
+Wire Wire Line
+	5600 3150 5600 5600
+Wire Wire Line
+	5600 5600 6700 5600
+Connection ~ 5600 3150
+Wire Wire Line
+	6700 5400 5900 5400
+Wire Wire Line
+	5900 5400 5900 2950
 Wire Bus Line
 	8500 800  8500 5150
 Wire Bus Line
 	10300 2550 10300 6500
 Wire Bus Line
-	1300 700  1300 5000
+	6050 800  6050 5150
 Wire Bus Line
-	3750 700  3750 5000
+	7850 2550 7850 6500
+Wire Bus Line
+	3600 800  3600 5150
+Wire Bus Line
+	5400 2550 5400 6500
+Wire Bus Line
+	1150 800  1150 5150
+Wire Bus Line
+	2950 2550 2950 6500
+Wire Bus Line
+	8650 700  8650 5000
 Wire Bus Line
 	6200 700  6200 5000
 Wire Bus Line
-	8650 700  8650 5000
+	3750 700  3750 5000
+Wire Bus Line
+	1300 700  1300 5000
+Connection ~ 5900 2950
 $EndSCHEMATC
