@@ -315,7 +315,7 @@ U 1 1 607A66D2
 P 8100 4400
 F 0 "U9" H 8150 4300 50  0000 C CNN
 F 1 "RF_modulator" H 8200 3550 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8100 4400 50  0001 C CNN
+F 2 "coco2:coco2_vertical_rf_sheild" H 8100 4400 50  0001 C CNN
 F 3 "" H 8100 4400 50  0001 C CNN
 	1    8100 4400
 	1    0    0    -1  

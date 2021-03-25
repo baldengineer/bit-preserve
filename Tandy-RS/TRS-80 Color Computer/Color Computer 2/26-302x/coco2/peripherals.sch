@@ -303,7 +303,7 @@ U 1 1 60B58FEF
 P 5000 1850
 F 0 "J5" H 5028 1826 50  0000 L CNN
 F 1 "Conn_01x16_Female" H 5028 1735 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
 F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
 F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
@@ -932,20 +932,6 @@ Text HLabel 5350 5900 0    50   Input ~ 0
 CART_SND
 Wire Wire Line
 	5500 5900 5350 5900
-$Comp
-L Device:C_Small C20
-U 1 1 61067F63
-P 5100 6650
-F 0 "C20" V 4950 6600 50  0000 L CNN
-F 1 "10uF NP" V 5250 6500 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5100 6650 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-ues.pdf" H 5100 6650 50  0001 C CNN
-F 4 "digikey" H 5100 6650 50  0001 C CNN "Vendor"
-F 5 "493-10824-1-ND" H 5100 6650 50  0001 C CNN "Vendor part#"
-F 6 "UES1E100MDM1TD" H 5100 6650 50  0001 C CNN "Manufacturer part#"
-	1    5100 6650
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector:DIN-4 J3
 U 1 1 61098034
@@ -1938,7 +1924,21 @@ Wire Wire Line
 	10000 550  10000 950 
 Wire Wire Line
 	6300 550  6300 1850
+Connection ~ 10000 950 
+$Comp
+L Device:C_Small C20
+U 1 1 605E886F
+P 5100 6650
+F 0 "C20" V 4871 6650 50  0000 C CNN
+F 1 "10uF NP" V 4962 6650 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5100 6650 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-ues.pdf" H 5100 6650 50  0001 C CNN
+F 4 "digikey" V 5100 6650 50  0001 C CNN "Vendor"
+F 5 "493-10824-1-ND" V 5100 6650 50  0001 C CNN "Vendor part#"
+F 6 "UES1E100MDM1TD" V 5100 6650 50  0001 C CNN "Manufacturer part#"
+	1    5100 6650
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	1000 1150 1000 5400
-Connection ~ 10000 950 
 $EndSCHEMATC
