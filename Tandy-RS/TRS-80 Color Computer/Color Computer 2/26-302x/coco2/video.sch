@@ -19,7 +19,7 @@ U 1 1 603D67BA
 P 6650 3850
 F 0 "U8" H 6400 5250 50  0000 C CNN
 F 1 "MC6847" H 6900 5200 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 6650 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 6650 2350 50  0001 C CNN
 F 3 "http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6847 MOS Video Display Generator (Motorola).pdf" H 6550 5275 50  0001 C CNN
 	1    6650 3850
 	1    0    0    -1  
@@ -232,7 +232,7 @@ AR Path="/603D345E/606BF371" Ref="U?"  Part="1"
 AR Path="/603D560B/606BF371" Ref="U5"  Part="1" 
 F 0 "U5" H 5100 2550 50  0000 C CNN
 F 1 "74LS273" H 4650 2550 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 4950 1900 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4950 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 4950 1900 50  0001 C CNN
 F 4 "digikey" H 4950 1900 50  0001 C CNN "Vendor"
 F 5 "296-1657-5-ND" H 4950 1900 50  0001 C CNN "Vendor part#"
@@ -649,7 +649,7 @@ AR Path="/602A51A8/608C2CEF" Ref="C?"  Part="1"
 AR Path="/603D560B/608C2CEF" Ref="C27"  Part="1" 
 F 0 "C27" V 1150 5750 50  0000 C CNN
 F 1 ".022uF" V 1350 5750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 1250 5750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 1250 5750 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 1250 5750 50  0001 C CNN
 F 4 "digikey" H 1250 5750 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 1250 5750 50  0001 C CNN "Vendor part#"
@@ -679,7 +679,7 @@ U 1 1 608CC968
 P 4050 5550
 F 0 "CR13" V 4004 5620 50  0000 L CNN
 F 1 "1KF20-04" V 4095 5620 50  0000 L CNN
-F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" V 4050 5550 50  0001 C CNN
+F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 4050 5550 50  0001 C CNN
 F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 4050 5550 50  0001 C CNN
 F 4 "digikey" H 4050 5550 50  0001 C CNN "Vendor"
 F 5 "2368-NTE109-ND" H 4050 5550 50  0001 C CNN "Vendor part#"
@@ -905,12 +905,12 @@ AR Path="/602A51A8/60A6A791" Ref="C?"  Part="1"
 AR Path="/603CF7B8/60A6A791" Ref="C?"  Part="1" 
 AR Path="/603D560B/60A6A791" Ref="C62"  Part="1" 
 F 0 "C62" H 9750 4850 50  0000 L CNN
-F 1 "100uF 16v" H 10050 4850 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9950 4850 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9950 4850 50  0001 C CNN
+F 1 "10uF 16v" H 10050 4850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9950 4850 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 9950 4850 50  0001 C CNN
 F 4 "digikey" H 9950 4850 50  0001 C CNN "Vendor"
-F 5 "493-16208-1-ND" H 9950 4850 50  0001 C CNN "Vendor part#"
-F 6 "UVZ1C101MDD1TA" H 9950 4850 50  0001 C CNN "Manufacturer part#"
+F 5 "493-1809-ND" H 9950 4850 50  0001 C CNN "Vendor part#"
+F 6 "UPW1E100MDD" H 9950 4850 50  0001 C CNN "Manufacturer part#"
 	1    9950 4850
 	1    0    0    -1  
 $EndComp

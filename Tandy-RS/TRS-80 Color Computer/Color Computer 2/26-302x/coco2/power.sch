@@ -112,7 +112,7 @@ U 1 1 6029905D
 P 5850 2800
 F 0 "C8" H 5600 2800 50  0000 L CNN
 F 1 ".022uF" H 5550 2650 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 5850 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 5850 2800 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 5850 2800 50  0001 C CNN
 F 4 "digikey" H 5850 2800 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 5850 2800 50  0001 C CNN "Vendor part#"
@@ -126,7 +126,7 @@ U 1 1 6029A195
 P 3650 2750
 F 0 "C7" V 3421 2750 50  0000 C CNN
 F 1 ".022uF" V 3512 2750 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 3650 2750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3650 2750 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 3650 2750 50  0001 C CNN
 F 4 "digikey" H 3650 2750 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 3650 2750 50  0001 C CNN "Vendor part#"
@@ -140,7 +140,7 @@ U 1 1 6029A833
 P 3850 4150
 F 0 "C9" V 3621 4150 50  0000 C CNN
 F 1 ".022uF" V 3712 4150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 3850 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3850 4150 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 3850 4150 50  0001 C CNN
 F 4 "digikey" H 3850 4150 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 3850 4150 50  0001 C CNN "Vendor part#"
@@ -154,7 +154,7 @@ U 1 1 6029B20F
 P 6250 4250
 F 0 "C10" H 6342 4296 50  0000 L CNN
 F 1 ".022uF" H 6342 4205 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 6250 4250 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 6250 4250 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 6250 4250 50  0001 C CNN
 F 4 "digikey" H 6250 4250 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 6250 4250 50  0001 C CNN "Vendor part#"
@@ -264,7 +264,7 @@ U 1 1 602CCBDB
 P 6250 2850
 F 0 "FB1" H 6350 2896 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" H 6350 2805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 6180 2850 50  0001 C CNN
+F 2 "coco2:ferrite_bead" V 6180 2850 50  0001 C CNN
 F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 6250 2850 50  0001 C CNN
 F 4 "digikey" H 6250 2850 50  0001 C CNN "Vendor"
 F 5 "1934-1364-ND" H 6250 2850 50  0001 C CNN "Vendor part#"
@@ -278,7 +278,7 @@ U 1 1 602CE834
 P 4050 2900
 F 0 "FB2" H 4150 2946 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" H 4150 2855 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3980 2900 50  0001 C CNN
+F 2 "coco2:ferrite_bead" V 3980 2900 50  0001 C CNN
 F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 4050 2900 50  0001 C CNN
 F 4 "digikey" H 4050 2900 50  0001 C CNN "Vendor"
 F 5 "1934-1364-ND" H 4050 2900 50  0001 C CNN "Vendor part#"

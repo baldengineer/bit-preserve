@@ -19,7 +19,7 @@ U 1 1 603E2AD5
 P 3450 4200
 F 0 "U22" H 3650 5700 50  0000 C CNN
 F 1 "MC6883" H 3700 5550 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" H 3450 2700 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3450 2700 50  0001 C CNN
 F 3 "http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf" H 3350 5625 50  0001 C CNN
 	1    3450 4200
 	1    0    0    -1  
@@ -196,7 +196,7 @@ AR Path="/602A51A8/606EF723" Ref="FB?"  Part="1"
 AR Path="/603D345E/606EF723" Ref="FB4"  Part="1" 
 F 0 "FB4" V 4600 4550 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" V 4550 4200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 4380 4600 50  0001 C CNN
+F 2 "coco2:ferrite_bead" V 4380 4600 50  0001 C CNN
 F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 4450 4600 50  0001 C CNN
 F 4 "digikey" H 4450 4600 50  0001 C CNN "Vendor"
 F 5 "1934-1364-ND" H 4450 4600 50  0001 C CNN "Vendor part#"
@@ -241,11 +241,11 @@ U 1 1 60718B93
 P 3150 2050
 F 0 "C46" V 2925 2050 50  0000 C CNN
 F 1 "10uF 25v" V 3016 2050 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3150 2050 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-ups.pdf" H 3150 2050 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3150 2050 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 3150 2050 50  0001 C CNN
 F 4 "digikey" H 3150 2050 50  0001 C CNN "Vendor"
-F 5 "493-5362-1-ND" H 3150 2050 50  0001 C CNN "Vendor part#"
-F 6 "UPS1E100MDD1TD" H 3150 2050 50  0001 C CNN "Manufacturer part#"
+F 5 "493-1809-ND" H 3150 2050 50  0001 C CNN "Vendor part#"
+F 6 "UPW1E100MDD" H 3150 2050 50  0001 C CNN "Manufacturer part#"
 	1    3150 2050
 	0    1    1    0   
 $EndComp
@@ -287,7 +287,7 @@ AR Path="/602A51A8/6071F637" Ref="FB?"  Part="1"
 AR Path="/603D345E/6071F637" Ref="FB7"  Part="1" 
 F 0 "FB7" V 3900 2000 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" V 3850 1650 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3680 2050 50  0001 C CNN
+F 2 "coco2:ferrite_bead" V 3680 2050 50  0001 C CNN
 F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 3750 2050 50  0001 C CNN
 F 4 "digikey" H 3750 2050 50  0001 C CNN "Vendor"
 F 5 "1934-1364-ND" H 3750 2050 50  0001 C CNN "Vendor part#"
@@ -480,7 +480,7 @@ U 1 1 60783064
 P 3000 6750
 F 0 "U10" H 3000 7075 50  0000 C CNN
 F 1 "74LS02" H 3000 6984 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3000 6750 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 6750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 6750 50  0001 C CNN
 F 4 "digikey" H 3000 6750 50  0001 C CNN "Vendor"
 F 5 "296-1627-5-ND" H 3000 6750 50  0001 C CNN "Vendor part#"
@@ -494,7 +494,7 @@ U 2 1 607879F0
 P 5500 7500
 F 0 "U10" H 5500 7825 50  0000 C CNN
 F 1 "74LS02" H 5500 7734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5500 7500 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5500 7500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5500 7500 50  0001 C CNN
 F 4 "digikey" H 5500 7500 50  0001 C CNN "Vendor"
 F 5 "296-1627-5-ND" H 5500 7500 50  0001 C CNN "Vendor part#"
@@ -508,7 +508,7 @@ U 3 1 60788969
 P 5500 6850
 F 0 "U10" H 5500 7175 50  0000 C CNN
 F 1 "74LS02" H 5500 7084 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5500 6850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5500 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5500 6850 50  0001 C CNN
 F 4 "digikey" H 5500 6850 50  0001 C CNN "Vendor"
 F 5 "296-1627-5-ND" H 5500 6850 50  0001 C CNN "Vendor part#"
@@ -522,7 +522,7 @@ U 4 1 6078966A
 P 3000 7300
 F 0 "U10" H 3000 7625 50  0000 C CNN
 F 1 "74LS02" H 3000 7534 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3000 7300 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 7300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 7300 50  0001 C CNN
 F 4 "digikey" H 3000 7300 50  0001 C CNN "Vendor"
 F 5 "296-1627-5-ND" H 3000 7300 50  0001 C CNN "Vendor part#"
@@ -536,7 +536,7 @@ U 1 1 60780E57
 P 7300 5400
 F 0 "U11" H 6950 6000 50  0000 C CNN
 F 1 "74LS138" H 6950 5900 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 7300 5400 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 7300 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 7300 5400 50  0001 C CNN
 F 4 "digikey" H 7300 5400 50  0001 C CNN "Vendor"
 F 5 "296-1639-5-ND" H 7300 5400 50  0001 C CNN "Vendor part#"
@@ -973,7 +973,7 @@ U 1 1 603F7E8C
 P 9200 2300
 F 0 "U6" H 9400 2950 50  0000 C CNN
 F 1 "74LS244" H 8900 2950 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 9200 2300 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 9200 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 9200 2300 50  0001 C CNN
 F 4 "digikey" H 9200 2300 50  0001 C CNN "Vendor"
 F 5 "296-1653-5-ND" H 9200 2300 50  0001 C CNN "Vendor part#"
@@ -1010,7 +1010,7 @@ U 5 1 60B6B089
 P 1550 7050
 F 0 "U10" H 1350 7500 50  0000 C CNN
 F 1 "74LS02" H 1750 7450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1550 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1550 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1550 7050 50  0001 C CNN
 F 4 "digikey" H 1550 7050 50  0001 C CNN "Vendor"
 F 5 "296-1627-5-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
@@ -1070,6 +1070,9 @@ Wire Wire Line
 	800  7100 800  7750
 Wire Wire Line
 	800  7750 1550 7750
+Connection ~ 1550 7750
+Wire Wire Line
+	1550 7750 2250 7750
 Wire Bus Line
 	7900 1050 7900 2400
 Wire Bus Line
@@ -1078,7 +1081,4 @@ Wire Bus Line
 	4400 2250 4400 3700
 Wire Bus Line
 	2600 2900 2600 4400
-Connection ~ 1550 7750
-Wire Wire Line
-	1550 7750 2250 7750
 $EndSCHEMATC

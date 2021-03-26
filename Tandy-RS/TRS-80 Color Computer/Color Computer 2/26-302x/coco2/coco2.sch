@@ -711,4 +711,15 @@ Wire Bus Line
 	4150 4600 4150 5800
 Wire Bus Line
 	850  1450 850  5800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 605FAC28
+P 2850 6650
+F 0 "H1" H 2950 6696 50  0000 L CNN
+F 1 "MountingHole" H 2950 6605 50  0000 L CNN
+F 2 "coco2:coco2_layout" H 2850 6650 50  0001 C CNN
+F 3 "~" H 2850 6650 50  0001 C CNN
+	1    2850 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

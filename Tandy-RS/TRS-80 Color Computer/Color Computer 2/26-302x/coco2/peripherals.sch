@@ -170,7 +170,7 @@ AR Path="/602A51A8/60A871E2" Ref="R?"  Part="1"
 AR Path="/603CF7B8/60A871E2" Ref="R2"  Part="1" 
 F 0 "R2" H 9332 2204 50  0000 R CNN
 F 1 ".1 ohms 1/2W" H 9332 2295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal" H 9400 2250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 9400 2250 50  0001 C CNN
 F 3 "https://www.nteinc.com/resistor_web/pdf/halfw.pdf" H 9400 2250 50  0001 C CNN
 F 4 "digikey" H 9400 2250 50  0001 C CNN "Vendor"
 F 5 "2368-HWD10-ND" H 9400 2250 50  0001 C CNN "Vendor part#"
@@ -1030,7 +1030,7 @@ AR Path="/603D560B/61143542" Ref="CR?"  Part="1"
 AR Path="/603CF7B8/61143542" Ref="CR7"  Part="1" 
 F 0 "CR7" V 8300 5300 50  0000 L CNN
 F 1 "1KF20-04" H 8200 5200 50  0000 L CNN
-F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" V 8150 5300 50  0001 C CNN
+F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 8150 5300 50  0001 C CNN
 F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 8150 5300 50  0001 C CNN
 F 4 "digikey" H 8150 5300 50  0001 C CNN "Vendor"
 F 5 "2368-NTE109-ND" H 8150 5300 50  0001 C CNN "Vendor part#"
@@ -1046,7 +1046,7 @@ AR Path="/603D560B/6114C7CE" Ref="CR?"  Part="1"
 AR Path="/603CF7B8/6114C7CE" Ref="CR8"  Part="1" 
 F 0 "CR8" V 9550 5300 50  0000 R CNN
 F 1 "1KF20-04" H 9900 5350 50  0000 R CNN
-F 2 "Diode_THT:D_DO-15_P15.24mm_Horizontal" V 9450 5300 50  0001 C CNN
+F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 9450 5300 50  0001 C CNN
 F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 9450 5300 50  0001 C CNN
 F 4 "digikey" H 9450 5300 50  0001 C CNN "Vendor"
 F 5 "2368-NTE109-ND" H 9450 5300 50  0001 C CNN "Vendor part#"
@@ -1088,28 +1088,12 @@ AR Path="/602A51A8/611B644A" Ref="C?"  Part="1"
 AR Path="/603CF7B8/611B644A" Ref="C13"  Part="1" 
 F 0 "C13" H 7100 6100 50  0000 C CNN
 F 1 ".022uF" H 7100 6200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 7300 6100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7300 6100 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7300 6100 50  0001 C CNN
 F 4 "digikey" H 7300 6100 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 7300 6100 50  0001 C CNN "Vendor part#"
 F 6 "89322" H 7300 6100 50  0001 C CNN "Manufacturer part#"
 	1    7300 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 611BFE42
-P 7000 6100
-AR Path="/602A51A8/611BFE42" Ref="C?"  Part="1" 
-AR Path="/603CF7B8/611BFE42" Ref="C14"  Part="1" 
-F 0 "C14" H 7150 6050 50  0000 C CNN
-F 1 ".022uF" H 7150 6150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 7000 6100 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7000 6100 50  0001 C CNN
-F 4 "digikey" H 7000 6100 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 7000 6100 50  0001 C CNN "Manufacturer part#"
-	1    7000 6100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1120,13 +1104,13 @@ AR Path="/602A51A8/611C9262" Ref="C?"  Part="1"
 AR Path="/603CF7B8/611C9262" Ref="C16"  Part="1" 
 F 0 "C16" H 8600 5550 50  0000 C CNN
 F 1 ".022uF" H 8600 5650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 8450 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8450 5550 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8450 5550 50  0001 C CNN
 F 4 "digikey" H 8450 5550 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 8450 5550 50  0001 C CNN "Vendor part#"
 F 6 "89322" H 8450 5550 50  0001 C CNN "Manufacturer part#"
 	1    8450 5550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
@@ -1136,7 +1120,7 @@ AR Path="/602A51A8/611D2710" Ref="C?"  Part="1"
 AR Path="/603CF7B8/611D2710" Ref="C17"  Part="1" 
 F 0 "C17" H 8550 5550 50  0000 C CNN
 F 1 ".022uF" H 8800 5650 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 8700 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8700 5550 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8700 5550 50  0001 C CNN
 F 4 "digikey" H 8700 5550 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 8700 5550 50  0001 C CNN "Vendor part#"
@@ -1152,7 +1136,7 @@ AR Path="/602A51A8/611DC058" Ref="C?"  Part="1"
 AR Path="/603CF7B8/611DC058" Ref="C23"  Part="1" 
 F 0 "C23" H 9350 6450 50  0000 C CNN
 F 1 ".022uF" H 9000 6500 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 9200 6500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 9200 6500 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 9200 6500 50  0001 C CNN
 F 4 "digikey" H 9200 6500 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 9200 6500 50  0001 C CNN "Vendor part#"
@@ -1168,7 +1152,7 @@ AR Path="/602A51A8/611E59BC" Ref="C?"  Part="1"
 AR Path="/603CF7B8/611E59BC" Ref="C22"  Part="1" 
 F 0 "C22" V 8721 4150 50  0000 C CNN
 F 1 ".022uF" V 8812 4150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P5.00mm" H 8950 4150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8950 4150 50  0001 C CNN
 F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8950 4150 50  0001 C CNN
 F 4 "digikey" H 8950 4150 50  0001 C CNN "Vendor"
 F 5 "2368-89322-ND" H 8950 4150 50  0001 C CNN "Vendor part#"
@@ -1269,7 +1253,7 @@ AR Path="/602A51A8/61377A21" Ref="R?"  Part="1"
 AR Path="/603CF7B8/61377A21" Ref="R11"  Part="1" 
 F 0 "R11" H 9300 3850 50  0000 R CNN
 F 1 "100 1/2W" H 9750 3950 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal" H 9350 3850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 9350 3850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 9350 3850 50  0001 C CNN
 F 4 "digikey" H 9350 3850 50  0001 C CNN "Vendor"
 F 5 "CF12JT100RTR-ND" H 9350 3850 50  0001 C CNN "Vendor part#"
@@ -1562,7 +1546,7 @@ AR Path="/602A51A8/607226B1" Ref="R?"  Part="1"
 AR Path="/603CF7B8/607226B1" Ref="R23"  Part="1" 
 F 0 "R23" V 5550 6700 50  0000 R CNN
 F 1 "220 1/2W" V 5800 6800 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P20.32mm_Horizontal" H 5700 6650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 5700 6650 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5700 6650 50  0001 C CNN
 F 4 "digikey" H 5700 6650 50  0001 C CNN "Vendor"
 F 5 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5700 6650 50  0001 C CNN "Vendor part#"
@@ -1931,7 +1915,7 @@ U 1 1 605E886F
 P 5100 6650
 F 0 "C20" V 4871 6650 50  0000 C CNN
 F 1 "10uF NP" V 4962 6650 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5100 6650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" H 5100 6650 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-ues.pdf" H 5100 6650 50  0001 C CNN
 F 4 "digikey" V 5100 6650 50  0001 C CNN "Vendor"
 F 5 "493-10824-1-ND" V 5100 6650 50  0001 C CNN "Vendor part#"
@@ -1941,4 +1925,20 @@ F 6 "UES1E100MDM1TD" V 5100 6650 50  0001 C CNN "Manufacturer part#"
 $EndComp
 Wire Bus Line
 	1000 1150 1000 5400
+$Comp
+L Device:C_Small C?
+U 1 1 611BFE42
+P 7000 6100
+AR Path="/602A51A8/611BFE42" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/611BFE42" Ref="C14"  Part="1" 
+F 0 "C14" H 7150 6050 50  0000 C CNN
+F 1 ".022uF" H 7150 6150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7000 6100 50  0001 C CNN
+F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7000 6100 50  0001 C CNN
+F 4 "digikey" H 7000 6100 50  0001 C CNN "Vendor"
+F 5 "2368-89322-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
+F 6 "89322" H 7000 6100 50  0001 C CNN "Manufacturer part#"
+	1    7000 6100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
