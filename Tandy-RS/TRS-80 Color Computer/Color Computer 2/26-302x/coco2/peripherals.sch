@@ -26,6 +26,9 @@ F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 9500 2000 50  000
 F 4 "digikey" H 9300 1850 50  0001 C CNN "Vendor"
 F 5 "2383-2N3055-ND" H 9300 1850 50  0001 C CNN "Vendor part#"
 F 6 "2N3055" H 9300 1850 50  0001 C CNN "Manufacturer part#"
+F 7 "Heatsink" H 9300 1850 50  0001 C CNN "Description 2nd part"
+F 8 "HS110-ND" H 9300 1850 50  0001 C CNN "Vendor 2nd part#"
+F 9 "501603B00000G" H 9300 1850 50  0001 C CNN "Manufacturer 2nd part#"
 	1    9300 1850
 	1    0    0    -1  
 $EndComp
@@ -1923,8 +1926,6 @@ F 6 "UES1E100MDM1TD" V 5100 6650 50  0001 C CNN "Manufacturer part#"
 	1    5100 6650
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	1000 1150 1000 5400
 $Comp
 L Device:C_Small C?
 U 1 1 611BFE42
@@ -1941,4 +1942,6 @@ F 6 "89322" H 7000 6100 50  0001 C CNN "Manufacturer part#"
 	1    7000 6100
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	1000 1150 1000 5400
 $EndSCHEMATC

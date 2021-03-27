@@ -703,14 +703,6 @@ Wire Wire Line
 	4100 2400 4300 2400
 Wire Wire Line
 	3050 2400 4100 2400
-Wire Bus Line
-	1000 3250 1000 4300
-Wire Bus Line
-	4050 3250 4050 4200
-Wire Bus Line
-	4150 4600 4150 5800
-Wire Bus Line
-	850  1450 850  5800
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 605FAC28
@@ -722,4 +714,12 @@ F 3 "~" H 2850 6650 50  0001 C CNN
 	1    2850 6650
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1000 3250 1000 4300
+Wire Bus Line
+	4050 3250 4050 4200
+Wire Bus Line
+	4150 4600 4150 5800
+Wire Bus Line
+	850  1450 850  5800
 $EndSCHEMATC
