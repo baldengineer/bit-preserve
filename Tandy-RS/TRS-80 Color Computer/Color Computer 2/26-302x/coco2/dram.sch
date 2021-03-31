@@ -20,7 +20,10 @@ P 2200 2450
 F 0 "U14" H 2200 3467 50  0000 C CNN
 F 1 "MCM4517" H 2200 3376 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3150 3500 50  0001 C CNN
-F 3 "" H 3150 3500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3150 3500 50  0001 C CNN
+F 4 "digikey" H 2200 2450 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 2200 2450 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 2200 2450 50  0001 C CNN "Manufacturer part#"
 	1    2200 2450
 	1    0    0    -1  
 $EndComp
@@ -92,7 +95,10 @@ P 2200 4900
 F 0 "U18" H 2200 5917 50  0000 C CNN
 F 1 "MCM4517" H 2200 5826 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3150 5950 50  0001 C CNN
-F 3 "" H 3150 5950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3150 5950 50  0001 C CNN
+F 4 "digikey" H 2200 4900 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 2200 4900 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 2200 4900 50  0001 C CNN "Manufacturer part#"
 	1    2200 4900
 	1    0    0    -1  
 $EndComp
@@ -209,7 +215,10 @@ P 4650 2450
 F 0 "U15" H 4650 3467 50  0000 C CNN
 F 1 "MCM4517" H 4650 3376 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 5600 3500 50  0001 C CNN
-F 3 "" H 5600 3500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 3500 50  0001 C CNN
+F 4 "digikey" H 4650 2450 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 4650 2450 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 4650 2450 50  0001 C CNN "Manufacturer part#"
 	1    4650 2450
 	1    0    0    -1  
 $EndComp
@@ -281,7 +290,10 @@ P 4650 4900
 F 0 "U19" H 4650 5917 50  0000 C CNN
 F 1 "MCM4517" H 4650 5826 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 5600 5950 50  0001 C CNN
-F 3 "" H 5600 5950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5600 5950 50  0001 C CNN
+F 4 "digikey" H 4650 4900 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 4650 4900 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 4650 4900 50  0001 C CNN "Manufacturer part#"
 	1    4650 4900
 	1    0    0    -1  
 $EndComp
@@ -374,7 +386,10 @@ P 7100 2450
 F 0 "U16" H 7100 3467 50  0000 C CNN
 F 1 "MCM4517" H 7100 3376 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8050 3500 50  0001 C CNN
-F 3 "" H 8050 3500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8050 3500 50  0001 C CNN
+F 4 "digikey" H 7100 2450 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 7100 2450 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 7100 2450 50  0001 C CNN "Manufacturer part#"
 	1    7100 2450
 	1    0    0    -1  
 $EndComp
@@ -447,6 +462,9 @@ F 0 "U20" H 7100 5917 50  0000 C CNN
 F 1 "MCM4517" H 7100 5826 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8050 5950 50  0001 C CNN
 F 3 "" H 8050 5950 50  0001 C CNN
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 7100 4900 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 7100 4900 50  0001 C CNN "Vendor"
+F 6 "A120349-ND" H 7100 4900 50  0001 C CNN "Vendor part#"
 	1    7100 4900
 	1    0    0    -1  
 $EndComp
@@ -579,7 +597,10 @@ P 9550 2450
 F 0 "U17" H 9550 3467 50  0000 C CNN
 F 1 "MCM4517" H 9550 3376 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10500 3500 50  0001 C CNN
-F 3 "" H 10500 3500 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 10500 3500 50  0001 C CNN
+F 4 "digikey" H 9550 2450 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 9550 2450 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 9550 2450 50  0001 C CNN "Manufacturer part#"
 	1    9550 2450
 	1    0    0    -1  
 $EndComp
@@ -651,7 +672,10 @@ P 9550 4900
 F 0 "U21" H 9550 5917 50  0000 C CNN
 F 1 "MCM4517" H 9550 5826 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10500 5950 50  0001 C CNN
-F 3 "" H 10500 5950 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 10500 5950 50  0001 C CNN
+F 4 "digikey" H 9550 4900 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 9550 4900 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 9550 4900 50  0001 C CNN "Manufacturer part#"
 	1    9550 4900
 	1    0    0    -1  
 $EndComp
@@ -805,8 +829,9 @@ F 0 "C50" H 2150 7200 50  0000 C CNN
 F 1 ".1uF" H 2150 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 1950 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 1950 7250 50  0001 C CNN
-F 4 "digikey" V 1950 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 1950 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 1950 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 1950 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 1950 7250 50  0001 C CNN "Manufacturer part#"
 	1    1950 7250
 	-1   0    0    1   
 $EndComp
@@ -821,8 +846,9 @@ F 0 "C51" H 2550 7200 50  0000 C CNN
 F 1 ".1uF" H 2550 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2350 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2350 7250 50  0001 C CNN
-F 4 "digikey" V 2350 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 2350 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 2350 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 2350 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 2350 7250 50  0001 C CNN "Manufacturer part#"
 	1    2350 7250
 	-1   0    0    1   
 $EndComp
@@ -837,8 +863,9 @@ F 0 "C52" H 2950 7200 50  0000 C CNN
 F 1 ".1uF" H 2950 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2750 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2750 7250 50  0001 C CNN
-F 4 "digikey" V 2750 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 2750 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 2750 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 2750 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 2750 7250 50  0001 C CNN "Manufacturer part#"
 	1    2750 7250
 	-1   0    0    1   
 $EndComp
@@ -853,8 +880,9 @@ F 0 "C53" H 3350 7200 50  0000 C CNN
 F 1 ".1uF" H 3350 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 3150 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 3150 7250 50  0001 C CNN
-F 4 "digikey" V 3150 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 3150 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 3150 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 3150 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 3150 7250 50  0001 C CNN "Manufacturer part#"
 	1    3150 7250
 	-1   0    0    1   
 $EndComp
@@ -869,8 +897,9 @@ F 0 "C54" H 3750 7200 50  0000 C CNN
 F 1 ".1uF" H 3750 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 3550 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 3550 7250 50  0001 C CNN
-F 4 "digikey" V 3550 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 3550 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 3550 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 3550 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 3550 7250 50  0001 C CNN "Manufacturer part#"
 	1    3550 7250
 	-1   0    0    1   
 $EndComp
@@ -885,8 +914,9 @@ F 0 "C55" H 4150 7200 50  0000 C CNN
 F 1 ".1uF" H 4150 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 3950 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 3950 7250 50  0001 C CNN
-F 4 "digikey" V 3950 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 3950 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 3950 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 3950 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 3950 7250 50  0001 C CNN "Manufacturer part#"
 	1    3950 7250
 	-1   0    0    1   
 $EndComp
@@ -901,8 +931,9 @@ F 0 "C56" H 4550 7200 50  0000 C CNN
 F 1 ".1uF" H 4550 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4350 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4350 7250 50  0001 C CNN
-F 4 "digikey" V 4350 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4350 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 4350 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4350 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 4350 7250 50  0001 C CNN "Manufacturer part#"
 	1    4350 7250
 	-1   0    0    1   
 $EndComp
@@ -1312,8 +1343,9 @@ F 0 "C57" H 4950 7200 50  0000 C CNN
 F 1 ".1uF" H 4950 7300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4750 7250 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4750 7250 50  0001 C CNN
-F 4 "digikey" V 4750 7250 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4750 7250 50  0001 C CNN "Field5"
+F 4 "digikey" V 4750 7250 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4750 7250 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 4750 7250 50  0001 C CNN "Manufacturer part#"
 	1    4750 7250
 	-1   0    0    1   
 $EndComp
@@ -1326,6 +1358,24 @@ Wire Wire Line
 Wire Wire Line
 	4350 7550 4750 7550
 Connection ~ 4750 7550
+Text Notes 4850 7100 0    50   ~ 0
+C52 & C55 are not on the board\nI'm using as a reference.\nI'll leave tehm  in the schematic\nbecause I can't see why I should\nremove them.
+Wire Notes Line
+	2450 7800 2850 7800
+Wire Notes Line
+	2850 7800 2850 6850
+Wire Notes Line
+	2850 6850 2450 6850
+Wire Notes Line
+	2450 6850 2450 7800
+Wire Notes Line
+	3650 6850 3650 7800
+Wire Notes Line
+	3650 7800 4050 7800
+Wire Notes Line
+	4050 7800 4050 6850
+Wire Notes Line
+	4050 6850 3650 6850
 Wire Bus Line
 	8500 800  8500 5150
 Wire Bus Line

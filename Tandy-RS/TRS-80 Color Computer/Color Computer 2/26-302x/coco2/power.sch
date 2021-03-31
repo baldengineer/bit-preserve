@@ -173,8 +173,8 @@ F 1 ".1uF" H 4800 3300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 5000 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 5000 3400 50  0001 C CNN
 F 4 "digikey" V 5000 3400 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 5000 3400 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 5000 3400 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 5000 3400 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 5000 3400 50  0001 C CNN "Manufacturer part#"
 	1    5000 3400
 	1    0    0    -1  
 $EndComp
@@ -219,7 +219,7 @@ F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4650 4225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 4650 4400 50  0001 C CNN
 F 4 "digikey" H 4650 4400 50  0001 C CNN "Vendor"
 F 5 "2368-1N5401-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 4650 4400 50  0001 C CNN "manufacturer part#"
+F 6 "1N5401" H 4650 4400 50  0001 C CNN "Manufacturer part#"
 	1    4650 4400
 	-1   0    0    1   
 $EndComp
@@ -233,7 +233,7 @@ F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 4225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5350 4400 50  0001 C CNN
 F 4 "digikey" H 5350 4400 50  0001 C CNN "Vendor"
 F 5 "2368-1N5401-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 5350 4400 50  0001 C CNN "manufacturer part#"
+F 6 "1N5401" H 5350 4400 50  0001 C CNN "Manufacturer part#"
 	1    5350 4400
 	1    0    0    -1  
 $EndComp
@@ -304,8 +304,8 @@ F 1 ".1uF" H 5800 4650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 6000 4750 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 6000 4750 50  0001 C CNN
 F 4 "digikey" V 6000 4750 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 6000 4750 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 6000 4750 50  0001 C CNN "Manufacturer part#"
 	1    6000 4750
 	0    1    1    0   
 $EndComp
@@ -410,7 +410,7 @@ F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3300 4150 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-urs.pdf" H 3300 4150 50  0001 C CNN
 F 4 "digikey" H 3300 4150 50  0001 C CNN "Vendor"
 F 5 "493-15896-1-ND" H 3300 4150 50  0001 C CNN "Vendor part#"
-F 6 "URS1C221MPD1TA" H 3300 4150 50  0001 C CNN "manufacturer part#"
+F 6 "URS1C221MPD1TA" H 3300 4150 50  0001 C CNN "Manufacturer part#"
 	1    3300 4150
 	0    1    1    0   
 $EndComp
@@ -438,8 +438,13 @@ U 1 1 60403583
 P 5150 6750
 F 0 "S2" V 5104 6898 50  0000 L CNN
 F 1 "Reset Switch" V 5195 6898 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 5150 6950 50  0001 C CNN
-F 3 "~" H 5150 6950 50  0001 C CNN
+F 2 "coco2:B3F3152" H 5150 6950 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 5150 6950 50  0001 C CNN
+F 4 "digikey" V 5150 6750 50  0001 C CNN "Vendor"
+F 5 "SW410-ND" V 5150 6750 50  0001 C CNN "Vendor part#"
+F 6 "B3F-3152" V 5150 6750 50  0001 C CNN "Manufacturer part#"
+F 7 "SW451-ND" V 5150 6750 50  0001 C CNN "Vendor 2nd part#"
+F 8 "B32-1010" V 5150 6750 50  0001 C CNN "Manufacturer 2nd part#"
 	1    5150 6750
 	0    1    1    0   
 $EndComp
@@ -474,8 +479,9 @@ F 0 "C58" V 4571 6650 50  0000 C CNN
 F 1 ".1uF" V 4662 6650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4800 6650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4800 6650 50  0001 C CNN
-F 4 "digikey" V 4800 6650 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4800 6650 50  0001 C CNN "Field5"
+F 4 "digikey" V 4800 6650 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4800 6650 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 4800 6650 50  0001 C CNN "Manufacturer part#"
 	1    4800 6650
 	1    0    0    -1  
 $EndComp
@@ -513,7 +519,7 @@ F 1 "100K" H 4318 6355 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4250 6400 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4250 6400 50  0001 C CNN
 F 4 "digikey" H 4250 6400 50  0001 C CNN "Vendor"
-F 5 "CF14JT100KTR-ND" H 4250 6400 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT100KCT-ND" H 4250 6400 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT100K" H 4250 6400 50  0001 C CNN "Manufacturer part#"
 	1    4250 6400
 	1    0    0    -1  

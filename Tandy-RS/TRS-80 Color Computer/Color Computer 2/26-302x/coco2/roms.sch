@@ -20,7 +20,10 @@ P 4250 3850
 F 0 "U12" H 4150 4950 50  0000 C CNN
 F 1 "MC68A364" H 4050 4850 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W15.24mm_Socket" H 5550 5550 50  0001 C CNN
-F 3 "" H 5550 5550 50  0001 C CNN
+F 3 "http://www.cnctech.us/pdfs/243-XX-1-XX_.pdf" H 5550 5550 50  0001 C CNN
+F 4 "digikey" H 4250 3850 50  0001 C CNN "Vendor"
+F 5 "1175-2551-ND" H 4250 3850 50  0001 C CNN "Vendor part#"
+F 6 "243-24-1-06" H 4250 3850 50  0001 C CNN "Manufacturer part#"
 	1    4250 3850
 	1    0    0    -1  
 $EndComp
@@ -31,7 +34,10 @@ P 6950 3850
 F 0 "U13" H 6850 4900 50  0000 C CNN
 F 1 "MC68A364" H 6750 4800 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W15.24mm_Socket" H 8250 5550 50  0001 C CNN
-F 3 "" H 8250 5550 50  0001 C CNN
+F 3 "http://www.cnctech.us/pdfs/243-XX-1-XX_.pdf" H 8250 5550 50  0001 C CNN
+F 4 "digikey" H 6950 3850 50  0001 C CNN "Vendor"
+F 5 "1175-2551-ND" H 6950 3850 50  0001 C CNN "Vendor part#"
+F 6 "243-24-1-06" H 6950 3850 50  0001 C CNN "Manufacturer part#"
 	1    6950 3850
 	1    0    0    -1  
 $EndComp
@@ -235,8 +241,9 @@ F 0 "C35" H 5021 2850 50  0000 C CNN
 F 1 ".1uF" H 5450 2850 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 5250 2850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 5250 2850 50  0001 C CNN
-F 4 "digikey" V 5250 2850 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 5250 2850 50  0001 C CNN "Field5"
+F 4 "digikey" V 5250 2850 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 5250 2850 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 5250 2850 50  0001 C CNN "Manufacturer part#"
 	1    5250 2850
 	-1   0    0    1   
 $EndComp
@@ -250,8 +257,9 @@ F 0 "C36" H 7721 2800 50  0000 C CNN
 F 1 ".1uF" H 8150 2800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 7950 2800 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 7950 2800 50  0001 C CNN
-F 4 "digikey" V 7950 2800 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 7950 2800 50  0001 C CNN "Field5"
+F 4 "digikey" V 7950 2800 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 7950 2800 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 7950 2800 50  0001 C CNN "Manufacturer part#"
 	1    7950 2800
 	-1   0    0    1   
 $EndComp
@@ -335,7 +343,7 @@ Wire Wire Line
 	6950 4750 6950 5000
 Text Notes 2300 3250 0    50   ~ 0
 U12 is the Color Basic ROM.
-Text Notes 7950 3250 0    50   ~ 0
+Text Notes 8050 3500 0    50   ~ 0
 U13 is the optional Extended Color Basic ROM
 $Comp
 L power:GNDS #PWR?
@@ -447,6 +455,24 @@ Text Label 3700 4250 0    50   ~ 0
 A11
 Text Label 3700 4350 0    50   ~ 0
 A12
+Text Notes 8200 2450 0    50   ~ 0
+C36 is in the schematic but not on the \nreference board that I'm using.\n\n
+Wire Notes Line
+	9800 2150 9800 2450
+Wire Notes Line
+	9800 2450 8100 2450
+Wire Notes Line
+	8100 2450 8100 2150
+Wire Notes Line
+	8100 2150 9800 2150
+Wire Notes Line
+	9950 3350 9950 3650
+Wire Notes Line
+	9950 3650 7950 3650
+Wire Notes Line
+	7950 3650 7950 3350
+Wire Notes Line
+	7950 3350 9950 3350
 Wire Bus Line
 	5000 3250 5000 5550
 Wire Bus Line

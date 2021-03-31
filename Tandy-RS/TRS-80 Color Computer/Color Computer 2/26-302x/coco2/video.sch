@@ -19,8 +19,12 @@ U 1 1 603D67BA
 P 6650 3850
 F 0 "U8" H 6400 5250 50  0000 C CNN
 F 1 "MC6847" H 6900 5200 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 6650 2350 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 6650 2350 50  0001 C CNN
 F 3 "http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6847 MOS Video Display Generator (Motorola).pdf" H 6550 5275 50  0001 C CNN
+F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 6650 3850 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 6650 3850 50  0001 C CNN "Vendor"
+F 6 "ED3048-5-ND" H 6650 3850 50  0001 C CNN "Vendor part#"
+F 7 "ED40DT" H 6650 3850 50  0001 C CNN "Manufacturer part#"
 	1    6650 3850
 	1    0    0    -1  
 $EndComp
@@ -133,8 +137,9 @@ F 0 "C21" V 4750 1000 50  0000 C CNN
 F 1 ".1uF" V 4550 900 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4700 900 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4700 900 50  0001 C CNN
-F 4 "digikey" V 4700 900 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4700 900 50  0001 C CNN "Field5"
+F 4 "digikey" V 4700 900 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4700 900 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 4700 900 50  0001 C CNN "Manufacturer part#"
 	1    4700 900 
 	0    1    1    0   
 $EndComp
@@ -176,8 +181,9 @@ F 0 "C25" V 4350 2500 50  0000 C CNN
 F 1 ".1uF" V 4050 2500 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4200 2500 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4200 2500 50  0001 C CNN
-F 4 "digikey" V 4200 2500 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4200 2500 50  0001 C CNN "Field5"
+F 4 "digikey" V 4200 2500 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4200 2500 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 4200 2500 50  0001 C CNN "Manufacturer part#"
 	1    4200 2500
 	-1   0    0    1   
 $EndComp
@@ -234,9 +240,13 @@ F 0 "U5" H 5100 2550 50  0000 C CNN
 F 1 "74LS273" H 4650 2550 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4950 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 4950 1900 50  0001 C CNN
-F 4 "digikey" H 4950 1900 50  0001 C CNN "Vendor"
-F 5 "296-1657-5-ND" H 4950 1900 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS273N" H 4950 1900 50  0001 C CNN "Manufacturer part#"
+F 4 "http://www.cnctech.us/pdfs/243-XX-1-XX_.pdf" H 4950 1900 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 4950 1900 50  0001 C CNN "Vendor"
+F 6 "1175-1479-ND" H 4950 1900 50  0001 C CNN "Vendor part#"
+F 7 "243-20-1-03" H 4950 1900 50  0001 C CNN "Manufacturer part#"
+F 8 "digikey" H 4950 1900 50  0001 C CNN "Vendor"
+F 9 "296-1657-5-ND" H 4950 1900 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS273N" H 4950 1900 50  0001 C CNN "Manufacturer 2nd part#"
 	1    4950 1900
 	1    0    0    -1  
 $EndComp
@@ -414,7 +424,7 @@ F 1 "150" V 6050 6100 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5950 6200 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5950 6200 50  0001 C CNN
 F 4 "digikey" H 5950 6200 50  0001 C CNN "Vendor"
-F 5 "CF14JT150RTR-ND" H 5950 6200 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT150RCT-ND " H 5950 6200 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT150R" H 5950 6200 50  0001 C CNN "Manufacturer part#"
 	1    5950 6200
 	0    1    1    0   
@@ -431,7 +441,7 @@ F 1 "10k" V 7318 6155 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7250 6200 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 7250 6200 50  0001 C CNN
 F 4 "digikey" H 7250 6200 50  0001 C CNN "Vendor"
-F 5 "CF14JT10K0TR-ND" H 7250 6200 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT10K0CT-ND" H 7250 6200 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT10K0" H 7250 6200 50  0001 C CNN "Manufacturer part#"
 	1    7250 6200
 	0    1    1    0   
@@ -598,11 +608,11 @@ U 1 1 608AC80B
 P 2100 5750
 F 0 "U4" H 1850 6150 50  0000 C CNN
 F 1 "NE555P" H 2350 6150 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 2750 5350 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2750 5350 50  0001 C CNN
 F 3 "https://www.nteinc.com/specs/900to999/pdf/nte955.pdf" H 2950 5350 50  0001 C CNN
 F 4 "digikey" H 2100 5750 50  0001 C CNN "Vendor"
 F 5 "2368-NTE955M-ND" H 2100 5750 50  0001 C CNN "Vendor part#"
-F 6 "NTE955M" H 2100 5750 50  0001 C CNN "manufacturer part#"
+F 6 "NTE955M" H 2100 5750 50  0001 C CNN "Manufacturer part#"
 	1    2100 5750
 	1    0    0    -1  
 $EndComp
@@ -618,7 +628,7 @@ F 1 "9.1k" V 3400 5400 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3300 5500 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3300 5500 50  0001 C CNN
 F 4 "digikey" H 3300 5500 50  0001 C CNN "Vendor"
-F 5 "CF14JT9K10TR-ND" H 3300 5500 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT9K10CT-ND" H 3300 5500 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT9K10" H 3300 5500 50  0001 C CNN "Manufacturer part#"
 	1    3300 5500
 	-1   0    0    1   
@@ -636,8 +646,9 @@ F 0 "C24" V 1500 4600 50  0000 C CNN
 F 1 ".1uF" V 1600 4600 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 1750 4600 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 1750 4600 50  0001 C CNN
-F 4 "digikey" V 1750 4600 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 1750 4600 50  0001 C CNN "Field5"
+F 4 "digikey" V 1750 4600 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 1750 4600 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 1750 4600 50  0001 C CNN "Manufacturer part#"
 	1    1750 4600
 	0    -1   -1   0   
 $EndComp
@@ -668,7 +679,7 @@ F 1 "4.7K" V 3250 7200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3100 7250 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3100 7250 50  0001 C CNN
 F 4 "digikey" H 3100 7250 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 3100 7250 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 3100 7250 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 3100 7250 50  0001 C CNN "Manufacturer part#"
 	1    3100 7250
 	0    1    1    0   
@@ -737,7 +748,7 @@ F 1 "1K" V 5418 6505 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5350 6550 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5350 6550 50  0001 C CNN
 F 4 "digikey" H 5350 6550 50  0001 C CNN "Vendor"
-F 5 "CF14JT1K00TR-ND" H 5350 6550 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT1K00CT-ND" H 5350 6550 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT1K00" H 5350 6550 50  0001 C CNN "Manufacturer part#"
 	1    5350 6550
 	0    1    1    0   
@@ -880,8 +891,9 @@ F 0 "C32" H 9450 4850 50  0000 C CNN
 F 1 ".1uF" H 9500 4750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 9600 4850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 9600 4850 50  0001 C CNN
-F 4 "digikey" V 9600 4850 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 9600 4850 50  0001 C CNN "Field5"
+F 4 "digikey" V 9600 4850 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 9600 4850 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 9600 4850 50  0001 C CNN "Manufacturer part#"
 	1    9600 4850
 	1    0    0    -1  
 $EndComp
@@ -937,8 +949,9 @@ F 0 "C30" H 7250 1950 50  0000 C CNN
 F 1 ".1uF" H 7300 1850 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 7400 1950 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 7400 1950 50  0001 C CNN
-F 4 "digikey" V 7400 1950 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 7400 1950 50  0001 C CNN "Field5"
+F 4 "digikey" V 7400 1950 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 7400 1950 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 7400 1950 50  0001 C CNN "Manufacturer part#"
 	1    7400 1950
 	1    0    0    -1  
 $EndComp
@@ -969,6 +982,16 @@ F 3 "" H 7400 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 2050 7400 2250
+Text Notes 7600 2000 0    50   ~ 0
+C30 is in the schematic but it isn't on the reference board\nthat I am using.
+Wire Notes Line
+	7550 1750 10000 1750
+Wire Notes Line
+	10000 1750 10000 2050
+Wire Notes Line
+	10000 2050 7550 2050
+Wire Notes Line
+	7550 2050 7550 1750
 Wire Bus Line
 	3650 1100 3650 2000
 Wire Bus Line

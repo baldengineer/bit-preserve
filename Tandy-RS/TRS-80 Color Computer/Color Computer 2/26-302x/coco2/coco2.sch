@@ -548,8 +548,8 @@ F 1 ".1uF" H 1900 3900 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2000 3800 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2000 3800 50  0001 C CNN
 F 4 "digikey" V 2000 3800 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 2000 3800 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 2000 3800 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 2000 3800 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 2000 3800 50  0001 C CNN "Manufacturer part#"
 	1    2000 3800
 	-1   0    0    1   
 $EndComp
@@ -576,7 +576,7 @@ F 2 "coco2:EBC20DRAS" H 2850 4500 50  0001 C CNN
 F 3 "https://s3.amazonaws.com/catalogspreads-pdf/PAGE50-51%20.100%20LP%20DS%20EYE%20RA.pdf" H 2850 4500 50  0001 C CNN
 F 4 "digikey" H 2850 4500 50  0001 C CNN "Vendor"
 F 5 "S9672-ND" H 2850 4500 50  0001 C CNN "Vendor part#"
-F 6 "EBC20DRAS" H 2850 4500 50  0001 C CNN "Manufacturer part #"
+F 6 "EBC20DRAS" H 2850 4500 50  0001 C CNN "Manufacturer part#"
 	1    2850 4500
 	1    0    0    -1  
 $EndComp
@@ -705,21 +705,44 @@ Wire Wire Line
 	3050 2400 4100 2400
 $Comp
 L Mechanical:MountingHole H1
-U 1 1 605FAC28
-P 2850 6650
-F 0 "H1" H 2950 6696 50  0000 L CNN
-F 1 "MountingHole" H 2950 6605 50  0000 L CNN
-F 2 "coco2:coco2_layout" H 2850 6650 50  0001 C CNN
-F 3 "~" H 2850 6650 50  0001 C CNN
-	1    2850 6650
+U 1 1 60AD1126
+P 1350 6950
+F 0 "H1" H 1450 6996 50  0000 L CNN
+F 1 "MountingHole" H 1450 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1350 6950 50  0001 C CNN
+F 3 "~" H 1350 6950 50  0001 C CNN
+	1    1350 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60AD16B9
+P 1350 7200
+F 0 "H2" H 1450 7246 50  0000 L CNN
+F 1 "MountingHole" H 1450 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1350 7200 50  0001 C CNN
+F 3 "~" H 1350 7200 50  0001 C CNN
+	1    1350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60AD74E1
+P 1350 7450
+F 0 "H3" H 1450 7496 50  0000 L CNN
+F 1 "MountingHole" H 1450 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1350 7450 50  0001 C CNN
+F 3 "~" H 1350 7450 50  0001 C CNN
+	1    1350 7450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2100 4700
 Wire Bus Line
 	1000 3250 1000 4300
 Wire Bus Line
-	4050 3250 4050 4200
+	850  1450 850  5800
 Wire Bus Line
 	4150 4600 4150 5800
 Wire Bus Line
-	850  1450 850  5800
+	4050 3250 4050 4200
 $EndSCHEMATC
