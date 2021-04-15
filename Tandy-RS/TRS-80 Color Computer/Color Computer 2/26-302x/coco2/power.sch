@@ -616,9 +616,9 @@ F 3 "~" H 7250 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 8250 3550 2    50   Output ~ 0
--SALT_VIN
-Text HLabel 8250 3950 2    50   Output ~ 0
 +SALT_VIN
+Text HLabel 8250 3950 2    50   Output ~ 0
+-SALT_VIN
 Wire Wire Line
 	8250 3550 7050 3550
 Connection ~ 7050 3550

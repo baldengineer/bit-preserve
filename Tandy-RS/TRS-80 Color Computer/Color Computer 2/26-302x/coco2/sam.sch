@@ -353,10 +353,10 @@ $EndComp
 Wire Wire Line
 	3450 5600 3450 5850
 $Comp
-L Device:R_Small_US R24
+L Device:R_Small_US R26
 U 1 1 607400DB
 P 5500 4300
-F 0 "R24" V 5400 4250 50  0000 C CNN
+F 0 "R26" V 5400 4250 50  0000 C CNN
 F 1 "100" V 5550 4150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5500 4300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5500 4300 50  0001 C CNN
@@ -367,10 +367,10 @@ F 6 "MFR-25FBF52-100R" H 5500 4300 50  0001 C CNN "Manufacturer part#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R26
+L Device:R_Small_US R24
 U 1 1 607419EA
 P 5800 4400
-F 0 "R26" V 5850 4300 50  0000 C CNN
+F 0 "R24" V 5850 4300 50  0000 C CNN
 F 1 "100" V 5900 4500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5800 4400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5800 4400 50  0001 C CNN

@@ -267,9 +267,9 @@ Text Notes 6600 1250 0    50   ~ 0
 Text Notes 6650 1350 0    50   ~ 0
 http://roust-it.dk/coco/coco2_service_manual.pdf
 Text HLabel 6250 1850 0    50   Input ~ 0
--SALT_VIN
-Text HLabel 6250 2150 0    50   Input ~ 0
 +SALT_VIN
+Text HLabel 6250 2150 0    50   Input ~ 0
+-SALT_VIN
 $Comp
 L Interface:6821 U2
 U 1 1 60B3AA45
