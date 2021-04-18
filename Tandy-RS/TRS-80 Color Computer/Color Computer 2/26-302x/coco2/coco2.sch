@@ -745,4 +745,15 @@ Wire Bus Line
 	4150 4600 4150 5800
 Wire Bus Line
 	850  1450 850  5800
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 608347FD
+P 3250 7100
+F 0 "#LOGO1" H 3250 7600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 3250 6700 50  0001 C CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "~" H 3250 7100 50  0001 C CNN
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
