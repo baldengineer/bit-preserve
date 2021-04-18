@@ -611,8 +611,10 @@ F 1 "NE555P" H 2350 6150 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 2750 5350 50  0001 C CNN
 F 3 "https://www.nteinc.com/specs/900to999/pdf/nte955.pdf" H 2950 5350 50  0001 C CNN
 F 4 "digikey" H 2100 5750 50  0001 C CNN "Vendor"
-F 5 "2368-NTE955M-ND" H 2100 5750 50  0001 C CNN "Vendor part#"
-F 6 "NTE955M" H 2100 5750 50  0001 C CNN "Manufacturer part#"
+F 5 "AE9986-ND" H 2100 5750 50  0001 C CNN "Vendor part#"
+F 6 "A 08-LC-TT" H 2100 5750 50  0001 C CNN "Manufacturer part#"
+F 7 "2368-NTE955M-ND" H 2100 5750 50  0001 C CNN "Vendor2 part#"
+F 8 "NTE955M" H 2100 5750 50  0001 C CNN "Manufacturer2 part#"
 	1    2100 5750
 	1    0    0    -1  
 $EndComp
@@ -917,7 +919,7 @@ AR Path="/602A51A8/60A6A791" Ref="C?"  Part="1"
 AR Path="/603CF7B8/60A6A791" Ref="C?"  Part="1" 
 AR Path="/603D560B/60A6A791" Ref="C62"  Part="1" 
 F 0 "C62" H 9750 4850 50  0000 L CNN
-F 1 "10uF 16v" H 10050 4850 50  0000 L CNN
+F 1 "10uF 25v" H 10050 4850 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9950 4850 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 9950 4850 50  0001 C CNN
 F 4 "digikey" H 9950 4850 50  0001 C CNN "Vendor"

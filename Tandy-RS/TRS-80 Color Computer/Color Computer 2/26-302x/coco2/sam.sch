@@ -461,7 +461,7 @@ U 1 1 6076B0CC
 P 1200 5650
 F 0 "C43" H 1315 5696 50  0000 L CNN
 F 1 "C_Variable" H 1315 5605 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1200 5650 50  0001 C CNN
+F 2 "coco2:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1200 5650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf" H 1200 5650 50  0001 C CNN
 F 4 "digikey" H 1200 5650 50  0001 C CNN "Vendor"
 F 5 "2447-GKG50015-ND" H 1200 5650 50  0001 C CNN "Vendor part#"
@@ -1043,9 +1043,9 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1550 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1550 7050 50  0001 C CNN
 F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 1550 7050 50  0001 C CNN "Datasheet"
 F 5 "digikey" H 1550 7050 50  0001 C CNN "Vendor"
-F 6 "A120349-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
-F 7 "1-2199298-4" H 1550 7050 50  0001 C CNN "Manufacturer part#"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 1550 7050 50  0001 C CNN "Datasheet"
+F 6 "AE9989-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
+F 7 "A 14-LC-TT" H 1550 7050 50  0001 C CNN "Manufacturer part#"
+F 8 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 1550 7050 50  0001 C CNN "Datasheet"
 F 9 "296-1627-5-ND" H 1550 7050 50  0001 C CNN "Vendor 2nd part#"
 F 10 "SN74LS02N" H 1550 7050 50  0001 C CNN "manufacturer 2nd  part#"
 	5    1550 7050

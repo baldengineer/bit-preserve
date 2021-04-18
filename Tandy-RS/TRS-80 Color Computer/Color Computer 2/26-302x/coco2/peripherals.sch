@@ -210,8 +210,8 @@ F 1 "100uF 16v" H 9838 2505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9750 2550 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9750 2550 50  0001 C CNN
 F 4 "digikey" H 9750 2550 50  0001 C CNN "Vendor"
-F 5 "493-16208-1-ND" H 9750 2550 50  0001 C CNN "Vendor part#"
-F 6 "UVZ1C101MDD1TA" H 9750 2550 50  0001 C CNN "Manufacturer part#"
+F 5 "493-17434-1-ND" H 9750 2550 50  0001 C CNN "Vendor part#"
+F 6 "UST1C101MDD1TA" H 9750 2550 50  0001 C CNN "Manufacturer part#"
 	1    9750 2550
 	1    0    0    -1  
 $EndComp
