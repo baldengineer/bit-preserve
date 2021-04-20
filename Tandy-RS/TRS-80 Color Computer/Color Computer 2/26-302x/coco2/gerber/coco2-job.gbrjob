@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.7-a382d34a8~88~ubuntu18.04.1"
     },
-    "CreationDate":  "2021-04-19T08:29:39-04:00"
+    "CreationDate":  "2021-04-19T21:10:48-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "coco2",
       "GUID": "636f636f-322e-46b6-9963-61645f706362",
-      "Revision": "1"
+      "Revision": "1.0.1"
     },
     "Size":
     {
