@@ -20,7 +20,7 @@ Schematics are available in several locations including:
 - PCB fit: Needed slight adjustment.
 - Keyboard: Works.
 - Audio/Video: Works.
-- Joysticks: Works.
+- Joystick ports: Works.
 - I/O port: Works.
 - Cassette port + relay: Works.
 - Cartridge slot: Works tested with Mega-Bug.
