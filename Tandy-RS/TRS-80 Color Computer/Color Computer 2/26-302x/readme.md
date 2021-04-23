@@ -15,7 +15,7 @@ Schematics are available in several locations including:
 - Schematic
 - Bill Of Materials
 - PCB
-- 
+ 
 ## Tested
 - PCB fit: Needed slight adjustment.
 - Keyboard: Works.
