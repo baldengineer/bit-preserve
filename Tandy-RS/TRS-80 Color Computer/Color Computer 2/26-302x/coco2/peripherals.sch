@@ -177,10 +177,10 @@ AR Path="/603CF7B8/60A871E2" Ref="R2"  Part="1"
 F 0 "R2" H 9332 2204 50  0000 R CNN
 F 1 ".1 ohms 1/2W" H 9332 2295 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 9400 2250 50  0001 C CNN
-F 3 "https://www.nteinc.com/resistor_web/pdf/halfw.pdf" H 9400 2250 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9400 2250 50  0001 C CNN
 F 4 "digikey" H 9400 2250 50  0001 C CNN "Vendor"
-F 5 "2368-HWD10-ND" H 9400 2250 50  0001 C CNN "Vendor part#"
-F 6 "HWD10" H 9400 2250 50  0001 C CNN "Manufacturer part#"
+F 5 "A105964CT-ND" H 9400 2250 50  0001 C CNN "Vendor part#"
+F 6 "LR1LJR10" H 9400 2250 50  0001 C CNN "Manufacturer part#"
 	1    9400 2250
 	-1   0    0    1   
 $EndComp
@@ -578,10 +578,10 @@ P 1000 7400
 F 0 "RP1" V 383 7400 50  0000 C CNN
 F 1 "4.7K" V 474 7400 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 1575 7400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31509/csc.pdf" H 1000 7400 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 1000 7400 50  0001 C CNN
 F 4 "digikey" H 1000 7400 50  0001 C CNN "Vendor"
-F 5 "CSC4.7KCC-ND" H 1000 7400 50  0001 C CNN "Vendor part#"
-F 6 "CSC10A014K70GEK" H 1000 7400 50  0001 C CNN "Manufacturer part#"
+F 5 "4610X-1-472LF-ND" H 1000 7400 50  0001 C CNN "Vendor part#"
+F 6 "4610X-101-472LF" H 1000 7400 50  0001 C CNN "Manufacturer part#"
 	1    1000 7400
 	0    -1   1    0   
 $EndComp
@@ -1000,9 +1000,9 @@ AR Path="/603CF7B8/61123319" Ref="CR6"  Part="1"
 F 0 "CR6" H 7550 6500 50  0000 L CNN
 F 1 "1N4148" H 7500 6700 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7600 6425 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7600 6600 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7600 6600 50  0001 C CNN
 F 4 "digikey" H 7600 6600 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 7600 6600 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" H 7600 6600 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" H 7600 6600 50  0001 C CNN "Manufacturer part#"
 	1    7600 6600
 	-1   0    0    1   
@@ -1016,9 +1016,9 @@ AR Path="/603CF7B8/6112C04B" Ref="CR9"  Part="1"
 F 0 "CR9" H 10050 3750 50  0000 L CNN
 F 1 "1N4148" H 10000 3850 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10100 3775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10100 3950 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 10100 3950 50  0001 C CNN
 F 4 "digikey" H 10100 3950 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 10100 3950 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" H 10100 3950 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" H 10100 3950 50  0001 C CNN "Manufacturer part#"
 	1    10100 3950
 	-1   0    0    1   
@@ -1032,9 +1032,9 @@ AR Path="/603CF7B8/611356F7" Ref="CR5"  Part="1"
 F 0 "CR5" H 7850 6200 50  0000 L CNN
 F 1 "1N4148" H 7750 6400 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 6125 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7900 6300 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7900 6300 50  0001 C CNN
 F 4 "digikey" H 7900 6300 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 7900 6300 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" H 7900 6300 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" H 7900 6300 50  0001 C CNN "Manufacturer part#"
 	1    7900 6300
 	-1   0    0    1   
@@ -1106,10 +1106,10 @@ AR Path="/603CF7B8/611B644A" Ref="C13"  Part="1"
 F 0 "C13" H 7100 6100 50  0000 C CNN
 F 1 ".022uF" H 7100 6200 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7300 6100 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7300 6100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 7300 6100 50  0001 C CNN
 F 4 "digikey" H 7300 6100 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 7300 6100 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 7300 6100 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 7300 6100 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 7300 6100 50  0001 C CNN "Manufacturer part#"
 	1    7300 6100
 	-1   0    0    1   
 $EndComp
@@ -1122,10 +1122,10 @@ AR Path="/603CF7B8/611C9262" Ref="C16"  Part="1"
 F 0 "C16" H 8600 5550 50  0000 C CNN
 F 1 ".022uF" H 8600 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8450 5550 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8450 5550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8450 5550 50  0001 C CNN
 F 4 "digikey" H 8450 5550 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8450 5550 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8450 5550 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8450 5550 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8450 5550 50  0001 C CNN "Manufacturer part#"
 	1    8450 5550
 	1    0    0    -1  
 $EndComp
@@ -1138,10 +1138,10 @@ AR Path="/603CF7B8/611D2710" Ref="C17"  Part="1"
 F 0 "C17" H 8550 5550 50  0000 C CNN
 F 1 ".022uF" H 8800 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8700 5550 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8700 5550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8700 5550 50  0001 C CNN
 F 4 "digikey" H 8700 5550 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8700 5550 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8700 5550 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8700 5550 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8700 5550 50  0001 C CNN "Manufacturer part#"
 	1    8700 5550
 	-1   0    0    1   
 $EndComp
@@ -1154,10 +1154,10 @@ AR Path="/603CF7B8/611DC058" Ref="C23"  Part="1"
 F 0 "C23" H 9350 6450 50  0000 C CNN
 F 1 ".022uF" H 9000 6500 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 9200 6500 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 9200 6500 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 9200 6500 50  0001 C CNN
 F 4 "digikey" H 9200 6500 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 9200 6500 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 9200 6500 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 9200 6500 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 9200 6500 50  0001 C CNN "Manufacturer part#"
 	1    9200 6500
 	-1   0    0    1   
 $EndComp
@@ -1170,10 +1170,10 @@ AR Path="/603CF7B8/611E59BC" Ref="C22"  Part="1"
 F 0 "C22" V 8721 4150 50  0000 C CNN
 F 1 ".022uF" V 8812 4150 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8950 4150 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8950 4150 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8950 4150 50  0001 C CNN
 F 4 "digikey" H 8950 4150 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8950 4150 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8950 4150 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8950 4150 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8950 4150 50  0001 C CNN "Manufacturer part#"
 	1    8950 4150
 	0    1    1    0   
 $EndComp
@@ -1912,10 +1912,10 @@ AR Path="/603CF7B8/611BFE42" Ref="C14"  Part="1"
 F 0 "C14" H 7150 6050 50  0000 C CNN
 F 1 ".022uF" H 7150 6150 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7000 6100 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7000 6100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 7000 6100 50  0001 C CNN
 F 4 "digikey" H 7000 6100 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 7000 6100 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 7000 6100 50  0001 C CNN "Manufacturer part#"
 	1    7000 6100
 	-1   0    0    1   
 $EndComp

@@ -663,10 +663,10 @@ AR Path="/603D560B/608C2CEF" Ref="C27"  Part="1"
 F 0 "C27" V 1150 5750 50  0000 C CNN
 F 1 ".022uF" V 1350 5750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 1250 5750 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 1250 5750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 1250 5750 50  0001 C CNN
 F 4 "digikey" H 1250 5750 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 1250 5750 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 1250 5750 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 1250 5750 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 1250 5750 50  0001 C CNN "Manufacturer part#"
 	1    1250 5750
 	0    1    1    0   
 $EndComp
