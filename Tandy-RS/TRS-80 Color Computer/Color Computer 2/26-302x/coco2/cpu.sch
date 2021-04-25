@@ -442,7 +442,7 @@ P 2650 2450
 AR Path="/602A51A8/60456BFE" Ref="C?"  Part="1" 
 AR Path="/60273794/60456BFE" Ref="C48"  Part="1" 
 F 0 "C48" H 2738 2496 50  0000 L CNN
-F 1 "1uF" H 2738 2405 50  0000 L CNN
+F 1 "1uF 50V" H 2738 2405 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2650 2450 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/42052/515d.pdf" H 2650 2450 50  0001 C CNN
 F 4 "digikey" H 2650 2450 50  0001 C CNN "Vendor"

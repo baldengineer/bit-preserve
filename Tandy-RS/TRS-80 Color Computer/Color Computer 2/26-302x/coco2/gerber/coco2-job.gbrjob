@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.7-a382d34a8~88~ubuntu18.04.1"
     },
-    "CreationDate":  "2021-04-19T21:10:48-04:00"
+    "CreationDate":  "2021-04-24T23:47:22-04:00"
   },
   "GeneralSpecs":
   {
@@ -82,6 +82,16 @@
     {
       "Path":  "coco2-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "coco2-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "coco2-B_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],
