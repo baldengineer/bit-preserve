@@ -1,12 +1,12 @@
-# Apple II+ notes
+# Apple II notes
 This directory contains a KiCad project for the Apple II based on the Apple II Reference Manual (Apple product number A2:0001A - 030-004-01 - written by Christopher Espinosa and published in 1979)
 (mostly from the Main Logic Board Schematic included in the manual).
 
-This part of the [BitPreserve project](https://github.com/baldengineer/bit-preserve), initiated by [@baldengineer](https://github.com/baldengineer), was created for the Apple II+ by GCinini (https://github.com/gcinini).
+This part of the [BitPreserve project](https://github.com/baldengineer/bit-preserve), initiated by [@baldengineer](https://github.com/baldengineer), was created for the Apple II by GCinini (https://github.com/gcinini).
 
 ## Status
 Capturing schematic from the Apple II Reference Manual (mostly from the Main Logic Board Schematic included in the manual).
-Initial capture complete. The entire Apple II+ is represented.
+Initial capture complete. The entire Apple II Autostart ROM schematic is represented.
 
 
 ### To Do
@@ -22,7 +22,8 @@ Initial capture complete. The entire Apple II+ is represented.
  2) Resolve duplicated component references from original schematic (Capacitor C1 and chip C1).
 
 ## Sources
-Apple II Reference Manual (Apple product number A2:0001A - 030-004-01
+Apple II Reference Manual (Apple product number A2:0001A - 030-004-01)
+Apple II 'The Red Book' Reference Manual Jan. 1978 (available from https://downloads.reactivemicro.com/Apple%20II%20Items/Documentation/Manuals/)
 The Apple II Circuit Description by Winston D. Gayler
 Understanding the Apple II by Jim Sather
 

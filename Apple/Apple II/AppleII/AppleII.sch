@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title "Apple II+ Schematic"
+Title "Apple II Schematic"
 Date ""
 Rev "0"
 Comp ""
