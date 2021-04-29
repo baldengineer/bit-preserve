@@ -829,10 +829,10 @@ AR Path="/603D560B/60995934" Ref="C26"  Part="1"
 F 0 "C26" H 3100 6200 50  0000 C CNN
 F 1 ".001uF" H 3500 6200 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 3300 6200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Kemet%20PDFs/Goldmax_Rev2010.pdf" H 3300 6200 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C315C102K1R5TA7301.pdf" H 3300 6200 50  0001 C CNN
 F 4 "digikey" V 3300 6200 50  0001 C CNN "Vendor"
-F 5 "399-9715-ND" V 3300 6200 50  0001 C CNN "Vendor part#"
-F 6 "C315C109D2G5TA" V 3300 6200 50  0001 C CNN "Manufacturer part#"
+F 5 "399-13913-1-ND" V 3300 6200 50  0001 C CNN "Vendor part#"
+F 6 "C315C102K1R5TA7301" V 3300 6200 50  0001 C CNN "Manufacturer part#"
 	1    3300 6200
 	1    0    0    -1  
 $EndComp
