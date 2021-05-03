@@ -1,4 +1,4 @@
-18712755144172490
+18714375223170490
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81793,6 +81793,13 @@ coco2_vertical_rf_sheild
 
 0
 11
+8
+coco2
+coco2_vertical_rf_sheild_2
+
+
+0
+13
 8
 coco2
 ferrite_bead
