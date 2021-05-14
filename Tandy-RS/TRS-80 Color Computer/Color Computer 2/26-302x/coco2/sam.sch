@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
-Rev "0.1"
+Rev "1.0.1"
 Comp "Tandy Corporation"
 Comment1 "Based on \"Color Computer 2 NTSC Service Manual (26-3026 & 26-3027)\" pp. 57"
 Comment2 ""
@@ -21,6 +21,10 @@ F 0 "U22" H 3650 5700 50  0000 C CNN
 F 1 "MC6883" H 3700 5550 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3450 2700 50  0001 C CNN
 F 3 "http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6883 Synchronous Address Multiplexer (Motorola).pdf" H 3350 5625 50  0001 C CNN
+F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 3450 4200 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 3450 4200 50  0001 C CNN "Vendor"
+F 6 "ED3048-5-ND" H 3450 4200 50  0001 C CNN "Vendor part#"
+F 7 "ED40DT" H 3450 4200 50  0001 C CNN "Manufacturer part#"
 	1    3450 4200
 	1    0    0    -1  
 $EndComp
@@ -230,8 +234,9 @@ F 0 "C45" V 2900 2300 50  0000 C CNN
 F 1 ".1uF" V 3000 2300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 3150 2300 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 3150 2300 50  0001 C CNN
-F 4 "digikey" V 3150 2300 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 3150 2300 50  0001 C CNN "Field5"
+F 4 "digikey" V 3150 2300 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 3150 2300 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 3150 2300 50  0001 C CNN "Manufacturer part#"
 	1    3150 2300
 	0    -1   -1   0   
 $EndComp
@@ -348,31 +353,31 @@ $EndComp
 Wire Wire Line
 	3450 5600 3450 5850
 $Comp
-L Device:R_Small_US R24
-U 1 1 607400DB
-P 5800 4400
-F 0 "R24" V 5900 4400 50  0000 C CNN
-F 1 "100" V 6000 4400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5800 4400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5800 4400 50  0001 C CNN
-F 4 "digikey" H 5800 4400 50  0001 C CNN "Vendor"
-F 5 "100XBK-ND" H 5800 4400 50  0001 C CNN "Vendor part#"
-F 6 "MFR-25FBF52-100R" H 5800 4400 50  0001 C CNN "Manufacturer part#"
-	1    5800 4400
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small_US R26
-U 1 1 607419EA
+U 1 1 607400DB
 P 5500 4300
-F 0 "R26" V 5295 4300 50  0000 C CNN
-F 1 "100" V 5386 4300 50  0000 C CNN
+F 0 "R26" V 5400 4250 50  0000 C CNN
+F 1 "100" V 5550 4150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5500 4300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5500 4300 50  0001 C CNN
 F 4 "digikey" H 5500 4300 50  0001 C CNN "Vendor"
 F 5 "100XBK-ND" H 5500 4300 50  0001 C CNN "Vendor part#"
 F 6 "MFR-25FBF52-100R" H 5500 4300 50  0001 C CNN "Manufacturer part#"
 	1    5500 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R24
+U 1 1 607419EA
+P 5800 4400
+F 0 "R24" V 5850 4300 50  0000 C CNN
+F 1 "100" V 5900 4500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5800 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/products/datasheet/lr/Yageo_LR_MFR_1.pdf" H 5800 4400 50  0001 C CNN
+F 4 "digikey" H 5800 4400 50  0001 C CNN "Vendor"
+F 5 "100XBK-ND" H 5800 4400 50  0001 C CNN "Vendor part#"
+F 6 "MFR-25FBF52-100R" H 5800 4400 50  0001 C CNN "Manufacturer part#"
+	1    5800 4400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -456,11 +461,11 @@ U 1 1 6076B0CC
 P 1200 5650
 F 0 "C43" H 1315 5696 50  0000 L CNN
 F 1 "C_Variable" H 1315 5605 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1200 5650 50  0001 C CNN
+F 2 "coco2:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1200 5650 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf" H 1200 5650 50  0001 C CNN
 F 4 "digikey" H 1200 5650 50  0001 C CNN "Vendor"
 F 5 "2447-GKG50015-ND" H 1200 5650 50  0001 C CNN "Vendor part#"
-F 6 "GKG50015" H 1200 5650 50  0001 C CNN "Manufacturer part #"
+F 6 "GKG50015" H 1200 5650 50  0001 C CNN "Manufacturer part#"
 	1    1200 5650
 	1    0    0    -1  
 $EndComp
@@ -482,9 +487,13 @@ F 0 "U10" H 3000 7075 50  0000 C CNN
 F 1 "74LS02" H 3000 6984 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 6750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 6750 50  0001 C CNN
-F 4 "digikey" H 3000 6750 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 3000 6750 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 3000 6750 50  0001 C CNN "manufacturer part#"
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3000 6750 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 3000 6750 50  0001 C CNN "Vendor"
+F 6 "A120349-ND" H 3000 6750 50  0001 C CNN "Vendor part#"
+F 7 "1-2199298-4" H 3000 6750 50  0001 C CNN "Manufacturer part#"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3000 6750 50  0001 C CNN "Datasheet"
+F 9 "296-1627-5-ND" H 3000 6750 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS02N" H 3000 6750 50  0001 C CNN "manufacturer 2nd  part#"
 	1    3000 6750
 	1    0    0    -1  
 $EndComp
@@ -496,9 +505,13 @@ F 0 "U10" H 5500 7825 50  0000 C CNN
 F 1 "74LS02" H 5500 7734 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5500 7500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5500 7500 50  0001 C CNN
-F 4 "digikey" H 5500 7500 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 5500 7500 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 5500 7500 50  0001 C CNN "manufacturer part#"
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5500 7500 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 5500 7500 50  0001 C CNN "Vendor"
+F 6 "A120349-ND" H 5500 7500 50  0001 C CNN "Vendor part#"
+F 7 "1-2199298-4" H 5500 7500 50  0001 C CNN "Manufacturer part#"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5500 7500 50  0001 C CNN "Datasheet"
+F 9 "296-1627-5-ND" H 5500 7500 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS02N" H 5500 7500 50  0001 C CNN "manufacturer 2nd  part#"
 	2    5500 7500
 	1    0    0    -1  
 $EndComp
@@ -510,9 +523,13 @@ F 0 "U10" H 5500 7175 50  0000 C CNN
 F 1 "74LS02" H 5500 7084 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5500 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5500 6850 50  0001 C CNN
-F 4 "digikey" H 5500 6850 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 5500 6850 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 5500 6850 50  0001 C CNN "manufacturer part#"
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5500 6850 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 5500 6850 50  0001 C CNN "Vendor"
+F 6 "A120349-ND" H 5500 6850 50  0001 C CNN "Vendor part#"
+F 7 "1-2199298-4" H 5500 6850 50  0001 C CNN "Manufacturer part#"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 5500 6850 50  0001 C CNN "Datasheet"
+F 9 "296-1627-5-ND" H 5500 6850 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS02N" H 5500 6850 50  0001 C CNN "manufacturer 2nd  part#"
 	3    5500 6850
 	1    0    0    -1  
 $EndComp
@@ -524,9 +541,13 @@ F 0 "U10" H 3000 7625 50  0000 C CNN
 F 1 "74LS02" H 3000 7534 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3000 7300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3000 7300 50  0001 C CNN
-F 4 "digikey" H 3000 7300 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 3000 7300 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 3000 7300 50  0001 C CNN "manufacturer part#"
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3000 7300 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 3000 7300 50  0001 C CNN "Vendor"
+F 6 "A120349-ND" H 3000 7300 50  0001 C CNN "Vendor part#"
+F 7 "1-2199298-4" H 3000 7300 50  0001 C CNN "Manufacturer part#"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 3000 7300 50  0001 C CNN "Datasheet"
+F 9 "296-1627-5-ND" H 3000 7300 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS02N" H 3000 7300 50  0001 C CNN "manufacturer 2nd  part#"
 	4    3000 7300
 	1    0    0    -1  
 $EndComp
@@ -539,8 +560,11 @@ F 1 "74LS138" H 6950 5900 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 7300 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 7300 5400 50  0001 C CNN
 F 4 "digikey" H 7300 5400 50  0001 C CNN "Vendor"
-F 5 "296-1639-5-ND" H 7300 5400 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS138N" H 7300 5400 50  0001 C CNN "Manufacturer part#"
+F 5 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 7300 5400 50  0001 C CNN "Datasheet"
+F 6 "A120349-ND" H 7300 5400 50  0001 C CNN "Vendor part#"
+F 7 "1-2199298-4" H 7300 5400 50  0001 C CNN "Manufacturer part#"
+F 8 "296-1639-5-ND" H 7300 5400 50  0001 C CNN "Vendor 2nd part#"
+F 9 "SN74LS138N" H 7300 5400 50  0001 C CNN "Manufacturer 2nd part#"
 	1    7300 5400
 	1    0    0    -1  
 $EndComp
@@ -611,7 +635,7 @@ F 1 "4.7K" H 5218 5755 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5150 5800 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5150 5800 50  0001 C CNN
 F 4 "digikey" H 5150 5800 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 5150 5800 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 5150 5800 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 5150 5800 50  0001 C CNN "Manufacturer part#"
 	1    5150 5800
 	1    0    0    -1  
@@ -682,8 +706,9 @@ F 0 "C34" V 7350 4600 50  0000 C CNN
 F 1 ".1uF" V 7450 4600 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 7600 4600 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 7600 4600 50  0001 C CNN
-F 4 "digikey" V 7600 4600 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 7600 4600 50  0001 C CNN "Field5"
+F 4 "digikey" V 7600 4600 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 7600 4600 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 7600 4600 50  0001 C CNN "Manufacturer part#"
 	1    7600 4600
 	0    -1   -1   0   
 $EndComp
@@ -975,9 +1000,13 @@ F 0 "U6" H 9400 2950 50  0000 C CNN
 F 1 "74LS244" H 8900 2950 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 9200 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 9200 2300 50  0001 C CNN
-F 4 "digikey" H 9200 2300 50  0001 C CNN "Vendor"
-F 5 "296-1653-5-ND" H 9200 2300 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS244N" H 9200 2300 50  0001 C CNN "Manufacturer part#"
+F 4 "http://www.cnctech.us/pdfs/243-XX-1-XX_.pdf" H 9200 2300 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 9200 2300 50  0001 C CNN "Vendor"
+F 6 "1175-1479-ND" H 9200 2300 50  0001 C CNN "Vendor part#"
+F 7 "243-20-1-03" H 9200 2300 50  0001 C CNN "Manufacturer part#"
+F 8 "digikey" H 9200 2300 50  0001 C CNN "Vendor"
+F 9 "296-1653-5-ND" H 9200 2300 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS244N" H 9200 2300 50  0001 C CNN "Manufacturer 2nd part#"
 	1    9200 2300
 	1    0    0    -1  
 $EndComp
@@ -1012,9 +1041,13 @@ F 0 "U10" H 1350 7500 50  0000 C CNN
 F 1 "74LS02" H 1750 7450 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1550 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1550 7050 50  0001 C CNN
-F 4 "digikey" H 1550 7050 50  0001 C CNN "Vendor"
-F 5 "296-1627-5-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
-F 6 "SN74LS02N" H 1550 7050 50  0001 C CNN "manufacturer part#"
+F 4 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 1550 7050 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 1550 7050 50  0001 C CNN "Vendor"
+F 6 "AE9989-ND" H 1550 7050 50  0001 C CNN "Vendor part#"
+F 7 "A 14-LC-TT" H 1550 7050 50  0001 C CNN "Manufacturer part#"
+F 8 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 1550 7050 50  0001 C CNN "Datasheet"
+F 9 "296-1627-5-ND" H 1550 7050 50  0001 C CNN "Vendor 2nd part#"
+F 10 "SN74LS02N" H 1550 7050 50  0001 C CNN "manufacturer 2nd  part#"
 	5    1550 7050
 	1    0    0    -1  
 $EndComp
@@ -1054,8 +1087,9 @@ F 0 "C33" H 650 7000 50  0000 C CNN
 F 1 ".1uF" H 1000 7000 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 800 7000 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 800 7000 50  0001 C CNN
-F 4 "digikey" V 800 7000 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 800 7000 50  0001 C CNN "Field5"
+F 4 "digikey" V 800 7000 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 800 7000 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" H 800 7000 50  0001 C CNN "Manufacturer part#"
 	1    800  7000
 	1    0    0    -1  
 $EndComp
@@ -1073,6 +1107,16 @@ Wire Wire Line
 Connection ~ 1550 7750
 Wire Wire Line
 	1550 7750 2250 7750
+Text Notes 600  6100 0    50   ~ 0
+C33 is not the board\nbut is in the schematic.
+Wire Notes Line
+	550  5900 1550 5900
+Wire Notes Line
+	1550 5900 1550 6150
+Wire Notes Line
+	1550 6150 550  6150
+Wire Notes Line
+	550  6150 550  5900
 Wire Bus Line
 	7900 1050 7900 2400
 Wire Bus Line

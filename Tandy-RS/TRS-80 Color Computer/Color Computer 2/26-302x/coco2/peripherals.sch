@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-20"
-Rev "0.1"
+Rev "1.0.1"
 Comp "Tandy Corporation"
 Comment1 "Based on \"Color Computer 2 NTSC Service Manual (26-3026 & 26-3027)\" pp. 57"
 Comment2 ""
@@ -24,7 +24,7 @@ F 1 "2N3055" H 9490 1805 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-3" H 9500 1775 50  0001 L CIN
 F 3 "http://www.onsemi.com/pub_link/Collateral/2N3055-D.PDF" H 9500 2000 50  0001 L CNN
 F 4 "digikey" H 9300 1850 50  0001 C CNN "Vendor"
-F 5 "2383-2N3055-ND" H 9300 1850 50  0001 C CNN "Vendor part#"
+F 5 "2368-2N3055-ND" H 9300 1850 50  0001 C CNN "Vendor part#"
 F 6 "2N3055" H 9300 1850 50  0001 C CNN "Manufacturer part#"
 F 7 "Heatsink" H 9300 1850 50  0001 C CNN "Description 2nd part"
 F 8 "HS110-ND" H 9300 1850 50  0001 C CNN "Vendor 2nd part#"
@@ -42,8 +42,11 @@ AR Path="/602A51A8/60A87196" Ref="U?"  Part="1"
 AR Path="/603CF7B8/60A87196" Ref="U1"  Part="1" 
 F 0 "U1" H 8925 1965 50  0000 C CNN
 F 1 "SC77527P" H 8925 1874 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 8850 1850 50  0001 C CNN
-F 3 "" H 8850 1850 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8850 1850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2199298&DocType=Customer+Drawing&DocLang=English" H 8850 1850 50  0001 C CNN
+F 4 "digikey" H 8200 1700 50  0001 C CNN "Vendor"
+F 5 "A120349-ND" H 8200 1700 50  0001 C CNN "Vendor part#"
+F 6 "1-2199298-4" H 8200 1700 50  0001 C CNN "Manufacturer part#"
 	1    8200 1700
 	-1   0    0    -1  
 $EndComp
@@ -95,8 +98,8 @@ F 1 "100uF 16v" H 9400 2400 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9400 2550 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9400 2550 50  0001 C CNN
 F 4 "digikey" H 9400 2550 50  0001 C CNN "Vendor"
-F 5 "493-16208-1-ND" H 9400 2550 50  0001 C CNN "Vendor part#"
-F 6 "UVZ1C101MDD1TA" H 9400 2550 50  0001 C CNN "Manufacturer part#"
+F 5 "493-17434-1-ND" H 9400 2550 50  0001 C CNN "Vendor part#"
+F 6 "UST1C101MDD1TA" H 9400 2550 50  0001 C CNN "Manufacturer part#"
 	1    9400 2550
 	1    0    0    -1  
 $EndComp
@@ -112,8 +115,8 @@ F 1 ".1uF" H 9400 2550 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 9250 2550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 9250 2550 50  0001 C CNN
 F 4 "digikey" V 9250 2550 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 9250 2550 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 9250 2550 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 9250 2550 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 9250 2550 50  0001 C CNN "Manufacturer part#"
 	1    9250 2550
 	-1   0    0    1   
 $EndComp
@@ -160,7 +163,7 @@ F 1 "51" V 8736 2150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 8850 2150 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/CF.pdf" H 8850 2150 50  0001 C CNN
 F 4 "digikey" V 8850 2150 50  0001 C CNN "Vendor"
-F 5 "2019-CF1/4CT52R510JTR-ND" V 8850 2150 50  0001 C CNN "Vendor part#"
+F 5 "2019-CF1/4CT52R510JCT-ND" V 8850 2150 50  0001 C CNN "Vendor part#"
 F 6 "CF1/4CT52R510J" V 8850 2150 50  0001 C CNN "Manufacturer part#"
 	1    8850 2150
 	0    1    1    0   
@@ -174,10 +177,10 @@ AR Path="/603CF7B8/60A871E2" Ref="R2"  Part="1"
 F 0 "R2" H 9332 2204 50  0000 R CNN
 F 1 ".1 ohms 1/2W" H 9332 2295 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" H 9400 2250 50  0001 C CNN
-F 3 "https://www.nteinc.com/resistor_web/pdf/halfw.pdf" H 9400 2250 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773241&DocType=DS&DocLang=English" H 9400 2250 50  0001 C CNN
 F 4 "digikey" H 9400 2250 50  0001 C CNN "Vendor"
-F 5 "2368-HWD10-ND" H 9400 2250 50  0001 C CNN "Vendor part#"
-F 6 "HWD10" H 9400 2250 50  0001 C CNN "Manufacturer part#"
+F 5 "A105964CT-ND" H 9400 2250 50  0001 C CNN "Vendor part#"
+F 6 "LR1LJR10" H 9400 2250 50  0001 C CNN "Manufacturer part#"
 	1    9400 2250
 	-1   0    0    1   
 $EndComp
@@ -207,8 +210,8 @@ F 1 "100uF 16v" H 9838 2505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 9750 2550 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 9750 2550 50  0001 C CNN
 F 4 "digikey" H 9750 2550 50  0001 C CNN "Vendor"
-F 5 "493-16208-1-ND" H 9750 2550 50  0001 C CNN "Vendor part#"
-F 6 "UVZ1C101MDD1TA" H 9750 2550 50  0001 C CNN "Manufacturer part#"
+F 5 "493-17434-1-ND" H 9750 2550 50  0001 C CNN "Vendor part#"
+F 6 "UST1C101MDD1TA" H 9750 2550 50  0001 C CNN "Manufacturer part#"
 	1    9750 2550
 	1    0    0    -1  
 $EndComp
@@ -264,17 +267,21 @@ Text Notes 6600 1250 0    50   ~ 0
 Text Notes 6650 1350 0    50   ~ 0
 http://roust-it.dk/coco/coco2_service_manual.pdf
 Text HLabel 6250 1850 0    50   Input ~ 0
--SALT_VIN
-Text HLabel 6250 2150 0    50   Input ~ 0
 +SALT_VIN
+Text HLabel 6250 2150 0    50   Input ~ 0
+-SALT_VIN
 $Comp
 L Interface:6821 U2
 U 1 1 60B3AA45
 P 3000 6000
 F 0 "U2" H 2750 7400 50  0000 C CNN
 F 1 "6821" H 3250 7350 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 3050 4650 50  0001 L CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3050 4650 50  0001 L CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf" H 3000 6000 50  0001 C CNN
+F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 3000 6000 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 3000 6000 50  0001 C CNN "Vendor"
+F 6 "ED3048-5-ND" H 3000 6000 50  0001 C CNN "Vendor part#"
+F 7 "ED40DT" H 3000 6000 50  0001 C CNN "Manufacturer part#"
 	1    3000 6000
 	1    0    0    -1  
 $EndComp
@@ -284,8 +291,11 @@ U 1 1 60B3CF52
 P 6000 5500
 F 0 "U3" H 5800 6200 50  0000 C CNN
 F 1 "SC77526" H 6250 6200 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 6000 5500 50  0001 C CNN
-F 3 "" H 6000 5500 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6000 5500 50  0001 C CNN
+F 3 "http://www.cnctech.us/pdfs/243-XX-1-XX_.pdf" H 6000 5500 50  0001 C CNN
+F 4 "digikey" H 6000 5500 50  0001 C CNN "Vendor"
+F 5 "1175-1479-ND" H 6000 5500 50  0001 C CNN "Vendor part#"
+F 6 "243-20-1-03" H 6000 5500 50  0001 C CNN "Manufacturer part#"
 	1    6000 5500
 	1    0    0    -1  
 $EndComp
@@ -295,8 +305,12 @@ U 1 1 60B5007B
 P 2950 2450
 F 0 "U7" H 2750 3850 50  0000 C CNN
 F 1 "6822" H 3200 3800 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 3000 1100 50  0001 L CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3000 1100 50  0001 L CNN
 F 3 "http://pdf1.alldatasheet.com/datasheet-pdf/view/135452/MOTOROLA/MC6822.html" H 2950 2450 50  0001 C CNN
+F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 2950 2450 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 2950 2450 50  0001 C CNN "Vendor"
+F 6 "ED3048-5-ND" H 2950 2450 50  0001 C CNN "Vendor part#"
+F 7 "ED40DT" H 2950 2450 50  0001 C CNN "Manufacturer part#"
 	1    2950 2450
 	1    0    0    -1  
 $EndComp
@@ -310,7 +324,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50 
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
 F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
 F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
-F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "manufacturer part#"
+F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
 	1    5000 1850
 	1    0    0    -1  
 $EndComp
@@ -564,10 +578,10 @@ P 1000 7400
 F 0 "RP1" V 383 7400 50  0000 C CNN
 F 1 "4.7K" V 474 7400 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 1575 7400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31509/csc.pdf" H 1000 7400 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/4600x.pdf" H 1000 7400 50  0001 C CNN
 F 4 "digikey" H 1000 7400 50  0001 C CNN "Vendor"
-F 5 "CSC4.7KCC-ND" H 1000 7400 50  0001 C CNN "Vendor part#"
-F 6 "CSC10A014K70GEK" H 1000 7400 50  0001 C CNN "Manufacturer part#"
+F 5 "4610X-1-472LF-ND" H 1000 7400 50  0001 C CNN "Vendor part#"
+F 6 "4610X-101-472LF" H 1000 7400 50  0001 C CNN "Manufacturer part#"
 	1    1000 7400
 	0    -1   1    0   
 $EndComp
@@ -713,8 +727,8 @@ F 1 ".1uF" V 2550 4400 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2650 4400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2650 4400 50  0001 C CNN
 F 4 "digikey" V 2650 4400 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 2650 4400 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 2650 4400 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 2650 4400 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 2650 4400 50  0001 C CNN "Manufacturer part#"
 	1    2650 4400
 	0    -1   -1   0   
 $EndComp
@@ -730,8 +744,8 @@ F 1 ".1uF" V 2500 850 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2600 850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2600 850 50  0001 C CNN
 F 4 "digikey" V 2600 850 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 2600 850 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 2600 850 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 2600 850 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 2600 850 50  0001 C CNN "Manufacturer part#"
 	1    2600 850 
 	0    -1   -1   0   
 $EndComp
@@ -748,7 +762,7 @@ F 1 "10k" H 4200 6800 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4400 6750 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4400 6750 50  0001 C CNN
 F 4 "digikey" H 4400 6750 50  0001 C CNN "Vendor"
-F 5 "CF14JT10K0TR-ND" H 4400 6750 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT10K0CT-ND" H 4400 6750 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT10K0" H 4400 6750 50  0001 C CNN "Manufacturer part#"
 	1    4400 6750
 	-1   0    0    1   
@@ -766,7 +780,7 @@ F 1 "10k" V 4168 6255 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4100 6300 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4100 6300 50  0001 C CNN
 F 4 "digikey" H 4100 6300 50  0001 C CNN "Vendor"
-F 5 "CF14JT10K0TR-ND" H 4100 6300 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT10K0CT-ND" H 4100 6300 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT10K0" H 4100 6300 50  0001 C CNN "Manufacturer part#"
 	1    4100 6300
 	0    1    1    0   
@@ -782,7 +796,7 @@ F 1 "4.7K" H 6750 4950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6950 4950 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 6950 4950 50  0001 C CNN
 F 4 "digikey" H 6950 4950 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 6950 4950 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 6950 4950 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 6950 4950 50  0001 C CNN "Manufacturer part#"
 	1    6950 4950
 	-1   0    0    1   
@@ -945,7 +959,7 @@ F 2 "coco2:CUI_SDS-40J" H 8350 6300 50  0001 C CNN
 F 3 "https://www.cuidevices.com/product/resource/digikeypdf/sds-j.pdf" H 8350 6300 50  0001 C CNN
 F 4 "digikey" H 8350 6300 50  0001 C CNN "Vendor"
 F 5 "CP-2340-ND" H 8350 6300 50  0001 C CNN "Vendor part#"
-F 6 "SDS-40J" H 8350 6300 50  0001 C CNN "manufacturer part#"
+F 6 "SDS-40J" H 8350 6300 50  0001 C CNN "Manufacturer part#"
 	1    8350 6300
 	1    0    0    1   
 $EndComp
@@ -980,17 +994,17 @@ $EndComp
 $Comp
 L Diode:1N4148 CR?
 U 1 1 61123319
-P 5900 2450
+P 7600 6600
 AR Path="/602A51A8/61123319" Ref="CR?"  Part="1" 
 AR Path="/603CF7B8/61123319" Ref="CR6"  Part="1" 
-F 0 "CR6" H 5850 2300 50  0000 L CNN
-F 1 "1N4148" H 5550 2500 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5900 2275 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 2450 50  0001 C CNN
-F 4 "digikey" H 5900 2450 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 5900 2450 50  0001 C CNN "Vendor part#"
-F 6 "1N4148" H 5900 2450 50  0001 C CNN "Manufacturer part#"
-	1    5900 2450
+F 0 "CR6" H 7550 6500 50  0000 L CNN
+F 1 "1N4148" H 7500 6700 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7600 6425 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7600 6600 50  0001 C CNN
+F 4 "digikey" H 7600 6600 50  0001 C CNN "Vendor"
+F 5 "1N4148FS-ND" H 7600 6600 50  0001 C CNN "Vendor part#"
+F 6 "1N4148" H 7600 6600 50  0001 C CNN "Manufacturer part#"
+	1    7600 6600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1002,9 +1016,9 @@ AR Path="/603CF7B8/6112C04B" Ref="CR9"  Part="1"
 F 0 "CR9" H 10050 3750 50  0000 L CNN
 F 1 "1N4148" H 10000 3850 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10100 3775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10100 3950 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 10100 3950 50  0001 C CNN
 F 4 "digikey" H 10100 3950 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 10100 3950 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" H 10100 3950 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" H 10100 3950 50  0001 C CNN "Manufacturer part#"
 	1    10100 3950
 	-1   0    0    1   
@@ -1012,17 +1026,17 @@ $EndComp
 $Comp
 L Diode:1N4148 CR?
 U 1 1 611356F7
-P 5900 2750
+P 7900 6300
 AR Path="/602A51A8/611356F7" Ref="CR?"  Part="1" 
 AR Path="/603CF7B8/611356F7" Ref="CR5"  Part="1" 
-F 0 "CR5" H 5850 2600 50  0000 L CNN
-F 1 "1N4148" H 5550 2800 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5900 2575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5900 2750 50  0001 C CNN
-F 4 "digikey" H 5900 2750 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 5900 2750 50  0001 C CNN "Vendor part#"
-F 6 "1N4148" H 5900 2750 50  0001 C CNN "Manufacturer part#"
-	1    5900 2750
+F 0 "CR5" H 7850 6200 50  0000 L CNN
+F 1 "1N4148" H 7750 6400 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7900 6125 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 7900 6300 50  0001 C CNN
+F 4 "digikey" H 7900 6300 50  0001 C CNN "Vendor"
+F 5 "1N4148FS-ND" H 7900 6300 50  0001 C CNN "Vendor part#"
+F 6 "1N4148" H 7900 6300 50  0001 C CNN "Manufacturer part#"
+	1    7900 6300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1092,10 +1106,10 @@ AR Path="/603CF7B8/611B644A" Ref="C13"  Part="1"
 F 0 "C13" H 7100 6100 50  0000 C CNN
 F 1 ".022uF" H 7100 6200 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7300 6100 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7300 6100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 7300 6100 50  0001 C CNN
 F 4 "digikey" H 7300 6100 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 7300 6100 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 7300 6100 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 7300 6100 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 7300 6100 50  0001 C CNN "Manufacturer part#"
 	1    7300 6100
 	-1   0    0    1   
 $EndComp
@@ -1108,10 +1122,10 @@ AR Path="/603CF7B8/611C9262" Ref="C16"  Part="1"
 F 0 "C16" H 8600 5550 50  0000 C CNN
 F 1 ".022uF" H 8600 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8450 5550 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8450 5550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8450 5550 50  0001 C CNN
 F 4 "digikey" H 8450 5550 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8450 5550 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8450 5550 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8450 5550 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8450 5550 50  0001 C CNN "Manufacturer part#"
 	1    8450 5550
 	1    0    0    -1  
 $EndComp
@@ -1124,10 +1138,10 @@ AR Path="/603CF7B8/611D2710" Ref="C17"  Part="1"
 F 0 "C17" H 8550 5550 50  0000 C CNN
 F 1 ".022uF" H 8800 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8700 5550 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8700 5550 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8700 5550 50  0001 C CNN
 F 4 "digikey" H 8700 5550 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8700 5550 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8700 5550 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8700 5550 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8700 5550 50  0001 C CNN "Manufacturer part#"
 	1    8700 5550
 	-1   0    0    1   
 $EndComp
@@ -1140,10 +1154,10 @@ AR Path="/603CF7B8/611DC058" Ref="C23"  Part="1"
 F 0 "C23" H 9350 6450 50  0000 C CNN
 F 1 ".022uF" H 9000 6500 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 9200 6500 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 9200 6500 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 9200 6500 50  0001 C CNN
 F 4 "digikey" H 9200 6500 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 9200 6500 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 9200 6500 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 9200 6500 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 9200 6500 50  0001 C CNN "Manufacturer part#"
 	1    9200 6500
 	-1   0    0    1   
 $EndComp
@@ -1156,10 +1170,10 @@ AR Path="/603CF7B8/611E59BC" Ref="C22"  Part="1"
 F 0 "C22" V 8721 4150 50  0000 C CNN
 F 1 ".022uF" V 8812 4150 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 8950 4150 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 8950 4150 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 8950 4150 50  0001 C CNN
 F 4 "digikey" H 8950 4150 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 8950 4150 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 8950 4150 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 8950 4150 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 8950 4150 50  0001 C CNN "Manufacturer part#"
 	1    8950 4150
 	0    1    1    0   
 $EndComp
@@ -1219,26 +1233,6 @@ Wire Wire Line
 Connection ~ 7000 5650
 Wire Wire Line
 	7000 5650 7100 5650
-$Comp
-L power:GNDS #PWR?
-U 1 1 612E73EA
-P 7150 6300
-AR Path="/602A51A8/612E73EA" Ref="#PWR?"  Part="1" 
-AR Path="/603CF7B8/612E73EA" Ref="#PWR0181"  Part="1" 
-F 0 "#PWR0181" H 7150 6050 50  0001 C CNN
-F 1 "GNDS" H 7155 6127 50  0000 C CNN
-F 2 "" H 7150 6300 50  0001 C CNN
-F 3 "" H 7150 6300 50  0001 C CNN
-	1    7150 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 6200 7150 6200
-Wire Wire Line
-	7150 6300 7150 6200
-Connection ~ 7150 6200
-Wire Wire Line
-	7150 6200 7000 6200
 Wire Wire Line
 	8950 2150 9400 2150
 Connection ~ 9400 2150
@@ -1259,7 +1253,7 @@ F 1 "100 1/2W" H 9750 3950 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 9350 3850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 9350 3850 50  0001 C CNN
 F 4 "digikey" H 9350 3850 50  0001 C CNN "Vendor"
-F 5 "CF12JT100RTR-ND" H 9350 3850 50  0001 C CNN "Vendor part#"
+F 5 "CF12JT100RCT-ND" H 9350 3850 50  0001 C CNN "Vendor part#"
 F 6 "CF12JT100R" H 9350 3850 50  0001 C CNN "Manufacturer part#"
 	1    9350 3850
 	1    0    0    -1  
@@ -1297,8 +1291,8 @@ F 1 ".1uF" H 8300 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 8150 5550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 8150 5550 50  0001 C CNN
 F 4 "digikey" V 8150 5550 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 8150 5550 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 8150 5550 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 8150 5550 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 8150 5550 50  0001 C CNN "Manufacturer part#"
 	1    8150 5550
 	-1   0    0    1   
 $EndComp
@@ -1314,8 +1308,8 @@ F 1 ".1uF" H 9600 5650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 9450 5550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 9450 5550 50  0001 C CNN
 F 4 "digikey" V 9450 5550 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 9450 5550 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 9450 5550 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 9450 5550 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 9450 5550 50  0001 C CNN "Manufacturer part#"
 	1    9450 5550
 	-1   0    0    1   
 $EndComp
@@ -1428,22 +1422,14 @@ Wire Wire Line
 	6350 2750 6050 2750
 Text Label 5550 2750 2    50   ~ 0
 CD_IN
-Wire Wire Line
-	5750 2750 5550 2750
-Text Label 7950 6300 2    50   ~ 0
+Text Label 8000 6000 2    50   ~ 0
 CD_IN
-Wire Wire Line
-	8050 6300 7950 6300
 Text Label 5650 2450 2    50   ~ 0
 SERIAL_DATA_IN
 Wire Wire Line
 	6050 2450 6350 2450
-Wire Wire Line
-	5750 2450 5650 2450
-Text Label 8000 6600 2    50   ~ 0
+Text Label 8300 6700 0    50   ~ 0
 SERIAL_DATA_IN
-Wire Wire Line
-	8250 6600 8000 6600
 $Comp
 L Device:R_Small_US R?
 U 1 1 61810AA1
@@ -1455,7 +1441,7 @@ F 1 "270" V 6000 3200 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5900 3050 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5900 3050 50  0001 C CNN
 F 4 "digikey" H 5900 3050 50  0001 C CNN "Vendor"
-F 5 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5900 3050 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT270RCT-ND" H 5900 3050 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT270R" H 5900 3050 50  0001 C CNN "Manufacturer part#"
 	1    5900 3050
 	0    1    1    0   
@@ -1552,7 +1538,7 @@ F 1 "220 1/2W" V 5800 6800 50  0000 R CNN
 F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" H 5700 6650 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5700 6650 50  0001 C CNN
 F 4 "digikey" H 5700 6650 50  0001 C CNN "Vendor"
-F 5 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5700 6650 50  0001 C CNN "Vendor part#"
+F 5 "CF12JT220RCT-ND" H 5700 6650 50  0001 C CNN "Vendor part#"
 F 6 "CF12JT220R" H 5700 6650 50  0001 C CNN "Manufacturer part#"
 	1    5700 6650
 	0    1    1    0   
@@ -1566,19 +1552,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 5800 5500 5800
 Wire Wire Line
-	5200 6650 5350 6650
-Wire Wire Line
 	5800 6650 6000 6650
 Connection ~ 6000 6650
 Wire Wire Line
 	6000 6650 6000 6900
-Wire Wire Line
-	5350 6650 5350 7450
-Wire Wire Line
-	5350 7450 5450 7450
-Connection ~ 5350 6650
-Wire Wire Line
-	5350 6650 5600 6650
 Wire Wire Line
 	9300 6250 9300 6400
 Connection ~ 9300 6400
@@ -1597,7 +1574,7 @@ F 1 "510" V 5800 3300 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5900 3350 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5900 3350 50  0001 C CNN
 F 4 "digikey" H 5900 3350 50  0001 C CNN "Vendor"
-F 5 "CF14JT510RTR-ND" H 5900 3350 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT510RCT-ND" H 5900 3350 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT510R" H 5900 3350 50  0001 C CNN "Manufacturer part#"
 	1    5900 3350
 	0    -1   -1   0   
@@ -1608,18 +1585,18 @@ Wire Wire Line
 	6350 3350 6000 3350
 Wire Wire Line
 	5800 3350 5550 3350
-Text Label 5450 7450 0    50   ~ 0
+Text Label 5350 6950 0    50   ~ 0
 CASS_DATA_IN
 Text Label 9300 6250 2    50   ~ 0
 CASS_DATA_IN
 Wire Wire Line
 	9800 4650 9700 4650
 Wire Wire Line
-	9700 4650 9700 5900
+	9700 4650 9700 5400
 Wire Wire Line
 	10450 4750 10400 4750
 Wire Wire Line
-	10450 4750 10450 6300
+	10450 4750 10450 5750
 NoConn ~ 9800 4850
 Text Label 6650 4950 0    50   ~ 0
 HI_LO
@@ -1674,7 +1651,7 @@ F 1 "10k" V 3718 6155 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3650 6200 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3650 6200 50  0001 C CNN
 F 4 "digikey" H 3650 6200 50  0001 C CNN "Vendor"
-F 5 "CF14JT10K0TR-ND" H 3650 6200 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT10K0CT-ND" H 3650 6200 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT10K0" H 3650 6200 50  0001 C CNN "Manufacturer part#"
 	1    3650 6200
 	0    1    1    0   
@@ -1864,8 +1841,8 @@ F 1 ".1uF" H 5700 4550 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 5550 4450 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 5550 4450 50  0001 C CNN
 F 4 "digikey" V 5550 4450 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 5550 4450 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 5550 4450 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 5550 4450 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 5550 4450 50  0001 C CNN "Manufacturer part#"
 	1    5550 4450
 	-1   0    0    1   
 $EndComp
@@ -1935,13 +1912,170 @@ AR Path="/603CF7B8/611BFE42" Ref="C14"  Part="1"
 F 0 "C14" H 7150 6050 50  0000 C CNN
 F 1 ".022uF" H 7150 6150 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 7000 6100 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 7000 6100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 7000 6100 50  0001 C CNN
 F 4 "digikey" H 7000 6100 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 7000 6100 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 7000 6100 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 7000 6100 50  0001 C CNN "Manufacturer part#"
 	1    7000 6100
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6069711E
+P 5950 2750
+AR Path="/60273794/6069711E" Ref="R?"  Part="1" 
+AR Path="/603D560B/6069711E" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/6069711E" Ref="R27"  Part="1" 
+F 0 "R27" V 5850 2700 50  0000 L CNN
+F 1 "1K" V 6018 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5950 2750 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5950 2750 50  0001 C CNN
+F 4 "digikey" H 5950 2750 50  0001 C CNN "Vendor"
+F 5 "CF14JT1K00CT-ND" H 5950 2750 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT1K00" H 5950 2750 50  0001 C CNN "Manufacturer part#"
+	1    5950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 606B36E8
+P 5950 2450
+AR Path="/60273794/606B36E8" Ref="R?"  Part="1" 
+AR Path="/603D560B/606B36E8" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/606B36E8" Ref="R28"  Part="1" 
+F 0 "R28" V 5850 2400 50  0000 L CNN
+F 1 "1K" V 6018 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5950 2450 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5950 2450 50  0001 C CNN
+F 4 "digikey" H 5950 2450 50  0001 C CNN "Vendor"
+F 5 "CF14JT1K00CT-ND" H 5950 2450 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT1K00" H 5950 2450 50  0001 C CNN "Manufacturer part#"
+	1    5950 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 2750 5850 2750
+Connection ~ 8050 6300
+Wire Wire Line
+	8050 6300 8050 6000
+Wire Wire Line
+	8050 6000 8000 6000
+Wire Wire Line
+	8250 6700 8250 6600
+Wire Wire Line
+	7000 6200 7000 6300
+Connection ~ 7000 6200
+Wire Wire Line
+	7000 6650 6000 6650
+Wire Wire Line
+	7000 6200 7300 6200
+Wire Wire Line
+	7000 6300 7750 6300
+Connection ~ 7000 6300
+Wire Wire Line
+	8300 6700 8250 6700
+Wire Wire Line
+	7000 6300 7000 6600
+Wire Wire Line
+	7750 6600 8250 6600
+Connection ~ 8250 6600
+Wire Wire Line
+	7450 6600 7000 6600
+Connection ~ 7000 6600
+Wire Wire Line
+	7000 6600 7000 6650
+Wire Wire Line
+	5650 2450 5850 2450
+Text Notes 4850 1000 0    50   ~ 0
+R27 & R28 are not in the schematic\nprovided  in the service manual.\nHowever they are on the board I am\nusing as a reference. It seems this\nboard is a later revision.
+Wire Notes Line
+	5650 2900 6250 2900
+Wire Notes Line
+	6250 2900 6250 2250
+Wire Notes Line
+	6250 2250 5650 2250
+Wire Notes Line
+	5650 2250 5650 2900
+$Comp
+L coco2:J0971CS5VDC.45 K2
+U 1 1 60B0419C
+P 4300 7700
+F 0 "K2" H 4300 8167 50  0000 C CNN
+F 1 "J0971CS5VDC.45" H 4300 8076 50  0000 C CNN
+F 2 "coco2:RELAY_J0971CS5VDC.45" H 3950 7150 50  0001 L BNN
+F 3 "https://www.citrelay.com/Catalog%20Pages/RelayCatalog/J097.pdf" H 4300 7700 50  0001 L BNN
+F 4 "digikey" H 4300 7700 50  0001 C CNN "Vendor"
+F 5 "2449-J0971CS5VDC.45-ND" H 4300 7700 50  0001 C CNN "Vendor part#"
+F 6 "J0971CS5VDC.45" H 4300 7700 50  0001 C CNN "Manufacturer part#"
+	1    4300 7700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 7500
+Text Label 9850 5400 0    50   ~ 0
+CASS_PIN1
+Text Label 10250 5750 2    50   ~ 0
+CASS_PIN3
+Wire Wire Line
+	10250 5750 10450 5750
+Connection ~ 10450 5750
+Wire Wire Line
+	10450 5750 10450 6300
+Wire Wire Line
+	9850 5400 9700 5400
+Connection ~ 9700 5400
+Wire Wire Line
+	9700 5400 9700 5900
+$Comp
+L power:+5V #PWR?
+U 1 1 60B792E4
+P 3750 7450
+AR Path="/60273794/60B792E4" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/60B792E4" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/60B792E4" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR0181" H 3750 7300 50  0001 C CNN
+F 1 "+5V" H 3765 7623 50  0000 C CNN
+F 2 "" H 3750 7450 50  0001 C CNN
+F 3 "" H 3750 7450 50  0001 C CNN
+	1    3750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 7500 3750 7500
+Wire Wire Line
+	3750 7500 3750 7450
+Text Label 3750 7800 2    50   ~ 0
+CASS_MTR_OUT
+Wire Wire Line
+	3900 7900 3750 7900
+Wire Wire Line
+	3750 7900 3750 7800
+Text Label 4850 7700 1    50   ~ 0
+CASS_PIN3
+Wire Wire Line
+	4850 7700 4700 7700
+Text Label 4950 7900 1    50   ~ 0
+CASS_PIN1
+Wire Wire Line
+	4700 7900 4950 7900
+Wire Wire Line
+	5200 6650 5250 6650
+Wire Wire Line
+	5350 6950 5250 6950
+Wire Wire Line
+	5250 6950 5250 6650
+Connection ~ 5250 6650
+Wire Wire Line
+	5250 6650 5600 6650
+Text Notes 5100 7700 0    50   ~ 0
+K2 is not the original relay\nbut it was added in parallel\nwith the original because the\noriginal is no longer made.
+Wire Notes Line
+	6250 7350 6250 7750
+Wire Notes Line
+	6250 7750 5050 7750
+Wire Notes Line
+	5050 7750 5050 7350
+Wire Notes Line
+	5050 7350 6250 7350
 Wire Bus Line
 	1000 1150 1000 5400
 $EndSCHEMATC

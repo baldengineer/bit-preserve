@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 8 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
-Rev "0.1"
+Rev "1.0.1"
 Comp "Tandy Corporation"
 Comment1 "Based on \"Color Computer 2 NTSC Service Manual (26-3026 & 26-3027)\" pp. 57"
 Comment2 ""
@@ -113,10 +113,10 @@ P 5850 2800
 F 0 "C8" H 5600 2800 50  0000 L CNN
 F 1 ".022uF" H 5550 2650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 5850 2800 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 5850 2800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 5850 2800 50  0001 C CNN
 F 4 "digikey" H 5850 2800 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 5850 2800 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 5850 2800 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 5850 2800 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 5850 2800 50  0001 C CNN "Manufacturer part#"
 	1    5850 2800
 	1    0    0    -1  
 $EndComp
@@ -127,10 +127,10 @@ P 3650 2750
 F 0 "C7" V 3421 2750 50  0000 C CNN
 F 1 ".022uF" V 3512 2750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3650 2750 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 3650 2750 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 3650 2750 50  0001 C CNN
 F 4 "digikey" H 3650 2750 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 3650 2750 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 3650 2750 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 3650 2750 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 3650 2750 50  0001 C CNN "Manufacturer part#"
 	1    3650 2750
 	0    1    1    0   
 $EndComp
@@ -141,10 +141,10 @@ P 3850 4150
 F 0 "C9" V 3621 4150 50  0000 C CNN
 F 1 ".022uF" V 3712 4150 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3850 4150 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 3850 4150 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 3850 4150 50  0001 C CNN
 F 4 "digikey" H 3850 4150 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 3850 4150 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 3850 4150 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 3850 4150 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 3850 4150 50  0001 C CNN "Manufacturer part#"
 	1    3850 4150
 	0    1    1    0   
 $EndComp
@@ -155,10 +155,10 @@ P 6250 4250
 F 0 "C10" H 6342 4296 50  0000 L CNN
 F 1 ".022uF" H 6342 4205 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 6250 4250 50  0001 C CNN
-F 3 "https://www.nteinc.com/capacitor_web/pdf/89000.pdf" H 6250 4250 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 6250 4250 50  0001 C CNN
 F 4 "digikey" H 6250 4250 50  0001 C CNN "Vendor"
-F 5 "2368-89322-ND" H 6250 4250 50  0001 C CNN "Vendor part#"
-F 6 "89322" H 6250 4250 50  0001 C CNN "Manufacturer part#"
+F 5 "399-14073-1-ND" H 6250 4250 50  0001 C CNN "Vendor part#"
+F 6 "C317C223M5U5TA7301" H 6250 4250 50  0001 C CNN "Manufacturer part#"
 	1    6250 4250
 	1    0    0    -1  
 $EndComp
@@ -173,8 +173,8 @@ F 1 ".1uF" H 4800 3300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 5000 3400 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 5000 3400 50  0001 C CNN
 F 4 "digikey" V 5000 3400 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 5000 3400 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 5000 3400 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 5000 3400 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 5000 3400 50  0001 C CNN "Manufacturer part#"
 	1    5000 3400
 	1    0    0    -1  
 $EndComp
@@ -219,7 +219,7 @@ F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4650 4225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 4650 4400 50  0001 C CNN
 F 4 "digikey" H 4650 4400 50  0001 C CNN "Vendor"
 F 5 "2368-1N5401-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 4650 4400 50  0001 C CNN "manufacturer part#"
+F 6 "1N5401" H 4650 4400 50  0001 C CNN "Manufacturer part#"
 	1    4650 4400
 	-1   0    0    1   
 $EndComp
@@ -233,7 +233,7 @@ F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 4225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5350 4400 50  0001 C CNN
 F 4 "digikey" H 5350 4400 50  0001 C CNN "Vendor"
 F 5 "2368-1N5401-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 5350 4400 50  0001 C CNN "manufacturer part#"
+F 6 "1N5401" H 5350 4400 50  0001 C CNN "Manufacturer part#"
 	1    5350 4400
 	1    0    0    -1  
 $EndComp
@@ -304,8 +304,8 @@ F 1 ".1uF" H 5800 4650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 6000 4750 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 6000 4750 50  0001 C CNN
 F 4 "digikey" V 6000 4750 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 6000 4750 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 6000 4750 50  0001 C CNN "Manufacturer part#"
 	1    6000 4750
 	0    1    1    0   
 $EndComp
@@ -410,7 +410,7 @@ F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 3300 4150 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-urs.pdf" H 3300 4150 50  0001 C CNN
 F 4 "digikey" H 3300 4150 50  0001 C CNN "Vendor"
 F 5 "493-15896-1-ND" H 3300 4150 50  0001 C CNN "Vendor part#"
-F 6 "URS1C221MPD1TA" H 3300 4150 50  0001 C CNN "manufacturer part#"
+F 6 "URS1C221MPD1TA" H 3300 4150 50  0001 C CNN "Manufacturer part#"
 	1    3300 4150
 	0    1    1    0   
 $EndComp
@@ -438,8 +438,13 @@ U 1 1 60403583
 P 5150 6750
 F 0 "S2" V 5104 6898 50  0000 L CNN
 F 1 "Reset Switch" V 5195 6898 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 5150 6950 50  0001 C CNN
-F 3 "~" H 5150 6950 50  0001 C CNN
+F 2 "coco2:B3F3152" H 5150 6950 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 5150 6950 50  0001 C CNN
+F 4 "digikey" V 5150 6750 50  0001 C CNN "Vendor"
+F 5 "SW410-ND" V 5150 6750 50  0001 C CNN "Vendor part#"
+F 6 "B3F-3152" V 5150 6750 50  0001 C CNN "Manufacturer part#"
+F 7 "SW451-ND" V 5150 6750 50  0001 C CNN "Vendor 2nd part#"
+F 8 "B32-1010" V 5150 6750 50  0001 C CNN "Manufacturer 2nd part#"
 	1    5150 6750
 	0    1    1    0   
 $EndComp
@@ -474,8 +479,9 @@ F 0 "C58" V 4571 6650 50  0000 C CNN
 F 1 ".1uF" V 4662 6650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 4800 6650 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 4800 6650 50  0001 C CNN
-F 4 "digikey" V 4800 6650 50  0001 C CNN "Field4"
-F 5 "1109PHTR-ND" V 4800 6650 50  0001 C CNN "Field5"
+F 4 "digikey" V 4800 6650 50  0001 C CNN "Vendor"
+F 5 "1109PHCT-ND" V 4800 6650 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 4800 6650 50  0001 C CNN "Manufacturer part#"
 	1    4800 6650
 	1    0    0    -1  
 $EndComp
@@ -513,7 +519,7 @@ F 1 "100K" H 4318 6355 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4250 6400 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4250 6400 50  0001 C CNN
 F 4 "digikey" H 4250 6400 50  0001 C CNN "Vendor"
-F 5 "CF14JT100KTR-ND" H 4250 6400 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT100KCT-ND" H 4250 6400 50  0001 C CNN "Vendor part#"
 F 6 "CF14JT100K" H 4250 6400 50  0001 C CNN "Manufacturer part#"
 	1    4250 6400
 	1    0    0    -1  
@@ -527,9 +533,9 @@ P 4000 6400
 F 0 "CR12" V 3900 6100 50  0000 L CNN
 F 1 "1N4148" V 4050 6050 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 6225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 6400 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 4000 6400 50  0001 C CNN
 F 4 "digikey" V 4000 6400 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" V 4000 6400 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" V 4000 6400 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" V 4000 6400 50  0001 C CNN "Manufacturer part#"
 	1    4000 6400
 	0    1    1    0   
@@ -541,9 +547,9 @@ P 4250 6850
 F 0 "CR11" V 4200 6550 50  0000 L CNN
 F 1 "1N4148" V 4300 6450 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4250 6675 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4250 6850 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 4250 6850 50  0001 C CNN
 F 4 "digikey" V 4250 6850 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" V 4250 6850 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" V 4250 6850 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" V 4250 6850 50  0001 C CNN "Manufacturer part#"
 	1    4250 6850
 	0    1    1    0   
@@ -555,9 +561,9 @@ P 3300 6550
 F 0 "CR10" H 3250 6400 50  0000 L CNN
 F 1 "1N4148" H 3200 6700 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3300 6375 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3300 6550 50  0001 C CNN
+F 3 " https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 3300 6550 50  0001 C CNN
 F 4 "digikey" H 3300 6550 50  0001 C CNN "Vendor"
-F 5 "2721-1N4148-ND" H 3300 6550 50  0001 C CNN "Vendor part#"
+F 5 "1N4148FS-ND" H 3300 6550 50  0001 C CNN "Vendor part#"
 F 6 "1N4148" H 3300 6550 50  0001 C CNN "Manufacturer part#"
 	1    3300 6550
 	-1   0    0    1   
@@ -610,9 +616,9 @@ F 3 "~" H 7250 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 8250 3550 2    50   Output ~ 0
--SALT_VIN
-Text HLabel 8250 3950 2    50   Output ~ 0
 +SALT_VIN
+Text HLabel 8250 3950 2    50   Output ~ 0
+-SALT_VIN
 Wire Wire Line
 	8250 3550 7050 3550
 Connection ~ 7050 3550
