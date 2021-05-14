@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 4 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
-Rev "0.1"
+Rev "1.0.1"
 Comp "Tandy Corporation"
 Comment1 "Based on \"Color Computer 2 NTSC Service Manual (26-3026 & 26-3027)\" pp. 57"
 Comment2 ""
@@ -19,8 +19,12 @@ U 1 1 60273C9F
 P 6300 3300
 F 0 "U23" H 6000 4700 50  0000 C CNN
 F 1 "MC6809E" H 6550 4700 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm" H 6300 1800 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf" H 6200 4725 50  0001 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 6300 1800 50  0001 C CNN
+F 3 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 6200 4725 50  0001 C CNN
+F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 6300 3300 50  0001 C CNN "Datasheet"
+F 5 "digikey" H 6300 3300 50  0001 C CNN "Vendor"
+F 6 "ED3048-5-ND" H 6300 3300 50  0001 C CNN "Vendor part#"
+F 7 "ED40DT" H 6300 3300 50  0001 C CNN "Manufacturer part#"
 	1    6300 3300
 	1    0    0    -1  
 $EndComp
@@ -132,8 +136,8 @@ F 1 ".1uF" V 6762 1750 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 6900 1750 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 6900 1750 50  0001 C CNN
 F 4 "digikey" V 6900 1750 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 6900 1750 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 6900 1750 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 6900 1750 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 6900 1750 50  0001 C CNN "Manufacturer part#"
 	1    6900 1750
 	0    1    1    0   
 $EndComp
@@ -211,7 +215,7 @@ F 1 "4.7K" H 4168 2805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4100 2850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4100 2850 50  0001 C CNN
 F 4 "digikey" H 4100 2850 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 4100 2850 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 4100 2850 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 4100 2850 50  0001 C CNN "Manufacturer part#"
 	1    4100 2850
 	1    0    0    -1  
@@ -225,7 +229,7 @@ F 1 "4.7K" H 3868 2805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3800 2850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3800 2850 50  0001 C CNN
 F 4 "digikey" H 3800 2850 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 3800 2850 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 3800 2850 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 3800 2850 50  0001 C CNN "Manufacturer part#"
 	1    3800 2850
 	1    0    0    -1  
@@ -239,7 +243,7 @@ F 1 "4.7K" H 3568 2805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3500 2850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3500 2850 50  0001 C CNN
 F 4 "digikey" H 3500 2850 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 3500 2850 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 3500 2850 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 3500 2850 50  0001 C CNN "Manufacturer part#"
 	1    3500 2850
 	1    0    0    -1  
@@ -253,7 +257,7 @@ F 1 "4.7K" H 3268 2805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3200 2850 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3200 2850 50  0001 C CNN
 F 4 "digikey" H 3200 2850 50  0001 C CNN "Vendor"
-F 5 "CF14JT4K70TR-ND" H 3200 2850 50  0001 C CNN "Vendor part#"
+F 5 "CF14JT4K70CT-ND  " H 3200 2850 50  0001 C CNN "Vendor part#"
 F 6 "Stackpole Electronics Inc" H 3200 2850 50  0001 C CNN "Manufacturer part#"
 	1    3200 2850
 	1    0    0    -1  
@@ -438,7 +442,7 @@ P 2650 2450
 AR Path="/602A51A8/60456BFE" Ref="C?"  Part="1" 
 AR Path="/60273794/60456BFE" Ref="C48"  Part="1" 
 F 0 "C48" H 2738 2496 50  0000 L CNN
-F 1 "1uF" H 2738 2405 50  0000 L CNN
+F 1 "1uF 50V" H 2738 2405 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2650 2450 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/42052/515d.pdf" H 2650 2450 50  0001 C CNN
 F 4 "digikey" H 2650 2450 50  0001 C CNN "Vendor"

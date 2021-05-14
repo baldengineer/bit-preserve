@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 8
 Title "TRS-80 Color Computer 2 (26-3026 & 26-30267)"
 Date "2021-02-12"
-Rev "0.1"
+Rev "1.0.1"
 Comp "Tandy Corporation"
 Comment1 "DWG NO 17 00235"
 Comment2 "8709416"
@@ -548,8 +548,8 @@ F 1 ".1uF" H 1900 3900 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 2000 3800 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/45164/aseries.pdf" H 2000 3800 50  0001 C CNN
 F 4 "digikey" V 2000 3800 50  0001 C CNN "Vendor"
-F 5 "1109PHTR-ND" V 2000 3800 50  0001 C CNN "Vendor part#"
-F 6 "A104K15X7RF5TAA" V 2000 3800 50  0001 C CNN "Manufacturerer part #"
+F 5 "1109PHCT-ND" V 2000 3800 50  0001 C CNN "Vendor part#"
+F 6 "A104K15X7RF5TAA" V 2000 3800 50  0001 C CNN "Manufacturer part#"
 	1    2000 3800
 	-1   0    0    1   
 $EndComp
@@ -576,7 +576,7 @@ F 2 "coco2:EBC20DRAS" H 2850 4500 50  0001 C CNN
 F 3 "https://s3.amazonaws.com/catalogspreads-pdf/PAGE50-51%20.100%20LP%20DS%20EYE%20RA.pdf" H 2850 4500 50  0001 C CNN
 F 4 "digikey" H 2850 4500 50  0001 C CNN "Vendor"
 F 5 "S9672-ND" H 2850 4500 50  0001 C CNN "Vendor part#"
-F 6 "EBC20DRAS" H 2850 4500 50  0001 C CNN "Manufacturer part #"
+F 6 "EBC20DRAS" H 2850 4500 50  0001 C CNN "Manufacturer part#"
 	1    2850 4500
 	1    0    0    -1  
 $EndComp
@@ -705,13 +705,46 @@ Wire Wire Line
 	3050 2400 4100 2400
 $Comp
 L Mechanical:MountingHole H1
-U 1 1 605FAC28
-P 2850 6650
-F 0 "H1" H 2950 6696 50  0000 L CNN
-F 1 "MountingHole" H 2950 6605 50  0000 L CNN
-F 2 "coco2:coco2_layout" H 2850 6650 50  0001 C CNN
-F 3 "~" H 2850 6650 50  0001 C CNN
-	1    2850 6650
+U 1 1 60AD1126
+P 1350 6950
+F 0 "H1" H 1450 6996 50  0000 L CNN
+F 1 "MountingHole" H 1450 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.5mm" H 1350 6950 50  0001 C CNN
+F 3 "~" H 1350 6950 50  0001 C CNN
+	1    1350 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60AD16B9
+P 1350 7200
+F 0 "H2" H 1450 7246 50  0000 L CNN
+F 1 "MountingHole" H 1450 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1350 7200 50  0001 C CNN
+F 3 "~" H 1350 7200 50  0001 C CNN
+	1    1350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60AD74E1
+P 1350 7450
+F 0 "H3" H 1450 7496 50  0000 L CNN
+F 1 "MountingHole" H 1450 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 1350 7450 50  0001 C CNN
+F 3 "~" H 1350 7450 50  0001 C CNN
+	1    1350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 608347FD
+P 3250 7100
+F 0 "#LOGO1" H 3250 7600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 3250 6700 50  0001 C CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "~" H 3250 7100 50  0001 C CNN
+	1    3250 7100
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
