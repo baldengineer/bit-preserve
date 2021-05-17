@@ -146,7 +146,7 @@ WREQ
 Wire Wire Line
 	3000 3350 2650 3350
 $Comp
-L IIgs-Schematic:IWM UC5
+L IIgs-Schematic-rescue:IWM-IIgs-Schematic UC5
 U 1 1 5BF1F4FE
 P 3500 2650
 F 0 "UC5" H 3650 3750 50  0000 C CNN
@@ -888,7 +888,7 @@ Serial 2
 Text Notes 12900 950  0    50   ~ 0
 Serial 1
 $Comp
-L IIgs-Schematic:RC4300 H5
+L IIgs-Schematic-rescue:RC4300-IIgs-Schematic H5
 U 1 1 5EC3821B
 P 11200 1450
 F 0 "H5" H 11200 1825 50  0000 C CNN
@@ -899,7 +899,7 @@ F 3 "" H 11150 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:RC4300 H5
+L IIgs-Schematic-rescue:RC4300-IIgs-Schematic H5
 U 2 1 5EC39918
 P 11300 4000
 F 0 "H5" H 11300 4375 50  0000 C CNN
@@ -1704,7 +1704,7 @@ Text Label 4700 8000 2    50   ~ 0
 MDBUS7
 NoConn ~ 4350 8100
 $Comp
-L IIgs-Schematic:HCT251 UD7
+L IIgs-Schematic-rescue:HCT251-IIgs-Schematic UD7
 U 1 1 5EEBF97F
 P 3950 7900
 F 0 "UD7" H 3975 8865 50  0000 C CNN
@@ -1723,7 +1723,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 9650 4150 9650
 $Comp
-L IIgs-Schematic:NE558 UD6
+L IIgs-Schematic-rescue:NE558-IIgs-Schematic UD6
 U 1 1 5BF200A0
 P 3750 9600
 F 0 "UD6" H 3350 10200 50  0000 C CNN
@@ -2403,7 +2403,7 @@ F 3 "74xx/74hc_hct74.pdf" H 10800 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:RC4300 H6
+L IIgs-Schematic-rescue:RC4300-IIgs-Schematic H6
 U 2 1 5EF75A51
 P 12450 8600
 F 0 "H6" H 12450 8975 50  0000 C CNN
@@ -2575,7 +2575,7 @@ NoConn ~ 10300 4050
 NoConn ~ 10950 4150
 NoConn ~ 11650 4150
 $Comp
-L IIgs-Schematic:RC4300 H6
+L IIgs-Schematic-rescue:RC4300-IIgs-Schematic H6
 U 1 1 5FABCC66
 P 11350 6150
 F 0 "H6" H 11350 6525 50  0000 C CNN

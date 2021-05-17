@@ -1190,4 +1190,6 @@ F 3 "" H 5450 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 900  5450 950 
+Text Notes 5650 850  0    50   ~ 0
+CYA aka FPI
 $EndSCHEMATC

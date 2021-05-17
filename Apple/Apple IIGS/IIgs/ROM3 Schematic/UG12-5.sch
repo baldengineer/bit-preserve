@@ -235,7 +235,7 @@ Wire Wire Line
 Text Label 6750 2850 2    50   ~ 0
 CP-CNTL
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP?
+L IIgs-Schematic-rescue:M02-freetronics_schematic-IIgs-Schematic-rescue JP?
 U 1 1 5CB3AF62
 P 7600 3850
 F 0 "JP?" H 7578 3790 50  0000 L CNN
@@ -602,7 +602,7 @@ $EndComp
 Text Label 6300 6950 0    50   ~ 0
 ADB
 $Comp
-L IIgs-Schematic-rescue:L-Pack-IIgs-Schematic L2
+L IIgs-Schematic-rescue:L-Pack-IIgs-Schematic-IIgs-Schematic-rescue L2
 U 1 1 5CBA10D5
 P 4300 6700
 AR Path="/5CBA10D5" Ref="L2"  Part="1" 

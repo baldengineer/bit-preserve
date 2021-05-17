@@ -1458,7 +1458,7 @@ F 3 "" H 8900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP24
+L IIgs-Schematic-rescue:M02-freetronics_schematic-IIgs-Schematic-rescue JP24
 U 1 1 5E2DFE04
 P 8450 5850
 AR Path="/5E2DFE04" Ref="JP24"  Part="1" 
