@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic:Apple_MEGA_II U?
+L IIgs-Schematic:Apple_MEGA_II UI2
 U 1 1 5BF1D29A
 P 8600 4750
-F 0 "U?" H 8600 7578 50  0000 C CNN
+F 0 "UI2" H 8600 7578 50  0000 C CNN
 F 1 "Apple_MEGA_II" H 8600 7487 50  0000 C CNN
 F 2 "" H 8150 7150 50  0001 C CNN
 F 3 "" H 8150 7150 50  0001 C CNN
@@ -25,37 +25,15 @@ F 3 "" H 8150 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:HCT245 UJ4
-U 1 1 5BF1D32C
-P 5550 2750
-F 0 "UJ4" H 5523 3515 50  0000 C CNN
-F 1 "HCT245" H 5523 3424 50  0000 C CNN
-F 2 "" H 5350 3400 50  0001 C CNN
-F 3 "" H 5350 3400 50  0001 C CNN
-	1    5550 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L IIgs-Schematic:HCT245 UI4
 U 1 1 5BF1D35C
-P 5600 4300
-F 0 "UI4" H 5573 5065 50  0000 C CNN
-F 1 "HCT245" H 5573 4974 50  0000 C CNN
-F 2 "" H 5400 4950 50  0001 C CNN
-F 3 "" H 5400 4950 50  0001 C CNN
-	1    5600 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L IIgs-Schematic:HCT245 UH4
-U 1 1 5BF1D3AB
-P 5450 9100
-F 0 "UH4" H 5423 9865 50  0000 C CNN
-F 1 "HCT245" H 5423 9774 50  0000 C CNN
-F 2 "" H 5250 9750 50  0001 C CNN
-F 3 "" H 5250 9750 50  0001 C CNN
-	1    5450 9100
-	1    0    0    -1  
+P 5350 2900
+F 0 "UI4" H 5323 3665 50  0000 C CNN
+F 1 "HCT245" H 5323 3574 50  0000 C CNN
+F 2 "" H 5150 3550 50  0001 C CNN
+F 3 "" H 5150 3550 50  0001 C CNN
+	1    5350 2900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L IIgs-Schematic:DRAM64KX4 UK2
@@ -197,8 +175,6 @@ Text Label 7400 4750 0    50   ~ 0
 MDBUS7
 Wire Wire Line
 	7900 4750 7400 4750
-Text Label 7400 4950 0    50   ~ 0
-MADBUS0
 Text Label 7400 5050 0    50   ~ 0
 MADBUS1
 Text Label 7400 5150 0    50   ~ 0
@@ -1072,430 +1048,290 @@ Text Label 6500 5050 0    50   ~ 0
 ADBUS1
 Wire Wire Line
 	6900 4950 6500 4950
-Text Label 6500 4950 0    50   ~ 0
-ADBUS0
-Text Label 6350 2600 2    50   ~ 0
-ADBUS14
-Text Label 6350 2500 2    50   ~ 0
-ADBUS15
-Wire Wire Line
-	5950 2500 6350 2500
-Wire Wire Line
-	5950 2600 6350 2600
-Text Label 6350 2800 2    50   ~ 0
-ADBUS12
-Text Label 6350 2700 2    50   ~ 0
-ADBUS13
-Wire Wire Line
-	5950 2700 6350 2700
-Wire Wire Line
-	5950 2800 6350 2800
-Text Label 6350 3000 2    50   ~ 0
-ADBUS10
-Text Label 6350 2900 2    50   ~ 0
-ADBUS11
-Wire Wire Line
-	5950 2900 6350 2900
-Wire Wire Line
-	5950 3000 6350 3000
-Text Label 6350 3200 2    50   ~ 0
-ADBUS8
-Text Label 6350 3100 2    50   ~ 0
-ADBUS9
-Wire Wire Line
-	5950 3100 6350 3100
-Wire Wire Line
-	5950 3200 6350 3200
-Text Label 4750 2500 0    50   ~ 0
+Text Label 6150 1100 2    50   ~ 0
 BABUS8
 Wire Wire Line
-	5150 2500 4750 2500
-Text Label 4750 2600 0    50   ~ 0
+	5750 1100 6150 1100
+Text Label 6150 1200 2    50   ~ 0
 BABUS9
 Wire Wire Line
-	5150 2600 4750 2600
-Text Label 4750 2700 0    50   ~ 0
+	5750 1200 6150 1200
+Text Label 6150 1300 2    50   ~ 0
 BABUS10
 Wire Wire Line
-	5150 2700 4750 2700
-Text Label 4750 2800 0    50   ~ 0
+	5750 1300 6150 1300
+Text Label 6150 1400 2    50   ~ 0
 BABUS11
 Wire Wire Line
-	5150 2800 4750 2800
-Text Label 4750 2900 0    50   ~ 0
+	5750 1400 6150 1400
+Text Label 6150 1500 2    50   ~ 0
 BABUS12
 Wire Wire Line
-	5150 2900 4750 2900
-Text Label 4750 3000 0    50   ~ 0
+	5750 1500 6150 1500
+Text Label 6150 1600 2    50   ~ 0
 BABUS13
 Wire Wire Line
-	5150 3000 4750 3000
-Text Label 4750 3100 0    50   ~ 0
+	5750 1600 6150 1600
+Text Label 6150 1700 2    50   ~ 0
 BABUS14
 Wire Wire Line
-	5150 3100 4750 3100
-Text Label 4750 3200 0    50   ~ 0
+	5750 1700 6150 1700
+Text Label 6150 1800 2    50   ~ 0
 BABUS15
 Wire Wire Line
-	5150 3200 4750 3200
-Text Label 6400 4750 2    50   ~ 0
-ADBUS0
+	5750 1800 6150 1800
+Text Label 6150 3350 2    50   ~ 0
+BABUS0
 Wire Wire Line
-	6000 4750 6400 4750
-Text Label 6400 4050 2    50   ~ 0
-ADBUS7
+	5750 3350 6150 3350
+Text Label 6150 3250 2    50   ~ 0
+BABUS1
 Wire Wire Line
-	6000 4050 6400 4050
-Text Label 6400 4650 2    50   ~ 0
-ADBUS1
+	5750 3250 6150 3250
+Text Label 6150 2650 2    50   ~ 0
+BABUS7
 Wire Wire Line
-	6000 4650 6400 4650
-Text Label 6400 4550 2    50   ~ 0
-ADBUS2
+	5750 2650 6150 2650
+Text Label 6150 3150 2    50   ~ 0
+BABUS2
 Wire Wire Line
-	6000 4550 6400 4550
-Text Label 6400 4450 2    50   ~ 0
-ADBUS3
+	5750 3150 6150 3150
+Text Label 6150 3050 2    50   ~ 0
+BABUS3
 Wire Wire Line
-	6000 4450 6400 4450
-Text Label 6400 4350 2    50   ~ 0
-ADBUS4
+	5750 3050 6150 3050
+Text Label 6150 2950 2    50   ~ 0
+BABUS4
 Wire Wire Line
-	6000 4350 6400 4350
-Text Label 6400 4250 2    50   ~ 0
-ADBUS5
+	5750 2950 6150 2950
+Text Label 6150 2850 2    50   ~ 0
+BABUS5
 Wire Wire Line
-	6000 4250 6400 4250
-Text Label 6400 4150 2    50   ~ 0
-ADBUS6
+	5750 2850 6150 2850
+Text Label 6150 2750 2    50   ~ 0
+BABUS6
 Wire Wire Line
-	6000 4150 6400 4150
-Text Label 4800 4750 0    50   ~ 0
-BABUS8
-Wire Wire Line
-	5200 4750 4800 4750
-Text Label 4800 4650 0    50   ~ 0
-BABUS9
-Wire Wire Line
-	5200 4650 4800 4650
-Text Label 4800 4050 0    50   ~ 0
-BABUS15
-Wire Wire Line
-	5200 4050 4800 4050
-Text Label 4800 4550 0    50   ~ 0
-BABUS10
-Wire Wire Line
-	5200 4550 4800 4550
-Text Label 4800 4450 0    50   ~ 0
-BABUS11
-Wire Wire Line
-	5200 4450 4800 4450
-Text Label 4800 4350 0    50   ~ 0
-BABUS12
-Wire Wire Line
-	5200 4350 4800 4350
-Text Label 4800 4250 0    50   ~ 0
-BABUS13
-Wire Wire Line
-	5200 4250 4800 4250
-Text Label 4800 4150 0    50   ~ 0
-BABUS14
-Wire Wire Line
-	5200 4150 4800 4150
-Text Label 4800 3800 0    50   ~ 0
+	5750 2750 6150 2750
+Text Label 4550 2400 0    50   ~ 0
 UJ5-19
 Wire Wire Line
-	5200 3800 4800 3800
+	4950 2400 4550 2400
 Wire Wire Line
-	5200 3900 4800 3900
-Text Label 4800 3900 0    50   ~ 0
+	4950 2500 4550 2500
+Text Label 4550 2500 0    50   ~ 0
 UJ5-1
-Text Label 4750 2250 0    50   ~ 0
+Text Label 4550 850  0    50   ~ 0
 UJ5-19
 Wire Wire Line
-	5150 2250 4750 2250
+	4950 850  4550 850 
 Wire Wire Line
-	5150 2350 4750 2350
-Text Label 4750 2350 0    50   ~ 0
+	4950 950  4550 950 
+Text Label 4550 950  0    50   ~ 0
 UJ5-1
 $Comp
 L Device:R_Small R132
 U 1 1 5EE6B01B
-P 4700 5400
-F 0 "R132" V 4600 5400 50  0000 C CNN
-F 1 "100" V 4800 5400 50  0000 C CNN
-F 2 "" H 4700 5400 50  0001 C CNN
-F 3 "~" H 4700 5400 50  0001 C CNN
-	1    4700 5400
+P 4200 5650
+F 0 "R132" V 4100 5650 50  0000 C CNN
+F 1 "100" V 4300 5650 50  0000 C CNN
+F 2 "" H 4200 5650 50  0001 C CNN
+F 3 "~" H 4200 5650 50  0001 C CNN
+	1    4200 5650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R131
 U 1 1 5EE6B940
-P 4700 5900
-F 0 "R131" V 4600 5900 50  0000 C CNN
-F 1 "100" V 4800 5900 50  0000 C CNN
-F 2 "" H 4700 5900 50  0001 C CNN
-F 3 "~" H 4700 5900 50  0001 C CNN
-	1    4700 5900
+P 4200 6150
+F 0 "R131" V 4100 6150 50  0000 C CNN
+F 1 "100" V 4300 6150 50  0000 C CNN
+F 2 "" H 4200 6150 50  0001 C CNN
+F 3 "~" H 4200 6150 50  0001 C CNN
+	1    4200 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4600 5400 4450 5400
+	4100 5650 3950 5650
 Wire Wire Line
-	4600 5900 4450 5900
-Text GLabel 4250 5400 0    50   Input ~ 0
+	4100 6150 3950 6150
+Text GLabel 3750 5650 0    50   Input ~ 0
 ABDIR.L
-Text GLabel 4250 5900 0    50   Input ~ 0
+Text GLabel 3750 6150 0    50   Input ~ 0
 ABENB.L
-Text Label 5250 5900 2    50   ~ 0
+Text Label 4750 6150 2    50   ~ 0
 UJ5-19
 Wire Wire Line
-	4800 5900 4900 5900
+	4300 6150 4400 6150
 Wire Wire Line
-	4800 5400 4900 5400
-Text Label 5250 5400 2    50   ~ 0
+	4300 5650 4400 5650
+Text Label 4750 5650 2    50   ~ 0
 UJ5-1
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5EF2E1BB
-P 4900 5250
-F 0 "TP6" H 4958 5322 50  0000 L CNN
-F 1 "TestPoint" H 4842 5367 50  0001 R CNN
-F 2 "" H 5100 5250 50  0001 C CNN
-F 3 "~" H 5100 5250 50  0001 C CNN
-	1    4900 5250
+P 4400 5500
+F 0 "TP6" H 4458 5572 50  0000 L CNN
+F 1 "TestPoint" H 4342 5617 50  0001 R CNN
+F 2 "" H 4600 5500 50  0001 C CNN
+F 3 "~" H 4600 5500 50  0001 C CNN
+	1    4400 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4900 5250 4900 5400
-Connection ~ 4900 5400
+	4400 5500 4400 5650
+Connection ~ 4400 5650
 Wire Wire Line
-	4900 5400 5250 5400
+	4400 5650 4750 5650
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5EF3EE5F
-P 4450 5250
-F 0 "TP7" H 4508 5322 50  0000 L CNN
-F 1 "TestPoint" H 4392 5367 50  0001 R CNN
-F 2 "" H 4650 5250 50  0001 C CNN
-F 3 "~" H 4650 5250 50  0001 C CNN
-	1    4450 5250
+P 3950 5500
+F 0 "TP7" H 4008 5572 50  0000 L CNN
+F 1 "TestPoint" H 3892 5617 50  0001 R CNN
+F 2 "" H 4150 5500 50  0001 C CNN
+F 3 "~" H 4150 5500 50  0001 C CNN
+	1    3950 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 5250 4450 5400
-Connection ~ 4450 5400
+	3950 5500 3950 5650
+Connection ~ 3950 5650
 Wire Wire Line
-	4450 5400 4250 5400
+	3950 5650 3750 5650
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5EF70AB0
-P 4450 6050
-F 0 "TP9" H 4508 6122 50  0000 L CNN
-F 1 "TestPoint" H 4392 6167 50  0001 R CNN
-F 2 "" H 4650 6050 50  0001 C CNN
-F 3 "~" H 4650 6050 50  0001 C CNN
-	1    4450 6050
+P 3950 6300
+F 0 "TP9" H 4008 6372 50  0000 L CNN
+F 1 "TestPoint" H 3892 6417 50  0001 R CNN
+F 2 "" H 4150 6300 50  0001 C CNN
+F 3 "~" H 4150 6300 50  0001 C CNN
+	1    3950 6300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4450 6050 4450 5900
-Connection ~ 4450 5900
+	3950 6300 3950 6150
+Connection ~ 3950 6150
 Wire Wire Line
-	4450 5900 4250 5900
+	3950 6150 3750 6150
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5EF81AFF
-P 4900 6050
-F 0 "TP8" H 4958 6122 50  0000 L CNN
-F 1 "TestPoint" H 4842 6167 50  0001 R CNN
-F 2 "" H 5100 6050 50  0001 C CNN
-F 3 "~" H 5100 6050 50  0001 C CNN
-	1    4900 6050
+P 4400 6300
+F 0 "TP8" H 4458 6372 50  0000 L CNN
+F 1 "TestPoint" H 4342 6417 50  0001 R CNN
+F 2 "" H 4600 6300 50  0001 C CNN
+F 3 "~" H 4600 6300 50  0001 C CNN
+	1    4400 6300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4900 6050 4900 5900
-Connection ~ 4900 5900
+	4400 6300 4400 6150
+Connection ~ 4400 6150
 Wire Wire Line
-	4900 5900 5250 5900
-Text Label 4700 9550 0    50   ~ 0
-MDBUS0
-Wire Wire Line
-	5050 9550 4700 9550
-Text Label 4700 9450 0    50   ~ 0
-MDBUS1
-Wire Wire Line
-	5050 9450 4700 9450
-Text Label 4700 9350 0    50   ~ 0
-MDBUS2
-Wire Wire Line
-	5050 9350 4700 9350
-Text Label 4700 9250 0    50   ~ 0
-MDBUS3
-Wire Wire Line
-	5050 9250 4700 9250
-Text Label 4700 9150 0    50   ~ 0
-MDBUS4
-Wire Wire Line
-	5050 9150 4700 9150
-Text Label 4700 9050 0    50   ~ 0
-MDBUS5
-Wire Wire Line
-	5050 9050 4700 9050
-Text Label 4700 8950 0    50   ~ 0
-MDBUS6
-Wire Wire Line
-	5050 8950 4700 8950
-Text Label 4700 8850 0    50   ~ 0
-MDBUS7
-Wire Wire Line
-	5050 8850 4700 8850
-Text Label 6200 8850 2    50   ~ 0
-DBUS7
-Text Label 6200 8950 2    50   ~ 0
-DBUS6
-Wire Wire Line
-	6200 8850 5850 8850
-Wire Wire Line
-	6200 8950 5850 8950
-Text Label 6200 9050 2    50   ~ 0
-DBUS5
-Text Label 6200 9150 2    50   ~ 0
-DBUS4
-Wire Wire Line
-	6200 9050 5850 9050
-Wire Wire Line
-	6200 9150 5850 9150
-Text Label 6200 9250 2    50   ~ 0
-DBUS3
-Text Label 6200 9350 2    50   ~ 0
-DBUS2
-Wire Wire Line
-	6200 9250 5850 9250
-Wire Wire Line
-	6200 9350 5850 9350
-Text Label 6200 9450 2    50   ~ 0
-DBUS1
-Text Label 6200 9550 2    50   ~ 0
-DBUS0
-Wire Wire Line
-	6200 9450 5850 9450
-Wire Wire Line
-	6200 9550 5850 9550
-Wire Wire Line
-	4700 8600 5050 8600
-Wire Wire Line
-	4700 8700 5050 8700
-Text Label 4700 8850 0    50   ~ 0
-MDBUS7
-Text Label 4700 8700 0    50   ~ 0
-UI5-1
-Text Label 4700 8600 0    50   ~ 0
-UI5-19
+	4400 6150 4750 6150
 $Comp
 L Device:R_Small R129
 U 1 1 5F0D4AD7
-P 4550 7550
-F 0 "R129" V 4450 7550 50  0000 C CNN
-F 1 "100" V 4650 7550 50  0000 C CNN
-F 2 "" H 4550 7550 50  0001 C CNN
-F 3 "~" H 4550 7550 50  0001 C CNN
-	1    4550 7550
+P 4200 7500
+F 0 "R129" V 4100 7500 50  0000 C CNN
+F 1 "100" V 4300 7500 50  0000 C CNN
+F 2 "" H 4200 7500 50  0001 C CNN
+F 3 "~" H 4200 7500 50  0001 C CNN
+	1    4200 7500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R130
 U 1 1 5F0D4ADD
-P 4550 8050
-F 0 "R130" V 4450 8050 50  0000 C CNN
-F 1 "100" V 4650 8050 50  0000 C CNN
-F 2 "" H 4550 8050 50  0001 C CNN
-F 3 "~" H 4550 8050 50  0001 C CNN
-	1    4550 8050
+P 4200 8000
+F 0 "R130" V 4100 8000 50  0000 C CNN
+F 1 "100" V 4300 8000 50  0000 C CNN
+F 2 "" H 4200 8000 50  0001 C CNN
+F 3 "~" H 4200 8000 50  0001 C CNN
+	1    4200 8000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4450 7550 4300 7550
+	4100 7500 3950 7500
 Wire Wire Line
-	4450 8050 4300 8050
-Text GLabel 4100 7550 0    50   Input ~ 0
+	4100 8000 3950 8000
+Text GLabel 3750 7500 0    50   Input ~ 0
 DBDIR.L
-Text GLabel 4100 8050 0    50   Input ~ 0
+Text GLabel 3750 8000 0    50   Input ~ 0
 DBENB.L
-Text Label 5100 8050 2    50   ~ 0
+Text Label 4750 8000 2    50   ~ 0
 UJ5-19
 Wire Wire Line
-	4650 8050 4750 8050
+	4300 8000 4400 8000
 Wire Wire Line
-	4650 7550 4750 7550
-Text Label 5100 7550 2    50   ~ 0
+	4300 7500 4400 7500
+Text Label 4750 7500 2    50   ~ 0
 UJ5-1
 $Comp
 L Connector:TestPoint TP20
 U 1 1 5F0D4AEB
-P 4750 7400
-F 0 "TP20" H 4808 7472 50  0000 L CNN
-F 1 "TestPoint" H 4692 7517 50  0001 R CNN
-F 2 "" H 4950 7400 50  0001 C CNN
-F 3 "~" H 4950 7400 50  0001 C CNN
-	1    4750 7400
+P 4400 7350
+F 0 "TP20" H 4458 7422 50  0000 L CNN
+F 1 "TestPoint" H 4342 7467 50  0001 R CNN
+F 2 "" H 4600 7350 50  0001 C CNN
+F 3 "~" H 4600 7350 50  0001 C CNN
+	1    4400 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 7400 4750 7550
-Connection ~ 4750 7550
+	4400 7350 4400 7500
+Connection ~ 4400 7500
 Wire Wire Line
-	4750 7550 5100 7550
+	4400 7500 4750 7500
 $Comp
 L Connector:TestPoint TP19
 U 1 1 5F0D4AF4
-P 4300 7400
-F 0 "TP19" H 4358 7472 50  0000 L CNN
-F 1 "TestPoint" H 4242 7517 50  0001 R CNN
-F 2 "" H 4500 7400 50  0001 C CNN
-F 3 "~" H 4500 7400 50  0001 C CNN
-	1    4300 7400
+P 3950 7350
+F 0 "TP19" H 4008 7422 50  0000 L CNN
+F 1 "TestPoint" H 3892 7467 50  0001 R CNN
+F 2 "" H 4150 7350 50  0001 C CNN
+F 3 "~" H 4150 7350 50  0001 C CNN
+	1    3950 7350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 7400 4300 7550
-Connection ~ 4300 7550
+	3950 7350 3950 7500
+Connection ~ 3950 7500
 Wire Wire Line
-	4300 7550 4100 7550
+	3950 7500 3750 7500
 $Comp
 L Connector:TestPoint TP21
 U 1 1 5F0D4AFD
-P 4300 8200
-F 0 "TP21" H 4358 8272 50  0000 L CNN
-F 1 "TestPoint" H 4242 8317 50  0001 R CNN
-F 2 "" H 4500 8200 50  0001 C CNN
-F 3 "~" H 4500 8200 50  0001 C CNN
-	1    4300 8200
+P 3950 8150
+F 0 "TP21" H 4008 8222 50  0000 L CNN
+F 1 "TestPoint" H 3892 8267 50  0001 R CNN
+F 2 "" H 4150 8150 50  0001 C CNN
+F 3 "~" H 4150 8150 50  0001 C CNN
+	1    3950 8150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4300 8200 4300 8050
-Connection ~ 4300 8050
+	3950 8150 3950 8000
+Connection ~ 3950 8000
 Wire Wire Line
-	4300 8050 4100 8050
+	3950 8000 3750 8000
 $Comp
 L Connector:TestPoint TP22
 U 1 1 5F0D4B06
-P 4750 8200
-F 0 "TP22" H 4808 8272 50  0000 L CNN
-F 1 "TestPoint" H 4692 8317 50  0001 R CNN
-F 2 "" H 4950 8200 50  0001 C CNN
-F 3 "~" H 4950 8200 50  0001 C CNN
-	1    4750 8200
+P 4400 8150
+F 0 "TP22" H 4458 8222 50  0000 L CNN
+F 1 "TestPoint" H 4342 8267 50  0001 R CNN
+F 2 "" H 4600 8150 50  0001 C CNN
+F 3 "~" H 4600 8150 50  0001 C CNN
+	1    4400 8150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4750 8200 4750 8050
-Connection ~ 4750 8050
+	4400 8150 4400 8000
+Connection ~ 4400 8000
 Wire Wire Line
-	4750 8050 5100 8050
+	4400 8000 4750 8000
 Text Label 12500 2200 0    50   ~ 0
 RA0F.H
 Wire Wire Line
@@ -2221,4 +2057,178 @@ $EndComp
 Connection ~ 11350 5350
 Wire Wire Line
 	11350 5350 11500 5350
+Wire Wire Line
+	4950 2750 4550 2750
+Text Label 4550 2750 0    50   ~ 0
+ABUS6
+Wire Wire Line
+	4950 2850 4550 2850
+Text Label 4550 2850 0    50   ~ 0
+ABUS5
+Wire Wire Line
+	4950 2950 4550 2950
+Text Label 4550 2950 0    50   ~ 0
+ABUS4
+Wire Wire Line
+	4950 3050 4550 3050
+Text Label 4550 3050 0    50   ~ 0
+ABUS3
+Wire Wire Line
+	4950 3150 4550 3150
+Text Label 4550 3150 0    50   ~ 0
+ABUS2
+Wire Wire Line
+	4950 3250 4550 3250
+Text Label 4550 3250 0    50   ~ 0
+ABUS1
+Wire Wire Line
+	4950 2650 4550 2650
+Text Label 4550 2650 0    50   ~ 0
+ABUS7
+Wire Wire Line
+	4950 3350 4550 3350
+Text Label 4550 3350 0    50   ~ 0
+ABUS0
+Wire Wire Line
+	4950 1800 4550 1800
+Wire Wire Line
+	4950 1700 4550 1700
+Text Label 4550 1700 0    50   ~ 0
+ABUS9
+Text Label 4550 1800 0    50   ~ 0
+ABUS8
+Wire Wire Line
+	4950 1600 4550 1600
+Wire Wire Line
+	4950 1500 4550 1500
+Text Label 4550 1500 0    50   ~ 0
+ABUS11
+Text Label 4550 1600 0    50   ~ 0
+ABUS10
+Wire Wire Line
+	4950 1400 4550 1400
+Wire Wire Line
+	4950 1300 4550 1300
+Text Label 4550 1300 0    50   ~ 0
+ABUS13
+Text Label 4550 1400 0    50   ~ 0
+ABUS12
+Wire Wire Line
+	4950 1200 4550 1200
+Wire Wire Line
+	4950 1100 4550 1100
+Text Label 4550 1100 0    50   ~ 0
+ABUS15
+Text Label 4550 1200 0    50   ~ 0
+ABUS14
+$Comp
+L IIgs-Schematic:HCT245 UJ4
+U 1 1 5BF1D32C
+P 5350 1350
+F 0 "UJ4" H 5323 2115 50  0000 C CNN
+F 1 "HCT245" H 5323 2024 50  0000 C CNN
+F 2 "" H 5150 2000 50  0001 C CNN
+F 3 "" H 5150 2000 50  0001 C CNN
+	1    5350 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IIgs-Schematic:HCT245 UH4
+U 1 1 5BF1D3AB
+P 5350 4450
+F 0 "UH4" H 5323 5215 50  0000 C CNN
+F 1 "HCT245" H 5323 5124 50  0000 C CNN
+F 2 "" H 5150 5100 50  0001 C CNN
+F 3 "" H 5150 5100 50  0001 C CNN
+	1    5350 4450
+	-1   0    0    -1  
+$EndComp
+Text Label 6100 4900 2    50   ~ 0
+MDBUS0
+Wire Wire Line
+	5750 4900 6100 4900
+Text Label 6100 4800 2    50   ~ 0
+MDBUS1
+Wire Wire Line
+	5750 4800 6100 4800
+Text Label 6100 4700 2    50   ~ 0
+MDBUS2
+Wire Wire Line
+	5750 4700 6100 4700
+Text Label 6100 4600 2    50   ~ 0
+MDBUS3
+Wire Wire Line
+	5750 4600 6100 4600
+Text Label 6100 4500 2    50   ~ 0
+MDBUS4
+Wire Wire Line
+	5750 4500 6100 4500
+Text Label 6100 4400 2    50   ~ 0
+MDBUS5
+Wire Wire Line
+	5750 4400 6100 4400
+Text Label 6100 4300 2    50   ~ 0
+MDBUS6
+Wire Wire Line
+	5750 4300 6100 4300
+Text Label 6100 4200 2    50   ~ 0
+MDBUS7
+Wire Wire Line
+	5750 4200 6100 4200
+Text Label 4600 4200 0    50   ~ 0
+DBUS7
+Text Label 4600 4300 0    50   ~ 0
+DBUS6
+Wire Wire Line
+	4600 4200 4950 4200
+Wire Wire Line
+	4600 4300 4950 4300
+Text Label 4600 4400 0    50   ~ 0
+DBUS5
+Text Label 4600 4500 0    50   ~ 0
+DBUS4
+Wire Wire Line
+	4600 4400 4950 4400
+Wire Wire Line
+	4600 4500 4950 4500
+Text Label 4600 4600 0    50   ~ 0
+DBUS3
+Text Label 4600 4700 0    50   ~ 0
+DBUS2
+Wire Wire Line
+	4600 4600 4950 4600
+Wire Wire Line
+	4600 4700 4950 4700
+Text Label 4600 4800 0    50   ~ 0
+DBUS1
+Text Label 4600 4900 0    50   ~ 0
+DBUS0
+Wire Wire Line
+	4600 4800 4950 4800
+Wire Wire Line
+	4600 4900 4950 4900
+Wire Wire Line
+	4600 3950 4950 3950
+Wire Wire Line
+	4600 4050 4950 4050
+Text Label 6100 4200 2    50   ~ 0
+MDBUS7
+Text Label 4600 4050 0    50   ~ 0
+UI5-1
+Text Label 4600 3950 0    50   ~ 0
+UI5-19
+Text Label 6500 4950 0    50   ~ 0
+ADBUS0
+Text Label 7400 4950 0    50   ~ 0
+MADBUS0
+Text Notes 6650 1800 0    50   ~ 0
+ABUSxx - Address bus from CPU\nDBUSxx - Data bus from CPU\nBABUSxx - Buffered Address Bus to MEGA II\nRABUSx - DRAM Row/Column Bus\nSBUS - Slot Selector\n\n\nMDBUS - Main Data Bus\nADBUS - Aux Data Bus\nMADBUS - Muxed(?) Aux Data Bus\n\nNOTE: All of these data busses only exist on 1MB board. \nOn 256kb Board there is only: ABUS, DBUS, MDBUS, and ADBUS.
+Text Notes 5250 6300 0    50   ~ 0
+RGBx = 4-bit linear-weighted binary value \nthat gets decoded by VGC
+Text Notes 10100 5650 0    50   ~ 0
+SERVIDEO = Test Signal. \nComposite w/out Sync (TBD)\n
+Text Notes 6500 4500 0    50   ~ 0
+Data busses to the \nMEGA II appear to \nfor the VGC to use \nStandard RAM as \nVideo memory for \nIIgs modes
+Text Notes 14250 4300 0    50   ~ 0
+TIL the Apple II memory map \nis a nightmare. "Thanks" Woz!\nJ/K You're awesome!\n-James
 $EndSCHEMATC

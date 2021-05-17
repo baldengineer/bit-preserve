@@ -101,17 +101,6 @@ F 3 "" H 3050 6800 50  0001 C CNN
 	1    2600 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L IIgs-Schematic:HCT245 UD5
-U 1 1 5BF2195F
-P 2650 8500
-F 0 "UD5" H 2623 9265 50  0000 C CNN
-F 1 "HCT245" H 2623 9174 50  0000 C CNN
-F 2 "" H 2450 9150 50  0001 C CNN
-F 3 "" H 2450 9150 50  0001 C CNN
-	1    2650 8500
-	1    0    0    -1  
-$EndComp
 Text Label 12550 8700 2    50   ~ 0
 BABUS0
 Wire Wire Line
@@ -2061,105 +2050,57 @@ Wire Wire Line
 	2050 6800 2000 6800
 Wire Wire Line
 	2000 6800 2000 6850
-Wire Wire Line
-	3050 8250 3450 8250
-Text Label 3450 8250 2    50   ~ 0
-SDBUS0
-Wire Wire Line
-	3050 8350 3450 8350
-Text Label 3450 8350 2    50   ~ 0
-SDBUS1
-Wire Wire Line
-	3050 8450 3450 8450
-Text Label 3450 8450 2    50   ~ 0
-SDBUS2
-Wire Wire Line
-	3050 8550 3450 8550
-Text Label 3450 8550 2    50   ~ 0
-SDBUS3
-Wire Wire Line
-	3050 8650 3450 8650
-Text Label 3450 8650 2    50   ~ 0
-SDBUS4
-Wire Wire Line
-	3050 8750 3450 8750
-Text Label 3450 8750 2    50   ~ 0
-SDBUS5
-Wire Wire Line
-	3050 8850 3450 8850
-Text Label 3450 8850 2    50   ~ 0
-SDBUS6
-Wire Wire Line
-	3050 8950 3450 8950
-Text Label 3450 8950 2    50   ~ 0
-SDBUS7
-Text Label 1850 8250 0    50   ~ 0
+Text Label 3450 8000 2    50   ~ 0
 MDBUS0
-Text Label 1850 8350 0    50   ~ 0
+Text Label 3450 8100 2    50   ~ 0
 MDBUS0
-Text Label 1850 8450 0    50   ~ 0
+Text Label 3450 8200 2    50   ~ 0
 MDBUS0
-Text Label 1850 8550 0    50   ~ 0
+Text Label 3450 8300 2    50   ~ 0
 MDBUS0
-Text Label 1850 8650 0    50   ~ 0
+Text Label 3450 8400 2    50   ~ 0
 MDBUS0
-Text Label 1850 8750 0    50   ~ 0
+Text Label 3450 8500 2    50   ~ 0
 MDBUS0
-Text Label 1850 8850 0    50   ~ 0
+Text Label 3450 8600 2    50   ~ 0
 MDBUS0
-Text Label 1850 8950 0    50   ~ 0
+Text Label 3450 8700 2    50   ~ 0
 MDBUS0
-Wire Wire Line
-	1850 8850 2250 8850
-Wire Wire Line
-	2250 8750 1850 8750
-Wire Wire Line
-	1850 8650 2250 8650
-Wire Wire Line
-	2250 8550 1850 8550
-Wire Wire Line
-	1850 8450 2250 8450
-Wire Wire Line
-	1850 8350 2250 8350
-Wire Wire Line
-	2250 8250 1850 8250
-Text Label 1850 8100 0    50   ~ 0
+Text Label 1850 7850 0    50   ~ 0
 MDIN-OUT
 $Comp
 L Connector:TestPoint TP31
 U 1 1 5E2A0BC4
-P 1700 8050
-F 0 "TP31" H 1650 8200 50  0000 R CNN
-F 1 "TestPoint" H 1642 8168 50  0001 R CNN
-F 2 "" H 1900 8050 50  0001 C CNN
-F 3 "~" H 1900 8050 50  0001 C CNN
-	1    1700 8050
+P 1700 7800
+F 0 "TP31" H 1650 7950 50  0000 R CNN
+F 1 "TestPoint" H 1642 7918 50  0001 R CNN
+F 2 "" H 1900 7800 50  0001 C CNN
+F 3 "~" H 1900 7800 50  0001 C CNN
+	1    1700 7800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 8100 1700 8050
+	1700 7850 1700 7800
 Wire Wire Line
-	1700 8100 2250 8100
+	1700 7850 2250 7850
 Wire Wire Line
-	2250 8000 2200 8000
-Text Label 1850 8000 0    50   ~ 0
+	2250 7750 2200 7750
+Text Label 1850 7750 0    50   ~ 0
 EN245.L
 $Comp
 L Connector:TestPoint TP23
 U 1 1 5E36B3FB
-P 2200 8000
-F 0 "TP23" H 2150 8150 50  0000 R CNN
-F 1 "TestPoint" H 2142 8118 50  0001 R CNN
-F 2 "" H 2400 8000 50  0001 C CNN
-F 3 "~" H 2400 8000 50  0001 C CNN
-	1    2200 8000
+P 2200 7750
+F 0 "TP23" H 2150 7900 50  0000 R CNN
+F 1 "TestPoint" H 2142 7868 50  0001 R CNN
+F 2 "" H 2400 7750 50  0001 C CNN
+F 3 "~" H 2400 7750 50  0001 C CNN
+	1    2200 7750
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 8000
+Connection ~ 2200 7750
 Wire Wire Line
-	2200 8000 1850 8000
-Wire Wire Line
-	1850 8950 2250 8950
+	2200 7750 1850 7750
 $Comp
 L Device:R_Small R113
 U 1 1 5E438F86
@@ -2277,4 +2218,63 @@ Text Notes 750  1950 0    50   ~ 0
 Verify if this is the XOR from the CYA Page
 Text Notes 2300 700  0    50   ~ 0
 Global labels not shown
+Wire Wire Line
+	3450 8700 3050 8700
+Wire Wire Line
+	3050 8000 3450 8000
+Wire Wire Line
+	3450 8100 3050 8100
+Wire Wire Line
+	3450 8200 3050 8200
+Wire Wire Line
+	3050 8300 3450 8300
+Wire Wire Line
+	3450 8400 3050 8400
+Wire Wire Line
+	3050 8500 3450 8500
+Wire Wire Line
+	3450 8600 3050 8600
+Text Label 1850 8700 0    50   ~ 0
+SDBUS7
+Wire Wire Line
+	2250 8700 1850 8700
+Text Label 1850 8600 0    50   ~ 0
+SDBUS6
+Wire Wire Line
+	2250 8600 1850 8600
+Text Label 1850 8500 0    50   ~ 0
+SDBUS5
+Wire Wire Line
+	2250 8500 1850 8500
+Text Label 1850 8400 0    50   ~ 0
+SDBUS4
+Wire Wire Line
+	2250 8400 1850 8400
+Text Label 1850 8300 0    50   ~ 0
+SDBUS3
+Wire Wire Line
+	2250 8300 1850 8300
+Text Label 1850 8200 0    50   ~ 0
+SDBUS2
+Wire Wire Line
+	2250 8200 1850 8200
+Text Label 1850 8100 0    50   ~ 0
+SDBUS1
+Wire Wire Line
+	2250 8100 1850 8100
+Text Label 1850 8000 0    50   ~ 0
+SDBUS0
+Wire Wire Line
+	2250 8000 1850 8000
+$Comp
+L IIgs-Schematic:HCT245 UD5
+U 1 1 5BF2195F
+P 2650 8250
+F 0 "UD5" H 2623 9015 50  0000 C CNN
+F 1 "HCT245" H 2623 8924 50  0000 C CNN
+F 2 "" H 2450 8900 50  0001 C CNN
+F 3 "" H 2450 8900 50  0001 C CNN
+	1    2650 8250
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
