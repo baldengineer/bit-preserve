@@ -10,8 +10,9 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
 * Resistor packs are all over - need to determine appropriate symbols.
     * RP1 - 9 or 10 pin?, on pages 1-3. photos suggest it's 10-pin
     * RP2 - 10 pin, on pages 1 & 2
-    * PR3 - 10 pin, all on page 3
+    * RP3 - 10 pin, all on page 3
 * Determine approach for decoupling caps on page 4.
+* Review passives for notation consistency
 * Unclear text:
     * Page 1:
         * Net label UPSYNC

@@ -48,13 +48,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4300 7100 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74LS125 UE1
-U 4 1 60BF051C
+U 3 1 60BF051C
 P 14300 8600
 F 0 "UE1" H 14300 8825 50  0000 C CNN
 F 1 "LS125" H 14300 8916 50  0000 C CNN
 F 2 "" H 14300 8600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 14300 8600 50  0001 C CNN
-	4    14300 8600
+	3    14300 8600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1627,7 +1627,7 @@ P 1950 4350
 F 0 "UB8" H 2250 4250 50  0000 C CNN
 F 1 "S02" H 2200 4500 50  0000 C CNN
 F 2 "" H 1950 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 1950 4350 50  0001 C CNN
+F 3 "" H 1950 4350 50  0001 C CNN
 	2    1950 4350
 	1    0    0    -1  
 $EndComp
@@ -1638,7 +1638,7 @@ P 1950 3100
 F 0 "UB8" H 2200 3000 50  0000 C CNN
 F 1 "S02" H 2200 3250 50  0000 C CNN
 F 2 "" H 1950 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 1950 3100 50  0001 C CNN
+F 3 "" H 1950 3100 50  0001 C CNN
 	1    1950 3100
 	1    0    0    -1  
 $EndComp
@@ -1721,20 +1721,20 @@ A[0..15]
 Wire Wire Line
 	1700 4900 1700 4950
 Wire Wire Line
-	1900 4900 1900 5050
+	1850 4900 1850 5050
 Wire Wire Line
-	2100 4900 2100 5150
+	2000 4900 2000 5150
 Wire Wire Line
 	1700 4600 1700 4550
 Wire Wire Line
-	1700 4550 1900 4550
+	1700 4550 1850 4550
 Wire Wire Line
-	2100 4550 2100 4600
+	2000 4550 2000 4600
 Wire Wire Line
-	1900 4600 1900 4550
-Connection ~ 1900 4550
+	1850 4600 1850 4550
+Connection ~ 1850 4550
 Wire Wire Line
-	1900 4550 2100 4550
+	1850 4550 2000 4550
 $Comp
 L power:+5V #PWR0113
 U 1 1 616E53C6
@@ -1750,16 +1750,16 @@ Connection ~ 1700 4550
 Connection ~ 1700 4950
 Wire Wire Line
 	1700 4950 1150 4950
-Connection ~ 1900 5050
+Connection ~ 1850 5050
 Wire Wire Line
-	1900 5050 1150 5050
-Connection ~ 2100 5150
+	1850 5050 1150 5050
+Connection ~ 2000 5150
 Wire Wire Line
-	2100 5150 1150 5150
+	2000 5150 1150 5150
 Wire Wire Line
-	2100 5150 2350 5150
+	2000 5150 2350 5150
 Wire Wire Line
-	1900 5050 2350 5050
+	1850 5050 2350 5050
 Wire Wire Line
 	1700 4950 2350 4950
 Text HLabel 1150 4450 0    50   Input ~ 0
@@ -1789,23 +1789,23 @@ $EndComp
 $Comp
 L Device:R_Network09_Split RP1
 U 5 1 617AFDA4
-P 1900 4750
-F 0 "RP1" H 1998 4788 50  0001 L CNN
-F 1 "3.3K" H 1998 4697 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 1820 4750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 4750 50  0001 C CNN
-	5    1900 4750
+P 1850 4750
+F 0 "RP1" H 1948 4788 50  0001 L CNN
+F 1 "3.3K" H 1948 4697 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 1770 4750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1850 4750 50  0001 C CNN
+	5    1850 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Network09_Split RP1
 U 3 1 617B01C4
-P 2100 4750
-F 0 "RP1" H 2198 4788 50  0000 L CNN
-F 1 "3.3K" H 2198 4697 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 2020 4750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 4750 50  0001 C CNN
-	3    2100 4750
+P 2000 4750
+F 0 "RP1" H 2098 4788 50  0000 L CNN
+F 1 "3.3K" H 2098 4697 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 1920 4750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2000 4750 50  0001 C CNN
+	3    2000 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1938,6 +1938,16 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14800 8400 50  0001 C CNN
 $EndComp
 Text HLabel 15300 8600 2    50   Output ~ 0
 ~R|W80
+Wire Notes Line
+	1600 4600 2350 4600
+Wire Notes Line
+	2350 4600 2350 4900
+Wire Notes Line
+	2350 4900 1600 4900
+Wire Notes Line
+	1600 4900 1600 4600
+Text Notes 5300 5550 0    50   ~ 0
+344-0100
 Wire Bus Line
 	2050 5750 2050 7700
 Wire Bus Line
@@ -1948,4 +1958,8 @@ Wire Bus Line
 	4750 9100 11800 9100
 Wire Bus Line
 	2050 7700 15300 7700
+Text Notes 7650 8500 0    50   ~ 0
+EF ROM
+Text Notes 10750 8500 0    50   ~ 0
+CD ROM
 $EndSCHEMATC
