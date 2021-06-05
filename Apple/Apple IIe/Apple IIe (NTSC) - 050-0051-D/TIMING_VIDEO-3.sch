@@ -791,29 +791,7 @@ Wire Wire Line
 	6450 7050 6450 7150
 Wire Wire Line
 	6450 4000 12600 4000
-Wire Wire Line
-	6850 4550 13450 4550
-Wire Wire Line
-	6750 4650 13450 4650
-Wire Wire Line
-	6950 4750 13450 4750
-Wire Wire Line
-	7050 4850 13450 4850
-Wire Wire Line
-	7150 4950 13450 4950
-Wire Wire Line
-	7850 5050 13450 5050
-Wire Wire Line
-	7950 5150 13450 5150
-Wire Wire Line
-	8050 5250 13450 5250
-Wire Bus Line
-	7650 6350 13450 6350
-Wire Wire Line
-	8650 6750 13450 6750
 Connection ~ 8650 6750
-Wire Wire Line
-	6750 6850 13450 6850
 Wire Wire Line
 	6450 7150 13450 7150
 Wire Wire Line
@@ -838,33 +816,13 @@ Text HLabel 13450 3900 2    50   Output ~ 0
 ~CLRGATE
 Text HLabel 13450 4000 2    50   Output ~ 0
 ~SYNC
-Text HLabel 13450 4550 2    50   Output ~ 0
-VC
-Text HLabel 13450 4650 2    50   Output ~ 0
-SPKR
-Text HLabel 13450 4750 2    50   Output ~ 0
-SEGB
-Text HLabel 13450 4850 2    50   Output ~ 0
-SEGA
-Text HLabel 13450 4950 2    50   Output ~ 0
-GR
-Text HLabel 13450 5050 2    50   Output ~ 0
-~RA10
-Text HLabel 13450 5150 2    50   Output ~ 0
-~RA9
-Text HLabel 13450 5250 2    50   Output ~ 0
-~WNDW
 Wire Wire Line
 	6750 5050 7850 5050
 Wire Wire Line
 	6750 5350 6850 5350
 Wire Wire Line
 	6850 5350 6850 8300
-Wire Wire Line
-	6850 5350 13450 5350
 Connection ~ 6850 5350
-Text HLabel 13450 5350 2    50   Output ~ 0
-~80VID
 Wire Wire Line
 	6750 5450 12600 5450
 $Comp
@@ -935,24 +893,6 @@ Wire Wire Line
 Connection ~ 12950 5650
 Wire Wire Line
 	12950 5950 12950 6000
-Text HLabel 13450 6350 2    50   BiDi ~ 0
-RA[0..7]
-Wire Wire Line
-	7050 6450 13450 6450
-Wire Wire Line
-	6750 6550 13450 6550
-Wire Wire Line
-	6750 6650 13450 6650
-Text HLabel 13450 6450 2    50   Output ~ 0
-H0
-Text HLabel 13450 6550 2    50   Output ~ 0
-AN0
-Text HLabel 13450 6650 2    50   Output ~ 0
-AN1
-Text HLabel 13450 6750 2    50   Output ~ 0
-AN2
-Text HLabel 13450 6850 2    50   Output ~ 0
-AN3
 Text HLabel 13450 7150 2    50   Output ~ 0
 ~RESET
 Text HLabel 13450 7800 2    50   Output ~ 0
@@ -2317,10 +2257,70 @@ Wire Wire Line
 	5250 4750 5950 4750
 Wire Bus Line
 	5150 4650 2350 4650
+Text HLabel 13450 5350 2    50   Output ~ 0
+~80VID
+Wire Wire Line
+	6850 5350 13450 5350
+Text HLabel 13450 5250 2    50   Output ~ 0
+~WNDW
+Text HLabel 13450 5150 2    50   Output ~ 0
+~RA9
+Text HLabel 13450 5050 2    50   Output ~ 0
+~RA10
+Text HLabel 13450 4950 2    50   Output ~ 0
+GR
+Text HLabel 13450 4850 2    50   Output ~ 0
+SEGA
+Text HLabel 13450 4750 2    50   Output ~ 0
+SEGB
+Text HLabel 13450 4650 2    50   Output ~ 0
+SPKR
+Text HLabel 13450 4550 2    50   Output ~ 0
+VC
+Wire Wire Line
+	8050 5250 13450 5250
+Wire Wire Line
+	7950 5150 13450 5150
+Wire Wire Line
+	7850 5050 13450 5050
+Wire Wire Line
+	7150 4950 13450 4950
+Wire Wire Line
+	7050 4850 13450 4850
+Wire Wire Line
+	6950 4750 13450 4750
+Wire Wire Line
+	6750 4650 13450 4650
+Wire Wire Line
+	6850 4550 13450 4550
 Wire Bus Line
 	7650 5650 7650 6350
 Wire Bus Line
 	5250 1300 5250 4550
 Wire Bus Line
 	3550 2200 3550 3100
+Text HLabel 13450 6850 2    50   Output ~ 0
+AN3
+Text HLabel 13450 6750 2    50   Output ~ 0
+AN2
+Text HLabel 13450 6650 2    50   Output ~ 0
+AN1
+Text HLabel 13450 6550 2    50   Output ~ 0
+AN0
+Text HLabel 13450 6450 2    50   Output ~ 0
+H0
+Wire Wire Line
+	6750 6650 13450 6650
+Wire Wire Line
+	6750 6550 13450 6550
+Wire Wire Line
+	7050 6450 13450 6450
+Text HLabel 13450 6350 2    50   BiDi ~ 0
+RA[0..7]
+Wire Wire Line
+	6750 6850 13450 6850
+Wire Wire Line
+	8650 6750 13450 6750
+Wire Bus Line
+	7650 6350 13450 6350
 $EndSCHEMATC

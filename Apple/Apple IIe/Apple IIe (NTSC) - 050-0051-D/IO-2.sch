@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 5
+Sheet 2 5
 Title "I/O A2E NTSC"
 Date ""
 Rev ""
@@ -1776,7 +1776,7 @@ Wire Wire Line
 Wire Bus Line
 	12150 4000 12250 4000
 Text HLabel 12250 4000 2    50   Output ~ 0
-~DEV[0..7]
+~DEV[1..7]
 Wire Wire Line
 	11550 6700 11750 6700
 Connection ~ 11750 6700
