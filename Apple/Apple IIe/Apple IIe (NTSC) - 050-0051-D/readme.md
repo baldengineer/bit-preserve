@@ -20,7 +20,8 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
         * Value of R14
         * Refdes of R18
         * Net label ~C06X
-* Consider using buses for Y[0..9], X[0..7], ~IOSEL[1..7], DEV[1..7], and D[0..7] between pages 2 and 4
-* Determine method for organizing heirarchical pins on top sheet
 * MDIN|OUT - should this be MDIN|~OUT?
 * Consider custom resistor array symbols - KiCad library symbols only have pin 1 connected on unit A
+* Inconsistencies / errors in schematic:
+    * Page 1: RP1 both 3.3 and 3.3K
+    * Page 2 has KSTRD, page 3 has KSTRB

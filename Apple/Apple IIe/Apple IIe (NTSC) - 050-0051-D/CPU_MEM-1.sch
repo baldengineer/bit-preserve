@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title "CPU/MEM A2E NTSC"
 Date ""
 Rev ""
@@ -1948,6 +1948,10 @@ Wire Notes Line
 	1600 4900 1600 4600
 Text Notes 5300 5550 0    50   ~ 0
 344-0100
+Text Notes 7650 8500 0    50   ~ 0
+EF ROM
+Text Notes 10750 8500 0    50   ~ 0
+CD ROM
 Wire Bus Line
 	2050 5750 2050 7700
 Wire Bus Line
@@ -1958,8 +1962,4 @@ Wire Bus Line
 	4750 9100 11800 9100
 Wire Bus Line
 	2050 7700 15300 7700
-Text Notes 7650 8500 0    50   ~ 0
-EF ROM
-Text Notes 10750 8500 0    50   ~ 0
-CD ROM
 $EndSCHEMATC
