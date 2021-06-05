@@ -1698,8 +1698,6 @@ Text HLabel 1150 9200 0    50   Input ~ 0
 ~INH
 Text HLabel 15300 9200 2    50   Output ~ 0
 R|~W
-Text HLabel 15300 8600 2    50   Output ~ 0
-R|~W80
 Text HLabel 15300 7700 2    50   BiDi ~ 0
 MD[0..7]
 Text HLabel 15300 7500 2    50   Output ~ 0
@@ -1789,10 +1787,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09_Split RP?
+L Device:R_Network09_Split RP1
 U 5 1 617AFDA4
 P 1900 4750
-F 0 "RP?" H 1998 4788 50  0001 L CNN
+F 0 "RP1" H 1998 4788 50  0001 L CNN
 F 1 "3.3K" H 1998 4697 50  0001 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 1820 4750 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 4750 50  0001 C CNN
@@ -1800,11 +1798,11 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09_Split RP?
+L Device:R_Network09_Split RP1
 U 3 1 617B01C4
 P 2100 4750
-F 0 "RP?" H 2199 4788 50  0000 L CNN
-F 1 "3.3K" H 2199 4697 50  0000 L CNN
+F 0 "RP1" H 2198 4788 50  0000 L CNN
+F 1 "3.3K" H 2198 4697 50  0000 L CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 2020 4750 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 4750 50  0001 C CNN
 	3    2100 4750
@@ -1938,6 +1936,8 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14800 8400 50  0001 C CNN
 	9    14800 8400
 	1    0    0    -1  
 $EndComp
+Text HLabel 15300 8600 2    50   Output ~ 0
+~R|W80
 Wire Bus Line
 	2050 5750 2050 7700
 Wire Bus Line

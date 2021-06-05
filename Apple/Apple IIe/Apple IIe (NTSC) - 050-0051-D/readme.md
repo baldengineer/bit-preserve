@@ -14,4 +14,12 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
 * Determine approach for decoupling caps on page 4.
 * What is SA1 on page 2 - part of audio circuit, not fitted on every board photo I could find.
 * Unclear text:
-    * UPSYNC - net label, page 1
+    * Page 1:
+        * Net label UPSYNC
+    * Page 2:
+        * Value of R14
+        * Refdes of R18
+        * Net label ~C06X
+* Consider using buses for Y[0..9], X[0..7], ~IOSEL[1..7], DEV[1..7], and D[0..7] between pages 2 and 4
+* Determine method for organizing heirarchical pins on top sheet
+* MDIN|OUT - should this be MDIN|~OUT?
