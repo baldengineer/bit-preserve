@@ -7,7 +7,6 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
 * Net labels can not use `/` in KiCad. Using `|` instead.
 * Many ICs (74 series logic, some ASICs) do not have power pins. Would it be worth adding hidden symbols?
 * Clarify where power is +5 vs +5C, etc. - especially if using hidden symbols.
-* Determine approach for decoupling caps on page 4.
 * Review passives for notation consistency
 * Unclear text:
     * Page 2:
