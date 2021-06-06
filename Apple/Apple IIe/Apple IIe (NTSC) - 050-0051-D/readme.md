@@ -1,20 +1,23 @@
 # Apple IIe (NTSC) - 050-0051-D
 
-This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, currently in progress by [@rjhelms](https://github.com/rjhelms).
+This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, captured in KiCad by [@rjhelms](https://github.com/rjhelms).
+
+## Notes on conventions used
+
+* KiCad does not accept `/` in net labels. Where this appears in the original schematic it has been rendered as `_`.
+* `*` at the end of a net label indicated "active low" in the original schematic. This has been rendered with the `~` prefix to render with a bar above the name.
+* ICs are rendered as they appear in the original schematic, which often omit power pins.
+
+## Original schematic errata
+
+* RP1 is notated as both `3.3` and `3.3K`. Given its application in circuit, 3.3K is almost certainly the correct value.
+* The output KSTRD on the keyboard encoder UE14 is labelled KSTRB at UE5, the IOU. This appears to be intentional.
 
 ## Known issues / to-dos / questions
 
-* Net labels can not use `/` in KiCad. Using `|` instead.
-* Many ICs (74 series logic, some ASICs) do not have power pins. Would it be worth adding hidden symbols?
-* Clarify where power is +5 vs +5C, etc. - especially if using hidden symbols.
-* Review passives for notation consistency
+* Would it be worth adding hidden power symbols where appropriate for ICs?
 * Unclear text:
     * Page 2:
         * Value of R14
-        * Refdes of R18
         * Net label ~C06X
-* MDIN|OUT - should this be MDIN|~OUT?
 * Consider custom resistor array symbols - KiCad library symbols only have pin 1 connected on unit A
-* Inconsistencies / errors in schematic:
-    * Page 1: RP1 both 3.3 and 3.3K
-    * Page 2 has KSTRD, page 3 has KSTRB

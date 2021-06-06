@@ -344,8 +344,6 @@ Text Label 3700 5250 0    50   ~ 0
 MD7
 Text HLabel 2350 4650 0    50   Input ~ 0
 A[0..15]
-Text HLabel 2350 4850 0    50   Input ~ 0
-R|~W
 Text HLabel 2350 4950 0    50   Input ~ 0
 ~C0XX
 Text HLabel 2350 5050 0    50   Input ~ 0
@@ -377,7 +375,7 @@ Wire Wire Line
 Text Label 5900 4750 2    50   ~ 0
 A6
 Text Label 5900 4850 2    50   ~ 0
-R|~W
+R_~W
 Text Label 5900 4950 2    50   ~ 0
 ~C0XX
 Text Label 5900 5050 2    50   ~ 0
@@ -2331,4 +2329,6 @@ Wire Bus Line
 	5250 1300 5250 4550
 Wire Bus Line
 	3550 2200 3550 3100
+Text HLabel 2350 4850 0    50   Input ~ 0
+R_~W
 $EndSCHEMATC

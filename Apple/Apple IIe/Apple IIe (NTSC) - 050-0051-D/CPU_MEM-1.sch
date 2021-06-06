@@ -848,22 +848,8 @@ Entry Wire Line
 	7650 7700 7750 7600
 Wire Wire Line
 	6300 7300 10200 7300
-Text Label 14250 6050 2    50   ~ 0
-RR|~W
-Text Label 13250 6050 2    50   ~ 0
-RR|~W
-Text Label 12250 6050 2    50   ~ 0
-RR|~W
-Text Label 11250 6050 2    50   ~ 0
-RR|~W
-Text Label 10250 6050 2    50   ~ 0
-RR|~W
-Text Label 9250 6050 2    50   ~ 0
-RR|~W
-Text Label 8250 6050 2    50   ~ 0
-RR|~W
 Text Label 7250 6050 2    50   ~ 0
-RR|~W
+RR_~W
 Text Label 7250 6150 2    50   ~ 0
 ~RAS
 Text Label 8250 6150 2    50   ~ 0
@@ -1697,7 +1683,7 @@ Text HLabel 1150 8600 0    50   Input ~ 0
 Text HLabel 1150 9200 0    50   Input ~ 0
 ~INH
 Text HLabel 15300 9200 2    50   Output ~ 0
-R|~W
+R_~W
 Text HLabel 15300 7700 2    50   BiDi ~ 0
 MD[0..7]
 Text HLabel 15300 7500 2    50   Output ~ 0
@@ -1715,7 +1701,7 @@ Text HLabel 15350 4350 2    50   Output ~ 0
 Text HLabel 15350 3700 2    50   Output ~ 0
 UPSYNC
 Text HLabel 15350 3500 2    50   Output ~ 0
-MDIN|OUT
+MD_IN_~OUT
 Text HLabel 15350 2500 2    50   BiDi ~ 0
 A[0..15]
 Wire Wire Line
@@ -1937,7 +1923,7 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14800 8400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 15300 8600 2    50   Output ~ 0
-~R|W80
+R_~W80
 Wire Notes Line
 	1600 4600 2350 4600
 Wire Notes Line
@@ -1962,4 +1948,18 @@ Wire Bus Line
 	4750 9100 11800 9100
 Wire Bus Line
 	2050 7700 15300 7700
+Text Label 8250 6050 2    50   ~ 0
+RR_~W
+Text Label 9250 6050 2    50   ~ 0
+RR_~W
+Text Label 10250 6050 2    50   ~ 0
+RR_~W
+Text Label 11250 6050 2    50   ~ 0
+RR_~W
+Text Label 12250 6050 2    50   ~ 0
+RR_~W
+Text Label 13250 6050 2    50   ~ 0
+RR_~W
+Text Label 14250 6050 2    50   ~ 0
+RR_~W
 $EndSCHEMATC

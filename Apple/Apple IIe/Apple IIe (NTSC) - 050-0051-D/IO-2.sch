@@ -277,9 +277,9 @@ Wire Wire Line
 Wire Wire Line
 	7300 2250 6750 2250
 Text Label 8150 3450 2    50   ~ 0
-SW0|OAPL
+SW0_OAPL
 Text Label 8150 3550 2    50   ~ 0
-SW1|CAPL
+SW1_CAPL
 Text Label 8150 3650 2    50   ~ 0
 SW2
 Wire Wire Line
@@ -307,9 +307,9 @@ Wire Wire Line
 Text HLabel 3700 3650 0    50   Input ~ 0
 SW2
 Text HLabel 3700 3550 0    50   Input ~ 0
-SW1|CAPL
+SW1_CAPL
 Text HLabel 3700 3450 0    50   Input ~ 0
-SW0|OAPL
+SW0_OAPL
 Wire Wire Line
 	9350 1100 9000 1100
 Wire Wire Line
@@ -791,9 +791,9 @@ Connection ~ 4550 4850
 Text HLabel 3700 6050 0    50   Input ~ 0
 PH0
 Text HLabel 3700 6150 0    50   Input ~ 0
-R|~W
+R_~W
 Text HLabel 3700 6250 0    50   Input ~ 0
-MDIN|OUT
+MD_IN_~OUT
 Text HLabel 3700 6350 0    50   Input ~ 0
 ~ENVID
 Text HLabel 3700 6450 0    50   Input ~ 0
@@ -1396,9 +1396,9 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 11050 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9450 5300 0    50   ~ 0
-R|~W
+R_~W
 Text Label 9450 5500 0    50   ~ 0
-MDIN|OUT
+MD_IN_~OUT
 Text Label 9450 5100 0    50   ~ 0
 PH0
 Text Label 11600 6000 0    50   ~ 0
