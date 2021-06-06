@@ -180,11 +180,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4450 6200 50  0001 C CNN
 	3    4450 6200
 	1    0    0    -1  
 $EndComp
-Text HLabel 2350 1500 0    50   Input ~ 0
+Text HLabel 3000 1500 0    50   Input ~ 0
 ~ALTVID
-Text HLabel 2350 1700 0    50   Input ~ 0
+Text HLabel 3000 1700 0    50   Input ~ 0
 ~ENVID
-Text HLabel 2350 2200 0    50   BiDi ~ 0
+Text HLabel 3000 2200 0    50   BiDi ~ 0
 MD[0..7]
 Text Label 3850 2500 2    50   ~ 0
 MD0
@@ -235,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 3200 3900 3200
 Wire Bus Line
-	3550 2200 2350 2200
+	3550 2200 3000 2200
 Text Label 4950 2500 0    50   ~ 0
 VID0
 Text Label 4950 2600 0    50   ~ 0
@@ -342,13 +342,13 @@ Wire Wire Line
 	3650 3200 3650 5250
 Text Label 3700 5250 0    50   ~ 0
 MD7
-Text HLabel 2350 4650 0    50   Input ~ 0
+Text HLabel 3000 4650 0    50   Input ~ 0
 A[0..15]
-Text HLabel 2350 4950 0    50   Input ~ 0
+Text HLabel 3000 4950 0    50   Input ~ 0
 ~C0XX
-Text HLabel 2350 5050 0    50   Input ~ 0
+Text HLabel 3000 5050 0    50   Input ~ 0
 KSTRB
-Text HLabel 2350 5150 0    50   Input ~ 0
+Text HLabel 3000 5150 0    50   Input ~ 0
 AKD
 Wire Wire Line
 	4500 3650 4500 5350
@@ -520,13 +520,13 @@ Wire Wire Line
 Text Label 7300 7900 2    50   ~ 0
 VID7
 Wire Wire Line
-	2350 4850 5950 4850
+	3000 4850 5950 4850
 Wire Wire Line
-	2350 4950 5950 4950
+	3000 4950 5950 4950
 Wire Wire Line
-	2350 5050 5950 5050
+	3000 5050 5950 5050
 Wire Wire Line
-	2350 5150 5950 5150
+	3000 5150 5950 5150
 Wire Wire Line
 	7150 3750 3950 3750
 Wire Wire Line
@@ -544,10 +544,10 @@ Wire Wire Line
 	4100 6200 4100 6300
 Wire Wire Line
 	4100 6300 4150 6300
-Text HLabel 2350 6200 0    50   Input ~ 0
+Text HLabel 3000 6200 0    50   Input ~ 0
 ~FRCTXT
 Wire Wire Line
-	2350 6200 4100 6200
+	3000 6200 4100 6200
 Connection ~ 4100 6200
 Wire Wire Line
 	4750 6200 5250 6200
@@ -558,8 +558,8 @@ Wire Wire Line
 Wire Wire Line
 	5150 8000 5150 6700
 Wire Wire Line
-	5150 6700 2350 6700
-Text HLabel 2350 6700 0    50   Input ~ 0
+	5150 6700 3000 6700
+Text HLabel 3000 6700 0    50   Input ~ 0
 ~CASEN
 Entry Wire Line
 	7550 5550 7650 5650
@@ -661,7 +661,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1700 7950 1700
 Wire Wire Line
-	7850 1700 2350 1700
+	7850 1700 3000 1700
 Connection ~ 7850 1700
 $Comp
 L power:+5V #PWR?
@@ -677,7 +677,7 @@ $EndComp
 Wire Wire Line
 	8800 1800 8800 1900
 Wire Wire Line
-	2350 1500 9750 1500
+	3000 1500 9750 1500
 Wire Wire Line
 	9750 1500 9750 2400
 Wire Wire Line
@@ -822,75 +822,75 @@ Wire Wire Line
 	6850 5350 6850 8300
 Connection ~ 6850 5350
 Wire Wire Line
-	6750 5450 12600 5450
+	6750 5450 11050 5450
 $Comp
 L Connector:Conn_Coaxial J10
 U 1 1 61082F45
-P 13450 5650
-F 0 "J10" H 13550 5625 50  0000 L CNN
-F 1 "CASSETTE OUT" H 13550 5534 50  0000 L CNN
-F 2 "" H 13450 5650 50  0001 C CNN
-F 3 " ~" H 13450 5650 50  0001 C CNN
-	1    13450 5650
+P 11900 5650
+F 0 "J10" H 12000 5625 50  0000 L CNN
+F 1 "CASSETTE OUT" H 12000 5534 50  0000 L CNN
+F 2 "" H 11900 5650 50  0001 C CNN
+F 3 " ~" H 11900 5650 50  0001 C CNN
+	1    11900 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61083191
-P 13450 5900
-F 0 "#PWR?" H 13450 5650 50  0001 C CNN
-F 1 "GND" H 13455 5727 50  0000 C CNN
-F 2 "" H 13450 5900 50  0001 C CNN
-F 3 "" H 13450 5900 50  0001 C CNN
-	1    13450 5900
+P 11900 5900
+F 0 "#PWR?" H 11900 5650 50  0001 C CNN
+F 1 "GND" H 11905 5727 50  0000 C CNN
+F 2 "" H 11900 5900 50  0001 C CNN
+F 3 "" H 11900 5900 50  0001 C CNN
+	1    11900 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13450 5850 13450 5900
+	11900 5850 11900 5900
 $Comp
 L Device:R_Small R6
 U 1 1 6108D93D
-P 12700 5450
-F 0 "R6" V 12804 5450 50  0000 C CNN
-F 1 "12K" V 12895 5450 50  0000 C CNN
-F 2 "" H 12700 5450 50  0001 C CNN
-F 3 "~" H 12700 5450 50  0001 C CNN
-	1    12700 5450
+P 11150 5450
+F 0 "R6" V 11254 5450 50  0000 C CNN
+F 1 "12K" V 11345 5450 50  0000 C CNN
+F 2 "" H 11150 5450 50  0001 C CNN
+F 3 "~" H 11150 5450 50  0001 C CNN
+	1    11150 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12950 5650 12950 5450
+	11400 5650 11400 5450
 Wire Wire Line
-	12950 5450 12800 5450
+	11400 5450 11250 5450
 Wire Wire Line
-	12950 5650 13250 5650
+	11400 5650 11700 5650
 $Comp
 L Device:R_Small R9
 U 1 1 610A304E
-P 12950 5850
-F 0 "R9" H 12891 5804 50  0000 R CNN
-F 1 "100R" H 12891 5895 50  0000 R CNN
-F 2 "" H 12950 5850 50  0001 C CNN
-F 3 "~" H 12950 5850 50  0001 C CNN
-	1    12950 5850
+P 11400 5850
+F 0 "R9" H 11341 5804 50  0000 R CNN
+F 1 "100R" H 11341 5895 50  0000 R CNN
+F 2 "" H 11400 5850 50  0001 C CNN
+F 3 "~" H 11400 5850 50  0001 C CNN
+	1    11400 5850
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 610A33AF
-P 12950 6000
-F 0 "#PWR?" H 12950 5750 50  0001 C CNN
-F 1 "GND" H 12955 5827 50  0000 C CNN
-F 2 "" H 12950 6000 50  0001 C CNN
-F 3 "" H 12950 6000 50  0001 C CNN
-	1    12950 6000
+P 11400 6000
+F 0 "#PWR?" H 11400 5750 50  0001 C CNN
+F 1 "GND" H 11405 5827 50  0000 C CNN
+F 2 "" H 11400 6000 50  0001 C CNN
+F 3 "" H 11400 6000 50  0001 C CNN
+	1    11400 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 5650 12950 5750
-Connection ~ 12950 5650
+	11400 5650 11400 5750
+Connection ~ 11400 5650
 Wire Wire Line
-	12950 5950 12950 6000
+	11400 5950 11400 6000
 Text HLabel 13450 7150 2    50   Output ~ 0
 ~RESET
 Text HLabel 13450 7800 2    50   Output ~ 0
@@ -1138,10 +1138,6 @@ Wire Wire Line
 Connection ~ 3950 9500
 Wire Wire Line
 	3950 9500 3950 9600
-Text HLabel 2350 9500 0    50   Input ~ 0
-~CLKEN
-Wire Wire Line
-	2350 9500 3950 9500
 $Comp
 L power:GND #PWR?
 U 1 1 615ABDD5
@@ -1161,8 +1157,6 @@ Wire Wire Line
 	3750 9700 3350 9700
 Wire Wire Line
 	3750 10100 8450 10100
-Text HLabel 2350 9700 0    50   Input ~ 0
-~ENTMG
 $Comp
 L Device:R_Small R29
 U 1 1 615E462E
@@ -1188,8 +1182,6 @@ $EndComp
 Wire Wire Line
 	3350 9800 3350 9700
 Connection ~ 3350 9700
-Wire Wire Line
-	3350 9700 2350 9700
 Wire Wire Line
 	3350 10000 3350 10050
 Wire Wire Line
@@ -2254,7 +2246,7 @@ Entry Wire Line
 Wire Wire Line
 	5250 4750 5950 4750
 Wire Bus Line
-	5150 4650 2350 4650
+	5150 4650 3000 4650
 Text HLabel 13450 5350 2    50   Output ~ 0
 ~80VID
 Wire Wire Line
@@ -2323,12 +2315,20 @@ Text Notes 7750 8800 0    50   ~ 0
 16R8
 Text Notes 7650 8900 0    50   ~ 0
 342-0170
+Text HLabel 3000 4850 0    50   Input ~ 0
+R_~W
+Wire Wire Line
+	3350 9700 3000 9700
+Text HLabel 3000 9700 0    50   Input ~ 0
+~ENTMG
+Wire Wire Line
+	3000 9500 3950 9500
+Text HLabel 3000 9500 0    50   Input ~ 0
+~CLKEN
 Wire Bus Line
 	7650 5650 7650 6350
 Wire Bus Line
 	5250 1300 5250 4550
 Wire Bus Line
 	3550 2200 3550 3100
-Text HLabel 2350 4850 0    50   Input ~ 0
-R_~W
 $EndSCHEMATC
