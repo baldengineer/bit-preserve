@@ -5,7 +5,7 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
 ## Notes on conventions used
 
 * KiCad does not accept `/` in net labels. Where this appears in the original schematic it has been rendered as `_`.
-* `*` at the end of a net label indicated "active low" in the original schematic. This has been rendered with the `~` prefix to render with a bar above the name.
+* `*` at the end of a net label indicated "active low" in the original schematic. This has been replaced with the `~` prefix to render with a bar above the name.
 * ICs are rendered as they appear in the original schematic, which often omit power pins.
 
 ## Original schematic errata
@@ -17,4 +17,4 @@ This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, c
 ## Known issues / to-dos / questions
 
 * Would it be worth adding hidden power symbols where appropriate for ICs?
-* Consider custom resistor array symbols - KiCad library symbols only have pin 1 connected on unit A
+* Consider custom resistor array symbols - KiCad library symbols only have pin 1 connected on unit A.
