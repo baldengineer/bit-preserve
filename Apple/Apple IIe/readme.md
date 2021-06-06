@@ -1,6 +1,9 @@
 # Apple IIe notes
 
-This is a directory for a KiCad project for the Apple IIe, currently in progress by [@rjhelms](https://github.com/rjhelms).
+This is a directory for a KiCad project for the Apple IIe.
+
+Schematics currently available:
+* Apple IIe (NTSC) schematic 050-0051-D - captured by [@rjhelms](https://github.com/rjhelms)
 
 ## Schematic sources
 

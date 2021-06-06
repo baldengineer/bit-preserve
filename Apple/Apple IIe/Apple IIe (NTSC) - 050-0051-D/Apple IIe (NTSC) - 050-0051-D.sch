@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 5
-Title ""
+Title "Apple IIe Computer (NTSC) 050-0051-D"
 Date ""
 Rev ""
 Comp ""
