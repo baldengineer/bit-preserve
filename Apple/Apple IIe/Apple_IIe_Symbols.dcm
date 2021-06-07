@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP -12C
+D Power symbol creates a global label with name "-12C"
+K power-flag
+$ENDCMP
+#
+$CMP -5C
+D Power symbol creates a global label with name "-5C"
+K power-flag
+$ENDCMP
+#
 $CMP 2716
 D 16Kbit UV EPROM
 $ENDCMP
@@ -20,12 +30,6 @@ $CMP 6664
 D 64Kbit dynamic RAM
 $ENDCMP
 #
-$CMP 74HC245
-D Octal BUS Transceivers, 3-State outputs
-K HCMOS BUS 3State
-F http://www.ti.com/lit/gpn/sn74HC245
-$ENDCMP
-#
 $CMP 74LS138
 D Decoder 3 to 8 active low outputs
 K TTL DECOD DECOD8
@@ -36,6 +40,12 @@ $CMP 74LS154
 D Decoder 4 to 16
 K TTL DECOD16 DECOD
 F http://www.ti.com/lit/gpn/sn74LS154
+$ENDCMP
+#
+$CMP 74LS166
+D Shift Register 8-bit, parallel load
+K TTL SR SR8
+F http://www.ti.com/lit/gpn/sn74LS166
 $ENDCMP
 #
 $CMP 74LS244
@@ -56,12 +66,26 @@ K TTL MUX MUX8 3State
 F http://www.ti.com/lit/gpn/sn74LS251
 $ENDCMP
 #
+$CMP 74LS374
+D 8-bit Register, 3-state outputs
+K TTL DFF DFF8 REG 3State
+F http://www.ti.com/lit/gpn/sn74LS374
+$ENDCMP
+#
+$CMP IOU
+D 344-0020
+$ENDCMP
+#
 $CMP MMU
 D 344-0100
 $ENDCMP
 #
 $CMP NE558
 D Quad timer
+$ENDCMP
+#
+$CMP PAL_HAL
+D 342-0170
 $ENDCMP
 #
 #End Doc Library

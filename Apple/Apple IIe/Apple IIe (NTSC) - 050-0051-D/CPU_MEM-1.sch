@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 5
+Sheet 3 5
 Title "CPU/MEM A2E NTSC"
 Date ""
 Rev ""
@@ -48,13 +48,13 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 4300 7100 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74LS125 UE1
-U 4 1 60BF051C
+U 3 1 60BF051C
 P 14300 8600
 F 0 "UE1" H 14300 8825 50  0000 C CNN
 F 1 "LS125" H 14300 8916 50  0000 C CNN
 F 2 "" H 14300 8600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 14300 8600 50  0001 C CNN
-	4    14300 8600
+	3    14300 8600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -848,22 +848,8 @@ Entry Wire Line
 	7650 7700 7750 7600
 Wire Wire Line
 	6300 7300 10200 7300
-Text Label 14250 6050 2    50   ~ 0
-RR|~W
-Text Label 13250 6050 2    50   ~ 0
-RR|~W
-Text Label 12250 6050 2    50   ~ 0
-RR|~W
-Text Label 11250 6050 2    50   ~ 0
-RR|~W
-Text Label 10250 6050 2    50   ~ 0
-RR|~W
-Text Label 9250 6050 2    50   ~ 0
-RR|~W
-Text Label 8250 6050 2    50   ~ 0
-RR|~W
 Text Label 7250 6050 2    50   ~ 0
-RR|~W
+RR_~W
 Text Label 7250 6150 2    50   ~ 0
 ~RAS
 Text Label 8250 6150 2    50   ~ 0
@@ -1627,7 +1613,7 @@ P 1950 4350
 F 0 "UB8" H 2250 4250 50  0000 C CNN
 F 1 "S02" H 2200 4500 50  0000 C CNN
 F 2 "" H 1950 4350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 1950 4350 50  0001 C CNN
+F 3 "" H 1950 4350 50  0001 C CNN
 	2    1950 4350
 	1    0    0    -1  
 $EndComp
@@ -1638,7 +1624,7 @@ P 1950 3100
 F 0 "UB8" H 2200 3000 50  0000 C CNN
 F 1 "S02" H 2200 3250 50  0000 C CNN
 F 2 "" H 1950 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn7402" H 1950 3100 50  0001 C CNN
+F 3 "" H 1950 3100 50  0001 C CNN
 	1    1950 3100
 	1    0    0    -1  
 $EndComp
@@ -1697,9 +1683,7 @@ Text HLabel 1150 8600 0    50   Input ~ 0
 Text HLabel 1150 9200 0    50   Input ~ 0
 ~INH
 Text HLabel 15300 9200 2    50   Output ~ 0
-R|~W
-Text HLabel 15300 8600 2    50   Output ~ 0
-R|~W80
+R_~W
 Text HLabel 15300 7700 2    50   BiDi ~ 0
 MD[0..7]
 Text HLabel 15300 7500 2    50   Output ~ 0
@@ -1717,26 +1701,26 @@ Text HLabel 15350 4350 2    50   Output ~ 0
 Text HLabel 15350 3700 2    50   Output ~ 0
 UPSYNC
 Text HLabel 15350 3500 2    50   Output ~ 0
-MDIN|OUT
+MD_IN_~OUT
 Text HLabel 15350 2500 2    50   BiDi ~ 0
 A[0..15]
 Wire Wire Line
 	1700 4900 1700 4950
 Wire Wire Line
-	1900 4900 1900 5050
+	1850 4900 1850 5050
 Wire Wire Line
-	2100 4900 2100 5150
+	2000 4900 2000 5150
 Wire Wire Line
 	1700 4600 1700 4550
 Wire Wire Line
-	1700 4550 1900 4550
+	1700 4550 1850 4550
 Wire Wire Line
-	2100 4550 2100 4600
+	2000 4550 2000 4600
 Wire Wire Line
-	1900 4600 1900 4550
-Connection ~ 1900 4550
+	1850 4600 1850 4550
+Connection ~ 1850 4550
 Wire Wire Line
-	1900 4550 2100 4550
+	1850 4550 2000 4550
 $Comp
 L power:+5V #PWR0113
 U 1 1 616E53C6
@@ -1752,16 +1736,16 @@ Connection ~ 1700 4550
 Connection ~ 1700 4950
 Wire Wire Line
 	1700 4950 1150 4950
-Connection ~ 1900 5050
+Connection ~ 1850 5050
 Wire Wire Line
-	1900 5050 1150 5050
-Connection ~ 2100 5150
+	1850 5050 1150 5050
+Connection ~ 2000 5150
 Wire Wire Line
-	2100 5150 1150 5150
+	2000 5150 1150 5150
 Wire Wire Line
-	2100 5150 2350 5150
+	2000 5150 2350 5150
 Wire Wire Line
-	1900 5050 2350 5050
+	1850 5050 2350 5050
 Wire Wire Line
 	1700 4950 2350 4950
 Text HLabel 1150 4450 0    50   Input ~ 0
@@ -1789,25 +1773,25 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09_Split RP?
+L Device:R_Network09_Split RP1
 U 5 1 617AFDA4
-P 1900 4750
-F 0 "RP?" H 1998 4788 50  0001 L CNN
-F 1 "3.3K" H 1998 4697 50  0001 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 1820 4750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1900 4750 50  0001 C CNN
-	5    1900 4750
+P 1850 4750
+F 0 "RP1" H 1948 4788 50  0001 L CNN
+F 1 "3.3K" H 1948 4697 50  0001 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 1770 4750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1850 4750 50  0001 C CNN
+	5    1850 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network09_Split RP?
+L Device:R_Network09_Split RP1
 U 3 1 617B01C4
-P 2100 4750
-F 0 "RP?" H 2199 4788 50  0000 L CNN
-F 1 "3.3K" H 2199 4697 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP10" V 2020 4750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2100 4750 50  0001 C CNN
-	3    2100 4750
+P 2000 4750
+F 0 "RP1" H 2098 4788 50  0000 L CNN
+F 1 "3.3K" H 2098 4697 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 1920 4750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2000 4750 50  0001 C CNN
+	3    2000 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1827,10 +1811,10 @@ Connection ~ 4000 2800
 Wire Wire Line
 	4000 2800 5300 2800
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR029
 U 1 1 617E4CAA
 P 4000 2400
-F 0 "#PWR?" H 4000 2250 50  0001 C CNN
+F 0 "#PWR029" H 4000 2250 50  0001 C CNN
 F 1 "+5V" H 4015 2573 50  0000 C CNN
 F 2 "" H 4000 2400 50  0001 C CNN
 F 3 "" H 4000 2400 50  0001 C CNN
@@ -1849,10 +1833,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4650 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR030
 U 1 1 61818ECD
 P 4650 6700
-F 0 "#PWR?" H 4650 6550 50  0001 C CNN
+F 0 "#PWR030" H 4650 6550 50  0001 C CNN
 F 1 "+5V" H 4665 6873 50  0000 C CNN
 F 2 "" H 4650 6700 50  0001 C CNN
 F 3 "" H 4650 6700 50  0001 C CNN
@@ -1881,10 +1865,10 @@ Connection ~ 2250 9200
 Wire Wire Line
 	2250 9200 1150 9200
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR028
 U 1 1 618808A5
 P 2250 8850
-F 0 "#PWR?" H 2250 8700 50  0001 C CNN
+F 0 "#PWR028" H 2250 8700 50  0001 C CNN
 F 1 "+5V" H 2192 8887 50  0000 R CNN
 F 2 "" H 2250 8850 50  0001 C CNN
 F 3 "" H 2250 8850 50  0001 C CNN
@@ -1917,10 +1901,10 @@ Connection ~ 8750 6700
 Wire Wire Line
 	14800 8550 14800 8600
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR031
 U 1 1 6191B830
 P 14800 8250
-F 0 "#PWR?" H 14800 8100 50  0001 C CNN
+F 0 "#PWR031" H 14800 8100 50  0001 C CNN
 F 1 "+5V" H 14815 8423 50  0000 C CNN
 F 2 "" H 14800 8250 50  0001 C CNN
 F 3 "" H 14800 8250 50  0001 C CNN
@@ -1938,6 +1922,36 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14800 8400 50  0001 C CNN
 	9    14800 8400
 	1    0    0    -1  
 $EndComp
+Text HLabel 15300 8600 2    50   Output ~ 0
+R_~W80
+Wire Notes Line
+	1600 4600 2350 4600
+Wire Notes Line
+	2350 4600 2350 4900
+Wire Notes Line
+	2350 4900 1600 4900
+Wire Notes Line
+	1600 4900 1600 4600
+Text Notes 5300 5550 0    50   ~ 0
+344-0100
+Text Notes 7650 8500 0    50   ~ 0
+EF ROM
+Text Notes 10750 8500 0    50   ~ 0
+CD ROM
+Text Label 8250 6050 2    50   ~ 0
+RR_~W
+Text Label 9250 6050 2    50   ~ 0
+RR_~W
+Text Label 10250 6050 2    50   ~ 0
+RR_~W
+Text Label 11250 6050 2    50   ~ 0
+RR_~W
+Text Label 12250 6050 2    50   ~ 0
+RR_~W
+Text Label 13250 6050 2    50   ~ 0
+RR_~W
+Text Label 14250 6050 2    50   ~ 0
+RR_~W
 Wire Bus Line
 	2050 5750 2050 7700
 Wire Bus Line

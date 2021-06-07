@@ -1,17 +1,20 @@
 # Apple IIe (NTSC) - 050-0051-D
 
-This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, currently in progress by [@rjhelms](https://github.com/rjhelms).
+This is a directory for a KiCad project for the Apple IIe (NTSC) - 050-0051-D, captured in KiCad by [@rjhelms](https://github.com/rjhelms).
+
+## Notes on conventions used
+
+* KiCad does not accept `/` in net labels. Where this appears in the original schematic it has been rendered as `_`.
+* `*` at the end of a net label indicated "active low" in the original schematic. This has been replaced with the `~` prefix to render with a bar above the name.
+* ICs are rendered as they appear in the original schematic, which often omit power pins.
+
+## Original schematic errata
+
+* RP1 is notated as both `3.3` and `3.3K`. Given its application in circuit, 3.3K is almost certainly the correct value.
+* The output KSTRD on the keyboard encoder UE14 is labelled KSTRB at UE5, the IOU. This appears to be intentional.
+* Crystal Y1 has no value notated. Presumably it is 14.31818MHz.
 
 ## Known issues / to-dos / questions
 
-* Net labels can not use `/` in KiCad. Using `|` instead.
-* Many ICs (74 series logic, some ASICs) do not have power pins. Would it be worth adding hidden symbols?
-* Clarify where power is +5 vs +5C, etc. - especially if using hidden symbols.
-* Resistor packs are all over - need to determine appropriate symbols.
-    * RP1 - 9 or 10 pin?, on pages 1-3. photos suggest it's 10-pin
-    * RP2 - 10 pin, on pages 1 & 2
-    * PR3 - 10 pin, all on page 3
-* Determine approach for decoupling caps on page 4.
-* What is SA1 on page 2 - part of audio circuit, not fitted on every board photo I could find.
-* Unclear text:
-    * UPSYNC - net label, page 1
+* Would it be worth adding hidden power symbols where appropriate for ICs?
+* Consider custom resistor array symbols - KiCad library symbols only have pin 1 connected on unit A.
