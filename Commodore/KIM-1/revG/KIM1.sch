@@ -1,0 +1,353 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_Expansion_MOSTechnology:6530 U3
+U 1 1 60C043D6
+P 5350 5850
+F 0 "U3" H 5450 7200 50  0000 C CNN
+F 1 "6530-003" H 5600 7100 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 5400 7350 50  0001 C CNN
+F 3 "http://archive.6502.org/datasheets/mos_6530_rriot.pdf" H 5400 7350 50  0001 C CNN
+	1    5350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion_MOSTechnology:6530 U2
+U 1 1 60C0A4B5
+P 5350 2100
+F 0 "U2" H 5450 3450 50  0000 C CNN
+F 1 "6530-002" H 5600 3350 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_LongPads" H 5400 3600 50  0001 C CNN
+F 3 "http://archive.6502.org/datasheets/mos_6530_rriot.pdf" H 5400 3600 50  0001 C CNN
+	1    5350 2100
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	4950 1000 4850 1100
+Entry Bus Bus
+	4950 1100 4850 1200
+Entry Bus Bus
+	4850 1300 4950 1200
+Entry Bus Bus
+	4850 1400 4950 1300
+Entry Bus Bus
+	4850 1500 4950 1400
+Entry Bus Bus
+	4850 1600 4950 1500
+Entry Bus Bus
+	4850 1700 4950 1600
+Entry Bus Bus
+	4850 1800 4950 1700
+Entry Bus Bus
+	4850 2000 4950 1900
+Entry Bus Bus
+	4850 2100 4950 2000
+Entry Bus Bus
+	4850 2200 4950 2100
+Entry Bus Bus
+	4850 2300 4950 2200
+Entry Bus Bus
+	4850 2500 4950 2400
+Entry Bus Bus
+	4850 2600 4950 2500
+Entry Bus Bus
+	4850 2700 4950 2600
+Entry Bus Bus
+	4850 2800 4950 2700
+Entry Bus Bus
+	4850 2900 4950 2800
+Entry Bus Bus
+	4850 3000 4950 2900
+Entry Bus Bus
+	4850 3100 4950 3000
+Entry Bus Bus
+	4850 3200 4950 3100
+Entry Bus Bus
+	4850 3300 4950 3200
+Entry Bus Bus
+	4850 3400 4950 3300
+Entry Bus Bus
+	4950 4750 4850 4850
+Entry Bus Bus
+	4950 4850 4850 4950
+Entry Bus Bus
+	4850 5050 4950 4950
+Entry Bus Bus
+	4850 5150 4950 5050
+Entry Bus Bus
+	4850 5250 4950 5150
+Entry Bus Bus
+	4850 5350 4950 5250
+Entry Bus Bus
+	4850 5450 4950 5350
+Entry Bus Bus
+	4850 5550 4950 5450
+Entry Bus Bus
+	4850 5750 4950 5650
+Entry Bus Bus
+	4850 5850 4950 5750
+Entry Bus Bus
+	4850 5950 4950 5850
+Entry Bus Bus
+	4850 6050 4950 5950
+Entry Bus Bus
+	4850 6250 4950 6150
+Entry Bus Bus
+	4850 6350 4950 6250
+Entry Bus Bus
+	4850 6450 4950 6350
+Entry Bus Bus
+	4850 6550 4950 6450
+Entry Bus Bus
+	4850 6650 4950 6550
+Entry Bus Bus
+	4850 6750 4950 6650
+Entry Bus Bus
+	4850 6850 4950 6750
+Entry Bus Bus
+	4850 6950 4950 6850
+Entry Bus Bus
+	4850 7050 4950 6950
+Entry Bus Bus
+	4850 7150 4950 7050
+Entry Bus Bus
+	2800 2900 2900 3000
+Entry Bus Bus
+	2800 3000 2900 3100
+Entry Bus Bus
+	2800 3100 2900 3200
+Entry Bus Bus
+	2800 3200 2900 3300
+Entry Bus Bus
+	2800 3300 2900 3400
+Entry Bus Bus
+	2800 3400 2900 3500
+Entry Bus Bus
+	2800 3500 2900 3600
+Entry Bus Bus
+	2800 3600 2900 3700
+Entry Bus Bus
+	2800 3700 2900 3800
+Entry Bus Bus
+	2800 3800 2900 3900
+Entry Bus Bus
+	2800 3900 2900 4000
+Entry Bus Bus
+	2800 4000 2900 4100
+Entry Bus Bus
+	2800 4100 2900 4200
+Entry Bus Bus
+	2800 4200 2900 4300
+Entry Bus Bus
+	2800 4300 2900 4400
+Entry Bus Bus
+	2800 4400 2900 4500
+Entry Bus Bus
+	2800 4550 2900 4650
+Entry Bus Bus
+	2800 4650 2900 4750
+Entry Bus Bus
+	2800 4750 2900 4850
+Entry Bus Bus
+	2800 4850 2900 4950
+Entry Bus Bus
+	2800 4950 2900 5050
+Entry Bus Bus
+	2800 5050 2900 5150
+Entry Bus Bus
+	2800 5150 2900 5250
+Entry Bus Bus
+	2800 5250 2900 5350
+Entry Bus Bus
+	2800 5400 2900 5500
+Entry Bus Bus
+	2800 5550 2900 5650
+Entry Bus Bus
+	2800 5650 2900 5750
+Entry Bus Bus
+	2800 5850 2900 5950
+Entry Bus Bus
+	2000 5550 1900 5650
+Entry Bus Bus
+	2000 3800 1900 3900
+Entry Bus Bus
+	2000 3500 1900 3600
+Entry Bus Bus
+	2000 3400 1900 3500
+Entry Bus Bus
+	2000 3300 1900 3400
+$Comp
+L CPU_MOSTechnology:6502 U1
+U 1 1 60BEEE59
+P 2350 4300
+F 0 "U1" H 2500 5950 50  0000 C CNN
+F 1 "6502" H 2550 5850 50  0000 C CNN
+F 2 "" H 1450 4000 50  0001 C CNN
+F 3 "https://ia601508.us.archive.org/12/items/mos_6500_mpu_preliminary_may_1976/mos_6500_mpu_preliminary_may_1976.pdf" H 1450 4000 50  0001 C CNN
+	1    2350 4300
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	2000 2900 1900 3000
+Wire Bus Line
+	2900 6500 1900 6500
+Wire Bus Line
+	2900 5350 4050 5350
+Wire Bus Line
+	4050 5350 4050 1800
+Wire Bus Line
+	4050 1800 4850 1800
+Wire Bus Line
+	2900 4500 4550 4500
+Wire Bus Line
+	4550 4500 4550 3400
+Wire Bus Line
+	4550 3400 4850 3400
+Connection ~ 4550 4500
+Wire Bus Line
+	4850 7250 4550 7250
+Wire Bus Line
+	4550 4500 4550 7250
+Wire Bus Line
+	4850 5650 4050 5650
+Wire Bus Line
+	4050 5650 4050 5350
+Connection ~ 4050 5350
+Wire Bus Line
+	4850 2350 3600 2350
+Wire Bus Line
+	3600 2350 3600 6150
+Wire Bus Line
+	3600 6500 2900 6500
+Connection ~ 2900 6500
+Wire Bus Line
+	4850 6150 3600 6150
+Connection ~ 3600 6150
+Wire Bus Line
+	3600 6150 3600 6500
+$Comp
+L power:VCC #PWR?
+U 1 1 60C34E8A
+P 2400 2650
+F 0 "#PWR?" H 2400 2500 50  0001 C CNN
+F 1 "VCC" H 2415 2823 50  0000 C CNN
+F 2 "" H 2400 2650 50  0001 C CNN
+F 3 "" H 2400 2650 50  0001 C CNN
+	1    2400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2650 2400 2700
+$Comp
+L power:VCC #PWR?
+U 1 1 60C36E6A
+P 5350 750
+F 0 "#PWR?" H 5350 600 50  0001 C CNN
+F 1 "VCC" H 5365 923 50  0000 C CNN
+F 2 "" H 5350 750 50  0001 C CNN
+F 3 "" H 5350 750 50  0001 C CNN
+	1    5350 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 750  5350 800 
+$Comp
+L power:VCC #PWR?
+U 1 1 60C399CC
+P 5350 4500
+F 0 "#PWR?" H 5350 4350 50  0001 C CNN
+F 1 "VCC" H 5365 4673 50  0000 C CNN
+F 2 "" H 5350 4500 50  0001 C CNN
+F 3 "" H 5350 4500 50  0001 C CNN
+	1    5350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4500 5350 4550
+$Comp
+L power:GND #PWR?
+U 1 1 60C3D99D
+P 5350 3550
+F 0 "#PWR?" H 5350 3300 50  0001 C CNN
+F 1 "GND" H 5355 3377 50  0000 C CNN
+F 2 "" H 5350 3550 50  0001 C CNN
+F 3 "" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3500 5350 3550
+$Comp
+L power:GND #PWR?
+U 1 1 60C3FD12
+P 5350 7300
+F 0 "#PWR?" H 5350 7050 50  0001 C CNN
+F 1 "GND" H 5355 7127 50  0000 C CNN
+F 2 "" H 5350 7300 50  0001 C CNN
+F 3 "" H 5350 7300 50  0001 C CNN
+	1    5350 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 7250 5350 7300
+$Comp
+L power:GND #PWR?
+U 1 1 60C41EE1
+P 2400 6150
+F 0 "#PWR?" H 2400 5900 50  0001 C CNN
+F 1 "GND" H 2405 5977 50  0000 C CNN
+F 2 "" H 2400 6150 50  0001 C CNN
+F 3 "" H 2400 6150 50  0001 C CNN
+	1    2400 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6050 2400 6100
+Wire Wire Line
+	2300 6050 2300 6100
+Wire Wire Line
+	2300 6100 2400 6100
+Wire Bus Line
+	4850 5750 4850 6150
+Wire Bus Line
+	4850 2000 4850 2350
+Wire Bus Line
+	2900 5500 2900 6500
+Wire Bus Line
+	4850 1100 4850 1800
+Wire Bus Line
+	2900 4650 2900 5350
+Wire Bus Line
+	1900 3000 1900 6500
+Wire Bus Line
+	4850 4850 4850 5650
+Wire Bus Line
+	4850 2500 4850 3400
+Wire Bus Line
+	4850 6250 4850 7250
+Wire Bus Line
+	2900 3000 2900 4500
+Connection ~ 2400 6100
+Wire Wire Line
+	2400 6100 2400 6150
+$Sheet
+S 1300 1100 1600 900 
+U 60C498DE
+F0 "Control & Timing" 50
+F1 "CtrlTiming.sch" 50
+F2 "R\\~W" I R 2900 1250 50 
+$EndSheet
+$EndSCHEMATC

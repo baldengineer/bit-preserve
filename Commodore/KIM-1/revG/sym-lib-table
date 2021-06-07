@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CPU_MOSTechnology)(type Legacy)(uri /Users/jdlowe/prj/bit-preserve/symbol-libs/CPU_MOSTechnology.lib)(options "")(descr ""))
+  (lib (name Interface_Expansion_MOSTechnology)(type Legacy)(uri /Users/jdlowe/prj/bit-preserve/symbol-libs/Interface_Expansion_MOSTechnology.lib)(options "")(descr ""))
+)
