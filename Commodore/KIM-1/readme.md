@@ -1,3 +1,10 @@
-Very early in development, although I did find some original schematics of the KIM-1 that I can work off of. Once I receive some high-res images of the original board, I will begin creating a proper schematic and board layout. 
+# KIM-1 Schematic
 
-Robert Long - Working on it. 
+The schematic for the KIM-1 was taken from the KIM-1 users manual, the MOS technology hardware manual for the 65xx series and the KIM-1 wall poster, all were origional materials that came with the reference KIM-1 system.
+
+* Schematic capture (re)
+* TODO: Verify schematic agains reference system
+* TODO: PCB layout?
+* TODO: Capture links to documantation (embedded manual PDFs in repo?)
+
+
