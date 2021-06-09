@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -86,13 +86,13 @@ Wire Wire Line
 Wire Wire Line
 	2500 2500 2600 2500
 Text HLabel 1450 1150 0    50   Input ~ 0
-R\~W
+RW
 Wire Wire Line
 	2950 1150 1450 1150
-Text HLabel 5300 1450 2    50   Input ~ 0
-~RW
-Text HLabel 5300 1150 2    50   Input ~ 0
-RW
+Text HLabel 5300 1450 2    50   Output ~ 0
+~E-RW
+Text HLabel 5300 1150 2    50   Output ~ 0
+E-RW
 Wire Wire Line
 	5300 1450 3750 1450
 Connection ~ 3750 1450
@@ -100,14 +100,14 @@ Wire Wire Line
 	3750 1450 3750 1150
 Wire Wire Line
 	5300 1150 4500 1150
-Text HLabel 5300 1950 2    50   Input ~ 0
-RAM-RW
+Text HLabel 5300 1950 2    50   Output ~ 0
+E-RAM-RW
 Wire Wire Line
 	5300 1950 4550 1950
-Text HLabel 5300 2500 2    50   Input ~ 0
-PH2
-Text HLabel 5300 2750 2    50   Input ~ 0
-~PH2
+Text HLabel 5300 2500 2    50   Output ~ 0
+E-PH2
+Text HLabel 5300 2750 2    50   Output ~ 0
+~E-PH2
 Wire Wire Line
 	5300 2500 3750 2500
 Connection ~ 3750 2500
@@ -161,7 +161,7 @@ F 3 "~" H 2250 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 1450 2500 0    50   Input ~ 0
-phase2
+PH2
 Wire Wire Line
 	1450 2500 1750 2500
 Wire Wire Line
@@ -198,10 +198,10 @@ Connection ~ 2050 1950
 Wire Wire Line
 	2050 1950 1750 1950
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0149
 U 1 1 60C6D13A
 P 1750 1450
-F 0 "#PWR?" H 1750 1300 50  0001 C CNN
+F 0 "#PWR0149" H 1750 1300 50  0001 C CNN
 F 1 "VCC" H 1765 1623 50  0000 C CNN
 F 2 "" H 1750 1450 50  0001 C CNN
 F 3 "" H 1750 1450 50  0001 C CNN
@@ -226,23 +226,17 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS145" H 2550 5950 50  0001 C CNN
 	1    2550 5950
 	1    0    0    1   
 $EndComp
-Text HLabel 1450 6150 0    50   Input ~ 0
-A12
-Text HLabel 1450 6250 0    50   Input ~ 0
-A11
-Text HLabel 1450 6350 0    50   Input ~ 0
-A10
 Wire Wire Line
-	1450 6150 2050 6150
+	1800 6150 2050 6150
 Wire Wire Line
-	1450 6250 2050 6250
+	1800 6250 2050 6250
 Wire Wire Line
-	1450 6350 2050 6350
+	1800 6350 2050 6350
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0150
 U 1 1 60C78E1B
 P 2550 5100
-F 0 "#PWR?" H 2550 4950 50  0001 C CNN
+F 0 "#PWR0150" H 2550 4950 50  0001 C CNN
 F 1 "VCC" H 2565 5273 50  0000 C CNN
 F 2 "" H 2550 5100 50  0001 C CNN
 F 3 "" H 2550 5100 50  0001 C CNN
@@ -250,10 +244,10 @@ F 3 "" H 2550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0151
 U 1 1 60C79926
 P 2550 6700
-F 0 "#PWR?" H 2550 6450 50  0001 C CNN
+F 0 "#PWR0151" H 2550 6450 50  0001 C CNN
 F 1 "GND" H 2555 6527 50  0000 C CNN
 F 2 "" H 2550 6700 50  0001 C CNN
 F 3 "" H 2550 6700 50  0001 C CNN
@@ -264,36 +258,20 @@ Wire Wire Line
 	2550 6650 2550 6700
 Wire Wire Line
 	2550 5100 2550 5150
-Text HLabel 5300 6350 2    50   Input ~ 0
-K0
-Text HLabel 5300 6250 2    50   Input ~ 0
-K1
-Text HLabel 5300 6150 2    50   Input ~ 0
-K2
-Text HLabel 5300 6050 2    50   Input ~ 0
-K3
-Text HLabel 5300 5950 2    50   Input ~ 0
-K4
-Text HLabel 5300 5850 2    50   Input ~ 0
-K5
-Text HLabel 5300 5750 2    50   Input ~ 0
-K6
 Wire Wire Line
 	3050 6350 4300 6350
 Wire Wire Line
-	3050 6250 5300 6250
+	3050 6250 5000 6250
 Wire Wire Line
-	3050 6150 5300 6150
+	3050 6150 5000 6150
 Wire Wire Line
-	3050 6050 5300 6050
+	3050 6050 5000 6050
 Wire Wire Line
-	3050 5950 5300 5950
+	3050 5950 5000 5950
 Wire Wire Line
 	3050 5850 4000 5850
 Wire Wire Line
 	3050 5750 3700 5750
-Text HLabel 5300 5650 2    50   Input ~ 0
-K7
 Wire Wire Line
 	3050 5650 3150 5650
 NoConn ~ 3050 5550
@@ -366,31 +344,29 @@ Wire Wire Line
 	3350 5500 3350 5650
 Connection ~ 3350 5650
 Wire Wire Line
-	3350 5650 5300 5650
+	3350 5650 5000 5650
 Wire Wire Line
 	3700 5500 3700 5750
 Connection ~ 3700 5750
 Wire Wire Line
-	3700 5750 5300 5750
+	3700 5750 5000 5750
 Wire Wire Line
 	4000 5500 4000 5850
 Connection ~ 4000 5850
 Wire Wire Line
-	4000 5850 5300 5850
+	4000 5850 5000 5850
 Wire Wire Line
 	4300 5500 4300 6350
 Connection ~ 4300 6350
 Wire Wire Line
-	4300 6350 5300 6350
-Text HLabel 1450 6050 0    50   Input ~ 0
-DECODE_ENABLE
+	4300 6350 5000 6350
 Wire Wire Line
 	2050 6050 1450 6050
 $Comp
-L 74xx_more:7438 U?
+L 74xx_more:7438 U302
 U 2 1 60C9D41C
 P 3500 4700
-F 0 "U?" H 3500 4383 50  0000 C CNN
+F 0 "U302" H 3500 4383 50  0000 C CNN
 F 1 "7438" H 3500 4474 50  0000 C CNN
 F 2 "" H 3500 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7438" H 3500 4700 50  0001 C CNN
@@ -409,10 +385,10 @@ Connection ~ 3150 5650
 Wire Wire Line
 	3150 5650 3350 5650
 $Comp
-L Device:R R?
+L Device:R R701
 U 1 1 60CB745D
 P 4000 4450
-F 0 "R?" H 3930 4404 50  0000 R CNN
+F 0 "R701" H 3930 4404 50  0000 R CNN
 F 1 "R" H 3930 4495 50  0000 R CNN
 F 2 "" V 3930 4450 50  0001 C CNN
 F 3 "~" H 4000 4450 50  0001 C CNN
@@ -420,10 +396,10 @@ F 3 "~" H 4000 4450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0152
 U 1 1 60CB77FE
 P 4000 4200
-F 0 "#PWR?" H 4000 4050 50  0001 C CNN
+F 0 "#PWR0152" H 4000 4050 50  0001 C CNN
 F 1 "VCC" H 4015 4373 50  0000 C CNN
 F 2 "" H 4000 4200 50  0001 C CNN
 F 3 "" H 4000 4200 50  0001 C CNN
@@ -434,31 +410,14 @@ Wire Wire Line
 	3800 4700 4000 4700
 Wire Wire Line
 	4000 4700 4000 4600
-$Comp
-L Switch:SW_SPST SW?
-U 1 1 60CBA092
-P 4700 4700
-F 0 "SW?" H 4700 4935 50  0000 C CNN
-F 1 "SW_SPST" H 4700 4844 50  0000 C CNN
-F 2 "" H 4700 4700 50  0001 C CNN
-F 3 "~" H 4700 4700 50  0001 C CNN
-	1    4700 4700
-	1    0    0    -1  
-$EndComp
-Text HLabel 5300 4700 2    50   Input ~ 0
-~NMI
-Wire Wire Line
-	5300 4700 4900 4700
-Wire Wire Line
-	4500 4700 4000 4700
 Connection ~ 4000 4700
 Wire Wire Line
 	4000 4200 4000 4300
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0153
 U 1 1 60D1D258
 P 8250 4000
-F 0 "#PWR?" H 8250 3850 50  0001 C CNN
+F 0 "#PWR0153" H 8250 3850 50  0001 C CNN
 F 1 "VCC" H 8265 4173 50  0000 C CNN
 F 2 "" H 8250 4000 50  0001 C CNN
 F 3 "" H 8250 4000 50  0001 C CNN
@@ -466,10 +425,10 @@ F 3 "" H 8250 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:LM556 U?
+L Timer:LM556 U701
 U 2 1 60D1D25E
 P 8250 4650
-F 0 "U?" H 8450 5100 50  0000 C CNN
+F 0 "U701" H 8450 5100 50  0000 C CNN
 F 1 "LM556" H 8450 5000 50  0000 C CNN
 F 2 "" H 8250 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm556.pdf" H 8250 4650 50  0001 C CNN
@@ -488,10 +447,10 @@ Connection ~ 8250 4200
 Wire Wire Line
 	8250 4200 8250 4250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0154
 U 1 1 60D1D26A
 P 8250 5850
-F 0 "#PWR?" H 8250 5600 50  0001 C CNN
+F 0 "#PWR0154" H 8250 5600 50  0001 C CNN
 F 1 "GND" H 8255 5677 50  0000 C CNN
 F 2 "" H 8250 5850 50  0001 C CNN
 F 3 "" H 8250 5850 50  0001 C CNN
@@ -562,7 +521,7 @@ F 3 "~" H 7400 5650 50  0001 C CNN
 $EndComp
 Text HLabel 6900 5450 0    50   Input ~ 0
 RS
-Text HLabel 9450 4450 2    50   Input ~ 0
+Text HLabel 9450 4450 2    50   Output ~ 0
 ~RST
 Wire Wire Line
 	9450 4450 8950 4450
@@ -596,10 +555,10 @@ Connection ~ 7800 5100
 Wire Wire Line
 	7800 5100 7400 5100
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0155
 U 1 1 60DF9979
 P 8250 1350
-F 0 "#PWR?" H 8250 1200 50  0001 C CNN
+F 0 "#PWR0155" H 8250 1200 50  0001 C CNN
 F 1 "VCC" H 8265 1523 50  0000 C CNN
 F 2 "" H 8250 1350 50  0001 C CNN
 F 3 "" H 8250 1350 50  0001 C CNN
@@ -607,10 +566,10 @@ F 3 "" H 8250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:LM556 U?
+L Timer:LM556 U701
 U 1 1 60DF997F
 P 8250 2000
-F 0 "U?" H 8450 2450 50  0000 C CNN
+F 0 "U701" H 8450 2450 50  0000 C CNN
 F 1 "LM556" H 8450 2350 50  0000 C CNN
 F 2 "" H 8250 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm556.pdf" H 8250 2000 50  0001 C CNN
@@ -629,10 +588,10 @@ Connection ~ 8250 1550
 Wire Wire Line
 	8250 1550 8250 1600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0156
 U 1 1 60DF998B
 P 8250 3200
-F 0 "#PWR?" H 8250 2950 50  0001 C CNN
+F 0 "#PWR0156" H 8250 2950 50  0001 C CNN
 F 1 "GND" H 8255 3027 50  0000 C CNN
 F 2 "" H 8250 3200 50  0001 C CNN
 F 3 "" H 8250 3200 50  0001 C CNN
@@ -703,7 +662,7 @@ F 3 "~" H 7400 3000 50  0001 C CNN
 $EndComp
 Text HLabel 6900 2800 0    50   Input ~ 0
 ST
-Text HLabel 9450 1800 2    50   Input ~ 0
+Text HLabel 9450 1800 2    50   Output ~ 0
 ~NMI
 Wire Wire Line
 	9450 1800 8950 1800
@@ -736,4 +695,66 @@ Wire Wire Line
 Connection ~ 7800 2450
 Wire Wire Line
 	7800 2450 7400 2450
+Text HLabel 1450 6600 0    50   Input ~ 0
+A[10..12]
+Text Label 1950 6150 2    50   ~ 0
+A12
+Text Label 1950 6250 2    50   ~ 0
+A11
+Text Label 1950 6350 2    50   ~ 0
+A10
+Entry Wire Line
+	1700 6450 1800 6350
+Entry Wire Line
+	1700 6350 1800 6250
+Entry Wire Line
+	1700 6250 1800 6150
+Wire Bus Line
+	1700 6600 1450 6600
+Text HLabel 5350 6600 2    50   Output ~ 0
+K[0..7]
+Text Label 4900 6350 2    50   ~ 0
+K0
+Text Label 4900 6250 2    50   ~ 0
+K1
+Text Label 4900 6150 2    50   ~ 0
+K2
+Text Label 4900 6050 2    50   ~ 0
+K3
+Text Label 4900 5950 2    50   ~ 0
+K4
+Text Label 4900 5850 2    50   ~ 0
+K5
+Text Label 4900 5750 2    50   ~ 0
+K6
+Text Label 4900 5650 2    50   ~ 0
+K7
+Entry Wire Line
+	5000 5650 5100 5750
+Entry Wire Line
+	5000 5750 5100 5850
+Entry Wire Line
+	5000 5850 5100 5950
+Entry Wire Line
+	5000 5950 5100 6050
+Entry Wire Line
+	5000 6050 5100 6150
+Entry Wire Line
+	5000 6150 5100 6250
+Entry Wire Line
+	5000 6250 5100 6350
+Entry Wire Line
+	5000 6350 5100 6450
+Wire Bus Line
+	5100 6600 5350 6600
+Text HLabel 1450 6050 0    50   Input ~ 0
+DECODE_EN
+Text HLabel 5300 4700 2    50   Input ~ 0
+SST
+Wire Wire Line
+	4000 4700 5300 4700
+Wire Bus Line
+	1700 6250 1700 6600
+Wire Bus Line
+	5100 5750 5100 6600
 $EndSCHEMATC
