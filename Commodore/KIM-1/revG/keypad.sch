@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1600 3000 0    50   Input ~ 0
-COL_[A..G]
+COL[0..6]
 Text HLabel 1600 1500 0    50   Input ~ 0
 ROW[0..2]
 $Comp
@@ -436,11 +436,11 @@ Wire Wire Line
 	2900 2600 2100 2600
 Connection ~ 2900 2600
 Text Label 2150 1600 0    50   ~ 0
-R0
+ROW0
 Text Label 2150 2100 0    50   ~ 0
-R1
+ROW1
 Text Label 2150 2600 0    50   ~ 0
-R2
+ROW2
 Entry Wire Line
 	2300 3000 2400 2900
 Entry Wire Line
@@ -605,14 +605,28 @@ Wire Wire Line
 	2500 5450 2500 5500
 Wire Wire Line
 	2500 5500 1600 5500
-Wire Bus Line
-	2000 1500 2000 2500
-Wire Bus Line
-	1600 3000 8300 3000
 Text Notes 2600 3800 0    100  ~ 0
 RS
 Text Notes 2600 4350 0    100  ~ 0
 ST
 Text Notes 2700 5300 0    100  ~ 0
 SST
+Text Label 8400 2700 0    50   ~ 0
+COL0
+Text Label 7400 2700 0    50   ~ 0
+COL1
+Text Label 6400 2700 0    50   ~ 0
+COL2
+Text Label 5400 2700 0    50   ~ 0
+COL3
+Text Label 4400 2700 0    50   ~ 0
+COL4
+Text Label 3400 2700 0    50   ~ 0
+COL5
+Wire Bus Line
+	2000 1500 2000 2500
+Wire Bus Line
+	1600 3000 8300 3000
+Text Label 2400 2700 0    50   ~ 0
+COL6
 $EndSCHEMATC

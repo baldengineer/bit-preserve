@@ -47,10 +47,10 @@ F 3 "~" H 5150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_more:7438 U302
+L 74xx_more:7438 U26
 U 1 1 61BEFD06
 P 5250 6350
-F 0 "U302" H 5300 6550 50  0000 C CNN
+F 0 "U26" H 5300 6550 50  0000 C CNN
 F 1 "7438" H 5250 6350 50  0000 C CNN
 F 2 "" H 5250 6350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn7438" H 5250 6350 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 3250 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 1 1 61BF3067
 P 5250 5200
-F 0 "U301" H 5300 5300 50  0000 C CNN
+F 0 "U17" H 5300 5300 50  0000 C CNN
 F 1 "7406" H 5200 5200 50  0000 C CNN
 F 2 "" H 5250 5200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5250 5200 50  0001 C CNN
@@ -785,10 +785,10 @@ F 3 "~" H 6000 5200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 6 1 61D2DE16
 P 5250 5550
-F 0 "U301" H 5300 5650 50  0000 C CNN
+F 0 "U17" H 5300 5650 50  0000 C CNN
 F 1 "7406" H 5200 5550 50  0000 C CNN
 F 2 "" H 5250 5550 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5250 5550 50  0001 C CNN
@@ -807,10 +807,10 @@ F 3 "~" H 6000 5550 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 2 1 61D332E6
 P 5250 5900
-F 0 "U301" H 5300 6000 50  0000 C CNN
+F 0 "U17" H 5300 6000 50  0000 C CNN
 F 1 "7406" H 5200 5900 50  0000 C CNN
 F 2 "" H 5250 5900 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5250 5900 50  0001 C CNN
@@ -829,10 +829,10 @@ F 3 "~" H 6000 5900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 5 1 61D462C9
 P 5300 6750
-F 0 "U301" H 5350 6850 50  0000 C CNN
+F 0 "U17" H 5350 6850 50  0000 C CNN
 F 1 "7406" H 5250 6750 50  0000 C CNN
 F 2 "" H 5300 6750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5300 6750 50  0001 C CNN
@@ -851,10 +851,10 @@ F 3 "~" H 6050 6750 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 3 1 61D462D5
 P 5300 7100
-F 0 "U301" H 5350 7200 50  0000 C CNN
+F 0 "U17" H 5350 7200 50  0000 C CNN
 F 1 "7406" H 5250 7100 50  0000 C CNN
 F 2 "" H 5300 7100 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5300 7100 50  0001 C CNN
@@ -873,10 +873,10 @@ F 3 "~" H 6050 7100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L 74xx_more:7406 U301
+L 74xx_more:7406 U17
 U 4 1 61D462E1
 P 5300 7450
-F 0 "U301" H 5350 7550 50  0000 C CNN
+F 0 "U17" H 5350 7550 50  0000 C CNN
 F 1 "7406" H 5250 7450 50  0000 C CNN
 F 2 "" H 5300 7450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7406.pdf" H 5300 7450 50  0001 C CNN
@@ -1278,7 +1278,7 @@ S 2700 1300 1050 1400
 U 62E92074
 F0 "Keypad" 50
 F1 "keypad.sch" 50
-F2 "COL_[A..G]" I L 2700 1550 50 
+F2 "COL[0..6]" I L 2700 1550 50 
 F3 "ROW[0..2]" I L 2700 2500 50 
 F4 "RS" I L 2700 2200 50 
 F5 "ST" I L 2700 2300 50 
@@ -1328,6 +1328,11 @@ Wire Wire Line
 	2700 1850 1850 1850
 Wire Wire Line
 	1850 1850 1850 4650
+Connection ~ 1850 4650
+Wire Wire Line
+	1850 4650 3550 4650
+Text Notes 3950 3550 2    50   ~ 0
+Keypad Connector
 Wire Bus Line
 	4750 700  4750 850 
 Wire Bus Line
@@ -1352,9 +1357,4 @@ Wire Bus Line
 	6500 4750 6500 7350
 Wire Bus Line
 	1300 4700 1300 7350
-Connection ~ 1850 4650
-Wire Wire Line
-	1850 4650 3550 4650
-Text Notes 3950 3550 2    50   ~ 0
-Keypad Connector
 $EndSCHEMATC

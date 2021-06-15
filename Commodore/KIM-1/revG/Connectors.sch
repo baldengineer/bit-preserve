@@ -49,16 +49,16 @@ $EndComp
 $Comp
 L power:VCC #PWR0145
 U 1 1 628CD031
-P 3850 1200
-F 0 "#PWR0145" H 3850 1050 50  0001 C CNN
-F 1 "VCC" H 3865 1373 50  0000 C CNN
-F 2 "" H 3850 1200 50  0001 C CNN
-F 3 "" H 3850 1200 50  0001 C CNN
-	1    3850 1200
+P 3850 900
+F 0 "#PWR0145" H 3850 750 50  0001 C CNN
+F 1 "VCC" H 3865 1073 50  0000 C CNN
+F 2 "" H 3850 900 50  0001 C CNN
+F 3 "" H 3850 900 50  0001 C CNN
+	1    3850 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 1300 2300 1300
+	3050 1300 2600 1300
 Wire Wire Line
 	2300 1300 2300 1400
 Entry Wire Line
@@ -304,7 +304,7 @@ COL2
 Text Label 4000 3400 0    50   ~ 0
 ROW1
 Wire Wire Line
-	3850 1200 3850 1300
+	3850 900  3850 950 
 Text HLabel 1400 4050 0    50   Input ~ 0
 K[0..7]
 Wire Bus Line
@@ -720,6 +720,26 @@ Wire Wire Line
 	1000 1550 1350 1550
 Text Label 2800 3650 0    50   ~ 0
 COL[0..6]
+$Comp
+L Device:C C16
+U 1 1 60D326E2
+P 3200 950
+F 0 "C16" V 2948 950 50  0000 C CNN
+F 1 "C" V 3039 950 50  0000 C CNN
+F 2 "" H 3238 800 50  0001 C CNN
+F 3 "~" H 3200 950 50  0001 C CNN
+	1    3200 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 950  3850 950 
+Connection ~ 3850 950 
+Wire Wire Line
+	3850 950  3850 1300
+Wire Wire Line
+	3050 950  2600 950 
+Wire Wire Line
+	2600 950  2600 1300
 Wire Bus Line
 	1400 4050 5550 4050
 Wire Bus Line
@@ -734,4 +754,7 @@ Wire Bus Line
 	2500 5250 2500 6050
 Wire Bus Line
 	4400 4400 4400 6150
+Connection ~ 2600 1300
+Wire Wire Line
+	2600 1300 2300 1300
 $EndSCHEMATC
