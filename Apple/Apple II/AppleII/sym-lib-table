@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name AppleII)(type Legacy)(uri "D:/Git/bit-preserve/bit-preserve/Apple/Apple II/AppleII/AppleII.lib")(options "")(descr ""))
+  (lib (name AppleII+)(type Legacy)(uri ${KIPRJMOD}/AppleII+.lib)(options "")(descr ""))
+  (lib (name AppleII+-cache)(type Legacy)(uri ${KIPRJMOD}/AppleII+-cache.lib)(options "")(descr ""))
+  (lib (name AppleII-cache)(type Legacy)(uri ${KIPRJMOD}/AppleII-cache.lib)(options "")(descr ""))
+)

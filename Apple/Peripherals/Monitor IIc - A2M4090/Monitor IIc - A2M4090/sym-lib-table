@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Monitor IIc Library")(type Legacy)(uri "${KIPRJMOD}/Monitor IIc Library.lib")(options "")(descr ""))
+  (lib (name Monitor-IIc---A2M4090-rescue)(type Legacy)(uri "${KIPRJMOD}/Monitor IIc - A2M4090-rescue.lib")(options "")(descr ""))
+)

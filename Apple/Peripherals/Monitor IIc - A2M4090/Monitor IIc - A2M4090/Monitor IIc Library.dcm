@@ -1,0 +1,70 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +11.1
+D Power symbol creates a global label with name "+11.1"
+K power-flag
+$ENDCMP
+#
+$CMP +11.6
+D Power symbol creates a global label with name "+11.6"
+K power-flag
+$ENDCMP
+#
+$CMP +11.8
+D Power symbol creates a global label with name "+11.8"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +3.3V_copy
+D Power symbol creates a global label with name "+3.3V"
+K power-flag
+$ENDCMP
+#
+$CMP +42V
+D Power symbol creates a global label with name "+48V"
+K power-flag
+$ENDCMP
+#
+$CMP +431V
+D Power symbol creates a global label with name "+431V"
+K power-flag
+$ENDCMP
+#
+$CMP -246V
+D Power symbol creates a global label with name "-246V"
+K power-flag
+$ENDCMP
+#
+$CMP C10M42P31-(D)-ARF-S8
+D 9in monochrome CRT used in the Monitor IIc
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_for_IIc
+D EMI 3-inductor filter
+K EMI filter
+F ~
+$ENDCMP
+#
+$CMP HV_Range
+D Power symbol creates a global label with name "HV"
+K power-flag
+$ENDCMP
+#
+$CMP Transformer_4p3s
+D Transformer, four primary, three secondary
+K transformer coil magnet
+F ~
+$ENDCMP
+#
+#End Doc Library
