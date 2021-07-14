@@ -7,4 +7,6 @@
   (lib (name custom_dac)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/custom_dac.lib)(options "")(descr ""))
   (lib (name RF_Module_Tandy)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/RF_Module_Tandy.lib)(options "")(descr ""))
   (lib (name Memory_RAM_Texas)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/Memory_RAM_Texas.lib)(options "")(descr ""))
+  (lib (name 7ls374)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/7ls374.lib)(options "")(descr ""))
+  (lib (name 74ls244)(type Legacy)(uri ${KIPRJMOD}/../symbol-libs/74ls244.lib)(options "")(descr ""))
 )
