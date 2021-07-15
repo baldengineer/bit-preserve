@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLegal 14000 8500
 encoding utf-8
-Sheet 7 8
+Sheet 8 8
 Title "TRS-80 Color Computer 3 (26-3334)"
 Date "2021-07-12"
 Rev "1.0.1"
@@ -565,9 +565,9 @@ Wire Bus Line
 Connection ~ 5600 5250
 Text Label 5850 5250 0    50   ~ 0
 RAMD[0..7]
-Text HLabel 6250 4100 0    50   Input ~ 0
+Text HLabel 6250 4100 0    50   Output ~ 0
 ~WE0
-Text HLabel 6250 4000 0    50   Input ~ 0
+Text HLabel 6250 4000 0    50   Output ~ 0
 ~WE1
 Text HLabel 6250 3900 0    50   Input ~ 0
 ~RESET
@@ -579,7 +579,7 @@ Wire Wire Line
 	2600 3700 3000 3700
 Wire Wire Line
 	3000 3700 3000 3400
-Text HLabel 2500 3700 0    50   Input ~ 0
+Text HLabel 2500 3700 0    50   Output ~ 0
 ~WE0
 Wire Wire Line
 	2500 3700 2600 3700
@@ -593,7 +593,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 6350 2600 6350
 Connection ~ 2600 6350
-Text HLabel 2500 6350 0    50   Input ~ 0
+Text HLabel 2500 6350 0    50   Output ~ 0
 ~WE1
 Entry Wire Line
 	3650 2100 3550 2200
@@ -829,9 +829,9 @@ Wire Wire Line
 	4150 5650 4150 6750
 Wire Wire Line
 	4150 6750 4450 6750
-Text HLabel 6850 5400 3    50   Input ~ 0
+Text HLabel 6850 5400 3    50   Output ~ 0
 ~CAS
-Text HLabel 6750 5400 3    50   Input ~ 0
+Text HLabel 6750 5400 3    50   Output ~ 0
 ~RAS
 Text HLabel 4350 6950 0    50   Input ~ 0
 ~CAS
@@ -1831,9 +1831,9 @@ AR Path="/603E4732/610B85A0" Ref="#PWR?"  Part="1"
 AR Path="/603D345E/610B85A0" Ref="#PWR?"  Part="1" 
 AR Path="/603D560B/610B85A0" Ref="#PWR?"  Part="1" 
 AR Path="/610B85A0" Ref="#PWR?"  Part="1" 
-AR Path="/61257512/610B85A0" Ref="#PWR?"  Part="1" 
+AR Path="/61257512/610B85A0" Ref="#PWR01083"  Part="1" 
 AR Path="/612A4892/610B85A0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12700 900 50  0001 C CNN
+F 0 "#PWR01083" H 12700 900 50  0001 C CNN
 F 1 "+5V" H 12715 1223 50  0000 C CNN
 F 2 "" H 12700 1050 50  0001 C CNN
 F 3 "" H 12700 1050 50  0001 C CNN
@@ -1849,8 +1849,8 @@ AR Path="/60308A73/610B85A6" Ref="#PWR?"  Part="1"
 AR Path="/603E4732/610B85A6" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/610B85A6" Ref="#PWR?"  Part="1" 
 AR Path="/610B85A6" Ref="#PWR?"  Part="1" 
-AR Path="/61257512/610B85A6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12700 2000 50  0001 C CNN
+AR Path="/61257512/610B85A6" Ref="#PWR01084"  Part="1" 
+F 0 "#PWR01084" H 12700 2000 50  0001 C CNN
 F 1 "GNDS" H 12700 2100 50  0000 C CNN
 F 2 "" H 12700 2250 50  0001 C CNN
 F 3 "" H 12700 2250 50  0001 C CNN
