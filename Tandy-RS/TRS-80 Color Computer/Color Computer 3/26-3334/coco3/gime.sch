@@ -1633,17 +1633,9 @@ Wire Wire Line
 Wire Wire Line
 	8850 5700 9700 5700
 Wire Wire Line
-	9700 5700 9700 6200
+	9700 5700 9700 6000
 Wire Wire Line
 	9700 6200 9800 6200
-Wire Wire Line
-	8700 5400 8700 5850
-Wire Wire Line
-	8700 5850 9550 5850
-Wire Wire Line
-	9550 5850 9550 6500
-Wire Wire Line
-	9550 6500 10150 6500
 $Comp
 L Device:R_Small_US R?
 U 1 1 60F7EBB6
@@ -1959,6 +1951,23 @@ Text HLabel 1700 5950 0    50   BiDi ~ 0
 D[0..7]
 Wire Bus Line
 	1950 5950 1700 5950
+Text HLabel 9500 6000 0    50   Output ~ 0
+~VSYNC
+Wire Wire Line
+	8700 5400 8700 6500
+Wire Wire Line
+	8700 6500 9700 6500
+Wire Wire Line
+	9500 6000 9700 6000
+Connection ~ 9700 6000
+Wire Wire Line
+	9700 6000 9700 6200
+Text HLabel 9500 6300 0    50   Output ~ 0
+~HSYNC
+Wire Wire Line
+	9500 6300 9700 6300
+Wire Wire Line
+	9700 6300 9700 6500
 Wire Bus Line
 	3650 4850 3650 6950
 Wire Bus Line
@@ -1979,4 +1988,7 @@ Wire Bus Line
 	1950 2200 1950 5950
 Wire Bus Line
 	6100 2150 8050 2150
+Connection ~ 9700 6500
+Wire Wire Line
+	9700 6500 10150 6500
 $EndSCHEMATC

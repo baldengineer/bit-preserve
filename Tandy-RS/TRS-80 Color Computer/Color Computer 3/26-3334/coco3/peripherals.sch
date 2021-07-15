@@ -378,9 +378,7 @@ Text Label 2300 2350 0    50   ~ 0
 A1
 Wire Bus Line
 	1800 2250 1800 2150
-Wire Bus Line
-	1800 2150 1500 2150
-Text HLabel 1500 2150 0    50   Input ~ 0
+Text HLabel 1400 2150 0    50   Input ~ 0
 A[0..15]
 Wire Wire Line
 	1900 2250 2450 2250
@@ -469,25 +467,8 @@ Wire Wire Line
 	1100 1350 2450 1350
 Wire Wire Line
 	1100 1250 2450 1250
-Wire Wire Line
-	2450 2550 2350 2550
-Wire Wire Line
-	2350 2550 2350 2650
-Wire Wire Line
-	2350 2650 2450 2650
-Wire Wire Line
-	2100 2550 2350 2550
-Connection ~ 2350 2550
-Text Label 2100 2550 2    50   ~ 0
+Text Label 1950 2450 2    50   ~ 0
 HI
-Text HLabel 3650 2150 2    50   Input ~ 0
-~HS
-Text HLabel 3650 3450 2    50   Input ~ 0
-~FS
-Wire Wire Line
-	3450 2150 3650 2150
-Wire Wire Line
-	3650 3450 3450 3450
 Wire Wire Line
 	2950 3850 2950 3950
 Wire Wire Line
@@ -571,8 +552,8 @@ U 1 1 60E357B9
 P 2600 850
 AR Path="/60273794/60E357B9" Ref="C?"  Part="1" 
 AR Path="/602A51A8/60E357B9" Ref="C?"  Part="1" 
-AR Path="/603CF7B8/60E357B9" Ref="C1002"  Part="1" 
-F 0 "C1002" V 2750 850 50  0000 C CNN
+AR Path="/603CF7B8/60E357B9" Ref="C7"  Part="1" 
+F 0 "C7" V 2750 850 50  0000 C CNN
 F 1 ".1uF" V 2500 850 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2600 850 50  0001 C CNN
 F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 2600 850 50  0001 C CNN
@@ -658,10 +639,6 @@ Wire Wire Line
 	2150 4400 2150 4450
 Wire Wire Line
 	2150 4400 2550 4400
-Text Label 3650 3550 0    50   ~ 0
-RP1-4
-Wire Wire Line
-	3650 3550 3450 3550
 Text HLabel 4450 7000 2    50   Input ~ 0
 ~CART
 $Comp
@@ -677,8 +654,6 @@ F 3 "" H 3000 7650 50  0001 C CNN
 	1    3000 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 7400 3000 7550
 $Comp
 L power:+5V #PWR?
 U 1 1 60EDF4D8
@@ -1027,13 +1002,11 @@ CASS_DATA_IN
 Text Label 8850 6000 0    50   ~ 0
 CASS_DATA_IN
 Text Label 6650 4950 0    50   ~ 0
-HI_LO
+PA7
 Wire Wire Line
 	6500 4950 6650 4950
-Text Label 3600 1950 0    50   ~ 0
-HI_LO
-Wire Wire Line
-	3450 1950 3600 1950
+Text Label 3450 1950 0    50   ~ 0
+PA7
 Wire Wire Line
 	3450 3150 4000 3150
 Connection ~ 4000 3150
@@ -1110,36 +1083,6 @@ Text Label 850  6100 2    50   ~ 0
 HI
 Text HLabel 1500 6600 0    50   Input ~ 0
 ECLK
-Wire Wire Line
-	1500 6600 1750 6600
-$Comp
-L Device:C_Small C?
-U 1 1 60E6536C
-P 1750 6900
-AR Path="/60273794/60E6536C" Ref="C?"  Part="1" 
-AR Path="/603CF7B8/60E6536C" Ref="C1006"  Part="1" 
-F 0 "C1006" H 1658 6854 50  0000 R CNN
-F 1 "33pF" H 1658 6945 50  0000 R CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 1750 6900 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa150_en.pdf?ref_disty=digikey" H 1750 6900 50  0001 C CNN
-F 4 "digikey" H 1750 6900 50  0001 C CNN "Vendor"
-F 5 "445-180775-1-ND" H 1750 6900 50  0001 C CNN "Vendor part#"
-F 6 "FA28NP01H330JNU06" H 1750 6900 50  0001 C CNN "Manufacturer part#"
-	1    1750 6900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1750 6600 1750 6800
-Connection ~ 1750 6600
-Wire Wire Line
-	1750 6600 2500 6600
-Wire Wire Line
-	1750 7550 3000 7550
-Connection ~ 3000 7550
-Wire Wire Line
-	3000 7550 3000 7650
-Wire Wire Line
-	1750 7000 1750 7550
 Wire Wire Line
 	2500 6800 2350 6800
 Wire Wire Line
@@ -1516,10 +1459,10 @@ NoConn ~ 3500 6600
 NoConn ~ 3500 6700
 NoConn ~ 3500 6800
 $Comp
-L Interface:6821 U1002
+L Interface:6821 IC4
 U 1 1 60B3AA45
 P 3000 6000
-F 0 "U1002" H 2750 7400 50  0000 C CNN
+F 0 "IC4" H 2750 7400 50  0000 C CNN
 F 1 "6821" H 3250 7350 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3050 4650 50  0001 L CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf" H 3000 6000 50  0001 C CNN
@@ -1567,16 +1510,14 @@ F 3 "" H 1000 5750 50  0001 C CNN
 	1    1000 5750
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 2750 0    50   Input ~ 0
+Text HLabel 1800 2850 0    50   Input ~ 0
 PIA_~CS2
 Wire Wire Line
-	1900 2750 2450 2750
-Text Label 2300 2750 2    50   ~ 0
+	1800 2850 2350 2850
+Text Label 2200 2850 2    50   ~ 0
 PIA_~CS2
-Text Label 2350 6300 2    50   ~ 0
+Text Label 2300 6400 2    50   ~ 0
 PIA_~CS2
-Wire Wire Line
-	2500 6300 2350 6300
 Text Label 3450 1250 0    50   ~ 0
 PA0
 Text Label 3450 1350 0    50   ~ 0
@@ -2388,7 +2329,85 @@ Wire Wire Line
 	7900 7650 7900 7800
 Wire Wire Line
 	7900 7150 7900 7650
+Connection ~ 7900 7650
+Entry Wire Line
+	1800 6200 1700 6300
+Text HLabel 1400 6300 0    50   Input ~ 0
+A[0..15]
+Wire Bus Line
+	1700 6300 1400 6300
+Wire Wire Line
+	2300 6400 2400 6400
+Wire Wire Line
+	2400 6400 2400 6300
+Wire Wire Line
+	2400 6300 2500 6300
+Wire Wire Line
+	2500 6200 1800 6200
+Text Label 2350 6200 0    50   ~ 0
+A5
+Wire Wire Line
+	1500 6600 2500 6600
+Wire Wire Line
+	3000 7400 3000 7650
+Text HLabel 3600 3450 2    50   Input ~ 0
+~VSYNC
+Wire Wire Line
+	3600 3450 3450 3450
+Text HLabel 3650 2150 2    50   Input ~ 0
+~HSYNC
+Wire Wire Line
+	3450 2150 3650 2150
+Text Label 3650 3550 0    50   ~ 0
+SELB
+Wire Wire Line
+	3450 3550 3650 3550
+Wire Wire Line
+	2450 2750 2350 2750
+Wire Wire Line
+	2350 2750 2350 2850
+$Comp
+L 74xx:74LS04 IC?
+U 2 1 63B9CBA3
+P 1850 2600
+AR Path="/63B9CBA3" Ref="IC?"  Part="7" 
+AR Path="/61257512/63B9CBA3" Ref="IC?"  Part="4" 
+AR Path="/603CF7B8/63B9CBA3" Ref="IC15"  Part="2" 
+F 0 "IC15" H 1450 2500 50  0000 L CNN
+F 1 "74LS04" H 1600 2800 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 1850 2600 50  0001 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls04" H 1850 2600 50  0001 C CNN
+F 4 "digikey" H 1850 2600 50  0001 C CNN "Vendor"
+F 5 "296-1629-5-ND" H 1850 2600 50  0001 C CNN "Vendor part#"
+F 6 "SN74LS04N" H 1850 2600 50  0001 C CNN "Manufacturer part#"
+	2    1850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2450 2350 2550
+Wire Wire Line
+	2350 2550 2450 2550
+Wire Wire Line
+	1950 2450 2350 2450
+Entry Wire Line
+	1550 2150 1450 2250
+Wire Wire Line
+	1450 2250 1450 2600
+Wire Wire Line
+	1450 2600 1550 2600
+Text Label 1300 2600 2    50   ~ 0
+A5
+Wire Wire Line
+	1300 2600 1450 2600
+Connection ~ 1450 2600
+Wire Wire Line
+	2150 2600 2250 2600
+Wire Wire Line
+	2250 2600 2250 2650
+Wire Wire Line
+	2250 2650 2450 2650
+Wire Bus Line
+	1400 2150 1800 2150
 Wire Bus Line
 	1000 1150 1000 5400
-Connection ~ 7900 7650
 $EndSCHEMATC
