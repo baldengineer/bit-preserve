@@ -492,9 +492,9 @@ Wire Wire Line
 	6250 4350 6250 4800
 Text HLabel 8250 3100 2    50   Output ~ 0
 P1
-Wire Wire Line
-	8250 3100 6250 3100
 Connection ~ 6250 3100
 Wire Wire Line
 	6250 3100 6250 4100
+Wire Wire Line
+	6250 3100 8250 3100
 $EndSCHEMATC

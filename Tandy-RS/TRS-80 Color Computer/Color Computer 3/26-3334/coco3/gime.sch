@@ -52,9 +52,9 @@ F 3 "" H 7850 4150 50  0001 C CNN
 	1    7800 3950
 	1    0    0    -1  
 $EndComp
-Text HLabel 8350 2350 1    50   Output ~ 0
+Text HLabel 8350 2350 1    50   Input ~ 0
 ~IRQ
-Text HLabel 8500 2350 1    50   Output ~ 0
+Text HLabel 8500 2350 1    50   Input ~ 0
 ~FIRQ
 Wire Wire Line
 	8350 2350 8350 2500
@@ -565,10 +565,8 @@ Wire Bus Line
 Connection ~ 5600 5250
 Text Label 5850 5250 0    50   ~ 0
 RAMD[0..7]
-Text HLabel 6250 4100 0    50   Output ~ 0
+Text HLabel 5900 4100 0    50   Output ~ 0
 ~WE0
-Text HLabel 6250 4000 0    50   Output ~ 0
-~WE1
 Text HLabel 6250 3900 0    50   Input ~ 0
 ~RESET
 Text HLabel 6250 3800 0    50   Input ~ 0
@@ -579,8 +577,6 @@ Wire Wire Line
 	2600 3700 3000 3700
 Wire Wire Line
 	3000 3700 3000 3400
-Text HLabel 2500 3700 0    50   Output ~ 0
-~WE0
 Wire Wire Line
 	2500 3700 2600 3700
 Connection ~ 2600 3700
@@ -593,8 +589,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 6350 2600 6350
 Connection ~ 2600 6350
-Text HLabel 2500 6350 0    50   Output ~ 0
-~WE1
 Entry Wire Line
 	3650 2100 3550 2200
 Wire Wire Line
@@ -1364,7 +1358,7 @@ F 6 "2743007111" H 9950 4650 50  0001 C CNN "Manufacturer part#"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9850 4650 9600 4650
+	9850 4650 9750 4650
 Wire Wire Line
 	10500 4350 10250 4350
 Wire Wire Line
@@ -1975,14 +1969,44 @@ Wire Wire Line
 	12600 5450 12500 5450
 Wire Wire Line
 	12500 5450 12500 6000
+Wire Wire Line
+	5900 4000 6250 4000
+Wire Wire Line
+	5900 4100 6250 4100
+Text Label 2500 3700 2    50   ~ 0
+~WE0
+Text Label 2500 6350 2    50   ~ 0
+~WE1
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 612850E1
+P 9750 4650
+F 0 "#FLG0101" H 9750 4725 50  0001 C CNN
+F 1 "PWR_FLAG" H 9750 4823 50  0000 C CNN
+F 2 "" H 9750 4650 50  0001 C CNN
+F 3 "~" H 9750 4650 50  0001 C CNN
+	1    9750 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 9750 4650
+Wire Wire Line
+	9750 4650 9600 4650
+Text Label 6000 4100 0    50   ~ 0
+~WE0
+Text Label 6000 4000 0    50   ~ 0
+~WE1
 Wire Bus Line
-	3650 4850 3650 6950
+	1950 2200 1950 5950
 Wire Bus Line
-	3900 4850 3900 6950
+	6100 2150 8050 2150
 Wire Bus Line
 	5900 850  5900 3500
 Wire Bus Line
 	6850 5700 7650 5700
+Wire Bus Line
+	3900 4850 3900 6950
+Wire Bus Line
+	3650 4850 3650 6950
 Wire Bus Line
 	3900 850  3900 2700
 Wire Bus Line
@@ -1991,8 +2015,6 @@ Wire Bus Line
 	5850 4400 5850 5250
 Wire Bus Line
 	5600 2200 5600 5250
-Wire Bus Line
-	1950 2200 1950 5950
-Wire Bus Line
-	6100 2150 8050 2150
+Text HLabel 5900 4000 0    50   Output ~ 0
+~WE1
 $EndSCHEMATC
