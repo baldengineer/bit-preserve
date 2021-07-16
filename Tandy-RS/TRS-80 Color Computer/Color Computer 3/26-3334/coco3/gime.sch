@@ -1372,15 +1372,9 @@ Wire Wire Line
 Wire Wire Line
 	10250 4650 10050 4650
 Connection ~ 10500 4350
-Text Label 9600 4400 0    50   ~ 0
-VCC1
-Wire Wire Line
-	9600 4400 9600 4650
 Connection ~ 9600 4650
 Wire Wire Line
 	9600 4650 9450 4650
-Text Label 12500 5700 0    50   ~ 0
-VCC1
 $Comp
 L power:GNDS #PWR?
 U 1 1 613891AF
@@ -1427,8 +1421,6 @@ Wire Wire Line
 Connection ~ 12900 6350
 Wire Wire Line
 	12600 6000 12500 6000
-Wire Wire Line
-	12500 6000 12500 5700
 Wire Wire Line
 	12600 6350 12500 6350
 Wire Wire Line
@@ -1971,6 +1963,18 @@ Wire Wire Line
 Connection ~ 9700 6500
 Wire Wire Line
 	9700 6500 10150 6500
+Text GLabel 9700 4300 2    50   Input ~ 0
+VCC1
+Wire Wire Line
+	9700 4300 9600 4300
+Wire Wire Line
+	9600 4300 9600 4650
+Text GLabel 12600 5450 2    50   Input ~ 0
+VCC1
+Wire Wire Line
+	12600 5450 12500 5450
+Wire Wire Line
+	12500 5450 12500 6000
 Wire Bus Line
 	3650 4850 3650 6950
 Wire Bus Line

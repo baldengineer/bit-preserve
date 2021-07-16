@@ -710,7 +710,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 7100 4750 5700
 Text HLabel 5350 6000 0    50   Output ~ 0
-SND_OUT
+SOUND
 Wire Wire Line
 	5500 6000 5450 6000
 Text HLabel 5350 5900 0    50   Input ~ 0
