@@ -1602,7 +1602,7 @@ Text Label 10050 5500 0    50   ~ 0
 SOUND_OUT
 Wire Wire Line
 	10050 5500 9950 5500
-Text HLabel 7550 2250 0    50   Input ~ 0
+Text HLabel 7150 2250 0    50   Input ~ 0
 SOUND
 Wire Wire Line
 	7850 2250 7550 2250
@@ -1931,4 +1931,23 @@ Wire Wire Line
 	7250 5300 7500 5300
 Wire Wire Line
 	7500 5300 7500 5450
+$Comp
+L Device:C_Small C?
+U 1 1 60F62EEA
+P 7450 2250
+AR Path="/60273794/60F62EEA" Ref="C?"  Part="1" 
+AR Path="/60F62EEA" Ref="C?"  Part="1" 
+AR Path="/612A4892/60F62EEA" Ref="C?"  Part="1" 
+F 0 "C?" V 7650 2250 50  0000 C CNN
+F 1 "1000pF" V 7550 2250 50  0000 C CIN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7450 2250 50  0001 C CNN
+F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 7450 2250 50  0001 C CNN
+F 4 "digikey" V 7450 2250 50  0001 C CNN "Vendor"
+F 5 "BC2659CT-ND" V 7450 2250 50  0001 C CNN "Vendor part#"
+F 6 "K102K10X7RF5UH5" V 7450 2250 50  0001 C CNN "Manufacturer part#"
+	1    7450 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 2250 7350 2250
 $EndSCHEMATC

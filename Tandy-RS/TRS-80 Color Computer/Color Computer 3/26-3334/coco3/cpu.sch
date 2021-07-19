@@ -470,8 +470,8 @@ L Switch:SW_Push S?
 U 1 1 60FE4C94
 P 1150 4700
 AR Path="/602A51A8/60FE4C94" Ref="S?"  Part="1" 
-AR Path="/60273794/60FE4C94" Ref="S1001"  Part="1" 
-F 0 "S1001" V 1104 4848 50  0000 L CNN
+AR Path="/60273794/60FE4C94" Ref="SW2"  Part="1" 
+F 0 "SW2" V 1104 4848 50  0000 L CNN
 F 1 "Reset Switch" V 1195 4848 50  0000 L CNN
 F 2 "coco2:B3F3152" H 1150 4900 50  0001 C CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" H 1150 4900 50  0001 C CNN

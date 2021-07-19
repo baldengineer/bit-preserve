@@ -823,9 +823,9 @@ Wire Wire Line
 	4150 5650 4150 6750
 Wire Wire Line
 	4150 6750 4450 6750
-Text HLabel 6850 5400 3    50   Output ~ 0
+Text HLabel 6200 5950 2    50   Output ~ 0
 ~CAS
-Text HLabel 6750 5400 3    50   Output ~ 0
+Text HLabel 5650 5950 0    50   Output ~ 0
 ~RAS
 Text HLabel 4350 6950 0    50   Input ~ 0
 ~CAS
@@ -1995,18 +1995,144 @@ Text Label 6000 4100 0    50   ~ 0
 ~WE0
 Text Label 6000 4000 0    50   ~ 0
 ~WE1
+Text HLabel 5900 4000 0    50   Output ~ 0
+~WE1
+$Comp
+L Device:R_Small_US R?
+U 1 1 612F6A83
+P 5850 5750
+AR Path="/60273794/612F6A83" Ref="R?"  Part="1" 
+AR Path="/603D560B/612F6A83" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/612F6A83" Ref="R?"  Part="1" 
+AR Path="/612A4892/612F6A83" Ref="R?"  Part="1" 
+AR Path="/61257512/612F6A83" Ref="R22"  Part="1" 
+F 0 "R22" H 5650 5700 50  0000 L CNN
+F 1 " 120" H 5650 5800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5850 5750 50  0001 C CNN
+F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5850 5750 50  0001 C CNN
+F 4 "digikey" H 5850 5750 50  0001 C CNN "Vendor"
+F 5 "CF14JT120RCT-ND" H 5850 5750 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT120R" H 5850 5750 50  0001 C CNN "Manufacturer part#"
+	1    5850 5750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6750 5400 6750 5500
+Wire Wire Line
+	6750 5500 5850 5500
+Wire Wire Line
+	5850 5500 5850 5650
+$Comp
+L Device:R_Small_US R?
+U 1 1 61342388
+P 6000 5750
+AR Path="/60273794/61342388" Ref="R?"  Part="1" 
+AR Path="/603D560B/61342388" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/61342388" Ref="R?"  Part="1" 
+AR Path="/612A4892/61342388" Ref="R?"  Part="1" 
+AR Path="/61257512/61342388" Ref="R23"  Part="1" 
+F 0 "R23" H 5800 5700 50  0000 L CNN
+F 1 "82" H 5800 5800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6000 5750 50  0001 C CNN
+F 3 "https://www.koaspeer.com/pdfs/CF.pdf" H 6000 5750 50  0001 C CNN
+F 4 "digikey" H 6000 5750 50  0001 C CNN "Vendor"
+F 5 "2019-CF1/4CT52R820JCT-ND" H 6000 5750 50  0001 C CNN "Vendor part#"
+F 6 "CF1/4CT52R820J" H 6000 5750 50  0001 C CNN "Manufacturer part#"
+	1    6000 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 5400 6850 5550
+Wire Wire Line
+	6850 5550 6000 5550
+Wire Wire Line
+	6000 5550 6000 5650
+$Comp
+L Device:C_Small C?
+U 1 1 6136F6EC
+P 6000 6100
+AR Path="/60273794/6136F6EC" Ref="C?"  Part="1" 
+AR Path="/602A51A8/6136F6EC" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/6136F6EC" Ref="C?"  Part="1" 
+AR Path="/61257512/6136F6EC" Ref="C66"  Part="1" 
+F 0 "C66" H 5850 6100 50  0000 C CNN
+F 1 "27pF" H 5850 6200 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6000 6100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 6000 6100 50  0001 C CNN
+F 4 "digikey" V 6000 6100 50  0001 C CNN "Vendor"
+F 5 "BC1035CT-ND" V 6000 6100 50  0001 C CNN "Vendor part#"
+F 6 "K270J15C0GF5TH5" V 6000 6100 50  0001 C CNN "Manufacturer part#"
+	1    6000 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6138ACD5
+P 5850 6100
+AR Path="/60273794/6138ACD5" Ref="C?"  Part="1" 
+AR Path="/602A51A8/6138ACD5" Ref="C?"  Part="1" 
+AR Path="/603CF7B8/6138ACD5" Ref="C?"  Part="1" 
+AR Path="/61257512/6138ACD5" Ref="C65"  Part="1" 
+F 0 "C65" H 5700 6100 50  0000 C CNN
+F 1 "82pF" H 5700 6200 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5850 6100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 5850 6100 50  0001 C CNN
+F 4 "digikey" V 5850 6100 50  0001 C CNN "Vendor"
+F 5 "BC1041CT-ND" V 5850 6100 50  0001 C CNN "Vendor part#"
+F 6 "K820J15C0GF5TH5" V 5850 6100 50  0001 C CNN "Manufacturer part#"
+	1    5850 6100
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 6138FA4F
+P 5950 6350
+AR Path="/602A51A8/6138FA4F" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/6138FA4F" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/6138FA4F" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/6138FA4F" Ref="#PWR?"  Part="1" 
+AR Path="/6138FA4F" Ref="#PWR?"  Part="1" 
+AR Path="/61257512/6138FA4F" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 5950 6100 50  0001 C CNN
+F 1 "GNDS" H 5950 6200 50  0000 C CNN
+F 2 "" H 5950 6350 50  0001 C CNN
+F 3 "" H 5950 6350 50  0001 C CNN
+	1    5950 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 6200 5850 6250
+Wire Wire Line
+	5850 6250 5950 6250
+Wire Wire Line
+	5950 6250 5950 6350
+Wire Wire Line
+	6000 6200 6000 6250
+Wire Wire Line
+	6000 6250 5950 6250
+Connection ~ 5950 6250
+Wire Wire Line
+	6000 5850 6000 5950
+Wire Wire Line
+	5850 5850 5850 5950
+Wire Wire Line
+	5650 5950 5850 5950
+Connection ~ 5850 5950
+Wire Wire Line
+	5850 5950 5850 6000
+Wire Wire Line
+	6200 5950 6000 5950
+Connection ~ 6000 5950
+Wire Wire Line
+	6000 5950 6000 6000
 Wire Bus Line
-	1950 2200 1950 5950
+	3650 4850 3650 6950
 Wire Bus Line
-	6100 2150 8050 2150
+	3900 4850 3900 6950
 Wire Bus Line
 	5900 850  5900 3500
 Wire Bus Line
 	6850 5700 7650 5700
-Wire Bus Line
-	3900 4850 3900 6950
-Wire Bus Line
-	3650 4850 3650 6950
 Wire Bus Line
 	3900 850  3900 2700
 Wire Bus Line
@@ -2015,6 +2141,8 @@ Wire Bus Line
 	5850 4400 5850 5250
 Wire Bus Line
 	5600 2200 5600 5250
-Text HLabel 5900 4000 0    50   Output ~ 0
-~WE1
+Wire Bus Line
+	1950 2200 1950 5950
+Wire Bus Line
+	6100 2150 8050 2150
 $EndSCHEMATC
