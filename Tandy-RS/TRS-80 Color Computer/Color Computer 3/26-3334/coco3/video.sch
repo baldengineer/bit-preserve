@@ -1937,8 +1937,8 @@ U 1 1 60F62EEA
 P 7450 2250
 AR Path="/60273794/60F62EEA" Ref="C?"  Part="1" 
 AR Path="/60F62EEA" Ref="C?"  Part="1" 
-AR Path="/612A4892/60F62EEA" Ref="C?"  Part="1" 
-F 0 "C?" V 7650 2250 50  0000 C CNN
+AR Path="/612A4892/60F62EEA" Ref="C68"  Part="1" 
+F 0 "C68" V 7650 2250 50  0000 C CNN
 F 1 "1000pF" V 7550 2250 50  0000 C CIN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7450 2250 50  0001 C CNN
 F 3 " https://www.vishay.com/docs/45171/kseries.pdf" H 7450 2250 50  0001 C CNN
