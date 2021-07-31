@@ -14,7 +14,7 @@ Comment3 "Based on  Color Computer 3 Service Manual (Tandy).pdf"
 Comment4 "Kicad schematic capture by Rocky Hill"
 $EndDescr
 $Comp
-L Transistor_BJT:2N3055 Q?
+L Device:Q_NPN_BCE Q?
 U 1 1 60A8718E
 P 9700 1850
 AR Path="/602A51A8/60A8718E" Ref="Q?"  Part="1" 
@@ -232,20 +232,6 @@ F 5 "digikey" H 2950 2450 50  0001 C CNN "Vendor"
 F 6 "ED3048-5-ND" H 2950 2450 50  0001 C CNN "Vendor part#"
 F 7 "ED40DT" H 2950 2450 50  0001 C CNN "Manufacturer part#"
 	1    2950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x16_Female J1001
-U 1 1 60B58FEF
-P 5000 1850
-F 0 "J1001" H 5028 1826 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 5028 1735 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
-F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
-F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
-F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
-	1    5000 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2406,6 +2392,20 @@ Wire Wire Line
 	2250 2600 2250 2650
 Wire Wire Line
 	2250 2650 2450 2650
+$Comp
+L Connector:Conn_01x16_Female CN2
+U 1 1 60B58FEF
+P 5000 1850
+F 0 "CN2" H 5028 1826 50  0000 L CNN
+F 1 "Conn_01x16_Female" H 5028 1735 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
+F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
+F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
+F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1400 2150 1800 2150
 Wire Bus Line

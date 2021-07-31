@@ -47,8 +47,11 @@ U 1 1 60EEE0FB
 P 7800 3950
 F 0 "IC6" H 7800 4300 50  0000 L CNN
 F 1 "TCC1014" H 7650 4150 50  0000 L CNN
-F 2 "" H 7850 4150 50  0001 C CNN
-F 3 "" H 7850 4150 50  0001 C CNN
+F 2 "Package_LCC:PLCC-68_THT-Socket" H 7850 4150 50  0001 C CNN
+F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_7007_CO.pdf" H 7850 4150 50  0001 C CNN
+F 4 "digikey" H 7800 3950 50  0001 C CNN "Vendor"
+F 5 "AE11249-ND" H 7800 3950 50  0001 C CNN "Vendor part#"
+F 6 "Assmann WSW Components" H 7800 3950 50  0001 C CNN "Manufacturer part#"
 	1    7800 3950
 	1    0    0    -1  
 $EndComp

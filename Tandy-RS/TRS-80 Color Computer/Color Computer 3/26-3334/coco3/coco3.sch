@@ -446,39 +446,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 2150 1950 2150
 $Comp
-L Mechanical:MountingHole H1001
-U 1 1 60AD1126
-P 1350 6950
-F 0 "H1001" H 1450 6996 50  0000 L CNN
-F 1 "MountingHole" H 1450 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.5mm" H 1350 6950 50  0001 C CNN
-F 3 "~" H 1350 6950 50  0001 C CNN
-	1    1350 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1002
-U 1 1 60AD16B9
-P 1350 7200
-F 0 "H1002" H 1450 7246 50  0000 L CNN
-F 1 "MountingHole" H 1450 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 1350 7200 50  0001 C CNN
-F 3 "~" H 1350 7200 50  0001 C CNN
-	1    1350 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1003
-U 1 1 60AD74E1
-P 1350 7450
-F 0 "H1003" H 1450 7496 50  0000 L CNN
-F 1 "MountingHole" H 1450 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4mm" H 1350 7450 50  0001 C CNN
-F 3 "~" H 1350 7450 50  0001 C CNN
-	1    1350 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO1001
 U 1 1 608347FD
 P 3250 7100
@@ -799,6 +766,39 @@ Wire Wire Line
 	3950 5100 4050 5100
 Wire Wire Line
 	4050 5100 4050 5150
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61042AD1
+P 1300 6650
+F 0 "H1" H 1400 6696 50  0000 L CNN
+F 1 "MountingHole" H 1400 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 1300 6650 50  0001 C CNN
+F 3 "~" H 1300 6650 50  0001 C CNN
+	1    1300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61042DE1
+P 1300 7050
+F 0 "H2" H 1400 7096 50  0000 L CNN
+F 1 "MountingHole" H 1400 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 1300 7050 50  0001 C CNN
+F 3 "~" H 1300 7050 50  0001 C CNN
+	1    1300 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6103A7A8
+P 1350 7600
+F 0 "H3" H 1450 7646 50  0000 L CNN
+F 1 "MountingHole" H 1450 7555 50  0000 L CNN
+F 2 "coco2:coco3_outline_and_layout" H 1350 7600 50  0001 C CNN
+F 3 "~" H 1350 7600 50  0001 C CNN
+	1    1350 7600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	1000 3250 1000 4300
 Wire Bus Line

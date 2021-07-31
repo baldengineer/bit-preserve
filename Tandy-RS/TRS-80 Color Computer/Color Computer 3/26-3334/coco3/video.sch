@@ -96,7 +96,7 @@ F 4 "digikey" H 6850 4900 50  0001 C CNN "Vendor"
 F 5 "EG1906-ND" H 6850 4900 50  0001 C CNN "Vendor part#"
 F 6 "EG1213" H 6850 4900 50  0001 C CNN "Manufacturer part#"
 	1    6850 4900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Connection ~ 5100 6050
 Wire Wire Line
@@ -342,7 +342,7 @@ U 1 1 612BF238
 P 7550 3800
 F 0 "J1002" H 7550 4150 50  0000 L CNN
 F 1 "RF MODULATOR" H 7650 4000 50  0000 L CNN
-F 2 "" H 7550 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7550 3800 50  0001 C CNN
 F 3 "~" H 7550 3800 50  0001 C CNN
 	1    7550 3800
 	1    0    0    -1  
@@ -398,11 +398,11 @@ AR Path="/602A51A8/6123BC0B" Ref="C?"  Part="1"
 AR Path="/612A4892/6123BC0B" Ref="C57"  Part="1" 
 F 0 "C57" H 9150 2600 50  0000 L CNN
 F 1 ".022uF" H 9050 2500 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 9350 2600 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 9350 2600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 9350 2600 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C223K5R5TA7200.pdf" H 9350 2600 50  0001 C CNN
 F 4 "digikey" H 9350 2600 50  0001 C CNN "Vendor"
-F 5 "399-14073-1-ND" H 9350 2600 50  0001 C CNN "Vendor part#"
-F 6 "C317C223M5U5TA7301" H 9350 2600 50  0001 C CNN "Manufacturer part#"
+F 5 "399-4464-1-ND" H 9350 2600 50  0001 C CNN "Vendor part#"
+F 6 "C410C223K5R5TA7200" H 9350 2600 50  0001 C CNN "Manufacturer part#"
 	1    9350 2600
 	1    0    0    -1  
 $EndComp
@@ -496,30 +496,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 1700 8300 1650
 Wire Wire Line
-	8450 1650 8450 1600
-Wire Wire Line
 	8600 1650 8450 1650
 Wire Wire Line
 	8600 1700 8600 1650
-$Comp
-L power:+5V #PWR?
-U 1 1 611A774A
-P 8450 1600
-AR Path="/602A51A8/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/60308A73/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/603E4732/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/603D345E/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/603D560B/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/61257512/611A774A" Ref="#PWR?"  Part="1" 
-AR Path="/612A4892/611A774A" Ref="#PWR01088"  Part="1" 
-F 0 "#PWR01088" H 8450 1450 50  0001 C CNN
-F 1 "+5V" H 8465 1773 50  0000 C CNN
-F 2 "" H 8450 1600 50  0001 C CNN
-F 3 "" H 8450 1600 50  0001 C CNN
-	1    8450 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 611A203B
@@ -810,11 +789,11 @@ AR Path="/60273794/61065212" Ref="C?"  Part="1"
 AR Path="/612A4892/61065212" Ref="C53"  Part="1" 
 F 0 "C53" H 5500 1700 50  0000 C CNN
 F 1 ".033uF" H 5400 1900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5600 1800 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 5600 1800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 5600 1800 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C333K5R5TA7200.pdf" H 5600 1800 50  0001 C CNN
 F 4 "digikey" H 5600 1800 50  0001 C CNN "Vendor"
-F 5 "BC1098CT-ND" H 5600 1800 50  0001 C CNN "Vendor part#"
-F 6 "K333K15X7RF5TH5" H 5600 1800 50  0001 C CNN "Manufacturer part#"
+F 5 "399-4470-1-ND" H 5600 1800 50  0001 C CNN "Vendor part#"
+F 6 "C410C333K5R5TA7200" H 5600 1800 50  0001 C CNN "Manufacturer part#"
 	1    5600 1800
 	-1   0    0    1   
 $EndComp
@@ -969,11 +948,11 @@ AR Path="/60273794/60FDAB5D" Ref="C?"  Part="1"
 AR Path="/612A4892/60FDAB5D" Ref="C52"  Part="1" 
 F 0 "C52" H 4200 1100 50  0000 C CNN
 F 1 ".033uF" H 4100 1300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4300 1200 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 4300 1200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 4300 1200 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C333K5R5TA7200.pdf" H 4300 1200 50  0001 C CNN
 F 4 "digikey" H 4300 1200 50  0001 C CNN "Vendor"
-F 5 "BC1098CT-ND" H 4300 1200 50  0001 C CNN "Vendor part#"
-F 6 "K333K15X7RF5TH5" H 4300 1200 50  0001 C CNN "Manufacturer part#"
+F 5 "399-4470-1-ND" H 4300 1200 50  0001 C CNN "Vendor part#"
+F 6 "C410C333K5R5TA7200" H 4300 1200 50  0001 C CNN "Manufacturer part#"
 	1    4300 1200
 	-1   0    0    1   
 $EndComp
@@ -1952,4 +1931,10 @@ F 3 "" H 8700 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8700 3900 8700 4000
+Text GLabel 8650 1400 2    50   Output ~ 0
+8V
+Wire Wire Line
+	8650 1400 8450 1400
+Wire Wire Line
+	8450 1400 8450 1650
 $EndSCHEMATC
