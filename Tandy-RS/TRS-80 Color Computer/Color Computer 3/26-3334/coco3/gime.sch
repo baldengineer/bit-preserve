@@ -1077,7 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2350 9150 2500
 Wire Wire Line
-	9450 2900 9700 2900
+	9450 2900 9600 2900
 Text HLabel 10950 2600 2    50   Input ~ 0
 SERINT
 $Comp
@@ -1515,11 +1515,11 @@ Wire Wire Line
 Wire Wire Line
 	10000 4950 10100 4950
 Wire Wire Line
-	10100 4950 10100 5200
+	10100 4950 10100 5050
 Wire Wire Line
 	10000 4800 10550 4800
 Wire Wire Line
-	10550 4800 10550 5200
+	10550 4800 10550 5000
 $Comp
 L power:GNDS #PWR?
 U 1 1 61423797
@@ -1608,7 +1608,7 @@ L Device:Crystal X1
 U 1 1 60EF60CB
 P 8400 6200
 F 0 "X1" H 8400 6376 50  0000 C CNN
-F 1 "Crystal" H 8400 6377 50  0001 C CNN
+F 1 "28.63636 MHz" H 8400 6377 50  0001 C CNN
 F 2 "coco2:XTAL_ECS-286.3-20-46X" H 8400 6200 50  0001 C CNN
 F 3 "https://ecsxtal.com/store/pdf/HC-46X.pdf" H 8400 6200 50  0001 C CNN
 F 4 "digikey" H 8400 6200 50  0001 C CNN "Vendor"
@@ -2117,17 +2117,114 @@ Connection ~ 5950 6250
 Wire Wire Line
 	6000 5850 6000 5950
 Wire Wire Line
-	5850 5850 5850 5950
+	5850 5850 5850 5900
 Wire Wire Line
 	5650 5950 5850 5950
 Connection ~ 5850 5950
 Wire Wire Line
 	5850 5950 5850 6000
 Wire Wire Line
-	6200 5950 6000 5950
+	6200 5950 6150 5950
 Connection ~ 6000 5950
 Wire Wire Line
 	6000 5950 6000 6000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6132B325
+P 5550 5850
+AR Path="/612A4892/6132B325" Ref="TP?"  Part="1" 
+AR Path="/61257512/6132B325" Ref="TP4"  Part="1" 
+F 0 "TP4" H 5400 5900 50  0000 L CNN
+F 1 "~RAS" H 5450 6050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 5750 5850 50  0001 C CNN
+F 3 "~" H 5750 5850 50  0001 C CNN
+	1    5550 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5850 5550 5900
+Wire Wire Line
+	5550 5900 5850 5900
+Connection ~ 5850 5900
+Wire Wire Line
+	5850 5900 5850 5950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 613608B9
+P 6500 5850
+AR Path="/612A4892/613608B9" Ref="TP?"  Part="1" 
+AR Path="/61257512/613608B9" Ref="TP5"  Part="1" 
+F 0 "TP5" H 6350 5900 50  0000 L CNN
+F 1 "~CAS" H 6400 6050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 6700 5850 50  0001 C CNN
+F 3 "~" H 6700 5850 50  0001 C CNN
+	1    6500 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5850 6150 5850
+Wire Wire Line
+	6150 5850 6150 5950
+Connection ~ 6150 5950
+Wire Wire Line
+	6150 5950 6000 5950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6139431D
+P 9600 2700
+AR Path="/612A4892/6139431D" Ref="TP?"  Part="1" 
+AR Path="/61257512/6139431D" Ref="TP6"  Part="1" 
+F 0 "TP6" H 9450 2750 50  0000 L CNN
+F 1 "CVIDEO" H 9500 2900 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 9800 2700 50  0001 C CNN
+F 3 "~" H 9800 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2700 9600 2900
+Connection ~ 9600 2900
+Wire Wire Line
+	9600 2900 9700 2900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 613BE988
+P 9650 5300
+AR Path="/612A4892/613BE988" Ref="TP?"  Part="1" 
+AR Path="/61257512/613BE988" Ref="TP3"  Part="1" 
+F 0 "TP3" H 9500 5350 50  0000 L CNN
+F 1 "QCLK" H 9550 5500 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 9850 5300 50  0001 C CNN
+F 3 "~" H 9850 5300 50  0001 C CNN
+	1    9650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5300 9650 5350
+Wire Wire Line
+	9650 5350 9850 5350
+Wire Wire Line
+	9850 5350 9850 5050
+Wire Wire Line
+	9850 5050 10100 5050
+Connection ~ 10100 5050
+Wire Wire Line
+	10100 5050 10100 5200
+$Comp
+L Connector:TestPoint TP?
+U 1 1 613DAB8B
+P 10800 5000
+AR Path="/612A4892/613DAB8B" Ref="TP?"  Part="1" 
+AR Path="/61257512/613DAB8B" Ref="TP2"  Part="1" 
+F 0 "TP2" V 10700 5000 50  0000 L CNN
+F 1 "ECLK" V 10900 5000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 11000 5000 50  0001 C CNN
+F 3 "~" H 11000 5000 50  0001 C CNN
+	1    10800 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10800 5000 10550 5000
 Wire Bus Line
 	3650 4850 3650 6950
 Wire Bus Line
@@ -2148,4 +2245,7 @@ Wire Bus Line
 	1950 2200 1950 5950
 Wire Bus Line
 	6100 2150 8050 2150
+Connection ~ 10550 5000
+Wire Wire Line
+	10550 5000 10550 5200
 $EndSCHEMATC

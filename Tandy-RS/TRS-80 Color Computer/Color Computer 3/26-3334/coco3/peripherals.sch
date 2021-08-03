@@ -181,7 +181,7 @@ $EndComp
 Wire Wire Line
 	10800 2400 10800 2450
 Wire Wire Line
-	10800 2450 10650 2450
+	10800 2450 10700 2450
 Connection ~ 10150 2450
 $Comp
 L power:PWR_FLAG #FLG?
@@ -909,13 +909,13 @@ U 1 1 61810AA1
 P 11350 5200
 AR Path="/60273794/61810AA1" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61810AA1" Ref="R15"  Part="1" 
-F 0 "R15" H 11450 5200 50  0000 L CNN
-F 1 "270" H 11100 5200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11350 5200 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 11350 5200 50  0001 C CNN
+F 0 "R15" H 11400 5100 50  0000 L CNN
+F 1 "270 1/2W" H 11400 5200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11350 5200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 11350 5200 50  0001 C CNN
 F 4 "digikey" H 11350 5200 50  0001 C CNN "Vendor"
-F 5 "CF14JT270RCT-ND" H 11350 5200 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT270R" H 11350 5200 50  0001 C CNN "Manufacturer part#"
+F 5 "BC4316CT-ND" H 11350 5200 50  0001 C CNN "Vendor part#"
+F 6 "SFR16S0002700JA500" H 11350 5200 50  0001 C CNN "Manufacturer part#"
 	1    11350 5200
 	-1   0    0    1   
 $EndComp
@@ -2406,8 +2406,28 @@ F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
 	1    5000 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61407312
+P 10850 2700
+AR Path="/612A4892/61407312" Ref="TP?"  Part="1" 
+AR Path="/603CF7B8/61407312" Ref="TP1"  Part="1" 
+F 0 "TP1" V 10750 2700 50  0000 L CNN
+F 1 "5V" V 10950 2750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 11050 2700 50  0001 C CNN
+F 3 "~" H 11050 2700 50  0001 C CNN
+	1    10850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10700 2700 10700 2450
+Wire Wire Line
+	10700 2700 10850 2700
 Wire Bus Line
 	1400 2150 1800 2150
 Wire Bus Line
 	1000 1150 1000 5400
+Connection ~ 10700 2450
+Wire Wire Line
+	10700 2450 10650 2450
 $EndSCHEMATC

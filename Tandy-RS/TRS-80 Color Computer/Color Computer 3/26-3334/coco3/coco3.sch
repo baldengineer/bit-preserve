@@ -751,13 +751,13 @@ P 3850 5100
 AR Path="/60273794/614AF842" Ref="R?"  Part="1" 
 AR Path="/61257512/614AF842" Ref="R?"  Part="1" 
 AR Path="/614AF842" Ref="R64"  Part="1" 
-F 0 "R64" V 3900 4950 50  0000 L CNN
+F 0 "R64" V 3900 4850 50  0000 L CNN
 F 1 "47" V 3900 5100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3850 5100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 3850 5100 50  0001 C CNN
 F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 3850 5100 50  0001 C CNN
 F 4 "digikey" H 3850 5100 50  0001 C CNN "Vendor"
-F 5 "CF12JT47R0CT-ND" H 3850 5100 50  0001 C CNN "Vendor part#"
-F 6 "CF12JT47R0" H 3850 5100 50  0001 C CNN "Manufacturer part#"
+F 5 "CF14JT47R0CT-ND" H 3850 5100 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT47R0" H 3850 5100 50  0001 C CNN "Manufacturer part#"
 	1    3850 5100
 	0    1    -1   0   
 $EndComp

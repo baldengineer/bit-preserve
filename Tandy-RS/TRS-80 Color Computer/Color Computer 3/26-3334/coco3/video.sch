@@ -307,7 +307,7 @@ $EndComp
 Wire Wire Line
 	4950 3700 5650 3700
 Wire Wire Line
-	4250 2250 3750 2250
+	4250 2250 4000 2250
 Connection ~ 4250 2250
 Wire Wire Line
 	4250 3700 4250 2250
@@ -1694,7 +1694,7 @@ Wire Wire Line
 Text Label 1950 3000 0    50   ~ 0
 R_OUT
 Wire Wire Line
-	1950 3000 1650 3000
+	1950 3000 1900 3000
 Connection ~ 1650 3000
 Text Label 1950 4800 0    50   ~ 0
 G_OUT
@@ -1937,4 +1937,40 @@ Wire Wire Line
 	8650 1400 8450 1400
 Wire Wire Line
 	8450 1400 8450 1650
+$Comp
+L Connector:TestPoint TP8
+U 1 1 611F4423
+P 2200 2800
+F 0 "TP8" H 2258 2918 50  0000 L CNN
+F 1 "RED OUT" H 2150 3050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 2400 2800 50  0001 C CNN
+F 3 "~" H 2400 2800 50  0001 C CNN
+	1    2200 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2800 2200 2850
+Wire Wire Line
+	2200 2850 1900 2850
+Wire Wire Line
+	1900 2850 1900 3000
+Connection ~ 1900 3000
+Wire Wire Line
+	1900 3000 1650 3000
+$Comp
+L Connector:TestPoint TP7
+U 1 1 6120E30D
+P 4000 2150
+F 0 "TP7" H 4058 2268 50  0000 L CNN
+F 1 "TestPoint" H 3950 2400 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4200 2150 50  0001 C CNN
+F 3 "~" H 4200 2150 50  0001 C CNN
+	1    4000 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2150 4000 2250
+Connection ~ 4000 2250
+Wire Wire Line
+	4000 2250 3750 2250
 $EndSCHEMATC
