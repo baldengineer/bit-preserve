@@ -33,320 +33,272 @@ F 6 "K102K10X7RF5UH5" V 7150 2200 50  0001 C CNN "Manufacturer part#"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 5250 7200 5400
+	6650 4150 6650 4300
 Wire Wire Line
-	6950 5250 7200 5250
+	6400 4150 6650 4150
 Wire Wire Line
-	6950 5100 6950 5250
+	6400 4000 6400 4150
 $Comp
 L power:GNDS #PWR?
 U 1 1 61184351
-P 7200 5400
+P 6650 4300
 AR Path="/602A51A8/61184351" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/61184351" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/61184351" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/61184351" Ref="#PWR?"  Part="1" 
 AR Path="/61184351" Ref="#PWR?"  Part="1" 
 AR Path="/612A4892/61184351" Ref="#PWR01104"  Part="1" 
-F 0 "#PWR01104" H 7200 5150 50  0001 C CNN
-F 1 "GNDS" H 7200 5250 50  0000 C CNN
-F 2 "" H 7200 5400 50  0001 C CNN
-F 3 "" H 7200 5400 50  0001 C CNN
-	1    7200 5400
+F 0 "#PWR01104" H 6650 4050 50  0001 C CNN
+F 1 "GNDS" H 6650 4150 50  0000 C CNN
+F 2 "" H 6650 4300 50  0001 C CNN
+F 3 "" H 6650 4300 50  0001 C CNN
+	1    6650 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 5550 6750 5100
+	6200 4450 6200 4000
 Wire Wire Line
-	6550 5550 6750 5550
-Connection ~ 6100 5550
-Wire Wire Line
-	6100 5550 6350 5550
+	6000 4450 6200 4450
 $Comp
 L Device:R_Small_US R?
 U 1 1 6116CABF
-P 6450 5550
+P 5900 4450
 AR Path="/60273794/6116CABF" Ref="R?"  Part="1" 
 AR Path="/603D560B/6116CABF" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/6116CABF" Ref="R?"  Part="1" 
 AR Path="/612A4892/6116CABF" Ref="R60"  Part="1" 
-F 0 "R60" V 6550 5500 50  0000 L CNN
-F 1 "100" V 6350 5500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6450 5550 50  0001 C CNN
-F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 6450 5550 50  0001 C CNN
-F 4 "digikey" H 6450 5550 50  0001 C CNN "Vendor"
-F 5 "CF14JT100RCT-ND" H 6450 5550 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT100R" H 6450 5550 50  0001 C CNN "Manufacturer part#"
-	1    6450 5550
+F 0 "R60" V 6000 4400 50  0000 L CNN
+F 1 "100" V 5800 4400 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5900 4450 50  0001 C CNN
+F 3 " https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5900 4450 50  0001 C CNN
+F 4 "digikey" H 5900 4450 50  0001 C CNN "Vendor"
+F 5 "CF14JT100RCT-ND" H 5900 4450 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT100R" H 5900 4450 50  0001 C CNN "Manufacturer part#"
+	1    5900 4450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6850 4000 6850 4700
-Wire Wire Line
-	6850 4000 7350 4000
 $Comp
 L Switch:SW_SPDT SW3
 U 1 1 6113439A
-P 6850 4900
-F 0 "SW3" V 6804 5048 50  0000 L CNN
-F 1 "SW_SPDT" V 6895 5048 50  0000 L CNN
-F 2 "coco2:SW_EG1213" H 6850 4900 50  0001 C CNN
-F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/119/EG.pdf" H 6850 4900 50  0001 C CNN
-F 4 "digikey" H 6850 4900 50  0001 C CNN "Vendor"
-F 5 "EG1906-ND" H 6850 4900 50  0001 C CNN "Vendor part#"
-F 6 "EG1213" H 6850 4900 50  0001 C CNN "Manufacturer part#"
-	1    6850 4900
+P 6300 3800
+F 0 "SW3" V 6254 3948 50  0000 L CNN
+F 1 "SW_SPDT" V 6345 3948 50  0000 L CNN
+F 2 "coco2:SW_EG1213" H 6300 3800 50  0001 C CNN
+F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/119/EG.pdf" H 6300 3800 50  0001 C CNN
+F 4 "digikey" H 6300 3800 50  0001 C CNN "Vendor"
+F 5 "EG1906-ND" H 6300 3800 50  0001 C CNN "Vendor part#"
+F 6 "EG1213" H 6300 3800 50  0001 C CNN "Manufacturer part#"
+	1    6300 3800
 	0    -1   1    0   
 $EndComp
-Connection ~ 5100 6050
+Connection ~ 4550 4950
 Wire Wire Line
-	5500 6050 5100 6050
+	4950 4950 4550 4950
 Wire Wire Line
-	5500 5900 5500 6050
+	4950 4800 4950 4950
 Wire Wire Line
-	5500 5550 5500 5700
+	4950 4450 4950 4600
 $Comp
 L Device:C_Small C?
 U 1 1 6111712D
-P 5500 5800
+P 4950 4700
 AR Path="/60273794/6111712D" Ref="C?"  Part="1" 
 AR Path="/6111712D" Ref="C?"  Part="1" 
 AR Path="/612A4892/6111712D" Ref="C51"  Part="1" 
-F 0 "C51" H 5350 5700 50  0000 C CNN
-F 1 ".1uF" H 5400 5900 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5500 5800 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 5500 5800 50  0001 C CNN
-F 4 "digikey" V 5500 5800 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 5500 5800 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 5500 5800 50  0001 C CNN "Manufacturer part#"
-	1    5500 5800
+F 0 "C51" H 4800 4600 50  0000 C CNN
+F 1 ".1uF" H 4850 4800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4950 4700 50  0001 C CNN
+F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4950 4700 50  0001 C CNN
+F 4 "digikey" V 4950 4700 50  0001 C CNN "Vendor"
+F 5 "445-173474-1-ND" V 4950 4700 50  0001 C CNN "Vendor part#"
+F 6 "FG28C0G1H103JNT06" V 4950 4700 50  0001 C CNN "Manufacturer part#"
+	1    4950 4700
 	-1   0    0    1   
 $EndComp
-Connection ~ 5500 5550
+Connection ~ 4950 4450
 Wire Wire Line
-	6100 3900 7350 3900
+	4950 4450 4850 4450
 Wire Wire Line
-	6100 5550 6100 3900
+	4950 4250 4950 4450
 Wire Wire Line
-	5500 5550 6100 5550
-Wire Wire Line
-	5500 5550 5400 5550
-Wire Wire Line
-	5500 5350 5500 5550
-Wire Wire Line
-	5600 5350 5500 5350
-Text GLabel 5600 5350 2    50   Output ~ 0
+	5050 4250 4950 4250
+Text GLabel 5050 4250 2    50   Output ~ 0
 8V
-Text HLabel 3450 5550 0    50   Input ~ 0
+Text HLabel 2900 4450 0    50   Input ~ 0
 P1
 Wire Wire Line
-	3450 5550 3600 5550
-Connection ~ 4550 6050
+	2900 4450 3050 4450
+Connection ~ 4000 4950
 Wire Wire Line
-	3950 6050 4550 6050
+	3400 4950 4000 4950
 Wire Wire Line
-	3950 5950 3950 6050
+	3400 4850 3400 4950
 Wire Wire Line
-	4550 6050 5100 6050
+	4000 4950 4550 4950
 Wire Wire Line
-	4550 5900 4550 6050
+	4000 4800 4000 4950
 Wire Wire Line
-	3950 5550 4050 5550
-Connection ~ 3950 5550
+	3400 4450 3500 4450
+Connection ~ 3400 4450
 Wire Wire Line
-	3950 5650 3950 5550
+	3400 4550 3400 4450
 Wire Wire Line
-	4550 5550 4800 5550
-Connection ~ 4550 5550
+	4000 4450 4250 4450
+Connection ~ 4000 4450
 Wire Wire Line
-	4550 5700 4550 5550
+	4000 4600 4000 4450
 Wire Wire Line
-	4350 5550 4550 5550
+	3800 4450 4000 4450
 Wire Wire Line
-	3800 5550 3950 5550
+	3250 4450 3400 4450
 $Comp
 L Diode:1N4002 D13
 U 1 1 60FA392A
-P 3950 5800
-F 0 "D13" V 3900 5650 50  0000 R CNN
-F 1 "1N4002" V 4050 5750 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3950 5625 50  0001 C CNN
-F 3 "https://www.mccsemi.com/pdf/Products/1N4001~1N4007(DO-41).pdf" H 3950 5800 50  0001 C CNN
-F 4 "digikey" H 3950 5800 50  0001 C CNN "Vendor"
-F 5 "1N4002-TPMSCT-ND" H 3950 5800 50  0001 C CNN "Vendor part#"
-F 6 "1N4002-TP" H 3950 5800 50  0001 C CNN "Manufacturer part#"
-	1    3950 5800
+P 3400 4700
+F 0 "D13" V 3350 4550 50  0000 R CNN
+F 1 "1N4002" V 3500 4650 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3400 4525 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/1N4001~1N4007(DO-41).pdf" H 3400 4700 50  0001 C CNN
+F 4 "digikey" H 3400 4700 50  0001 C CNN "Vendor"
+F 5 "1N4002-TPMSCT-ND" H 3400 4700 50  0001 C CNN "Vendor part#"
+F 6 "1N4002-TP" H 3400 4700 50  0001 C CNN "Manufacturer part#"
+	1    3400 4700
 	0    -1   1    0   
 $EndComp
 $Comp
 L Diode:1N4002 D14
 U 1 1 60F943CB
-P 4200 5550
-F 0 "D14" H 4200 5767 50  0000 C CNN
-F 1 "1N4002" H 4200 5676 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4200 5375 50  0001 C CNN
-F 3 "https://www.mccsemi.com/pdf/Products/1N4001~1N4007(DO-41).pdf" H 4200 5550 50  0001 C CNN
-F 4 "digikey" H 4200 5550 50  0001 C CNN "Vendor"
-F 5 "1N4002-TPMSCT-ND" H 4200 5550 50  0001 C CNN "Vendor part#"
-F 6 "1N4002-TP" H 4200 5550 50  0001 C CNN "Manufacturer part#"
-	1    4200 5550
+P 3650 4450
+F 0 "D14" H 3650 4667 50  0000 C CNN
+F 1 "1N4002" H 3650 4576 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3650 4275 50  0001 C CNN
+F 3 "https://www.mccsemi.com/pdf/Products/1N4001~1N4007(DO-41).pdf" H 3650 4450 50  0001 C CNN
+F 4 "digikey" H 3650 4450 50  0001 C CNN "Vendor"
+F 5 "1N4002-TPMSCT-ND" H 3650 4450 50  0001 C CNN "Vendor part#"
+F 6 "1N4002-TP" H 3650 4450 50  0001 C CNN "Manufacturer part#"
+	1    3650 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:CP_Small C62
 U 1 1 60F73DCD
-P 3700 5550
-F 0 "C62" V 3900 5500 50  0000 L CNN
-F 1 "220uF 25V" V 3800 5400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3700 5550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 3700 5550 50  0001 C CNN
-F 4 "digikey" H 3700 5550 50  0001 C CNN "Vendor"
-F 5 "P5153-ND" H 3700 5550 50  0001 C CNN "Vendor part#"
-F 6 "ECA-1EM221" H 3700 5550 50  0001 C CNN "Manufacturer part#"
-	1    3700 5550
+P 3150 4450
+F 0 "C62" V 3350 4400 50  0000 L CNN
+F 1 "220uF 25V" V 3250 4300 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3150 4450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 3150 4450 50  0001 C CNN
+F 4 "digikey" H 3150 4450 50  0001 C CNN "Vendor"
+F 5 "P5153-ND" H 3150 4450 50  0001 C CNN "Vendor part#"
+F 6 "ECA-1EM221" H 3150 4450 50  0001 C CNN "Manufacturer part#"
+	1    3150 4450
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:CP_Small C63
 U 1 1 60F71E97
-P 4550 5800
-F 0 "C63" H 4350 5850 50  0000 L CNN
-F 1 "220uF 25V" H 4100 5700 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4550 5800 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 4550 5800 50  0001 C CNN
-F 4 "digikey" H 4550 5800 50  0001 C CNN "Vendor"
-F 5 "P5153-ND" H 4550 5800 50  0001 C CNN "Vendor part#"
-F 6 "ECA-1EM221" H 4550 5800 50  0001 C CNN "Manufacturer part#"
-	1    4550 5800
+P 4000 4700
+F 0 "C63" H 3800 4750 50  0000 L CNN
+F 1 "220uF 25V" H 3550 4600 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4000 4700 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 4000 4700 50  0001 C CNN
+F 4 "digikey" H 4000 4700 50  0001 C CNN "Vendor"
+F 5 "P5153-ND" H 4000 4700 50  0001 C CNN "Vendor part#"
+F 6 "ECA-1EM221" H 4000 4700 50  0001 C CNN "Manufacturer part#"
+	1    4000 4700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5850 5100 6050
+	4550 4750 4550 4950
 $Comp
 L power:GNDS #PWR?
 U 1 1 60F5A149
-P 4550 6050
+P 4000 4950
 AR Path="/602A51A8/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/60F5A149" Ref="#PWR?"  Part="1" 
 AR Path="/612A4892/60F5A149" Ref="#PWR01105"  Part="1" 
-F 0 "#PWR01105" H 4550 5800 50  0001 C CNN
-F 1 "GNDS" H 4550 5900 50  0000 C CNN
-F 2 "" H 4550 6050 50  0001 C CNN
-F 3 "" H 4550 6050 50  0001 C CNN
-	1    4550 6050
+F 0 "#PWR01105" H 4000 4700 50  0001 C CNN
+F 1 "GNDS" H 4000 4800 50  0000 C CNN
+F 2 "" H 4000 4950 50  0001 C CNN
+F 3 "" H 4000 4950 50  0001 C CNN
+	1    4000 4950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:MC78L08_TO92 IC36
 U 1 1 60F3601D
-P 5100 5550
-F 0 "IC36" H 5100 5792 50  0000 C CNN
-F 1 "MC78L08_TO92" H 5100 5701 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 5775 50  0001 C CIN
-F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l" H 5100 5500 50  0001 C CNN
-F 4 "digikey" H 5100 5550 50  0001 C CNN "Vendor"
-F 5 "296-UA78L08ACLPRE3CT-ND" H 5100 5550 50  0001 C CNN "Vendor part#"
-F 6 "UA78L08ACLPRE3" H 5100 5550 50  0001 C CNN "Manufacturer part#"
-	1    5100 5550
+P 4550 4450
+F 0 "IC36" H 4550 4692 50  0000 C CNN
+F 1 "MC78L08_TO92" H 4550 4601 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 4675 50  0001 C CIN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fua78l" H 4550 4400 50  0001 C CNN
+F 4 "digikey" H 4550 4450 50  0001 C CNN "Vendor"
+F 5 "296-UA78L08ACLPRE3CT-ND" H 4550 4450 50  0001 C CNN "Vendor part#"
+F 6 "UA78L08ACLPRE3" H 4550 4450 50  0001 C CNN "Manufacturer part#"
+	1    4550 4450
 	1    0    0    -1  
 $EndComp
+Connection ~ 4550 6400
 Wire Wire Line
-	5650 4200 5650 4250
-Connection ~ 5650 4200
-Wire Wire Line
-	6000 4200 5650 4200
-Wire Wire Line
-	6000 3800 6000 4200
-Wire Wire Line
-	7350 3800 6000 3800
-Wire Wire Line
-	5650 4100 5650 4200
-Wire Wire Line
-	5650 3700 7350 3700
-Connection ~ 5650 3700
-Wire Wire Line
-	5650 3900 5650 3700
+	4550 6600 4550 6400
 $Comp
 L power:GNDS #PWR?
 U 1 1 61305ADB
-P 5650 4250
+P 4550 6950
 AR Path="/602A51A8/61305ADB" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/61305ADB" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/61305ADB" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/61305ADB" Ref="#PWR?"  Part="1" 
 AR Path="/61305ADB" Ref="#PWR?"  Part="1" 
 AR Path="/612A4892/61305ADB" Ref="#PWR01103"  Part="1" 
-F 0 "#PWR01103" H 5650 4000 50  0001 C CNN
-F 1 "GNDS" H 5650 4100 50  0000 C CNN
-F 2 "" H 5650 4250 50  0001 C CNN
-F 3 "" H 5650 4250 50  0001 C CNN
-	1    5650 4250
+F 0 "#PWR01103" H 4550 6700 50  0001 C CNN
+F 1 "GNDS" H 4550 6800 50  0000 C CNN
+F 2 "" H 4550 6950 50  0001 C CNN
+F 3 "" H 4550 6950 50  0001 C CNN
+	1    4550 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61302455
-P 5650 4000
+P 4550 6700
 AR Path="/60273794/61302455" Ref="R?"  Part="1" 
 AR Path="/603D560B/61302455" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61302455" Ref="R?"  Part="1" 
 AR Path="/612A4892/61302455" Ref="R26"  Part="1" 
-F 0 "R26" H 5750 4000 50  0000 L CNN
-F 1 "2.2K" H 5700 4100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5650 4000 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 5650 4000 50  0001 C CNN
-F 4 "digikey" H 5650 4000 50  0001 C CNN "Vendor"
-F 5 "CF14JT2K20CT-ND" H 5650 4000 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT2K20" H 5650 4000 50  0001 C CNN "Manufacturer part#"
-	1    5650 4000
+F 0 "R26" H 4650 6700 50  0000 L CNN
+F 1 "2.2K" H 4600 6800 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4550 6700 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 4550 6700 50  0001 C CNN
+F 4 "digikey" H 4550 6700 50  0001 C CNN "Vendor"
+F 5 "CF14JT2K20CT-ND" H 4550 6700 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT2K20" H 4550 6700 50  0001 C CNN "Manufacturer part#"
+	1    4550 6700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4950 3700 5650 3700
-Wire Wire Line
-	4250 2250 4000 2250
-Connection ~ 4250 2250
-Wire Wire Line
-	4250 3700 4250 2250
-Wire Wire Line
-	4750 3700 4250 3700
+	3850 6400 4550 6400
 $Comp
 L Device:CP_Small C?
 U 1 1 612EE250
-P 4850 3700
+P 3750 6400
 AR Path="/60273794/612EE250" Ref="C?"  Part="1" 
 AR Path="/612A4892/612EE250" Ref="C67"  Part="1" 
-F 0 "C67" V 5100 3700 50  0000 C CNN
-F 1 "10uF 25v" V 4950 3700 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4850 3700 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 4850 3700 50  0001 C CNN
-F 4 "digikey" V 4850 3700 50  0001 C CNN "Vendor"
-F 5 "493-1809-ND" V 4850 3700 50  0001 C CNN "Vendor part#"
-F 6 "UPW1E100MDD" V 4850 3700 50  0001 C CNN "Manufacturer part#"
-	1    4850 3700
+F 0 "C67" V 4000 6400 50  0000 C CNN
+F 1 "10uF 25v" V 3850 6400 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3750 6400 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-upw.pdf" H 3750 6400 50  0001 C CNN
+F 4 "digikey" V 3750 6400 50  0001 C CNN "Vendor"
+F 5 "493-1809-ND" V 3750 6400 50  0001 C CNN "Vendor part#"
+F 6 "UPW1E100MDD" V 3750 6400 50  0001 C CNN "Manufacturer part#"
+	1    3750 6400
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7500 2400
 Wire Wire Line
-	7050 3600 7350 3600
-Wire Wire Line
-	7050 2400 7050 3600
-Wire Wire Line
 	7500 2400 7050 2400
-$Comp
-L Connector_Generic:Conn_01x05 J1002
-U 1 1 612BF238
-P 7550 3800
-F 0 "J1002" H 7550 4150 50  0000 L CNN
-F 1 "RF MODULATOR" H 7650 4000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7550 3800 50  0001 C CNN
-F 3 "~" H 7550 3800 50  0001 C CNN
-	1    7550 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 2200 7250 2200
 Text HLabel 6850 2200 0    50   Input ~ 0
@@ -664,8 +616,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 2250 3750 2450
 Connection ~ 3750 2250
-Wire Wire Line
-	4750 2250 4250 2250
 Wire Wire Line
 	5350 2500 5350 2600
 Connection ~ 5350 2500
@@ -1962,7 +1912,7 @@ L Connector:TestPoint TP7
 U 1 1 6120E30D
 P 4000 2150
 F 0 "TP7" H 4058 2268 50  0000 L CNN
-F 1 "TestPoint" H 3950 2400 50  0000 L CNN
+F 1 "VIDEO" H 3950 2400 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4200 2150 50  0001 C CNN
 F 3 "~" H 4200 2150 50  0001 C CNN
 	1    4000 2150
@@ -1973,4 +1923,68 @@ Wire Wire Line
 Connection ~ 4000 2250
 Wire Wire Line
 	4000 2250 3750 2250
+$Comp
+L coco2:CoCo3RFModulator RF1
+U 1 1 6110FA77
+P 7900 2950
+F 0 "RF1" H 7850 2750 50  0000 L CNN
+F 1 "CoCo3RFModulator" V 8150 2150 50  0000 L CNN
+F 2 "coco2:CoCo 3 RF Modulator" H 7900 2950 50  0001 C CNN
+F 3 "" H 7900 2950 50  0001 C CNN
+	1    7900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6800 4550 6950
+Wire Wire Line
+	4950 4450 5800 4450
+Wire Wire Line
+	4000 2250 4750 2250
+Wire Wire Line
+	4000 2250 4000 3350
+Wire Wire Line
+	4000 3350 2600 3350
+Wire Wire Line
+	2600 3350 2600 6400
+Wire Wire Line
+	2600 6400 3650 6400
+Wire Wire Line
+	7050 2400 7050 3300
+Wire Wire Line
+	7050 3300 7600 3300
+Wire Wire Line
+	6300 3400 6300 3600
+Wire Wire Line
+	6300 3400 7600 3400
+Text GLabel 7400 3500 0    50   Output ~ 0
+8V
+Wire Wire Line
+	7400 3500 7600 3500
+Wire Wire Line
+	6900 6400 6900 3600
+Wire Wire Line
+	6900 3600 7600 3600
+Wire Wire Line
+	4550 6400 6900 6400
+$Comp
+L power:GNDS #PWR?
+U 1 1 61354D89
+P 7350 3800
+AR Path="/602A51A8/61354D89" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/61354D89" Ref="#PWR?"  Part="1" 
+AR Path="/603E4732/61354D89" Ref="#PWR?"  Part="1" 
+AR Path="/603D345E/61354D89" Ref="#PWR?"  Part="1" 
+AR Path="/61354D89" Ref="#PWR?"  Part="1" 
+AR Path="/612A4892/61354D89" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7350 3550 50  0001 C CNN
+F 1 "GNDS" H 7350 3650 50  0000 C CNN
+F 2 "" H 7350 3800 50  0001 C CNN
+F 3 "" H 7350 3800 50  0001 C CNN
+	1    7350 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3700 7350 3700
+Wire Wire Line
+	7350 3700 7350 3800
 $EndSCHEMATC
