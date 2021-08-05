@@ -1987,4 +1987,10 @@ Wire Wire Line
 	7600 3700 7350 3700
 Wire Wire Line
 	7350 3700 7350 3800
+Text Label 7400 3300 0    50   ~ 0
+S
+Text Label 7400 3400 0    50   ~ 0
+CH
+Text Label 7450 3600 0    50   ~ 0
+V
 $EndSCHEMATC

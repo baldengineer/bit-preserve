@@ -51,7 +51,7 @@ F 2 "Package_LCC:PLCC-68_THT-Socket" H 7850 4150 50  0001 C CNN
 F 3 "http://www.assmann-wsw.com/uploads/datasheets/ASS_7007_CO.pdf" H 7850 4150 50  0001 C CNN
 F 4 "digikey" H 7800 3950 50  0001 C CNN "Vendor"
 F 5 "AE11249-ND" H 7800 3950 50  0001 C CNN "Vendor part#"
-F 6 "Assmann WSW Components" H 7800 3950 50  0001 C CNN "Manufacturer part#"
+F 6 "A-CCS 068-G-T" H 7800 3950 50  0001 C CNN "Manufacturer part#"
 	1    7800 3950
 	1    0    0    -1  
 $EndComp
