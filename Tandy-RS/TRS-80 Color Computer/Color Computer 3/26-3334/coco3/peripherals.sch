@@ -14,7 +14,7 @@ Comment3 "Based on  Color Computer 3 Service Manual (Tandy).pdf"
 Comment4 "Kicad schematic capture by Rocky Hill"
 $EndDescr
 $Comp
-L Transistor_BJT:2N3055 Q?
+L Device:Q_NPN_BCE Q?
 U 1 1 60A8718E
 P 9700 1850
 AR Path="/602A51A8/60A8718E" Ref="Q?"  Part="1" 
@@ -181,7 +181,7 @@ $EndComp
 Wire Wire Line
 	10800 2400 10800 2450
 Wire Wire Line
-	10800 2450 10650 2450
+	10800 2450 10700 2450
 Connection ~ 10150 2450
 $Comp
 L power:PWR_FLAG #FLG?
@@ -232,20 +232,6 @@ F 5 "digikey" H 2950 2450 50  0001 C CNN "Vendor"
 F 6 "ED3048-5-ND" H 2950 2450 50  0001 C CNN "Vendor part#"
 F 7 "ED40DT" H 2950 2450 50  0001 C CNN "Manufacturer part#"
 	1    2950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x16_Female J1001
-U 1 1 60B58FEF
-P 5000 1850
-F 0 "J1001" H 5028 1826 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 5028 1735 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
-F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
-F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
-F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
-	1    5000 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -923,13 +909,13 @@ U 1 1 61810AA1
 P 11350 5200
 AR Path="/60273794/61810AA1" Ref="R?"  Part="1" 
 AR Path="/603CF7B8/61810AA1" Ref="R15"  Part="1" 
-F 0 "R15" H 11450 5200 50  0000 L CNN
-F 1 "270" H 11100 5200 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 11350 5200 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 11350 5200 50  0001 C CNN
+F 0 "R15" H 11400 5100 50  0000 L CNN
+F 1 "270 1/2W" H 11400 5200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 11350 5200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 11350 5200 50  0001 C CNN
 F 4 "digikey" H 11350 5200 50  0001 C CNN "Vendor"
-F 5 "CF14JT270RCT-ND" H 11350 5200 50  0001 C CNN "Vendor part#"
-F 6 "CF14JT270R" H 11350 5200 50  0001 C CNN "Manufacturer part#"
+F 5 "BC4316CT-ND" H 11350 5200 50  0001 C CNN "Vendor part#"
+F 6 "SFR16S0002700JA500" H 11350 5200 50  0001 C CNN "Manufacturer part#"
 	1    11350 5200
 	-1   0    0    1   
 $EndComp
@@ -1302,12 +1288,12 @@ P 11600 5600
 AR Path="/602A51A8/611ED7B5" Ref="FB?"  Part="1" 
 AR Path="/603CF7B8/611ED7B5" Ref="FB7"  Part="1" 
 F 0 "FB7" V 11750 5550 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 11700 5555 50  0001 L CNN
-F 2 "coco2:ferrite_bead" V 11530 5600 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 11600 5600 50  0001 C CNN
+F 1 " " H 11700 5555 50  0001 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 11530 5600 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 11600 5600 50  0001 C CNN
 F 4 "digikey" H 11600 5600 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 11600 5600 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 11600 5600 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 11600 5600 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 11600 5600 50  0001 C CNN "Manufacturer part#"
 	1    11600 5600
 	0    -1   -1   0   
 $EndComp
@@ -1318,12 +1304,12 @@ P 12100 6150
 AR Path="/602A51A8/61285B98" Ref="FB?"  Part="1" 
 AR Path="/603CF7B8/61285B98" Ref="FB8"  Part="1" 
 F 0 "FB8" H 11950 6250 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 12200 6105 50  0001 L CNN
-F 2 "coco2:ferrite_bead" V 12030 6150 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 12100 6150 50  0001 C CNN
+F 1 " " H 12200 6105 50  0001 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 12030 6150 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 12100 6150 50  0001 C CNN
 F 4 "digikey" H 12100 6150 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 12100 6150 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 12100 6150 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 12100 6150 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 12100 6150 50  0001 C CNN "Manufacturer part#"
 	1    12100 6150
 	1    0    0    -1  
 $EndComp
@@ -1410,12 +1396,12 @@ P 7350 6000
 AR Path="/602A51A8/60FAA0D8" Ref="FB?"  Part="1" 
 AR Path="/603CF7B8/60FAA0D8" Ref="FB6"  Part="1" 
 F 0 "FB6" V 7500 6000 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 7450 5955 50  0001 L CNN
-F 2 "coco2:ferrite_bead" V 7280 6000 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 7350 6000 50  0001 C CNN
+F 1 " " H 7450 5955 50  0001 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 7280 6000 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 7350 6000 50  0001 C CNN
 F 4 "digikey" H 7350 6000 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 7350 6000 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 7350 6000 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 7350 6000 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 7350 6000 50  0001 C CNN "Manufacturer part#"
 	1    7350 6000
 	0    -1   -1   0   
 $EndComp
@@ -1656,12 +1642,12 @@ P 12350 1250
 AR Path="/602A51A8/6167C1CB" Ref="FB?"  Part="1" 
 AR Path="/603CF7B8/6167C1CB" Ref="FB9"  Part="1" 
 F 0 "FB9" V 12150 1200 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 12450 1205 50  0001 L CNN
-F 2 "coco2:ferrite_bead" V 12280 1250 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 12350 1250 50  0001 C CNN
+F 1 " " H 12450 1205 50  0001 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 12280 1250 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 12350 1250 50  0001 C CNN
 F 4 "digikey" H 12350 1250 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 12350 1250 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 12350 1250 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 12350 1250 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 12350 1250 50  0001 C CNN "Manufacturer part#"
 	1    12350 1250
 	0    1    1    0   
 $EndComp
@@ -2038,12 +2024,12 @@ P 12350 3300
 AR Path="/602A51A8/622CAFCF" Ref="FB?"  Part="1" 
 AR Path="/603CF7B8/622CAFCF" Ref="FB10"  Part="1" 
 F 0 "FB10" V 12150 3250 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 12450 3255 50  0001 L CNN
-F 2 "coco2:ferrite_bead" V 12280 3300 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 12350 3300 50  0001 C CNN
+F 1 " " H 12450 3255 50  0001 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 12280 3300 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 12350 3300 50  0001 C CNN
 F 4 "digikey" H 12350 3300 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 12350 3300 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 12350 3300 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 12350 3300 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 12350 3300 50  0001 C CNN "Manufacturer part#"
 	1    12350 3300
 	0    1    1    0   
 $EndComp
@@ -2406,6 +2392,40 @@ Wire Wire Line
 	2250 2600 2250 2650
 Wire Wire Line
 	2250 2650 2450 2650
+$Comp
+L Connector:Conn_01x16_Female CN2
+U 1 1 60B58FEF
+P 5000 1850
+F 0 "CN2" H 5028 1826 50  0000 L CNN
+F 1 "Conn_01x16_Female" H 5028 1735 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5000 1850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=520415&DocType=Customer+Drawing&DocLang=English" H 5000 1850 50  0001 C CNN
+F 4 "digikey" H 5000 1850 50  0001 C CNN "Vendor"
+F 5 "A144434-ND" H 5000 1850 50  0001 C CNN "Vendor part#"
+F 6 "6-520415-6" H 5000 1850 50  0001 C CNN "Manufacturer part#"
+	1    5000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61407312
+P 10850 2700
+AR Path="/612A4892/61407312" Ref="TP?"  Part="1" 
+AR Path="/603CF7B8/61407312" Ref="TP1"  Part="1" 
+F 0 "TP1" V 10750 2700 50  0000 L CNN
+F 1 "5V" V 10950 2750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 11050 2700 50  0001 C CNN
+F 3 "~" H 11050 2700 50  0001 C CNN
+	1    10850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10700 2700 10700 2450
+Wire Wire Line
+	10700 2700 10850 2700
+Connection ~ 10700 2450
+Wire Wire Line
+	10700 2450 10650 2450
 Wire Bus Line
 	1400 2150 1800 2150
 Wire Bus Line

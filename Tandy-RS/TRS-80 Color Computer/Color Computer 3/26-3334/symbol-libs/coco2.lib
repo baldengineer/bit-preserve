@@ -76,6 +76,23 @@ X 4Q 9 500 100 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
+# CoCo3RFModulator
+#
+DEF CoCo3RFModulator RF 0 40 Y Y 1 F N
+F0 "RF" 0 0 50 H V C CNN
+F1 "CoCo3RFModulator" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -250 150 -800 0 1 0 f
+X Sound 1 -300 -350 100 R 50 50 1 1 I
+X Channel 2 -300 -450 100 R 50 50 1 1 I
+X +8V 3 -300 -550 100 R 50 50 1 1 W
+X Video 4 -300 -650 100 R 50 50 1 1 I
+X GND 5 -300 -750 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # DIN-5_180degree_Cassette
 #
 DEF DIN-5_180degree_Cassette J 0 40 Y Y 1 F N

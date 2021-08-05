@@ -219,12 +219,12 @@ L Device:Ferrite_Bead_Small FB1
 U 1 1 602CCBDB
 P 6250 2850
 F 0 "FB1" H 6350 2896 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 6350 2805 50  0000 L CNN
-F 2 "coco2:ferrite_bead" V 6180 2850 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 6250 2850 50  0001 C CNN
+F 1 " " H 6350 2805 50  0000 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 6180 2850 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 6250 2850 50  0001 C CNN
 F 4 "digikey" H 6250 2850 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 6250 2850 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 6250 2850 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 6250 2850 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 6250 2850 50  0001 C CNN "Manufacturer part#"
 	1    6250 2850
 	1    0    0    -1  
 $EndComp
@@ -233,12 +233,12 @@ L Device:Ferrite_Bead_Small FB2
 U 1 1 602CE834
 P 4050 2900
 F 0 "FB2" H 4150 2946 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 4150 2855 50  0000 L CNN
-F 2 "coco2:ferrite_bead" V 3980 2900 50  0001 C CNN
-F 3 "http://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=18608" H 4050 2900 50  0001 C CNN
+F 1 " " H 4150 2855 50  0000 L CNN
+F 2 "coco2:FB_28L0138-10R-10" V 3980 2900 50  0001 C CNN
+F 3 " https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" H 4050 2900 50  0001 C CNN
 F 4 "digikey" H 4050 2900 50  0001 C CNN "Vendor"
-F 5 "1934-1364-ND" H 4050 2900 50  0001 C CNN "Vendor part#"
-F 6 "2743007111" H 4050 2900 50  0001 C CNN "Manufacturer part#"
+F 5 "240-2438-1-ND" H 4050 2900 50  0001 C CNN "Vendor part#"
+F 6 "28L0138-10R-10" H 4050 2900 50  0001 C CNN "Manufacturer part#"
 	1    4050 2900
 	1    0    0    -1  
 $EndComp

@@ -787,11 +787,11 @@ AR Path="/602A51A8/61526683" Ref="C?"  Part="1"
 AR Path="/60273794/61526683" Ref="C5"  Part="1" 
 F 0 "C5" V 2071 1000 50  0000 C CNN
 F 1 ".033uF" V 2162 1000 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2300 1000 50  0001 C CNN
-F 3 "https://api.kemet.com/component-edge/download/datasheet/C317C223M5U5TA7301.pdf" H 2300 1000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal" H 2300 1000 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C410C333K5R5TA7200.pdf" H 2300 1000 50  0001 C CNN
 F 4 "digikey" H 2300 1000 50  0001 C CNN "Vendor"
-F 5 "BC1098CT-ND" H 2300 1000 50  0001 C CNN "Vendor part#"
-F 6 "K333K15X7RF5TH5" H 2300 1000 50  0001 C CNN "Manufacturer part#"
+F 5 "399-4470-1-ND" H 2300 1000 50  0001 C CNN "Vendor part#"
+F 6 "C410C333K5R5TA7200" H 2300 1000 50  0001 C CNN "Manufacturer part#"
 	1    2300 1000
 	0    1    1    0   
 $EndComp
