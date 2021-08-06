@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title ""
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1874,32 +1874,18 @@ Wire Wire Line
 	3250 5100 3700 5100
 Wire Wire Line
 	3250 5250 3700 5250
-Wire Wire Line
-	3250 6500 3700 6500
 Text Label 3700 6500 2    50   ~ 0
 AN3
-Wire Wire Line
-	3250 6600 3700 6600
 Text Label 3700 6600 2    50   ~ 0
 AN2
-Wire Wire Line
-	3250 6700 3700 6700
 Text Label 3700 6700 2    50   ~ 0
 AN1
-Wire Wire Line
-	3250 6800 3700 6800
 Text Label 3700 6800 2    50   ~ 0
 AN0
-Wire Wire Line
-	3250 6000 3700 6000
 Text Label 3700 6000 2    50   ~ 0
 INTDEV6.L
-Wire Wire Line
-	3250 5700 3700 5700
 Text Label 3700 5700 2    50   ~ 0
 KSEL0.L
-Wire Wire Line
-	3250 5550 3700 5550
 Text Label 3700 5550 2    50   ~ 0
 C038-F.L
 $Comp
@@ -1917,22 +1903,12 @@ Text Label 1700 5000 0    50   ~ 0
 SBUS5
 Text Label 1700 4800 0    50   ~ 0
 RESET.L
-Wire Wire Line
-	1700 4800 2050 4800
-Wire Wire Line
-	2050 4500 1700 4500
 Text Label 1700 4500 0    50   ~ 0
 A2R-W.H
-Wire Wire Line
-	2050 4300 1700 4300
 Text Label 1700 4300 0    50   ~ 0
 7M.H
-Wire Wire Line
-	2050 4200 1700 4200
 Text Label 1700 4200 0    50   ~ 0
 Q3.H
-Wire Wire Line
-	2050 4100 1700 4100
 Text Label 1700 4100 0    50   ~ 0
 PH0.H
 $Comp
@@ -2203,10 +2179,6 @@ Connection ~ 2200 2450
 Text Label 2950 2450 2    50   ~ 0
 M2BADD
 Wire Wire Line
-	4250 2350 4650 2350
-Wire Wire Line
-	4250 2700 4650 2700
-Wire Wire Line
 	3850 2350 4050 2350
 Wire Wire Line
 	3850 2700 4050 2700
@@ -2277,4 +2249,65 @@ F 3 "" H 2450 8900 50  0001 C CNN
 	1    2650 8250
 	-1   0    0    -1  
 $EndComp
+Text HLabel 4750 2350 2    50   Input ~ 0
+RDY.H
+Text HLabel 4750 2700 2    50   Input ~ 0
+NMI.L
+Wire Wire Line
+	4250 2700 4750 2700
+Wire Wire Line
+	4250 2350 4750 2350
+Text HLabel 1650 4100 0    50   Input ~ 0
+PH0.H
+Text HLabel 1650 4200 0    50   Input ~ 0
+Q3.H
+Text HLabel 1650 4300 0    50   Input ~ 0
+7M.H
+Text HLabel 1650 4500 0    50   Input ~ 0
+A2R-W.H
+Wire Wire Line
+	1650 4100 2050 4100
+Wire Wire Line
+	1650 4200 2050 4200
+Wire Wire Line
+	1650 4300 2050 4300
+Wire Wire Line
+	1650 4500 2050 4500
+Text HLabel 1650 4800 0    50   Input ~ 0
+RESET.L
+Wire Wire Line
+	1650 4800 2050 4800
+Text HLabel 3750 5700 2    50   Input ~ 0
+KSEL0.L
+Wire Wire Line
+	3250 5700 3750 5700
+Text HLabel 3750 6500 2    50   Input ~ 0
+AN3
+Text HLabel 3750 6600 2    50   Input ~ 0
+AN2
+Text HLabel 3750 6700 2    50   Input ~ 0
+AN1
+Text HLabel 3750 6800 2    50   Input ~ 0
+AN0
+Wire Wire Line
+	3250 6800 3750 6800
+Wire Wire Line
+	3250 6700 3750 6700
+Wire Wire Line
+	3250 6600 3750 6600
+Wire Wire Line
+	3250 6500 3750 6500
+Text HLabel 3750 6000 2    50   Input ~ 0
+INTDEV6.L
+Wire Wire Line
+	3250 6000 3750 6000
+Text HLabel 3750 5550 2    50   Input ~ 0
+C038-F.L
+Wire Wire Line
+	3250 5550 3750 5550
+Text HLabel 1650 7850 0    50   Input ~ 0
+MDIN-OUT
+Wire Wire Line
+	1650 7850 1700 7850
+Connection ~ 1700 7850
 $EndSCHEMATC
