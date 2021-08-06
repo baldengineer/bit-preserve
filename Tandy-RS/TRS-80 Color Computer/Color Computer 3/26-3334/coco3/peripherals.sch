@@ -1265,8 +1265,8 @@ Wire Wire Line
 Connection ~ 5250 6650
 Wire Wire Line
 	5250 6650 5600 6650
-Text Notes 9600 6350 0    47   ~ 0
-RY1 is not the original relay\nbecause the original because \nthe original is no longer made.
+Text Notes 9600 6350 0    47   Italic 0
+RY1 is not the original relay\nthe original is no longer made.
 Wire Notes Line
 	10750 6050 10750 6450
 Wire Notes Line
