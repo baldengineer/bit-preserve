@@ -48,7 +48,7 @@ $EndSheet
 $Sheet
 S 1200 4800 1700 2400
 U 5BF204DB
-F0 "UG12-5, KEYGLU, Burn Edge, Gameport?" 50
+F0 "ABD, KEYGLU, Burn Edge, Gameport?" 50
 F1 "UG12-5.sch" 50
 F2 "CREF.H" I L 1200 5000 50 
 F3 "KSEL0.L" I L 1200 5250 50 

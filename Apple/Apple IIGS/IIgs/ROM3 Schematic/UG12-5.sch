@@ -1232,8 +1232,6 @@ Wire Wire Line
 	750  6900 850  6900
 Wire Wire Line
 	1050 6900 1150 6900
-Text Notes 5400 950  0    50   ~ 0
-off-page symbols not show
 Text HLabel 4350 4250 0    39   Input ~ 0
 CREF.H
 Text Notes 800  6050 0    50   ~ 0
@@ -1256,8 +1254,6 @@ Text HLabel 8600 1900 0    50   Input ~ 0
 VBL.L
 Wire Wire Line
 	4250 3850 4750 3850
-Text Notes 4900 1500 0    50   ~ 0
-Is UG12 completed?
 Text HLabel 8600 5350 0    50   Input ~ 0
 DIAGSW
 Text HLabel 8800 5750 0    50   Input ~ 0
@@ -1282,8 +1278,6 @@ Wire Wire Line
 	8600 1400 9050 1400
 Wire Wire Line
 	8600 1900 9050 1900
-Text Notes 9150 700  0    50   ~ 0
-Is KEYGLU completed?
 Text Notes 10100 3850 2    50   ~ 0
 Does KEYGLU also do matrix decoding?!\n(For the Apple IIe Keyboard connector)
 Text HLabel 8600 4950 0    50   Input ~ 0

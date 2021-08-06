@@ -2435,12 +2435,12 @@ Text HLabel 3750 8000 0    50   Input ~ 0
 DBENB.L
 Text HLabel 14850 1400 0    50   Input ~ 0
 RABUS[7..0]
+Text Notes 10100 5550 0    50   ~ 0
+MDIN-OUT \ncontrols Main Data on Slots
 Wire Bus Line
 	2500 3700 2500 4400
 Wire Bus Line
 	14950 1400 14950 2100
 Wire Bus Line
 	2500 1300 2500 2950
-Text Notes 10100 5550 0    50   ~ 0
-MDIN-OUT \ncontrols Main Data on Slots
 $EndSCHEMATC

@@ -2310,4 +2310,6 @@ MDIN-OUT
 Wire Wire Line
 	1650 7850 1700 7850
 Connection ~ 1700 7850
+Text Notes 2500 7250 0    50   ~ 0
+C038-3F appears to be sound related\nhttps://www.kreativekorp.com/miscpages/a2info/iomemory.shtml
 $EndSCHEMATC
