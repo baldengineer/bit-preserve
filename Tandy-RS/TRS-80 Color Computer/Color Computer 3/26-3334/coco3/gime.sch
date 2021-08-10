@@ -1727,9 +1727,9 @@ F 0 "C64" H 8250 6800 50  0000 C CNN
 F 1 "150pF" H 8300 7050 50  0000 C CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8150 6950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fa_en.pdf?ref_disty=digikey" H 8150 6950 50  0001 C CNN
-F 4 "digikey" V 8150 6950 50  0001 C CNN "digikey"
-F 5 "445-180756-1-ND" V 8150 6950 50  0001 C CNN "445-180756-1-ND"
-F 6 "FA28C0G2E151JNU06" V 8150 6950 50  0001 C CNN "FA28C0G2E151JNU06"
+F 4 "digikey" V 8150 6950 50  0001 C CNN "Vendor"
+F 5 "445-180756-1-ND" V 8150 6950 50  0001 C CNN "Vendor part#"
+F 6 "FA28C0G2E151JNU06" V 8150 6950 50  0001 C CNN "Manufacturer part#"
 	1    8150 6950
 	1    0    0    1   
 $EndComp

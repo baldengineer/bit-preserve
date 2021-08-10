@@ -782,7 +782,7 @@ U 1 1 6153266E
 P 9850 1700
 F 0 "CN4" H 9900 2200 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 9878 1585 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9850 1700 50  0001 C CNN
+F 2 "coco2:PinSocket_1x12_P2.54mm_for_memory_board_adapter" H 9850 1700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022182121_sd.pdf" H 9850 1700 50  0001 C CNN
 F 4 "digikey" H 9850 1700 50  0001 C CNN "Vendor"
 F 5 "23-0022182121-ND" H 9850 1700 50  0001 C CNN "Vendor part#"
@@ -796,7 +796,7 @@ U 1 1 6153C863
 P 9850 3350
 F 0 "CN5" H 9900 3850 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 9878 3235 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9850 3350 50  0001 C CNN
+F 2 "coco2:PinSocket_1x12_P2.54mm_for_memory_board_adapter" H 9850 3350 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022182121_sd.pdf" H 9850 3350 50  0001 C CNN
 F 4 "digikey" H 9850 3350 50  0001 C CNN "Vendor"
 F 5 "23-0022182121-ND" H 9850 3350 50  0001 C CNN "Vendor part#"
@@ -810,7 +810,7 @@ U 1 1 6153D7DA
 P 9850 5050
 F 0 "CN6" H 9900 5550 50  0000 L CNN
 F 1 "Conn_01x12_Female" H 9878 4935 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 9850 5050 50  0001 C CNN
+F 2 "coco2:PinSocket_1x12_P2.54mm_for_memory_board_adapter" H 9850 5050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/022182121_sd.pdf" H 9850 5050 50  0001 C CNN
 F 4 "digikey" H 9850 5050 50  0001 C CNN "Vendor"
 F 5 "23-0022182121-ND" H 9850 5050 50  0001 C CNN "Vendor part#"
