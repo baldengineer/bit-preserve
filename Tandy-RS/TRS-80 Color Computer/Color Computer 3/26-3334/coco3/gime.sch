@@ -1772,8 +1772,8 @@ F 1 "10pF-50pF" H 8665 6905 50  0000 L CNN
 F 2 "coco2:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8550 6950 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/EW%20Electronics-Edmar/GKGxx015_016_Series_DS.pdf" H 8550 6950 50  0001 C CNN
 F 4 "digikey" H 8550 6950 50  0001 C CNN "Vendor"
-F 5 "2447-GKG50015-ND" H 8550 6950 50  0001 C CNN "Vendor part#"
-F 6 "GKG50015" H 8550 6950 50  0001 C CNN "Manufacturer part#"
+F 5 "2447-GKG60015-ND" H 8550 6950 50  0001 C CNN "Vendor part#"
+F 6 "GKG60015" H 8550 6950 50  0001 C CNN "Manufacturer part#"
 	1    8550 6950
 	1    0    0    -1  
 $EndComp
@@ -2053,67 +2053,67 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 6136F6EC
-P 6000 6100
+P 6000 6400
 AR Path="/60273794/6136F6EC" Ref="C?"  Part="1" 
 AR Path="/602A51A8/6136F6EC" Ref="C?"  Part="1" 
 AR Path="/603CF7B8/6136F6EC" Ref="C?"  Part="1" 
 AR Path="/61257512/6136F6EC" Ref="C66"  Part="1" 
-F 0 "C66" H 5850 6100 50  0000 C CNN
-F 1 "27pF" H 5850 6200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6000 6100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 6000 6100 50  0001 C CNN
-F 4 "digikey" V 6000 6100 50  0001 C CNN "Vendor"
-F 5 "BC1035CT-ND" V 6000 6100 50  0001 C CNN "Vendor part#"
-F 6 "K270J15C0GF5TH5" V 6000 6100 50  0001 C CNN "Manufacturer part#"
-	1    6000 6100
+F 0 "C66" H 5850 6400 50  0000 C CNN
+F 1 "27pF" H 5850 6500 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 6000 6400 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 6000 6400 50  0001 C CNN
+F 4 "digikey" V 6000 6400 50  0001 C CNN "Vendor"
+F 5 "BC1035CT-ND" V 6000 6400 50  0001 C CNN "Vendor part#"
+F 6 "K270J15C0GF5TH5" V 6000 6400 50  0001 C CNN "Manufacturer part#"
+	1    6000 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 6138ACD5
-P 5850 6100
+P 5850 6400
 AR Path="/60273794/6138ACD5" Ref="C?"  Part="1" 
 AR Path="/602A51A8/6138ACD5" Ref="C?"  Part="1" 
 AR Path="/603CF7B8/6138ACD5" Ref="C?"  Part="1" 
 AR Path="/61257512/6138ACD5" Ref="C65"  Part="1" 
-F 0 "C65" H 5700 6100 50  0000 C CNN
-F 1 "82pF" H 5700 6200 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5850 6100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 5850 6100 50  0001 C CNN
-F 4 "digikey" V 5850 6100 50  0001 C CNN "Vendor"
-F 5 "BC1041CT-ND" V 5850 6100 50  0001 C CNN "Vendor part#"
-F 6 "K820J15C0GF5TH5" V 5850 6100 50  0001 C CNN "Manufacturer part#"
-	1    5850 6100
+F 0 "C65" H 5700 6400 50  0000 C CNN
+F 1 "82pF" H 5700 6500 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 5850 6400 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/45171/kseries.pdf" H 5850 6400 50  0001 C CNN
+F 4 "digikey" V 5850 6400 50  0001 C CNN "Vendor"
+F 5 "BC1041CT-ND" V 5850 6400 50  0001 C CNN "Vendor part#"
+F 6 "K820J15C0GF5TH5" V 5850 6400 50  0001 C CNN "Manufacturer part#"
+	1    5850 6400
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 6138FA4F
-P 5950 6350
+P 5950 6650
 AR Path="/602A51A8/6138FA4F" Ref="#PWR?"  Part="1" 
 AR Path="/60308A73/6138FA4F" Ref="#PWR?"  Part="1" 
 AR Path="/603E4732/6138FA4F" Ref="#PWR?"  Part="1" 
 AR Path="/603D345E/6138FA4F" Ref="#PWR?"  Part="1" 
 AR Path="/6138FA4F" Ref="#PWR?"  Part="1" 
 AR Path="/61257512/6138FA4F" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 5950 6100 50  0001 C CNN
-F 1 "GNDS" H 5950 6200 50  0000 C CNN
-F 2 "" H 5950 6350 50  0001 C CNN
-F 3 "" H 5950 6350 50  0001 C CNN
-	1    5950 6350
+F 0 "#PWR0101" H 5950 6400 50  0001 C CNN
+F 1 "GNDS" H 5950 6500 50  0000 C CNN
+F 2 "" H 5950 6650 50  0001 C CNN
+F 3 "" H 5950 6650 50  0001 C CNN
+	1    5950 6650
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 6200 5850 6250
+	5850 6500 5850 6550
 Wire Wire Line
-	5850 6250 5950 6250
+	5850 6550 5950 6550
 Wire Wire Line
-	5950 6250 5950 6350
+	5950 6550 5950 6650
 Wire Wire Line
-	6000 6200 6000 6250
+	6000 6500 6000 6550
 Wire Wire Line
-	6000 6250 5950 6250
-Connection ~ 5950 6250
+	6000 6550 5950 6550
+Connection ~ 5950 6550
 Wire Wire Line
 	6000 5850 6000 5950
 Wire Wire Line
@@ -2228,6 +2228,28 @@ Wire Wire Line
 Connection ~ 10550 5000
 Wire Wire Line
 	10550 5000 10550 5200
+$Comp
+L Jumper:SolderJumper_2_Open JP65
+U 1 1 61321980
+P 5850 6150
+F 0 "JP65" V 5850 5900 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 5895 6218 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5850 6150 50  0001 C CNN
+F 3 "~" H 5850 6150 50  0001 C CNN
+	1    5850 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP66
+U 1 1 61359175
+P 6000 6150
+F 0 "JP66" V 6000 6250 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 6045 6218 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6000 6150 50  0001 C CNN
+F 3 "~" H 6000 6150 50  0001 C CNN
+	1    6000 6150
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	3650 4850 3650 6950
 Wire Bus Line

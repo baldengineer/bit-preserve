@@ -491,10 +491,7 @@ Wire Bus Line
 Wire Bus Line
 	3650 1550 6750 1550
 Wire Wire Line
-	3000 2400 4100 2400
-Wire Wire Line
 	4100 2250 4100 2400
-Connection ~ 4100 2400
 Wire Wire Line
 	3050 2550 4600 2550
 Wire Wire Line
@@ -507,8 +504,6 @@ Wire Wire Line
 	7050 3650 6650 3650
 Wire Bus Line
 	7050 3250 6650 3250
-Wire Wire Line
-	4100 2400 4600 2400
 Wire Wire Line
 	6650 3350 7050 3350
 Wire Wire Line
@@ -799,6 +794,10 @@ F 3 "~" H 1350 7600 50  0001 C CNN
 	1    1350 7600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3050 2400 4100 2400
+Wire Wire Line
+	4100 2400 4600 2400
 Wire Bus Line
 	1000 3250 1000 4300
 Wire Bus Line
@@ -807,4 +806,5 @@ Wire Bus Line
 	4150 4600 4150 5800
 Wire Bus Line
 	850  1450 850  5800
+Connection ~ 4100 2400
 $EndSCHEMATC
