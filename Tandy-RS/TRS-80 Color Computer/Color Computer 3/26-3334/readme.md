@@ -16,7 +16,13 @@ https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Color%20Compute
 
  
 ## Tested
-
+- Successfully tested board after fixing missing connection.
+- Audio and Video work.
+- Reset switch works.
+- Testing expansion port by adding 512 KB memory upgrade.
+- Joystick port 1 works.
+- Keyboard works.
+- Cartridge connector works.
 
 ## Videos
-
+[Playing Joust using a new CoCo 3 board](https://youtu.be/vjpey5T-lSU)
