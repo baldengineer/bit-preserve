@@ -224,13 +224,13 @@ L Interface:6822 IC5
 U 1 1 60B5007B
 P 2950 2450
 F 0 "IC5" H 2750 3850 50  0000 C CNN
-F 1 "6822" H 3200 3800 50  0000 C CNN
+F 1 "W65C21N6TPG-14" H 3350 3900 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3000 1100 50  0001 L CNN
 F 3 "http://pdf1.alldatasheet.com/datasheet-pdf/view/135452/MOTOROLA/MC6822.html" H 2950 2450 50  0001 C CNN
-F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 2950 2450 50  0001 C CNN "Datasheet"
-F 5 "digikey" H 2950 2450 50  0001 C CNN "Vendor"
-F 6 "ED3048-5-ND" H 2950 2450 50  0001 C CNN "Vendor part#"
-F 7 "ED40DT" H 2950 2450 50  0001 C CNN "Manufacturer part#"
+F 4 "https://www.mouser.com/datasheet/2/436/w65c21-661.pdf" H 2950 2450 50  0001 C CNN "Datasheet"
+F 5 "mouser" H 2950 2450 50  0001 C CNN "Vendor"
+F 6 "955-W65C21N6TPG-14" H 2950 2450 50  0001 C CNN "Vendor part#"
+F 7 "W65C21N6TPG-14" H 2950 2450 50  0001 C CNN "Manufacturer part#"
 	1    2950 2450
 	1    0    0    -1  
 $EndComp
@@ -1265,8 +1265,8 @@ Wire Wire Line
 Connection ~ 5250 6650
 Wire Wire Line
 	5250 6650 5600 6650
-Text Notes 9600 6350 0    47   ~ 0
-RY1 is not the original relay\nbecause the original because \nthe original is no longer made.
+Text Notes 9600 6350 0    47   Italic 0
+RY1 is not the original relay\nthe original is no longer made.
 Wire Notes Line
 	10750 6050 10750 6450
 Wire Notes Line
@@ -1449,13 +1449,12 @@ L Interface:6821 IC4
 U 1 1 60B3AA45
 P 3000 6000
 F 0 "IC4" H 2750 7400 50  0000 C CNN
-F 1 "6821" H 3250 7350 50  0000 C CNN
+F 1 "W65C21N6TPG-14" H 3350 7400 50  0000 C CNN
 F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3050 4650 50  0001 L CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheet/motorola/6821.pdf" H 3000 6000 50  0001 C CNN
-F 4 "http://www.on-shore.com/wp-content/uploads/2015/09/ipg2.pdf" H 3000 6000 50  0001 C CNN "Datasheet"
-F 5 "digikey" H 3000 6000 50  0001 C CNN "Vendor"
-F 6 "ED3048-5-ND" H 3000 6000 50  0001 C CNN "Vendor part#"
-F 7 "ED40DT" H 3000 6000 50  0001 C CNN "Manufacturer part#"
+F 3 "https://www.mouser.com/datasheet/2/436/w65c21-661.pdf" H 3000 6000 50  0001 C CNN
+F 4 "mouser" H 3000 6000 50  0001 C CNN "Vendor"
+F 5 "955-W65C21N6TPG-14" H 3000 6000 50  0001 C CNN "Vendor part#"
+F 6 "W65C21N6TPG-14" H 3000 6000 50  0001 C CNN "Manufacturer part#"
 	1    3000 6000
 	1    0    0    -1  
 $EndComp

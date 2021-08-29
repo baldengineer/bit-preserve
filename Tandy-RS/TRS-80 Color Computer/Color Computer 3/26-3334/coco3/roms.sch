@@ -209,7 +209,10 @@ P 4950 4000
 F 0 "IC2" H 4750 5150 50  0000 C CNN
 F 1 "27C256" H 5150 5100 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 4950 4000 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 4950 4000 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf" H 4950 4000 50  0001 C CNN
+F 4 "digikey" H 4950 4000 50  0001 C CNN "Vendor"
+F 5 "AT27C256R-45PU-ND" H 4950 4000 50  0001 C CNN "Vendor part#"
+F 6 "AT27C256R-45PU" H 4950 4000 50  0001 C CNN "Manufacturer part#"
 	1    4950 4000
 	1    0    0    -1  
 $EndComp

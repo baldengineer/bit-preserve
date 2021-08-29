@@ -699,7 +699,7 @@ L Device:R_Network08_US MP2
 U 1 1 612D4F31
 P 8250 2950
 F 0 "MP2" V 7633 2950 50  0000 C CNN
-F 1 "R_Network08_US" V 7724 2950 50  0000 C CNN
+F 1 "4.7k" V 7724 2950 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 8725 2950 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/4600H.pdf" H 8250 2950 50  0001 C CNN
 F 4 "digikey" V 8250 2950 50  0001 C CNN "Vendor"
@@ -713,7 +713,7 @@ L Device:R_Network09_US MP1
 U 1 1 612D6563
 P 8250 4050
 F 0 "MP1" V 7633 4050 50  0000 C CNN
-F 1 "R_Network09_US" V 7724 4050 50  0000 C CNN
+F 1 "4.7k" V 7724 4050 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP10" V 8825 4050 50  0001 C CNN
 F 3 "https://www.ctscorp.com/wp-content/uploads/2015/11/770.pdf" H 8250 4050 50  0001 C CNN
 F 4 "digikey" V 8250 4050 50  0001 C CNN "Vendor"
