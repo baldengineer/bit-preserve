@@ -998,7 +998,7 @@ Wire Wire Line
 Connection ~ 4000 3150
 Wire Wire Line
 	4000 3150 4600 3150
-Text Label 7100 5150 0    50   ~ 0
+Text Label 7550 5150 0    50   ~ 0
 SELA
 Text Label 3650 2250 0    50   ~ 0
 SELA
@@ -1366,8 +1366,6 @@ Wire Wire Line
 	5750 1950 5750 2100
 Text Label 7050 5050 0    50   ~ 0
 SELB
-Wire Wire Line
-	6500 5150 7100 5150
 Wire Wire Line
 	7050 5050 6950 5050
 Wire Wire Line
@@ -2425,8 +2423,49 @@ Wire Wire Line
 Connection ~ 10700 2450
 Wire Wire Line
 	10700 2450 10650 2450
+$Comp
+L Device:R_Small_US R?
+U 1 1 612EDD6D
+P 7400 4850
+AR Path="/60273794/612EDD6D" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/612EDD6D" Ref="R24"  Part="1" 
+F 0 "R24" H 7200 4750 50  0000 L CNN
+F 1 "4.7K" H 7200 4850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7400 4850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 7400 4850 50  0001 C CNN
+F 4 "digikey" H 7400 4850 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70CT-ND  " H 7400 4850 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 7400 4850 50  0001 C CNN "Manufacturer part#"
+	1    7400 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4950 7400 5150
+Wire Wire Line
+	7400 5150 7550 5150
+Wire Wire Line
+	6500 5150 7400 5150
+Connection ~ 7400 5150
+$Comp
+L power:+5V #PWR?
+U 1 1 6132D9DB
+P 7400 4700
+AR Path="/60273794/6132D9DB" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/6132D9DB" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/6132D9DB" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 7400 4550 50  0001 C CNN
+F 1 "+5V" H 7415 4873 50  0000 C CNN
+F 2 "" H 7400 4700 50  0001 C CNN
+F 3 "" H 7400 4700 50  0001 C CNN
+	1    7400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4700 7400 4750
 Wire Bus Line
 	1400 2150 1800 2150
 Wire Bus Line
 	1000 1150 1000 5400
+Text Notes 7900 4900 0    50   ~ 0
+R24 is not in the original schematic and\nit is listed as not used in the parts list.\nI added it allows the the W65C21N6TPG-14\nto work as well.
 $EndSCHEMATC

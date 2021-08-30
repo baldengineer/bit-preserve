@@ -82,7 +82,7 @@ L Switch:SW_SPDT SW3
 U 1 1 6113439A
 P 6300 3800
 F 0 "SW3" V 6254 3948 50  0000 L CNN
-F 1 "SW_SPDT" V 6345 3948 50  0000 L CNN
+F 1 "SW3" V 6345 3948 50  0000 L CNN
 F 2 "coco2:SW_EG1213" H 6300 3800 50  0001 C CNN
 F 3 "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/119/EG.pdf" H 6300 3800 50  0001 C CNN
 F 4 "digikey" H 6300 3800 50  0001 C CNN "Vendor"
