@@ -3,6 +3,7 @@
 This is a directory for a KiCad project for the Franklin ACE 1000.
 
 Schematics currently available:
+* Power Supply
 * ACE 1000/1200 Logic REV A&B Motherboard
 * Memory Array
 * Video I/O
