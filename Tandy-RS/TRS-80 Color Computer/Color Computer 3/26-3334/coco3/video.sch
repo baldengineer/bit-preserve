@@ -127,7 +127,7 @@ Text GLabel 5050 4250 2    50   Output ~ 0
 Text HLabel 2900 4450 0    50   Input ~ 0
 P1
 Wire Wire Line
-	2900 4450 3050 4450
+	2900 4450 2950 4450
 Connection ~ 4000 4950
 Wire Wire Line
 	3400 4950 4000 4950
@@ -1993,4 +1993,36 @@ Text Label 7400 3400 0    50   ~ 0
 CH
 Text Label 7450 3600 0    50   ~ 0
 V
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 61823280
+P 3150 3850
+F 0 "JP2" H 3150 4055 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3150 3964 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3150 3850 50  0001 C CNN
+F 3 "~" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3850 3400 3850
+Wire Wire Line
+	3400 3850 3400 4450
+Wire Wire Line
+	3000 3850 2950 3850
+Wire Wire Line
+	2950 3850 2950 4450
+Connection ~ 2950 4450
+Wire Wire Line
+	2950 4450 3050 4450
+Text Notes 3800 3800 0    50   ~ 0
+If powering the CoCo 3 directly with \nDC you'll need to solder JP2 for the\nDC voltage to power the 7808
+Wire Notes Line
+	3750 3550 5250 3550
+Wire Notes Line
+	5250 3550 5250 3850
+Wire Notes Line
+	5250 3850 3750 3850
+Wire Notes Line
+	3750 3850 3750 3550
 $EndSCHEMATC

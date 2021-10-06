@@ -29,7 +29,6 @@ F 7 "ED40DT" H 5300 5550 50  0001 C CNN "Manufacturer part#"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5800 6550
-NoConn ~ 5800 6450
 NoConn ~ 5800 6150
 NoConn ~ 5800 6050
 NoConn ~ 5800 6650
@@ -44,8 +43,6 @@ F 3 "" H 5300 7550 50  0001 C CNN
 	1    5300 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 6950 5300 7100
 $Comp
 L power:+5V #PWR01027
 U 1 1 60279D73
@@ -193,13 +190,6 @@ Wire Wire Line
 	2450 2250 2700 2250
 Wire Wire Line
 	2700 2350 2450 2350
-Wire Wire Line
-	5800 6350 6100 6350
-Wire Wire Line
-	6100 6350 6100 7100
-Wire Wire Line
-	6100 7100 5300 7100
-Connection ~ 5300 7100
 Wire Wire Line
 	4800 5250 4300 5250
 Wire Wire Line
@@ -731,8 +721,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 6550 4800 6550
 Wire Wire Line
-	5300 7100 5300 7550
-Wire Wire Line
 	2950 6650 4800 6650
 $Comp
 L power:GNDS #PWR01026
@@ -777,8 +765,6 @@ F 3 "" H 1950 1500 50  0001 C CNN
 	1    1950 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 1350 1950 1350
 $Comp
 L Device:C_Small C?
 U 1 1 61526683
@@ -798,11 +784,6 @@ $EndComp
 Wire Wire Line
 	2200 1000 1950 1000
 Wire Wire Line
-	1950 1000 1950 1350
-Connection ~ 1950 1350
-Wire Wire Line
-	1950 1350 1950 1500
-Wire Wire Line
 	2400 1000 2550 1000
 Connection ~ 2550 1000
 Wire Wire Line
@@ -816,6 +797,63 @@ Wire Wire Line
 	1650 4900 1650 5000
 Wire Wire Line
 	1150 4500 1650 4500
+$Comp
+L power:GNDS #PWR0110
+U 1 1 617D07FE
+P 7150 6550
+F 0 "#PWR0110" H 7150 6300 50  0001 C CNN
+F 1 "GNDS" H 7155 6377 50  0000 C CNN
+F 2 "" H 7150 6550 50  0001 C CNN
+F 3 "" H 7150 6550 50  0001 C CNN
+	1    7150 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6350 7150 6550
+Wire Wire Line
+	5800 6350 6500 6350
+Wire Wire Line
+	5300 6950 5300 7550
+Text Label 2700 1350 2    50   ~ 0
+BUS_TXRX_ENABLE
+Wire Wire Line
+	1950 1000 1950 1500
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 617EB136
+P 6100 6450
+F 0 "JP1" H 6350 6300 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 6100 6564 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 6100 6450 50  0001 C CNN
+F 3 "~" H 6100 6450 50  0001 C CNN
+	1    6100 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6450 5900 6450
+Text Label 6050 7250 2    50   ~ 0
+BUS_TXRX_ENABLE
+Wire Wire Line
+	6100 6600 6100 7250
+Wire Wire Line
+	6300 6450 6500 6450
+Wire Wire Line
+	6500 6450 6500 6350
+Connection ~ 6500 6350
+Wire Wire Line
+	6500 6350 7150 6350
+Wire Wire Line
+	6050 7250 6100 7250
+Text Notes 5200 1750 0    50   ~ 0
+In order to add DMA support, pin 6 of IC1 was connected\nto pin 19 of IC3. If you want the original config, cut the \njumper and solder the other side and it will be restored.\nThis Modification is mention in a very nice CoCo DMA article\nhttp://www.go4retro.com/2020/03/23/coco-dma-missing-without-a-trace/
+Wire Notes Line
+	5150 1300 8300 1300
+Wire Notes Line
+	8300 1300 8300 1800
+Wire Notes Line
+	8300 1800 5150 1800
+Wire Notes Line
+	5150 1800 5150 1300
 Wire Bus Line
 	2350 1750 2350 2450
 Wire Bus Line

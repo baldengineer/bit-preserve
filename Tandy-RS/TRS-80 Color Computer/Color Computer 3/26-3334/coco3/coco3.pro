@@ -1,4 +1,4 @@
-update=Sun 29 Aug 2021 08:15:12 PM EDT
+update=Tue 05 Oct 2021 10:58:54 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../../../../../../../Documents/coco3.net
+LastNetListRead=coco3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
