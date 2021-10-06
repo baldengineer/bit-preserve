@@ -2462,10 +2462,18 @@ F 3 "" H 7400 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 4700 7400 4750
-Wire Bus Line
-	1400 2150 1800 2150
-Wire Bus Line
-	1000 1150 1000 5400
 Text Notes 7900 4900 0    50   ~ 0
 R24 is not in the original schematic and\nit is listed as not used in the parts list.\nI added it allows the the W65C21N6TPG-14\nto work as well.
+Wire Notes Line
+	9600 4550 9600 4950
+Wire Notes Line
+	9600 4950 7800 4950
+Wire Notes Line
+	7800 4950 7800 4550
+Wire Bus Line
+	1400 2150 1800 2150
+Wire Notes Line
+	7800 4550 9600 4550
+Wire Bus Line
+	1000 1150 1000 5400
 $EndSCHEMATC
