@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 10
-Title ""
+Sheet 10 10
+Title "MEGA-II for IIgs ROM3"
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -421,14 +421,6 @@ $EndComp
 Connection ~ 5900 7150
 Wire Wire Line
 	5900 7150 6600 7150
-Text GLabel 5700 6550 0    50   Input ~ 0
-RBG8.H
-Text GLabel 5700 6750 0    50   Input ~ 0
-RBG4.H
-Text GLabel 5700 6950 0    50   Input ~ 0
-RBG2.H
-Text GLabel 5700 7150 0    50   Input ~ 0
-RBG1.H
 Text Label 7800 8050 0    50   ~ 0
 MADBUS0
 Text Label 7800 8150 0    50   ~ 0
@@ -624,8 +616,6 @@ F 3 "~" H 9950 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 9300 5550
-Text Notes 11950 10150 0    50   ~ 0
-Mega2, Pin 37, Is it "ROMEN" or "RCMEN"?
 Text Label 10250 6150 2    50   ~ 0
 UJ2-49
 Wire Wire Line
@@ -830,22 +820,6 @@ F 3 "~" H 10700 2000 50  0001 C CNN
 	1    10500 2000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9500 3250 2    50   Input ~ 0
-PDLTRIG.L
-Text GLabel 9500 3450 2    50   Input ~ 0
-C060-67.L
-Text GLabel 9500 3650 2    50   Input ~ 0
-SPKR.H
-Text GLabel 9500 3850 2    50   Input ~ 0
-KSEL1.L
-Text GLabel 9500 4050 2    50   Input ~ 0
-KSEL2.L
-Text GLabel 9500 4250 2    50   Input ~ 0
-IRQ.L
-Text GLabel 9500 4650 2    50   Input ~ 0
-MSEX1
-Text GLabel 9500 5050 2    50   Input ~ 0
-MSEY1
 Wire Wire Line
 	9300 5050 9500 5050
 Wire Wire Line
@@ -894,8 +868,6 @@ Wire Wire Line
 	9500 3250 9300 3250
 Wire Wire Line
 	9300 5150 10150 5150
-Text GLabel 10250 5150 2    50   Input ~ 0
-DIAGSW
 $Comp
 L Device:R_Small R3
 U 1 1 5D3A3B0F
@@ -929,41 +901,15 @@ Wire Wire Line
 	10600 4850 10600 4950
 Wire Wire Line
 	10600 4950 10500 4950
-Text GLabel 9500 5350 2    50   Input ~ 0
-RESET.L
-Text GLabel 9500 5450 2    50   Input ~ 0
-MDIN-OUT
-Text GLabel 9500 5650 2    50   Input ~ 0
-DMA.L
-Text GLabel 9500 5750 2    50   Input ~ 0
-M2SEL.L
-Text GLabel 9500 5850 2    50   Input ~ 0
-M2BA0
-Text GLabel 9500 5950 2    50   Input ~ 0
-INH.L
-Text GLabel 9500 6050 2    50   Input ~ 0
-A2R-W.H
-Text GLabel 9500 6250 2    50   Input ~ 0
-SYNC.L
-Text GLabel 9500 6350 2    50   Input ~ 0
-14MD.H
 Wire Wire Line
 	9300 6450 9950 6450
-Text GLabel 9500 6550 2    50   Input ~ 0
-CREF.H
-Text GLabel 10200 6450 2    50   Input ~ 0
-7M.H
 Wire Wire Line
 	10200 6450 10150 6450
-Text GLabel 11150 6750 2    50   Input ~ 0
-PH0.H
 Wire Wire Line
 	11150 6750 11050 6750
 Connection ~ 11050 6750
 Wire Wire Line
 	9300 6750 10600 6750
-Text GLabel 9500 6650 2    50   Input ~ 0
-Q3.H
 Wire Wire Line
 	9300 6650 9500 6650
 Wire Wire Line
@@ -1154,10 +1100,6 @@ Wire Wire Line
 	4100 5650 3950 5650
 Wire Wire Line
 	4100 6150 3950 6150
-Text GLabel 3750 5650 0    50   Input ~ 0
-ABDIR.L
-Text GLabel 3750 6150 0    50   Input ~ 0
-ABENB.L
 Text Label 4750 6150 2    50   ~ 0
 UJ5-19
 Wire Wire Line
@@ -1256,10 +1198,6 @@ Wire Wire Line
 	4100 7500 3950 7500
 Wire Wire Line
 	4100 8000 3950 8000
-Text GLabel 3750 7500 0    50   Input ~ 0
-DBDIR.L
-Text GLabel 3750 8000 0    50   Input ~ 0
-DBENB.L
 Text Label 4750 8000 2    50   ~ 0
 UJ5-19
 Wire Wire Line
@@ -1720,14 +1658,10 @@ Wire Wire Line
 	10050 8050 9700 8050
 Wire Wire Line
 	10050 8250 10000 8250
-Text Label 9700 8250 0    50   ~ 0
-FLIP6.H
 Text Label 9700 8050 0    50   ~ 0
 RABUS6
 Text Label 9750 8800 0    50   ~ 0
 RABUS7
-Text Label 9750 9000 0    50   ~ 0
-FLIP7.H
 Text Label 10700 8150 3    50   ~ 0
 UF3-3
 Text Label 10750 8900 3    50   ~ 0
@@ -2225,10 +2159,288 @@ Text Notes 6650 1800 0    50   ~ 0
 ABUSxx - Address bus from CPU\nDBUSxx - Data bus from CPU\nBABUSxx - Buffered Address Bus to MEGA II\nRABUSx - DRAM Row/Column Bus\nSBUS - Slot Selector\n\n\nMDBUS - Main Data Bus\nADBUS - Aux Data Bus\nMADBUS - Muxed(?) Aux Data Bus\n\nNOTE: All of these data busses only exist on 1MB board. \nOn 256kb Board there is only: ABUS, DBUS, MDBUS, and ADBUS.
 Text Notes 5250 6300 0    50   ~ 0
 RGBx = 4-bit linear-weighted binary value \nthat gets decoded by VGC
-Text Notes 10100 5650 0    50   ~ 0
-SERVIDEO = Test Signal. \nComposite w/out Sync (TBD)\n
-Text Notes 6500 4500 0    50   ~ 0
-Data busses to the \nMEGA II appear to \nfor the VGC to use \nStandard RAM as \nVideo memory for \nIIgs modes
-Text Notes 14250 4300 0    50   ~ 0
+Text Notes 10100 5850 0    50   ~ 0
+SERVIDEO = Test Signal. \nComposite w/out Sync
+Text Notes 11950 10400 0    50   ~ 0
 TIL the Apple II memory map \nis a nightmare. "Thanks" Woz!\nJ/K You're awesome!\n-James
+Text GLabel 9700 8250 0    50   Input ~ 0
+FLIP6.H
+Text GLabel 9750 9000 0    50   Input ~ 0
+FLIP7.H
+Wire Wire Line
+	2600 2350 3000 2350
+Wire Wire Line
+	2600 2450 3000 2450
+Text Label 3000 2450 2    50   ~ 0
+ABUS9
+Text Label 3000 2350 2    50   ~ 0
+ABUS8
+Wire Wire Line
+	2600 2550 3000 2550
+Wire Wire Line
+	2600 2650 3000 2650
+Text Label 3000 2650 2    50   ~ 0
+ABUS11
+Text Label 3000 2550 2    50   ~ 0
+ABUS10
+Wire Wire Line
+	2600 2750 3000 2750
+Wire Wire Line
+	2600 2850 3000 2850
+Text Label 3000 2850 2    50   ~ 0
+ABUS13
+Text Label 3000 2750 2    50   ~ 0
+ABUS12
+Wire Wire Line
+	2600 2950 3000 2950
+Wire Wire Line
+	2600 3050 3000 3050
+Text Label 3000 3050 2    50   ~ 0
+ABUS15
+Text Label 3000 2950 2    50   ~ 0
+ABUS14
+Wire Wire Line
+	2600 2150 3000 2150
+Text Label 3000 2150 2    50   ~ 0
+ABUS6
+Wire Wire Line
+	2600 2050 3000 2050
+Text Label 3000 2050 2    50   ~ 0
+ABUS5
+Wire Wire Line
+	2600 1950 3000 1950
+Text Label 3000 1950 2    50   ~ 0
+ABUS4
+Wire Wire Line
+	2600 1850 3000 1850
+Text Label 3000 1850 2    50   ~ 0
+ABUS3
+Wire Wire Line
+	2600 1750 3000 1750
+Text Label 3000 1750 2    50   ~ 0
+ABUS2
+Wire Wire Line
+	2600 1650 3000 1650
+Text Label 3000 1650 2    50   ~ 0
+ABUS1
+Wire Wire Line
+	2600 2250 3000 2250
+Text Label 3000 2250 2    50   ~ 0
+ABUS7
+Wire Wire Line
+	2600 1550 3000 1550
+Text Label 3000 1550 2    50   ~ 0
+ABUS0
+Entry Wire Line
+	2500 1450 2600 1550
+Entry Wire Line
+	2500 1550 2600 1650
+Entry Wire Line
+	2500 1650 2600 1750
+Entry Wire Line
+	2500 1750 2600 1850
+Entry Wire Line
+	2500 1850 2600 1950
+Entry Wire Line
+	2500 1950 2600 2050
+Entry Wire Line
+	2500 2050 2600 2150
+Entry Wire Line
+	2500 2150 2600 2250
+Entry Wire Line
+	2500 2250 2600 2350
+Entry Wire Line
+	2500 2350 2600 2450
+Entry Wire Line
+	2500 2450 2600 2550
+Entry Wire Line
+	2500 2550 2600 2650
+Entry Wire Line
+	2500 2650 2600 2750
+Entry Wire Line
+	2500 2750 2600 2850
+Entry Wire Line
+	2500 2850 2600 2950
+Entry Wire Line
+	2500 2950 2600 3050
+Wire Bus Line
+	2350 1300 2500 1300
+Text Label 2950 4500 2    50   ~ 0
+DBUS7
+Text Label 2950 4400 2    50   ~ 0
+DBUS6
+Wire Wire Line
+	2950 4500 2600 4500
+Wire Wire Line
+	2950 4400 2600 4400
+Text Label 2950 4300 2    50   ~ 0
+DBUS5
+Text Label 2950 4200 2    50   ~ 0
+DBUS4
+Wire Wire Line
+	2950 4300 2600 4300
+Wire Wire Line
+	2950 4200 2600 4200
+Text Label 2950 4100 2    50   ~ 0
+DBUS3
+Text Label 2950 4000 2    50   ~ 0
+DBUS2
+Wire Wire Line
+	2950 4100 2600 4100
+Wire Wire Line
+	2950 4000 2600 4000
+Text Label 2950 3900 2    50   ~ 0
+DBUS1
+Text Label 2950 3800 2    50   ~ 0
+DBUS0
+Wire Wire Line
+	2950 3900 2600 3900
+Wire Wire Line
+	2950 3800 2600 3800
+Wire Bus Line
+	2500 3700 2350 3700
+Entry Wire Line
+	2500 3700 2600 3800
+Entry Wire Line
+	2500 3800 2600 3900
+Entry Wire Line
+	2500 3900 2600 4000
+Entry Wire Line
+	2500 4000 2600 4100
+Entry Wire Line
+	2500 4100 2600 4200
+Entry Wire Line
+	2500 4200 2600 4300
+Entry Wire Line
+	2500 4300 2600 4400
+Entry Wire Line
+	2500 4400 2600 4500
+Text Label 15500 1500 2    50   ~ 0
+RABAUS0
+Wire Wire Line
+	15050 1500 15500 1500
+Text Label 15500 1600 2    50   ~ 0
+RABAUS1
+Wire Wire Line
+	15050 1600 15500 1600
+Text Label 15500 1700 2    50   ~ 0
+RABAUS2
+Wire Wire Line
+	15050 1700 15500 1700
+Text Label 15500 1800 2    50   ~ 0
+RABAUS3
+Wire Wire Line
+	15050 1800 15500 1800
+Text Label 15500 1900 2    50   ~ 0
+RABAUS4
+Wire Wire Line
+	15050 1900 15500 1900
+Text Label 15500 2000 2    50   ~ 0
+RABAUS5
+Wire Wire Line
+	15050 2000 15500 2000
+Text Label 15500 2100 2    50   ~ 0
+RABAUS6
+Wire Wire Line
+	15050 2100 15500 2100
+Text Label 15500 2200 2    50   ~ 0
+RABAUS7
+Wire Wire Line
+	15050 2200 15500 2200
+Wire Bus Line
+	14950 1400 14850 1400
+Entry Wire Line
+	14950 1400 15050 1500
+Entry Wire Line
+	14950 1500 15050 1600
+Entry Wire Line
+	14950 1600 15050 1700
+Entry Wire Line
+	14950 1700 15050 1800
+Entry Wire Line
+	14950 1800 15050 1900
+Entry Wire Line
+	14950 1900 15050 2000
+Entry Wire Line
+	14950 2000 15050 2100
+Entry Wire Line
+	14950 2100 15050 2200
+Text Notes 13800 1200 0    50   ~ 0
+Does VGC get RABAUS or RAx?
+Text HLabel 9500 3250 2    50   Input ~ 0
+PDLTRIG.L
+Text HLabel 9500 3450 2    50   Input ~ 0
+C060-67.L
+Text HLabel 9500 3650 2    50   Input ~ 0
+SPKR.H
+Text HLabel 9500 3850 2    50   Input ~ 0
+KSEL1.L
+Text HLabel 9500 4050 2    50   Input ~ 0
+KSEL2.L
+Text HLabel 9500 4250 2    50   Input ~ 0
+IRQ.L
+Text HLabel 9500 4650 2    50   Input ~ 0
+MSEX1
+Text HLabel 9500 5050 2    50   Input ~ 0
+MSEY1
+Text HLabel 10250 5150 2    50   Input ~ 0
+DIAGSW
+Text HLabel 9500 5350 2    50   Input ~ 0
+RESET.L
+Text HLabel 9500 5450 2    50   Input ~ 0
+MDIN-OUT
+Text HLabel 9500 5650 2    50   Input ~ 0
+DMA.L
+Text Notes 10150 4600 0    50   ~ 0
+DIAGSW on Edge
+Text HLabel 9500 5750 2    50   Input ~ 0
+M2SEL.L
+Text HLabel 9500 5850 2    50   Input ~ 0
+M2BA0
+Text HLabel 9500 5950 2    50   Input ~ 0
+INH.L
+Text HLabel 9500 6050 2    50   Input ~ 0
+A2R-W.H
+Text HLabel 9500 6250 2    50   Input ~ 0
+SYNC.L
+Text HLabel 9500 6350 2    50   Input ~ 0
+14MD.H
+Text HLabel 10200 6450 2    50   Input ~ 0
+7M.H
+Text HLabel 9500 6550 2    50   Input ~ 0
+CREF.H
+Text HLabel 9500 6650 2    50   Input ~ 0
+Q3.H
+Text HLabel 11150 6750 2    50   Input ~ 0
+PH0.H
+Text HLabel 5700 6550 0    50   Input ~ 0
+RBG8.H
+Text HLabel 5700 6750 0    50   Input ~ 0
+RBG4.H
+Text HLabel 5700 6950 0    50   Input ~ 0
+RBG2.H
+Text HLabel 5700 7150 0    50   Input ~ 0
+RBG1.H
+Text HLabel 2350 1300 0    50   Input ~ 0
+ABUS[15-0]
+Text HLabel 2350 3700 0    50   Input ~ 0
+DBUS[7-0]
+Text HLabel 3750 5650 0    50   Input ~ 0
+ABDIR.L
+Text HLabel 3750 6150 0    50   Input ~ 0
+ABENB.L
+Text HLabel 3750 7500 0    50   Input ~ 0
+DBDIR.L
+Text HLabel 3750 8000 0    50   Input ~ 0
+DBENB.L
+Text HLabel 14850 1400 0    50   Input ~ 0
+RABUS[7..0]
+Text Notes 10100 5550 0    50   ~ 0
+MDIN-OUT \ncontrols Main Data on Slots
+Wire Bus Line
+	2500 3700 2500 4400
+Wire Bus Line
+	14950 1400 14950 2100
+Wire Bus Line
+	2500 1300 2500 2950
 $EndSCHEMATC
