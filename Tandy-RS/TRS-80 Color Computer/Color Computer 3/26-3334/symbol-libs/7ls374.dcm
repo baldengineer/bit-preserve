@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC374
+D 8-bit Register, 3-state outputs
+K AHCMOS DFF DFF8 REG 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
+$CMP 74AHCT374
+D 8-bit Register, 3-state outputs
+K AHCTMOS DFF DFF8 REG 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT374.pdf
+$ENDCMP
+#
+$CMP 74HC374
+D 8-bit Register, 3-state outputs
+K HCMOS DFF DFF8 REG 3State
+F https://www.ti.com/lit/ds/symlink/cd74hct374.pdf
+$ENDCMP
+#
+$CMP 74HCT374
+D 8-bit Register, 3-state outputs
+K HCTMOS DFF DFF8 REG 3State
+F https://www.ti.com/lit/ds/symlink/cd74hct374.pdf
+$ENDCMP
+#
+$CMP 74LS374
+D 8-bit Register, 3-state outputs
+K TTL DFF DFF8 REG 3State
+F http://www.ti.com/lit/gpn/sn74LS374
+$ENDCMP
+#
+#End Doc Library
