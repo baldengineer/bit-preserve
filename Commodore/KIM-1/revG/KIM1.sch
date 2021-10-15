@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_Expansion_MOSTechnology:6530 U3
+L Kim1:6530 U3
 U 1 1 60C043D6
 P 5650 6050
 F 0 "U3" H 5750 7400 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://archive.6502.org/datasheets/mos_6530_rriot.pdf" H 5700 7550 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_Expansion_MOSTechnology:6530 U2
+L Kim1:6530 U2
 U 1 1 60C0A4B5
 P 5650 2300
 F 0 "U2" H 5750 3650 50  0000 C CNN

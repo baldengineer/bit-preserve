@@ -623,10 +623,10 @@ Text Label 4400 2700 0    50   ~ 0
 COL4
 Text Label 3400 2700 0    50   ~ 0
 COL5
+Text Label 2400 2700 0    50   ~ 0
+COL6
 Wire Bus Line
 	2000 1500 2000 2500
 Wire Bus Line
 	1600 3000 8300 3000
-Text Label 2400 2700 0    50   ~ 0
-COL6
 $EndSCHEMATC
