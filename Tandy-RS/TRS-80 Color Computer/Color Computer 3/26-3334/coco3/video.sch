@@ -1056,12 +1056,12 @@ L Device:Q_NPN_ECB Q3
 U 1 1 63D91AAB
 P 3650 1650
 F 0 "Q3" H 3840 1696 50  0000 L CNN
-F 1 "2SC945(NTE85)" H 3840 1605 50  0001 L CNN
+F 1 "2SC1815" H 3840 1605 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 3850 1750 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte85.pdf" H 3650 1650 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/2SC1815.PDF" H 3650 1650 50  0001 C CNN
 F 4 "digikey" H 3650 1650 50  0001 C CNN "Vendor"
-F 5 "2368-NTE85-ND" H 3650 1650 50  0001 C CNN "Vendor part#"
-F 6 "NTE85" H 3650 1650 50  0001 C CNN "Manufacturer part#"
+F 5 "1514-2SC1815PBFREE-ND" H 3650 1650 50  0001 C CNN "Vendor part#"
+F 6 "2SC1815 PBFREE" H 3650 1650 50  0001 C CNN "Manufacturer part#"
 	1    3650 1650
 	1    0    0    -1  
 $EndComp
@@ -1070,12 +1070,12 @@ L Device:Q_NPN_EBC Q4
 U 1 1 63D8E98C
 P 8500 2200
 F 0 "Q4" H 8350 2350 50  0000 L CNN
-F 1 "MPSA13(NTE46)" H 8690 2155 50  0001 L CNN
+F 1 "BCX38C" H 8690 2155 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 8700 2300 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte46.pdf" H 8500 2200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/BCX38A.pdf" H 8500 2200 50  0001 C CNN
 F 4 "digikey" H 8500 2200 50  0001 C CNN "Vendor"
-F 5 "2368-NTE46-ND" H 8500 2200 50  0001 C CNN "Vendor part#"
-F 6 "NTE46" H 8500 2200 50  0001 C CNN "Manufacturer part#"
+F 5 "BCX38C-ND" H 8500 2200 50  0001 C CNN "Vendor part#"
+F 6 "BCX38C" H 8500 2200 50  0001 C CNN "Manufacturer part#"
 	1    8500 2200
 	1    0    0    -1  
 $EndComp
@@ -1084,12 +1084,12 @@ L Device:Q_NPN_ECB Q2
 U 1 1 63D8C75D
 P 5250 2250
 F 0 "Q2" H 5200 2450 50  0000 L CNN
-F 1 "2SC945(NTE85)" H 5440 2205 50  0001 L CNN
+F 1 "2SC1815" H 5440 2205 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 5450 2350 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte85.pdf" H 5250 2250 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/2SC1815.PDF" H 5250 2250 50  0001 C CNN
 F 4 "digikey" H 5250 2250 50  0001 C CNN "Vendor"
-F 5 "2368-NTE85-ND" H 5250 2250 50  0001 C CNN "Vendor part#"
-F 6 "NTE85" H 5250 2250 50  0001 C CNN "Manufacturer part#"
+F 5 "1514-2SC1815PBFREE-ND" H 5250 2250 50  0001 C CNN "Vendor part#"
+F 6 "2SC1815 PBFREE" H 5250 2250 50  0001 C CNN "Manufacturer part#"
 	1    5250 2250
 	1    0    0    -1  
 $EndComp
@@ -1106,12 +1106,12 @@ L Device:Q_NPN_ECB Q5
 U 1 1 63D916A6
 P 1550 2800
 F 0 "Q5" H 1500 3000 50  0000 L CNN
-F 1 "2SC945(NTE85)" H 1740 2755 50  0001 L CNN
+F 1 "2SC1815" H 1740 2755 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 1750 2900 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte85.pdf" H 1550 2800 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/2SC1815.PDF" H 1550 2800 50  0001 C CNN
 F 4 "digikey" H 1550 2800 50  0001 C CNN "Vendor"
-F 5 "2368-NTE85-ND" H 1550 2800 50  0001 C CNN "Vendor part#"
-F 6 "NTE85" H 1550 2800 50  0001 C CNN "Manufacturer part#"
+F 5 "1514-2SC1815PBFREE-ND" H 1550 2800 50  0001 C CNN "Vendor part#"
+F 6 "2SC1815 PBFREE" H 1550 2800 50  0001 C CNN "Manufacturer part#"
 	1    1550 2800
 	1    0    0    -1  
 $EndComp
@@ -1310,12 +1310,12 @@ L Device:Q_NPN_ECB Q6
 U 1 1 60F3CC17
 P 1550 4600
 F 0 "Q6" H 1500 4800 50  0000 L CNN
-F 1 "2SC945(NTE85)" H 1740 4555 50  0001 L CNN
+F 1 "2SC1815" H 1740 4555 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 1750 4700 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte85.pdf" H 1550 4600 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/2SC1815.PDF" H 1550 4600 50  0001 C CNN
 F 4 "digikey" H 1550 4600 50  0001 C CNN "Vendor"
-F 5 "2368-NTE85-ND" H 1550 4600 50  0001 C CNN "Vendor part#"
-F 6 "NTE85" H 1550 4600 50  0001 C CNN "Manufacturer part#"
+F 5 "1514-2SC1815PBFREE-ND" H 1550 4600 50  0001 C CNN "Vendor part#"
+F 6 "2SC1815 PBFREE" H 1550 4600 50  0001 C CNN "Manufacturer part#"
 	1    1550 4600
 	1    0    0    -1  
 $EndComp
@@ -1475,12 +1475,12 @@ L Device:Q_NPN_ECB Q7
 U 1 1 60F48991
 P 1550 6400
 F 0 "Q7" H 1500 6600 50  0000 L CNN
-F 1 "2SC945(NTE85)" H 1740 6355 50  0001 L CNN
+F 1 "2SC1815" H 1740 6355 50  0001 L CNN
 F 2 "Package_TO_SOT_THT:TO-92L_Inline" H 1750 6500 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/10to99/pdf/nte85.pdf" H 1550 6400 50  0001 C CNN
+F 3 "https://my.centralsemi.com/datasheets/2SC1815.PDF" H 1550 6400 50  0001 C CNN
 F 4 "digikey" H 1550 6400 50  0001 C CNN "Vendor"
-F 5 "2368-NTE85-ND" H 1550 6400 50  0001 C CNN "Vendor part#"
-F 6 "NTE85" H 1550 6400 50  0001 C CNN "Manufacturer part#"
+F 5 "1514-2SC1815PBFREE-ND" H 1550 6400 50  0001 C CNN "Vendor part#"
+F 6 "2SC1815 PBFREE" H 1550 6400 50  0001 C CNN "Manufacturer part#"
 	1    1550 6400
 	1    0    0    -1  
 $EndComp
