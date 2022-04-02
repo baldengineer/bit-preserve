@@ -2052,13 +2052,13 @@ Wire Wire Line
 	8660 1810 8705 1810
 Wire Wire Line
 	8400 2200 9115 2200
+Connection ~ 9115 2200
+Wire Wire Line
+	9115 2200 9115 2210
 Wire Bus Line
 	9800 9080 9800 9460
 Wire Bus Line
 	9360 7100 9360 7480
 Wire Bus Line
 	8410 4250 8410 4755
-Connection ~ 9115 2200
-Wire Wire Line
-	9115 2200 9115 2210
 $EndSCHEMATC

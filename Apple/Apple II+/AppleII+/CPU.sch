@@ -1456,4 +1456,6 @@ Wire Bus Line
 	6765 1310 6765 4250
 Wire Bus Line
 	5045 1300 5045 4370
+Text Notes 6000 5420 0    50   ~ 0
+LD0-LD7 - Latched D0-D7
 $EndSCHEMATC
