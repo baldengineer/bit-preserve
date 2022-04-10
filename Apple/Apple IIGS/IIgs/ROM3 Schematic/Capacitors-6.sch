@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 10
 Title ""
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -992,20 +992,10 @@ Wire Wire Line
 Connection ~ 1850 4400
 Text GLabel 2350 4400 2    50   Input ~ 0
 -5VS
-Text GLabel 2350 5200 2    50   Input ~ 0
--12VS
 Text GLabel 4350 3800 3    50   Input ~ 0
 -12VS
 Text Notes 7200 6700 0    50   ~ 0
 Investigate with the "-5VS" and "-12VS" nodes are doing
-Text GLabel 1100 6250 0    50   Input ~ 0
-PDL3
-Text GLabel 1100 6350 0    50   Input ~ 0
-PDL2
-Text GLabel 1100 6450 0    50   Input ~ 0
-PDL1
-Text GLabel 1100 6550 0    50   Input ~ 0
-PDL0
 $Comp
 L Device:C_Small BC101
 U 1 1 5E18A24D
@@ -1458,7 +1448,7 @@ F 3 "" H 8900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic JP24
+L IIgs-Schematic-rescue:M02-freetronics_schematic-IIgs-Schematic-rescue JP24
 U 1 1 5E2DFE04
 P 8450 5850
 AR Path="/5E2DFE04" Ref="JP24"  Part="1" 
@@ -2356,4 +2346,14 @@ $EndComp
 Wire Wire Line
 	3200 4900 3200 4850
 Connection ~ 3200 4850
+Text HLabel 1100 6250 0    50   Input ~ 0
+PDL3
+Text HLabel 1100 6350 0    50   Input ~ 0
+PDL2
+Text HLabel 1100 6450 0    50   Input ~ 0
+PDL1
+Text HLabel 1100 6550 0    50   Input ~ 0
+PDL0
+Text GLabel 2350 5200 2    50   Input ~ 0
+-12VS
 $EndSCHEMATC

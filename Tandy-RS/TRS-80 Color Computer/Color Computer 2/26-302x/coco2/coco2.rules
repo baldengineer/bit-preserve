@@ -1,0 +1,100 @@
+
+(rules PCB coco2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 69)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GNDS "/peripherals/+SALT_VIN" "/peripherals/-SALT_VIN" +5V "Net-(C7-Pad1)" "Net-(C8-Pad1)" "Net-(C9-Pad1)" "Net-(C10-Pad1)"
+    "Net-(C13-Pad2)" "Net-(C14-Pad2)" "Net-(C15-Pad2)" /peripherals/JOY1 /peripherals/JOY0 "Net-(C18-Pad2)" "/peripherals/CASS_DATA_IN" "Net-(C20-Pad2)"
+    "Net-(C22-Pad1)" "Net-(C26-Pad1)" "Net-(C27-Pad1)" /Q /E /~CTS "Net-(C43-Pad1)" "Net-(C44-Pad1)"
+    /~RESET "Net-(C58-Pad1)" "Net-(C59-Pad2)" "Net-(C61-Pad2)" "/peripherals/CD_IN" "/peripherals/SERIAL_DATA_IN" /peripherals/KR2 /peripherals/KR1
+    "/peripherals/CASS_MTR_OUT" /power/VDGCLK /peripherals/CSS "Net-(CR13-Pad2)" "Net-(E2-Pad1)" "Net-(E3-Pad1)" "Net-(FB4-Pad1)" "/peripherals/SER_DATA_OUT"
+    /peripherals/CASSOUT /peripherals/KR3 /peripherals/KR4 /peripherals/KR5 /peripherals/KR6 /peripherals/KR7 "Net-(J5-Pad9)" "Net-(J5-Pad10)"
+    "Net-(J5-Pad11)" "Net-(J5-Pad12)" "Net-(J5-Pad13)" "Net-(J5-Pad14)" "Net-(J5-Pad15)" /~NMI /~CART /D0
+    /D2 /D4 /D6 /R~W /A1 /A3 /A5 /A7
+    /A9 /A11 /~SCS /A14 /~SLENB /~HALT /D1 /D3
+    /D5 /D7 /A0 /A2 /A4 /A6 /A8 /A10
+    /A12 "/CART_SND" /A13 /A15 "Net-(K1-Pad16)" "Net-(Q1-Pad1)" "Net-(Q1-Pad2)" "Net-(Q2-Pad3)"
+    "Net-(R1-Pad2)" "Net-(R3-Pad1)" "Net-(R4-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad2)" "/video/RF_SND" "Net-(R8-Pad2)" "Net-(R9-Pad1)"
+    /peripherals/SELA /~FIRQ "Net-(R15-Pad1)" /~IRQ "Net-(R19-Pad2)" "Net-(R24-Pad2)" "Net-(R25-Pad2)" "Net-(R26-Pad2)"
+    "/peripherals/RP1-4" /peripherals/HI "Net-(S1-Pad1)" "Net-(S1-Pad4)" "/peripherals/CASS_M_IN_TTL" "/peripherals/SER_DATA_OUT_TTL" "/peripherals/CD_OUT_TTL" "/peripherals/SER_DATA_IN_TTL"
+    "/peripherals/CASS_DATA_OUT_TTL" /~CSPIA1 "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad9)"
+    "/peripherals/~INT~_EXT" /peripherals/GM1 /peripherals/GM2 "/peripherals/~A~_G" "Net-(U2-Pad19)" "/peripherals/HI_LO" /~HS /video/DD3
+    /video/DD7 /dram/MD3 /dram/MD7 /dram/MD2 /dram/MD6 /video/DD2 /video/DD6 /video/DD1
+    /video/DD5 /dram/MD1 /dram/MD5 /dram/MD0 /dram/MD4 /video/DD0 /video/DD4 /dram/~RAS
+    "Net-(U11-Pad15)" /~FS "Net-(J5-Pad16)" "/~CS_PIA0" "Net-(U8-Pad21)" /sam/DA0 "Net-(U8-Pad23)" "Net-(U8-Pad24)"
+    "Net-(U8-Pad25)" "Net-(U8-Pad26)" "Net-(U8-Pad9)" "Net-(U8-Pad10)" "Net-(U8-Pad13)" "Net-(U8-Pad14)" "Net-(U8-Pad15)" "Net-(U8-Pad16)"
+    "Net-(U8-Pad36)" "Net-(U8-Pad18)" "Net-(U8-Pad19)" "Net-(U8-Pad20)" "Net-(U10-Pad1)" "Net-(U10-Pad6)" "Net-(U10-Pad10)" "Net-(U10-Pad4)"
+    "Net-(U10-Pad13)" "Net-(U11-Pad1)" "Net-(U11-Pad2)" "/roms/~CS_BASIC" "/roms/~CS_EXTENDED_BASIC" "Net-(U11-Pad7)" /dram/MA7 /dram/MA5
+    /dram/~WE /dram/MA4 /dram/MA3 /dram/MA0 /dram/MA6 /dram/MA2 /dram/MA1 /dram/~CAS
+    "Net-(U23-Pad5)" "Net-(U23-Pad6)" "Net-(U23-Pad33)" "Net-(U23-Pad36)" "Net-(U23-Pad38)" "Net-(R27-Pad1)" "Net-(R28-Pad1)" "/peripherals/CASS_PIN3"
+    "/peripherals/CASS_PIN1" "Net-(K2-Pad12)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

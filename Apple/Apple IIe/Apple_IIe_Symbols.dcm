@@ -1,0 +1,91 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP -12C
+D Power symbol creates a global label with name "-12C"
+K power-flag
+$ENDCMP
+#
+$CMP -5C
+D Power symbol creates a global label with name "-5C"
+K power-flag
+$ENDCMP
+#
+$CMP 2716
+D 16Kbit UV EPROM
+$ENDCMP
+#
+$CMP 2764
+D 64Kbit UV EPROM
+$ENDCMP
+#
+$CMP 3600PRO
+D Keyboard encoder
+$ENDCMP
+#
+$CMP 6502A
+D 8-bit microprocessor
+$ENDCMP
+#
+$CMP 6664
+D 64Kbit dynamic RAM
+$ENDCMP
+#
+$CMP 74LS138
+D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+F http://www.ti.com/lit/gpn/sn74LS138
+$ENDCMP
+#
+$CMP 74LS154
+D Decoder 4 to 16
+K TTL DECOD16 DECOD
+F http://www.ti.com/lit/gpn/sn74LS154
+$ENDCMP
+#
+$CMP 74LS166
+D Shift Register 8-bit, parallel load
+K TTL SR SR8
+F http://www.ti.com/lit/gpn/sn74LS166
+$ENDCMP
+#
+$CMP 74LS244
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+$ENDCMP
+#
+$CMP 74LS245
+D Octal BUS Transceivers, 3-State outputs
+K TTL BUS 3State
+F http://www.ti.com/lit/gpn/sn74LS245
+$ENDCMP
+#
+$CMP 74LS251
+D Multiplexer 8 to 1, 3-state Outputs
+K TTL MUX MUX8 3State
+F http://www.ti.com/lit/gpn/sn74LS251
+$ENDCMP
+#
+$CMP 74LS374
+D 8-bit Register, 3-state outputs
+K TTL DFF DFF8 REG 3State
+F http://www.ti.com/lit/gpn/sn74LS374
+$ENDCMP
+#
+$CMP IOU
+D 344-0020
+$ENDCMP
+#
+$CMP MMU
+D 344-0100
+$ENDCMP
+#
+$CMP NE558
+D Quad timer
+$ENDCMP
+#
+$CMP PAL_HAL
+D 342-0170
+$ENDCMP
+#
+#End Doc Library

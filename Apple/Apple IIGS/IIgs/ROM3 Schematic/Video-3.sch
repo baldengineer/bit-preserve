@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 3 10
 Title ""
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic:VGC UF2
+L IIgs-Schematic-rescue:VGC-IIgs-Schematic UF2
 U 1 1 5BF1D843
 P 4100 4500
 F 0 "UF2" H 4150 7650 50  0000 C CNN
@@ -772,7 +772,7 @@ Wire Wire Line
 	10900 8750 10900 8800
 Connection ~ 10900 8750
 $Comp
-L IIgs-Schematic:MC1377 UB2
+L IIgs-Schematic-rescue:MC1377-IIgs-Schematic UB2
 U 1 1 5BF1DCA3
 P 11100 6900
 F 0 "UB2" H 10500 6200 50  0000 L CNN
@@ -1152,7 +1152,7 @@ Connection ~ 12100 7000
 Wire Wire Line
 	12100 7000 12150 7000
 $Comp
-L IIgs-Schematic:VideoThingy H2
+L IIgs-Schematic-rescue:VideoThingy-IIgs-Schematic H2
 U 1 1 5EE8F7E3
 P 6450 1900
 F 0 "H2" H 6400 2150 50  0000 C CNN
@@ -1163,7 +1163,7 @@ F 3 "" H 6350 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:VideoThingy H3
+L IIgs-Schematic-rescue:VideoThingy-IIgs-Schematic H3
 U 1 1 5EE8FCB7
 P 6450 2700
 F 0 "H3" H 6400 2950 50  0000 C CNN
@@ -1174,7 +1174,7 @@ F 3 "" H 6350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:VideoThingy H4
+L IIgs-Schematic-rescue:VideoThingy-IIgs-Schematic H4
 U 1 1 5EE900C8
 P 6450 3450
 F 0 "H4" H 6400 3700 50  0000 C CNN
@@ -1301,7 +1301,7 @@ F 3 "" H 10000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:Conn_Coaxial_2_Shield_Pins J11
+L IIgs-Schematic-rescue:Conn_Coaxial_2_Shield_Pins-IIgs-Schematic J11
 U 1 1 5F61A5F9
 P 15100 7150
 F 0 "J11" H 15100 7388 50  0000 C CNN
@@ -1334,7 +1334,7 @@ Connection ~ 15100 7400
 Text Label 14600 7150 0    50   ~ 0
 J11-1
 $Comp
-L IIgs-Schematic:CapacitiveTransformer TF1
+L IIgs-Schematic-rescue:CapacitiveTransformer-IIgs-Schematic TF1
 U 1 1 5F6AFD3C
 P 14300 7100
 F 0 "TF1" H 14300 6917 50  0000 C CNN
@@ -1589,7 +1589,7 @@ F 3 "~" H 8400 10050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L IIgs-Schematic:SERCLK UD4
+L IIgs-Schematic-rescue:SERCLK-IIgs-Schematic UD4
 U 1 1 5F833608
 P 7500 9600
 F 0 "UD4" H 7650 9600 50  0000 C CNN
@@ -2047,7 +2047,7 @@ F 3 "" H 10050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:Video_Sync H1
+L IIgs-Schematic-rescue:Video_Sync-IIgs-Schematic H1
 U 1 1 5EF591B0
 P 10150 2400
 F 0 "H1" H 9900 2850 50  0000 C CNN
@@ -2790,4 +2790,14 @@ F 3 "~" H 3400 8000 50  0001 C CNN
 $EndComp
 Text Notes 3650 900  0    50   ~ 0
 Off-Page symbols not show on the UF2
+Text Notes 6050 1500 0    50   ~ 0
+H2, H3, and H4 form\nDAC for RGB video
+Text Notes 4700 3800 0    50   ~ 0
+VIDx - 12-bit binary values for RGB
+Text Notes 1650 4150 0    50   ~ 0
+MDBUSx goes back to MEGA-II
+Text Notes 650  5300 0    50   ~ 0
+All clocks derived from\n28.636360 MHz Xtal\n\nUnclear who generates 14M:\nMEGA-II or VGC\n\nPH0 and PH2 not entirely clear
+Text Notes 1350 4550 0    50   ~ 0
+STRETCH:\nEvery 65 clocks, A2 must have 1\nlonger clock period. For each\nHorizontal line.
 $EndSCHEMATC

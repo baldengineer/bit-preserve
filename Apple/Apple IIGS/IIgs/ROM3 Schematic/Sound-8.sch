@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 9 10
 Title ""
 Date ""
-Rev ""
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L IIgs-Schematic:DOC5503 UJ12
+L IIgs-Schematic-rescue:DOC5503-IIgs-Schematic UJ12
 U 1 1 5BF220C8
 P 8050 8350
 F 0 "UJ12" H 8250 9800 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 2550 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic-rescue:M02-freetronics_schematic J17
+L IIgs-Schematic-rescue:M02-freetronics_schematic-IIgs-Schematic-rescue J17
 U 1 1 5BF22441
 P 14050 7500
 F 0 "J17" H 14028 7478 50  0000 L CNN
@@ -1314,7 +1314,7 @@ NoConn ~ 7550 7600
 NoConn ~ 7550 7700
 NoConn ~ 7550 7900
 $Comp
-L IIgs-Schematic:MC34084 UL12
+L IIgs-Schematic-rescue:MC34084-IIgs-Schematic UL12
 U 4 1 60A26D94
 P 10900 9150
 F 0 "UL12" H 10900 8783 50  0000 C CNN
@@ -1605,7 +1605,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 6850 13400 7050
 $Comp
-L IIgs-Schematic:L-Pack3 L17
+L IIgs-Schematic-rescue:L-Pack3-IIgs-Schematic L17
 U 1 1 60D4C12C
 P 12800 6900
 F 0 "L17" H 12800 7173 50  0000 C CNN
@@ -1647,9 +1647,11 @@ Wire Wire Line
 	11950 6850 12600 6850
 Connection ~ 11950 6850
 $Comp
-L IIgs-Schematic:Audio_Phone_Jack J12
+L IIgs-Schematic-rescue:Audio_Phone_Jack-IIgs-Schematic J12
 U 1 1 60EAA1EC
 P 14250 6850
+AR Path="/60EAA1EC" Ref="J12"  Part="1" 
+AR Path="/5BF22045/60EAA1EC" Ref="J12"  Part="1" 
 F 0 "J12" H 14020 6900 50  0000 R CNN
 F 1 "PHONEJACK" H 14020 6809 50  0000 R CNN
 F 2 "" H 14200 7050 50  0001 C CNN
@@ -2443,7 +2445,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm380.pdf" H 14850 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IIgs-Schematic:LM3340 UK11
+L IIgs-Schematic-rescue:LM3340-IIgs-Schematic UK11
 U 1 1 5F2F743C
 P 12850 4450
 F 0 "UK11" H 12950 4750 50  0000 L CNN
@@ -2630,7 +2632,7 @@ UN12-1
 Wire Wire Line
 	10850 2650 10850 3650
 $Comp
-L IIgs-Schematic:MC34084 UL12
+L IIgs-Schematic-rescue:MC34084-IIgs-Schematic UL12
 U 3 1 606E3654
 P 10250 2200
 F 0 "UL12" H 10350 2050 50  0000 C CNN
@@ -2641,7 +2643,7 @@ F 3 "~" H 10250 2200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L IIgs-Schematic:MC34084 UL12
+L IIgs-Schematic-rescue:MC34084-IIgs-Schematic UL12
 U 1 1 606E490B
 P 8700 3300
 F 0 "UL12" H 8750 3150 50  0000 C CNN
@@ -2652,7 +2654,7 @@ F 3 "~" H 8700 3300 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L IIgs-Schematic:MC34084 UL12
+L IIgs-Schematic-rescue:MC34084-IIgs-Schematic UL12
 U 2 1 606E5132
 P 8700 1800
 F 0 "UL12" H 8800 1650 50  0000 C CNN

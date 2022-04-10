@@ -1,5 +1,5 @@
 # Apple
-The active systems here are the Apple IIgs and AppleII+
+The active systems here are the Apple IIgs, AppleII+ and Apple IIe.
 
 # Here are the Apple Wishlist Systems
 * Apple I

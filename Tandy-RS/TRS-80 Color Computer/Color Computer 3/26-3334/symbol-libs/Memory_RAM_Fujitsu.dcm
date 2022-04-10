@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCM4517
+D 16kx1 DRAM
+K RAM
+F https://segaretro.org/images/f/f6/MB8118_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS244
+D Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs
+K 7400 logic ttl low power schottky
+F http://www.ti.com/lit/ds/symlink/sn74ls244.pdf
+$ENDCMP
+#
+#End Doc Library
