@@ -25,4 +25,4 @@ https://colorcomputerarchive.com/repo/Documents/Manuals/Hardware/Color%20Compute
 - Cartridge connector works.
 
 ## Videos
-[Playing Joust using a new CoCo 3 board](https://youtu.be/vjpey5T-lSU)
+[Playing Joust using a new CoCo 3 board ](https://youtu.be/vjpey5T-lSU)
