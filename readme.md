@@ -18,9 +18,11 @@ I first announced this project at KiCon 2019. Here are some links to get backgro
 My goal is to have minimal rules. Right now I'd like us all to focus on documenting these systems *somewhere*. After we get a few more systems captured and a few more people contributing, then we can develop a style guide. 
 
 So for now, Bit Preserve has three simple rules:
-1. Do not upload bitmapped PDFs or images of schematics. Please link to repositories for that specific system instead. The only files to be hosted here are KiCad (aka editable) files.
+1. Do not upload bitmapped PDFs or images of original schematics. Instead, please link to repositories for that specific system instead.
 2. Use KiCad
 3. Don't be a dweeb
+
+One change to #1 from above: PDFs of the KiCad schematic is acceptable. But, please make sure the schematic file has a revision and date which is reflected in the PDF. 
 
 # Questions or Ideas
 Please, [submit an issue](https://github.com/baldengineer/bit-preserve/issues). In most cases, there is no need to email me. I want open discussions about how we move forward.
