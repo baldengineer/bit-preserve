@@ -231,10 +231,10 @@ AR Path="/603D345E/60714733" Ref="C12"  Part="1"
 F 0 "C12" V 2900 2300 50  0000 C CNN
 F 1 ".1uF" V 3000 2300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3150 2300 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 3150 2300 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 3150 2300 50  0001 C CNN
 F 4 "digikey" V 3150 2300 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 3150 2300 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 3150 2300 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 3150 2300 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 3150 2300 50  0001 C CNN "Manufacturer part#"
 	1    3150 2300
 	0    -1   -1   0   
 $EndComp
@@ -758,10 +758,10 @@ AR Path="/603D345E/60BB9D46" Ref="C54"  Part="1"
 F 0 "C54" H 650 7000 50  0000 C CNN
 F 1 ".1uF" H 1000 7000 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 800 7000 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 800 7000 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 800 7000 50  0001 C CNN
 F 4 "digikey" V 800 7000 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 800 7000 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" H 800 7000 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 800 7000 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" H 800 7000 50  0001 C CNN "Manufacturer part#"
 	1    800  7000
 	1    0    0    -1  
 $EndComp
@@ -1111,10 +1111,10 @@ AR Path="/603D345E/62D03A51" Ref="C99915"  Part="1"
 F 0 "C99915" H 2950 7000 50  0000 C CNN
 F 1 ".1uF" H 3350 7000 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3150 7000 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 3150 7000 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 3150 7000 50  0001 C CNN
 F 4 "digikey" V 3150 7000 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 3150 7000 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" H 3150 7000 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 3150 7000 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" H 3150 7000 50  0001 C CNN "Manufacturer part#"
 	1    3150 7000
 	1    0    0    -1  
 $EndComp
@@ -1157,10 +1157,10 @@ AR Path="/603D345E/62DCEAB5" Ref="C16"  Part="1"
 F 0 "C16" V 7350 4400 50  0000 C CNN
 F 1 ".1uF" V 7450 4400 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7600 4400 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 7600 4400 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 7600 4400 50  0001 C CNN
 F 4 "digikey" V 7600 4400 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 7600 4400 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 7600 4400 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 7600 4400 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 7600 4400 50  0001 C CNN "Manufacturer part#"
 	1    7600 4400
 	0    -1   1    0   
 $EndComp

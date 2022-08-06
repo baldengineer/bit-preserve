@@ -102,10 +102,10 @@ AR Path="/60308A73/60347FE8" Ref="C4"  Part="1"
 F 0 "C4" V 7900 2450 50  0000 C CNN
 F 1 ".1uF" V 7650 2450 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7800 2450 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 7800 2450 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 7800 2450 50  0001 C CNN
 F 4 "digikey" V 7800 2450 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 7800 2450 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" H 7800 2450 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 7800 2450 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" H 7800 2450 50  0001 C CNN "Manufacturer part#"
 	1    7800 2450
 	0    -1   -1   0   
 $EndComp
@@ -335,7 +335,6 @@ Wire Wire Line
 	5450 4500 6850 4500
 Wire Bus Line
 	6300 1650 6550 1650
-NoConn ~ 6850 4600
 Entry Wire Line
 	6650 2250 6550 2150
 Wire Wire Line
@@ -423,6 +422,50 @@ Text Label 2500 5000 0    50   ~ 0
 ~CE_~A11
 Text HLabel 2200 4700 0    50   Input ~ 0
 128K_ROM_~CE
+Wire Wire Line
+	6850 4600 5550 4600
+$Comp
+L power:GNDS #PWR?
+U 1 1 62EFE478
+P 6400 5150
+AR Path="/602A51A8/62EFE478" Ref="#PWR?"  Part="1" 
+AR Path="/60308A73/62EFE478" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 6400 4900 50  0001 C CNN
+F 1 "GNDS" H 6405 4977 50  0000 C CNN
+F 2 "" H 6400 5150 50  0001 C CNN
+F 3 "" H 6400 5150 50  0001 C CNN
+	1    6400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5000 6400 5150
+Text Notes 4800 5850 0    50   ~ 0
+J8 was added to either leave this\npin floating or to set it  low\nin order to use a 256kb EEPROM\nas well.
+Wire Notes Line
+	4650 5450 6300 5450
+Wire Notes Line
+	6300 5450 6300 5950
+Wire Notes Line
+	6300 5950 4650 5950
+Wire Notes Line
+	4650 5950 4650 5450
+$Comp
+L Jumper:SolderJumper_2_Open JP8
+U 1 1 62F1741F
+P 5800 5000
+F 0 "JP8" H 5800 5113 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5800 5114 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5800 5000 50  0001 C CNN
+F 3 "~" H 5800 5000 50  0001 C CNN
+	1    5800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5000 6400 5000
+Wire Wire Line
+	5550 5000 5650 5000
+Wire Wire Line
+	5550 4600 5550 5000
 Wire Bus Line
 	8050 3100 8050 5400
 Wire Bus Line

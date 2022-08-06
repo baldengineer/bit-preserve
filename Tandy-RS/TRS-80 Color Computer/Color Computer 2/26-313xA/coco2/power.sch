@@ -20,10 +20,10 @@ P 5000 1700
 F 0 "A3" V 4950 1650 50  0000 L CNN
 F 1 "A3" V 4800 1650 50  0000 L CNN
 F 2 "coco2:power_connector_post" H 5000 1700 50  0001 C CNN
-F 3 "https://www.mill-max.com/catalog/download/2017-11%3A223.pdf" H 5000 1700 50  0001 C CNN
+F 3 "https://www.mill-max.com/catalog/download/2020-01%3A221.1.pdf" H 5000 1700 50  0001 C CNN
 F 4 "digikey" V 5000 1700 50  0001 C CNN "Vendor"
-F 5 "ED1085-ND" V 5000 1700 50  0001 C CNN "Vendor part#"
-F 6 "3231-4-00-15-00-00-08-0" V 5000 1700 50  0001 C CNN "Manufacturer part#"
+F 5 "ED11524-ND" V 5000 1700 50  0001 C CNN "Vendor part#"
+F 6 "6331-0-00-15-00-00-08-0" V 5000 1700 50  0001 C CNN "Manufacturer part#"
 	1    5000 1700
 	0    1    1    0   
 $EndComp
@@ -34,10 +34,10 @@ P 4800 1700
 F 0 "A1" V 4750 1650 50  0000 L CNN
 F 1 "A1" V 4600 1650 50  0000 L CNN
 F 2 "coco2:power_connector_post" H 4800 1700 50  0001 C CNN
-F 3 "https://www.mill-max.com/catalog/download/2017-11%3A223.pdf" H 4800 1700 50  0001 C CNN
+F 3 "https://www.mill-max.com/catalog/download/2020-01%3A221.1.pdf" H 4800 1700 50  0001 C CNN
 F 4 "digikey" V 4800 1700 50  0001 C CNN "Vendor"
-F 5 "ED1085-ND" V 4800 1700 50  0001 C CNN "Vendor part#"
-F 6 "3231-4-00-15-00-00-08-0" V 4800 1700 50  0001 C CNN "Manufacturer part#"
+F 5 "ED11524-ND" V 4800 1700 50  0001 C CNN "Vendor part#"
+F 6 "6331-0-00-15-00-00-08-0" V 4800 1700 50  0001 C CNN "Manufacturer part#"
 	1    4800 1700
 	0    1    1    0   
 $EndComp
@@ -48,10 +48,10 @@ P 5200 1700
 F 0 "A2" V 5150 1650 50  0000 L CNN
 F 1 "A2" V 5000 1650 50  0000 L CNN
 F 2 "coco2:power_connector_post" H 5200 1700 50  0001 C CNN
-F 3 "https://www.mill-max.com/catalog/download/2017-11%3A223.pdf" H 5200 1700 50  0001 C CNN
+F 3 "https://www.mill-max.com/catalog/download/2020-01%3A221.1.pdf" H 5200 1700 50  0001 C CNN
 F 4 "digikey" V 5200 1700 50  0001 C CNN "Vendor"
-F 5 "ED1085-ND" V 5200 1700 50  0001 C CNN "Vendor part#"
-F 6 "3231-4-00-15-00-00-08-0" V 5200 1700 50  0001 C CNN "Manufacturer part#"
+F 5 "ED11524-ND" V 5200 1700 50  0001 C CNN "Vendor part#"
+F 6 "6331-0-00-15-00-00-08-0" V 5200 1700 50  0001 C CNN "Manufacturer part#"
 	1    5200 1700
 	0    1    1    0   
 $EndComp
@@ -80,6 +80,8 @@ F 3 "https://www.ckswitches.com/media/1402/fpush.pdf" H 5850 2400 50  0001 C CNN
 F 4 "digikey" V 5850 2400 50  0001 C CNN "Vendor"
 F 5 "401-1223-ND" V 5850 2400 50  0001 C CNN "Vendor part#"
 F 6 "F2UEE" V 5850 2400 50  0001 C CNN "Manufacturer part#"
+F 7 "401-1215-ND" V 5850 2400 50  0001 C CNN "Vendor2 part#"
+F 8 "F0201" V 5850 2400 50  0001 C CNN "Manufacturer2 part#"
 	2    5850 2400
 	0    1    -1   0   
 $EndComp
@@ -141,10 +143,10 @@ P 4650 3850
 F 0 "D8" H 4650 3950 50  0000 C CNN
 F 1 "1N4002" H 4650 3750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4650 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4650 3850 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29002.pdf" H 4650 3850 50  0001 C CNN
 F 4 "digikey" H 4650 3850 50  0001 C CNN "Vendor"
-F 5 "2368-1N4002-ND" H 4650 3850 50  0001 C CNN "Vendor part#"
-F 6 "1N4002" H 4650 3850 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4002GDICT-ND" H 4650 3850 50  0001 C CNN "Vendor part#"
+F 6 "1N4002G-T" H 4650 3850 50  0001 C CNN "Manufacturer part#"
 	1    4650 3850
 	1    0    0    -1  
 $EndComp
@@ -155,10 +157,10 @@ P 5350 3850
 F 0 "D9" H 5350 3750 50  0000 C CNN
 F 1 "1N4002" H 5350 3950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5350 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5350 3850 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29002.pdf" H 5350 3850 50  0001 C CNN
 F 4 "digikey" H 5350 3850 50  0001 C CNN "Vendor"
-F 5 "2368-1N4002-ND" H 5350 3850 50  0001 C CNN "Vendor part#"
-F 6 "1N4002" H 5350 3850 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4002GDICT-ND" H 5350 3850 50  0001 C CNN "Vendor part#"
+F 6 "1N4002G-T" H 5350 3850 50  0001 C CNN "Manufacturer part#"
 	1    5350 3850
 	-1   0    0    1   
 $EndComp
@@ -169,10 +171,10 @@ P 4650 4400
 F 0 "D10" H 4650 4183 50  0000 C CNN
 F 1 "1N5401" H 4650 4274 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4650 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 4650 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29003.pdf" H 4650 4400 50  0001 C CNN
 F 4 "digikey" H 4650 4400 50  0001 C CNN "Vendor"
-F 5 "2368-1N5401-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 4650 4400 50  0001 C CNN "Manufacturer part#"
+F 5 "1N5401GDICT-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
+F 6 "1N5401G-T" H 4650 4400 50  0001 C CNN "Manufacturer part#"
 	1    4650 4400
 	-1   0    0    1   
 $EndComp
@@ -183,10 +185,10 @@ P 5350 4400
 F 0 "D11" H 5350 4617 50  0000 C CNN
 F 1 "1N5401" H 5350 4526 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5350 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29003.pdf" H 5350 4400 50  0001 C CNN
 F 4 "digikey" H 5350 4400 50  0001 C CNN "Vendor"
-F 5 "2368-1N5401-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 5350 4400 50  0001 C CNN "Manufacturer part#"
+F 5 "1N5401GDICT-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
+F 6 "1N5401G-T" H 5350 4400 50  0001 C CNN "Manufacturer part#"
 	1    5350 4400
 	1    0    0    -1  
 $EndComp
@@ -253,10 +255,10 @@ AR Path="/602A51A8/602D08FF" Ref="C37"  Part="1"
 F 0 "C37" H 5800 4800 50  0000 C CNN
 F 1 ".1uF" H 5800 4650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6000 4750 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 6000 4750 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 6000 4750 50  0001 C CNN
 F 4 "digikey" V 6000 4750 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 6000 4750 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 6000 4750 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 6000 4750 50  0001 C CNN "Manufacturer part#"
 	1    6000 4750
 	0    1    1    0   
 $EndComp
@@ -428,10 +430,10 @@ P 4800 6650
 F 0 "C7" V 4571 6650 50  0000 C CNN
 F 1 ".1uF" V 4662 6650 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4800 6650 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 4800 6650 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 4800 6650 50  0001 C CNN
 F 4 "digikey" V 4800 6650 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 4800 6650 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 4800 6650 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 4800 6650 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 4800 6650 50  0001 C CNN "Manufacturer part#"
 	1    4800 6650
 	1    0    0    -1  
 $EndComp
@@ -610,10 +612,10 @@ AR Path="/602A51A8/62968CA5" Ref="C39"  Part="1"
 F 0 "C39" H 2400 4400 50  0000 C CNN
 F 1 ".1uF" H 2400 4250 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2600 4350 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 2600 4350 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 2600 4350 50  0001 C CNN
 F 4 "digikey" V 2600 4350 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 2600 4350 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 2600 4350 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 2600 4350 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 2600 4350 50  0001 C CNN "Manufacturer part#"
 	1    2600 4350
 	1    0    0    -1  
 $EndComp

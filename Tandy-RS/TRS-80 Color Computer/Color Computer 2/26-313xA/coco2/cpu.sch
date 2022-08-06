@@ -132,10 +132,10 @@ P 5800 2400
 F 0 "C10" V 5571 2400 50  0000 C CNN
 F 1 ".1uF" V 5662 2400 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5800 2400 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 5800 2400 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 5800 2400 50  0001 C CNN
 F 4 "digikey" V 5800 2400 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 5800 2400 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 5800 2400 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 5800 2400 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 5800 2400 50  0001 C CNN "Manufacturer part#"
 	1    5800 2400
 	0    1    1    0   
 $EndComp
@@ -393,7 +393,10 @@ AR Path="/60273794/60456BEB" Ref="R14"  Part="1"
 F 0 "R14" H 1818 3446 50  0000 L CNN
 F 1 "100K" H 1818 3355 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1750 3400 50  0001 C CNN
-F 3 "~" H 1750 3400 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 1750 3400 50  0001 C CNN
+F 4 "digikey" H 1750 3400 50  0001 C CNN "Vendor"
+F 5 "CF14JT100KCT-ND" H 1750 3400 50  0001 C CNN "Vendor part#"
+F 6 "CF14JT100K" H 1750 3400 50  0001 C CNN "Manufacturer part#"
 	1    1750 3400
 	1    0    0    -1  
 $EndComp
@@ -540,10 +543,10 @@ P 8050 950
 F 0 "C55" V 7821 950 50  0000 C CNN
 F 1 ".1uF" V 7912 950 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8050 950 50  0001 C CNN
-F 3 " https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf?ref_disty=digikey" H 8050 950 50  0001 C CNN
+F 3 " https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_250V-1kV_E.pdf" H 8050 950 50  0001 C CNN
 F 4 "digikey" V 8050 950 50  0001 C CNN "Vendor"
-F 5 "445-173474-1-ND" V 8050 950 50  0001 C CNN "Vendor part#"
-F 6 "FG28C0G1H103JNT06" V 8050 950 50  0001 C CNN "Manufacturer part#"
+F 5 "490-8814-ND" V 8050 950 50  0001 C CNN "Vendor part#"
+F 6 "RDER71H104K0K1H03B" V 8050 950 50  0001 C CNN "Manufacturer part#"
 	1    8050 950 
 	0    1    1    0   
 $EndComp
@@ -690,10 +693,10 @@ AR Path="/60273794/62C5C27C" Ref="C9"  Part="1"
 F 0 "C9" V 6000 2800 50  0000 L CNN
 F 1 "100uF 16v" V 5900 2600 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 5800 2850 50  0001 C CNN
-F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 5800 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 5800 2850 50  0001 C CNN
 F 4 "digikey" H 5800 2850 50  0001 C CNN "Vendor"
-F 5 "493-17434-1-ND" H 5800 2850 50  0001 C CNN "Vendor part#"
-F 6 "UST1C101MDD1TA" H 5800 2850 50  0001 C CNN "Manufacturer part#"
+F 5 "P10369CT-ND" H 5800 2850 50  0001 C CNN "Vendor part#"
+F 6 "ECA-1CM101B" H 5800 2850 50  0001 C CNN "Manufacturer part#"
 	1    5800 2850
 	0    -1   -1   0   
 $EndComp
