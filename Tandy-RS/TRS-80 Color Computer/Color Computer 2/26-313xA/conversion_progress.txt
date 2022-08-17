@@ -1,0 +1,40 @@
+-power sheet
+DONE
+-cpu sheet
+DONE
+-sam sheet
+DONE
+-video sheet
+DONE
+-peripherals sheet
+DONE
+-roms sheet
+DONE
+-dram sheet
+DONE
+
+
+
+
+
+====NOTES======
+
+-PIA R/W error in schematic.
+The schematic shows R/W going  from the CPU to pin 34 of the PIA's which is RESET
+on the PIA's. If you buzz it out on the board itself, you find that R/W actually
+connects to pin 21 of the PIA's which is R/W on the PIA's. This makes more sense.
+
+IC5 has R/W and RESET swapped.
+
+-SAM E and Q
+The schematic shows E going from the SAM to the Q input on the CPU
+snd it shows Q going from the SAM to the E input of the CPU.
+
+-JOYSTICK ports.
+C24 and C25 are swapped.
+
+- D12 and D13 are in the schematic but not on the board.
+
+IC2 on the schematic has +5V on pin 40 and then an additional +5V via FB3.
+The board only has it via FB3 or rather pin 40 is not directly connected to 
+the +5V rail.
