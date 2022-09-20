@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Disk Interface Card")(type "KiCad")(uri "${KIPRJMOD}/Disk Interface Card.kicad_sym")(options "")(descr ""))
+)
