@@ -5092,7 +5092,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 85e3d93d-096e-4289-ad2c-8b8358d9343e)
   )
-  (hierarchical_label "BABUS[15..0]" (shape input) (at 377.19 91.44 0)
+  (hierarchical_label "BABUS[15..0]" (shape bidirectional) (at 377.19 91.44 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9861c675-a86c-4884-add6-fe906d28cab2)
   )
