@@ -224,10 +224,10 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "unannotated": "error",
+      "unannotated": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -326,7 +326,7 @@
     ],
     [
       "00000000-0000-0000-0000-00005bf204db",
-      "ABD, KEYGLU, Burn Edge, Gameport?"
+      "ABD, KEYGLU, Burn Edge, Gameport"
     ],
     [
       "00000000-0000-0000-0000-00005bf1d236",
