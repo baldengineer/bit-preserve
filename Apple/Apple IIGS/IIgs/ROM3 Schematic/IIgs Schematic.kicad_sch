@@ -6,6 +6,7 @@
 
   (title_block
     (title "Apple IIgs ROM3 / 1 Mb")
+    (date "2023-01-28")
     (rev "2")
     (company "bald.ee/bitpreserve")
     (comment 2 "Redrawn by james@baldengineer")

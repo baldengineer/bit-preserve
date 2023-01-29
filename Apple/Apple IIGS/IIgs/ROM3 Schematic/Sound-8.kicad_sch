@@ -6,6 +6,7 @@
 
   (title_block
     (title "Sound")
+    (date "2023-01-28")
     (rev "2")
     (company "bald.ee/bitpreserve")
     (comment 1 "ROM3 / 1 Mb IIgs")

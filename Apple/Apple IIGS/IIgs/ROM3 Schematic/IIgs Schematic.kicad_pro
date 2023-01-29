@@ -125,7 +125,8 @@
   },
   "erc": {
     "erc_exclusions": [
-      "multiple_net_names|2120900|889000|2280d2e6-86f7-44b9-b1cd-b8b8470358ed|93f64a31-f7c3-4567-b4f5-10eec8632019"
+      "multiple_net_names|2120900|889000|2280d2e6-86f7-44b9-b1cd-b8b8470358ed|93f64a31-f7c3-4567-b4f5-10eec8632019",
+      "multiple_net_names|444500|2095500|2280d2e6-86f7-44b9-b1cd-b8b8470358ed|eafaba5d-bdac-417a-ba56-24a6135c13d4"
     ],
     "meta": {
       "version": 0
@@ -405,7 +406,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "C:\\Users\\balde\\Dropbox\\KiCad\\BE_Frame\\BE_Layout_OSHW.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",

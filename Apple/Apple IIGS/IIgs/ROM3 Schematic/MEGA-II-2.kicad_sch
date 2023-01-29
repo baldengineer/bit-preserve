@@ -6,6 +6,7 @@
 
   (title_block
     (title "MEGA-II for IIgs ROM3")
+    (date "2023-01-28")
     (rev "2")
     (company "bald.ee/bitpreserve")
     (comment 1 "ROM3 / 1 Mb IIgs")
@@ -4012,15 +4013,6 @@
   (text "SERVIDEO = Test Signal. \nComposite w/out Sync" (at 244.475 170.815 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7c679ce4-c1ec-4ef8-9786-d51f1e71ef57)
-  )
-  (text "Ux4A - Because B has the power pins (different from original)"
-    (at 91.44 20.955 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 868ea105-a34d-474f-a67f-d795971b1a1c)
-  )
-  (text "DIAGSW on Edge" (at 246.38 135.89 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8ea0a487-cbd1-4b79-a0f3-a72f03a8ffa9)
   )
   (text "MDIN-OUT \ncontrols Main Data on Slots" (at 241.935 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
