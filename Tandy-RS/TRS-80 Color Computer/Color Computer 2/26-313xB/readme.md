@@ -2,6 +2,7 @@
 
 This directory contains a KiCad project
 for the schematic & PCB of the TRS-80 Color Computer 2
+To view and edit you will need KiCAD 6 or greater.
 models 26-3134B and 26-3136B.
 
 ## Sources
