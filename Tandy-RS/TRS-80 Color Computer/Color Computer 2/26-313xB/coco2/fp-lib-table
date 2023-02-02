@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Crystal_coco2")(type "KiCad")(uri "${KIPRJMOD}/Crystal_coco2.pretty")(options "")(descr ""))
+  (lib (name "coco2")(type "KiCad")(uri "${KIPRJMOD}/../footprint-libs/coco2.pretty")(options "")(descr ""))
+)

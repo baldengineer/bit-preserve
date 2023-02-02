@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8040517
+D 16kx1 DRAM
+K RAM
+$ENDCMP
+#
+$CMP KM4164
+D 64kx1 DRAM
+K RAM 4164
+$ENDCMP
+#
+$CMP MB8118
+D 16kx1 DRAM
+K RAM
+$ENDCMP
+#
+$CMP MB8118-12P
+D 16kx1 DRAM
+K RAM
+$ENDCMP
+#
+$CMP MC6847T1
+D PRovides a means to interface a M6800 to NTSC television.
+K T1
+F https://colorcomputerarchive.com/repo/Documents/Datasheets/MC6847T1%20MOS%20Video%20Display%20Generator%20%28Motorola%29.pdf
+$ENDCMP
+#
+$CMP MC6847Y
+D PRovides a means to interface a M6800 to NTSC television.
+K CPU
+F http://www.colorcomputerarchive.com/coco/Documents/Datasheets/MC6847 MOS Video Display Generator (Motorola).pdf
+$ENDCMP
+#
+$CMP TMS4416
+K MB81416
+$ENDCMP
+#
+#End Doc Library
