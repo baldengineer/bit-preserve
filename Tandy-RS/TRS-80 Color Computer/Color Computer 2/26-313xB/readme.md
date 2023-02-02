@@ -18,7 +18,7 @@ The reference board was donated by MrDave6309
 - PCB
  
 ## Tested
-- PCB fit: Needed slight adjustment.
+- PCB fit: Fits correctly.
 - Keyboard: Works.
 - Audio/Video: Works.
 - Joystick ports: Works.
