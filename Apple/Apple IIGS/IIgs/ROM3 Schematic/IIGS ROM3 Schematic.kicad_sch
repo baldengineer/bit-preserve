@@ -3465,7 +3465,7 @@
       (reference "L17") (unit 1) (value "L-Pack3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005bf1d7e4/00000000-0000-0000-0000-00005bf1da51"
-      (reference "OS1") (unit 1) (value "28.636360 MHz") (footprint "")
+      (reference "OS1") (unit 1) (value "28.636360 MHz") (footprint "Oscillator:Oscillator_SeikoEpson_SG-8002DB")
     )
     (path "/00000000-0000-0000-0000-00005bf1d7e4/00000000-0000-0000-0000-0000602ac900"
       (reference "Q1") (unit 1) (value "2n3904") (footprint "")
