@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "coco2")(type "KiCad")(uri "${KIPRJMOD}/../symbol-libs/coco2.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_ROM_Tandy")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/Memory_ROM_Tandy.lib")(options "")(descr ""))
+  (lib (name "Memory_Controller_Motorola")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/Memory_Controller_Motorola.lib")(options "")(descr ""))
+  (lib (name "Memory_RAM_Motorola")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/Memory_RAM_Motorola.lib")(options "")(descr ""))
+  (lib (name "Video_Motorola")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/Video_Motorola.lib")(options "")(descr ""))
+  (lib (name "custom_dac")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/custom_dac.lib")(options "")(descr ""))
+  (lib (name "RF_Module_Tandy")(type "Legacy")(uri "${KIPRJMOD}/../symbol-libs/RF_Module_Tandy.lib")(options "")(descr ""))
+  (lib (name "coco2-rescue")(type "Legacy")(uri "${KIPRJMOD}/coco2-rescue.lib")(options "")(descr ""))
+)
