@@ -1,0 +1,20 @@
+(kicad_sch (version 20221206) (generator eeschema)
+
+  (uuid 6daef990-2031-42cc-b58f-75ced8e8f835)
+
+  (paper "A4")
+
+  (title_block
+    (rev "1")
+    (comment 1 "bald.ee/bitpreserve")
+    (comment 2 "Drawn by James Lewis (@baldengineer)")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
