@@ -10,3 +10,6 @@ Power and sound boards are nearly the same between different Game Gear models. S
 ### Service manual and schematic references
 * https://wiki.console5.com/wiki/Game_Gear#Schematics
 * https://gamesx.com/wiki/lib/exe/fetch.php?media=schematics:service_manual_-_game_gear_va1.pdf
+
+## KiCad Note
+This schematic uses KiCad 7 nightly builds.
