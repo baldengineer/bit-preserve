@@ -336,6 +336,18 @@
     [
       "6daef990-2031-42cc-b58f-75ced8e8f835",
       ""
+    ],
+    [
+      "ec9c40a4-003a-4228-8d67-87c8354ef6a4",
+      "buttons"
+    ],
+    [
+      "2e73faa9-8f4b-49d8-be4b-d91c6194c1b6",
+      "LCD Connection"
+    ],
+    [
+      "703bdcea-b6b6-45c4-9400-380851a486bf",
+      "Link Connector"
     ]
   ],
   "text_variables": {}
