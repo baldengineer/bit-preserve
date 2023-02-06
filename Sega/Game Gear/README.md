@@ -5,7 +5,6 @@
 * Sound (Shared)
 * VA0 (Europe)
 
-Power and sound boards are nearly the same between different Game Gear models. So they are separated from the main boards. 
 
 ### Service manual and schematic references
 * https://wiki.console5.com/wiki/Game_Gear#Schematics
