@@ -668,7 +668,7 @@
           (reference "M10") (unit 1)
         )
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/ec9c40a4-003a-4228-8d67-87c8354ef6a4"
-          (reference "LEFT") (unit 1)
+          (reference "LEFT1") (unit 1)
         )
       )
     )
@@ -726,7 +726,7 @@
           (reference "M10") (unit 1)
         )
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/ec9c40a4-003a-4228-8d67-87c8354ef6a4"
-          (reference "DOWN") (unit 1)
+          (reference "DOWN1") (unit 1)
         )
       )
     )
@@ -806,7 +806,7 @@
           (reference "M10") (unit 1)
         )
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/ec9c40a4-003a-4228-8d67-87c8354ef6a4"
-          (reference "START") (unit 1)
+          (reference "START1") (unit 1)
         )
       )
     )
@@ -1064,7 +1064,7 @@
           (reference "M10") (unit 1)
         )
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/ec9c40a4-003a-4228-8d67-87c8354ef6a4"
-          (reference "RIGHT") (unit 1)
+          (reference "RIGHT1") (unit 1)
         )
       )
     )
@@ -1222,7 +1222,7 @@
           (reference "M10") (unit 1)
         )
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/ec9c40a4-003a-4228-8d67-87c8354ef6a4"
-          (reference "Up") (unit 1)
+          (reference "Up1") (unit 1)
         )
       )
     )
