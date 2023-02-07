@@ -1,10 +1,11 @@
 ## Sega Game Gear Schematic
 
-* VA1 Japan / USA (837-9023, 837-9129, 837-9024, 837-9130)
+* VA1 Japan / USA (837-9023, 837-9129, 837-9024, 837-9130, single chip solution)
 * DC Power (Shared)
 * Sound (Shared)
-* VA0 (Europe)
+* VA0 (Europe, 3 chip solution)
 
+Power and sound boards are nearly the same between different Game Gear models. So they are separated from the main boards. 
 
 ### Service manual and schematic references
 * https://wiki.console5.com/wiki/Game_Gear#Schematics
