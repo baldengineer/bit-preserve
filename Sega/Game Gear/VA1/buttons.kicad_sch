@@ -6,6 +6,10 @@
 
   (title_block
     (title "Button Pads")
+    (date "2023-02-07")
+    (rev "1")
+    (comment 1 "bald.ee/bitpreserve")
+    (comment 2 "Drawn by James Lewis (@baldengineer)")
   )
 
   (lib_symbols
@@ -190,7 +194,6 @@
       )
     )
   )
-
 
   (junction (at 184.15 95.885) (diameter 0) (color 0 0 0 0)
     (uuid 016ef3f5-e0d6-4c8f-9fb8-7d3095897548)
@@ -510,7 +513,7 @@
   )
 
   (text "(Re-organized from original schematic.)" (at 137.16 113.03 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid e554dac0-5f4f-4399-851c-723333b76fa9)
   )
 

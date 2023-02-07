@@ -6,6 +6,10 @@
 
   (title_block
     (title "Link Connector")
+    (date "2023-02-07")
+    (rev "1")
+    (comment 1 "bald.ee/bitpreserve")
+    (comment 2 "Drawn by James Lewis (@baldengineer)")
   )
 
   (lib_symbols
@@ -306,7 +310,7 @@
     (stroke (width 0) (type default))
     (uuid 3fbc7dbd-182b-42f5-b08b-c819100807c4)
   )
-  (wire (pts (xy 167.64 113.03) (xy 167.64 119.38))
+  (wire (pts (xy 167.64 113.03) (xy 167.64 113.665))
     (stroke (width 0) (type default))
     (uuid 44ae4590-b44c-491d-9068-ac051c2297e1)
   )
@@ -432,7 +436,7 @@
     (uuid b929ab12-0d8b-4c83-894c-ca3933056c26)
   )
   (text "Difficult to read L1\npart number" (at 195.58 116.205 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid d8952080-f39f-45c3-9b65-2ba3096d12f6)
   )
 
@@ -816,19 +820,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 167.64 119.38 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 167.64 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3d611d0-4668-4d1b-bf40-e1f7793327c2)
-    (property "Reference" "#PWR042" (at 167.64 125.73 0)
+    (property "Reference" "#PWR042" (at 167.64 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 167.64 123.825 0)
+    (property "Value" "GND" (at 167.64 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 167.64 119.38 0)
+    (property "Footprint" "" (at 167.64 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 167.64 119.38 0)
+    (property "Datasheet" "" (at 167.64 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d27fffc1-edc4-4b03-9950-4dab98e6c96d))

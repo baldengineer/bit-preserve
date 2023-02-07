@@ -6,6 +6,10 @@
 
   (title_block
     (title "LCD Connection")
+    (date "2023-02-07")
+    (rev "1")
+    (comment 1 "bald.ee/bitpreserve")
+    (comment 2 "Drawn by James Lewis (@baldengineer)")
   )
 
   (lib_symbols
@@ -4037,20 +4041,20 @@
   )
 
   (text "NCs are connected to GND\nin OG schematic." (at 381.635 65.405 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid 2927e6d0-2905-41c3-b1b7-d313392e420c)
   )
-  (text "2c1623 SOT is B-E-C\nbased on MCC datasheet" (at 89.535 181.61 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+  (text "2c1623 SOT is B-E-C\nbased on MCC datasheet" (at 75.565 175.895 0)
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid 5d1d2f78-fd3b-4ff7-8bb7-2c962ae08332)
   )
   (text "D1 is a AAK dual-diode\nD2 and D3 are same part number, \nbut appear to only be using one diode in each."
-    (at 81.28 165.735 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (at 75.565 169.545 0)
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid e66d5569-af70-4f21-b94c-dc5f19b0c364)
   )
   (text "Hard to read values:\nR35\nR36\nR38" (at 81.28 119.38 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Verdana") (size 1.27 1.27)) (justify left bottom))
     (uuid fb6f9bad-fe43-4a54-8bfa-022ad3c87118)
   )
 
@@ -5207,8 +5211,8 @@
     )
     (pin "1" (uuid 51bdddf6-30f7-4cca-95bb-fcb9601cfec6))
     (pin "2" (uuid 33fe4666-6c77-4e8e-81e8-e9f2157548fa))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af33))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af33))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af34))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af34))
     (instances
       (project "Game Gear VA1"
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/2e73faa9-8f4b-49d8-be4b-d91c6194c1b6"
@@ -6124,11 +6128,11 @@
     (pin "1" (uuid e8cffe9e-c1e2-44b9-8121-1c0107bfdd18))
     (pin "2" (uuid 0b0abf47-d85a-42b1-893d-cbdea92e2008))
     (pin "3" (uuid 6abe1306-dc45-45bf-a02d-a89a298ce53b))
-    (pin "5" (uuid d58c00c8-9cd4-47e7-98cd-3e6a4fe1d3b0))
-    (pin "6" (uuid fa3b11de-85cf-4d0d-9af1-8b383332bbc3))
-    (pin "7" (uuid 2df72cf4-e836-4f63-b37f-5fce9eba3644))
-    (pin "4" (uuid c309d914-3abf-4699-a6ca-0f579f71bfd4))
-    (pin "8" (uuid b7a2525e-9c5e-467b-a558-0ea30ecc724f))
+    (pin "5" (uuid d58c00c8-9cd4-47e7-98cd-3e6a4fe1d3b1))
+    (pin "6" (uuid fa3b11de-85cf-4d0d-9af1-8b383332bbc4))
+    (pin "7" (uuid 2df72cf4-e836-4f63-b37f-5fce9eba3645))
+    (pin "4" (uuid c309d914-3abf-4699-a6ca-0f579f71bfd5))
+    (pin "8" (uuid b7a2525e-9c5e-467b-a558-0ea30ecc7250))
     (instances
       (project "Game Gear VA1"
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/2e73faa9-8f4b-49d8-be4b-d91c6194c1b6"
@@ -6156,11 +6160,11 @@
     (pin "1" (uuid f3ac7521-1a96-4e59-80a5-910a3856cd8e))
     (pin "2" (uuid 0b68cbb4-aaf8-47c3-8cdd-53f952750287))
     (pin "3" (uuid 99563da1-57dc-4076-930d-af94f5c363bd))
-    (pin "5" (uuid d58c00c8-9cd4-47e7-98cd-3e6a4fe1d3b0))
-    (pin "6" (uuid fa3b11de-85cf-4d0d-9af1-8b383332bbc3))
-    (pin "7" (uuid 2df72cf4-e836-4f63-b37f-5fce9eba3644))
-    (pin "4" (uuid c309d914-3abf-4699-a6ca-0f579f71bfd4))
-    (pin "8" (uuid b7a2525e-9c5e-467b-a558-0ea30ecc724f))
+    (pin "5" (uuid d58c00c8-9cd4-47e7-98cd-3e6a4fe1d3b2))
+    (pin "6" (uuid fa3b11de-85cf-4d0d-9af1-8b383332bbc5))
+    (pin "7" (uuid 2df72cf4-e836-4f63-b37f-5fce9eba3646))
+    (pin "4" (uuid c309d914-3abf-4699-a6ca-0f579f71bfd6))
+    (pin "8" (uuid b7a2525e-9c5e-467b-a558-0ea30ecc7251))
     (instances
       (project "Game Gear VA1"
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/2e73faa9-8f4b-49d8-be4b-d91c6194c1b6"
@@ -6342,7 +6346,7 @@
     (property "Reference" "C69" (at 294.005 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n/50V (MP)" (at 294.005 41.91 0)
+    (property "Value" "100n/50v (MP)" (at 294.005 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 293.37 39.37 0)
