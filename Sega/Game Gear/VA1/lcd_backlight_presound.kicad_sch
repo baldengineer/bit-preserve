@@ -2791,11 +2791,6 @@
     (stroke (width 0) (type default))
     (uuid 4d24f2f3-7b02-49b6-998b-37bd385e46c8)
   )
-  (bus (pts (xy 363.22 193.675) (xy 363.22 194.31))
-    (stroke (width 0) (type default))
-    (uuid 4dc6b8ca-404e-436f-a2f2-9281db3fdbcb)
-  )
-
   (wire (pts (xy 281.94 56.515) (xy 281.94 55.245))
     (stroke (width 0) (type default))
     (uuid 4e71e2cf-0ff9-4fa6-b5c1-9c3af3f16c1f)
@@ -5211,8 +5206,8 @@
     )
     (pin "1" (uuid 51bdddf6-30f7-4cca-95bb-fcb9601cfec6))
     (pin "2" (uuid 33fe4666-6c77-4e8e-81e8-e9f2157548fa))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af34))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af34))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af38))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af38))
     (instances
       (project "Game Gear VA1"
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/2e73faa9-8f4b-49d8-be4b-d91c6194c1b6"

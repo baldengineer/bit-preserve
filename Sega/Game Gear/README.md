@@ -13,3 +13,5 @@ Power and sound boards are nearly the same between different Game Gear models. S
 
 ## KiCad Note
 This schematic uses KiCad 7 nightly builds.
+
+VA1 is complete, but waiting for KiCad 7 release to merge to main.
