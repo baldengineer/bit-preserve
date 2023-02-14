@@ -1,13 +1,13 @@
 ## Sega Game Gear Schematic
 
 * VA1 Japan / USA (837-9023, 837-9129, 837-9024, 837-9130, single chip solution)
- * [Game Gear VA1.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/VA1/Game%20Gear%20VA1.pdf)
+  * [Game Gear VA1.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/VA1/Game%20Gear%20VA1.pdf)
 * DC Power (Shared)
- * [Game Gear DC-DC Converter.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/DC-DC%20Converter/Game%20Gear%20DC-DC%20Converter.pdf)
+  * [Game Gear DC-DC Converter.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/DC-DC%20Converter/Game%20Gear%20DC-DC%20Converter.pdf)
 * Sound (Shared)
- * [Game Gear Sound Board.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/Sound/Game%20Gear%20Sound%20Board.pdf)
+  * [Game Gear Sound Board.pdf](https://github.com/baldengineer/bit-preserve/blob/master/Sega/Game%20Gear/Sound/Game%20Gear%20Sound%20Board.pdf)
 * VA0 (Europe, 3 chip solution)
- * TBD
+  * TBD
 
 DC-DC Converter and sound boards are nearly (or totally?) the same between different Game Gear models. So they are separated from the main board(s). 
 
