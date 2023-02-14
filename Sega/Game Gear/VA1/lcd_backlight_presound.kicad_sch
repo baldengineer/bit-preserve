@@ -5206,8 +5206,8 @@
     )
     (pin "1" (uuid 51bdddf6-30f7-4cca-95bb-fcb9601cfec6))
     (pin "2" (uuid 33fe4666-6c77-4e8e-81e8-e9f2157548fa))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af38))
-    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af38))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af39))
+    (pin "3" (uuid d0199452-c38b-4820-a6ac-292008a6af39))
     (instances
       (project "Game Gear VA1"
         (path "/6daef990-2031-42cc-b58f-75ced8e8f835/2e73faa9-8f4b-49d8-be4b-d91c6194c1b6"
