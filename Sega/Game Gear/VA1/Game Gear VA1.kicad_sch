@@ -5,10 +5,11 @@
   (paper "A3")
 
   (title_block
-    (date "2023-02-07")
+    (title "VA1 Board - (Single ASIC)")
+    (date "2023-02-14")
     (rev "1")
-    (comment 1 "bald.ee/bitpreserve")
-    (comment 2 "Drawn by James Lewis (@baldengineer)")
+    (company "bald.ee/bitpreserve")
+    (comment 1 "Drawn by James Lewis (@baldengineer)")
   )
 
   (lib_symbols
@@ -2147,9 +2148,9 @@
     )
   )
 
-  (bus_alias "Control" (members "~{RESET}" "~{EXM1}" "~{EXM2}" "~{MREQ}" "~{RFSH}" "~{WR}" "~{RD}" "~{IORQ}" "~{M1}" "CCLK" "~{TV}" "~{CS1}"))
   (bus_alias "TV_SOUND" (members "TVSNDL" "TVSNDR"))
   (bus_alias "SND" (members "SNDR" "SNDL" "~{SPON}"))
+  (bus_alias "Control" (members "~{RESET}" "~{EXM1}" "~{EXM2}" "~{MREQ}" "~{RFSH}" "~{WR}" "~{RD}" "~{IORQ}" "~{M1}" "CCLK" "~{TV}" "~{CS1}"))
   (junction (at 339.725 208.28) (diameter 0) (color 0 0 0 0)
     (uuid 02e38e6e-0002-4c17-90d2-078b33ea8ae0)
   )

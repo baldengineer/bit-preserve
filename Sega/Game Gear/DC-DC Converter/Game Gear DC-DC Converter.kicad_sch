@@ -2,10 +2,11 @@
 
   (uuid b9ed542b-d44f-4978-9d12-34f5b86f29cc)
 
-  (paper "USLetter")
+  (paper "A4")
 
   (title_block
     (title "DC-DC Converter for GG")
+    (date "2023-02-14")
     (rev "1")
     (company "bald.ee/bitpreserve")
   )
@@ -2060,7 +2061,7 @@
     (uuid 4cddaf7a-313d-44d6-8d77-5a110ab92b78)
   )
   (text "Duplicate Reference Designator Check is Turned Off"
-    (at 160.655 175.895 0)
+    (at 179.07 170.815 0)
     (effects (font (face "Verdana") (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid 60683f89-e367-4325-a82f-856a7532864d)
   )

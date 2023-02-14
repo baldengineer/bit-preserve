@@ -6,10 +6,10 @@
 
   (title_block
     (title "Button Pads")
-    (date "2023-02-07")
+    (date "2023-02-14")
     (rev "1")
-    (comment 1 "bald.ee/bitpreserve")
-    (comment 2 "Drawn by James Lewis (@baldengineer)")
+    (company "bald.ee/bitpreserve")
+    (comment 1 "Drawn by James Lewis (@baldengineer)")
   )
 
   (lib_symbols
