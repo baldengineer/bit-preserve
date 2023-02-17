@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 67809fc9-81c6-454d-9011-542a06dd2b5a)
+
+  (paper "A4")
+
+  (title_block
+    (title "Apple IIc")
+    (rev "1")
+    (company "bald.ee/bitpreserve")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
