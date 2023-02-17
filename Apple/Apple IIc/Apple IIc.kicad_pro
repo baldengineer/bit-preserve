@@ -326,6 +326,10 @@
     [
       "67809fc9-81c6-454d-9011-542a06dd2b5a",
       ""
+    ],
+    [
+      "78ae22ff-20f7-4004-8725-f75aed7cf25e",
+      "CPU MMU IOU RAM"
     ]
   ],
   "text_variables": {}

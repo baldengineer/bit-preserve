@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Apple IIc Schematic Symbols")(type "KiCad")(uri "${KIPRJMOD}/Apple IIc Schematic Symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Apple_IIe_Symbols")(type "Legacy")(uri "C:/Users/balde/Dropbox/Projects/GitHub/bit-preserve/Apple/Apple IIe/Apple_IIe_Symbols.lib")(options "")(descr ""))
+)
