@@ -394,6 +394,10 @@
     [
       "78ae22ff-20f7-4004-8725-f75aed7cf25e",
       "CPU MMU IOU RAM"
+    ],
+    [
+      "0cfe9ee5-b824-4dbc-93fe-7f1a5c953b43",
+      "Video"
     ]
   ],
   "text_variables": {}
