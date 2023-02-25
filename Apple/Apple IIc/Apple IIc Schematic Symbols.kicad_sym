@@ -706,7 +706,7 @@
         (name "OE" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 12.7 -9.525 180) (length 5.08)
+      (pin power_in line (at 10.16 -9.525 180) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
