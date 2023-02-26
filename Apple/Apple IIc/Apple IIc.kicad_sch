@@ -602,6 +602,23 @@
     )
   )
 
+  (sheet (at 189.23 184.15) (size 41.91 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c7818473-c05a-41b6-ab1e-f52d99164037)
+    (property "Sheetname" "Serial and GLU" (at 189.23 183.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Serial and GLU.kicad_sch" (at 189.23 217.7546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Apple IIc"
+        (path "/67809fc9-81c6-454d-9011-542a06dd2b5a" (page "6"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
