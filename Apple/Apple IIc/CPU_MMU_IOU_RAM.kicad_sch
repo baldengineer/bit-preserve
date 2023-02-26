@@ -5637,10 +5637,10 @@
   (symbol (lib_id "Device:D_Small_Filled") (at 146.05 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f965367-b821-4f0c-9675-e2280f9bca00)
-    (property "Reference" "CR1" (at 146.05 133.985 0)
+    (property "Reference" "CR3" (at 146.05 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1n5712" (at 146.05 136.525 0)
+    (property "Value" "1n5712" (at 146.05 141.605 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 146.05 138.43 90)
@@ -5660,7 +5660,7 @@
     (instances
       (project "Apple IIc"
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/78ae22ff-20f7-4004-8725-f75aed7cf25e"
-          (reference "CR1") (unit 1)
+          (reference "CR3") (unit 1)
         )
       )
     )
@@ -5922,12 +5922,12 @@
   )
 
   (symbol (lib_id "Device:D_Small_Filled") (at 146.05 131.445 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid aa7542c9-676e-4591-85fd-95a39f8ecf8f)
-    (property "Reference" "CR2" (at 146.05 127 0)
+    (property "Reference" "CR2" (at 146.05 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1n5712" (at 146.05 129.54 0)
+    (property "Value" "1n5712" (at 146.05 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 146.05 131.445 90)

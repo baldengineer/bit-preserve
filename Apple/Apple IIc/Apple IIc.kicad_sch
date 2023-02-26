@@ -14,6 +14,23 @@
   )
 
 
+  (sheet (at 276.86 33.655) (size 52.07 64.77) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c756c7d-ccc5-4fd6-8f9f-5252072a9ba6)
+    (property "Sheetname" "Keyboard and IWM" (at 276.86 32.9434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Keyboard_and_IWM.kicad_sch" (at 276.86 99.0096 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Apple IIc"
+        (path "/67809fc9-81c6-454d-9011-542a06dd2b5a" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 175.26 45.085) (size 78.74 60.325) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 255 1.0000))
