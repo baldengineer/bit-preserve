@@ -329,7 +329,7 @@
     "netclass_patterns": [
       {
         "netclass": "MD7 Is Special",
-        "pattern": "/D7"
+        "pattern": "*/D7"
       },
       {
         "netclass": "Ground",
