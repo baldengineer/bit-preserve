@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Video And Aux RAM")
+    (rev "1")
+    (company "bald.ee/bitpreserve")
+    (comment 1 "Apple IIc")
+  )
+
   (lib_symbols
     (symbol "74LS374_IIc_1" (in_bom yes) (on_board yes)
       (property "Reference" "U1" (at 1.9559 19.685 0)

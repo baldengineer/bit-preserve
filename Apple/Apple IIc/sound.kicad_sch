@@ -6,6 +6,9 @@
 
   (title_block
     (title "Sound")
+    (rev "1")
+    (company "bald.ee/bitpreserve")
+    (comment 1 "Apple IIc")
   )
 
   (lib_symbols

@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "IWM - Disk Drive")
+    (rev "1")
+    (company "bald.ee/bitpreserve")
+    (comment 1 "Apple IIc")
+  )
+
   (lib_symbols
     (symbol "Apple IIc Schematic Symbols:Conn_External_Disk-IIc-19pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 1.27 19.685 0)

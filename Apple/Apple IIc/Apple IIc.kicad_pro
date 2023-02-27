@@ -319,6 +319,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Muted",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 72, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -338,6 +355,10 @@
       {
         "netclass": "+5V",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Muted",
+        "pattern": "Net-(UF3-I3)"
       }
     ]
   },
@@ -401,7 +422,7 @@
     ],
     [
       "0c756c7d-ccc5-4fd6-8f9f-5252072a9ba6",
-      "Keyboard and IWM"
+      "IWM"
     ],
     [
       "b64ea2f7-aa14-490f-9d83-1ecc1849fa64",
@@ -414,6 +435,10 @@
     [
       "3391a67c-0808-42b7-9905-337195e91882",
       "Sound"
+    ],
+    [
+      "cebe3ae0-d997-4501-be83-25d929b1b5f1",
+      "Keyboard_and_Gameport"
     ]
   ],
   "text_variables": {}
