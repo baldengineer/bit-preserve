@@ -792,7 +792,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 327.66 125.095 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82591408-365c-4f6a-a844-eb91317af71d)
-    (property "Reference" "J1" (at 326.39 116.84 0)
+    (property "Reference" "J10" (at 326.39 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Internal Speaker" (at 320.04 119.38 0)
@@ -809,7 +809,7 @@
     (instances
       (project "Apple IIc"
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/3391a67c-0808-42b7-9905-337195e91882"
-          (reference "J1") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
