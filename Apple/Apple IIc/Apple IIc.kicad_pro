@@ -32,7 +32,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|711200|755650|1bc17677-d980-44e4-b8f3-4716cd0bbcb8|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },

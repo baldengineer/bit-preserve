@@ -307,7 +307,7 @@
       )
     )
     (symbol "Apple IIc Schematic Symbols:74LS251-IIc" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "UF3" (at 3.81 21.59 0)
+      (property "Reference" "U" (at 1.905 20.955 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "74LS251" (at 5.715 19.05 0)
@@ -361,11 +361,11 @@
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -12.065 -1.905 0) (length 5.08)
+        (pin input line (at -12.065 -4.445 0) (length 5.08)
           (name "I2" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -12.065 -4.445 0) (length 5.08)
+        (pin input line (at -12.065 -1.905 0) (length 5.08)
           (name "I1" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -1792,6 +1792,7 @@
       )
     )
   )
+
 
   (junction (at 125.73 122.555) (diameter 0) (color 0 0 0 0)
     (uuid 180200aa-7112-43eb-bcb7-cb28d2981557)
@@ -3497,7 +3498,7 @@
           (reference "RP10") (unit 7)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP1") (unit 7)
+          (reference "RP3") (unit 7)
         )
       )
     )
@@ -3633,7 +3634,7 @@
           (reference "RP1") (unit 6)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP5") (unit 6)
+          (reference "RP1") (unit 6)
         )
       )
     )
@@ -3754,7 +3755,7 @@
           (reference "RP9") (unit 6)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP1") (unit 6)
+          (reference "RP3") (unit 6)
         )
       )
     )
@@ -3877,7 +3878,7 @@
           (reference "RP1") (unit 5)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP5") (unit 5)
+          (reference "RP1") (unit 5)
         )
       )
     )
@@ -3976,7 +3977,7 @@
           (reference "RP1") (unit 3)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP5") (unit 3)
+          (reference "RP1") (unit 3)
         )
       )
     )
@@ -4218,7 +4219,7 @@
           (reference "RP1") (unit 4)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP5") (unit 4)
+          (reference "RP1") (unit 4)
         )
       )
     )
@@ -4600,8 +4601,8 @@
     (pin "13" (uuid fcbbe3c1-eb3f-452a-a835-e2bbf550db96))
     (pin "14" (uuid f8fcab0e-253a-403f-b82b-9b524268d061))
     (pin "15" (uuid 0e9e6462-6754-4810-97d8-76f2b90573f6))
-    (pin "16" (uuid e21cdf1f-9a09-4acd-a2b0-96047fa9c936))
-    (pin "16" (uuid e21cdf1f-9a09-4acd-a2b0-96047fa9c936))
+    (pin "16" (uuid e21cdf1f-9a09-4acd-a2b0-96047fa9c938))
+    (pin "16" (uuid e21cdf1f-9a09-4acd-a2b0-96047fa9c938))
     (pin "19" (uuid 403c3bb4-aa02-4811-ac51-fcf123a45efe))
     (pin "2" (uuid 774082e1-4755-405c-b16c-2a8c1604b69b))
     (pin "20" (uuid 5b5f28e8-4e34-4dac-9e51-5cf6aec40a9b))
@@ -4803,7 +4804,7 @@
           (reference "RP7") (unit 8)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP8") (unit 8)
+          (reference "RP1") (unit 8)
         )
       )
     )
@@ -4881,7 +4882,7 @@
           (reference "RP11") (unit 4)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP1") (unit 4)
+          (reference "RP3") (unit 4)
         )
       )
     )
@@ -4921,7 +4922,7 @@
           (reference "RP8") (unit 9)
         )
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/cebe3ae0-d997-4501-be83-25d929b1b5f1"
-          (reference "RP9") (unit 9)
+          (reference "RP1") (unit 9)
         )
       )
     )
