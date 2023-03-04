@@ -14,7 +14,6 @@
   (lib_symbols
   )
 
-
   (junction (at 130.175 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 03cc218b-5b40-4c84-9dcf-d1dad05f2bb8)
   )
@@ -213,6 +212,10 @@
     (uuid 4955cf5a-6d70-4e9a-810f-dd717a8f7ad5)
   )
 
+  (wire (pts (xy 125.73 109.855) (xy 140.335 109.855))
+    (stroke (width 0) (type default))
+    (uuid 4ae1c206-9240-4450-8c17-9e0309a5af44)
+  )
   (wire (pts (xy 98.425 32.385) (xy 266.7 32.385))
     (stroke (width 0) (type default))
     (uuid 4b65f31b-f259-47e3-b82b-f4e4529d39a6)
@@ -882,10 +885,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 11a36a2d-8dec-4fd1-abf2-db829a096150)
     )
-    (pin "KSTRB" output (at 125.73 144.145 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 932b35fc-d846-402a-ae70-3f6580ee7eda)
-    )
     (pin "YMOVE" input (at 125.73 159.385 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8b033bf6-1416-4fb6-94b1-e17d8b82b160)
@@ -946,13 +945,21 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 76d45c3a-e378-402e-8f96-6e6438aa5736)
     )
-    (pin "AKD" output (at 125.73 141.605 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 43a7d20b-528a-4d67-a8f2-28cac772eb57)
-    )
     (pin "~{RAS}" output (at 125.73 105.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 97d8393c-8e3c-406c-bb18-5e474e1afb12)
+    )
+    (pin "~{PRAS}" output (at 125.73 109.855 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 43dd2318-8eb6-4e56-9cb9-b52f05cdcac4)
+    )
+    (pin "AKD" input (at 125.73 141.605 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 418a5dd4-a09a-4724-84f3-b3e28c13f637)
+    )
+    (pin "KSTRB" input (at 125.73 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7a854d57-89f4-4066-8f3d-c077d851b624)
     )
     (instances
       (project "Apple IIc"
@@ -1092,9 +1099,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4e4bd828-ec15-44c0-bb30-baf03a4daaf0)
     )
-    (pin "KSTRB" output (at 149.225 201.295 180)
+    (pin "KSTRB" input (at 149.225 201.295 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 7f5d0aac-7647-4fe6-84ca-c82fddcec98e)
+      (uuid b1eceff8-d8f5-405f-96a8-96802b4542f9)
     )
     (instances
       (project "Apple IIc"
