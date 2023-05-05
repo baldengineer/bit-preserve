@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.1,
@@ -23,32 +24,15 @@
       "track_widths": [],
       "via_dimensions": []
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1219200|533400|f3d762dc-ed9b-42f4-9e57-d9a81e936699|2e916dea-4318-47f2-ad91-0b1a9b20584b",
-      "pin_to_pin|1219200|558800|2c19cbe9-c872-4a82-bcab-a145d2d6fa01|61a4e5d6-8e1b-46c6-93bf-ebad57a95593",
-      "pin_to_pin|1219200|584200|7131ab4d-0b98-4058-9682-7903731f0f7e|831eb368-26ef-4dcb-b87b-962f9d8f04ae",
-      "pin_to_pin|1219200|609600|9e3246cd-7ca4-45c8-a99d-e04007c73a2d|4b92abbe-1ef8-43d3-afa9-158c974ebcab",
-      "pin_to_pin|1219200|635000|7c5e29cd-c4c1-40d9-acb0-d0238b750146|99d4b851-2bc3-4bf9-9865-f8eedf191c34",
-      "pin_to_pin|1219200|660400|4770043c-d5bb-4e44-9dfa-90f1c23d2819|d34146d4-c8c7-4c0e-ab96-c311ef219d16",
-      "pin_to_pin|1219200|685800|0f162dc6-aaba-43ca-b082-7d9eb7f1f57d|7fad81ad-1006-4346-a02a-3e767011ab50",
-      "pin_to_pin|1219200|711200|5726fa90-7c58-482f-a888-fdaa5ea61fc6|1d0784c8-eb60-4f99-bf8d-40ab8ab5384b",
-      "pin_to_pin|1816100|457200|99d4b851-2bc3-4bf9-9865-f8eedf191c34|7c5e29cd-c4c1-40d9-acb0-d0238b750146",
-      "pin_to_pin|1816100|482600|d34146d4-c8c7-4c0e-ab96-c311ef219d16|4770043c-d5bb-4e44-9dfa-90f1c23d2819",
-      "pin_to_pin|1816100|508000|7fad81ad-1006-4346-a02a-3e767011ab50|0f162dc6-aaba-43ca-b082-7d9eb7f1f57d",
-      "pin_to_pin|1816100|533400|1d0784c8-eb60-4f99-bf8d-40ab8ab5384b|5726fa90-7c58-482f-a888-fdaa5ea61fc6",
-      "pin_to_pin|1816100|558800|4b92abbe-1ef8-43d3-afa9-158c974ebcab|9e3246cd-7ca4-45c8-a99d-e04007c73a2d",
-      "pin_to_pin|1816100|584200|831eb368-26ef-4dcb-b87b-962f9d8f04ae|7131ab4d-0b98-4058-9682-7903731f0f7e",
-      "pin_to_pin|1816100|609600|61a4e5d6-8e1b-46c6-93bf-ebad57a95593|2c19cbe9-c872-4a82-bcab-a145d2d6fa01",
-      "pin_to_pin|1816100|635000|2e916dea-4318-47f2-ad91-0b1a9b20584b|f3d762dc-ed9b-42f4-9e57-d9a81e936699",
-      "pin_to_pin|2260600|406400|3841c9a4-ef0f-4320-930d-b12739d5b68e|1bfce5b8-ff65-4ad2-b01f-ab7ec4ceb38c"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -225,18 +209,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -246,6 +235,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -257,13 +247,13 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Disk ][  Interface Card.kicad_pro",
+    "filename": "Disk II Interface Card.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -277,13 +267,15 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -299,6 +291,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -330,7 +324,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
