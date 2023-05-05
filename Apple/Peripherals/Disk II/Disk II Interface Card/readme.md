@@ -12,6 +12,8 @@ KiCad Version 7.x
 
 ## Schematic Source
 Based off Apple Document [050-0005-01.pdf](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Disk%20Drive%20Controllers/Apple%20Disk%20II%20Interface%20Card/Schematics/Apple%20Disk%20II%20-%20Schematics%20050-0005-01.pdf) via [mirrors.apple2.org.za](https://mirrors.apple2.org.za/Apple%20II%20Documentation%20Project/Interface%20Cards/Disk%20Drive%20Controllers/Apple%20Disk%20II%20Interface%20Card/Schematics/)
+
 Document #513
+
 Source: David Craig - DISK 2 Interface Card - 4/1978
 
