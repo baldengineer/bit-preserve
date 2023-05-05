@@ -2,7 +2,7 @@
 These schematics cover the Apple IIc. 
 
 Schematics currently available:
-* [PDF](Apple%20IIc%20Schematic%20Redrawn.pdf) Apple IIc (PAL) schematic 050-0093-A - captured by [@baldengineer](https://github.com/baldengineer)
+* \[[PDF]\](Apple%20IIc%20Schematic%20Redrawn.pdf) Apple IIc (PAL) schematic 050-0093-A - captured by [@baldengineer](https://github.com/baldengineer)
   *  This schematic also contains Euro keyswitch and non-banked ROM.
 
 ## KiCad Version
