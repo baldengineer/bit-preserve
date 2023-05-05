@@ -22,34 +22,10 @@ So for now, Bit Preserve has three simple rules:
 2. Use KiCad
 3. Don't be a dweeb
 
-One change to #1 from above: PDFs of the KiCad schematic is acceptable. But, please make sure the schematic file has a revision and date which is reflected in the PDF. 
+One change to #1 from above: PDFs of the KiCad schematic is acceptable (and suggested.) Please add a link to the PDF in the README for the computer to help make finding them easier!
 
 # Questions or Ideas
 Please, [submit an issue](https://github.com/baldengineer/bit-preserve/issues). In most cases, there is no need to email me. I want open discussions about how we move forward.
-
-# System Wishlist
-* Amiga
-* Amstrad
-* Apple
-	* Apple II
-	* Apple II+
-	* Apple IIe
-	* Apple IIc
-	* Apple III
-* Commodore
-	* PET
-	* VIC 20
-	* C64
-	* C64C
-	* C128
-* Sinclair
-	* ZX 80
-	* ZX 81
-* Spectrum ZX
-* Tandy / Radio Shack
-	* TRS-80 Model I
-	* TRS-80 Model II
-	* TRS-80 Model III
 
 
 	-James
