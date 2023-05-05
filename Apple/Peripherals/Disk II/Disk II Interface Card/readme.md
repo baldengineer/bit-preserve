@@ -1,7 +1,7 @@
 # Schematic for Apple II Disk Interface Card 650-x104
 
 ## Schematic Variants
-* [050-0005-01.pdf](Disk II Interface Card - Redrawn.pdf): 650-X104 / 050-0005-01.
+* [050-0005-01.pdf](Disk%20II%20Interface%20Card%20-%20Redrawn.pdf): 650-X104 / 050-0005-01.
 
 
 ## KiCad Notes
