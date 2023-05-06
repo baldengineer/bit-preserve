@@ -6,6 +6,9 @@
 
   (title_block
     (title "650-X104")
+    (date "2023-05-05")
+    (rev "2b")
+    (company "bald.ee/bitpreserve")
     (comment 1 "Apple Disk II Interface Card")
   )
 
@@ -4246,13 +4249,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 142bd1fd-186c-48c4-8add-fdc639703e74)
   )
-  (text "POWER to A3/B3" (at 280.035 154.94 0)
+  (text "POWER to UA3/UB3" (at 280.035 154.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2b01ed1e-5918-4a99-9c65-1795e0582b1f)
   )
   (text "MOTOR ON" (at 161.925 195.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 43ba0e7d-9f71-489d-9b71-96d5475a0ed5)
+  )
+  (text "C2 on original schematic" (at 170.815 140.97 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4f1aafac-9733-4b4f-a457-bd86ddf06b67)
   )
   (text "DRIVE SELECT" (at 190.5 203.835 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4872,7 +4879,7 @@
   (symbol (lib_id "Device:C_Polarized_Small") (at 97.155 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e4a20e1-697a-4a2b-9d8c-f88b2f398b35)
-    (property "Reference" "C21" (at 99.695 174.0788 0)
+    (property "Reference" "C2" (at 99.695 174.0788 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 99.695 176.6188 0)
@@ -4889,7 +4896,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "C21") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4949,7 +4956,7 @@
   (symbol (lib_id "74xx:74LS05") (at 81.28 206.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15e2ad8a-bada-4a92-8f8c-eed1906fb293)
-    (property "Reference" "B2" (at 81.28 197.485 0)
+    (property "Reference" "UB2" (at 81.28 197.485 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS05" (at 81.28 200.025 0)
@@ -4978,7 +4985,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 1)
+          (reference "UB2") (unit 1)
         )
       )
     )
@@ -5012,7 +5019,7 @@
   (symbol (lib_id "74xx:74LS05") (at 259.08 173.355 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1823a0cf-1d04-4bff-b82f-137306b1961f)
-    (property "Reference" "B2" (at 258.445 177.8 0)
+    (property "Reference" "UB2" (at 258.445 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS05" (at 259.08 179.705 0)
@@ -5041,7 +5048,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 5)
+          (reference "UB2") (unit 5)
         )
       )
     )
@@ -5150,7 +5157,7 @@
   (symbol (lib_id "74xx:74LS05") (at 99.06 264.16 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2798b7d2-b890-473e-bf31-f4f9bac058b0)
-    (property "Reference" "B2" (at 105.41 262.8899 0)
+    (property "Reference" "UB2" (at 105.41 262.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS05" (at 105.41 265.4299 0)
@@ -5179,7 +5186,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 7)
+          (reference "UB2") (unit 7)
         )
       )
     )
@@ -5213,7 +5220,7 @@
   (symbol (lib_id "74xx:74LS259") (at 163.195 160.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a0ac0a0-1350-4941-8f62-2196a841d75f)
-    (property "Reference" "C2" (at 165.2144 142.875 0)
+    (property "Reference" "UC2" (at 165.2144 142.875 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS259" (at 165.2144 145.415 0)
@@ -5244,7 +5251,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "C2") (unit 1)
+          (reference "UC2") (unit 1)
         )
       )
     )
@@ -5279,7 +5286,7 @@
   (symbol (lib_id "74xx:74LS132") (at 276.225 81.915 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d290025-58c7-4970-b0a7-1db2bf2256cb)
-    (property "Reference" "A2" (at 276.86 88.9 0)
+    (property "Reference" "UA2" (at 276.86 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS132" (at 276.86 90.805 0)
@@ -5308,7 +5315,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A2") (unit 4)
+          (reference "UA2") (unit 4)
         )
       )
     )
@@ -5367,7 +5374,7 @@
   (symbol (lib_id "74xx:74LS132") (at 121.92 264.16 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 374184d4-53fb-4379-9f9d-61f5e5a198f3)
-    (property "Reference" "A2" (at 128.27 262.8899 0)
+    (property "Reference" "UA2" (at 128.27 262.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS132" (at 128.27 265.4299 0)
@@ -5396,7 +5403,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A2") (unit 5)
+          (reference "UA2") (unit 5)
         )
       )
     )
@@ -5482,7 +5489,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.135 267.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45d7b472-3394-43ec-ab1c-b1cdfc7e4376)
-    (property "Reference" "C31" (at 66.675 266.7062 0)
+    (property "Reference" "C3" (at 66.675 266.7062 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 66.675 269.2462 0)
@@ -5499,7 +5506,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "C31") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -5749,7 +5756,7 @@
   (symbol (lib_id "74xx:74LS05") (at 276.225 70.485 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61019992-ac7e-42c4-a1aa-def16643b2ce)
-    (property "Reference" "B2" (at 276.225 61.595 0)
+    (property "Reference" "UB2" (at 276.225 61.595 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS05" (at 276.225 64.135 0)
@@ -5778,7 +5785,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 2)
+          (reference "UB2") (unit 2)
         )
       )
     )
@@ -5988,7 +5995,7 @@
   (symbol (lib_id "74xx:74LS05") (at 161.29 206.375 180) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7511555a-f395-4d3c-8c01-0bd53ee5f27e)
-    (property "Reference" "B2" (at 161.925 198.12 0)
+    (property "Reference" "UB2" (at 161.925 198.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS05" (at 162.56 200.66 0)
@@ -6017,7 +6024,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 3)
+          (reference "UB2") (unit 3)
         )
       )
     )
@@ -6026,7 +6033,7 @@
   (symbol (lib_id "74xx:74LS132") (at 211.455 198.755 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7637a508-1d32-4805-8bb2-f489b6248b5f)
-    (property "Reference" "A2" (at 211.455 189.865 0)
+    (property "Reference" "UA2" (at 211.455 189.865 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS132" (at 211.455 192.405 0)
@@ -6055,7 +6062,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A2") (unit 2)
+          (reference "UA2") (unit 2)
         )
       )
     )
@@ -6114,7 +6121,7 @@
   (symbol (lib_id "74xx:74LS05") (at 307.34 100.33 90) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 786fcfd0-7a36-4760-85fc-b33dfcfea3ba)
-    (property "Reference" "B2" (at 313.055 99.0599 90)
+    (property "Reference" "UB2" (at 313.055 99.0599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "74LS05" (at 313.055 101.5999 90)
@@ -6143,7 +6150,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 6)
+          (reference "UB2") (unit 6)
         )
       )
     )
@@ -6493,7 +6500,7 @@
   (symbol (lib_id "74xx:74LS132") (at 234.315 187.325 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ee9296e-e9a0-4bf9-9563-dca3b66b25cb)
-    (property "Reference" "A2" (at 233.68 192.405 0)
+    (property "Reference" "UA2" (at 233.68 192.405 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS132" (at 234.315 194.945 0)
@@ -6522,7 +6529,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A2") (unit 3)
+          (reference "UA2") (unit 3)
         )
       )
     )
@@ -6726,7 +6733,7 @@
   (symbol (lib_id "74xx:74LS174") (at 233.045 144.145 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae6a8952-ebae-427a-98e8-16b9af59d147)
-    (property "Reference" "A3" (at 227.33 130.175 0)
+    (property "Reference" "UA3" (at 227.33 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS174" (at 241.935 130.175 0)
@@ -6757,7 +6764,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A3") (unit 1)
+          (reference "UA3") (unit 1)
         )
       )
     )
@@ -6766,7 +6773,7 @@
   (symbol (lib_id "Disk Interface Card:6309") (at 128.905 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af412cc9-b5c3-40cf-b9c8-34b6e0f1ebca)
-    (property "Reference" "D3" (at 121.285 95.885 0)
+    (property "Reference" "UD3" (at 121.285 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6309" (at 131.445 95.885 0)
@@ -6801,7 +6808,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "D3") (unit 1)
+          (reference "UD3") (unit 1)
         )
       )
     )
@@ -7012,7 +7019,7 @@
   (symbol (lib_id "74xx:74LS323") (at 182.88 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7e6d448-4b42-409e-af7a-64d937b0bc4e)
-    (property "Reference" "C3" (at 175.26 81.915 0)
+    (property "Reference" "UC3" (at 175.26 81.915 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS323" (at 184.8994 81.915 0)
@@ -7047,7 +7054,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "C3") (unit 1)
+          (reference "UC3") (unit 1)
         )
       )
     )
@@ -7106,7 +7113,7 @@
   (symbol (lib_id "74xx:74LS05") (at 286.385 173.355 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d79474e2-2718-4701-bef0-28bef27263ec)
-    (property "Reference" "B2" (at 285.75 177.8 0)
+    (property "Reference" "UB2" (at 285.75 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS05" (at 285.75 179.705 0)
@@ -7135,7 +7142,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B2") (unit 4)
+          (reference "UB2") (unit 4)
         )
       )
     )
@@ -7445,7 +7452,7 @@
   (symbol (lib_id "74xx:74LS132") (at 145.415 136.525 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4c67a40-b3d3-47f5-95a4-559b8bb07ab6)
-    (property "Reference" "A2" (at 145.415 127.635 0)
+    (property "Reference" "UA2" (at 145.415 127.635 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS132" (at 145.415 130.175 0)
@@ -7474,7 +7481,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "A2") (unit 1)
+          (reference "UA2") (unit 1)
         )
       )
     )
@@ -7508,7 +7515,7 @@
   (symbol (lib_id "Disk Interface Card:6309") (at 233.045 89.535 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f96faf21-ca1b-4c90-9f74-67331f0ca0ce)
-    (property "Reference" "B3" (at 225.425 80.645 0)
+    (property "Reference" "UB3" (at 225.425 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "6309" (at 235.585 80.645 0)
@@ -7543,7 +7550,7 @@
     (instances
       (project "Disk II Interface Card"
         (path "/032f6c56-28f3-4b9c-ab37-057382a8f8c1"
-          (reference "B3") (unit 1)
+          (reference "UB3") (unit 1)
         )
       )
     )
