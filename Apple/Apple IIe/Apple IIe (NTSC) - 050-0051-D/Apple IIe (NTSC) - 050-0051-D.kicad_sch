@@ -6,6 +6,7 @@
 
   (title_block
     (title "Apple IIe Computer (NTSC) 050-0051-D")
+    (rev "2")
   )
 
   (lib_symbols
@@ -980,9 +981,9 @@
 
   (sheet (at 63.5 133.35) (size 30.48 78.74) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060b912ae)
-    (property "Sheetname" "CPU/MEM-1" (at 63.5 132.6384 0)
+    (property "Sheetname" "CPU_MEM-1" (at 63.5 132.6384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "CPU_MEM-1.kicad_sch" (at 63.5 212.6746 0)
@@ -1093,9 +1094,9 @@
 
   (sheet (at 148.59 148.59) (size 30.48 78.74) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060b91331)
-    (property "Sheetname" "I/O-2" (at 148.59 147.8784 0)
+    (property "Sheetname" "IO-2" (at 148.59 147.8784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "IO-2.kicad_sch" (at 148.59 227.9146 0)
@@ -1238,9 +1239,9 @@
 
   (sheet (at 262.89 140.97) (size 30.48 78.74) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060b9137b)
-    (property "Sheetname" "TIMING/VIDEO-3" (at 262.89 140.2584 0)
+    (property "Sheetname" "TIMING_VIDEO-3" (at 262.89 140.2584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "TIMING_VIDEO-3.kicad_sch" (at 262.89 220.2946 0)
@@ -1423,9 +1424,9 @@
 
   (sheet (at 304.8 36.83) (size 30.48 200.66) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060b913a5)
-    (property "Sheetname" "POWER/CONNECTORS-4" (at 304.8 36.1184 0)
+    (property "Sheetname" "POWER_CONNECTORS-4" (at 304.8 36.1184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "POWER_CONNECTORS-4.kicad_sch" (at 304.8 238.0746 0)
