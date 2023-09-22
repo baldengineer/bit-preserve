@@ -136,7 +136,7 @@
       )
       (pin input line (at -5.08 17.78 270) (length 2.54)
         (name "~{CE}" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at 5.08 17.78 270) (length 2.54)
         (name "A10" (effects (font (size 1.27 1.27))))
