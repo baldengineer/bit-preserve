@@ -31,10 +31,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "missing_unit|1016000|647700|00000000-0000-0000-0000-0000617b07c9|00000000-0000-0000-0000-000000000000|||",
-      "missing_unit|571500|2286000|00000000-0000-0000-0000-00006184cae1|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -314,6 +311,15 @@
       "version": 1
     },
     "net_format_name": "Pcbnew",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
