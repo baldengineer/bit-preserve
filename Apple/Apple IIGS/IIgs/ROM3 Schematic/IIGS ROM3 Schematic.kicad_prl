@@ -3,10 +3,12 @@
     "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
+    "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -66,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "IIgs Schematic.kicad_prl",
+    "filename": "IIGS ROM3 Schematic.kicad_prl",
     "version": 3
   },
   "project": {
