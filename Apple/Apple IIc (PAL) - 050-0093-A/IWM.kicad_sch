@@ -7,9 +7,9 @@
   (title_block
     (title "IWM - Disk Drive")
     (date "2023-05-05")
-    (rev "1")
+    (rev "2")
     (company "bald.ee/bitpreserve")
-    (comment 1 "Apple IIc")
+    (comment 1 "Apple IIc ROM255")
   )
 
   (lib_symbols

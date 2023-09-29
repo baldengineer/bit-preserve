@@ -7,9 +7,9 @@
   (title_block
     (title "Serial and GLU")
     (date "2023-05-05")
-    (rev "1")
+    (rev "2")
     (company "bald.ee/bitpreserve")
-    (comment 1 "Apple IIc")
+    (comment 1 "Apple IIc ROM255")
   )
 
   (lib_symbols
@@ -1073,6 +1073,58 @@
         )
       )
     )
+    (symbol "Apple IIc Schematic Symbols:S5" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR029" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "S5" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"S5\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "S5_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "S5_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "S5" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:DIN-5" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 3.175 5.715 0)
         (effects (font (size 1.27 1.27)))
@@ -2026,7 +2078,6 @@
       )
     )
   )
-
 
   (junction (at 215.265 231.14) (diameter 0) (color 0 0 0 0)
     (uuid 061442f6-347c-4148-87db-0e4b697395ec)
@@ -4534,31 +4585,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 184.785 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 29c3955d-da64-45f4-a3e9-bb3dddab277e)
-    (property "Reference" "#PWR0120" (at 184.785 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 184.785 116.205 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 184.785 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 184.785 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 24c56097-413b-40b2-a57a-623aea0c6d81))
-    (instances
-      (project "Apple IIc"
-        (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/c7818473-c05a-41b6-ab1e-f52d99164037"
-          (reference "#PWR0120") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small") (at 283.845 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2befe07b-377c-4dee-a972-dff1481ceba5)
@@ -5935,6 +5961,31 @@
       (project "Apple IIc"
         (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/c7818473-c05a-41b6-ab1e-f52d99164037"
           (reference "R21") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Apple IIc Schematic Symbols:S5") (at 184.785 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid db56948b-e396-4f84-9281-d8d6f259a3b0)
+    (property "Reference" "#PWR0120" (at 184.785 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "S5" (at 184.785 114.3 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 184.785 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.785 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c59a6e2-3edb-4ebd-aff6-dbdd45c7623e))
+    (instances
+      (project "Apple IIc"
+        (path "/67809fc9-81c6-454d-9011-542a06dd2b5a/c7818473-c05a-41b6-ab1e-f52d99164037"
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
