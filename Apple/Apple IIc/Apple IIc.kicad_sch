@@ -5,11 +5,11 @@
   (paper "A3")
 
   (title_block
-    (title "Apple IIc")
-    (date "2023-05-05")
-    (rev "1")
+    (title "Apple IIc ROM255")
+    (date "2023-09-28")
+    (rev "2")
     (company "bald.ee/bitpreserve")
-    (comment 1 "Apple IIc")
+    (comment 1 "Apple IIc ROM255")
   )
 
   (lib_symbols
@@ -587,6 +587,11 @@
     (effects (font (face "Verdana") (size 1.27 1.27) (color 194 0 0 1)) (justify left bottom))
     (uuid 68d9732b-439b-48f8-b920-f4b30494a6b2)
   )
+  (text "There are a few cases of S5, but not clear where it comes from."
+    (at 337.185 47.625 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d39d32e1-9c25-4291-8c89-1b223f8fa462)
+  )
   (text "Changes from OG schematic\n\n+ No Connectors Page\n++ Connectors placed on pages close to their function\n\n+ IWM and Keyboard\n++ Keyboard and Gameport functions removed from IWM page\n++ IWM is only its own now\n\n+ Resistor Packs 1 and 3 (RP1 and RP3)\n++ These were not in logical places in OG schematic. \n+++ Now they are multi-unit devices and placed closer to logical location.\n\n+ Decoupling capacitors\n++ Group of decoupling capacitors moved to its own page."
     (at 339.725 109.855 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -934,7 +939,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5a3c88a9-c5b8-4285-8133-9373b6d3b8dc)
     )
-    (pin "CREF" output (at 90.805 45.085 90)
+    (pin "CREF" input (at 90.805 45.085 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e512fd49-b7b4-49f5-bf0a-279f5a77ff97)
     )
