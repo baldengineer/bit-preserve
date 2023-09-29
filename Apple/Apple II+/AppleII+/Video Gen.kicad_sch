@@ -8810,7 +8810,7 @@
   (symbol (lib_id "power:GND") (at 241.046 130.302 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000061b8e7e8)
-    (property "Reference" "#PWR?" (at 241.046 136.652 0)
+    (property "Reference" "#PWR0109" (at 241.046 136.652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 133.096 0)
@@ -8826,7 +8826,7 @@
     (instances
       (project "AppleII+"
         (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-0000632bf564"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )

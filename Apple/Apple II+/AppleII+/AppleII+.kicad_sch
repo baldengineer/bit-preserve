@@ -50,7 +50,7 @@
 
   (sheet (at 177.8 101.6) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-00006017a131)
     (property "Sheetname" "IO_AddressDecode" (at 177.8 100.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -67,7 +67,7 @@
 
   (sheet (at 25.4 101.6) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060210f9e)
     (property "Sheetname" "RAM Address Multiplexing" (at 25.4 100.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -84,7 +84,7 @@
 
   (sheet (at 101.6 25.4) (size 50.8 50.8) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-00006024c432)
     (property "Sheetname" "ROM" (at 101.6 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -118,7 +118,7 @@
 
   (sheet (at 101.6 152.4) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-000060408bd1)
     (property "Sheetname" "Connectors" (at 101.6 151.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
