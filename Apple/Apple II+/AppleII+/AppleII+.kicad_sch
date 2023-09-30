@@ -33,7 +33,7 @@
 
   (sheet (at 25.4 152.4) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 72 72 72 1.0000))
     (uuid 00000000-0000-0000-0000-00006016cde0)
     (property "Sheetname" "Clock Generation" (at 25.4 151.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -135,7 +135,7 @@
 
   (sheet (at 177.546 25.4) (size 50.8 50.8) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-0000632bf564)
     (property "Sheetname" "Video Generation" (at 177.546 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
