@@ -16,7 +16,7 @@
 
   (sheet (at 25.4 25.4) (size 50.8 50.8) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-00005fe9ff4d)
     (property "Sheetname" "CPU" (at 25.4 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -101,7 +101,7 @@
 
   (sheet (at 101.6 101.6) (size 50.8 25.4) (fields_autoplaced)
     (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 255 255 1.0000))
     (uuid 00000000-0000-0000-0000-00006039aab4)
     (property "Sheetname" "RAM" (at 101.6 100.8884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
