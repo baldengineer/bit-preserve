@@ -3960,7 +3960,9 @@
   (no_connect (at 33.02 143.51) (uuid 425b3a99-6ea4-42f5-95fa-785e4df0814a))
   (no_connect (at 93.345 63.5) (uuid 6864e2fb-3531-4d62-9c60-c53a3962613c))
   (no_connect (at 118.745 78.74) (uuid 78340ca7-9f8b-4227-94d6-f14eff4d6d49))
+  (no_connect (at 146.05 112.395) (uuid 91d754fa-0bbc-4a86-97c3-b0ecf0870b4f))
   (no_connect (at 62.23 181.61) (uuid 93e9a179-7b8e-459e-ba58-06fe517a655a))
+  (no_connect (at 168.275 111.76) (uuid dbf9076f-020f-41cc-b4e8-7a217d6a54dd))
 
   (bus_entry (at 81.915 33.02) (size 2.54 2.54)
     (stroke (width 0) (type default))

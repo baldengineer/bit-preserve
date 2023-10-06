@@ -122,13 +122,11 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "4116_0_1"
+      (symbol "4116_1_1"
         (rectangle (start -6.35 15.24) (end 5.08 -16.51)
           (stroke (width 0) (type solid))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "4116_1_1"
         (pin power_in line (at 7.62 12.7 180) (length 2.54)
           (name "VBB" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -149,7 +147,7 @@
           (name "A6" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 7.62 -7.62 180) (length 2.54)
+        (pin tri_state line (at 7.62 -7.62 180) (length 2.54)
           (name "D0" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
