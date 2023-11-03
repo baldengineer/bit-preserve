@@ -3998,7 +3998,7 @@
     (uuid ff162200-8931-4da1-a120-c63079061b02)
   )
 
-  (text "James Todo: This was ERA6, \nbut I think it is CRA6\n\nAlso ECAS?"
+  (text "James Todo: This was ERA6, \nbut I think it is CRA6\n\nAlso ECAS?\n\nIO multiplexing has a C,D,E CAS!"
     (at -34.29 38.1 0)
     (effects (font (size 1.27 1.27) (color 255 153 0 1)) (justify left bottom))
     (uuid 33c7e0d4-1fc9-4f3a-849d-c18dfc07bcf4)
