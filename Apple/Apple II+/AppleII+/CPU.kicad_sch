@@ -5742,10 +5742,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 043b356b-8fb4-4f4d-b000-672e3a16a503)
   )
-  (text "James TODO: Was pin 7\nconnected to something?" (at 80.645 85.09 0)
-    (effects (font (size 1.27 1.27) (color 255 153 0 1)) (justify left bottom))
-    (uuid 0bebfb8c-92e1-49a6-ac9d-7a3bdb2c8a3e)
-  )
   (text "James TODO: Verify DIS1 and DIS2 are connected on all 3\n(and what to do with element 6 on the bottom)"
     (at 217.17 83.82 0)
     (effects (font (size 1.27 1.27) (color 255 153 0 1)) (justify left bottom))

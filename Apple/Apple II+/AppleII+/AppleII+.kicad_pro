@@ -447,6 +447,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "System Timing",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 194, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -460,68 +477,36 @@
         "pattern": "/CPU/R~{W}"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A0"
+        "netclass": "System Timing",
+        "pattern": "/*/14M"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A1"
+        "netclass": "System Timing",
+        "pattern": "/*/~{7M}"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A2"
+        "netclass": "System Timing",
+        "pattern": "/*/COLOR_REF"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A3"
+        "netclass": "System Timing",
+        "pattern": "/*/~{LDPS}"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A4"
+        "netclass": "System Timing",
+        "pattern": "/*/AX"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A5"
+        "netclass": "System Timing",
+        "pattern": "/*/LD194"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A6"
+        "netclass": "System Timing",
+        "pattern": "/*/~{CAS}"
       },
       {
-        "netclass": "Address Bus",
-        "pattern": "/A7"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A8"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A9"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A10"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A11"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A12"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A13"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A14"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A15"
+        "netclass": "System Timing",
+        "pattern": "/*/~{RAS}"
       }
     ]
   },
