@@ -3193,7 +3193,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ab7d3319-42e7-4bab-a915-bd2549174815)
   )
-  (hierarchical_label "~{INH}" (shape input) (at 26.035 86.36 180) (fields_autoplaced)
+  (hierarchical_label "~{INH}" (shape input) (at 26.67 86.36 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid efbaa9c0-3c0e-4da6-839c-ac3f43a278d8)
   )
