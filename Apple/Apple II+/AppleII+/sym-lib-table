@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name AppleII+)(type Legacy)(uri ${KIPRJMOD}/AppleII+.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "AppleII+")(type "KiCad")(uri "${KIPRJMOD}/AppleII+.kicad_sym")(options "")(descr ""))
 )
