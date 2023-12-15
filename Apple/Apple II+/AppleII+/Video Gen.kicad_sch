@@ -6459,6 +6459,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a7ced322-e045-4d6b-971b-bc203b87abea)
   )
+  (text "Exclude DRC error about Output and Output\non A2 8 and 11 because they will never go low."
+    (at 73.025 255.905 0)
+    (effects (font (size 1.27 1.27) (color 128 77 0 1)) (justify left bottom))
+    (uuid ad46b5a9-bb0c-4db1-8cfc-b156136f0b18)
+  )
   (text "\"The Apple II Circuit Description\" shows multiple \nversions of this part of the schematic.\n\nV0 is much different than V1 and later.\n\n-baldee"
     (at -48.895 46.355 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
