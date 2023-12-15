@@ -442,7 +442,7 @@
         "microvia_drill": 0.1,
         "name": "RW",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(255, 0, 255)",
+        "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
