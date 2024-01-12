@@ -3628,9 +3628,6 @@
         (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00006017a131"
           (reference "RA1") (unit 7)
         )
-        (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00005fe9ff4d"
-          (reference "RA?") (unit 7)
-        )
       )
     )
   )
@@ -4276,9 +4273,6 @@
     (pin "T" (uuid 2f0aaa7d-36d2-4d09-b8ac-eea53071baba))
     (instances
       (project "AppleII+"
-        (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727"
-          (reference "J2") (unit 1)
-        )
         (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00006017a131"
           (reference "J2") (unit 1)
         )
@@ -4412,9 +4406,6 @@
     (pin "T" (uuid 730d9748-6043-4abb-b8c6-85de6af7dfa0))
     (instances
       (project "AppleII+"
-        (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727"
-          (reference "J0") (unit 1)
-        )
         (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00006017a131"
           (reference "J0") (unit 1)
         )
