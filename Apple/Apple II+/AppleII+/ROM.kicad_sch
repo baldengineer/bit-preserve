@@ -2550,7 +2550,7 @@
     (uuid ff3a40ee-5c85-4f9d-a2a1-adb4aa55e7ca)
   )
 
-  (text "IO Strobe - goes to all Peripheral Connectors (slots)\nGoes low when accessing address range C800-C8FF"
+  (text "IO Strobe - goes to all Peripheral Connectors (slots)\nGoes low when accessing address range C800-CFFF"
     (at 127.635 161.925 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f2efcc0-9aaf-4d8c-9f19-f8dc43d2943e)
