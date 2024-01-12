@@ -7641,16 +7641,16 @@
     )
   )
 
-  (symbol (lib_id "Transistor_BJT:2N3904") (at 75.565 176.53 180) (unit 1)
+  (symbol (lib_id "Transistor_BJT:2N3904") (at 75.565 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062bb1c9e)
-    (property "Reference" "Q5" (at 78.867 173.736 0)
+    (property "Reference" "Q5" (at 78.867 179.324 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2N3904" (at 82.677 180.086 0)
+    (property "Value" "2N3904" (at 82.677 172.974 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 70.485 174.625 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 70.485 178.435 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" (at 75.565 176.53 0)
@@ -7697,7 +7697,7 @@
   (symbol (lib_id "Device:C_Small") (at 122.555 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000062bb1caa)
-    (property "Reference" "C?" (at 123.063 183.642 0)
+    (property "Reference" "Cap4" (at 123.063 183.642 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 123.063 187.198 0)
@@ -7713,9 +7713,6 @@
     (pin "2" (uuid 02b9ae80-7234-415b-8525-105686646c41))
     (instances
       (project "AppleII+"
-        (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00006017a131"
-          (reference "C?") (unit 1)
-        )
         (path "/7f3799a0-e0b6-4ab6-94fe-921c86f8e727/00000000-0000-0000-0000-00005fe9ff4d"
           (reference "Cap4") (unit 1)
         )
