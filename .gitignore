@@ -10,6 +10,7 @@ _autosave-*
 *.tmp
 *.sch-bak
 *.zip
+*.kicad_prl
 
 # Netlist files (exported from Eeschema)
 *.net
