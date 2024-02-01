@@ -12,6 +12,10 @@ _autosave-*
 *.zip
 *.kicad_prl
 
+# Step and STP files
+*.step
+*.stp
+
 # Netlist files (exported from Eeschema)
 *.net
 
