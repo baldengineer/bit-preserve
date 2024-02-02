@@ -11,6 +11,7 @@ _autosave-*
 *.sch-bak
 *.zip
 *.kicad_prl
+sym-lib-table
 
 # Step and STP files
 *.step
