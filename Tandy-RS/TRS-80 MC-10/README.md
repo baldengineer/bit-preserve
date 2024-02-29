@@ -7,4 +7,4 @@
 
 
 ## KiCad 8
-This schematic was drawn using KiCad 8 RC2.
+This schematic was drawn using KiCad 8.0.0.
