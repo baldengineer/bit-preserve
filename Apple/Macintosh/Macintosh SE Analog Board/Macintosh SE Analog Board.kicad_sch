@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "75240d15-5e88-41ac-bf2a-94c91d2a9864")
+	(paper "A3")
+	(title_block
+		(title "Macintosh SE Analog Board")
+		(rev "1")
+		(company "bald.ee/bitpreserve")
+		(comment 1 "@baldengineer")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
