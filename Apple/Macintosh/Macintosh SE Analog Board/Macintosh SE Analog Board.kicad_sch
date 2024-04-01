@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Macintosh SE Analog Board")
+		(date "2024-03-31")
 		(rev "1")
 		(company "bald.ee/bitpreserve")
 		(comment 1 "@baldengineer")
@@ -5367,12 +5368,114 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 325.12 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05e7f7d5-61d5-44a5-8d4c-8e8f77a16907")
+	)
+	(junction
+		(at 166.37 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "104f9cf1-bbba-4642-81f9-7c78706372f4")
 	)
 	(junction
 		(at 88.9 87.63)
@@ -5465,6 +5568,18 @@
 		(uuid "3020d3c6-f7da-470c-b3e2-51585e09f0b8")
 	)
 	(junction
+		(at 166.37 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "312aa147-f172-41fa-832f-f61846b1caec")
+	)
+	(junction
+		(at 105.41 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "323eac12-6bc7-44ed-b41b-80b81f954925")
+	)
+	(junction
 		(at 63.5 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5487,6 +5602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45eaef7a-f08b-4d8c-817d-120c14d8a2c5")
+	)
+	(junction
+		(at 166.37 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "470daf63-b19f-4607-beae-b7e0efebc99f")
 	)
 	(junction
 		(at 156.21 261.62)
@@ -5651,6 +5772,12 @@
 		(uuid "a9a42cad-0083-49b6-b1e0-854cd6b4180e")
 	)
 	(junction
+		(at 279.4 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b042d032-af87-4e71-9838-8ff25a4c035a")
+	)
+	(junction
 		(at 241.3 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5771,6 +5898,12 @@
 		(uuid "f32dcdb6-739b-45aa-8f0a-99fe69766c5f")
 	)
 	(junction
+		(at 166.37 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7738c0b-52b9-44a0-b02d-200c564c2bb2")
+	)
+	(junction
 		(at 203.2 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5856,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 246.38) (xy 156.21 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9c13d5-620e-4d1f-a079-b5947df8236a")
+	)
+	(wire
+		(pts
 			(xy 325.12 205.74) (xy 325.12 209.55)
 		)
 		(stroke
@@ -5883,6 +6026,16 @@
 			(type default)
 		)
 		(uuid "10b383e1-7c51-420c-a2d6-80ac46f98a9f")
+	)
+	(wire
+		(pts
+			(xy 166.37 227.33) (xy 160.02 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12753235-7123-4561-aceb-b451dc4c30de")
 	)
 	(wire
 		(pts
@@ -5966,7 +6119,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 246.38) (xy 156.21 246.38)
+			(xy 173.99 246.38) (xy 166.37 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6096,7 +6249,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 238.76) (xy 165.1 238.76)
+			(xy 156.21 238.76) (xy 166.37 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 227.33) (xy 160.02 227.33)
+			(xy 173.99 227.33) (xy 166.37 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6346,6 +6499,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 238.76) (xy 173.99 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b36d4e6-0fdc-4a95-bc4c-cf70f47ad852")
+	)
+	(wire
+		(pts
 			(xy 130.81 63.5) (xy 130.81 66.04)
 		)
 		(stroke
@@ -6406,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 254) (xy 165.1 254)
+			(xy 156.21 254) (xy 173.99 254)
 		)
 		(stroke
 			(width 0)
@@ -6576,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 152.4) (xy 283.21 152.4)
+			(xy 276.86 152.4) (xy 279.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7106,6 +7269,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 152.4) (xy 283.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798ee081-833d-4c05-9395-3511ef80e7e6")
+	)
+	(wire
+		(pts
 			(xy 241.3 176.53) (xy 248.92 176.53)
 		)
 		(stroke
@@ -7246,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 242.57) (xy 156.21 242.57)
+			(xy 173.99 242.57) (xy 156.21 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7296,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 257.81) (xy 165.1 257.81)
+			(xy 156.21 257.81) (xy 173.99 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7383,6 +7556,16 @@
 			(type default)
 		)
 		(uuid "96b10738-277a-47ec-91d9-9d484f00a5eb")
+	)
+	(wire
+		(pts
+			(xy 166.37 231.14) (xy 173.99 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98009b21-fe0b-4918-b362-cb3ab438285e")
 	)
 	(polyline
 		(pts
@@ -8066,7 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 261.62) (xy 165.1 261.62)
+			(xy 156.21 261.62) (xy 173.99 261.62)
 		)
 		(stroke
 			(width 0)
@@ -8196,7 +8379,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 231.14) (xy 165.1 231.14)
+			(xy 115.57 231.14) (xy 166.37 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8426,7 +8609,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 250.19) (xy 165.1 250.19)
+			(xy 156.21 250.19) (xy 173.99 250.19)
 		)
 		(stroke
 			(width 0)
@@ -8546,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 234.95) (xy 165.1 234.95)
+			(xy 81.28 234.95) (xy 173.99 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8695,8 +8878,8 @@
 		(uuid "ffaee12a-de52-4ba9-b93a-18671c41e7bc")
 	)
 	(rectangle
-		(start 163.195 224.79)
-		(end 175.26 263.525)
+		(start 173.355 224.79)
+		(end 185.42 263.525)
 		(stroke
 			(width 0)
 			(type default)
@@ -8800,6 +8983,16 @@
 		)
 		(uuid "0211158d-4b86-4208-b7d6-50e8bdff7851")
 	)
+	(text "yP1 because KiCad wants the\nREFDEG to be different\n(and they are off-board.)"
+		(exclude_from_sim no)
+		(at 349.25 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "095743b6-caf9-44e6-8f7c-6d18f98dfb91")
+	)
 	(text "RED"
 		(exclude_from_sim no)
 		(at 290.83 80.01 0)
@@ -8822,7 +9015,7 @@
 	)
 	(text "+5V (Orange)"
 		(exclude_from_sim no)
-		(at 184.15 238.76 0)
+		(at 193.167 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8861,6 +9054,16 @@
 		)
 		(uuid "27dac1ad-8d73-4310-8f0c-22eafa4145f6")
 	)
+	(text "SOURCE"
+		(exclude_from_sim no)
+		(at 145.542 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2827bcfe-0023-43e8-805b-a98c3e929238")
+	)
 	(text "P5\nHard Disk Power"
 		(exclude_from_sim no)
 		(at 47.498 254.508 0)
@@ -8883,7 +9086,7 @@
 	)
 	(text "GND (Black)"
 		(exclude_from_sim no)
-		(at 183.515 257.81 0)
+		(at 192.532 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8923,7 +9126,7 @@
 	)
 	(text "GND (Black)"
 		(exclude_from_sim no)
-		(at 183.515 250.825 0)
+		(at 192.532 250.825 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8963,7 +9166,7 @@
 	)
 	(text "GND (Black)"
 		(exclude_from_sim no)
-		(at 183.515 247.015 0)
+		(at 192.532 247.015 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8983,7 +9186,7 @@
 	)
 	(text "GND (Black)"
 		(exclude_from_sim no)
-		(at 183.515 254 0)
+		(at 192.532 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9013,7 +9216,7 @@
 	)
 	(text "+5V (Orange)"
 		(exclude_from_sim no)
-		(at 184.15 242.57 0)
+		(at 193.167 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9033,7 +9236,7 @@
 	)
 	(text "+12V Sweep (Red)"
 		(exclude_from_sim no)
-		(at 186.055 227.33 0)
+		(at 195.072 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9043,7 +9246,7 @@
 	)
 	(text "+12V (Yellow)"
 		(exclude_from_sim no)
-		(at 184.15 234.95 0)
+		(at 193.167 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9084,7 +9287,7 @@
 	)
 	(text "GND (Black)"
 		(exclude_from_sim no)
-		(at 183.515 261.62 0)
+		(at 192.532 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9092,9 +9295,19 @@
 		)
 		(uuid "d55d55f9-c825-46a2-86cb-1156aa054671")
 	)
+	(text "SOURCE"
+		(exclude_from_sim no)
+		(at 86.106 216.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d916fa87-3d35-4c72-b05b-133e2f163230")
+	)
 	(text "-12V (Green)"
 		(exclude_from_sim no)
-		(at 183.515 231.14 0)
+		(at 192.532 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9144,17 +9357,6 @@
 			(justify right bottom)
 		)
 		(uuid "0a23702f-5367-46c8-b230-60b1bc04c0a9")
-	)
-	(label "Source"
-		(at 142.24 204.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29a6d113-d39b-4a3f-9ed4-b557d50d4645")
 	)
 	(label "+30V"
 		(at 369.57 167.64 180)
@@ -9288,17 +9490,6 @@
 		)
 		(uuid "7d9b4d41-6d47-4802-a6a0-7a90ff002920")
 	)
-	(label "SOURCE"
-		(at 81.28 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "825bccd3-999f-48e0-be3e-1d209f56ae15")
-	)
 	(label "-12V"
 		(at 50.8 207.01 0)
 		(fields_autoplaced yes)
@@ -9387,7 +9578,7 @@
 		)
 		(uuid "c48c7a1b-5776-4434-8168-c088f6c2f863")
 	)
-	(label "Video"
+	(label "VIDEO"
 		(at 365.76 40.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9770,7 +9961,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 48.26 246.38 180)
+		(at 48.26 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9778,7 +9969,7 @@
 		(dnp no)
 		(uuid "05d194c7-5b76-45e7-ba75-34d78e9dee57")
 		(property "Reference" "P5-3"
-			(at 53.34 246.38 0)
+			(at 43.18 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +9977,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 48.26 242.57 0)
+			(at 48.26 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +9986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 47.625 246.38 0)
+			(at 48.895 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,7 +9995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 47.625 246.38 0)
+			(at 48.895 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,6 +10019,73 @@
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
 					(reference "P5-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 149.86 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08835bfa-3a4d-48c6-af1b-e502917c89aa")
+		(property "Reference" "#FLG03"
+			(at 149.86 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bb04f66-67f1-4e15-8e32-803f1a31cfe5")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9970,7 +10228,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 254 180)
+		(at 175.26 254 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9978,7 +10236,7 @@
 		(dnp no)
 		(uuid "0c81d54c-73e2-4d93-b5c4-062278f7b9d2")
 		(property "Reference" "P3-3"
-			(at 171.45 254 0)
+			(at 180.34 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +10244,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 250.19 0)
+			(at 175.26 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 254 0)
+			(at 174.625 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 254 0)
+			(at 174.625 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 254 0)
+			(at 175.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +12134,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 257.81 180)
+		(at 175.26 257.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11884,7 +12142,7 @@
 		(dnp no)
 		(uuid "32f44463-e2fd-4447-8035-e00d7c39e2d3")
 		(property "Reference" "P3-7"
-			(at 171.45 257.81 0)
+			(at 180.34 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +12150,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 254 0)
+			(at 175.26 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +12159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 257.81 0)
+			(at 174.625 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +12168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 257.81 0)
+			(at 174.625 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +12177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 257.81 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11948,7 +12206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35e4bac0-eaa2-4316-ad04-b7a9f13c4aa1")
-		(property "Reference" "P1-4"
+		(property "Reference" "yP1-4"
 			(at 305.435 123.19 90)
 			(effects
 				(font
@@ -11999,7 +12257,7 @@
 		(instances
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
-					(reference "P1-4")
+					(reference "yP1-4")
 					(unit 1)
 				)
 			)
@@ -12007,7 +12265,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 227.33 180)
+		(at 175.26 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12015,7 +12273,7 @@
 		(dnp no)
 		(uuid "36f3f8db-c231-4aa3-85de-3956cc361100")
 		(property "Reference" "P3-10"
-			(at 171.45 227.33 0)
+			(at 180.34 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,7 +12281,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 223.52 0)
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12032,7 +12290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 227.33 0)
+			(at 174.625 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12041,7 +12299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 227.33 0)
+			(at 174.625 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 227.33 0)
+			(at 175.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13236,7 +13494,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 261.62 180)
+		(at 175.26 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13244,7 +13502,7 @@
 		(dnp no)
 		(uuid "57baa22d-4c75-4ef3-9bc9-4e801f6680db")
 		(property "Reference" "P3-8"
-			(at 171.45 261.62 0)
+			(at 180.34 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13510,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 257.81 0)
+			(at 175.26 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,7 +13519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 261.62 0)
+			(at 174.625 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +13528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 261.62 0)
+			(at 174.625 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 261.62 0)
+			(at 175.26 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +13703,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 234.95 180)
+		(at 175.26 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13453,7 +13711,7 @@
 		(dnp no)
 		(uuid "5a5fcf41-d72d-4a45-8f91-8ed62ec2a0ff")
 		(property "Reference" "P3-5"
-			(at 171.45 234.95 0)
+			(at 180.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,7 +13719,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 231.14 0)
+			(at 175.26 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 234.95 0)
+			(at 174.625 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 234.95 0)
+			(at 174.625 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 234.95 0)
+			(at 175.26 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,7 +15733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85843818-6f93-4239-94e3-e8742bbcb31e")
-		(property "Reference" "P1-3"
+		(property "Reference" "yP1-3"
 			(at 328.93 123.19 90)
 			(effects
 				(font
@@ -15526,7 +15784,7 @@
 		(instances
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
-					(reference "P1-3")
+					(reference "yP1-3")
 					(unit 1)
 				)
 			)
@@ -15822,7 +16080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dfd0dd7-50d0-4487-8600-eecbb6f219d0")
-		(property "Reference" "P1-1"
+		(property "Reference" "yP1-1"
 			(at 281.305 115.57 0)
 			(effects
 				(font
@@ -15872,7 +16130,7 @@
 		(instances
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
-					(reference "P1-1")
+					(reference "yP1-1")
 					(unit 1)
 				)
 			)
@@ -16187,7 +16445,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 250.19 180)
+		(at 175.26 250.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16195,7 +16453,7 @@
 		(dnp no)
 		(uuid "925aa1d4-abbb-494e-8f11-9e77f3c118b0")
 		(property "Reference" "P3-2"
-			(at 171.45 250.19 0)
+			(at 180.34 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16203,7 +16461,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 246.38 0)
+			(at 175.26 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,7 +16470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 250.19 0)
+			(at 174.625 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 250.19 0)
+			(at 174.625 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 250.19 0)
+			(at 175.26 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17112,7 +17370,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 231.14 180)
+		(at 175.26 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17120,7 +17378,7 @@
 		(dnp no)
 		(uuid "a38aee3b-24ed-4d0a-b059-0c37d1b8401b")
 		(property "Reference" "P3-6"
-			(at 171.45 231.14 0)
+			(at 180.34 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17128,7 +17386,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 227.33 0)
+			(at 175.26 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,7 +17395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 231.14 0)
+			(at 174.625 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17146,7 +17404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 231.14 0)
+			(at 174.625 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17155,7 +17413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 231.14 0)
+			(at 175.26 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17719,7 +17977,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 238.76 180)
+		(at 175.26 238.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17727,7 +17985,7 @@
 		(dnp no)
 		(uuid "ad756464-39a8-4da0-8d9c-7e13a0e87ac7")
 		(property "Reference" "P3-4"
-			(at 171.45 238.76 0)
+			(at 180.34 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17735,7 +17993,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 234.95 0)
+			(at 175.26 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,7 +18002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 238.76 0)
+			(at 174.625 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17753,7 +18011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 238.76 0)
+			(at 174.625 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17762,7 +18020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 238.76 0)
+			(at 175.26 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18183,6 +18441,73 @@
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
 					(reference "P1-3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 105.41 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4682146-19a8-4fb1-9041-18a46db69647")
+		(property "Reference" "#FLG07"
+			(at 105.41 187.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 105.41 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "052183a9-6b54-46a4-a500-041e9f0eccdb")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -19100,7 +19425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c32cd514-6ab1-4b5e-a294-7f1567730b47")
-		(property "Reference" "P1-2"
+		(property "Reference" "yP1-2"
 			(at 281.305 81.28 0)
 			(effects
 				(font
@@ -19150,7 +19475,7 @@
 		(instances
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
-					(reference "P1-2")
+					(reference "yP1-2")
 					(unit 1)
 				)
 			)
@@ -19670,6 +19995,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe0096c-3edc-45de-a228-054212f3bbcb")
+		(property "Reference" "#FLG05"
+			(at 166.37 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed174fb3-091d-4f17-8d0c-89c3823b6b64")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 148.59 190.5 0)
 		(unit 1)
@@ -19815,7 +20207,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 246.38 180)
+		(at 175.26 246.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19823,7 +20215,7 @@
 		(dnp no)
 		(uuid "d2f9584a-0a1e-4530-b6b6-54bf6e5edddf")
 		(property "Reference" "P3-1"
-			(at 171.45 246.38 0)
+			(at 180.34 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19831,7 +20223,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 242.57 0)
+			(at 175.26 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19840,7 +20232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 246.38 0)
+			(at 174.625 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19849,7 +20241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 246.38 0)
+			(at 174.625 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19858,7 +20250,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 246.38 0)
+			(at 175.26 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19873,6 +20265,73 @@
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
 					(reference "P3-1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 279.4 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4aa41d8-bf64-4ac9-a6a4-89f17aa04d86")
+		(property "Reference" "#FLG06"
+			(at 279.4 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 279.4 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 279.4 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d944ebf-a063-4473-aca8-537df92079aa")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -20230,6 +20689,73 @@
 			(project "Macintosh SE Analog Board"
 				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db287842-4968-44e7-b686-e3bd721249ca")
+		(property "Reference" "#FLG01"
+			(at 166.37 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d61a6800-8723-4e93-8e35-1569d4ac9adf")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -20701,46 +21227,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "987fc7f9-90df-438a-89df-181e421ada91")
+			(uuid "987fc7f9-90df-438a-89df-181e421ada92")
 		)
 		(pin "12"
-			(uuid "1c84039b-3f77-4e36-a6d6-0374dfa7da3d")
+			(uuid "1c84039b-3f77-4e36-a6d6-0374dfa7da3e")
 		)
 		(pin "13"
-			(uuid "046dde0f-1dce-4ae5-b043-50c3063811c9")
+			(uuid "046dde0f-1dce-4ae5-b043-50c3063811ca")
 		)
 		(pin "2"
 			(uuid "f24a3d6a-e859-4fa6-ab96-2bc8b0036d36")
 		)
 		(pin "11"
-			(uuid "8d7e4469-bd4b-4bd6-93b3-13bb5886b156")
+			(uuid "8d7e4469-bd4b-4bd6-93b3-13bb5886b157")
 		)
 		(pin "1"
 			(uuid "8c77a698-5ad4-4890-9242-8ab600cb0448")
 		)
 		(pin "7"
-			(uuid "51c2b3af-2c8d-4164-867b-ce347705d01f")
+			(uuid "51c2b3af-2c8d-4164-867b-ce347705d020")
 		)
 		(pin "6"
-			(uuid "3f850607-297f-4645-85b9-405399820c78")
+			(uuid "3f850607-297f-4645-85b9-405399820c79")
 		)
 		(pin "4"
-			(uuid "e60f67a6-4f1a-4b89-b88f-c3099c5b6284")
+			(uuid "e60f67a6-4f1a-4b89-b88f-c3099c5b6285")
 		)
 		(pin "3"
 			(uuid "61a5cdcf-7d75-44da-b235-3e0d3942e76d")
 		)
 		(pin "14"
-			(uuid "4b136068-0016-43b8-a8cc-c2708388e0a9")
+			(uuid "4b136068-0016-43b8-a8cc-c2708388e0aa")
 		)
 		(pin "9"
-			(uuid "5e1772e9-012f-4f15-9577-4efcb4916cb6")
+			(uuid "5e1772e9-012f-4f15-9577-4efcb4916cb7")
 		)
 		(pin "8"
-			(uuid "22f0dc8d-64f5-43ec-8930-44c27e7f52f2")
+			(uuid "22f0dc8d-64f5-43ec-8930-44c27e7f52f3")
 		)
 		(pin "10"
-			(uuid "b2b0fd16-dfb6-4092-a95f-978c32d43472")
+			(uuid "b2b0fd16-dfb6-4092-a95f-978c32d43473")
 		)
 		(instances
 			(project "Macintosh SE Analog Board"
@@ -20874,22 +21400,22 @@
 			(uuid "08192265-b4dd-484e-b04c-5a43c9ef332a")
 		)
 		(pin "12"
-			(uuid "1c84039b-3f77-4e36-a6d6-0374dfa7da3e")
+			(uuid "1c84039b-3f77-4e36-a6d6-0374dfa7da3f")
 		)
 		(pin "13"
-			(uuid "046dde0f-1dce-4ae5-b043-50c3063811ca")
+			(uuid "046dde0f-1dce-4ae5-b043-50c3063811cb")
 		)
 		(pin "2"
 			(uuid "f24a3d6a-e859-4fa6-ab96-2bc8b0036d37")
 		)
 		(pin "11"
-			(uuid "8d7e4469-bd4b-4bd6-93b3-13bb5886b157")
+			(uuid "8d7e4469-bd4b-4bd6-93b3-13bb5886b158")
 		)
 		(pin "1"
 			(uuid "8c77a698-5ad4-4890-9242-8ab600cb0449")
 		)
 		(pin "7"
-			(uuid "51c2b3af-2c8d-4164-867b-ce347705d020")
+			(uuid "51c2b3af-2c8d-4164-867b-ce347705d021")
 		)
 		(pin "6"
 			(uuid "767ca111-9e0d-4cca-9a5e-930a56901ecd")
@@ -20901,7 +21427,7 @@
 			(uuid "61a5cdcf-7d75-44da-b235-3e0d3942e76e")
 		)
 		(pin "14"
-			(uuid "4b136068-0016-43b8-a8cc-c2708388e0aa")
+			(uuid "4b136068-0016-43b8-a8cc-c2708388e0ab")
 		)
 		(pin "9"
 			(uuid "f5aed994-99d8-4467-b063-b1ba1355c88b")
@@ -21407,6 +21933,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f98afe-5e4f-4cb5-a0db-eb9121165ca1")
+		(property "Reference" "#FLG02"
+			(at 166.37 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20076eed-3d65-4134-a601-eb30dec76996")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 166.37 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f47b6f4a-1695-40b8-a861-a887fcf1f768")
+		(property "Reference" "#FLG04"
+			(at 166.37 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c1f21c9-0f69-4f5e-9cb1-f0b7ef4ecce8")
+		)
+		(instances
+			(project "Macintosh SE Analog Board"
+				(path "/75240d15-5e88-41ac-bf2a-94c91d2a9864"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 306.07 205.74 180)
 		(unit 1)
@@ -21566,7 +22226,7 @@
 	)
 	(symbol
 		(lib_id "Macintosh SE Analog Board Symbols:Conn_Off_Board_Single")
-		(at 166.37 242.57 180)
+		(at 175.26 242.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21574,7 +22234,7 @@
 		(dnp no)
 		(uuid "fd3cdd8a-5278-4775-b709-ef43731f83ee")
 		(property "Reference" "P3-9"
-			(at 171.45 242.57 0)
+			(at 180.34 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21582,7 +22242,7 @@
 			)
 		)
 		(property "Value" "Conn_Off_Board_Single"
-			(at 166.37 238.76 0)
+			(at 175.26 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21591,7 +22251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.735 242.57 0)
+			(at 174.625 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21600,7 +22260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.735 242.57 0)
+			(at 174.625 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21609,7 +22269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 242.57 0)
+			(at 175.26 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
