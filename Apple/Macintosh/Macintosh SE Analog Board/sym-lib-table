@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Macintosh SE Analog Board Symbols")(type "KiCad")(uri "${KIPRJMOD}/Macintosh SE Analog Board Symbols.kicad_sym")(options "")(descr ""))
+)
