@@ -4518,6 +4518,7 @@
 	(hierarchical_label "Luma"
 		(shape input)
 		(at 76.2 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4529,6 +4530,7 @@
 	(hierarchical_label "Color_A"
 		(shape input)
 		(at 76.2 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,6 +4554,7 @@
 	(hierarchical_label "Color_B"
 		(shape input)
 		(at 76.2 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4563,6 +4566,7 @@
 	(hierarchical_label "Color_Ref"
 		(shape input)
 		(at 76.2 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
