@@ -4415,6 +4415,17 @@
 		)
 		(uuid "7f524ce0-45fb-427a-9f6c-e7140c7feff4")
 	)
+	(text "Source schematic shows \nC116 as C16"
+		(exclude_from_sim no)
+		(at 146.05 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "8aa5d929-8465-40a6-9aff-794fb9fe817f")
+	)
 	(text "7"
 		(exclude_from_sim no)
 		(at 75.438 156.718 0)
@@ -5883,7 +5894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53c9c864-f481-42b3-8d70-8b0a04c4b0af")
-		(property "Reference" "U17"
+		(property "Reference" "U100"
 			(at 120.65 101.6 0)
 			(effects
 				(font
@@ -5969,7 +5980,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/7836f7b9-bbc7-43f9-8f8b-3bf8b0ad297b"
-					(reference "U17")
+					(reference "U100")
 					(unit 1)
 				)
 			)
@@ -8190,7 +8201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af0d1a00-4a26-4318-a16d-7323be261fa2")
-		(property "Reference" "C16"
+		(property "Reference" "C116"
 			(at 135.89 134.6135 0)
 			(effects
 				(font
@@ -8244,7 +8255,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/7836f7b9-bbc7-43f9-8f8b-3bf8b0ad297b"
-					(reference "C16")
+					(reference "C116")
 					(unit 1)
 				)
 			)

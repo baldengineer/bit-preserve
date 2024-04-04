@@ -35357,7 +35357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8963f3b6-83fa-48e1-b8f1-f096b94104c0")
-		(property "Reference" "C1"
+		(property "Reference" "C18"
 			(at 170.688 294.386 90)
 			(effects
 				(font
@@ -35411,7 +35411,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f"
-					(reference "C1")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -36666,7 +36666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4631107-5d89-4280-96b3-f0c8955a1a81")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 30.226 286.004 0)
 			(effects
 				(font
@@ -36738,7 +36738,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -41069,7 +41069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e031818a-3c45-4540-bb85-9582a843f1ed")
-		(property "Reference" "C?"
+		(property "Reference" "C24"
 			(at 154.178 82.296 90)
 			(effects
 				(font
@@ -41123,7 +41123,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f"
-					(reference "C?")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -42312,7 +42312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33f3d26-e74c-4b92-90f3-e3f76960df25")
-		(property "Reference" "J3"
+		(property "Reference" "J300"
 			(at 462.28 190.7931 0)
 			(effects
 				(font
@@ -42367,7 +42367,7 @@
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f"
-					(reference "J3")
+					(reference "J300")
 					(unit 1)
 				)
 			)
