@@ -10,6 +10,12 @@ _autosave-*
 *.tmp
 *.sch-bak
 *.zip
+*.kicad_prl
+sym-lib-table
+
+# Step and STP files
+*.step
+*.stp
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -79,6 +85,10 @@ Apple/Apple II+/AppleII+/#auto_saved_files#
 Apple/Apple IIe/Apple IIe Power Supply UNKNOWN/#auto_saved_files#
 Apple/Apple IIe/Apple IIe Power Supply UNKNOWN/sym-lib-table
 Apple/Apple IIe/Apple IIe Power Supply UNKNOWN/reference/
+Sega/Game Gear/VA1/fp-info-cache
+Tandy-RS/TRS-80 MC-10/fp-info-cache
+#auto_saved_files#
+Tandy-RS/TRS-80 MC-10/#auto_saved_files#
 *.kicad_prl
 Tandy-RS/TRS-80 MC-10/fp-info-cache
 Sega/Game Gear/VA1/fp-info-cache
