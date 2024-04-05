@@ -89,3 +89,9 @@ Sega/Game Gear/VA1/fp-info-cache
 Tandy-RS/TRS-80 MC-10/fp-info-cache
 #auto_saved_files#
 Tandy-RS/TRS-80 MC-10/#auto_saved_files#
+*.kicad_prl
+Tandy-RS/TRS-80 MC-10/fp-info-cache
+Sega/Game Gear/VA1/fp-info-cache
+fp-info-cache
+*.kicad_sch-bak
+sym-lib-table
