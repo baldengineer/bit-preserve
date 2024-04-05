@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b3aae595-8d0e-41f1-af0f-1df08bcc577b")
+	(uuid "e5b76398-f50d-4f8f-a3aa-44f4b2cdd6d3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "74xx:74LS14"
@@ -3001,56 +3001,56 @@
 		)
 	)
 	(no_connect
-		(at 49.53 171.45)
+		(at 73.66 142.24)
 		(uuid "0df96358-3f86-4f8d-8ac7-63c81e19834e")
 	)
 	(no_connect
-		(at 138.43 148.59)
-		(uuid "20431d75-e248-491e-b2c8-07f0773ad136")
-	)
-	(no_connect
-		(at 49.53 184.15)
+		(at 73.66 154.94)
 		(uuid "21054aab-d6dc-4e51-8d17-a7b1d5604d35")
 	)
 	(no_connect
-		(at 123.19 146.05)
-		(uuid "2a686ec8-ca1c-4716-8621-88932a49796b")
+		(at 129.54 138.43)
+		(uuid "267a6779-c7e8-4a4d-ba87-84e50bdd5dc1")
 	)
 	(no_connect
-		(at 49.53 156.21)
+		(at 73.66 127)
 		(uuid "431584a3-4379-449f-b069-35c60fa73cc0")
 	)
 	(no_connect
-		(at 123.19 151.13)
-		(uuid "450ec1ed-b1db-4567-bea1-dca681e1768a")
-	)
-	(no_connect
-		(at 49.53 176.53)
+		(at 73.66 147.32)
 		(uuid "5a5fe698-6f7b-4d18-a1fe-6473fe1dab44")
 	)
 	(no_connect
-		(at 64.77 186.69)
+		(at 88.9 157.48)
 		(uuid "6751f03d-1827-4726-b22d-66f441d306d2")
 	)
 	(no_connect
-		(at 49.53 189.23)
+		(at 73.66 160.02)
 		(uuid "686d464a-1357-4354-a246-a573ae3bc1e5")
 	)
 	(no_connect
-		(at 49.53 161.29)
+		(at 73.66 132.08)
 		(uuid "761ddc66-6bc9-4ed2-bb62-cb034ea27b6b")
 	)
 	(no_connect
-		(at 64.77 158.75)
+		(at 144.78 140.97)
+		(uuid "8652f5da-88cc-4947-a4a8-adae95c7582e")
+	)
+	(no_connect
+		(at 129.54 143.51)
+		(uuid "b498ddde-8a8b-4b70-b983-42742afca9de")
+	)
+	(no_connect
+		(at 88.9 129.54)
 		(uuid "b988855a-2788-467c-a3e9-e49f29c20b8a")
 	)
 	(no_connect
-		(at 64.77 173.99)
+		(at 88.9 144.78)
 		(uuid "dc0fc46c-ecfc-46b9-856c-6e4e4f85e83b")
 	)
 	(text "Source schematic does not show decoupling capacitors for these gates"
 		(exclude_from_sim no)
-		(at 125.095 118.745 0)
+		(at 94.615 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,7 +3061,7 @@
 	)
 	(text "Source schematic does not show unconnected/unused gates."
 		(exclude_from_sim no)
-		(at 121.285 128.905 0)
+		(at 93.345 113.665 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS76")
-		(at 207.01 91.44 0)
+		(at 121.92 59.69 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3081,7 +3081,7 @@
 		(fields_autoplaced yes)
 		(uuid "05250abc-13de-4a6f-9c43-8ddb162ca963")
 		(property "Reference" "U19"
-			(at 213.36 90.1699 0)
+			(at 128.27 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Value" "74LS76"
-			(at 213.36 92.7099 0)
+			(at 128.27 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 91.44 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS76"
-			(at 207.01 91.44 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Description" "Dual JK Flip-flop, Set & Reset"
-			(at 207.01 91.44 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3184,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 99.06 91.44 0)
+		(at 73.66 59.69 0)
 		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
@@ -3194,7 +3194,7 @@
 		(fields_autoplaced yes)
 		(uuid "12430098-2b0f-4fe9-b86f-dbbc06bbd6fd")
 		(property "Reference" "U13"
-			(at 105.41 90.1699 0)
+			(at 80.01 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Value" "LS32"
-			(at 105.41 92.7099 0)
+			(at 80.01 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 91.44 0)
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3221,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 99.06 91.44 0)
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3230,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 99.06 91.44 0)
+			(at 73.66 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 	)
 	(symbol
 		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 207.01 101.6 0)
+		(at 121.92 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3300,7 +3300,7 @@
 		(fields_autoplaced yes)
 		(uuid "242fc460-4202-4257-9547-3a4a1f10879e")
 		(property "Reference" "#PWR0117"
-			(at 207.01 107.95 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,7 +3309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 106.68 0)
+			(at 121.92 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 101.6 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 101.6 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,7 +3335,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 101.6 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,74 +3356,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4630de8f-94ce-4ce9-be4b-2eafc3e0aa92")
-		(property "Reference" "#PWR0120"
-			(at 154.94 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc73a0ef-0106-483b-b875-61689bfa6ecd")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 69.85 104.14 0)
+		(at 44.45 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3432,7 +3366,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bae8eab-4b7c-4337-8b8d-a57ced4c9760")
 		(property "Reference" "#PWR0107"
-			(at 69.85 110.49 0)
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 109.22 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 104.14 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 104.14 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 104.14 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3423,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 81.28 0)
+		(at 121.92 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3498,7 +3432,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d404ac6-c985-4f5b-a397-f12c1d42c6f3")
 		(property "Reference" "#PWR0116"
-			(at 207.01 85.09 0)
+			(at 121.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3441,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 76.2 0)
+			(at 121.92 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +3449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 81.28 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 81.28 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 81.28 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,16 +3489,15 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 173.99 92.71 0)
+		(at 96.52 59.69 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d76b6ef-ed22-42ee-b835-b48a77ea7df1")
 		(property "Reference" "U18"
-			(at 180.34 91.4399 0)
+			(at 102.87 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3506,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 180.34 93.9799 0)
+			(at 102.87 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 92.71 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3524,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 173.99 92.71 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3533,7 @@
 			)
 		)
 		(property "Description" "Dual D Flip-flop, Set & Reset"
-			(at 173.99 92.71 0)
+			(at 96.52 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3594,7 @@
 	)
 	(symbol
 		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 173.99 102.87 0)
+		(at 96.52 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3670,7 +3603,7 @@
 		(fields_autoplaced yes)
 		(uuid "645ac3f6-19b1-4e20-b9a0-928507899ca0")
 		(property "Reference" "#PWR0115"
-			(at 173.99 109.22 0)
+			(at 96.52 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 107.95 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 102.87 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 102.87 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 102.87 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,34 +3660,32 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 157.48 147.32 0)
-		(unit 5)
+		(at 137.16 140.97 0)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "647301ea-894d-413c-9d70-6ad68c1a5e89")
+		(uuid "6bc98a86-319e-43eb-bace-45b727e5e883")
 		(property "Reference" "U15"
-			(at 156.21 146.0499 0)
+			(at 137.16 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "LM339"
-			(at 156.21 148.5899 0)
+			(at 137.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 144.78 0)
+			(at 135.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3694,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 158.75 142.24 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3703,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 157.48 147.32 0)
+			(at 137.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,125 +3712,59 @@
 			)
 		)
 		(pin "2"
-			(uuid "583dcc28-cd4b-4a6e-97d8-a1fec0a1474b")
+			(uuid "a3eb80c0-0c60-4e9c-a341-3c99863aef6d")
 		)
 		(pin "11"
-			(uuid "15213ea5-6019-435c-bf81-765eae0a5826")
+			(uuid "ab31362b-ba49-4455-94a1-b8de82e33f89")
 		)
 		(pin "8"
-			(uuid "424c4515-acf1-41a6-aed1-bf42d8486d95")
+			(uuid "3b3779af-6a19-4d40-b381-44c83ed0f1c3")
 		)
 		(pin "5"
-			(uuid "ea0fcf34-caa2-4c65-8cdc-0477972d2f1c")
+			(uuid "4a70b339-baf9-4c0c-a401-f486766f49a9")
 		)
 		(pin "6"
-			(uuid "a5a225f2-e948-427b-89a1-631d00a05eda")
+			(uuid "a5a225f2-e948-427b-89a1-631d00a05edc")
 		)
 		(pin "4"
-			(uuid "1fca6a2f-9952-4611-91e1-e7de7b6911e2")
+			(uuid "b7e85023-9848-4e24-a963-601b9b11b475")
 		)
 		(pin "1"
-			(uuid "8bcf4fd7-70a9-410e-a0dc-df169c4e9558")
+			(uuid "8bcf4fd7-70a9-410e-a0dc-df169c4e955a")
 		)
 		(pin "7"
-			(uuid "ffe599dd-7ba5-42df-94bd-a791e0c82fe0")
+			(uuid "ffe599dd-7ba5-42df-94bd-a791e0c82fe2")
 		)
 		(pin "10"
-			(uuid "dbd88c42-1d59-414c-a515-f83d79d4218e")
+			(uuid "7def1450-ae8f-4678-b7bf-089148167d46")
 		)
 		(pin "14"
-			(uuid "8ebbc468-1187-411e-8acc-1511bb847442")
+			(uuid "09090f26-798b-4274-a8ec-72e880463f1b")
 		)
 		(pin "13"
-			(uuid "36555a9c-7c1c-4690-9bb6-cdd405f5aaef")
+			(uuid "5d127cd5-4f8e-424d-9989-98c3e68227b8")
 		)
 		(pin "3"
-			(uuid "868529ac-fd69-4556-bc93-48f11ca4675c")
+			(uuid "868529ac-fd69-4556-bc93-48f11ca4675e")
 		)
 		(pin "9"
-			(uuid "f0333d4c-d74d-49a5-8cd7-b610e2f5cb0d")
+			(uuid "409b366b-18db-4ae4-9294-f0692be39778")
 		)
 		(pin "12"
-			(uuid "5e79beb6-5dde-4fe0-a7a1-4ee6742380a7")
+			(uuid "5e79beb6-5dde-4fe0-a7a1-4ee6742380a9")
 		)
 		(instances
 			(project "TRS-80 MC-10"
 				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
 					(reference "U15")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 135.89 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "781cae59-c59f-4049-b1bf-28b568b98be9")
-		(property "Reference" "#PWR0113"
-			(at 135.89 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61ab51d2-a3fc-4fb4-8cfa-0612f3db38d3")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "#PWR0113")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 78.74 0)
+		(at 73.66 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3908,7 +3773,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fbd1161-efbd-418e-ae57-3caef8f90456")
 		(property "Reference" "#PWR0109"
-			(at 99.06 82.55 0)
+			(at 73.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3782,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 73.66 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 78.74 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 78.74 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 78.74 0)
+			(at 73.66 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,74 +3829,8 @@
 		)
 	)
 	(symbol
-		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 154.94 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "833375c6-e40a-471f-b3c7-bf50fe508113")
-		(property "Reference" "#PWR0121"
-			(at 154.94 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23317a72-8a30-4833-955d-979af4d72282")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 78.74 0)
+		(at 44.45 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4040,7 +3839,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3f4babc-0e9c-458d-887d-febf0c7587e3")
 		(property "Reference" "#PWR0108"
-			(at 69.85 82.55 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +3848,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 73.66 0)
+			(at 44.45 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +3856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 78.74 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 78.74 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +3874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 78.74 0)
+			(at 44.45 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 83.82 170.18 0)
+		(at 107.95 140.97 0)
 		(mirror y)
 		(unit 5)
 		(exclude_from_sim no)
@@ -4107,7 +3906,7 @@
 		(fields_autoplaced yes)
 		(uuid "a57cf970-df2d-465a-8f1a-8d2490575b2c")
 		(property "Reference" "U20"
-			(at 90.17 168.9099 0)
+			(at 114.3 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +3915,7 @@
 			)
 		)
 		(property "Value" "LS32"
-			(at 90.17 171.4499 0)
+			(at 114.3 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +3924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 170.18 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 83.82 170.18 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +3942,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 83.82 170.18 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4003,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 57.15 173.99 0)
+		(at 81.28 144.78 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -4213,7 +4012,7 @@
 		(dnp no)
 		(uuid "b1a292b8-4ff9-4c40-b3ca-1e295e656fce")
 		(property "Reference" "U20"
-			(at 56.388 168.148 0)
+			(at 80.518 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4020,7 @@
 			)
 		)
 		(property "Value" "LS32"
-			(at 57.404 173.736 0)
+			(at 81.534 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 173.99 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4037,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 57.15 173.99 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4046,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 57.15 173.99 0)
+			(at 81.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4107,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 57.15 186.69 0)
+		(at 81.28 157.48 0)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -4317,7 +4116,7 @@
 		(dnp no)
 		(uuid "bfe49507-b809-424c-8e22-a914e6dfebdd")
 		(property "Reference" "U20"
-			(at 56.388 180.848 0)
+			(at 80.518 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4124,7 @@
 			)
 		)
 		(property "Value" "LS32"
-			(at 57.404 186.436 0)
+			(at 81.534 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 186.69 0)
+			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4141,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 57.15 186.69 0)
+			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4150,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 57.15 186.69 0)
+			(at 81.28 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4211,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 57.15 158.75 0)
+		(at 81.28 129.54 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4421,7 +4220,7 @@
 		(dnp no)
 		(uuid "c0cfa833-49f0-44dc-97ae-473d96b280ba")
 		(property "Reference" "U20"
-			(at 56.388 152.908 0)
+			(at 80.518 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4228,7 @@
 			)
 		)
 		(property "Value" "LS32"
-			(at 57.404 158.496 0)
+			(at 81.534 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 158.75 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4245,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 57.15 158.75 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4254,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 57.15 158.75 0)
+			(at 81.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4315,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS14")
-		(at 69.85 91.44 0)
+		(at 44.45 59.69 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +4324,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb245d02-6f3d-42d2-a0c6-da71303de7fe")
 		(property "Reference" "U12"
-			(at 76.2 90.1699 0)
+			(at 50.8 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4333,7 @@
 			)
 		)
 		(property "Value" "74LS14"
-			(at 76.2 92.7099 0)
+			(at 50.8 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 91.44 0)
+			(at 44.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4351,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS14"
-			(at 69.85 91.44 0)
+			(at 44.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4360,7 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
-			(at 69.85 91.44 0)
+			(at 44.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +4421,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 173.99 82.55 0)
+		(at 96.52 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4631,7 +4430,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce5728a7-eb27-416b-869b-d6194ababdbc")
 		(property "Reference" "#PWR0114"
-			(at 173.99 86.36 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4439,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 173.99 77.47 0)
+			(at 96.52 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 82.55 0)
+			(at 96.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 82.55 0)
+			(at 96.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 173.99 82.55 0)
+			(at 96.52 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4487,7 @@
 	)
 	(symbol
 		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 99.06 104.14 0)
+		(at 73.66 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4697,7 +4496,7 @@
 		(fields_autoplaced yes)
 		(uuid "d446b7b4-345a-4fea-8864-46c9a719df51")
 		(property "Reference" "#PWR0110"
-			(at 99.06 110.49 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 109.22 0)
+			(at 73.66 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 104.14 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 104.14 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 104.14 0)
+			(at 73.66 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,284 +4553,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 135.89 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8c40eeb-80c4-4ee6-ba4a-67cd77db317f")
-		(property "Reference" "#PWR0112"
-			(at 135.89 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3461c3b9-f79c-4941-bb88-08994af4187e")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM339")
-		(at 130.81 148.59 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ffe02c-ba0c-4e10-ad07-ea9a8ae020ed")
-		(property "Reference" "U15"
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM339"
-			(at 130.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 132.08 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 130.81 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "583dcc28-cd4b-4a6e-97d8-a1fec0a1474b")
-		)
-		(pin "11"
-			(uuid "15213ea5-6019-435c-bf81-765eae0a5826")
-		)
-		(pin "8"
-			(uuid "3b3779af-6a19-4d40-b381-44c83ed0f1c1")
-		)
-		(pin "5"
-			(uuid "ea0fcf34-caa2-4c65-8cdc-0477972d2f1c")
-		)
-		(pin "6"
-			(uuid "a5a225f2-e948-427b-89a1-631d00a05eda")
-		)
-		(pin "4"
-			(uuid "1fca6a2f-9952-4611-91e1-e7de7b6911e2")
-		)
-		(pin "1"
-			(uuid "8bcf4fd7-70a9-410e-a0dc-df169c4e9558")
-		)
-		(pin "7"
-			(uuid "ffe599dd-7ba5-42df-94bd-a791e0c82fe0")
-		)
-		(pin "10"
-			(uuid "dbd88c42-1d59-414c-a515-f83d79d4218e")
-		)
-		(pin "14"
-			(uuid "09090f26-798b-4274-a8ec-72e880463f19")
-		)
-		(pin "13"
-			(uuid "36555a9c-7c1c-4690-9bb6-cdd405f5aaef")
-		)
-		(pin "3"
-			(uuid "868529ac-fd69-4556-bc93-48f11ca4675c")
-		)
-		(pin "9"
-			(uuid "409b366b-18db-4ae4-9294-f0692be39776")
-		)
-		(pin "12"
-			(uuid "5e79beb6-5dde-4fe0-a7a1-4ee6742380a7")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "U15")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS32")
-		(at 135.89 91.44 0)
-		(mirror y)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de2f7496-568c-4103-b48f-07eadd5c1adb")
-		(property "Reference" "U20"
-			(at 142.24 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LS32"
-			(at 142.24 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 2-input OR"
-			(at 135.89 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "42f5cc84-e53f-4928-9753-b51416f99e2d")
-		)
-		(pin "12"
-			(uuid "7a77523a-a26f-41f6-8324-d74fdd7ed234")
-		)
-		(pin "13"
-			(uuid "54466379-1660-47b0-8e87-47d263928850")
-		)
-		(pin "11"
-			(uuid "ecff3274-34cb-46ed-b8f4-06bcc88c899a")
-		)
-		(pin "6"
-			(uuid "1849af48-caac-40d3-a31b-b5fc15a06c89")
-		)
-		(pin "1"
-			(uuid "00115c50-242f-4837-976d-6c8a227b9d4b")
-		)
-		(pin "2"
-			(uuid "3f627fc1-3d4d-4221-b689-9be081946d33")
-		)
-		(pin "10"
-			(uuid "a24a11ee-f111-4d56-b031-3284674c9d69")
-		)
-		(pin "8"
-			(uuid "73c3da47-fc09-484c-b27b-5a54e75334f4")
-		)
-		(pin "3"
-			(uuid "d0e3f858-8dbe-42c0-b968-1296f0651244")
-		)
-		(pin "4"
-			(uuid "7a6c061f-9632-48ae-b7e7-15f0780b3d05")
-		)
-		(pin "5"
-			(uuid "094888f9-99da-42aa-9681-11c01f94db5f")
-		)
-		(pin "14"
-			(uuid "edb08920-9439-4532-b177-5af42efe427c")
-		)
-		(pin "7"
-			(uuid "7a8d6ec3-4673-4e59-9b57-06da51107f1d")
-		)
-		(instances
-			(project "TRS-80 MC-10"
-				(path "/aa24e657-8ac2-4090-85c8-42da61bbb46f/94cfeacb-8eba-40c2-9995-63162a206f28"
-					(reference "U20")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 83.82 157.48 0)
+		(at 107.95 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5040,7 +4562,7 @@
 		(fields_autoplaced yes)
 		(uuid "e208bebd-e7e1-4f69-9fc1-5a73a822fd6c")
 		(property "Reference" "#PWR0119"
-			(at 83.82 161.29 0)
+			(at 107.95 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +4571,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 152.4 0)
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +4579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 157.48 0)
+			(at 107.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +4588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 157.48 0)
+			(at 107.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +4597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 157.48 0)
+			(at 107.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +4619,7 @@
 	)
 	(symbol
 		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
-		(at 83.82 182.88 0)
+		(at 107.95 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5106,7 +4628,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd09994-c6a3-42c3-9e73-15a85b8e3efa")
 		(property "Reference" "#PWR0118"
-			(at 83.82 189.23 0)
+			(at 107.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +4637,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 187.96 0)
+			(at 107.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 182.88 0)
+			(at 107.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +4654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 182.88 0)
+			(at 107.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +4663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 182.88 0)
+			(at 107.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
