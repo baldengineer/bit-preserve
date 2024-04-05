@@ -43311,7 +43311,7 @@
 		)
 	)
 	(sheet
-		(at 417.83 298.45)
+		(at 397.51 248.285)
 		(size 30.48 9.525)
 		(fields_autoplaced yes)
 		(stroke
@@ -43323,7 +43323,7 @@
 		)
 		(uuid "94cfeacb-8eba-40c2-9995-63162a206f28")
 		(property "Sheetname" "Unused Gates"
-			(at 417.83 297.7384 0)
+			(at 397.51 247.5734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43332,7 +43332,7 @@
 			)
 		)
 		(property "Sheetfile" "Unused Gates.kicad_sch"
-			(at 417.83 308.5596 0)
+			(at 397.51 258.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

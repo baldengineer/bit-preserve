@@ -313,7 +313,7 @@
         "microvia_drill": 0.1,
         "name": "Data Bus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgb(0, 72, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -423,24 +423,8 @@
         "pattern": "/VA??"
       },
       {
-        "netclass": "Display Address Bus (VA)",
-        "pattern": "/VA[11..0]"
-      },
-      {
-        "netclass": "Data Bus",
-        "pattern": "/D[7..0]"
-      },
-      {
-        "netclass": "Address Bus",
-        "pattern": "/A[15..0]"
-      },
-      {
         "netclass": "Video Data Bus",
         "pattern": "/VD?"
-      },
-      {
-        "netclass": "Video Data Bus",
-        "pattern": "/VD[7..0]"
       },
       {
         "netclass": "E (Clock)",
