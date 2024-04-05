@@ -2153,6 +2153,103 @@
 				)
 			)
 		)
+		(symbol "TRS-80 MC-10 Symbols:GND-No_label"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR027"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-No_label"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-No_label_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-No_label_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TRS-80 MC-10 Symbols:MC1372"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2441,102 +2538,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4769,7 +4770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 88.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4836,7 +4837,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 115.57 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4903,7 +4904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 223.52 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5115,7 +5116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 201.93 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5392,7 +5393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 210.82 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5459,7 +5460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 71.12 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5526,7 +5527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 199.39 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5931,7 +5932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 163.83 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6166,7 +6167,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 119.38 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6370,7 +6371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 49.53 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6506,7 +6507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 138.43 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6992,7 +6993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 172.72 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7129,7 +7130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 151.13 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7196,7 +7197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 100.33 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7263,7 +7264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 187.96 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7539,7 +7540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 187.96 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7676,7 +7677,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 125.73 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8162,7 +8163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 77.47 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8509,7 +8510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 149.86 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8994,7 +8995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 118.11 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9703,7 +9704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "TRS-80 MC-10 Symbols:GND-No_label")
 		(at 135.89 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
