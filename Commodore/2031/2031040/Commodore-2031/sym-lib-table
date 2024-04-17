@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Commodore-2031")(type "KiCad")(uri "${KIPRJMOD}/Commodore-2031.kicad_sym")(options "")(descr ""))
+)

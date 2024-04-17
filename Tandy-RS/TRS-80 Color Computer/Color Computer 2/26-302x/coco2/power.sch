@@ -188,10 +188,10 @@ P 4650 3850
 F 0 "CR1" H 4650 3950 50  0000 C CNN
 F 1 "1N4002" H 4650 3750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4650 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4650 3850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf" H 4650 3850 50  0001 C CNN
 F 4 "digikey" H 4650 3850 50  0001 C CNN "Vendor"
-F 5 "2368-1N4002-ND" H 4650 3850 50  0001 C CNN "Vendor part#"
-F 6 "1N4002" H 4650 3850 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4002GOS-ND" H 4650 3850 50  0001 C CNN "Vendor part#"
+F 6 "1N4002G" H 4650 3850 50  0001 C CNN "Manufacturer part#"
 	1    4650 3850
 	1    0    0    -1  
 $EndComp
@@ -202,10 +202,10 @@ P 5350 3850
 F 0 "CR2" H 5350 3750 50  0000 C CNN
 F 1 "1N4002" H 5350 3950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5350 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5350 3850 50  0001 C CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/1n4001-d.pdf" H 5350 3850 50  0001 C CNN
 F 4 "digikey" H 5350 3850 50  0001 C CNN "Vendor"
-F 5 "2368-1N4002-ND" H 5350 3850 50  0001 C CNN "Vendor part#"
-F 6 "1N4002" H 5350 3850 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4002GOS-ND" H 5350 3850 50  0001 C CNN "Vendor part#"
+F 6 "1N4002G" H 5350 3850 50  0001 C CNN "Manufacturer part#"
 	1    5350 3850
 	-1   0    0    1   
 $EndComp
@@ -216,10 +216,10 @@ P 4650 4400
 F 0 "CR3" H 4650 4183 50  0000 C CNN
 F 1 "1N5401" H 4650 4274 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4650 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 4650 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29003.pdf" H 4650 4400 50  0001 C CNN
 F 4 "digikey" H 4650 4400 50  0001 C CNN "Vendor"
-F 5 "2368-1N5401-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 4650 4400 50  0001 C CNN "Manufacturer part#"
+F 5 "1N5401GDICT-ND" H 4650 4400 50  0001 C CNN "Vendor part#"
+F 6 "1N5401G-T" H 4650 4400 50  0001 C CNN "Manufacturer part#"
 	1    4650 4400
 	-1   0    0    1   
 $EndComp
@@ -230,10 +230,10 @@ P 5350 4400
 F 0 "CR4" H 5350 4617 50  0000 C CNN
 F 1 "1N5401" H 5350 4526 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 4225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88516/1n5400.pdf" H 5350 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds29003.pdf" H 5350 4400 50  0001 C CNN
 F 4 "digikey" H 5350 4400 50  0001 C CNN "Vendor"
-F 5 "2368-1N5401-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
-F 6 "1N5401" H 5350 4400 50  0001 C CNN "Manufacturer part#"
+F 5 "1N5401GDICT-ND" H 5350 4400 50  0001 C CNN "Vendor part#"
+F 6 "1N5401G-T" H 5350 4400 50  0001 C CNN "Manufacturer part#"
 	1    5350 4400
 	1    0    0    -1  
 $EndComp

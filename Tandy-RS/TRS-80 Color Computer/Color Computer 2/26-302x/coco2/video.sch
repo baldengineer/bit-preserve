@@ -325,7 +325,7 @@ U 1 1 607A66D2
 P 8100 4400
 F 0 "U9" H 8150 4300 50  0000 C CNN
 F 1 "RF_modulator" H 8200 3550 50  0000 C CNN
-F 2 "coco2:coco2_vertical_rf_sheild" H 8100 4400 50  0001 C CNN
+F 2 "coco2:coco2_vertical_rf_sheild_3" H 8100 4400 50  0001 C CNN
 F 3 "" H 8100 4400 50  0001 C CNN
 	1    8100 4400
 	1    0    0    -1  
@@ -593,12 +593,12 @@ L Transistor_BJT:2N3904 Q2
 U 1 1 608AA111
 P 4350 7250
 F 0 "Q2" H 4540 7296 50  0000 L CNN
-F 1 "2N3904" H 4540 7205 50  0000 L CNN
+F 1 "PN2222ABU" H 4540 7205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4550 7175 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4350 7250 50  0001 L CNN
+F 3 "https://www.onsemi.com/pdf/datasheet/pn2222a-d.pdf" H 4350 7250 50  0001 L CNN
 F 4 "digikey" H 4350 7250 50  0001 C CNN "Vendor"
-F 5 "2368-2N3904-ND" H 4350 7250 50  0001 C CNN "Vendor part#"
-F 6 "2N3904" H 4350 7250 50  0001 C CNN "Manufacturer part#"
+F 5 "PN2222AFS-ND" H 4350 7250 50  0001 C CNN "Vendor part#"
+F 6 "PN2222ABU" H 4350 7250 50  0001 C CNN "Manufacturer part#"
 	1    4350 7250
 	1    0    0    -1  
 $EndComp
