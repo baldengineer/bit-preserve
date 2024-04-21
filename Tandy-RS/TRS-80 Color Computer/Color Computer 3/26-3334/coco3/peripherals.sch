@@ -708,12 +708,12 @@ L Connector:DIN-6 JK1
 U 1 1 610A6AC6
 P 12200 3950
 F 0 "JK1" H 12000 4300 50  0000 C CNN
-F 1 "Left Joystick" H 11850 4700 50  0000 C CNN
+F 1 "1N4148" H 11850 4700 50  0000 C CNN
 F 2 "coco2:CUI_SDS-60J" H 12200 3950 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/digikeypdf/sds-j.pdf" H 12200 3950 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" H 12200 3950 50  0001 C CNN
 F 4 "digikey" H 12200 3950 50  0001 C CNN "Vendor"
-F 5 "CP-2360-ND" H 12200 3950 50  0001 C CNN "Vendor part#"
-F 6 "SDS-60J" H 12200 3950 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4148FS-ND" H 12200 3950 50  0001 C CNN "Vendor part#"
+F 6 "1N4148" H 12200 3950 50  0001 C CNN "Manufacturer part#"
 	1    12200 3950
 	1    0    0    -1  
 $EndComp
@@ -998,7 +998,7 @@ Wire Wire Line
 Connection ~ 4000 3150
 Wire Wire Line
 	4000 3150 4600 3150
-Text Label 7100 5150 0    50   ~ 0
+Text Label 7550 5150 0    50   ~ 0
 SELA
 Text Label 3650 2250 0    50   ~ 0
 SELA
@@ -1367,8 +1367,6 @@ Wire Wire Line
 Text Label 7050 5050 0    50   ~ 0
 SELB
 Wire Wire Line
-	6500 5150 7100 5150
-Wire Wire Line
 	7050 5050 6950 5050
 Wire Wire Line
 	6500 5050 6950 5050
@@ -1674,12 +1672,12 @@ P 12700 850
 AR Path="/603D560B/6114C7CE" Ref="CR?"  Part="1" 
 AR Path="/603CF7B8/6114C7CE" Ref="D11"  Part="1" 
 F 0 "D11" V 12700 800 50  0000 R CNN
-F 1 "1KF20-04" H 13150 900 50  0001 R CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 12700 850 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 12700 850 50  0001 C CNN
+F 1 "1N4148" H 13150 900 50  0001 R CNN
+F 2 "coco2:CUI_SDS-60J" V 12700 850 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" V 12700 850 50  0001 C CNN
 F 4 "digikey" H 12700 850 50  0001 C CNN "Vendor"
-F 5 "2368-NTE109-ND" H 12700 850 50  0001 C CNN "Vendor part#"
-F 6 "D-GE-GEN PURP 75V" H 12700 850 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4148FS-ND" H 12700 850 50  0001 C CNN "Vendor part#"
+F 6 "DIODE GEN PURP 100V 200MA DO35" H 12700 850 50  0001 C CNN "Manufacturer part#"
 	1    12700 850 
 	0    -1   -1   0   
 $EndComp
@@ -1690,12 +1688,12 @@ P 12500 2250
 AR Path="/603D560B/6173E7BE" Ref="D?"  Part="1" 
 AR Path="/603CF7B8/6173E7BE" Ref="D8"  Part="1" 
 F 0 "D8" H 12450 2350 50  0000 L CNN
-F 1 "1KF20-04" H 12550 2150 50  0001 L CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 12500 2250 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 12500 2250 50  0001 C CNN
+F 1 "1N4148" H 12550 2150 50  0001 L CNN
+F 2 "coco2:CUI_SDS-60J" V 12500 2250 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" V 12500 2250 50  0001 C CNN
 F 4 "digikey" H 12500 2250 50  0001 C CNN "Vendor"
-F 5 "2368-NTE109-ND" H 12500 2250 50  0001 C CNN "Vendor part#"
-F 6 "D-GE-GEN PURP 75V" H 12500 2250 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4148FS-ND" H 12500 2250 50  0001 C CNN "Vendor part#"
+F 6 "DIODE GEN PURP 100V 200MA DO35" H 12500 2250 50  0001 C CNN "Manufacturer part#"
 	1    12500 2250
 	1    0    0    -1  
 $EndComp
@@ -1874,12 +1872,12 @@ P 12700 2900
 AR Path="/603D560B/622CAFE1" Ref="D?"  Part="1" 
 AR Path="/603CF7B8/622CAFE1" Ref="D9"  Part="1" 
 F 0 "D9" V 12700 2850 50  0000 R CNN
-F 1 "1KF20-04" H 13150 2950 50  0001 R CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 12700 2900 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 12700 2900 50  0001 C CNN
+F 1 "1N4148" H 13150 2950 50  0001 R CNN
+F 2 "coco2:CUI_SDS-60J" V 12700 2900 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" V 12700 2900 50  0001 C CNN
 F 4 "digikey" H 12700 2900 50  0001 C CNN "Vendor"
-F 5 "2368-NTE109-ND" H 12700 2900 50  0001 C CNN "Vendor part#"
-F 6 "D-GE-GEN PURP 75V" H 12700 2900 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4148FS-ND" H 12700 2900 50  0001 C CNN "Vendor part#"
+F 6 "DIODE GEN PURP 100V 200MA DO35" H 12700 2900 50  0001 C CNN "Manufacturer part#"
 	1    12700 2900
 	0    -1   -1   0   
 $EndComp
@@ -1890,12 +1888,12 @@ P 12500 4300
 AR Path="/603D560B/622CAFEA" Ref="D?"  Part="1" 
 AR Path="/603CF7B8/622CAFEA" Ref="D10"  Part="1" 
 F 0 "D10" H 12450 4400 50  0000 L CNN
-F 1 "1KF20-04" H 12550 4200 50  0001 L CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" V 12500 4300 50  0001 C CNN
-F 3 "https://www.nteinc.com/specs/100to199/pdf/nte109.pdf" V 12500 4300 50  0001 C CNN
+F 1 "1N4148" H 12550 4200 50  0001 L CNN
+F 2 "coco2:CUI_SDS-60J" V 12500 4300 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/bhc41r7lwc/ONSM-S-A0003539415-1.pdf?t.download=true&u=5oefqw" V 12500 4300 50  0001 C CNN
 F 4 "digikey" H 12500 4300 50  0001 C CNN "Vendor"
-F 5 "2368-NTE109-ND" H 12500 4300 50  0001 C CNN "Vendor part#"
-F 6 "D-GE-GEN PURP 75V" H 12500 4300 50  0001 C CNN "Manufacturer part#"
+F 5 "1N4148FS-ND" H 12500 4300 50  0001 C CNN "Vendor part#"
+F 6 "DIODE GEN PURP 100V 200MA DO35" H 12500 4300 50  0001 C CNN "Manufacturer part#"
 	1    12500 4300
 	1    0    0    -1  
 $EndComp
@@ -2425,6 +2423,55 @@ Wire Wire Line
 Connection ~ 10700 2450
 Wire Wire Line
 	10700 2450 10650 2450
+$Comp
+L Device:R_Small_US R?
+U 1 1 612EDD6D
+P 7400 4850
+AR Path="/60273794/612EDD6D" Ref="R?"  Part="1" 
+AR Path="/603CF7B8/612EDD6D" Ref="R24"  Part="1" 
+F 0 "R24" H 7200 4750 50  0000 L CNN
+F 1 "4.7K" H 7200 4850 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7400 4850 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-cf_cfm.pdf" H 7400 4850 50  0001 C CNN
+F 4 "digikey" H 7400 4850 50  0001 C CNN "Vendor"
+F 5 "CF14JT4K70CT-ND  " H 7400 4850 50  0001 C CNN "Vendor part#"
+F 6 "Stackpole Electronics Inc" H 7400 4850 50  0001 C CNN "Manufacturer part#"
+	1    7400 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4950 7400 5150
+Wire Wire Line
+	7400 5150 7550 5150
+Wire Wire Line
+	6500 5150 7400 5150
+Connection ~ 7400 5150
+$Comp
+L power:+5V #PWR?
+U 1 1 6132D9DB
+P 7400 4700
+AR Path="/60273794/6132D9DB" Ref="#PWR?"  Part="1" 
+AR Path="/602A51A8/6132D9DB" Ref="#PWR?"  Part="1" 
+AR Path="/603CF7B8/6132D9DB" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 7400 4550 50  0001 C CNN
+F 1 "+5V" H 7415 4873 50  0000 C CNN
+F 2 "" H 7400 4700 50  0001 C CNN
+F 3 "" H 7400 4700 50  0001 C CNN
+	1    7400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4700 7400 4750
+Text Notes 7900 4900 0    50   ~ 0
+R24 is not in the original schematic and\nit is listed as not used in the parts list.\nI added it allows the the W65C21N6TPG-14\nto work as well.
+Wire Notes Line
+	9600 4550 9600 4950
+Wire Notes Line
+	9600 4950 7800 4950
+Wire Notes Line
+	7800 4950 7800 4550
+Wire Notes Line
+	7800 4550 9600 4550
 Wire Bus Line
 	1400 2150 1800 2150
 Wire Bus Line

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Monitor IIc Library")(type "KiCad")(uri "${KIPRJMOD}/Monitor IIc Library.kicad_sym")(options "")(descr ""))
+)

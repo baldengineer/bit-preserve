@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name CPU_MOSTechnology)(type Legacy)(uri /Users/jdlowe/prj/bit-preserve/symbol-libs/CPU_MOSTechnology.lib)(options "")(descr ""))
-  (lib (name Kim1)(type Legacy)(uri ${KIPRJMOD}/Kim1.lib)(options "")(descr ""))
+  (lib (name "CPU_MOSTechnology")(type "Legacy")(uri "/Users/jdlowe/prj/bit-preserve/symbol-libs/CPU_MOSTechnology.lib")(options "")(descr ""))
+  (lib (name "Kim1")(type "Legacy")(uri "${KIPRJMOD}/Kim1.lib")(options "")(descr ""))
+  (lib (name "KIM1-rescue")(type "Legacy")(uri "${KIPRJMOD}/KIM1-rescue.lib")(options "")(descr ""))
 )
