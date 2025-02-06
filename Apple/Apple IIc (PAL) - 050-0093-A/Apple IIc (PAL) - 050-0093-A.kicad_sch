@@ -1367,17 +1367,6 @@
 		)
 		(uuid "68d9732b-439b-48f8-b920-f4b30494a6b2")
 	)
-	(text "There are a few cases of S5, but not clear where it comes from."
-		(exclude_from_sim no)
-		(at 337.185 47.625 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d39d32e1-9c25-4291-8c89-1b223f8fa462")
-	)
 	(text "Changes from OG schematic\n\n+ No Connectors Page\n++ Connectors placed on pages close to their function\n\n+ IWM and Keyboard\n++ Keyboard and Gameport functions removed from IWM page\n++ IWM is only its own now\n\n+ Resistor Packs 1 and 3 (RP1 and RP3)\n++ These were not in logical places in OG schematic. \n+++ Now they are multi-unit devices and placed closer to logical location.\n\n+ Decoupling capacitors\n++ Group of decoupling capacitors moved to its own page."
 		(exclude_from_sim no)
 		(at 339.725 109.855 0)
