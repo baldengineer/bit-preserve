@@ -1,3 +1,6 @@
 [submodule "Tandy-RS/Model 100"]
 	path = Tandy-RS/Model 100
 	url = https://github.com/hzeller/trs80-100-schematic
+[submodule "Apple/Apple II/Apple_II_Rev0"]
+	path = Apple/Apple II/Apple_II_Rev0
+	url = https://git.alfter.us/salfter/Apple_II_Rev0

@@ -7,6 +7,7 @@ Schematics currently available:
 
 ## KiCad Version
 Project created with KiCad 7.x
+Updated to KiCad 8.x
 
 ## Schematic sources
 * [Apple IIe (PAL) schematic 050-0093-A](https://www.apple.asimov.net/documentation/hardware/schematics/Schematic%20Diagram%20of%20the%20Apple%20IIc.pdf) from [www.apple.asimov.net](https://www.apple.asimov.net/documentation/hardware/schematics/)

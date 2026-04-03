@@ -1,0 +1,270 @@
+(footprint "SW_AlpsSKCC_2.00u_rev"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Matias/ALPS keyswitch, 1.00u, http://matias.ca/switches/")
+	(tags "Matias ALPS keyswitch 1.00u")
+	(property "Reference" "REF**"
+		(at -2.5 -3.75 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4b549483-d076-4648-9249-b8047a7f00ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_AlpsSKCC_2.00u_rev"
+		(at 1.1 2.6 180)
+		(layer "B.Cu")
+		(uuid "6899713d-33eb-47a2-8364-164e2d2216e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c6f5b6-613a-4028-9735-63ba3afc0dcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9da064f-7a02-41d9-8095-d208e9c2caef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Alt" "Alt**"
+		(at 1.4 2.9 0)
+		(layer "F.Fab")
+		(uuid "48d17e47-e13e-4a64-b3bd-061092fb3cac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -21.55 -5.025)
+		(end 16.55 -5.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "46da03bf-141a-4bcf-be02-7ae9e307ba56")
+	)
+	(fp_line
+		(start -21.55 14.025)
+		(end -21.55 -5.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e688be1a-dacd-403f-a126-c450e1b10fd8")
+	)
+	(fp_line
+		(start -19.16875 -5.025)
+		(end 14.16875 -5.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0bf732f7-4630-4320-b866-7bb5f2b210e4")
+	)
+	(fp_line
+		(start -12.025 -5.025)
+		(end 7.025 -5.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7cbbc14f-ec68-4716-9b8c-cea43e22482d")
+	)
+	(fp_line
+		(start 7.025 14.025)
+		(end -12.025 14.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f504f7cf-0f53-4db8-8875-c347418ccf3b")
+	)
+	(fp_line
+		(start 14.16875 14.025)
+		(end -19.16875 14.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "610a9971-90df-4ac1-a654-ce708858a76d")
+	)
+	(fp_line
+		(start 16.55 -5.025)
+		(end 16.55 14.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "40e4353d-409b-4bb5-880e-30d462556931")
+	)
+	(fp_line
+		(start 16.55 14.025)
+		(end -21.55 14.025)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "447fac7c-c6ce-471f-8406-b1c861342fcb")
+	)
+	(fp_line
+		(start -11.35 -2.75)
+		(end -11.35 11.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1205b649-8b22-4edc-ae4b-ced8f32859c3")
+	)
+	(fp_line
+		(start -11.35 -2.75)
+		(end 6.35 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33f611e4-8a54-4b31-be6a-4d61fe0ce6fc")
+	)
+	(fp_line
+		(start -11.35 11.75)
+		(end 6.35 11.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85fc151f-c638-41f3-9e6f-ee23d6a924c1")
+	)
+	(fp_line
+		(start 6.35 11.75)
+		(end 6.35 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd13799c-7768-44a7-80e8-6711c12cd5fd")
+	)
+	(fp_line
+		(start -11.1 -2.5)
+		(end 6.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdd6afd0-cf51-42c8-bf79-1c741ce665e3")
+	)
+	(fp_line
+		(start -11.1 11.5)
+		(end -11.1 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24e7650d-2f82-44d4-a680-3051b98347fd")
+	)
+	(fp_line
+		(start 6.1 -2.5)
+		(end 6.1 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a3dab36-d368-422d-84f6-a76a991b82d1")
+	)
+	(fp_line
+		(start 6.1 11.5)
+		(end -11.1 11.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fff5c95b-b6ed-43a9-ad5d-d725f9adfff9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.5 4.5 0)
+		(layer "F.Fab")
+		(uuid "4fd0ab29-0551-4c4c-8db0-646a975c8625")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.1 -0.309)
+		(size 3.3 3.3)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90b1b2a3-2dc4-4dc8-99ba-da480f495bd5")
+	)
+	(pad "2" thru_hole circle
+		(at -6.979 0.7661)
+		(size 3.3 3.3)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "012e84d7-5339-4d48-90cc-70ac744f4d79")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Matias_1.00u.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
